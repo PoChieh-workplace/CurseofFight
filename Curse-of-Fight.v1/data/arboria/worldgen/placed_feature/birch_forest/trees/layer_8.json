@@ -1,0 +1,126 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:birch/7",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.005,
+          "feature": {
+            "feature": "arboria:dead_birch/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.05,
+          "feature": {
+            "feature": "arboria:birch_bush/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.025,
+          "feature": {
+            "feature": "arboria:birch_bush/2",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.3,
+          "feature": {
+            "feature": "arboria:birch/3",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "arboria:birch/4",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.2,
+          "feature": {
+            "feature": "arboria:birch/5",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.8,
+          "feature": {
+            "feature": "arboria:birch/8",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.4,
+          "feature": {
+            "feature": "arboria:birch/9",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.5,
+          "feature": {
+            "feature": "arboria:birch/6",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "count": {
+        "distribution": [
+          {
+            "data": 4,
+            "weight": 1
+          },
+          {
+            "data": 5,
+            "weight": 2
+          }
+        ],
+        "type": "minecraft:weighted_list"
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "noise_factor": 160.0,
+      "noise_offset": 0.0,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": 160.0,
+      "noise_offset": -0.6,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": -160.0,
+      "noise_offset": 0.0,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

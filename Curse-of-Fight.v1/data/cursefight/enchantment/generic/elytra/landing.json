@@ -1,0 +1,55 @@
+{
+    "anvil_cost": 100,
+    "description": {
+      "translate": "enchantment.cursefight.landing"
+    },
+    "effects": {
+        "minecraft:damage_immunity": [
+            {
+                "effect": {},
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "tags": [
+                                    {
+                                        "id": "minecraft:is_in_wall",
+                                        "expected": true
+                                    },
+                                    {
+                                        "id": "minecraft:bypasses_invulnerability",
+                                        "expected": false
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "minecraft:attributes": [
+            {
+                "id": "cursefight.elytra.landing",
+                "attribute": "minecraft:generic.scale",
+                "amount": -0.2,
+                "operation": "add_multiplied_base"
+            }
+        ]
+    },
+    "max_cost": {
+      "base": 300,
+      "per_level_above_first": 1
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 200,
+      "per_level_above_first": 1
+    },
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "minecraft:elytra",
+    "weight": 1
+}

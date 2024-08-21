@@ -1,0 +1,85 @@
+{
+  "feature": {
+    "config": {
+      "depth": 1,
+      "extra_bottom_block_chance": 0.0,
+      "extra_edge_column_chance": 0.5,
+      "ground_state": {
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:grass_block",
+              "Properties": {
+                "snowy": "false"
+              }
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Name": "minecraft:mud"
+            },
+            "weight": 2
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "replaceable": "#arboria:dirt",
+      "surface": "floor",
+      "vegetation_chance": 0.8,
+      "vegetation_feature": {
+        "feature": {
+          "config": {
+            "hole_count": 0,
+            "requires_block_below": true,
+            "rock_count": 4,
+            "state": {
+              "Name": "minecraft:water",
+              "Properties": {
+                "falling": "true"
+              }
+            },
+            "valid_blocks": [
+              "minecraft:air",
+              "minecraft:mud"
+            ]
+          },
+          "type": "minecraft:spring_feature"
+        },
+        "placement": [
+          {
+            "xz_spread": 0,
+            "y_spread": -1,
+            "type": "minecraft:random_offset"
+          }
+        ]
+      },
+      "vertical_range": 1,
+      "xz_radius": 1
+    },
+    "type": "minecraft:vegetation_patch"
+  },
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "noise_factor": 80.0,
+      "noise_offset": -0.75,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "WORLD_SURFACE_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "xz_spread": 0,
+      "y_spread": -1,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

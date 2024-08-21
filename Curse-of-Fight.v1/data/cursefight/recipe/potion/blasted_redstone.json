@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:redstone_block"
+    },
+    "result": {
+        "id": "minecraft:redstone",
+        "components": {
+            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.blasted_redstone\",\"italic\":false,\"color\":\"blue\"}]",
+            "minecraft:custom_data": {
+                "blasted":1
+            }
+        }
+    },
+    "experience": 20,
+    "cookingtime": 1200
+}

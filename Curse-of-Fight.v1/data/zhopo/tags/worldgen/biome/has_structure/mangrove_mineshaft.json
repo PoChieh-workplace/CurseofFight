@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:mangrove_swamp",
+        "minecraft:swamp",
+        {"id": "terralith:cave/underground_jungle", "required": false},
+        {"id": "regions_unexplored:willow_forest", "required": false},
+        {"id": "regions_unexplored:old_growth_bayou", "required": false},
+        {"id": "regions_unexplored:bayou", "required": false},
+        {"id": "regions_unexplored:willow_forest", "required": false},
+        {"id": "clifftree:caves", "required": false}
+   ]
+}

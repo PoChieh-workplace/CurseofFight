@@ -1,0 +1,210 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobweb",
+                        "probability": 0.85
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:deepslate_bricks",
+                        "probability": 0.05
+                    },
+                    "output_state": {
+                        "Name": "minecraft:deepslate_tiles"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:deepslate_bricks",
+                        "probability": 0.2
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cracked_deepslate_bricks"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:deepslate_bricks",
+                        "probability": 0.1
+                    },
+                    "output_state": {
+                        "Name": "minecraft:deepslate"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:deepslate_bricks",
+                        "probability": 0.01
+                    },
+                    "output_state": {
+                        "Name": "minecraft:infested_deepslate"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:deepslate_brick_wall",
+                        "probability": 0.2
+                    },
+                    "output_state": {
+                        "Name": "minecraft:deepslate_bricks"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:deepslate_bricks"
+                        },
+                        "probability": 0.027
+                    },
+                    "output_state": {
+                        "Name": "minecraft:deepslate_brick_slab",
+                        "Properties": {
+                            "type": "bottom",
+                            "waterlogged": "false"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobbled_deepslate",
+                        "probability": 0.025
+                    },
+                    "output_state": {
+                        "Name": "minecraft:deepslate_tiles"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobbled_deepslate",
+                        "probability": 0.05
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cracked_deepslate_bricks"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobbled_deepslate",
+                        "probability": 0.05
+                    },
+                    "output_state": {
+                        "Name": "minecraft:deepslate"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobbled_deepslate",
+                        "probability": 0.01
+                    },
+                    "output_state": {
+                        "Name": "minecraft:infested_deepslate"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobbled_deepslate",
+                        "probability": 0.04
+                    },
+                    "output_state": {
+                        "Name": "minecraft:suspicious_gravel",
+                        "Properties": {
+                            "dusted": "0"
+                        }
+                    },
+                    "block_entity_modifier": {
+                        "type": "minecraft:append_loot",
+                        "loot_table": "cursefight:worldgen/deep_dungeon/remnants"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:deepslate_brick_wall",
+                        "probability": 0.2
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cobbled_deepslate"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:cobbled_deepslate"
+                        },
+                        "probability": 0.027
+                    },
+                    "output_state": {
+                        "Name": "minecraft:deepslate_brick_slab",
+                        "Properties": {
+                            "type": "bottom",
+                            "waterlogged": "false"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

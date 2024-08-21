@@ -1,0 +1,50 @@
+{
+    "anvil_cost": 100,
+    "description": {
+        "translate": "enchantment.cursefight.team_speed"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "cursefight:enchantment/banner_effect"
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:composter"
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "offset": 0,
+                        "scale": 1
+                    },
+                    "vertical_position": {
+                        "type": "entity_position",
+                        "offset": 0.2
+                    },
+                    "horizontal_velocity": {},
+                    "vertical_velocity": {},
+                    "speed": 0
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 300,
+        "per_level_above_first": 1
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 200,
+        "per_level_above_first": 1
+    },
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "minecraft:white_banner",
+    "weight": 1
+}

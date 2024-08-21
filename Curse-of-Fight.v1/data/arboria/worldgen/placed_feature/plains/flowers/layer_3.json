@@ -1,0 +1,120 @@
+{
+  "feature": {
+    "config": {
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "default_state": {
+                "Name": "minecraft:azure_bluet"
+              },
+              "high_chance": 0.33333334,
+              "high_states": [
+                {
+                  "Name": "minecraft:dandelion"
+                },
+                {
+                  "Name": "minecraft:cornflower"
+                }
+              ],
+              "low_states": [
+                {
+                  "Name": "minecraft:orange_tulip"
+                },
+                {
+                  "Name": "minecraft:white_tulip"
+                }
+              ],
+              "noise": {
+                "amplitudes": [
+                  1.0
+                ],
+                "firstOctave": 0
+              },
+              "scale": 0.005,
+              "seed": 2345,
+              "threshold": -0.8,
+              "type": "minecraft:noise_threshold_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "predicate": {
+              "blocks": "minecraft:grass_block",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      "tries": 12,
+      "xz_spread": 4,
+      "y_spread": 2
+    },
+    "type": "minecraft:no_bonemeal_flower"
+  },
+  "placement": [
+    {
+      "count": {
+        "distribution": [
+          {
+            "data": 0,
+            "weight": 3
+          },
+          {
+            "data": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            },
+            "weight": 5
+          }
+        ],
+        "type": "minecraft:weighted_list"
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 12
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "noise_factor": 240.0,
+      "noise_offset": 0.0,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": -240.0,
+      "noise_offset": 0.0,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

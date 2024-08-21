@@ -1,0 +1,106 @@
+{
+    "name": "kattersstructures:village_cherry/streets",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 4,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/streets/street_straight"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/streets/street_straight_2"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/streets/street_aslant"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/streets/street_aslant_2"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/streets/street_curvy"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/streets/street_curve"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/streets/street_curve_2"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/streets/street_t"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/streets/street_y"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/streets/street_cross"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/streets/street_end"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/streets/street_rare"
+        }
+    }]
+}

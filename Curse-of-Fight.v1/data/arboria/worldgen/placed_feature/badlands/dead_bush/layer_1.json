@@ -1,0 +1,49 @@
+{
+  "feature": {
+    "config": {
+      "to_place": {
+        "state": {
+          "Name": "minecraft:dead_bush"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  },
+  "placement": [
+    {
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 0,
+        "max_inclusive": 2
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "blocks": "minecraft:air",
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "predicate": {
+        "state": {
+          "Name": "minecraft:dead_bush"
+        },
+        "type": "minecraft:would_survive"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

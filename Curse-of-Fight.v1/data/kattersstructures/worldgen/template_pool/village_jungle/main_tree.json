@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:village_jungle/main_tree",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:village_jungle/main_tree/tree_trunk_base",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

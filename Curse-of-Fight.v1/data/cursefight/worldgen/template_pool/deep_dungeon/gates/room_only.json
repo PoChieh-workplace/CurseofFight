@@ -1,0 +1,42 @@
+{
+    "name": "cursefight:deep_dungeon/gates/room_only",
+    "fallback": "cursefight:deep_dungeon/gates/walls_only",
+    "elements": [
+        {	
+            "weight": 15,
+            "element": {
+                "location": "cursefight:deep_dungeon/gates/room/room_gate_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 15,
+            "element": {
+                "location": "cursefight:deep_dungeon/gates/room/room_gate_2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 5,
+            "element": {
+                "location": "cursefight:deep_dungeon/gates/room/boss_gate_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 5,
+            "element": {
+                "location": "cursefight:deep_dungeon/gates/room/boss_gate_2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

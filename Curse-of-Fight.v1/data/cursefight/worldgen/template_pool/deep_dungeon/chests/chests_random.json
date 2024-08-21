@@ -1,0 +1,42 @@
+{
+    "name": "cursefight:deep_dungeon/chests/chests_random",
+    "fallback": "cursefight:deep_dungeon/chests/chests_random",
+    "elements": [
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/chests/normal_chest_x1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/chests/normal_chest_x2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/chests/normal_chest_x3",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/chests/normal_chest_x4",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

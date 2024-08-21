@@ -1,0 +1,32 @@
+{
+  "values": [
+    "arboria:lake_bamboo_jungle",
+    "arboria:lake_birch",
+    "arboria:lake_dark_forest",
+    "arboria:lake_flower_forest",
+    "arboria:lake_forest",
+    "arboria:lake_jungle",
+    "arboria:lake_meadow",
+    "arboria:lake_mushroom_fields",
+    "arboria:lake_old_birch",
+    "arboria:lake_old_pine_taiga",
+    "arboria:lake_old_spruce_taiga",
+    "arboria:lake_plains",
+    "arboria:lake_savanna",
+    "arboria:lake_savanna_plateau",
+    "arboria:lake_snowy_plains",
+    "arboria:lake_snowy_taiga",
+    "arboria:lake_sparse_jungle",
+    "arboria:lake_sunflower_plains",
+    "arboria:lake_taiga",
+    "arboria:lake_windswept_savanna",
+    "arboria:lake_gravel/common",
+    "arboria:lake_gravel/large",
+    "arboria:lake_gravel/normal",
+    "arboria:lake_sand/common",
+    "arboria:lake_sand/large",
+    "arboria:lake_sand/normal",
+    "arboria:lake_frozen/common",
+    "arboria:lake_frozen/normal"
+  ]
+}

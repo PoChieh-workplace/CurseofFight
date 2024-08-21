@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:dynamic",
+              "name": "minecraft:contents",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "nbt": "{Init:1b}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:copy_name",
+                  "source": "block_entity"
+                },
+                {
+                  "function": "minecraft:copy_custom_data",
+                  "ops": [
+                    {
+                      "op": "replace",
+                      "source": "Lock",
+                      "target": "BlockEntityTag.Lock"
+                    },
+                    {
+                      "op": "replace",
+                      "source": "LootTable",
+                      "target": "BlockEntityTag.LootTable"
+                    },
+                    {
+                      "op": "replace",
+                      "source": "LootTableSeed",
+                      "target": "BlockEntityTag.LootTableSeed"
+                    }
+                  ],
+                  "source": "block_entity"
+                },
+                {
+                  "function": "minecraft:set_contents",
+                  "component": "minecraft:container",
+                  "entries": [
+                    {
+                      "type": "minecraft:dynamic",
+                      "name": "minecraft:contents"
+                    }
+                  ]
+                }
+              ],
+              "name": "minecraft:light_blue_shulker_box"
+            }
+          ]
+        } 
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:block/light_blue_shulker_box"
+}

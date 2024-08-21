@@ -1,0 +1,23 @@
+{
+  "feature": "minecraft:mushroom_cave_mushroom",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 16
+        },
+        "max_inclusive": {
+          "absolute": -16
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

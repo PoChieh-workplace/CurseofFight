@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 17,
+        "separation": 12,
+        "salt": 21002100,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "kattersstructures:village_ocean",
+        "weight": 1
+    }]
+}

@@ -1,0 +1,42 @@
+{
+  "placement": {
+    "salt": 23456789,
+    "separation": 9,
+    "spacing": 18,
+    "type": "minecraft:random_spread"
+  },
+  "structures": [
+    {
+      "structure": "arboria:lake_savanna_plateau",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_snowy_plains",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_sunflower_plains",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_meadow",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_mushroom_fields",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_gravel/normal",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_sand/normal",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_frozen/normal",
+      "weight": 1
+    }
+  ]
+}

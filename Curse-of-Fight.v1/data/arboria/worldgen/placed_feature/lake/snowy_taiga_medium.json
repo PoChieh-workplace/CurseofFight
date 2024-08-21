@@ -1,0 +1,572 @@
+{
+  "feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "config": {
+              "features": [
+                {
+                  "feature": {
+                    "config": {
+                      "features": [
+                        {
+                          "feature": "arboria:lake/snowy_taiga_medium/1",
+                          "placement": [
+                            {
+                              "predicate": {
+                                "blocks": "minecraft:white_glazed_terracotta",
+                                "offset": [
+                                  0,
+                                  1,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:block_predicate_filter"
+                            },
+                            {
+                              "count": 28,
+                              "type": "minecraft:count"
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "arboria:lake/savanna_medium/2",
+                          "placement": [
+                            {
+                              "predicate": {
+                                "blocks": "minecraft:orange_glazed_terracotta",
+                                "offset": [
+                                  0,
+                                  1,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:block_predicate_filter"
+                            },
+                            {
+                              "count": 28,
+                              "type": "minecraft:count"
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "arboria:lake/savanna_medium/3",
+                          "placement": [
+                            {
+                              "predicate": {
+                                "blocks": "minecraft:magenta_glazed_terracotta",
+                                "offset": [
+                                  0,
+                                  1,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:block_predicate_filter"
+                            },
+                            {
+                              "count": 28,
+                              "type": "minecraft:count"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "type": "minecraft:simple_random_selector"
+                  },
+                  "placement": [
+                    {
+                      "predicate": {
+                        "blocks": [
+                          "minecraft:white_glazed_terracotta",
+                          "minecraft:orange_glazed_terracotta",
+                          "minecraft:magenta_glazed_terracotta"
+                        ],
+                        "offset": [
+                          0,
+                          1,
+                          0
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      "type": "minecraft:block_predicate_filter"
+                    },
+                    {
+                      "count": 48,
+                      "type": "minecraft:count"
+                    }
+                  ]
+                },
+                {
+                  "feature": {
+                    "config": {
+                      "features": [
+                        {
+                          "feature": "arboria:lake/savanna_medium/4",
+                          "placement": [
+                            {
+                              "predicate": {
+                                "blocks": "minecraft:light_blue_glazed_terracotta",
+                                "offset": [
+                                  0,
+                                  1,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:block_predicate_filter"
+                            },
+                            {
+                              "count": 28,
+                              "type": "minecraft:count"
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "arboria:lake/snowy_taiga_medium/5",
+                          "placement": [
+                            {
+                              "predicate": {
+                                "blocks": "minecraft:yellow_glazed_terracotta",
+                                "offset": [
+                                  0,
+                                  1,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:block_predicate_filter"
+                            },
+                            {
+                              "count": 28,
+                              "type": "minecraft:count"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "type": "minecraft:simple_random_selector"
+                  },
+                  "placement": [
+                    {
+                      "predicate": {
+                        "blocks": [
+                          "minecraft:light_blue_glazed_terracotta",
+                          "minecraft:yellow_glazed_terracotta"
+                        ],
+                        "offset": [
+                          0,
+                          1,
+                          0
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      "type": "minecraft:block_predicate_filter"
+                    },
+                    {
+                      "count": 28,
+                      "type": "minecraft:count"
+                    }
+                  ]
+                },
+                {
+                  "feature": {
+                    "config": {
+                      "features": [
+                        {
+                          "feature": "arboria:lake/snowy_taiga_medium/6",
+                          "placement": [
+                            {
+                              "predicate": {
+                                "blocks": "minecraft:lime_glazed_terracotta",
+                                "offset": [
+                                  0,
+                                  1,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:block_predicate_filter"
+                            },
+                            {
+                              "count": 28,
+                              "type": "minecraft:count"
+                            }
+                          ]
+                        },
+                        {
+                          "feature": "arboria:lake/snowy_taiga_medium/7",
+                          "placement": [
+                            {
+                              "predicate": {
+                                "blocks": "minecraft:pink_glazed_terracotta",
+                                "offset": [
+                                  0,
+                                  1,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:block_predicate_filter"
+                            },
+                            {
+                              "count": 28,
+                              "type": "minecraft:count"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "type": "minecraft:simple_random_selector"
+                  },
+                  "placement": [
+                    {
+                      "predicate": {
+                        "blocks": [
+                          "minecraft:light_blue_glazed_terracotta",
+                          "minecraft:yellow_glazed_terracotta",
+                          "minecraft:lime_glazed_terracotta"
+                        ],
+                        "offset": [
+                          0,
+                          1,
+                          0
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      "type": "minecraft:block_predicate_filter"
+                    },
+                    {
+                      "count": 28,
+                      "type": "minecraft:count"
+                    }
+                  ]
+                }
+              ]
+            },
+            "type": "minecraft:simple_random_selector"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "blocks": "minecraft:white_glazed_terracotta",
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:block_predicate_filter"
+            },
+            {
+              "predicate": {
+                "predicates": [
+                  {
+                    "type": "minecraft:replaceable"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      3,
+                      -1,
+                      0
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      7,
+                      -1,
+                      0
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      4,
+                      -1,
+                      4
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      0,
+                      -1,
+                      3
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      0,
+                      -1,
+                      7
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      -4,
+                      -1,
+                      4
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      -3,
+                      -1,
+                      0
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      -7,
+                      -1,
+                      0
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      -4,
+                      -1,
+                      -4
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      0,
+                      -1,
+                      -3
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      0,
+                      -1,
+                      -7
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": "#arboria:dirt",
+                    "offset": [
+                      4,
+                      -1,
+                      -4
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  }
+                ],
+                "type": "minecraft:all_of"
+              },
+              "type": "minecraft:block_predicate_filter"
+            },
+            {
+              "count": 28,
+              "type": "minecraft:count"
+            }
+          ]
+        },
+        {
+          "feature": {
+            "config": {
+              "to_place": {
+                "state": {
+                  "Name": "minecraft:air"
+                },
+                "type": "minecraft:simple_state_provider"
+              }
+            },
+            "type": "minecraft:simple_block"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "blocks": "minecraft:white_glazed_terracotta",
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:block_predicate_filter"
+            },
+            {
+              "predicate": {
+                "predicate": {
+                  "predicates": [
+                    {
+                      "type": "minecraft:replaceable"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        3,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        7,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        4,
+                        -1,
+                        4
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        0,
+                        -1,
+                        3
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        0,
+                        -1,
+                        7
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        -4,
+                        -1,
+                        4
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        -3,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        -7,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        -4,
+                        -1,
+                        -4
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        0,
+                        -1,
+                        -3
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        0,
+                        -1,
+                        -7
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        4,
+                        -1,
+                        -4
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:all_of"
+                },
+                "type": "minecraft:not"
+              },
+              "type": "minecraft:block_predicate_filter"
+            },
+            {
+              "xz_spread": 0,
+              "y_spread": 1,
+              "type": "minecraft:random_offset"
+            }
+          ]
+        }
+      ]
+    },
+    "type": "minecraft:simple_random_selector"
+  },
+  "placement": [
+    {
+      "count": 28,
+      "type": "minecraft:count"
+    }
+  ]
+}

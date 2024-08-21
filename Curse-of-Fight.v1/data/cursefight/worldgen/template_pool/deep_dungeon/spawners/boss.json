@@ -1,0 +1,60 @@
+{
+    "name": "cursefight:deep_dungeon/spawners/boss",
+    "fallback": "cursefight:deep_dungeon/spawners/boss",
+    "elements": [
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/spawners/boss_spawner_x1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/spawners/boss_spawner_x2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/spawners/boss_spawner_x3",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/spawners/boss_spawner_x4",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/spawners/boss_spawner_x5",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/spawners/boss_spawner_x7",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+  "placement": {
+    "salt": 45678901,
+    "separation": 6,
+    "spacing": 12,
+    "type": "minecraft:random_spread"
+  },
+  "structures": [
+    {
+      "structure": "arboria:lake_sparse_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_birch",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_flower_forest",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_dark_forest",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_old_pine_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_bamboo_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_gravel/common",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_sand/common",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_frozen/common",
+      "weight": 1
+    }
+  ]
+}

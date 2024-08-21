@@ -1,0 +1,374 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "decorators": [],
+                            "dirt_provider": {
+                              "state": {
+                                "Name": "minecraft:rooted_dirt"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "foliage_placer": {
+                              "height": 1,
+                              "offset": 0,
+                              "radius": 2,
+                              "type": "minecraft:blob_foliage_placer"
+                            },
+                            "foliage_provider": {
+                              "entries": [
+                                {
+                                  "data": {
+                                    "Name": "minecraft:dark_oak_log",
+                                    "Properties": {
+                                      "axis": "y"
+                                    }
+                                  },
+                                  "weight": 5
+                                },
+                                {
+                                  "data": {
+                                    "Name": "minecraft:stripped_dark_oak_log",
+                                    "Properties": {
+                                      "axis": "y"
+                                    }
+                                  },
+                                  "weight": 3
+                                }
+                              ],
+                              "type": "minecraft:weighted_state_provider"
+                            },
+                            "force_dirt": false,
+                            "ignore_vines": true,
+                            "minimum_size": {
+                              "limit": 3,
+                              "lower_size": 1,
+                              "upper_size": 1,
+                              "type": "minecraft:two_layers_feature_size"
+                            },
+                            "trunk_placer": {
+                              "base_height": 1,
+                              "height_rand_a": 5,
+                              "height_rand_b": 0,
+                              "type": "minecraft:straight_trunk_placer"
+                            },
+                            "trunk_provider": {
+                              "entries": [
+                                {
+                                  "data": {
+                                    "Name": "minecraft:dark_oak_log",
+                                    "Properties": {
+                                      "axis": "y"
+                                    }
+                                  },
+                                  "weight": 5
+                                },
+                                {
+                                  "data": {
+                                    "Name": "minecraft:stripped_dark_oak_log",
+                                    "Properties": {
+                                      "axis": "y"
+                                    }
+                                  },
+                                  "weight": 3
+                                }
+                              ],
+                              "type": "minecraft:weighted_state_provider"
+                            }
+                          },
+                          "type": "minecraft:tree"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "type": "minecraft:replaceable"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "count": 64,
+                            "type": "minecraft:count"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "allowed_placement": {
+                              "blocks": [
+                                "minecraft:air",
+                                "minecraft:dark_oak_log",
+                                "minecraft:stripped_dark_oak_log"
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "direction": "up",
+                            "layers": [
+                              {
+                                "height": {
+                                  "type": "minecraft:uniform",
+                                  "min_inclusive": 2,
+                                  "max_inclusive": 5
+                                },
+                                "provider": {
+                                  "entries": [
+                                    {
+                                      "data": {
+                                        "Name": "minecraft:dark_oak_log",
+                                        "Properties": {
+                                          "axis": "y"
+                                        }
+                                      },
+                                      "weight": 5
+                                    },
+                                    {
+                                      "data": {
+                                        "Name": "minecraft:stripped_dark_oak_log",
+                                        "Properties": {
+                                          "axis": "y"
+                                        }
+                                      },
+                                      "weight": 3
+                                    }
+                                  ],
+                                  "type": "minecraft:weighted_state_provider"
+                                }
+                              },
+                              {
+                                "height": {
+                                  "distribution": [
+                                    {
+                                      "data": 0,
+                                      "weight": 5
+                                    },
+                                    {
+                                      "data": 1,
+                                      "weight": 3
+                                    }
+                                  ],
+                                  "type": "minecraft:weighted_list"
+                                },
+                                "provider": {
+                                  "state": {
+                                    "Name": "minecraft:moss_carpet"
+                                  },
+                                  "type": "minecraft:simple_state_provider"
+                                }
+                              }
+                            ],
+                            "prioritize_tip": false
+                          },
+                          "type": "minecraft:block_column"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": [
+                                    "minecraft:dark_oak_log",
+                                    "minecraft:stripped_dark_oak_log"
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "predicate": {
+                                    "blocks": [
+                                      "minecraft:dark_oak_log",
+                                      "minecraft:stripped_dark_oak_log"
+                                    ],
+                                    "offset": [
+                                      0,
+                                      7,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  "type": "minecraft:not"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "direction_of_search": "up",
+                            "max_steps": 10,
+                            "target_condition": {
+                              "predicate": {
+                                "blocks": [
+                                  "minecraft:dark_oak_log",
+                                  "minecraft:stripped_dark_oak_log"
+                                ],
+                                "offset": [
+                                  0,
+                                  1,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:environment_scan"
+                          },
+                          {
+                            "count": 128,
+                            "type": "minecraft:count"
+                          },
+                          {
+                            "xz_spread": {
+                              "type": "minecraft:uniform",
+                              "min_inclusive": -1,
+                              "max_inclusive": 1
+                            },
+                            "y_spread": 0,
+                            "type": "minecraft:random_offset"
+                          },
+                          {
+                            "predicate": {
+                              "predicate": {
+                                "blocks": [
+                                  "minecraft:dark_oak_log",
+                                  "minecraft:stripped_dark_oak_log"
+                                ],
+                                "offset": [
+                                  0,
+                                  1,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "type": "minecraft:replaceable"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 28,
+                    "type": "minecraft:count"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "block": "minecraft:glow_lichen",
+                    "can_be_placed_on": [
+                      "minecraft:dark_oak_log",
+                      "minecraft:stripped_dark_oak_log",
+                      "minecraft:dark_oak_wood",
+                      "minecraft:stripped_dark_oak_wood"
+                    ],
+                    "can_place_on_ceiling": true,
+                    "can_place_on_floor": true,
+                    "can_place_on_wall": true,
+                    "chance_of_spreading": 0.25,
+                    "search_range": 2
+                  },
+                  "type": "minecraft:multiface_growth"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": [
+                        "minecraft:dark_oak_log",
+                        "minecraft:stripped_dark_oak_log"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": -3,
+                      "max_inclusive": 3
+                    },
+                    "y_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": -1,
+                      "max_inclusive": 15
+                    },
+                    "type": "minecraft:random_offset"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:dark_oak/roots/dead",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": [
+                        "minecraft:dark_oak_log",
+                        "minecraft:stripped_dark_oak_log"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:dark_oak/rooted_dirt/2",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": [
+                        "minecraft:dark_oak_log",
+                        "minecraft:stripped_dark_oak_log"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "state": {
+                "Name": "minecraft:dark_oak_sapling",
+                "Properties": {
+                  "stage": "0"
+                }
+              },
+              "type": "minecraft:would_survive"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 64,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

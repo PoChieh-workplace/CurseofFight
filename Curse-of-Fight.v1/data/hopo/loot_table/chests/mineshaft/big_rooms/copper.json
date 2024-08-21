@@ -1,0 +1,62 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 2,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "hopo:chests/mineshaft/abandoned_miners_stuff",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oxidized_copper",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:raw_copper",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:raw_copper_block",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

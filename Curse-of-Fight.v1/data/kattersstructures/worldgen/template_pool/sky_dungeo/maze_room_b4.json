@@ -1,0 +1,38 @@
+{
+    "name": "kattersstructures:sky_dungeo/maze_room_b4",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/maze/b4/sky_dungeo_maze_room_4_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/maze/b4/sky_dungeo_maze_room_4_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/maze/b4/sky_dungeo_maze_room_4_03",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/maze/b4/sky_dungeo_maze_room_4_04",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

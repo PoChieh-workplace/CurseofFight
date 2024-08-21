@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "arboria:lake/savanna_medium"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

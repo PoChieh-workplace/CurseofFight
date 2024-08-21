@@ -1,0 +1,119 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:chiseled_stone_bricks",
+						"probability": 0.27
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:chiseled_stone_bricks",
+						"probability": 0.35
+					},
+					"output_state": {
+						"Name": "minecraft:infested_chiseled_stone_bricks"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:cobweb",
+						"probability": 0.85
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:dark_oak_planks",
+						"probability": 0.05
+					},
+					"output_state": {
+						"Name": "minecraft:stone"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:dark_oak_planks",
+						"probability": 0.01
+					},
+					"output_state": {
+						"Name": "minecraft:infested_stone"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:dark_oak_fence",
+						"probability": 0.27
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:dark_oak_planks"
+						},
+						"probability": 0.027
+					},
+					"output_state": {
+						"Name": "minecraft:dark_oak_slab",
+						"Properties": {
+							"type": "bottom",
+							"waterlogged": "false"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:dark_oak_stairs",
+						"probability": 0.27
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				}
+			]
+		}
+	]
+}

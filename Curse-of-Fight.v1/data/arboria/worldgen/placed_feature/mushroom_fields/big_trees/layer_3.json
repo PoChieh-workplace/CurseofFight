@@ -1,0 +1,152 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": {
+          "config": {
+            "default": {
+              "feature": "arboria:brown_mushroom_tree/6",
+              "placement": []
+            },
+            "features": [
+              {
+                "chance": 0.3,
+                "feature": {
+                  "feature": "arboria:red_mushroom_tree/5",
+                  "placement": []
+                }
+              },
+              {
+                "chance": 0.429,
+                "feature": {
+                  "feature": "arboria:brown_mushroom_tree/5",
+                  "placement": []
+                }
+              },
+              {
+                "chance": 0.5,
+                "feature": {
+                  "feature": "arboria:red_mushroom_tree/6",
+                  "placement": []
+                }
+              }
+            ]
+          },
+          "type": "minecraft:random_selector"
+        },
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.675,
+          "feature": {
+            "feature": {
+              "config": {
+                "default": {
+                  "feature": "arboria:brown_mushroom_tree/2",
+                  "placement": []
+                },
+                "features": [
+                  {
+                    "chance": 0.35,
+                    "feature": {
+                      "feature": "arboria:red_mushroom_tree/1",
+                      "placement": []
+                    }
+                  },
+                  {
+                    "chance": 0.538,
+                    "feature": {
+                      "feature": "arboria:brown_mushroom_tree/1",
+                      "placement": []
+                    }
+                  },
+                  {
+                    "chance": 0.5,
+                    "feature": {
+                      "feature": "arboria:red_mushroom_tree/2",
+                      "placement": []
+                    }
+                  }
+                ]
+              },
+              "type": "minecraft:random_selector"
+            },
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.65,
+          "feature": {
+            "feature": {
+              "config": {
+                "default": {
+                  "feature": "arboria:brown_mushroom_tree/4",
+                  "placement": []
+                },
+                "features": [
+                  {
+                    "chance": 0.35,
+                    "feature": {
+                      "feature": "arboria:red_mushroom_tree/3",
+                      "placement": []
+                    }
+                  },
+                  {
+                    "chance": 0.538,
+                    "feature": {
+                      "feature": "arboria:brown_mushroom_tree/3",
+                      "placement": []
+                    }
+                  },
+                  {
+                    "chance": 0.5,
+                    "feature": {
+                      "feature": "arboria:red_mushroom_tree/4",
+                      "placement": []
+                    }
+                  }
+                ]
+              },
+              "type": "minecraft:random_selector"
+            },
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "chance": 5,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "noise_factor": 200.0,
+      "noise_offset": 0.2,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": 200.0,
+      "noise_offset": -0.2,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

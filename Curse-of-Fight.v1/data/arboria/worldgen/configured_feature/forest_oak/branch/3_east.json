@@ -1,0 +1,310 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "allowed_placement": {
+                              "blocks": "#arboria:tree_branch_replaceable",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "direction": "up",
+                            "layers": [
+                              {
+                                "height": {
+                                  "type": "minecraft:uniform",
+                                  "min_inclusive": 3,
+                                  "max_inclusive": 4
+                                },
+                                "provider": {
+                                  "state": {
+                                    "Name": "minecraft:oak_log",
+                                    "Properties": {
+                                      "axis": "y"
+                                    }
+                                  },
+                                  "type": "minecraft:simple_state_provider"
+                                }
+                              }
+                            ],
+                            "prioritize_tip": false
+                          },
+                          "type": "minecraft:block_column"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": "#arboria:tree_branch_replaceable",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "features": [
+                              {
+                                "feature": "arboria:forest_oak/branch/1_south",
+                                "placement": []
+                              },
+                              {
+                                "feature": "arboria:forest_oak/branch/1_north",
+                                "placement": []
+                              }
+                            ]
+                          },
+                          "type": "minecraft:simple_random_selector"
+                        },
+                        "placement": [
+                          {
+                            "chance": 8,
+                            "type": "minecraft:rarity_filter"
+                          },
+                          {
+                            "predicate": {
+                              "blocks": "minecraft:oak_log",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "direction_of_search": "up",
+                            "max_steps": 5,
+                            "target_condition": {
+                              "predicate": {
+                                "blocks": "minecraft:oak_log",
+                                "offset": [
+                                  0,
+                                  1,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:environment_scan"
+                          },
+                          {
+                            "predicate": {
+                              "predicate": {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:oak_log",
+                                    "offset": [
+                                      0,
+                                      -1,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:oak_log",
+                                    "offset": [
+                                      0,
+                                      -1,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:any_of"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "#arboria:tree_branch_replaceable",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 28,
+                    "type": "minecraft:count"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:forest_oak/branch/3_top",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:oak_log",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "direction_of_search": "up",
+                    "max_steps": 5,
+                    "target_condition": {
+                      "predicate": {
+                        "blocks": "minecraft:oak_log",
+                        "type": "minecraft:matching_blocks"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:environment_scan"
+                  },
+                  {
+                    "count": 8,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": 0,
+                      "max_inclusive": 1
+                    },
+                    "y_spread": 0,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": "#arboria:tree_branch_replaceable",
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:oak_log",
+                          "offset": [
+                            -1,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:oak_log",
+                          "offset": [
+                            -2,
+                            -5,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "#arboria:tree_branch_replaceable",
+                          "offset": [
+                            -1,
+                            0,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "#arboria:tree_branch_replaceable",
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 28,
+                    "type": "minecraft:count"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 16,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 0,
+              "max_inclusive": 1
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "#arboria:tree_branch_replaceable",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:oak_log",
+                  "offset": [
+                    -1,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:oak_log",
+                  "offset": [
+                    -1,
+                    -2,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:tree_branch_replaceable",
+                  "offset": [
+                    -1,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:tree_branch_replaceable",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 28,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

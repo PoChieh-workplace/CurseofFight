@@ -1,0 +1,429 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": "arboria:spikes/ice/bridge/ice_geode",
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:packed_ice",
+                            "offset": [
+                              0,
+                              8,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:packed_ice",
+                            "offset": [
+                              0,
+                              10,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "xz_spread": -4,
+                    "y_spread": -3,
+                    "type": "minecraft:random_offset"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": "arboria:spikes/ice/bridge/air_geode",
+                        "placement": [
+                          {
+                            "xz_spread": -9,
+                            "y_spread": -3,
+                            "type": "minecraft:random_offset"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": "arboria:spikes/ice/bridge/air_geode",
+                        "placement": [
+                          {
+                            "xz_spread": 1,
+                            "y_spread": -3,
+                            "type": "minecraft:random_offset"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "count": 4,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": "minecraft:packed_ice",
+                          "offset": [
+                            -7,
+                            4,
+                            -7
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_ice",
+                          "offset": [
+                            -5,
+                            4,
+                            -5
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_ice",
+                          "offset": [
+                            5,
+                            4,
+                            5
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_ice",
+                          "offset": [
+                            7,
+                            4,
+                            7
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:any_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 2,
+                    "type": "minecraft:count"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "feature": {
+                      "feature": {
+                        "config": {
+                          "allowed_placement": {
+                            "offset": [
+                              0,
+                              -2,
+                              0
+                            ],
+                            "type": "minecraft:replaceable"
+                          },
+                          "direction": "down",
+                          "layers": [
+                            {
+                              "height": {
+                                "type": "minecraft:uniform",
+                                "min_inclusive": 1,
+                                "max_inclusive": 4
+                              },
+                              "provider": {
+                                "state": {
+                                  "Name": "minecraft:ice"
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              }
+                            }
+                          ],
+                          "prioritize_tip": false
+                        },
+                        "type": "minecraft:block_column"
+                      },
+                      "placement": [
+                        {
+                          "direction_of_search": "up",
+                          "max_steps": 12,
+                          "target_condition": {
+                            "blocks": [
+                              "minecraft:packed_ice",
+                              "minecraft:blue_ice"
+                            ],
+                            "offset": [
+                              0,
+                              1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:environment_scan"
+                        }
+                      ]
+                    },
+                    "tries": 4,
+                    "xz_spread": 10,
+                    "y_spread": 0
+                  },
+                  "type": "minecraft:random_patch"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": "minecraft:packed_ice",
+                          "offset": [
+                            0,
+                            8,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_ice",
+                          "offset": [
+                            0,
+                            10,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:any_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:packed_ice",
+                            "offset": [
+                              -7,
+                              4,
+                              -7
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:packed_ice",
+                            "offset": [
+                              -5,
+                              4,
+                              -5
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:packed_ice",
+                            "offset": [
+                              5,
+                              4,
+                              5
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:packed_ice",
+                            "offset": [
+                              7,
+                              4,
+                              7
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt_and_snow",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    8,
+                    3,
+                    0
+                  ],
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "offset": [
+                    6,
+                    3,
+                    6
+                  ],
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "offset": [
+                    0,
+                    3,
+                    8
+                  ],
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "offset": [
+                    -6,
+                    3,
+                    6
+                  ],
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "offset": [
+                    -8,
+                    3,
+                    0
+                  ],
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "offset": [
+                    -6,
+                    3,
+                    -6
+                  ],
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "offset": [
+                    0,
+                    3,
+                    -8
+                  ],
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "offset": [
+                    6,
+                    3,
+                    -6
+                  ],
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "offset": [
+                    8,
+                    -4,
+                    0
+                  ],
+                  "type": "minecraft:solid"
+                },
+                {
+                  "offset": [
+                    6,
+                    -4,
+                    6
+                  ],
+                  "type": "minecraft:solid"
+                },
+                {
+                  "offset": [
+                    0,
+                    -4,
+                    8
+                  ],
+                  "type": "minecraft:solid"
+                },
+                {
+                  "offset": [
+                    -6,
+                    -4,
+                    6
+                  ],
+                  "type": "minecraft:solid"
+                },
+                {
+                  "offset": [
+                    -8,
+                    -4,
+                    0
+                  ],
+                  "type": "minecraft:solid"
+                },
+                {
+                  "offset": [
+                    -6,
+                    -4,
+                    -6
+                  ],
+                  "type": "minecraft:solid"
+                },
+                {
+                  "offset": [
+                    0,
+                    -4,
+                    -8
+                  ],
+                  "type": "minecraft:solid"
+                },
+                {
+                  "offset": [
+                    6,
+                    -4,
+                    -6
+                  ],
+                  "type": "minecraft:solid"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 48,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

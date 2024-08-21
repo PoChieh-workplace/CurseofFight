@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "ifi",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_nugget"
+        },
+        "f": {
+            "item": "minecraft:rotten_flesh"
+        }
+    },
+    "result": {
+        "id": "minecraft:rotten_flesh",
+        "count": 1,
+        "components": {
+            "minecraft:custom_data": {"iron_rotten_flash":1},
+            "minecraft:custom_model_data":724003,
+            "custom_name":"[\"\",{\"text\":\"鑲鐵腐肉\",\"italic\":false,\"color\":\"white\"}]",
+            "lore":["[\"\",{\"text\":\"似乎更地獄料理了呢，有點難咬需要一點時間，不過這鐵鏽味也去除了原本的腥臭味了！\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 4,
+                "can_always_eat": true,
+                "eat_seconds": 5,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:speed",
+                            "amplifier": 0,
+                            "duration": 600,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    }
+                ]
+            },
+            "minecraft:enchantments": {
+                "minecraft:mending": 0
+            }
+        }
+    }
+}

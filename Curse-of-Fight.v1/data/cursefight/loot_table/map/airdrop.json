@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:knowledge_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {"text":"空投鑰匙配方","color":"gold","italic":false}
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "lore":["[\"\",{\"text\":\"使用後請至工作臺查詢！\",\"italic\":false,\"color\":\"dark_purple\"}]"],
+                            "components": {
+                                "minecraft:recipes": ["cursefight:airdrop_key"]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

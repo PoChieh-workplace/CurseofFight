@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "arboria:lake/frozen_pond"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

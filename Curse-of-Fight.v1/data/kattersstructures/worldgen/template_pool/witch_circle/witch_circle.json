@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:witch_circle/witch_circle",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:witch_circle/witch_circle",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

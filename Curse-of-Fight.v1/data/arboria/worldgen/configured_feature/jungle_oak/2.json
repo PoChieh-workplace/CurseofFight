@@ -1,0 +1,224 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "decorators": [],
+                            "dirt_provider": {
+                              "state": {
+                                "Name": "minecraft:rooted_dirt"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "foliage_placer": {
+                              "offset": 0,
+                              "radius": 0,
+                              "type": "minecraft:acacia_foliage_placer"
+                            },
+                            "foliage_provider": {
+                              "state": {
+                                "Name": "minecraft:air"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "force_dirt": false,
+                            "ignore_vines": true,
+                            "minimum_size": {
+                              "limit": 1,
+                              "lower_size": 0,
+                              "upper_size": 0,
+                              "type": "minecraft:two_layers_feature_size"
+                            },
+                            "trunk_placer": {
+                              "base_height": 5,
+                              "height_rand_a": 1,
+                              "height_rand_b": 1,
+                              "type": "minecraft:straight_trunk_placer"
+                            },
+                            "trunk_provider": {
+                              "state": {
+                                "Name": "minecraft:oak_log",
+                                "Properties": {
+                                  "axis": "y"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            }
+                          },
+                          "type": "minecraft:tree"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "type": "minecraft:replaceable"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": "arboria:jungle_oak/branch/1_north",
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": "minecraft:oak_log",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "direction_of_search": "up",
+                            "max_steps": 12,
+                            "target_condition": {
+                              "predicate": {
+                                "blocks": "minecraft:oak_log",
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:environment_scan"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": "arboria:jungle_oak/branch/1_south",
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": "minecraft:oak_log",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "direction_of_search": "up",
+                            "max_steps": 12,
+                            "target_condition": {
+                              "predicate": {
+                                "blocks": "minecraft:oak_log",
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:environment_scan"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "type": "minecraft:replaceable"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 28,
+                    "type": "minecraft:count"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:jungle_oak/roots",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:oak_log",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:jungle_oak/remove_leaves/7_7",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:oak_log",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "direction_of_search": "up",
+                    "max_steps": 12,
+                    "target_condition": {
+                      "predicates": [
+                        {
+                          "predicate": {
+                            "blocks": "minecraft:oak_log",
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        },
+                        {
+                          "predicate": {
+                            "blocks": "minecraft:oak_log",
+                            "offset": [
+                              0,
+                              -3,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:environment_scan"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:jungle_tree/rooted_dirt",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:oak_log",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "state": {
+                "Name": "minecraft:oak_sapling",
+                "Properties": {
+                  "stage": "0"
+                }
+              },
+              "type": "minecraft:would_survive"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 64,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

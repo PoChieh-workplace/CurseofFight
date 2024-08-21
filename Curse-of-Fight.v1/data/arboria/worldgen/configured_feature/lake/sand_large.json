@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "arboria:lake/sand_large"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

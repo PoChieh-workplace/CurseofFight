@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:birch_tree/hut",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:birch_tree/birch_hut",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

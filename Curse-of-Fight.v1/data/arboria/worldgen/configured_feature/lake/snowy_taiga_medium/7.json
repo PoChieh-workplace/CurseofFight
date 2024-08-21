@@ -1,0 +1,191 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "half_height": 0,
+                    "radius": 7,
+                    "state_provider": {
+                      "fallback": {
+                        "state": {
+                          "Name": "minecraft:snow",
+                          "Properties": {
+                            "layers": "1"
+                          }
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "rules": []
+                    },
+                    "target": {
+                      "predicates": [
+                        {
+                          "blocks": "minecraft:air",
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "predicate": {
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:replaceable"
+                          },
+                          "type": "minecraft:not"
+                        },
+                        {
+                          "state": {
+                            "Name": "minecraft:snow",
+                            "Properties": {
+                              "layers": "1"
+                            }
+                          },
+                          "type": "minecraft:would_survive"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    }
+                  },
+                  "type": "minecraft:disk"
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "config": {
+                    "half_height": 0,
+                    "radius": 7,
+                    "state_provider": {
+                      "fallback": {
+                        "state": {
+                          "Name": "minecraft:grass_block",
+                          "Properties": {
+                            "snowy": "true"
+                          }
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "rules": [
+                        {
+                          "if_true": {
+                            "blocks": "minecraft:podzol",
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "then": {
+                            "state": {
+                              "Name": "minecraft:podzol",
+                              "Properties": {
+                                "snowy": "true"
+                              }
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          }
+                        }
+                      ]
+                    },
+                    "target": {
+                      "predicates": [
+                        {
+                          "blocks": [
+                            "minecraft:grass_block",
+                            "minecraft:podzol"
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:snow",
+                          "offset": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    }
+                  },
+                  "type": "minecraft:disk"
+                },
+                "placement": [
+                  {
+                    "xz_spread": 0,
+                    "y_spread": -1,
+                    "type": "minecraft:random_offset"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 14,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "distribution": [
+                {
+                  "data": 0,
+                  "weight": 1
+                },
+                {
+                  "data": -6,
+                  "weight": 1
+                },
+                {
+                  "data": 6,
+                  "weight": 1
+                }
+              ],
+              "type": "minecraft:weighted_list"
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "minecraft:air"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:pink_glazed_terracotta",
+              "offset": [
+                0,
+                1,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "xz_spread": 0,
+            "y_spread": 1,
+            "type": "minecraft:random_offset"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

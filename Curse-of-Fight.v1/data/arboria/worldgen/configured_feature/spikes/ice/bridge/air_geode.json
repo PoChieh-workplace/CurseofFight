@@ -1,0 +1,65 @@
+{
+  "config": {
+    "blocks": {
+      "alternate_inner_layer_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "cannot_replace": "#arboria:snow/irreplaceable",
+      "filling_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "inner_layer_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "inner_placements": [
+        {
+          "Name": "minecraft:air"
+        }
+      ],
+      "invalid_blocks": "#minecraft:features_cannot_replace",
+      "middle_layer_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "outer_layer_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "crack": {
+      "base_crack_size": 0.0,
+      "crack_point_offset": 0,
+      "generate_crack_chance": 0.0
+    },
+    "distribution_points": 0,
+    "invalid_blocks_threshold": 1024,
+    "layers": {
+      "filling": 1.0,
+      "inner_layer": 1.5,
+      "middle_layer": 2.0,
+      "outer_layer": 3.5
+    },
+    "min_gen_offset": -16,
+    "max_gen_offset": 16,
+    "noise_multiplier": 0.005,
+    "outer_wall_distance": 0,
+    "placements_require_layer0_alternate": true,
+    "point_offset": 1,
+    "use_alternate_layer0_chance": 0.0,
+    "use_potential_placements_chance": 0.0
+  },
+  "type": "minecraft:geode"
+}

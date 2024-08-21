@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:automaticons/netherite/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:automaticons/netherite/shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:automaticons/netherite/pickaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:automaticons/netherite/hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:automaticons/netherite/axe"
+        }
+      ]
+    }
+  ]
+}

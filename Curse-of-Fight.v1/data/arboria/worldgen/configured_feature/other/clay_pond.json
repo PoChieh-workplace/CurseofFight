@@ -1,0 +1,796 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "depth": 2,
+                    "extra_bottom_block_chance": 1.0,
+                    "extra_edge_column_chance": 0.75,
+                    "ground_state": {
+                      "state": {
+                        "Name": "minecraft:clay"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "replaceable": "#arboria:surface_blocks",
+                    "surface": "floor",
+                    "vegetation_chance": 1.0,
+                    "vegetation_feature": {
+                      "feature": {
+                        "config": {
+                          "allowed_placement": {
+                            "predicates": [
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      1,
+                                      -1,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      0,
+                                      -1,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      -1,
+                                      -1,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      0,
+                                      -1,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      0,
+                                      -2,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:air",
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              }
+                            ],
+                            "type": "minecraft:any_of"
+                          },
+                          "direction": "up",
+                          "layers": [
+                            {
+                              "height": 2,
+                              "provider": {
+                                "state": {
+                                  "Name": "minecraft:water",
+                                  "Properties": {
+                                    "level": "0"
+                                  }
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              }
+                            },
+                            {
+                              "height": 1,
+                              "provider": {
+                                "entries": [
+                                  {
+                                    "data": {
+                                      "Name": "minecraft:lily_pad"
+                                    },
+                                    "weight": 1
+                                  },
+                                  {
+                                    "data": {
+                                      "Name": "minecraft:air"
+                                    },
+                                    "weight": 7
+                                  }
+                                ],
+                                "type": "minecraft:weighted_state_provider"
+                              }
+                            }
+                          ],
+                          "prioritize_tip": true
+                        },
+                        "type": "minecraft:block_column"
+                      },
+                      "placement": [
+                        {
+                          "xz_spread": 0,
+                          "y_spread": {
+                            "distribution": [
+                              {
+                                "data": -1,
+                                "weight": 1
+                              },
+                              {
+                                "data": -2,
+                                "weight": 4
+                              }
+                            ],
+                            "type": "minecraft:weighted_list"
+                          },
+                          "type": "minecraft:random_offset"
+                        },
+                        {
+                          "predicate": {
+                            "blocks": "minecraft:clay",
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:block_predicate_filter"
+                        },
+                        {
+                          "direction_of_search": "up",
+                          "max_steps": 1,
+                          "target_condition": {
+                            "predicates": [
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      2,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      0,
+                                      0,
+                                      2
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      -2,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      0,
+                                      0,
+                                      -2
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "predicate": {
+                                      "blocks": "minecraft:clay",
+                                      "offset": [
+                                        0,
+                                        1,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    "type": "minecraft:not"
+                                  },
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      0,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": [
+                                      "minecraft:clay",
+                                      "minecraft:water"
+                                    ],
+                                    "offset": [
+                                      0,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              }
+                            ],
+                            "type": "minecraft:any_of"
+                          },
+                          "type": "minecraft:environment_scan"
+                        }
+                      ]
+                    },
+                    "vertical_range": 1,
+                    "xz_radius": 2
+                  },
+                  "type": "minecraft:vegetation_patch"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "#arboria:dirt",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "half_height": 1,
+                            "radius": 2,
+                            "state_provider": {
+                              "fallback": {
+                                "state": {
+                                  "Name": "minecraft:dirt"
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              },
+                              "rules": [
+                                {
+                                  "if_true": {
+                                    "predicate": {
+                                      "predicates": [
+                                        {
+                                          "offset": [
+                                            0,
+                                            1,
+                                            0
+                                          ],
+                                          "type": "minecraft:solid"
+                                        },
+                                        {
+                                          "fluids": "minecraft:water",
+                                          "offset": [
+                                            0,
+                                            1,
+                                            0
+                                          ],
+                                          "type": "minecraft:matching_fluids"
+                                        }
+                                      ],
+                                      "type": "minecraft:any_of"
+                                    },
+                                    "type": "minecraft:not"
+                                  },
+                                  "then": {
+                                    "state": {
+                                      "Name": "minecraft:grass_block",
+                                      "Properties": {
+                                        "snowy": "false"
+                                      }
+                                    },
+                                    "type": "minecraft:simple_state_provider"
+                                  }
+                                }
+                              ]
+                            },
+                            "target": {
+                              "blocks": "minecraft:clay",
+                              "type": "minecraft:matching_blocks"
+                            }
+                          },
+                          "type": "minecraft:disk"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "offset": [
+                                    0,
+                                    -2,
+                                    0
+                                  ],
+                                  "type": "minecraft:solid"
+                                },
+                                {
+                                  "predicates": [
+                                    {
+                                      "blocks": "minecraft:clay",
+                                      "offset": [
+                                        0,
+                                        -1,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    {
+                                      "blocks": "minecraft:clay",
+                                      "offset": [
+                                        1,
+                                        -1,
+                                        1
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    {
+                                      "blocks": "minecraft:clay",
+                                      "offset": [
+                                        1,
+                                        -1,
+                                        -1
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    {
+                                      "blocks": "minecraft:clay",
+                                      "offset": [
+                                        -1,
+                                        -1,
+                                        -1
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    {
+                                      "blocks": "minecraft:clay",
+                                      "offset": [
+                                        -1,
+                                        -1,
+                                        1
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    }
+                                  ],
+                                  "type": "minecraft:any_of"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "xz_spread": 0,
+                            "y_spread": -1,
+                            "type": "minecraft:random_offset"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "feature": {
+                              "feature": {
+                                "config": {
+                                  "allowed_placement": {
+                                    "blocks": "minecraft:air",
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  "direction": "up",
+                                  "layers": [
+                                    {
+                                      "height": {
+                                        "type": "minecraft:biased_to_bottom",
+                                        "min_inclusive": 2,
+                                        "max_inclusive": 3
+                                      },
+                                      "provider": {
+                                        "state": {
+                                          "Name": "minecraft:sugar_cane",
+                                          "Properties": {
+                                            "age": "0"
+                                          }
+                                        },
+                                        "type": "minecraft:simple_state_provider"
+                                      }
+                                    }
+                                  ],
+                                  "prioritize_tip": false
+                                },
+                                "type": "minecraft:block_column"
+                              },
+                              "placement": [
+                                {
+                                  "predicate": {
+                                    "predicates": [
+                                      {
+                                        "blocks": "minecraft:air",
+                                        "type": "minecraft:matching_blocks"
+                                      },
+                                      {
+                                        "state": {
+                                          "Name": "minecraft:sugar_cane",
+                                          "Properties": {
+                                            "age": "0"
+                                          }
+                                        },
+                                        "type": "minecraft:would_survive"
+                                      },
+                                      {
+                                        "predicates": [
+                                          {
+                                            "fluids": [
+                                              "minecraft:water",
+                                              "minecraft:flowing_water"
+                                            ],
+                                            "offset": [
+                                              1,
+                                              -1,
+                                              0
+                                            ],
+                                            "type": "minecraft:matching_fluids"
+                                          },
+                                          {
+                                            "fluids": [
+                                              "minecraft:water",
+                                              "minecraft:flowing_water"
+                                            ],
+                                            "offset": [
+                                              -1,
+                                              -1,
+                                              0
+                                            ],
+                                            "type": "minecraft:matching_fluids"
+                                          },
+                                          {
+                                            "fluids": [
+                                              "minecraft:water",
+                                              "minecraft:flowing_water"
+                                            ],
+                                            "offset": [
+                                              0,
+                                              -1,
+                                              1
+                                            ],
+                                            "type": "minecraft:matching_fluids"
+                                          },
+                                          {
+                                            "fluids": [
+                                              "minecraft:water",
+                                              "minecraft:flowing_water"
+                                            ],
+                                            "offset": [
+                                              0,
+                                              -1,
+                                              -1
+                                            ],
+                                            "type": "minecraft:matching_fluids"
+                                          }
+                                        ],
+                                        "type": "minecraft:any_of"
+                                      }
+                                    ],
+                                    "type": "minecraft:all_of"
+                                  },
+                                  "type": "minecraft:block_predicate_filter"
+                                }
+                              ]
+                            },
+                            "tries": 1,
+                            "xz_spread": 3,
+                            "y_spread": 0
+                          },
+                          "type": "minecraft:random_patch"
+                        },
+                        "placement": []
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "chance": 2,
+                    "type": "minecraft:rarity_filter"
+                  },
+                  {
+                    "predicate": {
+                      "fluids": [
+                        "minecraft:water",
+                        "minecraft:flowing_water"
+                      ],
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_fluids"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": -4,
+                      "max_inclusive": 4
+                    },
+                    "y_spread": 0,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "count": 20,
+                    "type": "minecraft:count"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    2,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    2,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    2,
+                    0,
+                    2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    2,
+                    -1,
+                    2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    0,
+                    0,
+                    2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    0,
+                    -1,
+                    2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    -2,
+                    0,
+                    2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    -2,
+                    -1,
+                    2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    -2,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    -2,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    -2,
+                    0,
+                    -2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    -2,
+                    -1,
+                    -2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    0,
+                    0,
+                    -2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    0,
+                    -1,
+                    -2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    2,
+                    0,
+                    -2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    2,
+                    -1,
+                    -2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 28,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

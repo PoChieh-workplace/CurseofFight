@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "a"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:barrier"
+        }
+    },
+    "result": {
+        "id": "minecraft:dirt"
+    }
+}

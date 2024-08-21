@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:lime_glazed_terracotta",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
+    "minecraft:tall_seagrass",
+    "#minecraft:features_cannot_replace"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+    "name": "kattersstructures:sky_dungeo/ruin",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/ruins/ruins/sky_dungeo_ruins_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/ruins/ruins/sky_dungeo_ruins_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/ruins/ruins/sky_dungeo_ruins_03",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/ruins/ruins/sky_dungeo_ruins_04",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/ruins/stones/sky_dungeo_stones_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/ruins/stones/sky_dungeo_stones_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

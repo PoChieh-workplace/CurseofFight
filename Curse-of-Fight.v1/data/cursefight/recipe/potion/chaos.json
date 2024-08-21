@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        {
+            "item": "minecraft:rotten_flesh"
+        },
+        {
+            "item": "minecraft:gunpowder"
+        },
+        {
+            "item": "minecraft:bone_meal"
+        },
+        {
+            "item": "minecraft:spider_eye"
+        }
+    ],
+    "result": {
+        "id": "minecraft:netherite_scrap",
+        "components": {
+            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.chaos\",\"italic\":false,\"color\":\"blue\"}]"
+        }
+    }
+}

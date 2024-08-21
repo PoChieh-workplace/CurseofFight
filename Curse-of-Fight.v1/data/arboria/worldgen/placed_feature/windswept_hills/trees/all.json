@@ -1,0 +1,171 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:spruce/no_moss/9",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "arboria:oak_bush/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.05,
+          "feature": {
+            "feature": "arboria:oak_bush/3",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.2,
+          "feature": {
+            "feature": "arboria:oak_bush/5",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.25,
+          "feature": {
+            "feature": "arboria:spruce_bush/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.15,
+          "feature": {
+            "feature": "arboria:spruce_bush/3",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.125,
+          "feature": {
+            "feature": "arboria:oak_pine/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.025,
+          "feature": {
+            "feature": "arboria:oak_pine/2",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.025,
+          "feature": {
+            "feature": "arboria:oak_pine/3",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.125,
+          "feature": {
+            "feature": "arboria:oak_pine/4",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.15,
+          "feature": {
+            "feature": "arboria:forest_oak/no_moss/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.075,
+          "feature": {
+            "feature": "arboria:forest_oak/no_moss/3",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.25,
+          "feature": {
+            "feature": "arboria:forest_oak/no_moss/8",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.45,
+          "feature": {
+            "feature": "arboria:spruce/no_moss/2",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.5,
+          "feature": {
+            "feature": "arboria:spruce/no_moss/8",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "count": 5,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "offset": [
+              1,
+              0,
+              0
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              0,
+              0,
+              1
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              -1,
+              0,
+              0
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              0,
+              0,
+              -1
+            ],
+            "type": "minecraft:replaceable"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

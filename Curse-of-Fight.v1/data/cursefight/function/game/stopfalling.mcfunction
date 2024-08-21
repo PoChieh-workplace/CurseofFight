@@ -1,0 +1,1 @@
+execute as @a run execute at @s run tp @s @s

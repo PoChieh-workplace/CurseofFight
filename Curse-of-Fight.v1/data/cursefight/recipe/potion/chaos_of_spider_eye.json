@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:smithing_transform",
+    "category": "misc",
+    "template": {
+        "item": "minecraft:spider_eye"
+    },
+    "base": {
+        "item": "minecraft:emerald_block"
+    },
+    "addition": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "id": "minecraft:spider_eye",
+        "count": 3,
+        "components": {
+            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.chaos_of_spider_eye\",\"italic\":false,\"color\":\"green\"}]",
+            "minecraft:custom_data": {
+                "ingredient":1
+            }
+        }
+    }
+}

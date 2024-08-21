@@ -1,0 +1,109 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "half_height": 0,
+            "radius": 8,
+            "state_provider": {
+              "fallback": {
+                "state": {
+                  "Name": "minecraft:air"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "rules": []
+            },
+            "target": {
+              "predicates": [
+                {
+                  "blocks": "#arboria:lake_remove",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            }
+          },
+          "type": "minecraft:disk"
+        },
+        "placement": [
+          {
+            "count": 10,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "distribution": [
+                {
+                  "data": -4,
+                  "weight": 1
+                },
+                {
+                  "data": 4,
+                  "weight": 1
+                },
+                {
+                  "data": -9,
+                  "weight": 1
+                },
+                {
+                  "data": 9,
+                  "weight": 1
+                }
+              ],
+              "type": "minecraft:weighted_list"
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "minecraft:orange_glazed_terracotta",
+                "Properties": {
+                  "facing": "east"
+                }
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:white_glazed_terracotta",
+              "offset": [
+                0,
+                1,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "xz_spread": 0,
+            "y_spread": 1,
+            "type": "minecraft:random_offset"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

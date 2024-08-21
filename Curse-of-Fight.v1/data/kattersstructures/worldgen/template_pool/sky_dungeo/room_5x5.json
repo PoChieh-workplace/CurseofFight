@@ -1,0 +1,30 @@
+{
+    "name": "kattersstructures:sky_dungeo/room_5x5",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/room/5x5/sky_dungeo_5x5_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/room/5x5/sky_dungeo_5x5_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/room/5x5/sky_dungeo_5x5_03",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

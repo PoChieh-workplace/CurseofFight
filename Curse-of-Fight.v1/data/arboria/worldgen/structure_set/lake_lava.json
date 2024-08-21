@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "salt": 76543210,
+    "separation": 24,
+    "spacing": 48,
+    "type": "minecraft:random_spread"
+  },
+  "structures": [
+    {
+      "structure": "arboria:lake_lava",
+      "weight": 1
+    }
+  ]
+}

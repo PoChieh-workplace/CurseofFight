@@ -1,0 +1,133 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "allowed_placement": {
+                      "blocks": "#arboria:tree_branch_replaceable",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "direction": "up",
+                    "layers": [
+                      {
+                        "height": 3,
+                        "provider": {
+                          "state": {
+                            "Name": "minecraft:stripped_oak_log",
+                            "Properties": {
+                              "axis": "y"
+                            }
+                          },
+                          "type": "minecraft:simple_state_provider"
+                        }
+                      }
+                    ],
+                    "prioritize_tip": false
+                  },
+                  "type": "minecraft:block_column"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "type": "minecraft:replaceable"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:palm/branch_set/3_oak",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:stripped_oak_log",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "xz_spread": 0,
+                    "y_spread": 3,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:stripped_oak_log",
+                            "offset": [
+                              1,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:stripped_oak_log",
+                            "offset": [
+                              0,
+                              0,
+                              1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:stripped_oak_log",
+                            "offset": [
+                              -1,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:stripped_oak_log",
+                            "offset": [
+                              0,
+                              0,
+                              -1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:sand",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 32,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

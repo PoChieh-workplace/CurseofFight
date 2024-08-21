@@ -1,0 +1,1 @@
+execute as @a[scores={career_chosen=1}] run function cursefight:career/miner/setup

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:smithing_transform",
+    "category": "misc",
+    "template": {
+        "item": "minecraft:phantom_membrane"
+    },
+    "base": {
+        "item": "minecraft:emerald_block"
+    },
+    "addition": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "id": "minecraft:phantom_membrane",
+        "count": 3,
+        "components": {
+            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.chaos_of_phantom_membrane\",\"italic\":false,\"color\":\"green\"}]",
+            "minecraft:custom_data": {
+                "ingredient":1
+            }
+        }
+    }
+}

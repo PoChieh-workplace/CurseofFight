@@ -1,0 +1,442 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:iron_helmet",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:trim": {
+                                                        "material": "minecraft:emerald",
+                                                        "pattern": "minecraft:shaper"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ominous_mob_armor",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "cursefight:generic/armor/witch_protection_advence": 1
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "cursefight:generic/armor/advence_attribute": 1
+                                                },
+                                                "add": true,
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.3
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:iron_chestplate",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:trim": {
+                                                        "material": "minecraft:emerald",
+                                                        "pattern": "minecraft:shaper"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ominous_mob_armor",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "conditions": [
+                                            {
+                                                "condition": "minecraft:random_chance",
+                                                "chance": 0.7
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:iron_leggings",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:trim": {
+                                                        "material": "minecraft:emerald",
+                                                        "pattern": "minecraft:shaper"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ominous_mob_armor",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "conditions": [
+                                            {
+                                                "condition": "minecraft:random_chance",
+                                                "chance": 0.7
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:iron_boots",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:trim": {
+                                                        "material": "minecraft:emerald",
+                                                        "pattern": "minecraft:shaper"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ominous_mob_armor",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "conditions": [
+                                            {
+                                                "condition": "minecraft:random_chance",
+                                                "chance": 0.7
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": 1,
+                                "bonus_rolls": 0,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:diamond_helmet",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:trim": {
+                                                        "material": "minecraft:emerald",
+                                                        "pattern": "minecraft:shaper"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ominous_mob_armor",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "cursefight:generic/armor/witch_protection_advence": 1
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "cursefight:generic/armor/advence_attribute": 1
+                                                },
+                                                "add": true,
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.3
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "rolls": 1,
+                                "bonus_rolls": 0,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:diamond_chestplate",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:trim": {
+                                                        "material": "minecraft:emerald",
+                                                        "pattern": "minecraft:shaper"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ominous_mob_armor",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "condition": "minecraft:random_chance",
+                                        "chance": 0.5
+                                    }
+                                ]
+                            },
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:diamond_leggings",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:trim": {
+                                                        "material": "minecraft:emerald",
+                                                        "pattern": "minecraft:shaper"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ominous_mob_armor",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": 1,
+                                "bonus_rolls": 0,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:netherite_helmet",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:trim": {
+                                                        "material": "minecraft:emerald",
+                                                        "pattern": "minecraft:shaper"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ominous_mob_armor",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.4
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "cursefight:generic/armor/witch_protection_advence": 1
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "cursefight:generic/armor/advence_attribute": 1
+                                                },
+                                                "add": true,
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.3
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "rolls": 1,
+                                "bonus_rolls": 0,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:netherite_chestplate",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:trim": {
+                                                        "material": "minecraft:emerald",
+                                                        "pattern": "minecraft:shaper"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ominous_mob_armor",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.4
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "condition": "minecraft:random_chance",
+                                        "chance": 0.3
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "random_sequence": "cursefight:worldgen/deep_dungeon/mob/ominous_armor"
+}

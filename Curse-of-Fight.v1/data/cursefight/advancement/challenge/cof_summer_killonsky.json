@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text":"【真·空中獵人】",
+            "color":"aqua",
+            "bold":true
+        },
+        "description": {
+            "text":"比賽過程中在高度 250 格以上擊殺一隻生物 ( 20WB )",
+            "color":"gray"
+        },
+        "icon": {
+            "id": "minecraft:firework_rocket"
+        },
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false,
+        "background":"minecraft:textures/block/netherite_block.png"
+        
+    },
+    "criteria": {
+        "kill_on_sky": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions":{
+                "killing_blow":{
+                    "source_entity":{
+                        "location": {
+                            "position": {
+                              "y": {
+                                "min": 250
+                              }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements":[
+        [
+            "kill_on_sky"
+        ]
+    ],
+    "parent":"cursefight:root"
+}

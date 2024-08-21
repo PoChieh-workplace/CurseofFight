@@ -1,0 +1,54 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:oak_bush/7",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.15,
+          "feature": {
+            "feature": "arboria:birch_bush/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.3,
+          "feature": {
+            "feature": "arboria:oak_bush/2",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.75,
+          "feature": {
+            "feature": "arboria:oak_bush/6",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "chance": 8,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

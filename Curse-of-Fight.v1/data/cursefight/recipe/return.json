@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ba",
+        "ab"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:lapis_block"
+        },
+        "b": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "id": "minecraft:slime_ball",
+        "components": {
+            "minecraft:custom_model_data": 724006,
+            "minecraft:custom_data": {"return":1},
+            "custom_name":"[\"\",{\"text\":\"地表晶球\",\"italic\":false,\"color\":\"gold\"}]",
+            "lore":["[\"\",{\"text\":\"從安德身上提煉出的空間傳送，使用後將會傳送自己到地表\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 0.1
+            },
+            "minecraft:enchantments": {
+                "minecraft:efficiency": 5
+            },
+            "minecraft:max_stack_size": 1
+        }
+    }
+}

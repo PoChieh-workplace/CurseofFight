@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "arboria:lake/dark_forest_pond"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

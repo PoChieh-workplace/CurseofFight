@@ -1,0 +1,35 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.cursefight.xp_boost"
+    },
+    "effects": {
+        "minecraft:mob_experience": [
+            {
+                "effect": {
+                    "type": "minecraft:multiply",
+                    "factor": {
+                        "type": "minecraft:linear",
+                        "base": 3,
+                        "per_level_above_first": 1.5
+                    }
+                }
+            }
+        ]
+    },
+    "max_level": 10,
+    "max_cost": {
+        "base": 19,
+        "per_level_above_first": 7
+    },
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 7
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/sword",
+    "primary_items": "#minecraft:enchantable/sword",
+    "weight": 5
+}

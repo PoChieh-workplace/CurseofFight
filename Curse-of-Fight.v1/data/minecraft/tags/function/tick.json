@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "cursefight:time/tick",
+        "vanilla_refresh:tick"
+    ]
+}

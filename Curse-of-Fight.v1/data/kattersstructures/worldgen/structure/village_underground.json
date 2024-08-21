@@ -1,0 +1,16 @@
+{
+    "biomes": "#kattersstructures:has_structure/underground",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "type": "minecraft:jigsaw",
+    "start_pool": "kattersstructures:village_underground/town_centers",
+    "size": 7,
+    "step": "underground_structures",
+    "start_height": {
+        "absolute": 20
+    },
+    "max_distance_from_center": 116,
+    "terrain_adaptation": "encapsulate",
+    "use_expansion_hack": false,
+    "liquid_settings": "ignore_waterlogging"
+}

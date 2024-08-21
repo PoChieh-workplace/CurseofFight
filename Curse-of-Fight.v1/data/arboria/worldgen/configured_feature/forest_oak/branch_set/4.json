@@ -1,0 +1,99 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": "arboria:forest_oak/branch/4_east",
+                "placement": []
+              },
+              {
+                "feature": "arboria:forest_oak/branch/3_west",
+                "placement": []
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 8,
+            "type": "minecraft:count"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": "arboria:forest_oak/branch/3_east",
+                "placement": []
+              },
+              {
+                "feature": "arboria:forest_oak/branch/4_west",
+                "placement": []
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 8,
+            "type": "minecraft:count"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": "arboria:forest_oak/branch/4_north",
+                "placement": []
+              },
+              {
+                "feature": "arboria:forest_oak/branch/3_south",
+                "placement": []
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 8,
+            "type": "minecraft:count"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": "arboria:forest_oak/branch/3_north",
+                "placement": []
+              },
+              {
+                "feature": "arboria:forest_oak/branch/4_south",
+                "placement": []
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 8,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

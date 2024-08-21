@@ -1,0 +1,134 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:emerald_ore",
+                        "probability": 0.8
+                    },
+                    "output_state": {
+                        "Name": "minecraft:stone"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:chain",
+                        "probability": 0.5
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:stone_brick_stairs",
+                        "probability": 0.15
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:stone_brick_slab",
+                        "probability": 0.15
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:chiseled_stone_bricks",
+                        "probability": 0.17
+                    },
+                    "output_state": {
+                        "Name": "minecraft:infested_chiseled_stone_bricks"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobweb",
+                        "probability": 0.6
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:jungle_planks",
+                        "probability": 0.05
+                    },
+                    "output_state": {
+                        "Name": "minecraft:stone"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:stone_bricks",
+                        "probability": 0.005
+                    },
+                    "output_state": {
+                        "Name": "minecraft:infested_stone"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:jungle_log",
+                            "Properties": {
+                                "axis": "y"
+                            }
+                        },
+                        "probability": 0.1
+                    },
+                    "output_state": {
+                        "Name": "minecraft:stripped_jungle_log",
+                        "Properties": {
+                            "axis": "y"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

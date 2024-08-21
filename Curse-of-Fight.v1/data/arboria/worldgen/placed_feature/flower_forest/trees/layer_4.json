@@ -1,0 +1,143 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:forest_oak/more_bees/11",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.005,
+          "feature": {
+            "feature": "arboria:dead_oak/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.002,
+          "feature": {
+            "feature": "arboria:dead_oak/5",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.0035,
+          "feature": {
+            "feature": "arboria:dead_oak/6",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.0015,
+          "feature": {
+            "feature": "arboria:dead_birch/3",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.025,
+          "feature": {
+            "feature": "arboria:birch/5",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.035,
+          "feature": {
+            "feature": "arboria:birch/more_bees/6",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.0363,
+          "feature": {
+            "feature": "arboria:birch/more_bees/7",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "arboria:birch/more_bees/8",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.015,
+          "feature": {
+            "feature": "arboria:birch/more_bees/12",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.0152,
+          "feature": {
+            "feature": "arboria:birch/more_bees/13",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.055,
+          "feature": {
+            "feature": "arboria:big_oak/more_bees/3",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.55,
+          "feature": {
+            "feature": "arboria:forest_oak/more_bees/6",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.65,
+          "feature": {
+            "feature": "arboria:forest_oak/more_bees/7",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.65,
+          "feature": {
+            "feature": "arboria:forest_oak/more_bees/8",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "count": 3,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "noise_factor": 160.0,
+      "noise_offset": -0.25,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": 160.0,
+      "noise_offset": -0.6,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

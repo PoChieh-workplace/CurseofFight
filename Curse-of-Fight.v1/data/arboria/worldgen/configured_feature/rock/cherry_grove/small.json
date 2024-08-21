@@ -1,0 +1,109 @@
+{
+  "config": {
+    "blocks": {
+      "alternate_inner_layer_provider": {
+        "state": {
+          "Name": "minecraft:cobblestone"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "cannot_replace": "#minecraft:features_cannot_replace",
+      "filling_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:cobblestone"
+            },
+            "weight": 3
+          },
+          {
+            "data": {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            "weight": 2
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "inner_layer_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:cobblestone"
+            },
+            "weight": 3
+          },
+          {
+            "data": {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            "weight": 2
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "inner_placements": [
+        {
+          "Name": "minecraft:cobblestone"
+        }
+      ],
+      "invalid_blocks": "#minecraft:features_cannot_replace",
+      "middle_layer_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:cobblestone"
+            },
+            "weight": 3
+          },
+          {
+            "data": {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            "weight": 2
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "outer_layer_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:cobblestone"
+            },
+            "weight": 3
+          },
+          {
+            "data": {
+              "Name": "minecraft:mossy_cobblestone"
+            },
+            "weight": 2
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    },
+    "crack": {
+      "base_crack_size": 1.0,
+      "crack_point_offset": 2,
+      "generate_crack_chance": 0.0
+    },
+    "distribution_points": 2,
+    "invalid_blocks_threshold": 256,
+    "layers": {
+      "filling": 0.1,
+      "inner_layer": 0.2,
+      "middle_layer": 0.3,
+      "outer_layer": 0.4
+    },
+    "min_gen_offset": -16,
+    "max_gen_offset": 16,
+    "noise_multiplier": 0.05,
+    "outer_wall_distance": 2,
+    "placements_require_layer0_alternate": true,
+    "point_offset": 0,
+    "use_alternate_layer0_chance": 0.025,
+    "use_potential_placements_chance": 0.025
+  },
+  "type": "minecraft:geode"
+}

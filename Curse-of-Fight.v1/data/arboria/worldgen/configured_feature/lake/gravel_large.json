@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "arboria:lake/gravel_large"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

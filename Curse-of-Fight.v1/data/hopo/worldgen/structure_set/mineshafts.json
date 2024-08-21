@@ -1,0 +1,62 @@
+{
+	"structures": [
+		{
+			"structure": "hopo:mineshaft/acacia_mineshaft",
+			"weight": 10
+		},
+		{
+			"structure": "hopo:mineshaft/bamboo_mineshaft",
+			"weight": 10
+		},
+		{
+			"structure": "hopo:mineshaft/birch_mineshaft",
+			"weight": 10
+		},
+		{
+			"structure": "hopo:mineshaft/cherry_mineshaft",
+			"weight": 10
+		},
+		{
+			"structure": "hopo:mineshaft/dark_oak_mineshaft",
+			"weight": 10
+		},
+		{
+			"structure": "hopo:mineshaft/jungle_mineshaft",
+			"weight": 10
+		},
+		{
+			"structure": "hopo:mineshaft/oak_mineshaft",
+			"weight": 10
+		},
+		{
+			"structure": "hopo:mineshaft/spruce_mineshaft",
+			"weight": 10
+		},
+		{
+			"structure": "hopo:mineshaft/mangrove_mineshaft",
+			"weight": 10
+		},
+		{
+			"structure": "hopo:mineshaft/mud_mineshaft",
+			"weight": 10
+		},
+		{
+			"structure": "hopo:mineshaft/stone_mineshaft",
+			"weight": 10
+		},
+		{
+			"structure": "hopo:mineshaft/deepslate_mineshaft",
+			"weight": 10
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 10110110,
+		"exclusion_zone": {
+			"other_set": "cursefight:deep_dungeon",
+			"chunk_count": 3
+		},
+		"spacing": 12,
+		"separation": 8
+	}
+}

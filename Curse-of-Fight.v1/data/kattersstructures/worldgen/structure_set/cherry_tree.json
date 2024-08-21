@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 40,
+        "separation": 18,
+        "salt": 21021021,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "kattersstructures:cherry_tree",
+        "weight": 1
+    }]
+}

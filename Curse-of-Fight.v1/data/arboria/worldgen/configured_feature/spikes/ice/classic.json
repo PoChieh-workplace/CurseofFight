@@ -1,0 +1,64 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {},
+                  "type": "minecraft:ice_spike"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "blocks": "minecraft:packed_ice",
+                        "type": "minecraft:matching_blocks"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:spikes/ice/mid/3",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:packed_ice",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:snow_block",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 28,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

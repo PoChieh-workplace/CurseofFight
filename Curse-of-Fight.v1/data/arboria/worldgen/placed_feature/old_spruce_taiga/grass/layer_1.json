@@ -1,0 +1,47 @@
+{
+  "feature": {
+    "config": {
+      "to_place": {
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:short_grass"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Name": "minecraft:fern"
+            },
+            "weight": 5
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  },
+  "placement": [
+    {
+      "count": 12,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "blocks": "minecraft:air",
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

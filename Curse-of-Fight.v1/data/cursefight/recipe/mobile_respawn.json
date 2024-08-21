@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "abc",
+        "def",
+        "ghi"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:coal_block"
+        },
+        "b": {
+            "item": "minecraft:iron_block"
+        },
+        "c": {
+            "item": "minecraft:gold_block"
+        },
+        "d": {
+            "item": "minecraft:iron_sword"
+        },
+        "e": {
+            "item": "minecraft:golden_apple"
+        },
+        "f": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "g": {
+            "item": "minecraft:lapis_block"
+        },
+        "h": {
+            "item": "minecraft:redstone_block"
+        },
+        "i": {
+            "item": "minecraft:copper_block"
+        }
+    },
+    "result": {
+        "id": "minecraft:nether_star",
+        "count": 1,
+        "components": {
+            "minecraft:custom_data": {"advence_mobile_respawn":1},
+            "minecraft:custom_model_data": 724002,
+            "custom_name": "[\"\",{\"text\":\"移動式重生信標\",\"italic\":false,\"color\":\"gold\"}]",
+            "lore": [
+                "[\"\",{\"text\":\"尋找一個§b透天的地方§r後按下 \",\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後即可召喚\",\"color\":\"gray\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]",
+                "{\"text\":\"請確保召喚點是淨空的！\",\"color\":\"dark_red\"}"
+            ],
+            "minecraft:enchantments": {
+                "minecraft:loyalty": 5
+            },
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 0.1
+            },
+            "minecraft:max_stack_size": 1
+        }
+    }
+}

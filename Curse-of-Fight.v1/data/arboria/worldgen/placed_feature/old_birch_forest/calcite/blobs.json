@@ -1,0 +1,132 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "minecraft:diorite"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": [
+                "minecraft:calcite",
+                "minecraft:diorite"
+              ],
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 5,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -3,
+              "max_inclusive": 3
+            },
+            "y_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -2,
+              "max_inclusive": 1
+            },
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "blocks": "minecraft:calcite",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      "features": [
+        {
+          "chance": 0.6,
+          "feature": {
+            "feature": {
+              "config": {
+                "discard_chance_on_air_exposure": 0.0,
+                "size": 20,
+                "targets": [
+                  {
+                    "state": {
+                      "Name": "minecraft:calcite"
+                    },
+                    "target": {
+                      "predicate_type": "minecraft:tag_match",
+                      "tag": "arboria:dirt"
+                    }
+                  }
+                ]
+              },
+              "type": "minecraft:ore"
+            },
+            "placement": [
+              {
+                "predicate": {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:calcite",
+                      "minecraft:diorite"
+                    ],
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:not"
+                },
+                "type": "minecraft:block_predicate_filter"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "chance": 8,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 12
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "heightmap": "WORLD_SURFACE_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "count": 32,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:meadow",
+        "minecraft:windswept_forest",
+        {"id": "terralith:rocky_mountains", "required": false},
+        {"id": "terralith:stony_spires", "required": false},
+        {"id": "regions_unexplored:highland_fields", "required": false},
+        {"id": "regions_unexplored:icy_heights", "required": false},
+        {"id": "regions_unexplored:rocky_meadow", "required": false},
+        {"id": "regions_unexplored:towering_cliffs", "required": false},
+        {"id": "clifftree:caves", "required": false},   
+        {"id": "clifftree:cold_caves", "required": false},
+        {"id": "clifftree:frozen_caves", "required": false}
+    ]
+}

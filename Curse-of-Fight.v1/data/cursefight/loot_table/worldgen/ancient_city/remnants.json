@@ -1,0 +1,838 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 5767063,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:luck",
+                                            "amplifier": 0,
+                                            "duration": 2400,
+                                            "ambient": true,
+                                            "show_particles": true,
+                                            "show_icon": true
+                                        }
+                                    ]
+                                },
+                                "custom_name": "[\"\",{\"text\":\"蜜露\",\"italic\":false,\"color\":\"gold\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"用蜂蜜釀造出來的精華，帶給所有人意想不到的效果\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"
+                                ],
+                                "minecraft:max_stack_size": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:nether_star",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {},
+                                "minecraft:custom_model_data": 724002,
+                                "custom_name": "[\"\",{\"text\":\"移動式重生信標\",\"italic\":false,\"color\":\"gold\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"尋找一個§b透天的地方§r後按下 \",\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後即可召喚\",\"color\":\"gray\"}]",
+                                    "{\"text\":\"請確保召喚點是淨空的！\",\"color\":\"dark_red\"}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:loyalty": 5
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.1
+                                },
+                                "minecraft:max_stack_size": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_hoe",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 50
+                            },
+                            "options": "#cursefight:ancient_city"
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 30
+                            },
+                            "options": "#minecraft:curse",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 50
+                            },
+                            "options": "#cursefight:ancient_city"
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 30
+                            },
+                            "options": "#minecraft:curse",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:ancient_city"
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 30
+                            },
+                            "options": "#minecraft:curse",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 60
+                            },
+                            "options": "#cursefight:ancient_city"
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 30
+                            },
+                            "options": "#minecraft:curse",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 30
+                            },
+                            "options": "#minecraft:curse",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 20,
+                                "max": 80
+                            },
+                            "options": "#cursefight:ancient_city"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 30
+                            },
+                            "options": "#minecraft:curse",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:ancient_city"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 30
+                            },
+                            "options": "#minecraft:curse",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:ancient_city"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 30
+                            },
+                            "options": "#minecraft:curse",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:ancient_city"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 60
+                            },
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:soul_lantern",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sculk_sensor"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:soul_torch"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glow_berries",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 2,
+                                    "saturation": 2,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 2,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:regeneration",
+                                                "amplifier": 0,
+                                                "duration": 60
+                                            }
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_name": "[\"\",{\"text\":\"小甜點\",\"italic\":false,\"color\":\"red\"}]"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:compass"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone_meal",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:silence_armor_trim_smithing_template"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:experience_bottle",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:coal",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lapis_lazuli",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:redstone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:disc_fragment_5"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:candle",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_cat"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:healing"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cobweb",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sculk_vein",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wheat_seeds",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gray_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:white_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:red_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_blue_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lime_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:magenta_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cyan_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:yellow_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:black_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pink_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:purple_wool",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:deepslate"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sculk_catalyst"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sculk"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sculk_shrieker"
+                }
+            ]
+        }
+    ],
+    "random_sequence": "cursefight:worldgen/ancient_city/remnants"
+}

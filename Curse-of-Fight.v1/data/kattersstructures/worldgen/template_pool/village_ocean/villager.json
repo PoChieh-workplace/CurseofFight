@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:village_ocean/villager",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 6,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_ocean/villager/villagers_ocean_master"
+        }
+    }]
+}

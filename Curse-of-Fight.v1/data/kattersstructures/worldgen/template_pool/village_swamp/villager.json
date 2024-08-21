@@ -1,0 +1,29 @@
+{
+    "name": "kattersstructures:village_swamp/villager",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 6,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_swamp/villager/villagers_swamp_unemployed"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_swamp/villager/villagers_swamp_nitwit"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_swamp/villager/villagers_swamp_baby"
+        }
+    }]
+}

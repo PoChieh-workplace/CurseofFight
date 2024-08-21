@@ -1,0 +1,2 @@
+execute if score _game_start_ info matches 0 run function cursefight:server/if_game_not_start
+execute unless score _game_start_ info matches 0 if entity @s[tag=!gameplay] run function cursefight:server/if_game_start

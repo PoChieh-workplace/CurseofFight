@@ -1,0 +1,51 @@
+{
+    "description": "Lightning of Raj",
+    "supported_items": "minecraft:crossbow",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "enchanted": "attacker",
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:summon_entity",
+            "entity": "minecraft:lightning_bolt"
+          }
+        },
+        {
+          "enchanted": "attacker",
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "kattersstructures:raj/lightning_particles"
+          }
+        }
+      ],
+      "minecraft:hit_block": [
+        {
+          "effect": {
+            "type": "minecraft:summon_entity",
+            "entity": "minecraft:lightning_bolt"
+          }
+        },
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "kattersstructures:raj/lightning_particles"
+          }
+        }
+      ]
+    }
+  }
+  

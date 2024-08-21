@@ -1,0 +1,434 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "minecraft:short_grass"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "count": 2,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -12,
+              "max_inclusive": 12
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+            "type": "minecraft:heightmap"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "state": {
+                    "Name": "minecraft:short_grass"
+                  },
+                  "type": "minecraft:would_survive"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "minecraft:tall_grass",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -12,
+              "max_inclusive": 12
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+            "type": "minecraft:heightmap"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "state": {
+                    "Name": "minecraft:short_grass"
+                  },
+                  "type": "minecraft:would_survive"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "allowed_placement": {
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            "direction": "up",
+            "layers": [
+              {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": 2,
+                  "max_inclusive": 4
+                },
+                "provider": {
+                  "state": {
+                    "Name": "minecraft:sugar_cane",
+                    "Properties": {
+                      "age": "0"
+                    }
+                  },
+                  "type": "minecraft:simple_state_provider"
+                }
+              }
+            ],
+            "prioritize_tip": false
+          },
+          "type": "minecraft:block_column"
+        },
+        "placement": [
+          {
+            "chance": 2,
+            "type": "minecraft:rarity_filter"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -14,
+              "max_inclusive": 14
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+            "type": "minecraft:heightmap"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "state": {
+                    "Name": "minecraft:sugar_cane",
+                    "Properties": {
+                      "age": "0"
+                    }
+                  },
+                  "type": "minecraft:would_survive"
+                },
+                {
+                  "predicates": [
+                    {
+                      "blocks": "minecraft:water",
+                      "offset": [
+                        1,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "minecraft:water",
+                      "offset": [
+                        0,
+                        -1,
+                        1
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "minecraft:water",
+                      "offset": [
+                        -1,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "minecraft:water",
+                      "offset": [
+                        0,
+                        -1,
+                        -1
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:any_of"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "default": {
+              "feature": "arboria:palm/3_oak",
+              "placement": []
+            },
+            "features": [
+              {
+                "chance": 0.55,
+                "feature": {
+                  "feature": "arboria:palm/1_oak",
+                  "placement": []
+                }
+              }
+            ]
+          },
+          "type": "minecraft:random_selector"
+        },
+        "placement": [
+          {
+            "count": 2,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -12,
+              "max_inclusive": 12
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "heightmap": "MOTION_BLOCKING",
+            "type": "minecraft:heightmap"
+          },
+          {
+            "predicate": {
+              "predicate": {
+                "predicates": [
+                  {
+                    "fluids": [
+                      "minecraft:water",
+                      "minecraft:flowing_water"
+                    ],
+                    "offset": [
+                      1,
+                      -1,
+                      0
+                    ],
+                    "type": "minecraft:matching_fluids"
+                  },
+                  {
+                    "fluids": [
+                      "minecraft:water",
+                      "minecraft:flowing_water"
+                    ],
+                    "offset": [
+                      0,
+                      -1,
+                      1
+                    ],
+                    "type": "minecraft:matching_fluids"
+                  },
+                  {
+                    "fluids": [
+                      "minecraft:water",
+                      "minecraft:flowing_water"
+                    ],
+                    "offset": [
+                      -1,
+                      -1,
+                      0
+                    ],
+                    "type": "minecraft:matching_fluids"
+                  },
+                  {
+                    "fluids": [
+                      "minecraft:water",
+                      "minecraft:flowing_water"
+                    ],
+                    "offset": [
+                      0,
+                      -1,
+                      -1
+                    ],
+                    "type": "minecraft:matching_fluids"
+                  }
+                ],
+                "type": "minecraft:any_of"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "default": {
+              "feature": "arboria:island/tree/2",
+              "placement": []
+            },
+            "features": [
+              {
+                "chance": 0.6,
+                "feature": {
+                  "feature": "arboria:island/tree/1",
+                  "placement": []
+                }
+              }
+            ]
+          },
+          "type": "minecraft:random_selector"
+        },
+        "placement": [
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -12,
+              "max_inclusive": 12
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "heightmap": "MOTION_BLOCKING",
+            "type": "minecraft:heightmap"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "entries": [
+                      {
+                        "data": {
+                          "Name": "minecraft:poppy"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "Name": "minecraft:dandelion"
+                        },
+                        "weight": 5
+                      }
+                    ],
+                    "type": "minecraft:weighted_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": "minecraft:air",
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                },
+                {
+                  "predicate": {
+                    "blocks": "minecraft:grass_block",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            },
+            "tries": 10,
+            "xz_spread": 3,
+            "y_spread": 1
+          },
+          "type": "minecraft:no_bonemeal_flower"
+        },
+        "placement": [
+          {
+            "chance": 6,
+            "type": "minecraft:rarity_filter"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -12,
+              "max_inclusive": 12
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+            "type": "minecraft:heightmap"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

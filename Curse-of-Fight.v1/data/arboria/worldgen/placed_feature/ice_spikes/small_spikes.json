@@ -1,0 +1,40 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:spikes/ice/classic",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.7,
+          "feature": {
+            "feature": "arboria:spikes/ice/classic_double",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

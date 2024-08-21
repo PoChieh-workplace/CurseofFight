@@ -1,0 +1,29 @@
+{
+    "name": "kattersstructures:village_jungle/tree_bigdecor",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/main_tree/bigdecor/tree_bigdecor_clear"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/main_tree/bigdecor/tree_bigdecor_honey"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/main_tree/bigdecor/tree_bigdecor_mushroom"
+        }
+    }]
+}

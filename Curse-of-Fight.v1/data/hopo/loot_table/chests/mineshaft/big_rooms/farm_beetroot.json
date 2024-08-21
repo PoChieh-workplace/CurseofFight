@@ -1,0 +1,85 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 2,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "hopo:chests/mineshaft/abandoned_miners_stuff",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_hoe",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_hoe",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.3
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot_soup",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot_seeds",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

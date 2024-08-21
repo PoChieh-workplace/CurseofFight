@@ -1,0 +1,156 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "cursefight:worldgen/deep_dungeon/mob/normal_armor"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_shovel",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_shovel",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_pickaxe",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_pickaxe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:sharpness": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:knockback": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_shovel",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_shovel",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_pickaxe",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_pickaxe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:sharpness": 1
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:knockback": 1
+                            },
+                            "add": false
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.65
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:equipment/trial_chamber_melee"
+}

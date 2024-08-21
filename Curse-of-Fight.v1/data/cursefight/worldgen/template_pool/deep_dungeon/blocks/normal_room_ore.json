@@ -1,0 +1,51 @@
+{
+    "name": "cursefight:deep_dungeon/blocks/normal_room_ore",
+    "fallback": "cursefight:deep_dungeon/blocks/normal_room_ore",
+    "elements": [
+        {	
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/blocks/normal_room_ore_coal",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/blocks/normal_room_ore_gold",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/blocks/normal_room_ore_iron",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/blocks/normal_room_ore_lapis",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/blocks/normal_room_ore_redstone",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

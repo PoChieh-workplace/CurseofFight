@@ -1,0 +1,26 @@
+{
+    "name": "kattersstructures:village_cherry/rare_buildings",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/house/rare/house_pagode"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/house/rare/house_rare"
+        }
+    }]
+}

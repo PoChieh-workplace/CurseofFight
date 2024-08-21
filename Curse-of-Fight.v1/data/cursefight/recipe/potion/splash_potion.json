@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:smithing_transform",
+    "category": "misc",
+    "template": {
+        "item": "minecraft:potion"
+    },
+    "base": {
+        "item": "minecraft:iron_ingot"
+    },
+    "addition": {
+        "item": "minecraft:diamond_axe"
+    },
+    "result": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "components": {
+            "minecraft:potion_contents": {
+                "potion": "minecraft:water"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+	"structures": [
+		{
+			"structure": "hopo:mineshaft/biomes/lush_mineshaft",
+			"weight": 10
+		},
+		{
+			"structure": "hopo:mineshaft/biomes/dripstone_mineshaft",
+			"weight": 10
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1360292917,
+		"exclusion_zone": {
+			"other_set": "cursefight:deep_dungeon",
+			"chunk_count": 3
+		},
+		"spacing": 12,
+		"separation": 8
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"replace": true,
+	"values": [
+		"minecraft:efficiency",
+		"minecraft:silk_touch",
+		"minecraft:fortune",
+		"cursefight:career/miner/auto_smelt",
+		"cursefight:generic/curse/breaking",
+    	"minecraft:vanishing_curse"
+	]
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:smithing_transform",
+    "category": "misc",
+    "template": {
+        "item": "minecraft:golden_carrot"
+    },
+    "base": {
+        "item": "minecraft:emerald_block"
+    },
+    "addition": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "id": "minecraft:golden_carrot",
+        "count": 3,
+        "components": {
+            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.chaos_of_golden_carrot\",\"italic\":false,\"color\":\"green\"}]",
+            "minecraft:custom_data": {
+                "ingredient":1
+            }
+        }
+    }
+}

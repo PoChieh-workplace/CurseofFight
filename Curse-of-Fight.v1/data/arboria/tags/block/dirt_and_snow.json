@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#arboria:dirt",
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:snow_block",
+    "minecraft:powder_snow"
+  ]
+}

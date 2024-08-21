@@ -1,0 +1,46 @@
+{
+    "anvil_cost": 100,
+    "description": {
+        "translate": "enchantment.cursefight.dark_summon"
+    },
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "victim",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:summon_entity",
+                    "entity": "minecraft:wither_skeleton",
+                    "join_team": true
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "attacker",
+                        "predicate": {
+                            "type": "minecraft:player"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.135
+                    }
+                ]
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 300,
+        "per_level_above_first": 1
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 200,
+        "per_level_above_first": 1
+    },
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "#minecraft:head_armor",
+    "weight": 1
+}

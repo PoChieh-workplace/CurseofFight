@@ -1,0 +1,42 @@
+{
+    "name": "cursefight:deep_dungeon/spawners/normaly",
+    "fallback": "cursefight:deep_dungeon/spawners/normaly",
+    "elements": [
+        {	
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/spawners/normal_spawner_y1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/spawners/normal_spawner_y2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/spawners/normal_spawner_y3",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/spawners/normal_spawner_y4",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

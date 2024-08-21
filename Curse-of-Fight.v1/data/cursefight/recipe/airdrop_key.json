@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " e ",
+        "bad",
+        " c "
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:poppy"
+        },
+        "b": {
+            "item": "minecraft:white_banner"
+        },
+        "c": {
+            "item": "minecraft:bee_nest"
+        },
+        "d": {
+            "item": "minecraft:splash_potion"
+        },
+        "e": {
+            "item": "minecraft:pumpkin_pie"
+        }
+    },
+    "result": {
+        "id": "minecraft:echo_shard",
+        "count": 1,
+        "components": {
+            "minecraft:custom_data": {"airdrop":1},
+            "minecraft:custom_model_data":724001,
+            "custom_name":"[\"\",{\"text\":\"空投鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
+            "lore":["[\"\",{\"text\":\"好像可以開啟某個寶箱呢！\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "minecraft:enchantments": {
+                "minecraft:loyalty": 5
+            }
+        }
+    }
+}

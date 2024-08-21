@@ -1,0 +1,25 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_name":"[\"\",{\"translate\":\"cursefight.potion.enchanted\",\"italic\":false,\"color\":\"aqua\"},{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"italic\":false,\"color\":\"white\"}]",
+            "minecraft:potion_contents": {
+                "custom_effects": [
+                    {
+                        "id": "minecraft:speed",
+                        "amplifier": 4,
+                        "duration": 2400
+                    }
+                ]
+            },
+            "minecraft:custom_data":{
+                "potion":1
+            },
+            "minecraft:max_stack_size": 3
+        }
+    },
+    {
+        "function": "minecraft:set_potion",
+        "id": "minecraft:thick"
+    }
+]

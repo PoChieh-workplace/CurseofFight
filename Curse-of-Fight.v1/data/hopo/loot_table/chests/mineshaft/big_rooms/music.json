@@ -1,0 +1,79 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:note_block",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:redstone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "hopo:chests/mineshaft/abandoned_miners_stuff",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_stal",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_mellohi",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_mall",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_far",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_chirp",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_cat",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

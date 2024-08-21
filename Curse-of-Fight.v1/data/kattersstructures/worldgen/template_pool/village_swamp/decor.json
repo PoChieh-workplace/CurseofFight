@@ -1,0 +1,42 @@
+{
+    "name": "kattersstructures:village_swamp/decor",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_swamp/decor/decor_dead_stem"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_swamp/decor/decor_hay"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_swamp/decor/decor_light"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_swamp/decor/decor_red_shroom"
+        }
+    }]
+}

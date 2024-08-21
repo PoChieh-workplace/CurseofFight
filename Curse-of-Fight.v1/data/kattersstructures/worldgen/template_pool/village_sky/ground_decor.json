@@ -1,0 +1,97 @@
+{
+    "name": "kattersstructures:village_sky/ground_decor",
+    "fallback": "minecraft:empty",
+    "elements": [
+        
+
+    {
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/decor/ground/ground_decor_1"
+        }
+    },{
+        "weight": 6,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/decor/ground/ground_decor_2"
+        }
+    },{
+        "weight": 6,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/decor/ground/ground_decor_3"
+        }
+    },{
+        "weight": 6,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/decor/ground/ground_decor_4"
+        }
+    },{
+        "weight": 6,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/decor/ground/ground_decor_5"
+        }
+    },{
+        "weight": 6,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/decor/ground/ground_decor_6"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/decor/ground/ground_decor_7"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/decor/ground/ground_decor_8"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/decor/ground/ground_decor_9"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/decor/ground/ground_decor_10"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/decor/ground/ground_decor_11"
+        }
+    }
+]
+}

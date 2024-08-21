@@ -1,0 +1,165 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:stone_brick_slab",
+                            "Properties": {
+                                "type": "bottom",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.65
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:rail",
+                        "probability": 0.7
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:rail",
+                        "probability": 0.7
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:smooth_stone_slab",
+                            "Properties": {
+                                "waterlogged": "false",
+                                "type": "top"
+                            }
+                        },
+                        "probability": 0.2
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:smooth_stone_slab",
+                            "Properties": {
+                                "type": "bottom",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.2
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:chiseled_stone_bricks",
+                        "probability": 0.17
+                    },
+                    "output_state": {
+                        "Name": "minecraft:infested_chiseled_stone_bricks"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobweb",
+                        "probability": 0.6
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:dark_oak_planks",
+                        "probability": 0.05
+                    },
+                    "output_state": {
+                        "Name": "minecraft:stone"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:dark_oak_planks",
+                        "probability": 0.005
+                    },
+                    "output_state": {
+                        "Name": "minecraft:infested_stone"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_log",
+                            "Properties": {
+                                "axis": "y"
+                            }
+                        },
+                        "probability": 0.27
+                    },
+                    "output_state": {
+                        "Name": "minecraft:stripped_dark_oak_log",
+                        "Properties": {
+                            "axis": "y"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

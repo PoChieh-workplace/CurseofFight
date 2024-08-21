@@ -1,0 +1,849 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+            },
+            "bonus_rolls": 1.5,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:saddle",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 40,
+                                "max": 80
+                            },
+                            "options": "#cursefight:airdrop_sword"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:airdrop_armor"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:airdrop_armor"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_leggings",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:airdrop_armor"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:airdrop_armor"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:airdrop_armor"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:airdrop_armor"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_boots",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:airdrop_armor"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_chestplate",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:airdrop_armor"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_leggings",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:airdrop_armor"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_helmet",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 30,
+                                "max": 80
+                            },
+                            "options": "#cursefight:airdrop_armor"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wind_charge",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 3,
+                                "max": 6
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:strong_healing"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:strong_swiftness"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1,
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:arrow",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "bonus_rolls": 3,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_ingot",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 3,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 8
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 8,
+                                "max": 16
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 8,
+                                "max": 16
+                            },
+                            "add": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:nether_star",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "advence_mobile_respawn": 1
+                                },
+                                "minecraft:custom_model_data": 724002,
+                                "custom_name": "[\"\",{\"text\":\"移動式重生信標\",\"italic\":false,\"color\":\"gold\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"尋找一個§b透天的地方§r後按下 \",\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後即可召喚\",\"color\":\"gray\"}]",
+                                    "{\"text\":\"請確保召喚點是淨空的！\",\"color\":\"dark_red\"}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:loyalty": 5
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.1
+                                },
+                                "minecraft:max_stack_size": 1
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:totem_of_undying",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:beetroot",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 20,
+                                    "saturation": 20,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.1,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:night_vision",
+                                                "amplifier": 0,
+                                                "duration": 1200
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:resistance",
+                                                "amplifier": 1,
+                                                "duration": 100
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:jump_boost",
+                                                "amplifier": 1,
+                                                "duration": 1200
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:absorption",
+                                                "amplifier": 2,
+                                                "duration": 1200
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:haste",
+                                                "amplifier": 3,
+                                                "duration": 1200
+                                            }
+                                        },
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:speed",
+                                                "amplifier": 1,
+                                                "duration": 1200
+                                            }
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_name": "[\"\",{\"text\":\"萬應白花葵油\",\"italic\":false,\"color\":\"gold\"}]"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wolf_armor",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:unbreaking": 1,
+                                    "cursefight:generic/wolf/hardness": 1
+                                },
+                                "minecraft:custom_name": "[\"\",{\"text\":\"強化狼鎧\",\"italic\":false,\"color\":\"light_purple\"}]"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_horse_armor",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "id": "0-1-0-2-0",
+                                            "type": "minecraft:generic.armor",
+                                            "amount": 20,
+                                            "operation": "add_value",
+                                            "slot": "armor"
+                                        },
+                                        {
+                                            "id": "0-1-0-2-1",
+                                            "type": "minecraft:generic.movement_speed",
+                                            "amount": 0.2,
+                                            "operation": "add_value",
+                                            "slot": "armor"
+                                        },
+                                        {
+                                            "id": "0-1-0-2-2",
+                                            "type": "minecraft:generic.fall_damage_multiplier",
+                                            "amount": -1,
+                                            "operation": "add_multiplied_base"
+                                        },
+                                        {
+                                            "id": "0-1-0-2-3",
+                                            "type": "minecraft:generic.step_height",
+                                            "amount": 1,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_name": "[\"\",{\"text\":\"強化馬鎧\",\"italic\":false,\"color\":\"aqua\"}]"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_axe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:sharpness": 4,
+                                    "minecraft:efficiency": 10,
+                                    "minecraft:unbreaking": 10,
+                                    "minecraft:loyalty": 10,
+                                    "minecraft:silk_touch": 1,
+                                    "minecraft:fortune": 3,
+                                    "minecraft:knockback": 4,
+                                    "minecraft:vanishing_curse": 1
+                                },
+                                "minecraft:custom_name": "[\"\",{\"text\":\"戰斧\",\"italic\":false,\"color\":\"dark_red\"}]",
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "id": "0-0-3-1-3",
+                                            "type": "minecraft:generic.attack_damage",
+                                            "amount": 10,
+                                            "operation": "add_value",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "0-0-3-1-4",
+                                            "type": "minecraft:generic.attack_speed",
+                                            "amount": -3.6,
+                                            "operation": "add_value",
+                                            "slot": "mainhand"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:mace",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "[\"\",{\"text\":\"致命的一擊\",\"italic\":false,\"color\":\"gold\"}]",
+                                "minecraft:enchantments": {
+                                    "cursefight:generic/curse/breaking": 200,
+                                    "minecraft:vanishing_curse": 1
+                                },
+                                "minecraft:repair_cost": 100
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:elytra",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "[\"\",{\"text\":\"受到蠹蝕的翅膀\",\"italic\":false,\"color\":\"gray\"}]",
+                                "minecraft:enchantments": {
+                                    "minecraft:vanishing_curse": 1,
+                                    "minecraft:unbreaking": 3
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:silence_armor_trim_smithing_template",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "[\"\",{\"text\":\"詛咒召喚 - 喚魔者\",\"italic\":false,\"color\":\"dark_gray\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"似乎喜歡上你身上的詛咒氣息，決定為你現身一戰\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"\"}]"
+                                ],
+                                "minecraft:custom_model_data": 724501,
+                                "minecraft:custom_data": {
+                                    "evoker": 1
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.1
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "[\"\",{\"text\":\"黑帝斯之冠\",\"italic\":false,\"color\":\"yellow\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"生與死的仲裁者，冥王星的象徵，凡人見到他都因恐懼而顫抖\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"\"}]",
+                                    "[\"\",{\"text\":\"受到玩家攻擊時有小機率召喚一隻凋零骷髏為你戰鬥\",\"italic\":false,\"color\":\"green\"}]"
+                                ],
+                                "minecraft:custom_model_data": 724502,
+                                "minecraft:custom_data": {
+                                    "dark_summon": 1
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 3,
+                                    "minecraft:unbreaking": 3,
+                                    "cursefight:generic/armor/dark_summon": 1,
+                                    "minecraft:vanishing_curse": 1
+                                },
+                                "minecraft:trim": {
+                                    "material": "minecraft:gold",
+                                    "pattern": "minecraft:raiser"
+                                },
+                                "minecraft:unbreakable": {
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:repair_cost": 100
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "[\"\",{\"text\":\"巫妖斗篷\",\"italic\":false,\"color\":\"#8932B8\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"司掌死亡的魔物所配戴的斗篷，他的力量隨著靈魂留在了斗篷中\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"\"}]",
+                                    "[\"\",{\"text\":\"去除大部分的負面效果，無視玩家與苦力怕所造成的箭矢與爆炸傷害\",\"italic\":false,\"color\":\"green\"}]"
+                                ],
+                                "minecraft:custom_model_data": 724503,
+                                "minecraft:custom_data": {
+                                    "dark_protection": 1
+                                },
+                                "minecraft:trim": {
+                                    "material": "minecraft:netherite",
+                                    "pattern": "minecraft:silence"
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 3,
+                                    "minecraft:unbreaking": 10,
+                                    "cursefight:generic/armor/witch_protection": 1,
+                                    "minecraft:vanishing_curse": 1,
+                                    "minecraft:fire_protection": 20
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "id": "cursefight.armor.dark_protection.armor",
+                                            "type": "minecraft:generic.armor",
+                                            "amount": 7,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "id": "cursefight.armor.dark_protection.armor_effect",
+                                            "type": "minecraft:generic.armor_toughness",
+                                            "amount": 2,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                },
+                                "minecraft:dyed_color": {
+                                    "rgb": 8991416
+                                },
+                                "minecraft:unbreakable": {
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:repair_cost": 100
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:elytra",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "[\"\",{\"text\":\"聖光 ● 熾天使的六翼\",\"italic\":false,\"color\":\"gold\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"「讚頌吧！歌舞吧！歡喜吧！能和神明爭鬥的力量被你納為己有了！」\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"\"}]",
+                                    "[\"\",{\"text\":\"無視飛行撞擊傷害、體積減少20%\",\"italic\":false,\"color\":\"green\"}]"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 2,
+                                    "minecraft:vanishing_curse": 1,
+                                    "minecraft:unbreaking": 10,
+                                    "cursefight:generic/elytra/landing": 1
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "id": "cursefight.armor.dark_protection.armor",
+                                            "type": "minecraft:generic.armor",
+                                            "amount": 6,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "id": "cursefight.armor.dark_protection.armor_effect",
+                                            "type": "minecraft:generic.armor_toughness",
+                                            "amount": 2,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                },
+                                "minecraft:unbreakable": {
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:repair_cost": 100
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "[\"\",{\"text\":\"盛開 ● 藍薔薇追擊者\",\"italic\":false,\"color\":\"aqua\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"即使曾經作為刺客而被唾棄，不屈不撓的她依然用實力證明無人比她更適合「英雄」的稱號\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"\"}]",
+                                    "[\"\",{\"text\":\"攻擊到的所有生物將會賦予最高二級的凋零效果\",\"italic\":false,\"color\":\"green\"}]"
+                                ],
+                                "minecraft:custom_model_data": 724504,
+                                "minecraft:enchantments": {
+                                    "minecraft:unbreaking": 3,
+                                    "minecraft:looting": 3,
+                                    "minecraft:vanishing_curse": 1,
+                                    "cursefight:generic/sword/life_steal": 3,
+                                    "cursefight:generic/sword/wither_aspect": 1
+                                },
+                                "minecraft:unbreakable": {
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:repair_cost": 100
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_blue_banner",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:banner_patterns": [
+                                    {
+                                        "pattern": "minecraft:gradient",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "pattern": "minecraft:curly_border",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "pattern": "minecraft:cross",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "pattern": "minecraft:circle",
+                                        "color": "white"
+                                    },
+                                    {
+                                        "pattern": "minecraft:flower",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "pattern": "minecraft:triangle_top",
+                                        "color": "white"
+                                    }
+                                ],
+                                "minecraft:custom_name": "[\"\",{\"text\":\"荷米斯的傳承\",\"italic\":false,\"color\":\"aqua\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"「他們喊著友情啊羈絆啊未來啊什麼的就衝上來了」\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"\"}]",
+                                    "[\"\",{\"text\":\"快速按下 \",\"italic\":false,\"color\":\"green\"},{\"keybind\":\"key.sneak\",\"italic\":false,\"color\":\"gold\"},{\"text\":\" 三下後可戴上(頭上不能有任何裝備)，周圍十五格內的隊友將會獲得速度三\",\"italic\":false,\"color\":\"green\"}]"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 3,
+                                    "minecraft:sharpness": 3,
+                                    "minecraft:vanishing_curse": 1,
+                                    "cursefight:generic/banner/team_speed": 1
+                                },
+                                "minecraft:unbreakable": {
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.6
+                }
+            ]
+        }
+    ],
+    "random_sequence": "cursefight:airdrop/main"
+}

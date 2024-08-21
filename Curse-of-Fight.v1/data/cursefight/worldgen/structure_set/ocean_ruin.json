@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cursefight:ocean_ruin",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 162653070,
+		"separation": 10, 
+		"spacing": 20
+	}
+}

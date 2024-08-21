@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:silence_armor_trim_smithing_template",
+                    "components": {
+                        "minecraft:custom_model_data": 724501,
+                        "minecraft:custom_data": {
+                            "evoker":1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight:tools/evoker"
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"replace": true,
+	"values": [
+		"minecraft:sharpness",
+		"minecraft:knockback",
+		"minecraft:fire_aspect",
+		"minecraft:looting",
+		"minecraft:sweeping_edge",
+		"cursefight:generic/sword/xp_boost",
+		"cursefight:generic/sword/life_steal",
+		"cursefight:generic/sword/hostile_nemesis"
+	]
+}

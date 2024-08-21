@@ -1,0 +1,44 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:other/clay_pond",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.5,
+          "feature": {
+            "feature": "arboria:other/small_clay_pond",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "noise_factor": 2.0,
+      "noise_offset": 0.0,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 10
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

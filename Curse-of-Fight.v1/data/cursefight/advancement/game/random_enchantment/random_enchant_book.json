@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:book",
+                    "components": {
+                        "minecraft:custom_data": {
+                            "enchant_random": 1,
+                            "random": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight:game/generic/recipe/enchant_book/random"
+    }
+}

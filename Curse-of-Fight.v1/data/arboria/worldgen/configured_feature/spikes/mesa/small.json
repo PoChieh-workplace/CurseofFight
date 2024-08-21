@@ -1,0 +1,624 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "to_place": {
+                      "state": {
+                        "Name": "minecraft:packed_mud"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    }
+                  },
+                  "type": "minecraft:simple_block"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:air",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": 160,
+                      "max_inclusive": 192
+                    },
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": 0,
+                      "max_inclusive": 2
+                    },
+                    "y_spread": 0,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": -2,
+                      "max_inclusive": 0
+                    },
+                    "y_spread": 0,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+                    "type": "minecraft:heightmap"
+                  },
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:air",
+                            "offset": [
+                              1,
+                              -4,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:air",
+                            "offset": [
+                              0,
+                              -4,
+                              1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:air",
+                            "offset": [
+                              -1,
+                              -4,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:air",
+                            "offset": [
+                              0,
+                              -4,
+                              -1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:spikes/mesa/disk",
+                "placement": [
+                  {
+                    "count": 24,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:packed_mud",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+                    "type": "minecraft:heightmap"
+                  },
+                  {
+                    "direction_of_search": "up",
+                    "max_steps": 32,
+                    "target_condition": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:packed_mud",
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:packed_mud",
+                            "offset": [
+                              1,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:packed_mud",
+                            "offset": [
+                              1,
+                              0,
+                              1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:packed_mud",
+                            "offset": [
+                              0,
+                              0,
+                              1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:packed_mud",
+                            "offset": [
+                              -1,
+                              0,
+                              1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:packed_mud",
+                            "offset": [
+                              -1,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:packed_mud",
+                            "offset": [
+                              -1,
+                              0,
+                              -1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:packed_mud",
+                            "offset": [
+                              0,
+                              0,
+                              -1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "minecraft:packed_mud",
+                            "offset": [
+                              1,
+                              0,
+                              -1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:environment_scan"
+                  },
+                  {
+                    "direction_of_search": "down",
+                    "max_steps": 32,
+                    "target_condition": {
+                      "predicates": [
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            0,
+                            -15,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            1,
+                            0,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            0,
+                            0,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            -1,
+                            0,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            -1,
+                            0,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            -1,
+                            0,
+                            -1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            0,
+                            0,
+                            -1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            1,
+                            0,
+                            -1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:any_of"
+                    },
+                    "type": "minecraft:environment_scan"
+                  },
+                  {
+                    "direction_of_search": "down",
+                    "max_steps": 20,
+                    "target_condition": {
+                      "predicates": [
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            1,
+                            0,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            0,
+                            0,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            -1,
+                            0,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            -1,
+                            0,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            -1,
+                            0,
+                            -1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            0,
+                            0,
+                            -1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            1,
+                            0,
+                            -1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:any_of"
+                    },
+                    "type": "minecraft:environment_scan"
+                  },
+                  {
+                    "count": 4,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            1,
+                            0,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            0,
+                            0,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            -1,
+                            0,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            -1,
+                            0,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            -1,
+                            0,
+                            -1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            0,
+                            0,
+                            -1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:packed_mud",
+                          "offset": [
+                            1,
+                            0,
+                            -1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:any_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "half_height": 4,
+                    "radius": 4,
+                    "state_provider": {
+                      "fallback": {
+                        "state": {
+                          "Name": "minecraft:terracotta"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
+                      "rules": []
+                    },
+                    "target": {
+                      "blocks": "minecraft:packed_mud",
+                      "type": "minecraft:matching_blocks"
+                    }
+                  },
+                  "type": "minecraft:disk"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "#arboria:terracotta",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "xz_spread": 0,
+                    "y_spread": -4,
+                    "type": "minecraft:random_offset"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:terracotta",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    2,
+                    -3,
+                    2
+                  ],
+                  "type": "minecraft:solid"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    2,
+                    2,
+                    2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    -2,
+                    -3,
+                    2
+                  ],
+                  "type": "minecraft:solid"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    -2,
+                    2,
+                    2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    -2,
+                    -3,
+                    -2
+                  ],
+                  "type": "minecraft:solid"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    -2,
+                    2,
+                    -2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    2,
+                    -3,
+                    -2
+                  ],
+                  "type": "minecraft:solid"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    2,
+                    2,
+                    -2
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 48,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

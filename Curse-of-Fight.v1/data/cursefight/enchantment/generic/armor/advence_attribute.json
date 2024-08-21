@@ -1,0 +1,42 @@
+{
+	"anvil_cost": 100,
+	"description": {
+		"translate": "enchantment.cursefight.advence_attribute"
+	},
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "cursefight.mob_armor.scale",
+				"attribute": "minecraft:generic.scale",
+				"amount": -0.5,
+				"operation": "add_multiplied_base"
+			},
+			{
+				"id": "cursefight.mob_armor.movement",
+				"attribute": "minecraft:generic.movement_speed",
+				"amount": 0.2,
+				"operation": "add_value"
+			},
+			{
+				"id": "cursefight.mob_armor.water_movement",
+				"attribute": "minecraft:generic.water_movement_efficiency",
+				"amount": 1,
+				"operation": "add_value"
+			}
+		]
+	},
+	"max_cost": {
+		"base": 300,
+		"per_level_above_first": 1
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 200,
+		"per_level_above_first": 1
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#minecraft:head_armor",
+	"weight": 1
+}

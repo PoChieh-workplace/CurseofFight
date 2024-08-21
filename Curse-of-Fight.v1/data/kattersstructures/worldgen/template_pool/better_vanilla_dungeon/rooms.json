@@ -1,0 +1,70 @@
+{
+    "name": "kattersstructures:better_vanilla_dungeon/rooms",
+    "fallback": "kattersstructures:better_vanilla_dungeon_empty",
+    "elements": [{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/room/better_vanilla_dungeon_room_01"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/room/better_vanilla_dungeon_room_02"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/room/better_vanilla_dungeon_room_03"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/room/better_vanilla_dungeon_room_04"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/room/better_vanilla_dungeon_room_05"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/room/better_vanilla_dungeon_room_06"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/room/better_vanilla_dungeon_room_07"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/room/better_vanilla_dungeon_room_08"
+        }
+    }
+]
+}

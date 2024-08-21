@@ -1,0 +1,104 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": "arboria:spruce_bush/4",
+                "placement": [
+                  {
+                    "predicate": {
+                      "type": "minecraft:replaceable"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:snowy_spruce/snow_disk/3",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:spruce_log",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "direction_of_search": "up",
+                    "max_steps": 6,
+                    "target_condition": {
+                      "predicate": {
+                        "blocks": [
+                          "minecraft:spruce_log",
+                          "minecraft:spruce_leaves"
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:environment_scan"
+                  },
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "blocks": "minecraft:snow",
+                        "type": "minecraft:matching_blocks"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "xz_spread": 0,
+                    "y_spread": -4,
+                    "type": "minecraft:random_offset"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:snowy_spruce/snowy_grass/3",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:spruce_log",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "xz_spread": 0,
+                    "y_spread": -1,
+                    "type": "minecraft:random_offset"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "state": {
+                "Name": "minecraft:spruce_sapling",
+                "Properties": {
+                  "stage": "0"
+                }
+              },
+              "type": "minecraft:would_survive"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 48,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

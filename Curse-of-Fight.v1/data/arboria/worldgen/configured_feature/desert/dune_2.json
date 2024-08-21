@@ -1,0 +1,120 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "blocks": {
+              "alternate_inner_layer_provider": {
+                "state": {
+                  "Name": "minecraft:sand"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "cannot_replace": "#arboria:desert/irreplaceable_1",
+              "filling_provider": {
+                "state": {
+                  "Name": "minecraft:sand"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "inner_layer_provider": {
+                "state": {
+                  "Name": "minecraft:sand"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "inner_placements": [
+                {
+                  "Name": "minecraft:sand"
+                }
+              ],
+              "invalid_blocks": "#minecraft:features_cannot_replace",
+              "middle_layer_provider": {
+                "state": {
+                  "Name": "minecraft:sand"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "outer_layer_provider": {
+                "state": {
+                  "Name": "minecraft:sand"
+                },
+                "type": "minecraft:simple_state_provider"
+              }
+            },
+            "crack": {
+              "base_crack_size": 0.0,
+              "crack_point_offset": 0,
+              "generate_crack_chance": 0.0
+            },
+            "distribution_points": 0,
+            "invalid_blocks_threshold": 1028,
+            "layers": {
+              "filling": 8.15,
+              "inner_layer": 8.5,
+              "middle_layer": 8.75,
+              "outer_layer": 9.0
+            },
+            "min_gen_offset": -16,
+            "max_gen_offset": 16,
+            "noise_multiplier": 0.01,
+            "outer_wall_distance": 0,
+            "placements_require_layer0_alternate": true,
+            "point_offset": 1,
+            "use_alternate_layer0_chance": 0.0,
+            "use_potential_placements_chance": 0.0
+          },
+          "type": "minecraft:geode"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:air",
+              "offset": [
+                0,
+                5,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "xz_spread": 5,
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "heightmap": "OCEAN_FLOOR_WG",
+            "min_inclusive": -2,
+            "max_inclusive": 2,
+            "type": "minecraft:surface_relative_threshold_filter"
+          },
+          {
+            "xz_spread": -10,
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "heightmap": "OCEAN_FLOOR_WG",
+            "min_inclusive": -2,
+            "max_inclusive": 2,
+            "type": "minecraft:surface_relative_threshold_filter"
+          },
+          {
+            "xz_spread": 5,
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "xz_spread": -2,
+            "y_spread": -9,
+            "type": "minecraft:random_offset"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

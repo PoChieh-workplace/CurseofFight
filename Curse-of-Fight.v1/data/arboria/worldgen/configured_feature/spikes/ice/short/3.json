@@ -1,0 +1,91 @@
+{
+  "config": {
+    "feature": {
+      "feature": {
+        "config": {
+          "allowed_placement": {
+            "predicates": [
+              {
+                "blocks": "minecraft:packed_ice",
+                "offset": [
+                  1,
+                  0,
+                  0
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              {
+                "blocks": "minecraft:packed_ice",
+                "offset": [
+                  0,
+                  0,
+                  1
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              {
+                "blocks": "minecraft:packed_ice",
+                "offset": [
+                  -1,
+                  0,
+                  0
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              {
+                "blocks": "minecraft:packed_ice",
+                "offset": [
+                  0,
+                  0,
+                  -1
+                ],
+                "type": "minecraft:matching_blocks"
+              }
+            ],
+            "type": "minecraft:any_of"
+          },
+          "direction": "up",
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "provider": {
+                "state": {
+                  "Name": "minecraft:ice"
+                },
+                "type": "minecraft:simple_state_provider"
+              }
+            }
+          ],
+          "prioritize_tip": false
+        },
+        "type": "minecraft:block_column"
+      },
+      "placement": [
+        {
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "type": "minecraft:heightmap"
+        },
+        {
+          "predicate": {
+            "blocks": "minecraft:packed_ice",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          "type": "minecraft:block_predicate_filter"
+        }
+      ]
+    },
+    "tries": 6,
+    "xz_spread": 3,
+    "y_spread": 0
+  },
+  "type": "minecraft:random_patch"
+}

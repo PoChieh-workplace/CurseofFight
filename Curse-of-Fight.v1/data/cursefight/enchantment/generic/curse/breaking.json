@@ -1,0 +1,68 @@
+{
+    "description": {
+        "translate": "enchantment.cursefight.breaking"
+    },
+    "supported_items": "#minecraft:enchantable/vanishing",
+    "primary_items": "#minecraft:enchantable/vanishing",
+    "weight": 3,
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 15
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 15
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "any"
+    ],
+    "effects": {
+        "minecraft:item_damage": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:fraction",
+                        "numerator": {
+                            "type": "minecraft:linear",
+                            "base": 2,
+                            "per_level_above_first": 4
+                        },
+                        "denominator": 1
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "items": "#minecraft:enchantable/armor"
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:fraction",
+                        "numerator": {
+                            "type": "minecraft:linear",
+                            "base": 1,
+                            "per_level_above_first": 3.5
+                        },
+                        "denominator": 1
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "#minecraft:enchantable/armor"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

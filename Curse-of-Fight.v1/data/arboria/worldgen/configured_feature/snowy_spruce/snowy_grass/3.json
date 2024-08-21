@@ -1,0 +1,56 @@
+{
+  "config": {
+    "half_height": 4,
+    "radius": 3,
+    "state_provider": {
+      "fallback": {
+        "state": {
+          "Name": "minecraft:grass_block",
+          "Properties": {
+            "snowy": "true"
+          }
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "rules": [
+        {
+          "if_true": {
+            "blocks": "minecraft:podzol",
+            "type": "minecraft:matching_blocks"
+          },
+          "then": {
+            "state": {
+              "Name": "minecraft:podzol",
+              "Properties": {
+                "snowy": "true"
+              }
+            },
+            "type": "minecraft:simple_state_provider"
+          }
+        }
+      ]
+    },
+    "target": {
+      "predicates": [
+        {
+          "blocks": [
+            "minecraft:grass_block",
+            "minecraft:podzol"
+          ],
+          "type": "minecraft:matching_blocks"
+        },
+        {
+          "blocks": "minecraft:snow",
+          "offset": [
+            0,
+            1,
+            0
+          ],
+          "type": "minecraft:matching_blocks"
+        }
+      ],
+      "type": "minecraft:all_of"
+    }
+  },
+  "type": "minecraft:disk"
+}

@@ -1,0 +1,23 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "arboria:brown_mushroom_tree/branch/2_east",
+        "placement": []
+      },
+      {
+        "feature": "arboria:brown_mushroom_tree/branch/2_south",
+        "placement": []
+      },
+      {
+        "feature": "arboria:brown_mushroom_tree/branch/2_west",
+        "placement": []
+      },
+      {
+        "feature": "arboria:brown_mushroom_tree/branch/2_north",
+        "placement": []
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

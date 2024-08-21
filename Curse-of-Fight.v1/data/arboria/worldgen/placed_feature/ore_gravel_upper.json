@@ -1,0 +1,48 @@
+{
+  "feature": {
+    "config": {
+      "discard_chance_on_air_exposure": 0.0,
+      "size": 33,
+      "targets": [
+        {
+          "state": {
+            "Name": "minecraft:gravel"
+          },
+          "target": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "minecraft:stone_ore_replaceables"
+          }
+        }
+      ]
+    },
+    "type": "minecraft:ore"
+  },
+  "placement": [
+    {
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 10,
+        "max_inclusive": 11
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": 32
+        },
+        "max_inclusive": {
+          "below_top": 0
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

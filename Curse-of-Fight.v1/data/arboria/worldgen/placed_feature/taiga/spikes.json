@@ -1,0 +1,29 @@
+{
+  "feature": "arboria:spikes/rare/taiga",
+  "placement": [
+    {
+      "chance": 40,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "chance": 25,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 12
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "heightmap": "WORLD_SURFACE_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

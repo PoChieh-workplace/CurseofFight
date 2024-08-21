@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:nether_wart"
+                        },
+                        "offhand": {
+                            "items": [
+                                "minecraft:potion",
+                                "minecraft:splash_potion",
+                                "minecraft:lingering_potion"
+                            ],
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "boiled":1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight:item/potion/awkward_potion"
+    }
+}

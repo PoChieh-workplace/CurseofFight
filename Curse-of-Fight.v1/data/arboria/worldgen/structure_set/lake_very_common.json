@@ -1,0 +1,22 @@
+{
+  "placement": {
+    "salt": 56789012,
+    "separation": 5,
+    "spacing": 10,
+    "type": "minecraft:random_spread"
+  },
+  "structures": [
+    {
+      "structure": "arboria:lake_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_forest",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_jungle",
+      "weight": 1
+    }
+  ]
+}

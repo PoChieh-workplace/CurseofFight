@@ -1,0 +1,44 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:island/warm_ocean",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.25,
+          "feature": {
+            "feature": "arboria:island/lukewarm_ocean",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "chance": 25,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 10
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "noise_factor": 1280.0,
+      "noise_offset": 0.7,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

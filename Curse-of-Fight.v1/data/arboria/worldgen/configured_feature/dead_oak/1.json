@@ -1,0 +1,116 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "decorators": [],
+                    "dirt_provider": {
+                      "state": {
+                        "Name": "minecraft:rooted_dirt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "offset": 0,
+                      "radius": 0,
+                      "type": "minecraft:acacia_foliage_placer"
+                    },
+                    "foliage_provider": {
+                      "state": {
+                        "Name": "minecraft:air"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "force_dirt": false,
+                    "ignore_vines": true,
+                    "minimum_size": {
+                      "limit": 1,
+                      "lower_size": 0,
+                      "upper_size": 0,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "trunk_placer": {
+                      "base_height": 10,
+                      "height_rand_a": 3,
+                      "height_rand_b": 1,
+                      "type": "minecraft:fancy_trunk_placer"
+                    },
+                    "trunk_provider": {
+                      "entries": [
+                        {
+                          "data": {
+                            "Name": "minecraft:oak_log",
+                            "Properties": {
+                              "axis": "y"
+                            }
+                          },
+                          "weight": 5
+                        },
+                        {
+                          "data": {
+                            "Name": "minecraft:stripped_oak_log",
+                            "Properties": {
+                              "axis": "y"
+                            }
+                          },
+                          "weight": 3
+                        }
+                      ],
+                      "type": "minecraft:weighted_state_provider"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "type": "minecraft:replaceable"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:dead_oak/roots/1",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:oak_log",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "state": {
+                "Name": "minecraft:oak_sapling",
+                "Properties": {
+                  "stage": "0"
+                }
+              },
+              "type": "minecraft:would_survive"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 32,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

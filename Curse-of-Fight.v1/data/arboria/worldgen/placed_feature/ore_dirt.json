@@ -1,0 +1,44 @@
+{
+  "feature": {
+    "config": {
+      "discard_chance_on_air_exposure": 0.0,
+      "size": 33,
+      "targets": [
+        {
+          "state": {
+            "Name": "minecraft:dirt"
+          },
+          "target": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "minecraft:stone_ore_replaceables"
+          }
+        }
+      ]
+    },
+    "type": "minecraft:ore"
+  },
+  "placement": [
+    {
+      "count": 7,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 160
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+    "name": "kattersstructures:desert_dungeon/rooms",
+    "fallback": "kattersstructures:desert_dungeon_empty",
+    "elements": [{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:desert_dungeon/room/desert_dungeon_room_01"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:desert_dungeon/room/desert_dungeon_room_02"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:desert_dungeon/room/desert_dungeon_room_03"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:desert_dungeon/room/desert_dungeon_room_04"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:desert_dungeon/room/desert_dungeon_room_05"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:desert_dungeon/room/desert_dungeon_room_06"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:desert_dungeon/room/desert_dungeon_room_07"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:desert_dungeon/room/desert_dungeon_room_08"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:desert_dungeon/room/desert_dungeon_room_09"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:desert_dungeon/room/desert_dungeon_room_10"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:desert_dungeon/room/desert_dungeon_room_11"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:desert_dungeon/room/desert_dungeon_treasure_room"
+        }
+    }
+]
+}

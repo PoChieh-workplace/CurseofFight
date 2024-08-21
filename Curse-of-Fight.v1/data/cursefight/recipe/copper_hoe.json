@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "@@",
+        " l",
+        " l"
+    ],
+    "key": {
+        "@": {
+            "item": "minecraft:copper_ingot"
+        },
+        "l": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "minecraft:golden_hoe",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": 724034,
+            "minecraft:custom_data": {"copper_hoe":1},
+            "custom_name":"[\"\",{\"text\":\"銅鋤\",\"italic\":false,\"color\":\"gold\"}]",
+            "lore":["[\"\",{\"text\":\"用銅錠製造出的鋤頭，你將超級幸運，但高回報也需要高投資！\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "minecraft:enchantments": {
+                "minecraft:efficiency": 5,
+                "minecraft:fortune": 3
+            }
+        }
+    }
+}

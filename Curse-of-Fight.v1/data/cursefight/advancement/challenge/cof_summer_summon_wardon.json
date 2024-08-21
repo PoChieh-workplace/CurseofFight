@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text":"【你打我啊！笨蛋】",
+            "color":"aqua",
+            "bold":true
+        },
+        "description": {
+            "text":"比賽過程中召喚一隻伏守者 ( 20WB )",
+            "color":"gray"
+        },
+        "icon": {
+            "id": "minecraft:warden_spawn_egg"
+        },
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false,
+        "background":"minecraft:textures/block/netherite_block.png"
+        
+    },
+    "criteria": {
+        "join": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent":"cursefight:root"
+}

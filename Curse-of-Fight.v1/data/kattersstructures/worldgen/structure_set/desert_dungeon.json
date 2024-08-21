@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 75,
+        "separation": 30,
+        "salt": 21023121,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "kattersstructures:desert_dungeon",
+        "weight": 1
+    }]
+}

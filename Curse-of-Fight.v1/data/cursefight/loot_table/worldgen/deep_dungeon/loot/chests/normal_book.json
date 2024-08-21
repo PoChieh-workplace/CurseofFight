@@ -1,0 +1,80 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 10
+            },
+            "bonus_rolls": 10,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 7
+                            },
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 20
+                            },
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 40,
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "cursefight:worldgen/deep_dungeon/loot/chests/normal_book"
+}

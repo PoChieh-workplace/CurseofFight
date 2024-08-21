@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:redstone",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "blasted": 1
+                                }
+                            }
+                        },
+                        "offhand": {
+                            "items": [
+                                "minecraft:potion",
+                                "minecraft:splash_potion",
+                                "minecraft:lingering_potion"
+                            ],
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "potion": 1,
+                                    "water_breathing": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight:item/potion/enchanted/potion_water_breathing"
+    }
+}

@@ -1,0 +1,71 @@
+{
+  "feature": {
+    "config": {
+      "discard_chance_on_air_exposure": 0.1,
+      "size": 22,
+      "targets": [
+        {
+          "state": {
+            "Name": "minecraft:rooted_dirt"
+          },
+          "target": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "arboria:dirt"
+          }
+        }
+      ]
+    },
+    "type": "minecraft:ore"
+  },
+  "placement": [
+    {
+      "count": 2,
+      "type": "minecraft:count"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 12
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "noise_factor": 160.0,
+      "noise_offset": 0.475,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": -160.0,
+      "noise_offset": 0.475,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "WORLD_SURFACE_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "blocks": "#arboria:dirt",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "xz_spread": 0,
+      "y_spread": -1,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

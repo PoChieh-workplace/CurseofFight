@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aaa",
+        "aba",
+        "aaa"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:iron_ingot"
+        },
+        "b": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "minecraft:book",
+        "components": {
+            "minecraft:custom_data": {
+                "enchant_random": 1,
+                "bow": 1
+            },
+            "custom_name":"[\"\",{\"text\":\"隨機引導書 - 弓\",\"italic\":false,\"color\":\"gold\"}]",
+            "lore":["[\"\",{\"text\":\"使用後可以獲得可附在弓上的 15 等級隨機附魔，按下 \",\"italic\":false,\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後使用\",\"color\":\"gray\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "eat_seconds": 0.1,
+                "can_always_eat": true
+            }
+        }
+    }
+}

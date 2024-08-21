@@ -1,0 +1,23 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "arboria:palm/branch/2_jungle_east",
+        "placement": []
+      },
+      {
+        "feature": "arboria:palm/branch/2_jungle_south",
+        "placement": []
+      },
+      {
+        "feature": "arboria:palm/branch/2_jungle_west",
+        "placement": []
+      },
+      {
+        "feature": "arboria:palm/branch/2_jungle_north",
+        "placement": []
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

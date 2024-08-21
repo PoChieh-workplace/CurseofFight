@@ -1,0 +1,123 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 4,
+        "bonus_rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:bread",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:leather_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:leather_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:leather_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:quartz",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:leather",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:saddle",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

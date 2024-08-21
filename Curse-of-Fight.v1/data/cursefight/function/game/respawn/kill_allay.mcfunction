@@ -1,0 +1,1 @@
+kill @n[type=allay,tag=respawn_allay]

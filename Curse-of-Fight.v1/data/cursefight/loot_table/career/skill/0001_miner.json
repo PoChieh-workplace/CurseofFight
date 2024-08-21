@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {"text":"土之術 - 天坑","color":"gold","italic":false}
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "lore":["[{\"text\":\"按下\",\"italic\":false,\"color\":\"dark_purple\"},{\"keybind\":\"key.sneak\"},{\"text\":\"後，你將在前方挖掘一個垂直坑道！\",\"italic\":false,\"color\":\"dark_purple\"}]"],
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "career": 1,
+                                    "is_career":1
+                                },
+                                "minecraft:custom_model_data": 724901,
+                                "minecraft:enchantments": {
+                                    "minecraft:efficiency": 5
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

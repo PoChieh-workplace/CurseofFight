@@ -1,0 +1,46 @@
+{
+    "name": "kattersstructures:sky_dungeo/spawner",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/decor/spawner/sky_dungeo_spawner_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/decor/spawner/sky_dungeo_spawner_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/decor/spawner/sky_dungeo_spawner_03",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/decor/spawner/sky_dungeo_spawner_04",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/decor/spawner/sky_dungeo_spawner_05",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

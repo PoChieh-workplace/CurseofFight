@@ -1,0 +1,190 @@
+{
+  "config": {
+    "feature": {
+      "feature": {
+        "config": {
+          "default": {
+            "feature": {
+              "config": {
+                "to_place": {
+                  "entries": [
+                    {
+                      "data": {
+                        "Name": "minecraft:birch_wood",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      },
+                      "weight": 5
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:stripped_birch_wood",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      },
+                      "weight": 3
+                    }
+                  ],
+                  "type": "minecraft:weighted_state_provider"
+                }
+              },
+              "type": "minecraft:simple_block"
+            },
+            "placement": [
+              {
+                "predicate": {
+                  "predicates": [
+                    {
+                      "type": "minecraft:replaceable"
+                    },
+                    {
+                      "predicates": [
+                        {
+                          "blocks": "#arboria:dirt",
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": [
+                            "minecraft:birch_wood",
+                            "minecraft:stripped_birch_wood"
+                          ],
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:any_of"
+                    }
+                  ],
+                  "type": "minecraft:all_of"
+                },
+                "type": "minecraft:block_predicate_filter"
+              }
+            ]
+          },
+          "features": [
+            {
+              "chance": 0.15,
+              "feature": {
+                "feature": {
+                  "config": {
+                    "to_place": {
+                      "state": {
+                        "Name": "minecraft:moss_carpet"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    }
+                  },
+                  "type": "minecraft:simple_block"
+                },
+                "placement": [
+                  {
+                    "xz_spread": 0,
+                    "y_spread": 1,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "type": "minecraft:replaceable"
+                        },
+                        {
+                          "blocks": [
+                            "minecraft:birch_wood",
+                            "minecraft:stripped_birch_wood"
+                          ],
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "type": "minecraft:random_selector"
+      },
+      "placement": [
+        {
+          "predicate": {
+            "predicates": [
+              {
+                "blocks": [
+                  "minecraft:birch_log",
+                  "minecraft:stripped_birch_log"
+                ],
+                "offset": [
+                  1,
+                  1,
+                  0
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              {
+                "blocks": [
+                  "minecraft:birch_log",
+                  "minecraft:stripped_birch_log"
+                ],
+                "offset": [
+                  0,
+                  1,
+                  1
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              {
+                "blocks": [
+                  "minecraft:birch_log",
+                  "minecraft:stripped_birch_log"
+                ],
+                "offset": [
+                  -1,
+                  1,
+                  0
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              {
+                "blocks": [
+                  "minecraft:birch_log",
+                  "minecraft:stripped_birch_log"
+                ],
+                "offset": [
+                  0,
+                  1,
+                  -1
+                ],
+                "type": "minecraft:matching_blocks"
+              }
+            ],
+            "type": "minecraft:any_of"
+          },
+          "type": "minecraft:block_predicate_filter"
+        }
+      ]
+    },
+    "tries": 2,
+    "xz_spread": 1,
+    "y_spread": 1
+  },
+  "type": "minecraft:random_patch"
+}

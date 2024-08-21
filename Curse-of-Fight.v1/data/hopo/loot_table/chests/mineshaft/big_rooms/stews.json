@@ -1,0 +1,276 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 6,
+				"max": 7
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wither_rose"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pink_tulip",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poppy",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oxeye_daisy",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lily_of_the_valley",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cornflower",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blue_orchid",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:azure_bluet",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:allium",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "hopo:chests/mineshaft/abandoned_miners_stuff"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:night_vision",
+									"duration": {
+										"min": 20,
+										"max": 30
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:fire_resistance",
+									"duration": {
+										"min": 20,
+										"max": 30
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:blindness",
+									"duration": {
+										"min": 10,
+										"max": 15
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:weakness",
+									"duration": {
+										"min": 20,
+										"max": 30
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:regeneration",
+									"duration": {
+										"min": 20,
+										"max": 30
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:jump_boost",
+									"duration": {
+										"min": 20,
+										"max": 30
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:poison",
+									"duration": {
+										"min": 15,
+										"max": 20
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:wither",
+									"duration": {
+										"min": 20,
+										"max": 30
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

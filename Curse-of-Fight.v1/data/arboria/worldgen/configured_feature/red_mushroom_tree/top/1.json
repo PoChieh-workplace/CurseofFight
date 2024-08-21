@@ -1,0 +1,676 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "blocks": {
+                              "alternate_inner_layer_provider": {
+                                "state": {
+                                  "Name": "minecraft:black_glazed_terracotta",
+                                  "Properties": {
+                                    "facing": "east"
+                                  }
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              },
+                              "cannot_replace": "#arboria:mushroom/irreplaceable",
+                              "filling_provider": {
+                                "state": {
+                                  "Name": "minecraft:air"
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              },
+                              "inner_layer_provider": {
+                                "state": {
+                                  "Name": "minecraft:black_glazed_terracotta",
+                                  "Properties": {
+                                    "facing": "east"
+                                  }
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              },
+                              "inner_placements": [
+                                {
+                                  "Name": "minecraft:black_glazed_terracotta",
+                                  "Properties": {
+                                    "facing": "east"
+                                  }
+                                }
+                              ],
+                              "invalid_blocks": "#minecraft:features_cannot_replace",
+                              "middle_layer_provider": {
+                                "state": {
+                                  "Name": "minecraft:black_glazed_terracotta",
+                                  "Properties": {
+                                    "facing": "east"
+                                  }
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              },
+                              "outer_layer_provider": {
+                                "state": {
+                                  "Name": "minecraft:black_glazed_terracotta",
+                                  "Properties": {
+                                    "facing": "east"
+                                  }
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              }
+                            },
+                            "crack": {
+                              "base_crack_size": 1.0,
+                              "crack_point_offset": 2,
+                              "generate_crack_chance": 0.0
+                            },
+                            "distribution_points": 3,
+                            "invalid_blocks_threshold": 256,
+                            "layers": {
+                              "filling": 2.0,
+                              "inner_layer": 2.1,
+                              "middle_layer": 2.2,
+                              "outer_layer": 2.5
+                            },
+                            "min_gen_offset": -16,
+                            "max_gen_offset": 16,
+                            "noise_multiplier": 0.035,
+                            "outer_wall_distance": 2,
+                            "placements_require_layer0_alternate": true,
+                            "point_offset": 2,
+                            "use_alternate_layer0_chance": 0.0,
+                            "use_potential_placements_chance": 0.0
+                          },
+                          "type": "minecraft:geode"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicate": {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:black_glazed_terracotta",
+                                    "offset": [
+                                      0,
+                                      6,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:black_glazed_terracotta",
+                                    "offset": [
+                                      0,
+                                      7,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:black_glazed_terracotta",
+                                    "offset": [
+                                      0,
+                                      8,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:any_of"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "xz_spread": -2,
+                            "y_spread": 0,
+                            "type": "minecraft:random_offset"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "half_height": 3,
+                            "radius": 8,
+                            "state_provider": {
+                              "fallback": {
+                                "state": {
+                                  "Name": "minecraft:air"
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              },
+                              "rules": []
+                            },
+                            "target": {
+                              "blocks": "minecraft:black_glazed_terracotta",
+                              "type": "minecraft:matching_blocks"
+                            }
+                          },
+                          "type": "minecraft:disk"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "predicates": [
+                                    {
+                                      "blocks": "minecraft:black_glazed_terracotta",
+                                      "offset": [
+                                        0,
+                                        6,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    {
+                                      "blocks": "minecraft:black_glazed_terracotta",
+                                      "offset": [
+                                        0,
+                                        7,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    {
+                                      "blocks": "minecraft:black_glazed_terracotta",
+                                      "offset": [
+                                        0,
+                                        8,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    }
+                                  ],
+                                  "type": "minecraft:any_of"
+                                },
+                                {
+                                  "predicates": [
+                                    {
+                                      "blocks": "minecraft:black_glazed_terracotta",
+                                      "offset": [
+                                        0,
+                                        -2,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    {
+                                      "blocks": "minecraft:black_glazed_terracotta",
+                                      "offset": [
+                                        0,
+                                        -3,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    {
+                                      "blocks": "minecraft:black_glazed_terracotta",
+                                      "offset": [
+                                        0,
+                                        -4,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    }
+                                  ],
+                                  "type": "minecraft:any_of"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "xz_spread": 0,
+                            "y_spread": -2,
+                            "type": "minecraft:random_offset"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "predicates": [
+                              {
+                                "blocks": "minecraft:black_glazed_terracotta",
+                                "offset": [
+                                  0,
+                                  6,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              {
+                                "blocks": "minecraft:black_glazed_terracotta",
+                                "offset": [
+                                  0,
+                                  7,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              {
+                                "blocks": "minecraft:black_glazed_terracotta",
+                                "offset": [
+                                  0,
+                                  8,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              }
+                            ],
+                            "type": "minecraft:any_of"
+                          },
+                          {
+                            "predicates": [
+                              {
+                                "blocks": "minecraft:red_mushroom_block",
+                                "offset": [
+                                  0,
+                                  6,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              {
+                                "blocks": "minecraft:red_mushroom_block",
+                                "offset": [
+                                  0,
+                                  7,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              {
+                                "blocks": "minecraft:red_mushroom_block",
+                                "offset": [
+                                  0,
+                                  8,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              }
+                            ],
+                            "type": "minecraft:any_of"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 28,
+                    "type": "minecraft:count"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "half_height": 4,
+                            "radius": 8,
+                            "state_provider": {
+                              "fallback": {
+                                "state": {
+                                  "Name": "minecraft:red_mushroom_block",
+                                  "Properties": {
+                                    "down": "true",
+                                    "east": "true",
+                                    "north": "true",
+                                    "south": "true",
+                                    "up": "true",
+                                    "west": "true"
+                                  }
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              },
+                              "rules": []
+                            },
+                            "target": {
+                              "blocks": "minecraft:black_glazed_terracotta",
+                              "type": "minecraft:matching_blocks"
+                            }
+                          },
+                          "type": "minecraft:disk"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:black_glazed_terracotta",
+                                  "offset": [
+                                    0,
+                                    6,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:black_glazed_terracotta",
+                                  "offset": [
+                                    0,
+                                    7,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:black_glazed_terracotta",
+                                  "offset": [
+                                    0,
+                                    8,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:any_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "xz_spread": 0,
+                            "y_spread": 6,
+                            "type": "minecraft:random_offset"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "depth": 1,
+                            "extra_bottom_block_chance": 0.0,
+                            "extra_edge_column_chance": 0.0,
+                            "ground_state": {
+                              "state": {
+                                "Name": "minecraft:red_mushroom_block",
+                                "Properties": {
+                                  "down": "true",
+                                  "east": "true",
+                                  "north": "true",
+                                  "south": "true",
+                                  "up": "true",
+                                  "west": "true"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "replaceable": "#arboria:mushroom_blocks",
+                            "surface": "ceiling",
+                            "vegetation_chance": 1.0,
+                            "vegetation_feature": {
+                              "feature": {
+                                "config": {
+                                  "allowed_placement": {
+                                    "predicates": [
+                                      {
+                                        "blocks": "#arboria:mushroom_blocks",
+                                        "type": "minecraft:matching_blocks"
+                                      },
+                                      {
+                                        "type": "minecraft:replaceable"
+                                      }
+                                    ],
+                                    "type": "minecraft:any_of"
+                                  },
+                                  "direction": "down",
+                                  "layers": [
+                                    {
+                                      "height": 15,
+                                      "provider": {
+                                        "state": {
+                                          "Name": "minecraft:mushroom_stem",
+                                          "Properties": {
+                                            "down": "true",
+                                            "east": "true",
+                                            "north": "true",
+                                            "south": "true",
+                                            "up": "true",
+                                            "west": "true"
+                                          }
+                                        },
+                                        "type": "minecraft:simple_state_provider"
+                                      }
+                                    }
+                                  ],
+                                  "prioritize_tip": false
+                                },
+                                "type": "minecraft:block_column"
+                              },
+                              "placement": []
+                            },
+                            "vertical_range": 2,
+                            "xz_radius": 1
+                          },
+                          "type": "minecraft:vegetation_patch"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "predicates": [
+                                    {
+                                      "blocks": "minecraft:red_mushroom_block",
+                                      "offset": [
+                                        0,
+                                        6,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    {
+                                      "blocks": "minecraft:red_mushroom_block",
+                                      "offset": [
+                                        0,
+                                        7,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    {
+                                      "blocks": "minecraft:red_mushroom_block",
+                                      "offset": [
+                                        0,
+                                        8,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    }
+                                  ],
+                                  "type": "minecraft:any_of"
+                                },
+                                {
+                                  "predicate": {
+                                    "blocks": "minecraft:mushroom_stem",
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  "type": "minecraft:not"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "direction_of_search": "up",
+                            "max_steps": 10,
+                            "target_condition": {
+                              "blocks": "minecraft:red_mushroom_block",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:environment_scan"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "block": "minecraft:glow_lichen",
+                            "can_be_placed_on": "minecraft:mushroom_stem",
+                            "can_place_on_ceiling": false,
+                            "can_place_on_floor": false,
+                            "can_place_on_wall": true,
+                            "chance_of_spreading": 0.0,
+                            "search_range": 1
+                          },
+                          "type": "minecraft:multiface_growth"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": "minecraft:mushroom_stem",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "direction_of_search": "up",
+                            "max_steps": 10,
+                            "target_condition": {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:red_mushroom_block",
+                                  "offset": [
+                                    2,
+                                    1,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:red_mushroom_block",
+                                  "offset": [
+                                    0,
+                                    1,
+                                    2
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:red_mushroom_block",
+                                  "offset": [
+                                    -2,
+                                    1,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:red_mushroom_block",
+                                  "offset": [
+                                    0,
+                                    1,
+                                    -2
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:any_of"
+                            },
+                            "type": "minecraft:environment_scan"
+                          },
+                          {
+                            "count": 2,
+                            "type": "minecraft:count"
+                          },
+                          {
+                            "xz_spread": {
+                              "type": "minecraft:uniform",
+                              "min_inclusive": -2,
+                              "max_inclusive": 2
+                            },
+                            "y_spread": {
+                              "type": "minecraft:uniform",
+                              "min_inclusive": 0,
+                              "max_inclusive": 1
+                            },
+                            "type": "minecraft:random_offset"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": "minecraft:black_glazed_terracotta",
+                          "offset": [
+                            0,
+                            6,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:black_glazed_terracotta",
+                          "offset": [
+                            0,
+                            7,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:black_glazed_terracotta",
+                          "offset": [
+                            0,
+                            8,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:any_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 48,
+                    "type": "minecraft:count"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 28,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

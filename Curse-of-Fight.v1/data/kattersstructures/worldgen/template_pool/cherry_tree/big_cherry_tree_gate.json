@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:cherry_tree/big_cherry_tree_gate",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:cherry_tree/big_cherry_tree_gate",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

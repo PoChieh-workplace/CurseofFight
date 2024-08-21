@@ -1,0 +1,39 @@
+{
+  "feature": "arboria:fallen_tree/underwater/oak",
+  "placement": [
+    {
+      "chance": 3,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 12
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "heightmap": "OCEAN_FLOOR",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "max_water_depth": 7,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "predicate": {
+        "fluids": [
+          "minecraft:water",
+          "minecraft:flowing_water"
+        ],
+        "type": "minecraft:matching_fluids"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

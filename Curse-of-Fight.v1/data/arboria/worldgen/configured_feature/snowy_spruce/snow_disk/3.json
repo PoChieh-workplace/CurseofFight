@@ -1,0 +1,48 @@
+{
+  "config": {
+    "half_height": 4,
+    "radius": 3,
+    "state_provider": {
+      "fallback": {
+        "state": {
+          "Name": "minecraft:snow",
+          "Properties": {
+            "layers": "1"
+          }
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "rules": []
+    },
+    "target": {
+      "predicates": [
+        {
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        {
+          "predicate": {
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "type": "minecraft:replaceable"
+          },
+          "type": "minecraft:not"
+        },
+        {
+          "state": {
+            "Name": "minecraft:snow",
+            "Properties": {
+              "layers": "1"
+            }
+          },
+          "type": "minecraft:would_survive"
+        }
+      ],
+      "type": "minecraft:all_of"
+    }
+  },
+  "type": "minecraft:disk"
+}

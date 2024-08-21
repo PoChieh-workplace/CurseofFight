@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 200,
+        "separation": 150,
+        "salt": 42002121,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "kattersstructures:graveyard",
+        "weight": 1
+    }]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "cursefight:deep_dungeon/spawners/easy",
+    "fallback": "cursefight:deep_dungeon/spawners/easy",
+    "elements": [
+        {	
+            "weight": 3,
+            "element": {
+                "location": "cursefight:deep_dungeon/spawners/normal_spawner_x1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/spawners/normal_spawner_x4",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

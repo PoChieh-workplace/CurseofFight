@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 17,
+        "separation": 8,
+        "salt": 21000210,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "kattersstructures:village_jungle",
+        "weight": 1
+    }]
+}

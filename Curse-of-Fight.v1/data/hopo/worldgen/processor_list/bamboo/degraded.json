@@ -1,0 +1,748 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:candle",
+							"Properties": {
+								"candles": "1",
+								"lit": "true",
+								"waterlogged": "false"
+							}
+						},
+						"probability": 0.18
+					},
+					"output_state": {
+						"Name": "minecraft:green_candle",
+						"Properties": {
+							"candles": "2",
+							"lit": "true",
+							"waterlogged": "false"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:candle",
+							"Properties": {
+								"candles": "1",
+								"lit": "true",
+								"waterlogged": "false"
+							}
+						},
+						"probability": 0.12
+					},
+					"output_state": {
+						"Name": "minecraft:light_gray_candle",
+						"Properties": {
+							"candles": "2",
+							"lit": "true",
+							"waterlogged": "false"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:candle",
+							"Properties": {
+								"candles": "1",
+								"lit": "true",
+								"waterlogged": "false"
+							}
+						},
+						"probability": 0.12
+					},
+					"output_state": {
+						"Name": "minecraft:white_candle",
+						"Properties": {
+							"waterlogged": "false",
+							"lit": "true",
+							"candles": "2"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:barrel",
+						"Properties": {
+							"facing": "up"
+						}
+					},
+					"block_entity_modifier": {
+						"type": "minecraft:append_loot",
+						"loot_table": "hopo:chests/mineshaft/abandoned_miners_stuff"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0005
+					},
+					"output_state": {
+						"Name": "minecraft:raw_iron_block"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0005
+					},
+					"output_state": {
+						"Name": "minecraft:raw_gold_block"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0005
+					},
+					"output_state": {
+						"Name": "minecraft:raw_copper_block"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0005
+					},
+					"output_state": {
+						"Name": "minecraft:coal_block"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0005
+					},
+					"output_state": {
+						"Name": "minecraft:lava_cauldron"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0005
+					},
+					"output_state": {
+						"Name": "minecraft:water_cauldron"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.09
+					},
+					"output_state": {
+						"Name": "minecraft:moss_carpet"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0030
+					},
+					"output_state": {
+						"Name": "minecraft:damaged_anvil"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0044
+					},
+					"output_state": {
+						"Name": "minecraft:furnace"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:tnt"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:skeleton_skull",
+						"Properties": {
+							"rotation": "2"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:crafting_table"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:lantern"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:stonecutter"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:green_banner",
+						"Properties": {
+							"rotation": "13"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:bamboo_slab"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:brown_mushroom"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:red_mushroom"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:cobweb"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:glow_lichen",
+						"Properties": {
+							"down": "true",
+							"east": "false",
+							"north": "false",
+							"south": "false",
+							"up": "false",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:decorated_pot"
+					},
+					"block_entity_modifier": {
+						"type": "minecraft:append_loot",
+						"loot_table": "hopo:archaeology/mineshaft_remnants"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:flower_pot"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.0073
+					},
+					"output_state": {
+						"Name": "minecraft:green_candle",
+						"Properties": {
+							"candles": "3",
+							"waterlogged": "false",
+							"lit": "true"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.01
+					},
+					"output_state": {
+						"Name": "minecraft:mossy_cobblestone"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:deepslate"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.005
+					},
+					"output_state": {
+						"Name": "minecraft:infested_cobblestone"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.01
+					},
+					"output_state": {
+						"Name": "minecraft:cobblestone"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.0005
+					},
+					"output_state": {
+						"Name": "minecraft:barrel",
+						"Properties": {
+							"facing": "up",
+							"open": "false"
+						}
+					},
+					"block_entity_modifier": {
+						"type": "minecraft:append_loot",
+						"loot_table": "hopo:chests/mineshaft/abandoned_miners_stuff"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.03
+					},
+					"output_state": {
+						"Name": "minecraft:suspicious_gravel",
+						"Properties": {
+							"dusted": "0"
+						}
+					},
+					"block_entity_modifier": {
+						"type": "minecraft:append_loot",
+						"loot_table": "hopo:archaeology/mineshaft_remnants"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone",
+						"probability": 0.022
+					},
+					"output_state": {
+						"Name": "minecraft:gravel"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:jungle_planks",
+						"probability": 0.01
+					},
+					"output_state": {
+						"Name": "minecraft:lapis_ore"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:jungle_planks",
+						"probability": 0.005
+					},
+					"output_state": {
+						"Name": "minecraft:emerald_ore"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:jungle_planks"
+						},
+						"probability": 0.08
+					},
+					"output_state": {
+						"Name": "minecraft:bamboo_slab",
+						"Properties": {
+							"type": "bottom",
+							"waterlogged": "false"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:jungle_planks"
+						},
+						"probability": 0.03
+					},
+					"output_state": {
+						"Name": "minecraft:bamboo_block",
+						"Properties": {
+							"axis": "x"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:jungle_planks",
+						"probability": 0.95
+					},
+					"output_state": {
+						"Name": "minecraft:bamboo_planks"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:jungle_log",
+						"probability": 0.07
+					},
+					"output_state": {
+						"Name": "minecraft:cobweb"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:jungle_planks",
+						"probability": 0.06
+					},
+					"output_state": {
+						"Name": "minecraft:bamboo_trapdoor",
+						"Properties": {
+							"facing": "north",
+							"half": "top",
+							"open": "false",
+							"powered": "false",
+							"waterlogged": "false"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:jungle_planks",
+						"probability": 0.06
+					},
+					"output_state": {
+						"Name": "minecraft:bamboo_trapdoor",
+						"Properties": {
+							"facing": "east",
+							"half": "top",
+							"open": "false",
+							"powered": "false",
+							"waterlogged": "false"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:rail",
+						"probability": 0.4
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:cobweb",
+						"probability": 0.77
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:jungle_planks",
+						"probability": 0.18
+					},
+					"output_state": {
+						"Name": "minecraft:stone"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:jungle_log",
+							"Properties": {
+								"axis": "y"
+							}
+						},
+						"probability": 0.8
+					},
+					"output_state": {
+						"Name": "minecraft:bamboo_block",
+						"Properties": {
+							"axis": "y"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:jungle_fence",
+						"probability": 0.2
+					},
+					"output_state": {
+						"Name": "minecraft:bamboo_mosaic"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:jungle_log",
+						"probability": 0.27
+					},
+					"output_state": {
+						"Name": "minecraft:bamboo_mosaic"
+					}
+				}
+			]
+		}
+	]
+}

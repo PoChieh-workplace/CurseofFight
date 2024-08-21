@@ -1,0 +1,48 @@
+{
+  "feature": {
+    "config": {
+      "hole_count": 0,
+      "requires_block_below": true,
+      "rock_count": 5,
+      "state": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "falling": "true"
+        }
+      },
+      "valid_blocks": [
+        "minecraft:air",
+        "minecraft:mud",
+        "minecraft:grass_block",
+        "minecraft:dirt",
+        "minecraft:clay"
+      ]
+    },
+    "type": "minecraft:spring_feature"
+  },
+  "placement": [
+    {
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 0,
+        "max_inclusive": 3
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "xz_spread": 0,
+      "y_spread": -1,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

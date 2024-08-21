@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:feather"
+        },
+        "title": {
+            "text": "來自 MarmotK2 的遺志",
+            "color": "gold"
+        },
+        "description": {
+            "text": "受到大量的摔落傷害",
+            "color": "dark_red"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cursefight:wish",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "taken": {
+                        "min": 12,
+                        "max": 999
+                    },
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "minecraft:is_fall",
+                                "expected": true
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

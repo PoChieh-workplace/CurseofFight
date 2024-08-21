@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {"text":"【伊莉莎白 - 皇后】(輔助職業)","color":"aqua","italic":false}
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "cursefight:career/sniper/magic_arror":3,
+                                    "cursefight:career/sniper/accuracy_shot":1,
+                                    "minecraft:infinity":1
+                                },
+                                "minecraft:lore":[
+                                    "{\"text\": \"\u00A75出生於英國皇室的\", \"color\": \"white\", \"italic\": false}",
+                                    "{\"text\": \"\u00A7f道具：   \u00A7b狙擊槍( 無限、精準射擊、滲透III )\", \"color\": \"white\", \"italic\": false}",
+                                    "{\"text\": \"\u00A7f特色：   \u00A72挖掘緩速I、\u00A74、\u00A74不能使用盾(出血II)\",\"color\":\"dark_red\"}"
+                                ]
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {"career":2}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

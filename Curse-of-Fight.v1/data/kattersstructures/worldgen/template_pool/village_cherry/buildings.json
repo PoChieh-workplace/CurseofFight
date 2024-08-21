@@ -1,0 +1,50 @@
+{
+    "name": "kattersstructures:village_cherry/buildings",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/house/residence/house_long"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/house/residence/house_small"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/house/residence/house_small_2"
+        }
+    },{
+        "weight": 4,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/house/residence/house_tiny"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_cherry/house/residence/house_two_story"
+        }
+    }]
+}

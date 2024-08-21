@@ -1,0 +1,562 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "arboria:fallen_tree/mossy/oak/column_x",
+        "placement": [
+          {
+            "predicate": {
+              "type": "minecraft:replaceable"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": "arboria:fallen_tree/mossy/oak/column_x",
+                "placement": [
+                  {
+                    "predicate": {
+                      "type": "minecraft:replaceable"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": "arboria:fallen_tree/mossy/oak/column_x",
+                        "placement": [
+                          {
+                            "predicate": {
+                              "type": "minecraft:replaceable"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": "arboria:fallen_tree/mossy/oak/column_x",
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": [
+                                "minecraft:oak_log",
+                                "minecraft:stripped_oak_log",
+                                "minecraft:moss_carpet"
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "xz_spread": {
+                              "type": "minecraft:uniform",
+                              "min_inclusive": 0,
+                              "max_inclusive": 1
+                            },
+                            "y_spread": 0,
+                            "type": "minecraft:random_offset"
+                          },
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": [
+                                    "minecraft:oak_log",
+                                    "minecraft:stripped_oak_log",
+                                    "minecraft:moss_carpet"
+                                  ],
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "#arboria:dirt",
+                                  "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "type": "minecraft:replaceable"
+                                },
+                                {
+                                  "predicate": {
+                                    "blocks": [
+                                      "minecraft:oak_log",
+                                      "minecraft:stripped_oak_log",
+                                      "minecraft:moss_carpet"
+                                    ],
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  "type": "minecraft:not"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": [
+                        "minecraft:oak_log",
+                        "minecraft:stripped_oak_log",
+                        "minecraft:moss_carpet"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 40,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": 0,
+                      "max_inclusive": 1
+                    },
+                    "y_spread": 0,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": [
+                            "minecraft:oak_log",
+                            "minecraft:stripped_oak_log",
+                            "minecraft:moss_carpet"
+                          ],
+                          "offset": [
+                            -1,
+                            0,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "#arboria:dirt",
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "type": "minecraft:replaceable"
+                        },
+                        {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:oak_log",
+                              "minecraft:stripped_oak_log",
+                              "minecraft:moss_carpet"
+                            ],
+                            "offset": [
+                              -1,
+                              0,
+                              -1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 12,
+                    "type": "minecraft:count"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": [
+                "minecraft:oak_log",
+                "minecraft:stripped_oak_log",
+                "minecraft:moss_carpet"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 40,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 0,
+              "max_inclusive": 1
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": [
+                    "minecraft:oak_log",
+                    "minecraft:stripped_oak_log",
+                    "minecraft:moss_carpet"
+                  ],
+                  "offset": [
+                    -1,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:oak_log",
+                      "minecraft:stripped_oak_log",
+                      "minecraft:moss_carpet"
+                    ],
+                    "offset": [
+                      -1,
+                      0,
+                      -1
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:not"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 28,
+            "type": "minecraft:count"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": "arboria:fallen_tree/mossy/oak/column_x",
+                "placement": [
+                  {
+                    "predicate": {
+                      "type": "minecraft:replaceable"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": "arboria:fallen_tree/mossy/oak/column_x",
+                        "placement": [
+                          {
+                            "predicate": {
+                              "type": "minecraft:replaceable"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": "arboria:fallen_tree/mossy/oak/column_x",
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": [
+                                "minecraft:oak_log",
+                                "minecraft:stripped_oak_log",
+                                "minecraft:moss_carpet"
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "xz_spread": {
+                              "type": "minecraft:uniform",
+                              "min_inclusive": -1,
+                              "max_inclusive": 0
+                            },
+                            "y_spread": 0,
+                            "type": "minecraft:random_offset"
+                          },
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": [
+                                    "minecraft:oak_log",
+                                    "minecraft:stripped_oak_log",
+                                    "minecraft:moss_carpet"
+                                  ],
+                                  "offset": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "#arboria:dirt",
+                                  "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "type": "minecraft:replaceable"
+                                },
+                                {
+                                  "predicate": {
+                                    "blocks": [
+                                      "minecraft:oak_log",
+                                      "minecraft:stripped_oak_log",
+                                      "minecraft:moss_carpet"
+                                    ],
+                                    "offset": [
+                                      1,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  "type": "minecraft:not"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": [
+                        "minecraft:oak_log",
+                        "minecraft:stripped_oak_log",
+                        "minecraft:moss_carpet"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 40,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": -1,
+                      "max_inclusive": 0
+                    },
+                    "y_spread": 0,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": [
+                            "minecraft:oak_log",
+                            "minecraft:stripped_oak_log",
+                            "minecraft:moss_carpet"
+                          ],
+                          "offset": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "#arboria:dirt",
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "type": "minecraft:replaceable"
+                        },
+                        {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:oak_log",
+                              "minecraft:stripped_oak_log",
+                              "minecraft:moss_carpet"
+                            ],
+                            "offset": [
+                              1,
+                              0,
+                              1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 12,
+                    "type": "minecraft:count"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": [
+                "minecraft:oak_log",
+                "minecraft:stripped_oak_log",
+                "minecraft:moss_carpet"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 40,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -1,
+              "max_inclusive": 0
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": [
+                    "minecraft:oak_log",
+                    "minecraft:stripped_oak_log",
+                    "minecraft:moss_carpet"
+                  ],
+                  "offset": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:oak_log",
+                      "minecraft:stripped_oak_log",
+                      "minecraft:moss_carpet"
+                    ],
+                    "offset": [
+                      1,
+                      0,
+                      1
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:not"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 28,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

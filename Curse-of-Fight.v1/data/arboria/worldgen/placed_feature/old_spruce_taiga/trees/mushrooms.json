@@ -1,0 +1,228 @@
+{
+  "feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "arboria:mushroom/red_1_lichen",
+          "placement": [
+            {
+              "noise_factor": -22.0,
+              "noise_offset": -0.05,
+              "noise_to_count_ratio": -1,
+              "type": "minecraft:noise_based_count"
+            }
+          ]
+        },
+        {
+          "feature": "arboria:mushroom/brown_2_lichen",
+          "placement": [
+            {
+              "noise_factor": -22.0,
+              "noise_offset": 0.05,
+              "noise_to_count_ratio": 1,
+              "type": "minecraft:noise_based_count"
+            }
+          ]
+        }
+      ]
+    },
+    "type": "minecraft:simple_random_selector"
+  },
+  "placement": [
+    {
+      "chance": 5,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "blocks": "minecraft:spruce_leaves",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              1,
+              1,
+              0
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              1,
+              1,
+              1
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              0,
+              1,
+              1
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              -1,
+              1,
+              1
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              -1,
+              1,
+              0
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              -1,
+              1,
+              -1
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              0,
+              1,
+              -1
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              1,
+              1,
+              -1
+            ],
+            "type": "minecraft:replaceable"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "blocks": "minecraft:spruce_log",
+            "offset": [
+              4,
+              15,
+              0
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "blocks": "minecraft:spruce_log",
+            "offset": [
+              4,
+              15,
+              4
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "blocks": "minecraft:spruce_log",
+            "offset": [
+              0,
+              15,
+              4
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "blocks": "minecraft:spruce_log",
+            "offset": [
+              -4,
+              15,
+              4
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "blocks": "minecraft:spruce_log",
+            "offset": [
+              -4,
+              15,
+              0
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "blocks": "minecraft:spruce_log",
+            "offset": [
+              -4,
+              15,
+              -4
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "blocks": "minecraft:spruce_log",
+            "offset": [
+              0,
+              15,
+              -4
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "blocks": "minecraft:spruce_log",
+            "offset": [
+              4,
+              15,
+              -4
+            ],
+            "type": "minecraft:matching_blocks"
+          }
+        ],
+        "type": "minecraft:any_of"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "count": 28,
+      "type": "minecraft:count"
+    },
+    {
+      "predicate": {
+        "type": "minecraft:replaceable"
+      },
+      "type": "minecraft:block_predicate_filter"
+    }
+  ]
+}

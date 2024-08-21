@@ -1,0 +1,11 @@
+{
+	"replace": true,
+	"values": [
+		"minecraft:power",
+		"minecraft:punch",
+		"minecraft:flame",
+		"minecraft:infinity",
+		"cursefight:generic/curse/breaking",
+    	"minecraft:vanishing_curse"
+	]
+}

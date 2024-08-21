@@ -1,0 +1,70 @@
+{
+    "name": "kattersstructures:sky_dungeo/maze_extra",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/maze/decor/spawner/sky_dungeo_maze_spawner_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/maze/decor/spawner/sky_dungeo_maze_spawner_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/maze/decor/spawner/sky_dungeo_maze_spawner_03",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/maze/decor/spawner/sky_dungeo_maze_spawner_04",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/maze/decor/spawner/sky_dungeo_maze_spawner_05",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/maze/decor/spawner/sky_dungeo_maze_spawner_06",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 5,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/maze/decor/loot/sky_dungeo_maze_loot_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:sky_dungeo/maze/decor/loot/sky_dungeo_maze_loot_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

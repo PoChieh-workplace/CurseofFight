@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_helmet",
+                        "components": {
+                            "minecraft:custom_data": {"career":2}
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight:career/queen/clean_prop"
+    }
+}

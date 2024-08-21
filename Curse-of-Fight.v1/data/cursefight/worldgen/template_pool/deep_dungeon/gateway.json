@@ -1,0 +1,15 @@
+{
+    "name": "cursefight:deep_dungeon/gateway",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/gateway",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

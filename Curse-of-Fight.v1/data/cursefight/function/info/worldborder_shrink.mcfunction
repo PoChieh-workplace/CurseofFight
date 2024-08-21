@@ -1,0 +1,7 @@
+# setblock ~ ~ ~ oak_wall_sign[facing=south]{"is_waxed":true,"front_text":{"messages":['{"text":"","clickEvent":{"action":"run_command","value":"execute if entity @s[gamemode=creative] run function cursefight:info/worldborder_shrink"}}','{"text":"邊界縮小時間","bold":true,"clickEvent":{"action":"run_command","value":"tellraw @s[gamemode=!creative] [\\"\\",{\\"text\\":\\">> \\",\\"bold\\":true,\\"color\\":\\"gold\\"},{\\"text\\":\\"你沒有權限\\"},{\\"text\\":\\"操作\\",\\"color\\":\\"gold\\"}]"}}','{"score":{"name":"_worldborder_shrink_","objective":"info"},"color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"playsound entity.player.attack.sweep ambient @s"}}','{"text":"如不縮圈則無效","color":"gray","bold":true}']}}
+
+scoreboard players add _worldborder_shrink_ info 5
+execute if score _worldborder_shrink_ info matches 51.. run scoreboard players set _worldborder_shrink_ info 10
+
+particle minecraft:end_rod ~ ~ ~-0.3 0.1 0.1 0.1 0.3 10
+execute unless score _worldborder_shrink_ info matches 0 run data modify block ~ ~ ~ front_text.messages[2] set value '{"score":{"name":"_worldborder_shrink_","objective":"info"},"bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}'

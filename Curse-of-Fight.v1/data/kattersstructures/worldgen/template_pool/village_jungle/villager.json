@@ -1,0 +1,29 @@
+{
+    "name": "kattersstructures:village_jungle/villager",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 6,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/villager/villagers_jungle_unemployed"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/villager/villagers_jungle_nitwit"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/villager/villagers_jungle_baby"
+        }
+    }]
+}

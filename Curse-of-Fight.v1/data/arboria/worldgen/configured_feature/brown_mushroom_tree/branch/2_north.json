@@ -1,0 +1,368 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "to_place": {
+                      "state": {
+                        "Name": "minecraft:mushroom_stem",
+                        "Properties": {
+                          "down": "true",
+                          "east": "true",
+                          "north": "true",
+                          "south": "true",
+                          "up": "true",
+                          "west": "true"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    }
+                  },
+                  "type": "minecraft:simple_block"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:air",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "to_place": {
+                              "state": {
+                                "Name": "minecraft:mushroom_stem",
+                                "Properties": {
+                                  "down": "true",
+                                  "east": "true",
+                                  "north": "true",
+                                  "south": "true",
+                                  "up": "true",
+                                  "west": "true"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            }
+                          },
+                          "type": "minecraft:simple_block"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": "minecraft:air",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": "arboria:brown_mushroom_tree/branch/2_top",
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": "minecraft:mushroom_stem",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "count": 8,
+                            "type": "minecraft:count"
+                          },
+                          {
+                            "xz_spread": {
+                              "type": "minecraft:uniform",
+                              "min_inclusive": -1,
+                              "max_inclusive": 0
+                            },
+                            "y_spread": 1,
+                            "type": "minecraft:random_offset"
+                          },
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:air",
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:mushroom_stem",
+                                  "offset": [
+                                    0,
+                                    -1,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "predicate": {
+                                    "blocks": "minecraft:mushroom_stem",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  "type": "minecraft:not"
+                                },
+                                {
+                                  "blocks": "minecraft:air",
+                                  "offset": [
+                                    0,
+                                    -2,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:air",
+                                  "offset": [
+                                    1,
+                                    -1,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:air",
+                                  "offset": [
+                                    -1,
+                                    -1,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:mushroom_stem",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 8,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": -1,
+                      "max_inclusive": 0
+                    },
+                    "y_spread": 1,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": "minecraft:air",
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:mushroom_stem",
+                          "offset": [
+                            0,
+                            -1,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:air",
+                          "offset": [
+                            0,
+                            -2,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:air",
+                          "offset": [
+                            1,
+                            -1,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:air",
+                          "offset": [
+                            -1,
+                            -1,
+                            1
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 28,
+                    "type": "minecraft:count"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 24,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "distribution": [
+                {
+                  "data": 0,
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": -3,
+                    "max_inclusive": -2
+                  },
+                  "weight": 1
+                }
+              ],
+              "type": "minecraft:weighted_list"
+            },
+            "y_spread": -1,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:mushroom_stem",
+                  "offset": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:mushroom_stem",
+                  "offset": [
+                    0,
+                    -3,
+                    1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    0,
+                    -1,
+                    -1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    0,
+                    0,
+                    -1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    0,
+                    1,
+                    -1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    0,
+                    2,
+                    -1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    0,
+                    3,
+                    -1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "offset": [
+                    0,
+                    4,
+                    -1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:mushroom_stem",
+                  "offset": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 28,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

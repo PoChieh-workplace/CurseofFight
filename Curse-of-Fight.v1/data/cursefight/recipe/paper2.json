@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "l@",
+        "@l"
+    ],
+    "key": {
+        "@": [
+            {
+                "item": "minecraft:stripped_acacia_log"
+            },
+            {
+                "item": "minecraft:stripped_birch_log"
+            },
+            {
+                "item": "minecraft:stripped_cherry_log"
+            },
+            {
+                "item": "minecraft:stripped_dark_oak_log"
+            },
+            {
+                "item": "minecraft:stripped_jungle_log"
+            },
+            {
+                "item": "minecraft:stripped_mangrove_log"
+            },
+            {
+                "item": "minecraft:stripped_oak_log"
+            },
+            {
+                "item": "minecraft:stripped_spruce_log"
+            }
+        ],
+        "l": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "minecraft:paper",
+        "count": 3
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:grass_block",
+                        "components": {
+                            "minecraft:custom_data": {"career":0}
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight:career/steve/clean_prop"
+    }
+}

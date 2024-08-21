@@ -1,0 +1,27 @@
+{
+  "feature": "arboria:island/ocean",
+  "placement": [
+    {
+      "chance": 30,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 10
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "noise_factor": 1280.0,
+      "noise_offset": 0.7,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

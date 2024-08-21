@@ -1,0 +1,53 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:ocean/kelp/tall",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.25,
+          "feature": {
+            "feature": "arboria:ocean/kelp/short",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.8,
+          "feature": {
+            "feature": "arboria:ocean/kelp/medium",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 22,
+        "max_inclusive": 28
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "noise_factor": 120.0,
+      "noise_offset": 0.7,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "OCEAN_FLOOR",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

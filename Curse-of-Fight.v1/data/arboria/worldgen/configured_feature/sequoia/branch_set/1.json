@@ -1,0 +1,23 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "arboria:sequoia/branch/1_east",
+        "placement": []
+      },
+      {
+        "feature": "arboria:sequoia/branch/1_south",
+        "placement": []
+      },
+      {
+        "feature": "arboria:sequoia/branch/1_west",
+        "placement": []
+      },
+      {
+        "feature": "arboria:sequoia/branch/1_north",
+        "placement": []
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

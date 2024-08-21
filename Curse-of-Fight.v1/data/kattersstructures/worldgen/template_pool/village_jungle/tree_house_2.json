@@ -1,0 +1,29 @@
+{
+    "name": "kattersstructures:village_jungle/tree_house_2",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/main_tree/house_2/tree_house_2_clear"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/main_tree/house_2/tree_house_2_house_1"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/main_tree/house_2/tree_house_2_cartographer"
+        }
+    }]
+}

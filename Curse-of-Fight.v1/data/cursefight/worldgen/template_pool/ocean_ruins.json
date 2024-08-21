@@ -1,0 +1,15 @@
+{
+    "name":"cursefight:ocean_ruins",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "cursefight:ocean_ruins/ocean_ruin_1"
+            }
+        }
+    ]
+}

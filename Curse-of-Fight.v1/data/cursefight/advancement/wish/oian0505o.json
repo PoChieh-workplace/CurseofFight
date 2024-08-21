@@ -1,0 +1,47 @@
+{
+    "display": {
+        "title": {
+            "text": "來自 OIan0505O 的遺志",
+            "color": "gold"
+        },
+        "description": {
+            "text": "在鐘乳石洞窟被鐘乳石卡住並溺水",
+            "color": "dark_red"
+        },
+        "icon": {
+            "id": "minecraft:pointed_dripstone"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:dripstone_caves"
+                    },
+                    "stepping_on": {
+                        "block": {
+                            "blocks": "minecraft:pointed_dripstone"
+                        }
+                    }
+                },
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "minecraft:is_drowning",
+                                "expected": true
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "parent": "cursefight:wish"
+}

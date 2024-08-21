@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:automaticons/diamond/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:automaticons/diamond/shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:automaticons/diamond/pickaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:automaticons/diamond/hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "kattersstructures:automaticons/diamond/axe"
+        }
+      ]
+    }
+  ]
+}

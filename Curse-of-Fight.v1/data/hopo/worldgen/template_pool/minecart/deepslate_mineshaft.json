@@ -1,0 +1,96 @@
+{       
+    "name": "hopo:minecart/deepslate_mineshaft",
+    "fallback": "hopo:minecart/deepslate_mineshaft",
+    "elements": [
+        {
+            "weight": 50,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/deepslate/minecart/path_1",
+                "projection": "rigid",
+                "processors": "hopo:deepslate/minecart_degraded"
+            }
+        },
+        {
+            "weight": 50,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/deepslate/minecart/path_2",
+                "projection": "rigid",
+                "processors": "hopo:deepslate/minecart_degraded"
+            }
+        },
+        {
+            "weight": 50,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/deepslate/minecart/path_1_sculk",
+                "projection": "rigid",
+                "processors": "hopo:deepslate/minecart_degraded"
+            }
+        },
+        {
+            "weight": 50,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/deepslate/minecart/path_2_sculk",
+                "projection": "rigid",
+                "processors": "hopo:deepslate/minecart_degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/deepslate/minecart/path_1_down",
+                "projection": "rigid",
+                "processors": "hopo:deepslate/minecart_degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/deepslate/minecart/path_2_down",
+                "projection": "rigid",
+                "processors": "hopo:deepslate/minecart_degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/deepslate/minecart/path_1_down_sculk",
+                "projection": "rigid",
+                "processors": "hopo:deepslate/minecart_degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/deepslate/minecart/path_2_down_sculk",
+                "projection": "rigid",
+                "processors": "hopo:deepslate/minecart_degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/deepslate/minecart/connector_1",
+                "projection": "rigid",
+                "processors": "hopo:deepslate/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/deepslate/minecart/connector_2",
+                "projection": "rigid",
+                "processors": "hopo:deepslate/degraded"
+            }
+        }
+    ]
+}

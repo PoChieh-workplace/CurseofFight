@@ -1,0 +1,132 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 15,
+                "max": 30
+            },
+            "bonus_rolls": 10,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cooked_chicken",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:nether_wart",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cooked_beef",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cooked_salmon",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cooked_cod",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:milk_bucket",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_carrot",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bread",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glow_berries",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 2,
+                                    "saturation": 2,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 2,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:regeneration",
+                                                "amplifier": 0,
+                                                "duration": 60
+                                            }
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_name": "[\"\",{\"text\":\"小甜點\",\"italic\":false,\"color\":\"red\"}]"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cookie",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 2,
+                                    "saturation": 2,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.5,
+                                    "effects": [
+                                        {
+                                            "effect": {
+                                                "id": "minecraft:absorption",
+                                                "amplifier": 0,
+                                                "duration": 12000
+                                            }
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_name": "[\"\",{\"text\":\"曲奇小餅乾\",\"italic\":false,\"color\":\"yellow\"}]"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cake",
+                    "weight": 3
+                }
+            ]
+        }
+    ],
+    "random_sequence": "cursefight:worldgen/deep_dungeon/loot/chests/normal_food"
+}

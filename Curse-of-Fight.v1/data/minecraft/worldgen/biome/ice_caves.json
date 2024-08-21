@@ -1,0 +1,230 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 12638463,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 8364543,
+    "water_color": 12440575,
+    "water_fog_color": 10329528
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:ore_packed_ice",
+      "minecraft:ore_blue_ice",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:ice_cave_floor",
+      "minecraft:ice_cave_floor2",
+      "minecraft:ice_cave_floor3",
+      "minecraft:ice_cave_floor4",
+      "minecraft:ice_cave_floor5",
+      "minecraft:ice_cave_floor6",
+      "minecraft:ice_cave_floor7",
+      "minecraft:ice_cave_floor8",
+      "minecraft:ice_cave_floor9",
+      "minecraft:ice_cave_floor10",
+      "minecraft:ice_cave_floor11",
+      "minecraft:ice_cave_floor12",
+      "minecraft:ice_cave_floor13",
+      "minecraft:ice_cave_floor14",
+      "minecraft:ice_cave_floor15",
+      "minecraft:ice_cave_floor16",
+      "minecraft:ice_cave_floor17",
+      "minecraft:ice_cave_floor18",
+      "minecraft:ice_cave_floor19",
+      "minecraft:ice_cave_floor20",
+      "minecraft:ice_cave_floor21",
+      "minecraft:ice_cave_floor22",
+      "minecraft:ice_cave_floor23",
+      "minecraft:ice_cave_floor24",
+      "minecraft:ice_cave_floor25",
+      "minecraft:ice_cave_floor26",
+      "minecraft:ice_cave_floor27",
+      "minecraft:ice_cave_floor28",
+      "minecraft:ice_cave_floor29",
+      "minecraft:ice_cave_floor30",
+      "minecraft:ice_cave_floor31",
+      "minecraft:ice_cave_floor32",
+      "minecraft:ice_cave_floor33",
+      "minecraft:ice_cave_floor34",
+      "minecraft:ice_cave_floor35",
+      "minecraft:ice_cave_floor36",
+      "minecraft:ice_cave_floor37",
+      "minecraft:ice_cave_floor38",
+      "minecraft:ice_cave_floor39",
+      "minecraft:ice_cave_floor40",
+      "minecraft:ice_cave_floor41",
+      "minecraft:ice_cave_floor42",
+      "minecraft:ice_cave_floor43",
+      "minecraft:ice_cave_floor44",
+      "minecraft:ice_cave_floor45",
+      "minecraft:ice_cave_floor46",
+      "minecraft:ice_cave_floor47",
+      "minecraft:ice_cave_floor48",
+      "minecraft:ice_cave_floor49",
+      "minecraft:ice_cave_floor50",
+      "minecraft:icicle",
+      "minecraft:icicle2",
+      "minecraft:packed_icicle",
+      "minecraft:packed_icicle2",
+      "minecraft:pot_ice_cave"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:stray",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:creeper",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:witch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:drowned",
+        "maxCount": 6,
+        "minCount": 2,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:guardian",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": -0.8
+}

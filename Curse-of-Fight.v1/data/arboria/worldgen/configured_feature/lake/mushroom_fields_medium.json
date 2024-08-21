@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "arboria:lake/mushroom_fields_medium"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

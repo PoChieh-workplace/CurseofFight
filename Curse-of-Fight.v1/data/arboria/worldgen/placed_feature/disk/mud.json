@@ -1,0 +1,72 @@
+{
+  "feature": {
+    "config": {
+      "half_height": 1,
+      "radius": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      },
+      "state_provider": {
+        "fallback": {
+          "state": {
+            "Name": "minecraft:mud"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "rules": []
+      },
+      "target": {
+        "blocks": "#arboria:dirt",
+        "type": "minecraft:matching_blocks"
+      }
+    },
+    "type": "minecraft:disk"
+  },
+  "placement": [
+    {
+      "count": 3,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "OCEAN_FLOOR_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "fluids": [
+              "minecraft:water",
+              "minecraft:flowing_water"
+            ],
+            "type": "minecraft:matching_fluids"
+          },
+          {
+            "predicate": {
+              "fluids": [
+                "minecraft:water",
+                "minecraft:flowing_water"
+              ],
+              "offset": [
+                0,
+                2,
+                0
+              ],
+              "type": "minecraft:matching_fluids"
+            },
+            "type": "minecraft:not"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

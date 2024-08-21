@@ -1,0 +1,94 @@
+{
+  "feature": {
+    "config": {
+      "half_height": 3,
+      "radius": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      },
+      "state_provider": {
+        "fallback": {
+          "state": {
+            "Name": "minecraft:mud"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "rules": []
+      },
+      "target": {
+        "blocks": "#arboria:dirt",
+        "type": "minecraft:matching_blocks"
+      }
+    },
+    "type": "minecraft:disk"
+  },
+  "placement": [
+    {
+      "count": 192,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "WORLD_SURFACE_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "noise_factor": 200.0,
+      "noise_offset": -0.35,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": 60.0,
+      "noise_offset": 0.1,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": 60.0,
+      "noise_offset": -0.05,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "blocks": "#arboria:dirt",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "predicate": {
+              "blocks": "minecraft:mud",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:not"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "xz_spread": 0,
+      "y_spread": -1,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

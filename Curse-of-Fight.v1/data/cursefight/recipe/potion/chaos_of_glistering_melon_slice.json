@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:smithing_transform",
+    "category": "misc",
+    "template": {
+        "item": "minecraft:glistering_melon_slice"
+    },
+    "base": {
+        "item": "minecraft:emerald_block"
+    },
+    "addition": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "id": "minecraft:glistering_melon_slice",
+        "count": 3,
+        "components": {
+            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.chaos_of_glistering_melon_slice\",\"italic\":false,\"color\":\"green\"}]",
+            "minecraft:custom_data": {
+                "ingredient":1
+            }
+        }
+    }
+}

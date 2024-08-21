@@ -1,0 +1,150 @@
+{
+    "name": "cursefight:deep_dungeon/gates/gates",
+    "fallback": "cursefight:deep_dungeon/gates/walls_only",
+    "elements": [
+        {	
+            "weight": 10,
+            "element": {
+                "location": "cursefight:deep_dungeon/gates/room/room_gate_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 10,
+            "element": {
+                "location": "cursefight:deep_dungeon/gates/room/room_gate_2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/gates/room/boss_gate_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/gates/room/boss_gate_2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 20,
+            "element": {
+                "location": "cursefight:deep_dungeon/gates/sidewalk/sidewalk_gate_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "location": "cursefight:deep_dungeon/sidewalk/stright/sidewalk_stright_1",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 10,
+            "element": {
+                "location": "cursefight:deep_dungeon/sidewalk/corner/sidewalk_corner_1",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 10,
+            "element": {
+                "location": "cursefight:deep_dungeon/sidewalk/corner/sidewalk_corner_2",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 10,
+            "element": {
+                "location": "cursefight:deep_dungeon/sidewalk/stairs/stair_1",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 10,
+            "element": {
+                "location": "cursefight:deep_dungeon/sidewalk/stairs/stair_2",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 10,
+            "element": {
+                "location": "cursefight:deep_dungeon/sidewalk/walls/sidewalk_wall_1",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/sidewalk/walls/sidewalk_wall_2",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/sidewalk/walls/sidewalk_wall_3",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/sidewalk/walls/sidewalk_wall_4",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/sidewalk/walls/sidewalk_wall_5",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
+                "location": "cursefight:deep_dungeon/sidewalk/walls/sidewalk_wall_6",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

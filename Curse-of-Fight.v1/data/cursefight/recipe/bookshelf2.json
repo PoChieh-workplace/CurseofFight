@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " l ",
+        "l@l",
+        " l "
+    ],
+    "key": {
+        "@": {
+            "item": "minecraft:emerald"
+        },
+        "l": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "id": "minecraft:bookshelf",
+        "count": 1
+    }
+}

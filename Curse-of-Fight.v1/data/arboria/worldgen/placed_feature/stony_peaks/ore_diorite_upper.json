@@ -1,0 +1,42 @@
+{
+  "feature": "minecraft:ore_diorite",
+  "placement": [
+    {
+      "chance": 8,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": 64
+        },
+        "max_inclusive": {
+          "absolute": 128
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "predicate": {
+        "predicate": {
+          "blocks": "minecraft:air",
+          "offset": [
+            0,
+            10,
+            0
+          ],
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:not"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

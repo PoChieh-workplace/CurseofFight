@@ -1,0 +1,246 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "depth": 10,
+            "extra_bottom_block_chance": 0.0,
+            "extra_edge_column_chance": 0.0,
+            "ground_state": {
+              "state": {
+                "Name": "minecraft:smooth_basalt"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "replaceable": "#arboria:smooth_basalt",
+            "surface": "floor",
+            "vegetation_chance": 1.0,
+            "vegetation_feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Name": "minecraft:lava",
+                      "Properties": {
+                        "level": "0"
+                      }
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "xz_spread": 0,
+                  "y_spread": -1,
+                  "type": "minecraft:random_offset"
+                },
+                {
+                  "count": 2,
+                  "type": "minecraft:count"
+                },
+                {
+                  "direction_of_search": "down",
+                  "max_steps": 2,
+                  "target_condition": {
+                    "predicates": [
+                      {
+                        "predicate": {
+                          "blocks": "minecraft:lava",
+                          "type": "minecraft:matching_blocks"
+                        },
+                        "type": "minecraft:not"
+                      },
+                      {
+                        "blocks": [
+                          "minecraft:smooth_basalt",
+                          "minecraft:lava"
+                        ],
+                        "offset": [
+                          1,
+                          0,
+                          0
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      {
+                        "blocks": [
+                          "minecraft:smooth_basalt",
+                          "minecraft:lava"
+                        ],
+                        "offset": [
+                          1,
+                          0,
+                          1
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      {
+                        "blocks": [
+                          "minecraft:smooth_basalt",
+                          "minecraft:lava"
+                        ],
+                        "offset": [
+                          0,
+                          0,
+                          1
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      {
+                        "blocks": [
+                          "minecraft:smooth_basalt",
+                          "minecraft:lava"
+                        ],
+                        "offset": [
+                          -1,
+                          0,
+                          1
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      {
+                        "blocks": [
+                          "minecraft:smooth_basalt",
+                          "minecraft:lava"
+                        ],
+                        "offset": [
+                          -1,
+                          0,
+                          0
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      {
+                        "blocks": [
+                          "minecraft:smooth_basalt",
+                          "minecraft:lava"
+                        ],
+                        "offset": [
+                          -1,
+                          0,
+                          -1
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      {
+                        "blocks": [
+                          "minecraft:smooth_basalt",
+                          "minecraft:lava"
+                        ],
+                        "offset": [
+                          0,
+                          0,
+                          -1
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      {
+                        "blocks": [
+                          "minecraft:smooth_basalt",
+                          "minecraft:lava"
+                        ],
+                        "offset": [
+                          1,
+                          0,
+                          -1
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      {
+                        "blocks": "minecraft:smooth_basalt",
+                        "offset": [
+                          0,
+                          -1,
+                          0
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      {
+                        "predicate": {
+                          "blocks": "minecraft:smooth_basalt",
+                          "offset": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        "type": "minecraft:not"
+                      }
+                    ],
+                    "type": "minecraft:all_of"
+                  },
+                  "type": "minecraft:environment_scan"
+                }
+              ]
+            },
+            "vertical_range": 10,
+            "xz_radius": 16
+          },
+          "type": "minecraft:vegetation_patch"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicate": {
+                "blocks": "minecraft:lava",
+                "offset": [
+                  -5,
+                  -1,
+                  0
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "xz_spread": 5,
+            "y_spread": -1,
+            "type": "minecraft:random_offset"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "minecraft:lime_glazed_terracotta",
+                "Properties": {
+                  "facing": "east"
+                }
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:yellow_glazed_terracotta",
+              "offset": [
+                0,
+                10,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "xz_spread": 0,
+            "y_spread": 10,
+            "type": "minecraft:random_offset"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

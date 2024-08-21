@@ -1,0 +1,95 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 2,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"value": "hopo:chests/mineshaft/abandoned_miners_stuff"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:iron_hoe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:iron_hoe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.3
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:bone_meal",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:golden_carrot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:carrot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

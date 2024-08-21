@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aba",
+        " a ",
+        "aaa"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:iron_ingot"
+        },
+        "b": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "id": "minecraft:damaged_anvil"
+    }
+}

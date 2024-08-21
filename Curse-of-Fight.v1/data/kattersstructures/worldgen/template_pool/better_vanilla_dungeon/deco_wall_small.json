@@ -1,0 +1,30 @@
+{
+    "name": "kattersstructures:better_vanilla_dungeon/deco_wall_small",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/decor/wall_small/better_vanilla_dungeon_deco_wall_small_01"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/decor/wall_small/better_vanilla_dungeon_deco_wall_small_02"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/decor/wall_small/better_vanilla_dungeon_deco_wall_small_03"
+        }
+    }
+]
+}

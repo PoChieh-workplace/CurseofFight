@@ -1,0 +1,340 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "allowed_placement": {
+              "predicates": [
+                {
+                  "predicates": [
+                    {
+                      "fluids": [
+                        "minecraft:water",
+                        "minecraft:flowing_water"
+                      ],
+                      "type": "minecraft:matching_fluids"
+                    },
+                    {
+                      "type": "minecraft:solid"
+                    }
+                  ],
+                  "type": "minecraft:any_of"
+                },
+                {
+                  "predicates": [
+                    {
+                      "blocks": "#arboria:island/dead_coral",
+                      "offset": [
+                        1,
+                        3,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:island/dead_coral",
+                      "offset": [
+                        0,
+                        3,
+                        1
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:island/dead_coral",
+                      "offset": [
+                        -1,
+                        3,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:island/dead_coral",
+                      "offset": [
+                        0,
+                        3,
+                        -1
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:any_of"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "direction": "up",
+            "layers": [
+              {
+                "height": 50,
+                "provider": {
+                  "entries": [
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_brain_coral_block"
+                      },
+                      "weight": 1
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_bubble_coral_block"
+                      },
+                      "weight": 1
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_fire_coral_block"
+                      },
+                      "weight": 1
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_horn_coral_block"
+                      },
+                      "weight": 1
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_tube_coral_block"
+                      },
+                      "weight": 1
+                    }
+                  ],
+                  "type": "minecraft:weighted_state_provider"
+                }
+              }
+            ],
+            "prioritize_tip": false
+          },
+          "type": "minecraft:block_column"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "allowed_placement": {
+              "predicates": [
+                {
+                  "predicates": [
+                    {
+                      "fluids": [
+                        "minecraft:water",
+                        "minecraft:flowing_water"
+                      ],
+                      "type": "minecraft:matching_fluids"
+                    },
+                    {
+                      "type": "minecraft:solid"
+                    }
+                  ],
+                  "type": "minecraft:any_of"
+                },
+                {
+                  "predicates": [
+                    {
+                      "blocks": "#arboria:island/dead_coral",
+                      "offset": [
+                        1,
+                        4,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:island/dead_coral",
+                      "offset": [
+                        0,
+                        4,
+                        1
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:island/dead_coral",
+                      "offset": [
+                        -1,
+                        4,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:island/dead_coral",
+                      "offset": [
+                        0,
+                        4,
+                        -1
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:any_of"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "direction": "up",
+            "layers": [
+              {
+                "height": 50,
+                "provider": {
+                  "entries": [
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_brain_coral_block"
+                      },
+                      "weight": 1
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_bubble_coral_block"
+                      },
+                      "weight": 1
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_fire_coral_block"
+                      },
+                      "weight": 1
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_horn_coral_block"
+                      },
+                      "weight": 1
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_tube_coral_block"
+                      },
+                      "weight": 1
+                    }
+                  ],
+                  "type": "minecraft:weighted_state_provider"
+                }
+              }
+            ],
+            "prioritize_tip": false
+          },
+          "type": "minecraft:block_column"
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "config": {
+            "allowed_placement": {
+              "predicates": [
+                {
+                  "predicates": [
+                    {
+                      "fluids": [
+                        "minecraft:water",
+                        "minecraft:flowing_water"
+                      ],
+                      "type": "minecraft:matching_fluids"
+                    },
+                    {
+                      "type": "minecraft:solid"
+                    }
+                  ],
+                  "type": "minecraft:any_of"
+                },
+                {
+                  "predicates": [
+                    {
+                      "blocks": "#arboria:island/dead_coral",
+                      "offset": [
+                        1,
+                        5,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:island/dead_coral",
+                      "offset": [
+                        0,
+                        5,
+                        1
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:island/dead_coral",
+                      "offset": [
+                        -1,
+                        5,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:island/dead_coral",
+                      "offset": [
+                        0,
+                        5,
+                        -1
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:any_of"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "direction": "up",
+            "layers": [
+              {
+                "height": 50,
+                "provider": {
+                  "entries": [
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_brain_coral_block"
+                      },
+                      "weight": 1
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_bubble_coral_block"
+                      },
+                      "weight": 1
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_fire_coral_block"
+                      },
+                      "weight": 1
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_horn_coral_block"
+                      },
+                      "weight": 1
+                    },
+                    {
+                      "data": {
+                        "Name": "minecraft:dead_tube_coral_block"
+                      },
+                      "weight": 1
+                    }
+                  ],
+                  "type": "minecraft:weighted_state_provider"
+                }
+              }
+            ],
+            "prioritize_tip": false
+          },
+          "type": "minecraft:block_column"
+        },
+        "placement": []
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "hopo:mobs/spider/cave_spider",
+    "fallback": "hopo:mobs/spider/cave_spider",
+    "elements": [
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mobs/spider/cave_spider",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "name": "kattersstructures:windmill/fields",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 2,
+        "element": {
+            "location": "kattersstructures:windmill/fields/field_way_01",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "location": "kattersstructures:windmill/fields/field_way_02",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "location": "kattersstructures:windmill/fields/field_way_03",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    }]
+}

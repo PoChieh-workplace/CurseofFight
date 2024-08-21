@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:villager_mountain/villager_mountain",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:villager_mountain/villager_mountain",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

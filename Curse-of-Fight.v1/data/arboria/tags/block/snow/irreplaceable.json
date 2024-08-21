@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sandstone",
+    "minecraft:water",
+    "minecraft:ice",
+    "#arboria:dirt_and_snow",
+    "#arboria:stone",
+    "#minecraft:features_cannot_replace"
+  ]
+}

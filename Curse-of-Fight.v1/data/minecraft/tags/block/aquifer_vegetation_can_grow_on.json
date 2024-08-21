@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:clay",
+    "minecraft:moss_block",
+    "#minecraft:dirt",
+    "minecraft:gravel",
+    "minecraft:dripstone_block",
+    "minecraft:deepslate",
+    "minecraft:stone"
+  ]
+}

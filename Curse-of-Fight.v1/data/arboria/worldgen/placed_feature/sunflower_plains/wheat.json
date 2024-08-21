@@ -1,0 +1,62 @@
+{
+  "feature": "arboria:wheat/sunflower",
+  "placement": [
+    {
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 13
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "noise_factor": 140.0,
+      "noise_offset": 0.75,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "blocks": "minecraft:air",
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "blocks": "minecraft:air",
+            "offset": [
+              0,
+              1,
+              0
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "state": {
+              "Name": "minecraft:short_grass"
+            },
+            "type": "minecraft:would_survive"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

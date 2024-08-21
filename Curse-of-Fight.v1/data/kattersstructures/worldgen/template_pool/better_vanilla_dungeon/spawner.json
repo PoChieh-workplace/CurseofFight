@@ -1,0 +1,30 @@
+{
+    "name": "kattersstructures:better_vanilla_dungeon/spawner",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/decor/spawner/better_vanilla_dungeon_spawner_01"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/decor/spawner/better_vanilla_dungeon_spawner_02"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/decor/spawner/better_vanilla_dungeon_spawner_03"
+        }
+    }
+]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "kattersstructures:birch_tree/decor",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 2,
+        "element": {
+            "location": "kattersstructures:birch_tree/birch_camp",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:birch_tree/birch_logs_1",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:birch_tree/birch_logs_2",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "location": "kattersstructures:birch_tree/birch_logs_3",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    }
+    ]
+}

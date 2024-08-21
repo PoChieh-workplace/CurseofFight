@@ -1,0 +1,46 @@
+{
+    "name": "kattersstructures:better_vanilla_dungeon/corridor",
+    "fallback": "kattersstructures:better_vanilla_dungeon_empty",
+    "elements": [{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/corridor/better_vanilla_dungeon_corridor_01"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/corridor/better_vanilla_dungeon_corridor_02"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/corridor/better_vanilla_dungeon_corridor_03"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/corridor/better_vanilla_dungeon_corridor_04"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/corridor/better_vanilla_dungeon_corridor_05"
+        }
+    }
+]
+}

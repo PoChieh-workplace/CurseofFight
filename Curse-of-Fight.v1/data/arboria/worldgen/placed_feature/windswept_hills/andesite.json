@@ -1,0 +1,51 @@
+{
+  "feature": {
+    "config": {
+      "discard_chance_on_air_exposure": 0.0,
+      "size": 24,
+      "targets": [
+        {
+          "state": {
+            "Name": "minecraft:andesite"
+          },
+          "target": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "arboria:stone"
+          }
+        }
+      ]
+    },
+    "type": "minecraft:ore"
+  },
+  "placement": [
+    {
+      "chance": 3,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 12
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "heightmap": "WORLD_SURFACE_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "xz_spread": 0,
+      "y_spread": -1,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "count": 3,
+      "type": "minecraft:count"
+    }
+  ]
+}

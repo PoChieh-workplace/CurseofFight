@@ -1,0 +1,47 @@
+{
+    "anvil_cost": 2,
+    "description": {
+      "translate": "enchantment.cursefight.armor_knockback"
+    },
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "victim",
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:damage_entity",
+                            "damage_type": "minecraft:thorns",
+                            "min_damage": 0,
+                            "max_damage": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "minecraft:knockback": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": 10
+                }
+            }
+        ]
+    },
+    "max_cost": {
+      "base": 300,
+      "per_level_above_first": 1
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 1
+    },
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "#minecraft:chest_armor",
+    "weight": 5
+  }

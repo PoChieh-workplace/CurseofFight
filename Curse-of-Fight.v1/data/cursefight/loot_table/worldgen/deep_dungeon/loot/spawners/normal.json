@@ -1,0 +1,400 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 0
+            },
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:name_tag",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:saddle",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_leggings",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_helmet",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 20
+                            },
+                            "options": "#minecraft:on_random_loot",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.6
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 20
+                            },
+                            "options": "#minecraft:on_random_loot",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.6
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 20
+                            },
+                            "options": "#minecraft:on_random_loot",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.6
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 20
+                            },
+                            "options": "#minecraft:on_random_loot",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.6
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_pickaxe",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 20
+                            },
+                            "options": "#minecraft:on_random_loot",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.6
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_shovel",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 20
+                            },
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 20
+                            },
+                            "options": "#minecraft:on_random_loot",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.6
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.35
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+            },
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:healing"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1,
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ender_pearl",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 5
+                            },
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ominous_bottle",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_ominous_bottle_amplifier",
+                            "amplifier": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:trial_key",
+                    "weight": 24,
+                    "quality": 0,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {"deep_dungeon_legendary_key":1},
+                                "minecraft:custom_model_data":724010,
+                                "custom_name":"[\"\",{\"text\":\"詛咒試煉 - 小鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
+                                "lore":["[\"\",{\"text\":\"可以開啟附近小寶箱的鑰匙，似乎是不錯的工具呢！\",\"italic\":false,\"color\":\"dark_purple\"}]"],
+                                "minecraft:enchantments": {
+                                    "minecraft:sharpness": 5
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ominous_trial_key",
+                    "weight": 1,
+                    "quality": 2,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {"deep_dungeon_legendary_boss_key":1},
+                                "minecraft:custom_model_data":724011,
+                                "custom_name":"[\"\",{\"text\":\"詛咒試煉 - 武器庫鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
+                                "lore":["[\"\",{\"text\":\"可以開啟傳奇武器庫中寶箱的鑰匙，不過要小心那房間裡面很危險喔！\",\"italic\":false,\"color\":\"dark_purple\"}]"],
+                                "minecraft:enchantments": {
+                                    "cursefight:career/steve/original": 5
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                }
+            ]
+        }
+    ],
+    "random_sequence": "cursefight:worldgen/deep_dungeon/loot/spawners/normal"
+}

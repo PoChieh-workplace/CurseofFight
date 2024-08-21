@@ -1,0 +1,306 @@
+{
+  "config": {
+    "default": {
+      "feature": {
+        "config": {
+          "half_height": 0,
+          "radius": 4,
+          "state_provider": {
+            "fallback": {
+              "state": {
+                "Name": "minecraft:light_gray_terracotta"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "rules": []
+          },
+          "target": {
+            "blocks": [
+              "minecraft:packed_ice",
+              "minecraft:packed_mud"
+            ],
+            "type": "minecraft:matching_blocks"
+          }
+        },
+        "type": "minecraft:disk"
+      },
+      "placement": [
+        {
+          "predicate": {
+            "blocks": "minecraft:terracotta",
+            "offset": [
+              0,
+              2,
+              0
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          "type": "minecraft:block_predicate_filter"
+        },
+        {
+          "predicate": {
+            "predicate": {
+              "blocks": [
+                "minecraft:orange_terracotta",
+                "minecraft:light_gray_terracotta"
+              ],
+              "offset": [
+                0,
+                1,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:not"
+          },
+          "type": "minecraft:block_predicate_filter"
+        }
+      ]
+    },
+    "features": [
+      {
+        "chance": 0.45,
+        "feature": {
+          "feature": {
+            "config": {
+              "half_height": 2,
+              "radius": 4,
+              "state_provider": {
+                "fallback": {
+                  "state": {
+                    "Name": "minecraft:terracotta"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "rules": []
+              },
+              "target": {
+                "blocks": [
+                  "minecraft:packed_ice",
+                  "minecraft:packed_mud"
+                ],
+                "type": "minecraft:matching_blocks"
+              }
+            },
+            "type": "minecraft:disk"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "predicate": {
+                  "predicates": [
+                    {
+                      "blocks": "minecraft:terracotta",
+                      "offset": [
+                        0,
+                        1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "blocks": "#arboria:terracotta",
+                      "offset": [
+                        0,
+                        2,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:all_of"
+                },
+                "type": "minecraft:not"
+              },
+              "type": "minecraft:block_predicate_filter"
+            },
+            {
+              "xz_spread": 0,
+              "y_spread": {
+                "type": "minecraft:uniform",
+                "min_inclusive": -1,
+                "max_inclusive": 1
+              },
+              "type": "minecraft:random_offset"
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.25,
+        "feature": {
+          "feature": {
+            "config": {
+              "half_height": 0,
+              "radius": 4,
+              "state_provider": {
+                "fallback": {
+                  "state": {
+                    "Name": "minecraft:orange_terracotta"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "rules": []
+              },
+              "target": {
+                "blocks": [
+                  "minecraft:packed_ice",
+                  "minecraft:packed_mud"
+                ],
+                "type": "minecraft:matching_blocks"
+              }
+            },
+            "type": "minecraft:disk"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "blocks": "minecraft:terracotta",
+                "offset": [
+                  0,
+                  2,
+                  0
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:block_predicate_filter"
+            },
+            {
+              "predicate": {
+                "predicate": {
+                  "blocks": [
+                    "minecraft:orange_terracotta",
+                    "minecraft:light_gray_terracotta"
+                  ],
+                  "offset": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                "type": "minecraft:not"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.25,
+        "feature": {
+          "feature": {
+            "config": {
+              "half_height": 0,
+              "radius": 4,
+              "state_provider": {
+                "fallback": {
+                  "state": {
+                    "Name": "minecraft:brown_terracotta"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "rules": []
+              },
+              "target": {
+                "blocks": [
+                  "minecraft:packed_ice",
+                  "minecraft:packed_mud"
+                ],
+                "type": "minecraft:matching_blocks"
+              }
+            },
+            "type": "minecraft:disk"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "blocks": "minecraft:terracotta",
+                "offset": [
+                  0,
+                  2,
+                  0
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:block_predicate_filter"
+            },
+            {
+              "predicate": {
+                "predicate": {
+                  "blocks": "minecraft:brown_terracotta",
+                  "offset": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                "type": "minecraft:not"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.4,
+        "feature": {
+          "feature": {
+            "config": {
+              "half_height": 0,
+              "radius": 4,
+              "state_provider": {
+                "fallback": {
+                  "state": {
+                    "Name": "minecraft:white_terracotta"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "rules": []
+              },
+              "target": {
+                "blocks": [
+                  "minecraft:packed_ice",
+                  "minecraft:packed_mud"
+                ],
+                "type": "minecraft:matching_blocks"
+              }
+            },
+            "type": "minecraft:disk"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "blocks": "minecraft:terracotta",
+                "offset": [
+                  0,
+                  2,
+                  0
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:block_predicate_filter"
+            },
+            {
+              "predicate": {
+                "predicate": {
+                  "blocks": "minecraft:white_terracotta",
+                  "offset": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                "type": "minecraft:not"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "type": "minecraft:random_selector"
+}

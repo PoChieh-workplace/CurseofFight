@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:ruined_village/main_center",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:ruined_village/center/ruined_main_center",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

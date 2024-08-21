@@ -1,0 +1,31 @@
+{
+    "description":{
+        "translate": "enchantment.cursefight.auto_smelt"
+    },
+    "supported_items": "#minecraft:pickaxes",
+    "exclusive_set": "#minecraft:exclusive_set/mining",
+    "weight": 10,
+    "max_level": 1,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 13
+    },
+    "max_cost": {
+        "base": 100,
+        "per_level_above_first": 15
+    },
+    "anvil_cost": 6,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:block_experience": [
+            {
+                "effect": {
+                    "type": "minecraft:set",
+                    "value": 0
+                }
+            }
+        ]
+    }
+}

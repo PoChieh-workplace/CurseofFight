@@ -1,0 +1,17 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_name":"[\"\",{\"translate\":\"item.minecraft.potion.effect.awkward\",\"italic\":false,\"color\":\"aqua\"}]",
+            "lore":["[\"\",{\"text\":\"雙手拿著基礎藥水與混沌材料，按下 \",\"italic\":false,\"color\":\"dark_purple\"},{\"keybind\":\"key.swapOffhand\",\"italic\":false,\"color\":\"green\"},{\"text\":\" 可使兩物搖晃，溶解變成一般藥水\",\"italic\":false,\"color\":\"dark_purple\"}]"],
+            "minecraft:custom_data":{
+                "awkward_potion":1
+            },
+            "minecraft:max_stack_size": 16
+        }
+    },
+    {
+        "function": "minecraft:set_potion",
+        "id": "minecraft:awkward"
+    }
+]

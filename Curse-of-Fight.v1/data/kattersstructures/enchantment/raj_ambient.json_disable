@@ -1,0 +1,29 @@
+{
+    "description": "Raj Ambient",
+    "supported_items": "#minecraft:enchantable/chest_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "chest"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "kattersstructures:raj/armor_particles"
+          }
+        }
+      ]
+    }
+  }
+  

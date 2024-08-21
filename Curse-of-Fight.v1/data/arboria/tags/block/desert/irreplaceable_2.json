@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:sandstone",
+    "minecraft:sandstone_slab",
+    "minecraft:sandstone_stairs",
+    "minecraft:smooth_sandstone",
+    "minecraft:smooth_sandstone_slab",
+    "minecraft:smooth_sandstone_stairs",
+    "minecraft:cut_sandstone",
+    "minecraft:chiseled_sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:terracotta",
+    "minecraft:orange_terracotta",
+    "minecraft:water",
+    "minecraft:lava",
+    "minecraft:cactus",
+    "#arboria:dirt",
+    "#arboria:lake_remove",
+    "#minecraft:mineable/axe",
+    "#minecraft:mineable/hoe",
+    "#minecraft:mineable/shovel",
+    "#minecraft:features_cannot_replace"
+  ]
+}

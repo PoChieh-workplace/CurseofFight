@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text":"WaterBall - Curse Of Fight",
+            "color":"aqua",
+            "bold":true
+        },
+        "description": {
+            "text":"基本任務",
+            "color":"white"
+        },
+        "icon": {
+            "id": "minecraft:diamond_axe",
+            "components": {
+                "minecraft:enchantments": {
+                    "minecraft:mending": 1
+                }
+            }
+        },
+        "frame":"challenge",
+        "show_toast":true,
+        "announce_to_chat":true,
+        "hidden":false,
+        "background":"minecraft:textures/block/netherite_block.png"
+    },
+    "criteria": {
+        "join": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "cursefight:server/join"
+    }
+}

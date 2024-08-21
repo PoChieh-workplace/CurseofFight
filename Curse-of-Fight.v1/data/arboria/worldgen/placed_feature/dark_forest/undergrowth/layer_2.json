@@ -1,0 +1,108 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:tall_oak_shrub/1",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.3,
+          "feature": {
+            "feature": "arboria:mushroom/red_1_lichen",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.214,
+          "feature": {
+            "feature": "arboria:mushroom/brown_2_lichen",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.075,
+          "feature": {
+            "feature": "arboria:birch_bush/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.05,
+          "feature": {
+            "feature": "arboria:birch_bush/2",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.3,
+          "feature": {
+            "feature": "arboria:oak_bush/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "arboria:oak_bush/3",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.3,
+          "feature": {
+            "feature": "arboria:oak_bush/5",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.35,
+          "feature": {
+            "feature": "arboria:oak_bush/6",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.5,
+          "feature": {
+            "feature": "arboria:oak_bush/7",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "count": 7,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "noise_factor": 100.0,
+      "noise_offset": -0.1,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": 100.0,
+      "noise_offset": -0.7,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

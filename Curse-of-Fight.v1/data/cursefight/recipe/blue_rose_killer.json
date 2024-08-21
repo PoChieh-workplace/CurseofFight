@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aca",
+        "bdb",
+        "fef"
+    ],
+    "key": {
+        "a": {
+            "item": "diamond"
+        },
+        "b": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "c": {
+            "item": "minecraft:rose_bush"
+        },
+        "d": {
+            "item": "minecraft:iron_sword"
+        },
+        "e": {
+            "item": "minecraft:blue_dye"
+        },
+        "f": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "id": "minecraft:iron_sword",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": 724301,
+            "minecraft:custom_data": {"blue_rose_killer":1},
+            "custom_name":"[\"\",{\"text\":\"藍薔薇追擊者\",\"italic\":false,\"color\":\"aqua\"}]",
+            "lore":["[\"\",{\"text\":\"她是一名刺客，也是一位英雄，更是為大家帶來幸福的存在\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "minecraft:enchantments": {
+                "minecraft:sharpness": 2,
+                "minecraft:unbreaking": 3,
+                "minecraft:looting":2,
+                "cursefight:generic/sword/life_steal":1
+            }
+        }
+    }
+}

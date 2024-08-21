@@ -1,0 +1,64 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:fallen_tree/mossy/oak",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.25,
+          "feature": {
+            "feature": "arboria:fallen_tree/trunk/jungle",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.5,
+          "feature": {
+            "feature": "arboria:fallen_tree/degraded/jungle",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.7,
+          "feature": {
+            "feature": "arboria:fallen_tree/mossy/jungle",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.3,
+          "feature": {
+            "feature": "arboria:fallen_tree/trunk/oak",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.7,
+          "feature": {
+            "feature": "arboria:fallen_tree/degraded/oak",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "chance": 12,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

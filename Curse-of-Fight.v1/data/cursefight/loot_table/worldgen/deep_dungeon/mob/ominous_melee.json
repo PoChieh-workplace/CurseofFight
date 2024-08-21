@@ -1,0 +1,223 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "cursefight:worldgen/deep_dungeon/mob/ominous_armor"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_pickaxe",
+                    "weight": 12
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_pickaxe",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:sharpness": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:knockback": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_shovel",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_shovel",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:sharpness": 1
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:knockback": 1
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_sword",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_axe",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:sharpness": 2,
+                                "minecraft:knockback": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blaze_rod",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:fire_aspect": 2,
+                                "minecraft:sharpness": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:totem_of_undying",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:sharpness": 4,
+                                "minecraft:flame": 1,
+                                "minecraft:knockback": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.8
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:equipment/trial_chamber_melee"
+}

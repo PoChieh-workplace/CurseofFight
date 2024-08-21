@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "來自 Framk1522 的遺志",
+            "color": "gold"
+        },
+        "description": {
+            "text": "遭到苦力怕的偷襲",
+            "color": "dark_red"
+        },
+        "icon": {
+            "id": "minecraft:creeper_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "taken": {
+                        "min": 10,
+                        "max": 999
+                    },
+                    "source_entity": {
+                        "type": "minecraft:creeper"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "cursefight:wish"
+}

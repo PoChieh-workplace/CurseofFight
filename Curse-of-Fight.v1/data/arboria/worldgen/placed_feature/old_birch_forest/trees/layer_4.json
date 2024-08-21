@@ -1,0 +1,171 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:big_birch/3",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.015,
+          "feature": {
+            "feature": "arboria:dead_birch/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.015,
+          "feature": {
+            "feature": "arboria:dead_birch/2",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "arboria:birch_bush/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.05,
+          "feature": {
+            "feature": "arboria:birch_bush/2",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.05,
+          "feature": {
+            "feature": "arboria:birch_bush/3",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.05,
+          "feature": {
+            "feature": "arboria:birch/3",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "arboria:birch/4",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "arboria:birch/5",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "arboria:birch/6",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.111,
+          "feature": {
+            "feature": "arboria:birch/7",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.05,
+          "feature": {
+            "feature": "arboria:birch/8",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "arboria:birch/9",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.25,
+          "feature": {
+            "feature": "arboria:birch/10",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "arboria:birch/11",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.35,
+          "feature": {
+            "feature": "arboria:birch/12",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.538,
+          "feature": {
+            "feature": "arboria:birch/13",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.2,
+          "feature": {
+            "feature": "arboria:big_birch/1",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.9,
+          "feature": {
+            "feature": "arboria:big_birch/2",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "count": 12,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "noise_factor": 200.0,
+      "noise_offset": 0.0,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": 200.0,
+      "noise_offset": -0.4,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

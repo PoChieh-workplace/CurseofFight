@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:birch_forest",
+        "minecraft:forest",
+        {"id": "terralith:birch_taiga", "required": false},
+        {"id": "terralith:orchid_swamp", "required": false},
+        {"id": "terralith:temperate_highlands", "required": false},
+        {"id": "terralith:white_cliffs", "required": false},
+        {"id": "regions_unexplored:autumnal_maple_forest", "required": false},
+        {"id": "regions_unexplored:mauve_hills", "required": false},
+        {"id": "regions_unexplored:silver_birch_forest", "required": false},
+        {"id": "regions_unexplored:temperate_grove", "required": false},
+        {"id": "clifftree:caves", "required": false},   
+        {"id": "clifftree:cold_caves", "required": false},
+        {"id": "clifftree:frozen_caves", "required": false}
+    ]
+}

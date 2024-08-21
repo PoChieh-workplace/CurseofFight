@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:desert_dungeon/start",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:desert_dungeon/desert_dungeon_start",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }]
+}

@@ -1,0 +1,43 @@
+{
+    "display": {
+        "title": {
+            "text": "來自 ianlan0204 的遺志",
+            "color": "gold"
+        },
+        "description": {
+            "text": "對著五格內的女巫舉盾",
+            "color": "dark_red"
+        },
+        "icon": {
+            "id": "minecraft:shield"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "looking_at": {
+                            "type": "minecraft:witch",
+                            "distance": {
+                                "absolute": {
+                                    "max": 5
+                                }
+                            }
+                        }
+                    }
+                },
+                "item": {
+                    "items": "minecraft:shield"
+                }
+            }
+        }
+    },
+    "parent": "cursefight:wish"
+}

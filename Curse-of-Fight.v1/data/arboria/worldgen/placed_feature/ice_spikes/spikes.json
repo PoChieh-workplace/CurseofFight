@@ -1,0 +1,67 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:spikes/ice/short",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.15,
+          "feature": {
+            "feature": "arboria:spikes/ice/tall",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "arboria:spikes/ice/big",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.3,
+          "feature": {
+            "feature": "arboria:spikes/ice/mid",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.3,
+          "feature": {
+            "feature": "arboria:spikes/ice/medium",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 11
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

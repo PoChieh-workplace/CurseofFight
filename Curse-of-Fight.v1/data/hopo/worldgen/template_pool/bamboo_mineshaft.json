@@ -1,0 +1,240 @@
+{
+    "name": "hopo:bamboo_mineshaft",
+    "fallback": "hopo:bamboo_mineshaft",
+    "elements": [
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/path",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/path_alt",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/path_1",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/path_1_alt",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/pathlong_1",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/pathlong_2",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/pathlong_3",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 88,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/pathlong_4",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/pathlong_5",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/trap/trap_1",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/trap/trap_2",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/trap/trap_3",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/trap/trap_4",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/trap/trap_5",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradedtrap"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/entrance",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/entrance_alt",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/entrance_1",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradedentrance"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/entrance_1_alt",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/turn",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradeddown"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/turn_1",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradeddown"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/turn_2",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradeddown"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/down",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degraded"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/down_2",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradeddown"
+            }
+        },
+        {
+            "weight": 29,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/down_3",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradeddown"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/down_2",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradeddown"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/bamboo/down_1",
+                "projection": "rigid",
+                "processors": "hopo:bamboo/degradeddown"
+            }
+        }
+    ]
+}

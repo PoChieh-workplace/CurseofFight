@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:jungle",
+        "minecraft:bamboo_jungle",
+        "minecraft:sparse_jungle",
+        {"id": "regions_unexplored:bamboo_forest", "required": false},
+        {"id": "clifftree:caves", "required": false},   
+        {"id": "clifftree:cold_caves", "required": false},
+        {"id": "clifftree:frozen_caves", "required": false}
+    ]
+}

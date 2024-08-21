@@ -1,0 +1,100 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:brown_mushroom_tree/8",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.15,
+          "feature": {
+            "feature": "arboria:red_mushroom_tree/7",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.176,
+          "feature": {
+            "feature": "arboria:brown_mushroom_tree/7",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.075,
+          "feature": {
+            "feature": "arboria:mushroom/red_2_lichen",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.081,
+          "feature": {
+            "feature": "arboria:mushroom/brown_3_lichen",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.05,
+          "feature": {
+            "feature": "arboria:mushroom/red_1_lichen",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.053,
+          "feature": {
+            "feature": "arboria:mushroom/brown_2_lichen",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.5,
+          "feature": {
+            "feature": "arboria:red_mushroom_tree/8",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "count": {
+        "distribution": [
+          {
+            "data": 3,
+            "weight": 1
+          },
+          {
+            "data": 4,
+            "weight": 3
+          }
+        ],
+        "type": "minecraft:weighted_list"
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "noise_factor": 200.0,
+      "noise_offset": -0.55,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

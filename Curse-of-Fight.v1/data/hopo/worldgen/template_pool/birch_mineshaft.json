@@ -1,0 +1,240 @@
+{
+    "name": "hopo:birch_mineshaft",
+    "fallback": "hopo:birch_mineshaft",
+    "elements": [
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/path",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/path_alt",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/path_1",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/path_1_alt",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/pathlong_1",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/pathlong_2",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/pathlong_3",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 88,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/pathlong_4",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/pathlong_5",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/trap/trap_1",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/trap/trap_2",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradedtrap"
+            }
+        },
+        {
+            "weight": 17,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/trap/trap_3",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/trap/trap_4",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/trap/trap_5",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradedtrap"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/entrance",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/entrance_alt",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/entrance_1",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradedentrance"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/entrance_1_alt",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/turn",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradeddown"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/turn_1",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradeddown"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/turn_2",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradeddown"
+            }
+        },
+        {
+            "weight": 22,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/down",
+                "projection": "rigid",
+                "processors": "hopo:birch/degraded"
+            }
+        },
+        {
+            "weight": 22,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/down_2",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradeddown"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/down_3",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradeddown"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/down_2",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradeddown"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/birch/down_1",
+                "projection": "rigid",
+                "processors": "hopo:birch/degradeddown"
+            }
+        }
+    ]
+}

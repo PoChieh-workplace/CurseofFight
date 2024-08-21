@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:smithing_transform",
+    "category": "misc",
+    "template": {
+        "item": "minecraft:turtle_scute"
+    },
+    "base": {
+        "item": "minecraft:emerald_block"
+    },
+    "addition": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "id": "minecraft:turtle_scute",
+        "count": 3,
+        "components": {
+            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.chaos_of_turtle_scute\",\"italic\":false,\"color\":\"green\"}]",
+            "minecraft:custom_data": {
+                "ingredient":1
+            }
+        }
+    }
+}

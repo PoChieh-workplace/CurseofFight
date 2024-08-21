@@ -1,0 +1,78 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "• 128 Durability Points",
+                    "color": "#c3e6fc",
+                    "font": "minecraft:default",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "• 80% Payout Chance",
+                    "color": "#c3e6fc",
+                    "font": "minecraft:default",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "• 1-8 Items Per Payout",
+                    "color": "#c3e6fc",
+                    "font": "minecraft:default",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                "mode": "append"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:custom_model_data": 130516,
+                    "minecraft:max_stack_size": 1,
+                    "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Iron Axe Automaticon\"}",
+                    "minecraft:entity_data": 
+                    {
+                      "id": "minecraft:armor_stand",
+                      "Small": 1,
+                      "Invulnerable": 1,
+                      "ShowArms": 1,
+                      "Marker": 1,
+                      "NoBasePlate": 1,
+                      "Tags": [
+                        "axe_iron_tier",
+                        "automaticon",
+                        "ac_axe"
+                    ],
+                      "HandItems": [
+                        {
+                      },
+                      {
+                        "id": "minecraft:iron_axe",
+                        "count": 1
+                        }
+                    ]
+                    }
+                  }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

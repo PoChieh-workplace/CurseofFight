@@ -1,0 +1,159 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "entries": [
+                {
+                  "data": {
+                    "Name": "minecraft:terracotta"
+                  },
+                  "weight": 2
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:packed_mud"
+                  },
+                  "weight": 1
+                }
+              ],
+              "type": "minecraft:weighted_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": [
+                "minecraft:granite",
+                "minecraft:terracotta",
+                "minecraft:packed_mud"
+              ],
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 10,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -6,
+              "max_inclusive": 6
+            },
+            "y_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -4,
+              "max_inclusive": 3
+            },
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "blocks": "minecraft:granite",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      "features": [
+        {
+          "chance": 0.6,
+          "feature": {
+            "feature": {
+              "config": {
+                "discard_chance_on_air_exposure": 0.0,
+                "size": 40,
+                "targets": [
+                  {
+                    "state": {
+                      "Name": "minecraft:granite"
+                    },
+                    "target": {
+                      "predicate_type": "minecraft:tag_match",
+                      "tag": "arboria:dirt"
+                    }
+                  },
+                  {
+                    "state": {
+                      "Name": "minecraft:granite"
+                    },
+                    "target": {
+                      "predicate_type": "minecraft:tag_match",
+                      "tag": "arboria:stone"
+                    }
+                  }
+                ]
+              },
+              "type": "minecraft:ore"
+            },
+            "placement": [
+              {
+                "predicate": {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:granite",
+                      "minecraft:terracotta",
+                      "minecraft:packed_mud"
+                    ],
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:not"
+                },
+                "type": "minecraft:block_predicate_filter"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "chance": 32,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 10
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "heightmap": "WORLD_SURFACE_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "xz_spread": 0,
+      "y_spread": -1,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "count": 32,
+      "type": "minecraft:count"
+    }
+  ]
+}

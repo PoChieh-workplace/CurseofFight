@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "cursefight:install",
+        "kattersstructures:load",
+        "vanilla_refresh:load"
+    ]
+}

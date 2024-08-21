@@ -1,0 +1,81 @@
+{
+  "feature": {
+    "config": {
+      "discard_chance_on_air_exposure": 0.175,
+      "size": 20,
+      "targets": [
+        {
+          "state": {
+            "Name": "minecraft:mud"
+          },
+          "target": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "arboria:dirt"
+          }
+        }
+      ]
+    },
+    "type": "minecraft:ore"
+  },
+  "placement": [
+    {
+      "chance": 4,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 10
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "heightmap": "WORLD_SURFACE_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "noise_factor": 200.0,
+      "noise_offset": 0.45,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "blocks": "#arboria:dirt",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "predicate": {
+              "blocks": "minecraft:mud",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:not"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "count": 2,
+      "type": "minecraft:count"
+    }
+  ]
+}

@@ -1,0 +1,767 @@
+{
+  "feature": {
+    "config": {
+      "depth": 1,
+      "extra_bottom_block_chance": 0.0,
+      "extra_edge_column_chance": 0.0,
+      "ground_state": {
+        "state": {
+          "Name": "minecraft:bedrock"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "replaceable": "#arboria:bedrock",
+      "surface": "ceiling",
+      "vegetation_chance": 1.0,
+      "vegetation_feature": {
+        "feature": {
+          "config": {
+            "half_height": 0,
+            "radius": 1,
+            "state_provider": {
+              "fallback": {
+                "property": "layers",
+                "source": {
+                  "state": {
+                    "Name": "minecraft:snow",
+                    "Properties": {
+                      "layers": "5"
+                    }
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "values": {
+                  "distribution": [
+                    {
+                      "data": 3,
+                      "weight": 1
+                    },
+                    {
+                      "data": 4,
+                      "weight": 2
+                    }
+                  ],
+                  "type": "minecraft:weighted_list"
+                },
+                "type": "minecraft:randomized_int_state_provider"
+              },
+              "rules": [
+                {
+                  "if_true": {
+                    "predicates": [
+                      {
+                        "predicates": [
+                          {
+                            "predicate": {
+                              "offset": [
+                                -1,
+                                -1,
+                                0
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      },
+                      {
+                        "predicates": [
+                          {
+                            "predicate": {
+                              "offset": [
+                                1,
+                                -1,
+                                0
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      },
+                      {
+                        "predicates": [
+                          {
+                            "predicate": {
+                              "offset": [
+                                0,
+                                -1,
+                                -1
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      },
+                      {
+                        "predicates": [
+                          {
+                            "predicate": {
+                              "offset": [
+                                0,
+                                -1,
+                                1
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      }
+                    ],
+                    "type": "minecraft:any_of"
+                  },
+                  "then": {
+                    "state": {
+                      "Name": "minecraft:snow",
+                      "Properties": {
+                        "layers": "1"
+                      }
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                {
+                  "if_true": {
+                    "predicates": [
+                      {
+                        "predicates": [
+                          {
+                            "predicate": {
+                              "offset": [
+                                1,
+                                1,
+                                0
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              1,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "predicate": {
+                              "offset": [
+                                -2,
+                                0,
+                                0
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              -2,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              -1,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      },
+                      {
+                        "predicates": [
+                          {
+                            "predicate": {
+                              "offset": [
+                                -1,
+                                1,
+                                0
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              -1,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "predicate": {
+                              "offset": [
+                                2,
+                                0,
+                                0
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              2,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              1,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      },
+                      {
+                        "predicates": [
+                          {
+                            "predicate": {
+                              "offset": [
+                                0,
+                                1,
+                                1
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              0,
+                              0,
+                              1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "predicate": {
+                              "offset": [
+                                0,
+                                0,
+                                -2
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              0,
+                              -1,
+                              -2
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              0,
+                              -1,
+                              -1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      },
+                      {
+                        "predicates": [
+                          {
+                            "predicate": {
+                              "offset": [
+                                0,
+                                1,
+                                -1
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              0,
+                              0,
+                              -1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "predicate": {
+                              "offset": [
+                                0,
+                                0,
+                                2
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              0,
+                              -1,
+                              2
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              0,
+                              -1,
+                              1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      }
+                    ],
+                    "type": "minecraft:any_of"
+                  },
+                  "then": {
+                    "property": "layers",
+                    "source": {
+                      "state": {
+                        "Name": "minecraft:snow",
+                        "Properties": {
+                          "layers": "5"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "values": {
+                      "distribution": [
+                        {
+                          "data": 6,
+                          "weight": 2
+                        },
+                        {
+                          "data": 7,
+                          "weight": 1
+                        }
+                      ],
+                      "type": "minecraft:weighted_list"
+                    },
+                    "type": "minecraft:randomized_int_state_provider"
+                  }
+                },
+                {
+                  "if_true": {
+                    "predicates": [
+                      {
+                        "predicates": [
+                          {
+                            "predicate": {
+                              "offset": [
+                                1,
+                                1,
+                                0
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              1,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "predicate": {
+                              "offset": [
+                                -2,
+                                -1,
+                                0
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      },
+                      {
+                        "predicates": [
+                          {
+                            "predicate": {
+                              "offset": [
+                                -1,
+                                1,
+                                0
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              -1,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "predicate": {
+                              "offset": [
+                                2,
+                                -1,
+                                0
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      },
+                      {
+                        "predicates": [
+                          {
+                            "predicate": {
+                              "offset": [
+                                0,
+                                1,
+                                1
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              0,
+                              0,
+                              1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "predicate": {
+                              "offset": [
+                                0,
+                                -1,
+                                -2
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      },
+                      {
+                        "predicates": [
+                          {
+                            "predicate": {
+                              "offset": [
+                                0,
+                                1,
+                                -1
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          },
+                          {
+                            "blocks": "#arboria:surface_blocks",
+                            "offset": [
+                              0,
+                              0,
+                              -1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "predicate": {
+                              "offset": [
+                                0,
+                                -1,
+                                2
+                              ],
+                              "type": "minecraft:solid"
+                            },
+                            "type": "minecraft:not"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      }
+                    ],
+                    "type": "minecraft:any_of"
+                  },
+                  "then": {
+                    "state": {
+                      "Name": "minecraft:snow",
+                      "Properties": {
+                        "layers": "5"
+                      }
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                }
+              ]
+            },
+            "target": {
+              "blocks": "minecraft:snow",
+              "type": "minecraft:matching_blocks"
+            }
+          },
+          "type": "minecraft:disk"
+        },
+        "placement": [
+          {
+            "heightmap": "WORLD_SURFACE_WG",
+            "type": "minecraft:heightmap"
+          },
+          {
+            "predicate": {
+              "blocks": "minecraft:snow",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "predicates": [
+                    {
+                      "predicate": {
+                        "offset": [
+                          1,
+                          1,
+                          0
+                        ],
+                        "type": "minecraft:solid"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    {
+                      "blocks": "#arboria:surface_blocks",
+                      "offset": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "predicate": {
+                        "offset": [
+                          -1,
+                          0,
+                          0
+                        ],
+                        "type": "minecraft:solid"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    {
+                      "blocks": "#arboria:surface_blocks",
+                      "offset": [
+                        -1,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:all_of"
+                },
+                {
+                  "predicates": [
+                    {
+                      "predicate": {
+                        "offset": [
+                          -1,
+                          1,
+                          0
+                        ],
+                        "type": "minecraft:solid"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    {
+                      "blocks": "#arboria:surface_blocks",
+                      "offset": [
+                        -1,
+                        0,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "predicate": {
+                        "offset": [
+                          1,
+                          0,
+                          0
+                        ],
+                        "type": "minecraft:solid"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    {
+                      "blocks": "#arboria:surface_blocks",
+                      "offset": [
+                        1,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:all_of"
+                },
+                {
+                  "predicates": [
+                    {
+                      "predicate": {
+                        "offset": [
+                          0,
+                          1,
+                          1
+                        ],
+                        "type": "minecraft:solid"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    {
+                      "blocks": "#arboria:surface_blocks",
+                      "offset": [
+                        0,
+                        0,
+                        1
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "predicate": {
+                        "offset": [
+                          0,
+                          0,
+                          -1
+                        ],
+                        "type": "minecraft:solid"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    {
+                      "blocks": "#arboria:surface_blocks",
+                      "offset": [
+                        0,
+                        -1,
+                        -1
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:all_of"
+                },
+                {
+                  "predicates": [
+                    {
+                      "predicate": {
+                        "offset": [
+                          0,
+                          1,
+                          -1
+                        ],
+                        "type": "minecraft:solid"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    {
+                      "blocks": "#arboria:surface_blocks",
+                      "offset": [
+                        0,
+                        0,
+                        -1
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "predicate": {
+                        "offset": [
+                          0,
+                          0,
+                          1
+                        ],
+                        "type": "minecraft:solid"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    {
+                      "blocks": "#arboria:surface_blocks",
+                      "offset": [
+                        0,
+                        -1,
+                        1
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:all_of"
+                }
+              ],
+              "type": "minecraft:any_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      "vertical_range": 1,
+      "xz_radius": 8
+    },
+    "type": "minecraft:vegetation_patch"
+  },
+  "placement": [
+    {
+      "height": {
+        "above_bottom": 0
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "xz_spread": 8,
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    }
+  ]
+}

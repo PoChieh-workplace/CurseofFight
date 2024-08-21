@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:yellow_glazed_terracotta",
+    "minecraft:stone",
+    "#arboria:island/dead_coral"
+  ]
+}

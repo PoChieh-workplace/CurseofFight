@@ -1,0 +1,72 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:oozing"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:infested"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:weaving"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:arrow",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:weakness"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:fire_charge",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

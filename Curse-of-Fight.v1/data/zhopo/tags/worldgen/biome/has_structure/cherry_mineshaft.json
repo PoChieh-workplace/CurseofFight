@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:cherry_grove",
+        "minecraft:birch_forest",
+        {"id": "regions_unexplored:magnolia_woodland", "required": false},
+        {"id": "regions_unexplored:poppy_field", "required": false} ,
+        {"id": "clifftree:caves", "required": false},   
+        {"id": "clifftree:cold_caves", "required": false},
+        {"id": "clifftree:frozen_caves", "required": false}
+    ]
+}

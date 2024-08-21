@@ -1,0 +1,42 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:forest_oak/no_moss/11",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.25,
+          "feature": {
+            "feature": "arboria:forest_oak/no_moss/6",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.45,
+          "feature": {
+            "feature": "arboria:forest_oak/no_moss/7",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.2,
+          "feature": {
+            "feature": "arboria:forest_oak/no_moss/8",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.2,
+          "feature": {
+            "feature": "arboria:forest_oak/no_moss/9",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": []
+}

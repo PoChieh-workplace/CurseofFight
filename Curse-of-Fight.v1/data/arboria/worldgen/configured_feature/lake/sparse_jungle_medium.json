@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "arboria:lake/sparse_jungle_medium"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

@@ -1,0 +1,128 @@
+{
+    "name": "kattersstructures:village_sky/streets_b",
+    "fallback": "kattersstructures:sky_empty",
+    "elements": [
+    {
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/streets/street_straight_l1"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/streets/street_strairs"
+        }
+    },{
+        "weight":2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/streets/street_end"
+        }
+    },
+
+    {
+        "weight":1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/house_end/profession/house_end_armorer"
+        }
+    },{
+        "weight":1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/house_end/profession/house_end_toolsmith"
+        }
+    },{
+        "weight":1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/house_end/profession/house_end_weaponsmith"
+        }
+    },
+
+    {
+        "weight":2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/house_end/residence/house_end_1"
+        }
+    },{
+        "weight":2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/house_end/residence/house_end_2"
+        }
+    },{
+        "weight":1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/house_end/residence/house_end_3"
+        }
+    },{
+        "weight":2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/house_end/residence/house_end_4"
+        }
+    },
+
+    {
+        "weight":15,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/streets/big/street_cross"
+        }
+    },{
+        "weight":8,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/streets/big/street_curve"
+        }
+    },{
+        "weight":10,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/streets/big/street_t"
+        }
+    },
+
+
+    {
+        "weight":1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_sky/house_end/rare/rare_temple"
+        }
+    }
+]
+}

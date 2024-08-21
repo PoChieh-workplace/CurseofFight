@@ -1,0 +1,73 @@
+{
+	"pools": [
+		{
+			"rolls": 4,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:emerald",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:bone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 11,
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_poison"
+						}
+					]
+				}
+			]
+		}
+	]
+}

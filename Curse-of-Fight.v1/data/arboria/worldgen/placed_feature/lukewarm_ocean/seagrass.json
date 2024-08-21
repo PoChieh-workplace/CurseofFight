@@ -1,0 +1,28 @@
+{
+  "feature": {
+    "config": {
+      "probability": 0.3
+    },
+    "type": "minecraft:seagrass"
+  },
+  "placement": [
+    {
+      "count": 5,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "OCEAN_FLOOR",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "count": 16,
+      "type": "minecraft:count"
+    }
+  ]
+}

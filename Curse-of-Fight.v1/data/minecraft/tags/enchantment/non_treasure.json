@@ -1,0 +1,42 @@
+{
+	"replace": true,
+	"values": [
+		"minecraft:protection",
+		"minecraft:feather_falling",
+		
+		"minecraft:respiration",
+		"minecraft:aqua_affinity",
+		"minecraft:thorns",
+		"minecraft:depth_strider",
+		"minecraft:sharpness",
+
+		"minecraft:knockback",
+		"minecraft:fire_aspect",
+		"minecraft:looting",
+		"minecraft:sweeping_edge",
+		"minecraft:efficiency",
+		"minecraft:silk_touch",
+		"minecraft:unbreaking",
+		"minecraft:fortune",
+		"minecraft:power",
+		"minecraft:punch",
+		"minecraft:flame",
+		"minecraft:luck_of_the_sea",
+		"minecraft:lure",
+		"minecraft:loyalty",
+		"minecraft:impaling",
+		"minecraft:riptide",
+		"minecraft:channeling",
+		"minecraft:multishot",
+		"minecraft:quick_charge",
+		"minecraft:piercing",
+		"minecraft:density",
+		"minecraft:breach",
+		"cursefight:generic/sword/xp_boost",
+		"cursefight:generic/sword/life_steal",
+		"cursefight:career/miner/auto_smelt",
+		"cursefight:generic/sword/hostile_nemesis",
+		"cursefight:generic/armor/armor_knockback",
+        "cursefight:generic/trident/depth_strider"
+	]
+}

@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:totem_of_undying",
+            "count": 1
+        },
+        "title": {
+            "translate":"cursefight.advancement.deep_dungeon.title",
+            "color":"dark_red",
+            "bold":true
+        },
+        "description": {
+            "translate":"cursefight.advancement.deep_dungeon.description",
+            "color":"gray"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cursefight:root",
+    "criteria": {
+        "better_vanilla_dungeon": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "cursefight:deep_dungeon"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "sends_telemetry_event": true,
+    "rewards": {
+        "function": "cursefight:advancement/deep_dungeon/animation_start"
+    }
+}

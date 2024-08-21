@@ -1,0 +1,228 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "decorators": [],
+                    "dirt_provider": {
+                      "state": {
+                        "Name": "minecraft:dirt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "offset": 0,
+                      "radius": 2,
+                      "type": "minecraft:acacia_foliage_placer"
+                    },
+                    "foliage_provider": {
+                      "state": {
+                        "Name": "minecraft:brown_mushroom_block",
+                        "Properties": {
+                          "down": "false",
+                          "east": "true",
+                          "north": "true",
+                          "south": "true",
+                          "up": "true",
+                          "west": "true"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "force_dirt": false,
+                    "ignore_vines": true,
+                    "minimum_size": {
+                      "limit": 3,
+                      "lower_size": 0,
+                      "upper_size": 1,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "trunk_placer": {
+                      "base_height": 12,
+                      "height_rand_a": 2,
+                      "height_rand_b": 0,
+                      "type": "minecraft:forking_trunk_placer"
+                    },
+                    "trunk_provider": {
+                      "state": {
+                        "Name": "minecraft:mushroom_stem",
+                        "Properties": {
+                          "down": "true",
+                          "east": "true",
+                          "north": "true",
+                          "south": "true",
+                          "up": "true",
+                          "west": "true"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "type": "minecraft:replaceable"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "block": "minecraft:glow_lichen",
+                    "can_be_placed_on": "minecraft:brown_mushroom_block",
+                    "can_place_on_ceiling": true,
+                    "can_place_on_floor": false,
+                    "can_place_on_wall": false,
+                    "chance_of_spreading": 0.0,
+                    "search_range": 1
+                  },
+                  "type": "minecraft:multiface_growth"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:mushroom_stem",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 2,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": -3,
+                      "max_inclusive": 3
+                    },
+                    "y_spread": 6,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "direction_of_search": "up",
+                    "max_steps": 8,
+                    "target_condition": {
+                      "blocks": "minecraft:brown_mushroom_block",
+                      "offset": [
+                        0,
+                        1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:environment_scan"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "type": "minecraft:replaceable"
+                        },
+                        {
+                          "predicates": [
+                            {
+                              "blocks": "minecraft:mushroom_stem",
+                              "offset": [
+                                1,
+                                1,
+                                0
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            {
+                              "blocks": "minecraft:mushroom_stem",
+                              "offset": [
+                                0,
+                                1,
+                                1
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            {
+                              "blocks": "minecraft:mushroom_stem",
+                              "offset": [
+                                -1,
+                                1,
+                                0
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            {
+                              "blocks": "minecraft:mushroom_stem",
+                              "offset": [
+                                0,
+                                1,
+                                -1
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            }
+                          ],
+                          "type": "minecraft:any_of"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:red_mushroom_tree/roots/4",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:mushroom_stem",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "state": {
+                    "Name": "minecraft:brown_mushroom"
+                  },
+                  "type": "minecraft:would_survive"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 48,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

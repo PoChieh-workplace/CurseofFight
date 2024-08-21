@@ -1,0 +1,62 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 4,
+                "max": 5
+            },
+            "entries": [
+                {
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"value": "hopo:chests/mineshaft/abandoned_miners_stuff"
+				},
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:tnt",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 6
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:gunpowder",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 10
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:sand",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 10
+                            },
+                            "add": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

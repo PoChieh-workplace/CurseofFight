@@ -1,0 +1,54 @@
+{
+    "name": "kattersstructures:better_vanilla_dungeon/deco_ground",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/decor/ground/better_vanilla_dungeon_deco_ground_01"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/decor/ground/better_vanilla_dungeon_deco_ground_02"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/decor/ground/better_vanilla_dungeon_deco_ground_03"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/decor/ground/better_vanilla_dungeon_deco_ground_04"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/decor/ground/better_vanilla_dungeon_deco_ground_05"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:better_vanilla_dungeon/decor/ground/better_vanilla_dungeon_deco_ground_06"
+        }
+    }
+]
+}

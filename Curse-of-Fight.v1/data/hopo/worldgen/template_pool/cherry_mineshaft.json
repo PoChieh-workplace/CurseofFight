@@ -1,0 +1,240 @@
+{
+    "name": "hopo:cherry_mineshaft",
+    "fallback": "hopo:cherry_mineshaft",
+    "elements": [
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/path",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/path_alt",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/path_1",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/path_1_alt",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/pathlong_1",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/pathlong_2",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/pathlong_3",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 88,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/pathlong_4",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/pathlong_5",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/trap/trap_1",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/trap/trap_2",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/trap/trap_3",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/trap/trap_4",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/trap/trap_5",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradedtrap"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/entrance",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/entrance_alt",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/entrance_1",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradedentrance"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/entrance_1_alt",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/turn",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradeddown"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/turn_1",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradeddown"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/turn_2",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradeddown"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/down",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degraded"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/down_2",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradeddown"
+            }
+        },
+        {
+            "weight": 29,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/down_3",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradeddown"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/down_2",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradeddown"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/cherry/down_1",
+                "projection": "rigid",
+                "processors": "hopo:cherry/degradeddown"
+            }
+        }
+    ]
+}

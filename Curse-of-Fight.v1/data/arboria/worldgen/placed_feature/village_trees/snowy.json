@@ -1,0 +1,35 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:snowy_spruce/9",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.4,
+          "feature": {
+            "feature": "arboria:snowy_spruce/2",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.3,
+          "feature": {
+            "feature": "arboria:snowy_spruce/4",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.5,
+          "feature": {
+            "feature": "arboria:snowy_spruce/8",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": []
+}

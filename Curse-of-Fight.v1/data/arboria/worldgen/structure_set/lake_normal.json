@@ -1,0 +1,38 @@
+{
+  "placement": {
+    "salt": 12345678,
+    "separation": 7,
+    "spacing": 14,
+    "type": "minecraft:random_spread"
+  },
+  "structures": [
+    {
+      "structure": "arboria:lake_savanna",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_snowy_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_old_birch",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_plains",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_old_spruce_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_gravel/large",
+      "weight": 1
+    },
+    {
+      "structure": "arboria:lake_sand/large",
+      "weight": 1
+    }
+  ]
+}

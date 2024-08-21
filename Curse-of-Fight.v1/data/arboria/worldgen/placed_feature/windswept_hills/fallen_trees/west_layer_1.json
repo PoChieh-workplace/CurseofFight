@@ -1,0 +1,48 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:fallen_tree/trunk/spruce_x",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.65,
+          "feature": {
+            "feature": "arboria:fallen_tree/leaves/spruce/west",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "chance": 12,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "noise_factor": 600.0,
+      "noise_offset": 0.3,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": -600.0,
+      "noise_offset": 0.3,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

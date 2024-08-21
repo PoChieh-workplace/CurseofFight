@@ -1,0 +1,35 @@
+{
+    "anvil_cost": 6,
+    "description": {
+        "translate": "enchantment.cursefight.magic_arrow"
+    },
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:damage_entity",
+                    "damage_type": "minecraft:magic",
+                    "min_damage": 3,
+                    "max_damage": 5
+                }
+            }
+        ]
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 2,
+        "per_level_above_first": 5
+    },
+    "max_cost": {
+        "base": 3,
+        "per_level_above_first": 5
+    },
+    "slots": [
+        "mainhand",
+        "offhand"
+    ],
+    "supported_items": "#minecraft:enchantable/bow",
+    "weight": 1
+}

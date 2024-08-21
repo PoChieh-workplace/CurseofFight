@@ -1,0 +1,23 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "arboria:forest_oak/branch/1_east",
+        "placement": []
+      },
+      {
+        "feature": "arboria:forest_oak/branch/1_south",
+        "placement": []
+      },
+      {
+        "feature": "arboria:forest_oak/branch/1_west",
+        "placement": []
+      },
+      {
+        "feature": "arboria:forest_oak/branch/1_north",
+        "placement": []
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

@@ -1,0 +1,85 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:swamp_oak/4",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.0175,
+          "feature": {
+            "feature": "arboria:dead_oak/2",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.0025,
+          "feature": {
+            "feature": "arboria:dead_oak/3",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.0025,
+          "feature": {
+            "feature": "arboria:dead_oak/4",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.25,
+          "feature": {
+            "feature": "arboria:swamp_oak/5",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "count": {
+        "distribution": [
+          {
+            "data": 1,
+            "weight": 3
+          },
+          {
+            "data": 2,
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_list"
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 14
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "noise_factor": 150.0,
+      "noise_offset": -0.15,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "OCEAN_FLOOR",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "max_water_depth": 3,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

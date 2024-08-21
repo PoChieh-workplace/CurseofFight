@@ -1,0 +1,78 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 4,
+				"max": 6
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "hopo:chests/mineshaft/abandoned_miners_stuff",
+					"weight": 7
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bookshelf",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:experience_bottle",
+					"weight": 16,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 15,
+					"functions": [
+						{
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 20
+                            },
+                            "options": "#minecraft:on_random_loot"
+                        }
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

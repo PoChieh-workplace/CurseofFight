@@ -1,0 +1,98 @@
+{
+  "feature": {
+    "config": {
+      "half_height": 1,
+      "radius": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 4
+      },
+      "state_provider": {
+        "fallback": {
+          "state": {
+            "Name": "minecraft:gravel"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "rules": [
+          {
+            "if_true": {
+              "blocks": "minecraft:air",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "then": {
+              "state": {
+                "Name": "minecraft:andesite"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          }
+        ]
+      },
+      "target": {
+        "predicates": [
+          {
+            "blocks": "#arboria:dirt",
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "predicate": {
+              "blocks": "minecraft:mud",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:not"
+          }
+        ],
+        "type": "minecraft:all_of"
+      }
+    },
+    "type": "minecraft:disk"
+  },
+  "placement": [
+    {
+      "count": 24,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "noise_factor": 720.0,
+      "noise_offset": 0.2,
+      "noise_to_count_ratio": 20,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": 720.0,
+      "noise_offset": -0.4,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "chance": 8,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "heightmap": "OCEAN_FLOOR_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "fluids": [
+          "minecraft:water",
+          "minecraft:flowing_water"
+        ],
+        "type": "minecraft:matching_fluids"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

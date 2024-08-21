@@ -1,0 +1,128 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:rock/taiga/medium",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.25,
+          "feature": {
+            "feature": "arboria:rock/taiga/tiny",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.5,
+          "feature": {
+            "feature": "arboria:rock/taiga/small",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "chance": 28,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 11
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "noise_factor": 180.0,
+      "noise_offset": -0.1,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "type": "minecraft:replaceable"
+          },
+          {
+            "blocks": "#arboria:dirt",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "predicate": {
+              "offset": [
+                2,
+                -2,
+                0
+              ],
+              "type": "minecraft:replaceable"
+            },
+            "type": "minecraft:not"
+          },
+          {
+            "predicate": {
+              "offset": [
+                0,
+                -2,
+                2
+              ],
+              "type": "minecraft:replaceable"
+            },
+            "type": "minecraft:not"
+          },
+          {
+            "predicate": {
+              "offset": [
+                -2,
+                -2,
+                0
+              ],
+              "type": "minecraft:replaceable"
+            },
+            "type": "minecraft:not"
+          },
+          {
+            "predicate": {
+              "offset": [
+                0,
+                -2,
+                -2
+              ],
+              "type": "minecraft:replaceable"
+            },
+            "type": "minecraft:not"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "xz_spread": -2,
+      "y_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -3,
+        "max_inclusive": -2
+      },
+      "type": "minecraft:random_offset"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

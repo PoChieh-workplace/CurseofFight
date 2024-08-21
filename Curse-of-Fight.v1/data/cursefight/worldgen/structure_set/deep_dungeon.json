@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cursefight:deep_dungeon",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 135102530,
+		"spacing": 13,
+		"separation": 11
+	}
+}

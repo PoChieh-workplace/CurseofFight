@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "arboria:lake/bamboo_jungle_pond"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

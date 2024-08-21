@@ -1,0 +1,54 @@
+{
+  "feature": {
+    "config": {
+      "discard_chance_on_air_exposure": 0.0,
+      "size": 18,
+      "targets": [
+        {
+          "state": {
+            "Name": "minecraft:rooted_dirt"
+          },
+          "target": {
+            "block": "minecraft:coarse_dirt",
+            "predicate_type": "minecraft:block_match"
+          }
+        }
+      ]
+    },
+    "type": "minecraft:ore"
+  },
+  "placement": [
+    {
+      "chance": 3,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 13
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "heightmap": "WORLD_SURFACE_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "blocks": "minecraft:coarse_dirt",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

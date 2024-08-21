@@ -1,0 +1,1 @@
+advancement revoke @a only cursefight:curse_of_fight

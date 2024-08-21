@@ -1,0 +1,14 @@
+{
+    "name": "kattersstructures:village_ocean/mason",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:village_ocean/house/profession/house_mason_2",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element",
+            "override_liquid_settings": "ignore_waterlogging"
+        }
+    }]
+}

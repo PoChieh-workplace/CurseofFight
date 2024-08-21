@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:["refresh_entity_blockanim_beacon","refresh_entity_blockanim"]}

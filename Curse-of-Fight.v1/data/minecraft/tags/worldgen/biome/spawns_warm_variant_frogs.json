@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:desert",
+    "minecraft:desert_caves",
+    "minecraft:warm_ocean",
+    "#minecraft:is_jungle",
+    "#minecraft:is_savanna",
+    "#minecraft:is_nether",
+    "#minecraft:is_badlands",
+    "minecraft:mangrove_swamp"
+  ]
+}

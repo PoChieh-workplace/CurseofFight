@@ -1,0 +1,36 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:sugar",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "ingredient":1
+                                }
+                            }
+                        },
+                        "offhand": {
+                            "items": [
+                                "minecraft:potion",
+                                "minecraft:splash_potion",
+                                "minecraft:lingering_potion"
+                            ],
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "awkward_potion":1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight:item/potion/potion_speed"
+    }
+}

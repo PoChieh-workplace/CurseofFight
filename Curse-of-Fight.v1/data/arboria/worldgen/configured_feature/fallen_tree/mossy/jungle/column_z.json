@@ -1,0 +1,97 @@
+{
+  "config": {
+    "default": {
+      "feature": {
+        "config": {
+          "to_place": {
+            "entries": [
+              {
+                "data": {
+                  "Name": "minecraft:jungle_log",
+                  "Properties": {
+                    "axis": "z"
+                  }
+                },
+                "weight": 2
+              },
+              {
+                "data": {
+                  "Name": "minecraft:stripped_jungle_log",
+                  "Properties": {
+                    "axis": "z"
+                  }
+                },
+                "weight": 3
+              },
+              {
+                "data": {
+                  "Name": "minecraft:moss_carpet"
+                },
+                "weight": 3
+              }
+            ],
+            "type": "minecraft:weighted_state_provider"
+          }
+        },
+        "type": "minecraft:simple_block"
+      },
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": {
+            "config": {
+              "allowed_placement": {
+                "type": "minecraft:replaceable"
+              },
+              "direction": "up",
+              "layers": [
+                {
+                  "height": 1,
+                  "provider": {
+                    "entries": [
+                      {
+                        "data": {
+                          "Name": "minecraft:jungle_log",
+                          "Properties": {
+                            "axis": "z"
+                          }
+                        },
+                        "weight": 2
+                      },
+                      {
+                        "data": {
+                          "Name": "minecraft:stripped_jungle_log",
+                          "Properties": {
+                            "axis": "z"
+                          }
+                        },
+                        "weight": 3
+                      }
+                    ],
+                    "type": "minecraft:weighted_state_provider"
+                  }
+                },
+                {
+                  "height": 1,
+                  "provider": {
+                    "state": {
+                      "Name": "minecraft:moss_carpet"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                }
+              ],
+              "prioritize_tip": false
+            },
+            "type": "minecraft:block_column"
+          },
+          "placement": []
+        }
+      }
+    ]
+  },
+  "type": "minecraft:random_selector"
+}

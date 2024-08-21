@@ -1,0 +1,240 @@
+{
+    "name": "hopo:mud_mineshaft",
+    "fallback": "hopo:mud_mineshaft",
+    "elements": [
+        {
+            "weight": 92,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/path",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 92,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/path_alt",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/path_1",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/path_1_alt",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/pathlong_1",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/pathlong_2",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/pathlong_3",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 88,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/pathlong_4",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/pathlong_5",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/trap/trap_1",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/trap/trap_2",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/trap/trap_3",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/trap/trap_4",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/trap/trap_5",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradedtrap"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/entrance",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/entrance_alt",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/entrance_1",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradedentrance"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/entrance_1_alt",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/turn",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradeddown"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/turn_1",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradeddown"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/turn_2",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradeddown"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/down",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/down_2",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradeddown"
+            }
+        },
+        {
+            "weight": 29,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/down_3",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradeddown"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/down_2",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradeddown"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/down_1",
+                "projection": "rigid",
+                "processors": "hopo:mud/degradeddown"
+            }
+        }
+    ]
+}

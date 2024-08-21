@@ -1,0 +1,429 @@
+{
+    "name": "hopo:room/spruce_mineshaft",
+    "fallback": "hopo:room/spruce_mineshaft",
+    "elements": [
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_amethyst",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_archer",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_armor",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_bedroom",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_bedroom_1",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_bedroom_2",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_bedroom_3",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_books",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_brown_mushroom",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_copper",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded_copper"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_crafting",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_emerald",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded_emerald"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_food",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_fossils",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded_fossils"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_fossils_1",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded_fossils"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_fossils_2",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded_fossils"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_fossils_3",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded_fossils"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_gold",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded_gold"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_iron",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded_iron"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_lapis",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded_lapis"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_iron",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_prison",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_red_mushroom",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_redstone",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded_redstone"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_rip",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_smelting",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_tnt",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_tools",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_weapons",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/room_diamonds",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded_diamond"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/farm_beetroot",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/farm_carrot",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/farm_melon",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/farm_potato",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/farm_pumpkin",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/farm_wheat",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/archer",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/camp",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/copper",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/iron_golem",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 85,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/map",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/music",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/portal",
+                "projection": "rigid",
+                "processors": "hopo:spruce/big_rooms/portal"
+            }
+        },
+        {
+            "weight": 85,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/copper",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/prison",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 85,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/portal",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 85,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/stews",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        }
+    ]
+}

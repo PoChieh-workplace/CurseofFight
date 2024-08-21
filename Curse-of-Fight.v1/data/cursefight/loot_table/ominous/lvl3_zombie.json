@@ -1,0 +1,97 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "cursefight:ominous/protection"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:sharpness": 1,
+                                "minecraft:fire_aspect": 1,
+                                "minecraft:knockback": 1
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:knockback": 1,
+                                "minecraft:sharpness": 1,
+                                "minecraft:fire_aspect": 1
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:knockback": 1,
+                                "minecraft:sharpness": 1,
+                                "minecraft:fire_aspect": 1
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:knockback": 1,
+                                "minecraft:sharpness": 1,
+                                "minecraft:fire_aspect": 1
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:knockback": 1,
+                                "minecraft:sharpness": 1,
+                                "minecraft:fire_aspect": 1
+                            },
+                            "add": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:equipment/trial_chamber_melee"
+}

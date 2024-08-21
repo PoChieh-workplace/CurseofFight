@@ -1,0 +1,74 @@
+{
+    "description": {
+		"translate": "enchantment.cursefight.strong_wolf_armor"
+	},
+    "supported_items": "minecraft:wolf_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "armor"
+    ],
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "cursefight:particle/wolf_armor"
+                }
+            }
+        ],
+        "minecraft:attributes": [
+            {
+                "id": "cof.wolf_armor_movement",
+                "attribute": "minecraft:generic.movement_speed",
+                "amount": 0.15,
+                "operation": "add_value"
+            },
+            {
+                "id": "cof.wolf_armor_armor",
+                "attribute": "minecraft:generic.armor",
+                "amount": 11,
+                "operation": "add_value"
+            },
+            {
+                "id": "cof.wolf_armor_step",
+                "attribute": "minecraft:generic.step_height",
+                "amount": 1,
+                "operation": "add_value"
+            },
+            {
+                "id": "cof.wolf_armor_jump",
+                "attribute": "minecraft:generic.jump_strength",
+                "amount": 0.3,
+                "operation": "add_multiplied_base"
+            },
+            {
+                "id": "cof.wolf_armor_attack_knockback",
+                "attribute": "minecraft:generic.attack_knockback",
+                "amount": 2,
+                "operation": "add_value"
+            },
+            {
+                "id": "cof.wolf_water_movement_efficiency",
+                "attribute": "minecraft:generic.water_movement_efficiency",
+                "amount": 1,
+                "operation": "add_value"
+            },
+            {
+                "id": "cof.wolf_attack_damage",
+                "attribute": "minecraft:generic.attack_damage",
+                "amount": -2,
+                "operation": "add_value"
+            }
+        ]
+    }
+}

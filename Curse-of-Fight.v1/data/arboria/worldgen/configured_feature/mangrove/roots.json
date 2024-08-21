@@ -1,0 +1,55 @@
+{
+  "config": {
+    "half_height": 0,
+    "radius": 1,
+    "state_provider": {
+      "fallback": {
+        "state": {
+          "Name": "minecraft:mangrove_roots",
+          "Properties": {
+            "waterlogged": "false"
+          }
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "rules": [
+        {
+          "if_true": {
+            "fluids": [
+              "minecraft:water",
+              "minecraft:flowing_water"
+            ],
+            "type": "minecraft:matching_fluids"
+          },
+          "then": {
+            "state": {
+              "Name": "minecraft:mangrove_roots",
+              "Properties": {
+                "waterlogged": "true"
+              }
+            },
+            "type": "minecraft:simple_state_provider"
+          }
+        }
+      ]
+    },
+    "target": {
+      "predicates": [
+        {
+          "type": "minecraft:replaceable"
+        },
+        {
+          "blocks": "#arboria:dirt",
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "type": "minecraft:matching_blocks"
+        }
+      ],
+      "type": "minecraft:all_of"
+    }
+  },
+  "type": "minecraft:disk"
+}

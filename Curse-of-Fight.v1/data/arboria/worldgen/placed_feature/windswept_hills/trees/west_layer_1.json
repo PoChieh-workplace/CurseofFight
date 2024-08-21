@@ -1,0 +1,102 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "arboria:leaning_spruce/2_west",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.1,
+          "feature": {
+            "feature": "arboria:oak_bush/3",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.15,
+          "feature": {
+            "feature": "arboria:oak_bush/5",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.75,
+          "feature": {
+            "feature": "arboria:leaning_spruce/1_west",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "chance": 3,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "noise_factor": 600.0,
+      "noise_offset": 0.3,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "noise_factor": -600.0,
+      "noise_offset": 0.3,
+      "noise_to_count_ratio": -1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "offset": [
+              -2,
+              0,
+              0
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              0,
+              0,
+              1
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              1,
+              1,
+              0
+            ],
+            "type": "minecraft:replaceable"
+          },
+          {
+            "offset": [
+              0,
+              0,
+              -1
+            ],
+            "type": "minecraft:replaceable"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

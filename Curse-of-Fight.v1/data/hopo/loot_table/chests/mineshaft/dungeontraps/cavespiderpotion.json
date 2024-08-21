@@ -1,0 +1,37 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:rarity": "rare",
+								"minecraft:potion_contents": {
+									"custom_color": 2637097,
+									"custom_effects": [
+										{
+											"id": "minecraft:unluck",
+											"duration": 3000
+										}
+									]
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "洞穴蜘蛛的洗禮",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

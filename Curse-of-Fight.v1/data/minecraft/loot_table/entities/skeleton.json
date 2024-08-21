@@ -1,0 +1,113 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        }
+                    ],
+                    "name": "minecraft:arrow"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        }
+                    ],
+                    "name": "minecraft:bone"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "地表晶球配方",
+                                "color": "gold",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "lore": [
+                                    "[\"\",{\"text\":\"使用後請至工作臺查詢！\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                ],
+                                "minecraft:recipes": [
+                                    "cursefight:return"
+                                ]
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.27
+                        }
+                    ],
+                    "name": "minecraft:knowledge_book"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:entities/skeleton"
+}

@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:nether_star",
+                    "components": {
+                        "minecraft:custom_model_data": 724002,
+                        "minecraft:custom_data": {
+                            "advence_mobile_respawn": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight:game/respawn/mobile_respawn"
+    }
+}

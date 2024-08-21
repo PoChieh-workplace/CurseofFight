@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#arboria:mushroom_blocks",
+    "#arboria:dirt_and_snow",
+    "#arboria:stone",
+    "#minecraft:features_cannot_replace"
+  ]
+}

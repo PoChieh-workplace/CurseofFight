@@ -1,0 +1,224 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 0.6,
+  "effects": {
+    "fog_color": 12638463,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.forest"
+    },
+    "sky_color": 8037887,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [
+      "arboria:old_birch_forest/coarse_dirt/layer_1",
+      "arboria:old_birch_forest/coarse_dirt/layer_2",
+      "arboria:old_birch_forest/coarse_dirt/layer_3",
+      "arboria:old_birch_forest/coarse_dirt/layer_4",
+      "arboria:old_birch_forest/coarse_dirt/layer_5",
+      "arboria:old_birch_forest/coarse_dirt/layer_6",
+      "arboria:old_birch_forest/coarse_dirt/layer_7",
+      "arboria:old_birch_forest/rooted_dirt/layer_1",
+      "arboria:old_birch_forest/rooted_dirt/layer_2",
+      "arboria:old_birch_forest/grass_block"
+    ],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "arboria:ore_dirt",
+      "arboria:ore_gravel_lower",
+      "arboria:ore_gravel_upper",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "arboria:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [
+      "arboria:birch_forest/spring",
+      "arboria:old_birch_forest/calcite/blobs",
+      "arboria:birch_forest/calcite/steep"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "arboria:birch_forest/spikes",
+      "arboria:old_birch_forest/rocks",
+      "arboria:old_birch_forest/fallen_trees"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "arboria:old_birch_forest/grass/layer_1",
+      "arboria:old_birch_forest/grass/layer_2",
+      "arboria:old_birch_forest/dead_bush",
+      "arboria:old_birch_forest/trees/layer_1",
+      "arboria:old_birch_forest/trees/layer_2",
+      "arboria:old_birch_forest/trees/layer_3",
+      "arboria:old_birch_forest/trees/layer_4",
+      "arboria:old_birch_forest/trees/layer_5",
+      "arboria:old_birch_forest/trees/layer_6",
+      "arboria:old_birch_forest/tree_lichen",
+      "arboria:old_birch_forest/flowers/forest",
+      "arboria:old_birch_forest/flowers/flowers",
+      "arboria:old_birch_forest/mushrooms",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "arboria:patch_sugar_cane",
+      "arboria:patch_pumpkin",
+      "arboria:forest/moss_patch"
+    ],
+    [
+      "minecraft:freeze_top_layer",
+      "arboria:bottom/stone_slab",
+      "arboria:bottom/snow"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:creeper",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:witch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.6
+}

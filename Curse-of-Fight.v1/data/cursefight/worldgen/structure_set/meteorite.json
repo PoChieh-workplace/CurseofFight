@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cursefight:meteorite",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 16435470,
+		"separation": 10,
+		"spacing": 20
+	}
+}

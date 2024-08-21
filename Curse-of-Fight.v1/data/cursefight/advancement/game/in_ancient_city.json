@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:sculk_shrieker",
+            "count": 1
+        },
+        "title": {
+            "translate":"cursefight.advancement.ancient_city.title",
+            "color":"dark_blue",
+            "bold":true
+        },
+        "description": {
+            "translate":"cursefight.advancement.ancient_city.description",
+            "color":"gray"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cursefight:root",
+    "criteria": {
+        "better_vanilla_dungeon": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:ancient_city"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "sends_telemetry_event": true,
+    "rewards": {
+        "function": "cursefight:advancement/ancient_city/animation_start"
+    }
+}

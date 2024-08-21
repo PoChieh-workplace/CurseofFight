@@ -1,0 +1,240 @@
+{
+    "name": "hopo:dark_oak_mineshaft",
+    "fallback": "hopo:dark_oak_mineshaft",
+    "elements": [
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/path",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/path_alt",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/path_1",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/path_1_alt",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/pathlong_1",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/pathlong_2",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/pathlong_3",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 88,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/pathlong_4",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/pathlong_5",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/trap/trap_1",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/trap/trap_2",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradedtrap"
+            }
+        },
+        {
+            "weight": 17,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/trap/trap_3",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/trap/trap_4",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradedtrap"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/trap/trap_5",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradedtrap"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/entrance",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/entrance_alt",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 45,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/entrance_1",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradedentrance"
+            }
+        },
+        {
+            "weight": 97,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/entrance_1_alt",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/turn",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradeddown"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/turn_1",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradeddown"
+            }
+        },
+        {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/turn_2",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradeddown"
+            }
+        },
+        {
+            "weight": 27,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/down",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degraded"
+            }
+        },
+        {
+            "weight": 27,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/down_2",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradeddown"
+            }
+        },
+        {
+            "weight": 31,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/down_3",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradeddown"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/down_2",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradeddown"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/dark_oak/down_1",
+                "projection": "rigid",
+                "processors": "hopo:dark_oak/degradeddown"
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+	"anvil_cost": 100,
+	"description": {
+		"translate": "enchantment.cursefight.dark_safety"
+	},
+	"effects": {
+		"minecraft:damage_immunity": [
+			{
+				"effect": {},
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"tags": [
+									{
+										"id": "cursefight:witch_protection",
+										"expected": true
+									},
+									{
+										"id": "minecraft:bypasses_invulnerability",
+										"expected": false
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		],
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "cursefight:enchantment/witch_protection"
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:apply_mob_effect",
+					"to_apply": "minecraft:fire_resistance",
+					"min_duration": 10,
+					"max_duration": 10,
+					"min_amplifier": 0,
+					"max_amplifier": 0
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 300,
+		"per_level_above_first": 1
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 200,
+		"per_level_above_first": 1
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#minecraft:head_armor",
+	"weight": 1
+}

@@ -1,0 +1,168 @@
+{
+  "config": {
+    "default": {
+      "feature": {
+        "config": {
+          "features": [
+            {
+              "feature": {
+                "config": {
+                  "features": [
+                    {
+                      "feature": "arboria:forest_oak/branch/2_east",
+                      "placement": []
+                    },
+                    {
+                      "feature": "arboria:forest_oak/branch/2_south",
+                      "placement": []
+                    }
+                  ]
+                },
+                "type": "minecraft:simple_random_selector"
+              },
+              "placement": [
+                {
+                  "count": 6,
+                  "type": "minecraft:count"
+                }
+              ]
+            },
+            {
+              "feature": {
+                "config": {
+                  "features": [
+                    {
+                      "feature": "arboria:forest_oak/branch/2_east",
+                      "placement": []
+                    },
+                    {
+                      "feature": "arboria:forest_oak/branch/2_north",
+                      "placement": []
+                    }
+                  ]
+                },
+                "type": "minecraft:simple_random_selector"
+              },
+              "placement": [
+                {
+                  "count": 6,
+                  "type": "minecraft:count"
+                }
+              ]
+            },
+            {
+              "feature": {
+                "config": {
+                  "features": [
+                    {
+                      "feature": "arboria:forest_oak/branch/2_west",
+                      "placement": []
+                    },
+                    {
+                      "feature": "arboria:forest_oak/branch/2_south",
+                      "placement": []
+                    }
+                  ]
+                },
+                "type": "minecraft:simple_random_selector"
+              },
+              "placement": [
+                {
+                  "count": 6,
+                  "type": "minecraft:count"
+                }
+              ]
+            },
+            {
+              "feature": {
+                "config": {
+                  "features": [
+                    {
+                      "feature": "arboria:forest_oak/branch/2_west",
+                      "placement": []
+                    },
+                    {
+                      "feature": "arboria:forest_oak/branch/2_north",
+                      "placement": []
+                    }
+                  ]
+                },
+                "type": "minecraft:simple_random_selector"
+              },
+              "placement": [
+                {
+                  "count": 6,
+                  "type": "minecraft:count"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "minecraft:simple_random_selector"
+      },
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.75,
+        "feature": {
+          "feature": {
+            "config": {
+              "features": [
+                {
+                  "feature": {
+                    "config": {
+                      "features": [
+                        {
+                          "feature": "arboria:forest_oak/branch/2_east",
+                          "placement": []
+                        },
+                        {
+                          "feature": "arboria:forest_oak/branch/2_west",
+                          "placement": []
+                        }
+                      ]
+                    },
+                    "type": "minecraft:simple_random_selector"
+                  },
+                  "placement": [
+                    {
+                      "count": 6,
+                      "type": "minecraft:count"
+                    }
+                  ]
+                },
+                {
+                  "feature": {
+                    "config": {
+                      "features": [
+                        {
+                          "feature": "arboria:forest_oak/branch/2_north",
+                          "placement": []
+                        },
+                        {
+                          "feature": "arboria:forest_oak/branch/2_south",
+                          "placement": []
+                        }
+                      ]
+                    },
+                    "type": "minecraft:simple_random_selector"
+                  },
+                  "placement": [
+                    {
+                      "count": 6,
+                      "type": "minecraft:count"
+                    }
+                  ]
+                }
+              ]
+            },
+            "type": "minecraft:simple_random_selector"
+          },
+          "placement": []
+        }
+      }
+    ]
+  },
+  "type": "minecraft:random_selector"
+}

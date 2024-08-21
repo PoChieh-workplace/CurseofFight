@@ -1,0 +1,823 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "to_place": {
+                      "state": {
+                        "Name": "minecraft:spruce_log",
+                        "Properties": {
+                          "axis": "x"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    }
+                  },
+                  "type": "minecraft:simple_block"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "type": "minecraft:replaceable"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "to_place": {
+                              "state": {
+                                "Name": "minecraft:spruce_log",
+                                "Properties": {
+                                  "axis": "x"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            }
+                          },
+                          "type": "minecraft:simple_block"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "type": "minecraft:replaceable"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "features": [
+                              {
+                                "feature": {
+                                  "config": {
+                                    "decorators": [],
+                                    "dirt_provider": {
+                                      "state": {
+                                        "Name": "minecraft:dirt"
+                                      },
+                                      "type": "minecraft:simple_state_provider"
+                                    },
+                                    "foliage_placer": {
+                                      "offset": 0,
+                                      "height": 0,
+                                      "radius": 0,
+                                      "type": "minecraft:jungle_foliage_placer"
+                                    },
+                                    "foliage_provider": {
+                                      "state": {
+                                        "Name": "minecraft:spruce_leaves",
+                                        "Properties": {
+                                          "distance": "1",
+                                          "persistent": "false",
+                                          "waterlogged": "false"
+                                        }
+                                      },
+                                      "type": "minecraft:simple_state_provider"
+                                    },
+                                    "force_dirt": false,
+                                    "ignore_vines": true,
+                                    "minimum_size": {
+                                      "limit": 0,
+                                      "lower_size": 0,
+                                      "upper_size": 0,
+                                      "type": "minecraft:two_layers_feature_size"
+                                    },
+                                    "trunk_placer": {
+                                      "base_height": 1,
+                                      "height_rand_a": 0,
+                                      "height_rand_b": 0,
+                                      "type": "minecraft:straight_trunk_placer"
+                                    },
+                                    "trunk_provider": {
+                                      "state": {
+                                        "Name": "minecraft:spruce_log",
+                                        "Properties": {
+                                          "axis": "x"
+                                        }
+                                      },
+                                      "type": "minecraft:simple_state_provider"
+                                    }
+                                  },
+                                  "type": "minecraft:tree"
+                                },
+                                "placement": [
+                                  {
+                                    "predicate": {
+                                      "type": "minecraft:replaceable"
+                                    },
+                                    "type": "minecraft:block_predicate_filter"
+                                  }
+                                ]
+                              },
+                              {
+                                "feature": {
+                                  "config": {
+                                    "decorators": [],
+                                    "dirt_provider": {
+                                      "state": {
+                                        "Name": "minecraft:dirt"
+                                      },
+                                      "type": "minecraft:simple_state_provider"
+                                    },
+                                    "foliage_placer": {
+                                      "offset": 0,
+                                      "height": 0,
+                                      "radius": 0,
+                                      "type": "minecraft:jungle_foliage_placer"
+                                    },
+                                    "foliage_provider": {
+                                      "state": {
+                                        "Name": "minecraft:spruce_leaves",
+                                        "Properties": {
+                                          "distance": "1",
+                                          "persistent": "false",
+                                          "waterlogged": "false"
+                                        }
+                                      },
+                                      "type": "minecraft:simple_state_provider"
+                                    },
+                                    "force_dirt": false,
+                                    "ignore_vines": true,
+                                    "minimum_size": {
+                                      "limit": 0,
+                                      "lower_size": 0,
+                                      "upper_size": 0,
+                                      "type": "minecraft:two_layers_feature_size"
+                                    },
+                                    "trunk_placer": {
+                                      "base_height": 1,
+                                      "height_rand_a": 0,
+                                      "height_rand_b": 0,
+                                      "type": "minecraft:straight_trunk_placer"
+                                    },
+                                    "trunk_provider": {
+                                      "state": {
+                                        "Name": "minecraft:spruce_log",
+                                        "Properties": {
+                                          "axis": "x"
+                                        }
+                                      },
+                                      "type": "minecraft:simple_state_provider"
+                                    }
+                                  },
+                                  "type": "minecraft:tree"
+                                },
+                                "placement": [
+                                  {
+                                    "predicate": {
+                                      "blocks": [
+                                        "minecraft:spruce_log",
+                                        "minecraft:stripped_spruce_log"
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    "type": "minecraft:block_predicate_filter"
+                                  },
+                                  {
+                                    "xz_spread": {
+                                      "type": "minecraft:uniform",
+                                      "min_inclusive": 0,
+                                      "max_inclusive": 1
+                                    },
+                                    "y_spread": 0,
+                                    "type": "minecraft:random_offset"
+                                  },
+                                  {
+                                    "predicate": {
+                                      "predicates": [
+                                        {
+                                          "blocks": [
+                                            "minecraft:spruce_log",
+                                            "minecraft:stripped_spruce_log"
+                                          ],
+                                          "offset": [
+                                            -1,
+                                            0,
+                                            0
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "#arboria:dirt",
+                                          "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "predicates": [
+                                            {
+                                              "type": "minecraft:replaceable"
+                                            },
+                                            {
+                                              "blocks": "minecraft:spruce_leaves",
+                                              "type": "minecraft:matching_blocks"
+                                            }
+                                          ],
+                                          "type": "minecraft:any_of"
+                                        },
+                                        {
+                                          "predicate": {
+                                            "blocks": [
+                                              "minecraft:spruce_log",
+                                              "minecraft:stripped_spruce_log"
+                                            ],
+                                            "offset": [
+                                              -1,
+                                              0,
+                                              -1
+                                            ],
+                                            "type": "minecraft:matching_blocks"
+                                          },
+                                          "type": "minecraft:not"
+                                        }
+                                      ],
+                                      "type": "minecraft:all_of"
+                                    },
+                                    "type": "minecraft:block_predicate_filter"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "type": "minecraft:simple_random_selector"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": [
+                                "minecraft:spruce_log",
+                                "minecraft:stripped_spruce_log"
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "count": 40,
+                            "type": "minecraft:count"
+                          },
+                          {
+                            "xz_spread": {
+                              "type": "minecraft:uniform",
+                              "min_inclusive": 0,
+                              "max_inclusive": 1
+                            },
+                            "y_spread": 0,
+                            "type": "minecraft:random_offset"
+                          },
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": [
+                                    "minecraft:spruce_log",
+                                    "minecraft:stripped_spruce_log"
+                                  ],
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "#arboria:dirt",
+                                  "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "type": "minecraft:replaceable"
+                                },
+                                {
+                                  "predicate": {
+                                    "blocks": [
+                                      "minecraft:spruce_log",
+                                      "minecraft:stripped_spruce_log"
+                                    ],
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  "type": "minecraft:not"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "count": 12,
+                            "type": "minecraft:count"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": [
+                        "minecraft:spruce_log",
+                        "minecraft:stripped_spruce_log"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 40,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": 0,
+                      "max_inclusive": 1
+                    },
+                    "y_spread": 0,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": [
+                            "minecraft:spruce_log",
+                            "minecraft:stripped_spruce_log"
+                          ],
+                          "offset": [
+                            -1,
+                            0,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "#arboria:dirt",
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "type": "minecraft:replaceable"
+                        },
+                        {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:spruce_log",
+                              "minecraft:stripped_spruce_log"
+                            ],
+                            "offset": [
+                              -1,
+                              0,
+                              -1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 36,
+                    "type": "minecraft:count"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "to_place": {
+                              "state": {
+                                "Name": "minecraft:spruce_log",
+                                "Properties": {
+                                  "axis": "x"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            }
+                          },
+                          "type": "minecraft:simple_block"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "type": "minecraft:replaceable"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "features": [
+                              {
+                                "feature": {
+                                  "config": {
+                                    "to_place": {
+                                      "state": {
+                                        "Name": "minecraft:spruce_log",
+                                        "Properties": {
+                                          "axis": "x"
+                                        }
+                                      },
+                                      "type": "minecraft:simple_state_provider"
+                                    }
+                                  },
+                                  "type": "minecraft:simple_block"
+                                },
+                                "placement": [
+                                  {
+                                    "predicate": {
+                                      "type": "minecraft:replaceable"
+                                    },
+                                    "type": "minecraft:block_predicate_filter"
+                                  }
+                                ]
+                              },
+                              {
+                                "feature": {
+                                  "config": {
+                                    "to_place": {
+                                      "state": {
+                                        "Name": "minecraft:spruce_log",
+                                        "Properties": {
+                                          "axis": "x"
+                                        }
+                                      },
+                                      "type": "minecraft:simple_state_provider"
+                                    }
+                                  },
+                                  "type": "minecraft:simple_block"
+                                },
+                                "placement": [
+                                  {
+                                    "predicate": {
+                                      "blocks": [
+                                        "minecraft:spruce_log",
+                                        "minecraft:stripped_spruce_log"
+                                      ],
+                                      "type": "minecraft:matching_blocks"
+                                    },
+                                    "type": "minecraft:block_predicate_filter"
+                                  },
+                                  {
+                                    "xz_spread": {
+                                      "type": "minecraft:uniform",
+                                      "min_inclusive": -1,
+                                      "max_inclusive": 0
+                                    },
+                                    "y_spread": 0,
+                                    "type": "minecraft:random_offset"
+                                  },
+                                  {
+                                    "predicate": {
+                                      "predicates": [
+                                        {
+                                          "blocks": [
+                                            "minecraft:spruce_log",
+                                            "minecraft:stripped_spruce_log"
+                                          ],
+                                          "offset": [
+                                            1,
+                                            0,
+                                            0
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "#arboria:dirt",
+                                          "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "type": "minecraft:replaceable"
+                                        },
+                                        {
+                                          "predicate": {
+                                            "blocks": [
+                                              "minecraft:spruce_log",
+                                              "minecraft:stripped_spruce_log"
+                                            ],
+                                            "offset": [
+                                              1,
+                                              0,
+                                              1
+                                            ],
+                                            "type": "minecraft:matching_blocks"
+                                          },
+                                          "type": "minecraft:not"
+                                        }
+                                      ],
+                                      "type": "minecraft:all_of"
+                                    },
+                                    "type": "minecraft:block_predicate_filter"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "type": "minecraft:simple_random_selector"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": [
+                                "minecraft:spruce_log",
+                                "minecraft:stripped_spruce_log"
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "count": 40,
+                            "type": "minecraft:count"
+                          },
+                          {
+                            "xz_spread": {
+                              "type": "minecraft:uniform",
+                              "min_inclusive": -1,
+                              "max_inclusive": 0
+                            },
+                            "y_spread": 0,
+                            "type": "minecraft:random_offset"
+                          },
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": [
+                                    "minecraft:spruce_log",
+                                    "minecraft:stripped_spruce_log"
+                                  ],
+                                  "offset": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "#arboria:dirt",
+                                  "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "type": "minecraft:replaceable"
+                                },
+                                {
+                                  "predicate": {
+                                    "blocks": [
+                                      "minecraft:spruce_log",
+                                      "minecraft:stripped_spruce_log"
+                                    ],
+                                    "offset": [
+                                      1,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  "type": "minecraft:not"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "count": 24,
+                            "type": "minecraft:count"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": [
+                        "minecraft:spruce_log",
+                        "minecraft:stripped_spruce_log"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 40,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": -1,
+                      "max_inclusive": 0
+                    },
+                    "y_spread": 0,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": [
+                            "minecraft:spruce_log",
+                            "minecraft:stripped_spruce_log"
+                          ],
+                          "offset": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "#arboria:dirt",
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "type": "minecraft:replaceable"
+                        },
+                        {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:spruce_log",
+                              "minecraft:stripped_spruce_log"
+                            ],
+                            "offset": [
+                              1,
+                              0,
+                              1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 36,
+                    "type": "minecraft:count"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    1,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    2,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    2,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    -1,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    -1,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    -2,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:replaceable"
+                },
+                {
+                  "blocks": "#arboria:dirt",
+                  "offset": [
+                    -2,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 48,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

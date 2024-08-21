@@ -1,0 +1,16 @@
+{
+    "values": [
+        "minecraft:jagged_peaks",
+        "minecraft:stony_peaks",
+        { 
+            "id": "biomesoplenty:crag",
+            "required": false
+        },{ 
+            "id": "terralith:emerald_peaks",
+            "required": false
+        },{ 
+            "id": "terralith:stony_spires",
+            "required": false
+        }
+    ]
+}

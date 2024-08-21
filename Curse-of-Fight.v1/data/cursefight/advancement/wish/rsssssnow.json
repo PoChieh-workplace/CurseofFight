@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:white_bed"
+        },
+        "title": {
+            "text": "來自 Rsssssnow 的遺志",
+            "color": "gold"
+        },
+        "description": {
+            "text": "受到刻意的遊戲所傷害",
+            "color": "dark_red"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cursefight:wish",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "taken": {
+                        "min": 5,
+                        "max": 999
+                    },
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "cursefight:is_game_design",
+                                "expected": true
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

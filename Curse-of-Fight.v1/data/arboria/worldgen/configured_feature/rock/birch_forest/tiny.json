@@ -1,0 +1,177 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "default": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Name": "minecraft:diorite"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": [
+                      "minecraft:calcite",
+                      "minecraft:diorite"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                },
+                {
+                  "count": 4,
+                  "type": "minecraft:count"
+                },
+                {
+                  "xz_spread": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": -3,
+                    "max_inclusive": 3
+                  },
+                  "y_spread": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": -1,
+                    "max_inclusive": 2
+                  },
+                  "type": "minecraft:random_offset"
+                },
+                {
+                  "predicate": {
+                    "blocks": "minecraft:calcite",
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            },
+            "features": [
+              {
+                "chance": 0.5,
+                "feature": {
+                  "feature": {
+                    "config": {
+                      "state": {
+                        "Name": "minecraft:calcite"
+                      }
+                    },
+                    "type": "minecraft:forest_rock"
+                  },
+                  "placement": [
+                    {
+                      "predicate": {
+                        "predicate": {
+                          "blocks": [
+                            "minecraft:calcite",
+                            "minecraft:diorite"
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        "type": "minecraft:not"
+                      },
+                      "type": "minecraft:block_predicate_filter"
+                    },
+                    {
+                      "count": 4,
+                      "type": "minecraft:count"
+                    }
+                  ]
+                }
+              },
+              {
+                "chance": 0.5,
+                "feature": {
+                  "feature": {
+                    "config": {
+                      "to_place": {
+                        "state": {
+                          "Name": "minecraft:moss_carpet"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      }
+                    },
+                    "type": "minecraft:simple_block"
+                  },
+                  "placement": [
+                    {
+                      "predicate": {
+                        "blocks": [
+                          "minecraft:calcite",
+                          "minecraft:diorite"
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      "type": "minecraft:block_predicate_filter"
+                    },
+                    {
+                      "count": 6,
+                      "type": "minecraft:count"
+                    },
+                    {
+                      "xz_spread": {
+                        "type": "minecraft:uniform",
+                        "min_inclusive": -3,
+                        "max_inclusive": 3
+                      },
+                      "y_spread": {
+                        "type": "minecraft:uniform",
+                        "min_inclusive": -1,
+                        "max_inclusive": 3
+                      },
+                      "type": "minecraft:random_offset"
+                    },
+                    {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:air",
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "blocks": [
+                              "minecraft:calcite",
+                              "minecraft:diorite"
+                            ],
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        ],
+                        "type": "minecraft:all_of"
+                      },
+                      "type": "minecraft:block_predicate_filter"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "type": "minecraft:random_selector"
+        },
+        "placement": [
+          {
+            "xz_spread": 2,
+            "y_spread": 3,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "count": 64,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

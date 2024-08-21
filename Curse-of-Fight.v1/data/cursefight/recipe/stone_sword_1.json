@@ -1,0 +1,72 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aba",
+        "bbb",
+        "bcb"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:diamond"
+        },
+        "b": {
+            "item": "minecraft:obsidian"
+        },
+        "c": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "id": "minecraft:stone_sword",
+        "count": 1,
+        "components": {
+            "minecraft:unbreakable": {
+                "show_in_tooltip": false
+            },
+            "minecraft:custom_model_data": 724020,
+            "minecraft:custom_data": {"stone_sword_1":1},
+            "custom_name":"[\"\",{\"text\":\"遠古巨劍\",\"italic\":false,\"color\":\"dark_gray\"}]",
+            "lore":[
+                "[\"\",{\"text\":\"一把充滿著詛咒和力量的劍\",\"italic\":false,\"color\":\"aqua\"}]",
+                "[{\"text\":\"據說是高空的遠古凋零王創造的強大武器\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"
+            ],
+            "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 1,
+                "minecraft:density": 5,
+                "minecraft:breach": 4
+            },
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "id": "cof.stone_sword_1.attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "cof.stone_sword_1.attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -0.9,
+                        "operation": "add_multiplied_base",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "cof.stone_sword_1.movement",
+                        "type": "minecraft:generic.movement_speed",
+                        "amount": -0.3,
+                        "operation": "add_multiplied_base",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "cof.stone_sword_1.knock_resis",
+                        "type": "minecraft:generic.knockback_resistance",
+                        "amount": 10,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "kattersstructures:village_jungle/tree_branch_1",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/main_tree/branch_1/tree_branch_1_clear"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/main_tree/branch_1/tree_branch_1_house_1"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/main_tree/branch_1/tree_branch_1_house_2"
+        }
+    }]
+}

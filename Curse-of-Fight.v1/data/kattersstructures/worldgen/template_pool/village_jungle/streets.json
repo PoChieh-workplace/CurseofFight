@@ -1,0 +1,66 @@
+{
+    "name": "kattersstructures:village_jungle/streets",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    },{
+        "weight": 4,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/streets/street_straight_1"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/streets/street_straight_2"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/streets/street_cross"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/streets/street_t"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/streets/street_end"
+        }
+    },{
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/streets/street_aslant"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/streets/street_curve"
+        }
+    }]
+}

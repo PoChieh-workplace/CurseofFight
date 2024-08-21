@@ -1,0 +1,13 @@
+{
+    "name": "kattersstructures:village_jungle/tree_branch_7",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:village_jungle/main_tree/branch_7/tree_branch_7_clear"
+        }
+    }]
+}

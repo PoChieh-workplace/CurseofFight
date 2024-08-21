@@ -1,0 +1,13 @@
+{
+    "values": [
+        "minecraft:beach",
+        "minecraft:snowy_beach",
+        { 
+            "id": "biomesoplenty:dune_beach",
+            "required": false
+        },{ 
+            "id": "terralith:gravel_beach",
+            "required": false
+        }
+    ]
+}

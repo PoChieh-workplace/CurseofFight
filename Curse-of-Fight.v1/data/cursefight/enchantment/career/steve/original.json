@@ -1,0 +1,21 @@
+{
+    "anvil_cost": 6,
+    "description":{
+        "translate": "enchantment.cursefight.original"
+    },
+    "effects": {},
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "any"
+    ],
+    "supported_items": "minecraft:grass_block",
+    "weight": 2
+}
