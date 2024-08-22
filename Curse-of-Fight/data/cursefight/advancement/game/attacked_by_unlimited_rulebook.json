@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "player", 
+                        "equipment": {
+                            "mainhand": {
+                                "predicates": {
+                                    "custom_data": {
+                                        "unlimited_rulebook": 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight:item/weapon/attacked_by_weapon_unlimited_rulebook"
+    }
+}

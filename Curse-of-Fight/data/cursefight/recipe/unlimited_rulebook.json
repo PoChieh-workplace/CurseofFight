@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped", 
+    "pattern": [
+        "a a",
+        "a a",
+        " a "
+    ], 
+    "key": {
+        "a": {
+            "item": "minecraft:dirt"
+        }
+    }, 
+    "result": {
+        "id": "minecart:wooden_sword", 
+        "count": 1, 
+        "components": {
+            "minecraft:custom_data": {
+                "unlimited_rulebook": 1
+            },
+            "minecraft:enchantments": {
+                "minecraft:knockback": 10, 
+                "minecraft:vanishing_curse": 1, 
+                "cursefight:generic/curse/breaking": 200
+            }
+        }
+    }
+}
