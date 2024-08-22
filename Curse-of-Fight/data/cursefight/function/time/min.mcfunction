@@ -7,3 +7,4 @@ execute as @a[team=!black,scores={death=0}] run scoreboard players add @s surviv
 
 
 execute if score _mode_ info matches 0 run function cursefight:game/mode/classic/check_event
+execute if score _mode_ info matches 1 run function cursefight:game/mode/recovery/check_event

@@ -590,6 +590,7 @@
                                 "minecraft:custom_name": "[\"\",{\"text\":\"受到蠹蝕的翅膀\",\"italic\":false,\"color\":\"gray\"}]",
                                 "minecraft:enchantments": {
                                     "minecraft:vanishing_curse": 1,
+                                    "cursefight:generic/curse/breaking": 5,
                                     "minecraft:unbreaking": 3
                                 }
                             }
