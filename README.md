@@ -1,2 +1,1 @@
-# datapacks
- Curse of Fight datapack studio
+# Curse of Fight Datapack
