@@ -24,6 +24,7 @@ title @s title {"text":"他即將進入戰場","color":"gray"}
 
 execute as @a[tag=respawning] run tellraw @a {"text":"","color":"white","bold":true,"extra":[{"text":"Curse of Fight >>> ","color":"#CA8EFF"},{"selector":"@s"},{"text":" 重生了","color":"green"}]}
 execute at @s positioned ~ ~30 ~ as @a[tag=respawning] run ride @s mount @n[type=minecraft:allay,tag=respawn_allay]
+give @a[tag=respawning] minecraft:recovery_compass
 
 scoreboard players set @a[tag=respawning] death 0
 gamemode survival @a[tag=respawning]

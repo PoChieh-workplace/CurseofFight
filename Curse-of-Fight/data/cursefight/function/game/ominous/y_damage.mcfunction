@@ -1,0 +1,1 @@
+execute as @a at @s positioned over motion_blocking_no_leaves unless entity @s[dy=40] unless entity @s[dy=-40] run damage @s 4 minecraft:outside_border

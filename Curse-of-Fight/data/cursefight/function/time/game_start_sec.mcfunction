@@ -22,6 +22,9 @@ function cursefight:structure/mineshaft/armor_set
 # mode
 execute if score _mode_ info matches 1 run function cursefight:game/mode/recovery/sec
 
+# ominous damaged
+# execute as @a at @s positioned over motion_blocking_no_leaves unless entity @s[dy=40] unless entity @s[dy=-40] run damage @s 4 minecraft:outside_border
+
 
 # career
 execute if score _if_career_ info matches 1 run function cursefight:career/system/sec

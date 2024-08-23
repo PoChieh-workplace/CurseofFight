@@ -19,6 +19,7 @@ execute at @s positioned over motion_blocking run summon minecraft:allay ~ ~30 ~
 title @s times 0t 3s 1s
 title @s subtitle {"text":"傳送到隊友附近","color":"green"}
 title @s title {"text":"你重生了","color":"gray"}
+give @s minecraft:recovery_compass
 
 execute as @s run tellraw @a {"text":"","color":"white","bold":true,"extra":[{"text":"Curse of Fight >>> ","color":"#CA8EFF"},{"selector":"@s"},{"text":" 重生了","color":"green"}]}
 execute at @s positioned over motion_blocking positioned ~ ~30 ~ as @s run ride @s mount @n[type=minecraft:allay,tag=respawn_allay]
