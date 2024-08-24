@@ -85,6 +85,10 @@ execute store result score 剩餘隊伍 show_info run execute if entity @e[tag=a
 gamemode survival @a[team=!black]
 gamemode spectator @a[team=black]
 
+
+item replace entity @a[team=!black] armor.head with minecraft:iron_helmet[minecraft:enchantments={"cursefight:generic/curse/tick_breaking":1,"cursefight:generic/armor/high_land_breath":1,"minecraft:vanishing_curse":1,"minecraft:binding_curse":1}]
+
+
 execute if score _mode_ info matches 0 run function cursefight:game/mode/classic/main
 execute if score _mode_ info matches 1 run function cursefight:game/mode/recovery/main
 scoreboard players set _game_start_ info 1
