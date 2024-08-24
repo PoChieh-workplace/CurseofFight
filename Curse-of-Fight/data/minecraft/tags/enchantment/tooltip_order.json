@@ -42,6 +42,7 @@
     "minecraft:loyalty",
     "minecraft:unbreaking",
     "minecraft:infinity",
-    "minecraft:mending"
+    "minecraft:mending",
+    "cursefight:generic/armor/high_land_breath"
   ]
 }

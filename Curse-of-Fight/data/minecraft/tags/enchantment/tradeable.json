@@ -6,6 +6,7 @@
     "minecraft:frost_walker",
     "minecraft:mending",
     "cursefight:generic/curse/breaking",
-    "cursefight:generic/trident/depth_strider"
+    "cursefight:generic/trident/depth_strider",
+    "cursefight:generic/armor/high_land_breath"
   ]
 }
