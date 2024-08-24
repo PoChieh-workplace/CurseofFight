@@ -7,19 +7,19 @@
     ],
     "key": {
         "a": {
-            "item": "minecraft:poppy"
+            "item": "minecraft:target"
         },
         "b": {
-            "item": "minecraft:white_banner"
+            "item": "minecraft:iron_door"
         },
         "c": {
-            "item": "minecraft:bee_nest"
+            "item": "minecraft:amethyst_block"
         },
         "d": {
-            "item": "minecraft:splash_potion"
+            "item": "minecraft:sugar_cane"
         },
         "e": {
-            "item": "minecraft:pumpkin_pie"
+            "item": "minecraft:tnt"
         }
     },
     "result": {
