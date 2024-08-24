@@ -1,0 +1,42 @@
+{
+    "description": {
+        "translate": "enchantment.cursefight.tick_breaking"
+    },
+    "supported_items": "#minecraft:enchantable/vanishing",
+    "primary_items": "#minecraft:enchantable/vanishing",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 15
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 15
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "any"
+    ],
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:damage_item",
+                    "amount": 1
+                },
+                "requirements": {
+                    "condition": "minecraft:random_chance",
+                    "chance": {
+                        "type": "minecraft:enchantment_level",
+                        "amount": {
+                            "type": "minecraft:linear",
+                            "base": 0.05,
+                            "per_level_above_first": 0.05
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

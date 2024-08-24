@@ -1,0 +1,83 @@
+{
+    "anvil_cost": 100,
+    "description": {
+        "translate": "enchantment.cursefight.blass_of_queen"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": [
+                        "minecraft:night_vision",
+                        "minecraft:speed",
+                        "minecraft:hero_of_the_village",
+                        "minecraft:conduit_power",
+                        "minecraft:dolphins_grace",
+                        "minecraft:fire_resistance",
+                        "minecraft:haste",
+                        "minecraft:jump_boost",
+                        "minecraft:luck",
+                        "minecraft:regeneration",
+                        "minecraft:saturation",
+                        "minecraft:water_breathing",
+                        "minecraft:glowing"
+                    ],
+                    "min_duration": 20,
+                    "max_duration": 20,
+                    "min_amplifier": 0,
+                    "max_amplifier": 0
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:trial_spawner_detection"
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "offset": 0,
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "offset": 0,
+                        "scale": 1
+                    },
+                    "horizontal_velocity": {
+                        "base": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": -1,
+                            "max_exclusive": 1
+                        },
+                        "movement_scale": 1
+                    },
+                    "vertical_velocity": {
+                        "base": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": -1,
+                            "max_exclusive": 1
+                        },
+                        "movement_scale": 1
+                    },
+                    "speed": 0
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 300,
+        "per_level_above_first": 1
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 200,
+        "per_level_above_first": 1
+    },
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "#minecraft:head_armor",
+    "weight": 1
+}

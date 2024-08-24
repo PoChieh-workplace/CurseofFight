@@ -2,6 +2,7 @@
   "values": [
     "minecraft:binding_curse",
     "minecraft:vanishing_curse",
-    "cursefight:generic/curse/breaking"
+    "cursefight:generic/curse/breaking",
+    "cursefight:generic/curse/tick_breaking"
   ]
 }

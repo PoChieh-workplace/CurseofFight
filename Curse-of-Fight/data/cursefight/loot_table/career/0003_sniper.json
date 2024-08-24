@@ -17,7 +17,6 @@
                             "components": {
                                 "minecraft:enchantments": {
                                     "cursefight:career/sniper/magic_arror":3,
-                                    "cursefight:career/sniper/accuracy_shot":1,
                                     "minecraft:infinity":1
                                 },
                                 "minecraft:lore":[
