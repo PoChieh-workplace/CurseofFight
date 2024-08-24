@@ -1,7 +1,7 @@
 {
     "anvil_cost": 100,
     "description": {
-        "translate": "enchantment.cursefight.blass_of_queen"
+        "translate": "enchantment.cursefight.bless_of_queen"
     },
     "effects": {
         "minecraft:tick": [

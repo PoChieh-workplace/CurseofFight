@@ -1,4 +1,7 @@
-execute as @a[team=!black] at @s positioned over motion_blocking_no_leaves positioned ~ ~40 ~ if entity @s[predicate=cursefight:elytra_fly_limit,dy=1000] run damage @s 2 minecraft:wither
+execute as @a[team=!black] at @s positioned over motion_blocking_no_leaves positioned ~ ~30 ~ if entity @s[predicate=cursefight:elytra_fly_limit,dy=1000] run title @s times 0t 2s 1s
+execute as @a[team=!black] at @s positioned over motion_blocking_no_leaves positioned ~ ~30 ~ if entity @s[predicate=cursefight:elytra_fly_limit,dy=1000] run title @s subtitle "\u00A7a請盡速回到地表"
+execute as @a[team=!black] at @s positioned over motion_blocking_no_leaves positioned ~ ~30 ~ if entity @s[predicate=cursefight:elytra_fly_limit,dy=1000] run title @s title "\u00A76\u00A7l你呼吸到了 \u00A78\u00A7l瘴氣"
+execute as @a[team=!black] at @s positioned over motion_blocking_no_leaves positioned ~ ~30 ~ if entity @s[predicate=cursefight:elytra_fly_limit,dy=1000] run damage @s 2 minecraft:wither
 execute as @a[team=!black] at @s positioned over motion_blocking_no_leaves positioned ~ ~80 ~ if entity @s[predicate=cursefight:elytra_fly_limit,dy=1000] run damage @s 4 minecraft:wither
 execute as @a[team=!black] at @s positioned over motion_blocking_no_leaves positioned ~ ~120 ~ if entity @s[predicate=cursefight:elytra_fly_limit,dy=1000] run damage @s 6 minecraft:wither
 execute as @a[team=!black] at @s positioned over motion_blocking_no_leaves positioned ~ ~160 ~ if entity @s[predicate=cursefight:elytra_fly_limit,dy=1000] run damage @s 10 minecraft:wither

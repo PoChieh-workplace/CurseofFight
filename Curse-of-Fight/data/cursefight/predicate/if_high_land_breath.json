@@ -4,10 +4,12 @@
     "predicate": {
         "equipment": {
             "head": {
-                "components": {
-                    "minecraft:enchantments": {
-                        "cursefight:generic/armor/high_land_breath": 1
-                    }
+                "predicates": {
+                    "minecraft:enchantments": [
+                        {
+                            "enchantments": "cursefight:generic/armor/high_land_breath"
+                        }
+                    ]
                 }
             }
         }
