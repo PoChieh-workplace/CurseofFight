@@ -6,6 +6,9 @@ execute store result score 剩餘隊伍 show_info run execute if entity @e[tag=a
 # team mob glowing
 effect give @e[team=!,type=!minecraft:player,type=!minecraft:wolf] minecraft:glowing infinite 0
 
+# high_land_breath
+execute as @a[y=170,dy=1000,predicate=!cursefight:if_high_land_breath] run function cursefight:game/generic/player/high_land_effect
+
 execute if score _mode_ info matches 0 run function cursefight:game/mode/classic/tick
 execute if score _mode_ info matches 1 run function cursefight:game/mode/recovery/tick
 

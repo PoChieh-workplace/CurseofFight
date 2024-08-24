@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "head": {
+                "components": {
+                    "minecraft:enchantments": {
+                        "cursefight:generic/armor/high_land_breath": 1
+                    }
+                }
+            }
+        }
+    }
+}
