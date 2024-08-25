@@ -4,3 +4,4 @@ scoreboard players reset @s refresh_sound_egg
 scoreboard players set @s refresh_rejoin 0
 
 function vanilla_refresh:player/first_join_stats
+function cursefight:player/rejoin

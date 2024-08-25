@@ -12,78 +12,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:name_tag",
-                    "weight": 3
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:saddle",
-                    "weight": 3
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_boots",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 5
-                            },
-                            "options": "#minecraft:on_random_loot",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_chestplate",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 5
-                            },
-                            "options": "#minecraft:on_random_loot",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_leggings",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 5
-                            },
-                            "options": "#minecraft:on_random_loot",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        }
-                    ]
+                    "weight": 1
                 },
                 {
                     "type": "minecraft:item",
@@ -91,49 +20,27 @@
                     "weight": 3,
                     "functions": [
                         {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 5
-                            },
-                            "options": "#minecraft:on_random_loot",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_pickaxe",
-                    "weight": 3,
-                    "functions": [
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "cursefight:generic/armor/high_land_breath": 1
+                            }
+                        },
                         {
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 5
+                                "min": 10,
+                                "max": 50
                             },
                             "options": "#minecraft:on_random_loot",
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
-                                    "chance": 0.5
+                                    "chance": 0.7
                                 }
                             ]
                         }
                     ]
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:random_chance",
-                    "chance": 0.6
                 }
             ]
         },
@@ -143,36 +50,6 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:gold_ingot",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_ingot",
-                    "weight": 4,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
                     "name": "minecraft:emerald",
                     "weight": 1
                 },
@@ -180,6 +57,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:diamond",
                     "weight": 2,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -193,12 +71,12 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:potion",
+                    "name": "minecraft:splash_potion",
                     "weight": 2,
                     "functions": [
                         {
                             "function": "minecraft:set_potion",
-                            "id": "minecraft:healing"
+                            "id": "minecraft:strong_healing"
                         },
                         {
                             "function": "minecraft:set_components",
@@ -212,6 +90,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "weight": 2,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -223,32 +102,13 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:ender_pearl",
-                    "weight": 10
+                    "weight": 5
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:shulker_shell",
-                    "weight": 6
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:end_stone",
-                    "weight": 15,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 3,
-                                "max": 10
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:chorus_fruit",
-                    "weight": 10,
+                    "name": "minecraft:firework_rocket",
+                    "weight": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -259,6 +119,52 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tnt",
+                    "weight": 2,
+                    "quality": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gunpowder",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sand",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:white_bed",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:fire_charge",
+                    "weight": 3
                 }
             ]
         }
