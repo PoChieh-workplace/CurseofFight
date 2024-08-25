@@ -25,6 +25,9 @@ execute if score _mode_ info matches 1 run function cursefight:game/mode/recover
 # elytra damage 
 execute if score _worldborder_end_ activity_set matches 1 run function cursefight:game/worldborder/y_damage
 
+# glowing effect
+execute if score _glowing_ activity_set matches 1 run effect give @a[team=!black] minecraft:glowing infinite 0
+
 # career
 execute if score _if_career_ info matches 1 run function cursefight:career/system/sec
 

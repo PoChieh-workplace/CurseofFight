@@ -12,6 +12,7 @@
 		"minecraft:soul_speed",
 		"minecraft:unbreaking",
 		"minecraft:mending",
-		"cursefight:generic/armor/armor_knockback"
+		"cursefight:generic/armor/armor_knockback",
+		"cursefight:generic/armor/high_land_breath"
 	]
 }

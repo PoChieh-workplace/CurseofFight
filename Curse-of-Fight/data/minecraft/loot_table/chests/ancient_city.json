@@ -90,11 +90,11 @@
                                 "min": 1,
                                 "max": 30
                             },
-                            "options": "#minecraft:curse",
+                            "options": "#minecraft:ancient_city_curse",
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
-                                    "chance": 1
+                                    "chance": 0.5
                                 }
                             ]
                         }
@@ -122,11 +122,11 @@
                                 "min": 10,
                                 "max": 30
                             },
-                            "options": "#minecraft:curse",
+                            "options": "#minecraft:ancient_city_curse",
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
-                                    "chance": 1
+                                    "chance": 0.5
                                 }
                             ]
                         }
@@ -154,11 +154,11 @@
                                 "min": 1,
                                 "max": 30
                             },
-                            "options": "#minecraft:curse",
+                            "options": "#minecraft:ancient_city_curse",
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
-                                    "chance": 1
+                                    "chance": 0.5
                                 }
                             ]
                         }
@@ -186,11 +186,11 @@
                                 "min": 1,
                                 "max": 30
                             },
-                            "options": "#minecraft:curse",
+                            "options": "#minecraft:ancient_city_curse",
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
-                                    "chance": 1
+                                    "chance": 0.5
                                 }
                             ]
                         }
@@ -209,11 +209,11 @@
                                 "min": 1,
                                 "max": 30
                             },
-                            "options": "#minecraft:curse",
+                            "options": "#minecraft:ancient_city_curse",
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
-                                    "chance": 1
+                                    "chance": 0.5
                                 }
                             ]
                         },
@@ -241,11 +241,11 @@
                                 "min": 1,
                                 "max": 30
                             },
-                            "options": "#minecraft:curse",
+                            "options": "#minecraft:ancient_city_curse",
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
-                                    "chance": 1
+                                    "chance": 0.5
                                 }
                             ]
                         },
@@ -273,11 +273,11 @@
                                 "min": 1,
                                 "max": 30
                             },
-                            "options": "#minecraft:curse",
+                            "options": "#minecraft:ancient_city_curse",
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
-                                    "chance": 1
+                                    "chance": 0.5
                                 }
                             ]
                         },
@@ -305,11 +305,11 @@
                                 "min": 1,
                                 "max": 30
                             },
-                            "options": "#minecraft:curse",
+                            "options": "#minecraft:ancient_city_curse",
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
-                                    "chance": 1
+                                    "chance": 0.5
                                 }
                             ]
                         },
