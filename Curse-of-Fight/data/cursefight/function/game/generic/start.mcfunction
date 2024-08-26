@@ -72,6 +72,7 @@ give @a[team=!black] written_book[written_book_content={pages:['["",{"text":"\\n
 
 execute if entity @a[team=white] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,white]}
 execute if entity @a[team=red] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,red]}
+execute if entity @a[team=blue] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,blue]}
 execute if entity @a[team=yellow] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,yellow]}
 execute if entity @a[team=green] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,green]}
 execute if entity @a[team=aqua] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,aqua]}
