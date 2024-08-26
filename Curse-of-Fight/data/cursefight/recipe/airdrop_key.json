@@ -7,19 +7,19 @@
     ],
     "key": {
         "a": {
-            "item": "minecraft:target"
+            "item": "minecraft:bookshelf"
         },
         "b": {
-            "item": "minecraft:iron_door"
+            "item": "minecraft:activator_rail"
         },
         "c": {
-            "item": "minecraft:amethyst_block"
+            "item": "minecraft:ender_eye"
         },
         "d": {
-            "item": "minecraft:sugar_cane"
+            "item": "minecraft:sugar"
         },
         "e": {
-            "item": "minecraft:tnt"
+            "item": "minecraft:lava_bucket"
         }
     },
     "result": {

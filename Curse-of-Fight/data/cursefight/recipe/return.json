@@ -6,10 +6,10 @@
     ],
     "key": {
         "a": {
-            "item": "minecraft:diamond"
+            "item": "minecraft:polished_deepslate"
         },
         "b": {
-            "item": "minecraft:stone"
+            "item": "minecraft:coal"
         }
     },
     "result": {
