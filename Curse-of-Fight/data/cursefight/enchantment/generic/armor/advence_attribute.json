@@ -7,14 +7,14 @@
 		"minecraft:attributes": [
 			{
 				"id": "cursefight.mob_armor.scale",
-				"attribute": "minecraft:generic.scale",
-				"amount": -0.5,
-				"operation": "add_multiplied_base"
+				"attribute": "minecraft:generic.step_height",
+				"amount": 2,
+				"operation": "add_value"
 			},
 			{
 				"id": "cursefight.mob_armor.movement",
 				"attribute": "minecraft:generic.movement_speed",
-				"amount": 0.2,
+				"amount": 0.15,
 				"operation": "add_value"
 			},
 			{
