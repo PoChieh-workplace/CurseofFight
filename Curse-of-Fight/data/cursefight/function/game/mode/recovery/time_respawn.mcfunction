@@ -1,0 +1,2 @@
+function cursefight:game/generic/player/tp_teammate
+function cursefight:game/respawn/respawn_himself

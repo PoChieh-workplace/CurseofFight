@@ -16,3 +16,6 @@ scoreboard players set @s mobile_respawn 0
 scoreboard players set @s kills 0
 scoreboard players set @s death 0
 scoreboard players set @s refresh_player_mobkills 0
+
+# recovery mode set
+execute if score _mode_ info matches 1 run scoreboard players set @s team_respawn 10

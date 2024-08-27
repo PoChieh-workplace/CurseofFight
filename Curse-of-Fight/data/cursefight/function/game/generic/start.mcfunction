@@ -23,7 +23,7 @@ scoreboard players set @a death 0
 scoreboard players set @a survival_time 0
 scoreboard players set @a refresh_player_mobkills 0
 scoreboard objectives setdisplay sidebar show_info
-scoreboard players set _forgive_ activity_set 0
+scoreboard players set _forgiven_ activity_set 0
 scoreboard players set _worldborder_ activity_set 0
 scoreboard players set _border_reminder_ activity_set 0
 scoreboard players set _monster_clean_ activity_set 0
@@ -56,7 +56,7 @@ execute store result score 開始縮圈 show_info run scoreboard players get _wo
 execute store result score 縮圈完畢 show_info run scoreboard players get _worldborder_end_ info
 execute store result score 清除怪物 show_info run scoreboard players get _monster_clean_ info
 execute store result score 玩家發光 show_info run scoreboard players get _glowing_ info
-execute store result score 敗者寬恕 show_info run scoreboard players get _forgive_ info
+execute store result score 敗者寬恕 show_info run scoreboard players get _forgiven_ info
 team join now_time -現在時間-
 
 execute at @n[tag=lobby_center] run fill ~15 ~20 ~15 ~-15 ~-12 ~-15 air

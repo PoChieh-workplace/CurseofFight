@@ -53,7 +53,7 @@
                             "large_particle": {
                                 "type": "minecraft:explosion_emitter"
                             },
-                            "sound": "minecraft:block.anvil.destroy",
+                            "sound": "minecraft:block.anvil.place",
                             "attribute_to_user": true
                         }
                     ]

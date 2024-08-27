@@ -14,7 +14,7 @@ execute if entity @s[team=dark_green] run scoreboard players operation @a[team=d
 execute if entity @s[team=dark_gray] run scoreboard players operation @a[team=dark_gray] team_respawn -= _timer_min_ info
 execute if entity @s[team=light_purple] run scoreboard players operation @a[team=light_purple] team_respawn -= _timer_min_ info
 
-execute as @a if score @s team_respawn matches ..0 run scoreboard players set @s team_respawn 1
+execute as @a if score @s[team=!black] team_respawn matches ..0 run scoreboard players set @s team_respawn 1
 
 execute if entity @s[team=white] run tellraw @a[team=white] {"text":"","color":"white","bold":false,"extra":[{"text":"Curse of Fight >>> ","color":"#CA8EFF"},{"text":"擊殺敵人，重生時間 ","color":"gold"},{"text":"-","color":"green"},{"score":{"name":"_timer_min_","objective":"info"},"color":"green"},{"text":" 秒","color":"gold"}]}
 execute if entity @s[team=red] run tellraw @a[team=red] {"text":"","color":"white","bold":false,"extra":[{"text":"Curse of Fight >>> ","color":"#CA8EFF"},{"text":"擊殺敵人，重生時間 ","color":"gold"},{"text":"-","color":"green"},{"score":{"name":"_timer_min_","objective":"info"},"color":"green"},{"text":" 秒","color":"gold"}]}

@@ -334,11 +334,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_ominous_bottle_amplifier",
-                            "amplifier": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 5
-                            }
+                            "amplifier": 5
                         }
                     ]
                 }

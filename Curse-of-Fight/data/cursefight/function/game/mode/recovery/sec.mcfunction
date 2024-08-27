@@ -16,4 +16,4 @@ execute if entity @a[team=dark_green,scores={death=0}] as @a[team=dark_green,sco
 execute if entity @a[team=dark_gray,scores={death=0}] as @a[team=dark_gray,scores={death=1..}] run scoreboard players remove @s self_respawn 1
 execute if entity @a[team=light_purple,scores={death=0}] as @a[team=light_purple,scores={death=1..}] run scoreboard players remove @s self_respawn 1
 
-execute as @a[scores={self_respawn=..0}] run function cursefight:game/respawn/respawn_himself
+execute as @a[scores={self_respawn=..0}] run function cursefight:game/mode/recovery/time_respawn

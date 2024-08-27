@@ -1,4 +1,5 @@
-execute at @s run fill ~2 ~ ~2 ~-2 ~-2 ~-2 air replace #cursefight:respawn_block
+execute at @s run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air replace #cursefight:respawn_block
+execute at @s run kill @n[type=armor_stand,tag=respawn_beacon,distance=..5]
 scoreboard players set @s respawning 0
 execute at @s run summon minecraft:allay ~ ~30 ~ {Tags:[respawn_allay],attributes:[{id:"minecraft:generic.scale",base:5b,NoAI:1b}]}
 

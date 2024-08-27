@@ -6,6 +6,7 @@
         "minecraft:diamond_block",
         "minecraft:emerald_block",
         "minecraft:netherite_block",
-        "minecraft:beacon"
+        "minecraft:beacon",
+        "minecraft:green_stained_glass"
     ]
 }

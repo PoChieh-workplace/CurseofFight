@@ -1,19 +1,3 @@
-execute if entity @s[team=white] at @s run tp @s @r[team=white,scores={death=0}]
-execute if entity @s[team=red] at @s run tp @s @r[team=red,scores={death=0}]
-execute if entity @s[team=blue] at @s run tp @s @r[team=blue,scores={death=0}]
-execute if entity @s[team=yellow] at @s run tp @s @r[team=yellow,scores={death=0}]
-execute if entity @s[team=green] at @s run tp @s @r[team=green,scores={death=0}]
-execute if entity @s[team=aqua] at @s run tp @s @r[team=aqua,scores={death=0}]
-execute if entity @s[team=gray] at @s run tp @s @r[team=gray,scores={death=0}]
-execute if entity @s[team=gold] at @s run tp @s @r[team=gold,scores={death=0}]
-execute if entity @s[team=dark_red] at @s run tp @s @r[team=dark_red,scores={death=0}]
-execute if entity @s[team=dark_blue] at @s run tp @s @r[team=dark_blue,scores={death=0}]
-execute if entity @s[team=dark_purple] at @s run tp @s @r[team=dark_purple,scores={death=0}]
-execute if entity @s[team=dark_aqua] at @s run tp @s @r[team=dark_aqua,scores={death=0}]
-execute if entity @s[team=dark_green] at @s run tp @s @r[team=dark_green,scores={death=0}]
-execute if entity @s[team=dark_gray] at @s run tp @s @r[team=dark_gray,scores={death=0}]
-execute if entity @s[team=light_purple] at @s run tp @s @r[team=light_purple,scores={death=0}]
-
 execute at @s positioned over motion_blocking run summon minecraft:allay ~ ~30 ~ {Tags:[respawn_allay],attributes:[{id:"minecraft:generic.scale",base:5b,NoAI:1b}]}
 
 title @s times 0t 3s 1s
@@ -34,3 +18,20 @@ playsound minecraft:entity.wither.spawn ambient @a ~ ~ ~ 100 1 1
 
 execute at @s run schedule function cursefight:game/respawn/kill_allay 8s append
 title @s times 1s 4s 1s
+
+# if team estimated, summon marker when respawn
+execute if entity @s[team=white] unless entity @e[tag=alive,tag=white] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,white]}
+execute if entity @s[team=red] unless entity @e[tag=alive,tag=red] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,red]}
+execute if entity @s[team=blue] unless entity @e[tag=alive,tag=blue] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,blue]}
+execute if entity @s[team=yellow] unless entity @e[tag=alive,tag=yellow] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,yellow]}
+execute if entity @s[team=green] unless entity @e[tag=alive,tag=green] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,green]}
+execute if entity @s[team=aqua] unless entity @e[tag=alive,tag=aqua] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,aqua]}
+execute if entity @s[team=gray] unless entity @e[tag=alive,tag=gray] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,gray]}
+execute if entity @s[team=gold] unless entity @e[tag=alive,tag=gold] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,gold]}
+execute if entity @s[team=dark_red] unless entity @e[tag=alive,tag=dark_red] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,dark_red]}
+execute if entity @s[team=dark_blue] unless entity @e[tag=alive,tag=dark_blue] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,dark_blue]}
+execute if entity @s[team=dark_purple] unless entity @e[tag=alive,tag=dark_purple] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,dark_purple]}
+execute if entity @s[team=dark_aqua] unless entity @e[tag=alive,tag=dark_aqua] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,dark_aqua]}
+execute if entity @s[team=dark_green] unless entity @e[tag=alive,tag=dark_green] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,dark_green]}
+execute if entity @s[team=dark_gray] unless entity @e[tag=alive,tag=dark_gray] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,dark_gray]}
+execute if entity @s[team=light_purple] unless entity @e[tag=alive,tag=light_purple] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,light_purple]}

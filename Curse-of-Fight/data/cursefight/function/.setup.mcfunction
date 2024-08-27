@@ -77,7 +77,7 @@ scoreboard players set _worldborder_min_range_ info 16
 scoreboard players set _worldborder.range_ info 256
 scoreboard players set _glowing_ info 70
 scoreboard players set _ominous_ info 100
-scoreboard players set _forgive_ info 20
+scoreboard players set _forgiven_ info 20
 scoreboard players set _starteffect1_ info 0
 scoreboard players set _if_no_nature_regeneration_ info 1
 scoreboard players set _if_career_ info 0

@@ -1,0 +1,31 @@
+{
+    "anvil_cost": 6,
+    "description": {
+        "translate": "enchantment.cursefight.tnt_ammo"
+    },
+    "effects": {
+        "minecraft:projectile_spawned": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "cursefight:enchantment/tnt_ammo/main"
+                }
+            }
+        ]
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 15
+    },
+    "max_cost": {
+        "base": 20,
+        "per_level_above_first": 15
+    },
+    "slots": [
+        "mainhand",
+        "offhand"
+    ],
+    "supported_items": "#minecraft:enchantable/bow",
+    "weight": 1
+}
