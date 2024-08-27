@@ -160,8 +160,8 @@ team modify dark_gray friendlyFire false
 team modify light_purple friendlyFire false
 team modify black friendlyFire false
 # 布告欄顯示顏色
-team add now_time
-team modify now_time color gold
+team add now_team
+team modify now_team color gold
 
 
 

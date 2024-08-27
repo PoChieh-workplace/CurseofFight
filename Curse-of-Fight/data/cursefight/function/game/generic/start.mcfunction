@@ -57,14 +57,12 @@ execute store result score 縮圈完畢 show_info run scoreboard players get _wo
 execute store result score 清除怪物 show_info run scoreboard players get _monster_clean_ info
 execute store result score 玩家發光 show_info run scoreboard players get _glowing_ info
 execute store result score 敗者寬恕 show_info run scoreboard players get _forgiven_ info
-team join now_time -現在時間-
 
 execute at @n[tag=lobby_center] run fill ~15 ~20 ~15 ~-15 ~-12 ~-15 air
 execute at @n[tag=lobby_center] run kill @e[tag=!border_center,type=!minecraft:player,type=!minecraft:marker,distance=0.1..30]
 kill @e[tag=lobby_center,type=armor_stand]
 
 execute at @n[tag=border_center] run setworldspawn ~ 150 ~
-scoreboard players set -現在時間- show_info 0
 worldborder damage buffer 0
 
 
@@ -86,6 +84,9 @@ execute if entity @a[team=dark_green] at @n[tag=border_center] run summon marker
 execute if entity @a[team=dark_gray] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,dark_gray]}
 execute if entity @a[team=light_purple] at @n[tag=border_center] run summon marker ~ ~ ~ {Tags:[alive,light_purple]}
 execute store result score 剩餘隊伍 show_info run execute if entity @e[tag=alive]
+team join now_team 剩餘隊伍
+
+
 
 gamemode survival @a[team=!black]
 gamemode spectator @a[team=black]

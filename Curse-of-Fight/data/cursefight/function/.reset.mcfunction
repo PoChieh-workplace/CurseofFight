@@ -63,7 +63,7 @@ team remove dark_purple
 team remove dark_aqua
 team remove dark_blue
 team remove black
-team remove now_time
+team remove now_team
 tag @a remove gameplay
 kill @e[tag=ad]
 kill @n[tag=lobby_center]
