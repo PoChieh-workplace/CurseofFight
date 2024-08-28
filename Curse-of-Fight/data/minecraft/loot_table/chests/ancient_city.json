@@ -3,678 +3,888 @@
     "pools": [
         {
             "rolls": {
-                "min": 6,
-                "max": 14
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
             },
+            "bonus_rolls": 0.5,
             "entries": [
                 {
-                    "weight": 2,
-                    "type": "minecraft:item",
-                    "name": "minecraft:potion",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:potion_contents": {
-                                    "custom_color": 5767063,
-                                    "custom_effects": [
-                                        {
-                                            "id": "minecraft:luck",
-                                            "amplifier": 0,
-                                            "duration": 2400,
-                                            "ambient": true,
-                                            "show_particles": true,
-                                            "show_icon": true
-                                        }
-                                    ]
+                    "type": "minecraft:loot_table",
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": {
+                                    "type": "minecraft:uniform",
+                                    "min": 1,
+                                    "max": 3
                                 },
-                                "custom_name": "[\"\",{\"text\":\"蜜露\",\"italic\":false,\"color\":\"gold\"}]",
-                                "lore": [
-                                    "[\"\",{\"text\":\"用蜂蜜釀造出來的精華，帶給所有人意想不到的效果\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"
-                                ],
-                                "minecraft:max_stack_size": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:nether_star",
-                    "weight": 1,
-                    "quality": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "advence_mobile_respawn": 1
+                                "bonus_rolls": {
+                                    "type": "minecraft:uniform",
+                                    "min": 0.5,
+                                    "max": 1
                                 },
-                                "minecraft:custom_model_data": 724002,
-                                "custom_name": "[\"\",{\"text\":\"移動式重生信標\",\"italic\":false,\"color\":\"gold\"}]",
-                                "lore": [
-                                    "[\"\",{\"text\":\"尋找一個§b透天的地方§r後按下 \",\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後即可召喚\",\"color\":\"gray\"}]",
-                                    "{\"text\":\"請確保召喚點是淨空的！\",\"color\":\"dark_red\"}"
-                                ],
-                                "minecraft:enchantments": {
-                                    "minecraft:loyalty": 5
-                                },
-                                "minecraft:food": {
-                                    "nutrition": 0,
-                                    "saturation": 0,
-                                    "can_always_eat": true,
-                                    "eat_seconds": 0.1
-                                },
-                                "minecraft:max_stack_size": 1
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_hoe",
-                    "weight": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 30,
-                                "max": 50
-                            },
-                            "options": "#cursefight:ancient_city"
-                        },
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 30
-                            },
-                            "options": "#minecraft:ancient_city_curse",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_pickaxe",
-                    "weight": 2,
-                    "quality": 4,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 30,
-                                "max": 50
-                            },
-                            "options": "#cursefight:ancient_city"
-                        },
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 10,
-                                "max": 30
-                            },
-                            "options": "#minecraft:ancient_city_curse",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_sword",
-                    "weight": 2,
-                    "quality": 4,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 30,
-                                "max": 80
-                            },
-                            "options": "#cursefight:ancient_city"
-                        },
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 30
-                            },
-                            "options": "#minecraft:ancient_city_curse",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bow",
-                    "weight": 2,
-                    "quality": 4,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 30,
-                                "max": 60
-                            },
-                            "options": "#cursefight:ancient_city"
-                        },
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 30
-                            },
-                            "options": "#minecraft:ancient_city_curse",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_helmet",
-                    "weight": 4,
-                    "quality": 4,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 30
-                            },
-                            "options": "#minecraft:ancient_city_curse",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 20,
-                                "max": 80
-                            },
-                            "options": "#cursefight:ancient_city"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_chestplate",
-                    "weight": 2,
-                    "quality": 4,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 30
-                            },
-                            "options": "#minecraft:ancient_city_curse",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 30,
-                                "max": 80
-                            },
-                            "options": "#cursefight:ancient_city"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_leggings",
-                    "weight": 4,
-                    "quality": 4,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 30
-                            },
-                            "options": "#minecraft:ancient_city_curse",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 30,
-                                "max": 80
-                            },
-                            "options": "#cursefight:ancient_city"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_boots",
-                    "weight": 4,
-                    "quality": 4,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 30
-                            },
-                            "options": "#minecraft:ancient_city_curse",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 30,
-                                "max": 80
-                            },
-                            "options": "#cursefight:ancient_city"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:book",
-                    "weight": 8,
-                    "quality": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 10,
-                                "max": 60
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:book",
-                    "weight": 20,
-                    "quality": 0,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 3,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:soul_lantern",
-                    "weight": 10,
-                    "quality": 0,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:sculk_sensor",
-                    "weight": 10
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:soul_torch",
-                    "weight": 20
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:glow_berries",
-                    "weight": 20,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 3
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:food": {
-                                    "nutrition": 2,
-                                    "saturation": 2,
-                                    "can_always_eat": true,
-                                    "eat_seconds": 2,
-                                    "effects": [
-                                        {
-                                            "effect": {
-                                                "id": "minecraft:regeneration",
-                                                "amplifier": 0,
-                                                "duration": 60
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:diamond_helmet",
+                                        "weight": 8,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 30,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ancient_city"
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_randomly",
+                                                "options": "#minecraft:ancient_city_curse",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
                                             }
-                                        }
-                                    ]
-                                },
-                                "minecraft:custom_name": "[\"\",{\"text\":\"小甜點\",\"italic\":false,\"color\":\"red\"}]"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:diamond_chestplate",
+                                        "weight": 4,
+                                        "quality": 1,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 30,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ancient_city"
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_randomly",
+                                                "options": "#minecraft:ancient_city_curse",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:diamond_leggings",
+                                        "weight": 10,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 30,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ancient_city"
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_randomly",
+                                                "options": "#minecraft:ancient_city_curse",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:diamond_boots",
+                                        "weight": 8,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 30,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ancient_city"
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_randomly",
+                                                "options": "#minecraft:ancient_city_curse",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:iron_helmet",
+                                        "weight": 8,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 30,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ancient_city"
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_randomly",
+                                                "options": "#minecraft:ancient_city_curse",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:iron_chestplate",
+                                        "weight": 4,
+                                        "quality": 1,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 30,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ancient_city"
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_randomly",
+                                                "options": "#minecraft:ancient_city_curse",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:iron_leggings",
+                                        "weight": 8,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 30,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ancient_city"
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_randomly",
+                                                "options": "#minecraft:ancient_city_curse",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:iron_boots",
+                                        "weight": 8,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 30,
+                                                    "max": 80
+                                                },
+                                                "options": "#cursefight:ancient_city"
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_randomly",
+                                                "options": "#minecraft:ancient_city_curse",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:compass",
-                    "weight": 10
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bone_meal",
-                    "weight": 10,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:silence_armor_trim_smithing_template",
+                        ]
+                    },
                     "weight": 2,
                     "quality": 1
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:experience_bottle",
-                    "weight": 10,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:golden_apple",
-                    "weight": 2,
-                    "quality": 2
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:echo_shard",
-                    "weight": 10,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:coal",
-                    "weight": 20,
-                    "quality": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 6
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_ingot",
-                    "weight": 10,
-                    "quality": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:gold_ingot",
-                    "weight": 10,
-                    "quality": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond",
-                    "weight": 4,
-                    "quality": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 2
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:emerald",
-                    "weight": 4,
-                    "quality": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:lapis_lazuli",
-                    "weight": 10,
-                    "quality": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:redstone",
-                    "weight": 10,
-                    "quality": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:disc_fragment_5",
-                    "weight": 10
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:candle",
-                    "weight": 6,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 2
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:music_disc_cat",
-                    "weight": 4
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:splash_potion",
-                    "weight": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_potion",
-                            "id": "minecraft:healing"
-                        },
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:max_stack_size": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:dragon_breath",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "custom_name": "[\"\",{\"text\":\"龍涎\",\"italic\":false,\"color\":\"gold\"}]",
-                                "lore": [
-                                    "[\"\",{\"text\":\"按下 \",\"italic\":false,\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後可以獲得五分鐘吸收 X 級\",\"color\":\"gray\"}]"
-                                ],
-                                "minecraft:food": {
-                                    "nutrition": 5,
-                                    "saturation": 5,
-                                    "can_always_eat": true,
-                                    "eat_seconds": 0.1,
-                                    "using_converts_to": {
-                                        "id": "minecraft:glass_bottle"
+                    "type": "minecraft:loot_table",
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": {
+                                    "type": "minecraft:uniform",
+                                    "min": 2,
+                                    "max": 4
+                                },
+                                "bonus_rolls": {
+                                    "type": "minecraft:uniform",
+                                    "min": 0.3,
+                                    "max": 1
+                                },
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:golden_apple",
+                                        "weight": 1,
+                                        "quality": 1
                                     },
-                                    "effects": [
-                                        {
-                                            "effect": {
-                                                "id": "minecraft:absorption",
-                                                "amplifier": 5,
-                                                "duration": 4000,
-                                                "ambient": true,
-                                                "show_particles": true,
-                                                "show_icon": true
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:glow_berries",
+                                        "weight": 10,
+                                        "quality": 0,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
                                             }
-                                        }
-                                    ]
-                                }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:potion",
+                                        "weight": 5,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:max_stack_size": 16
+                                                }
+                                            },
+                                            {
+                                                "function": "minecraft:set_potion",
+                                                "id": "minecraft:healing"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:potion",
+                                        "weight": 0,
+                                        "quality": 1,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:potion_contents": {
+                                                        "potion": "minecraft:healing",
+                                                        "custom_color": 8388863,
+                                                        "custom_effects": [
+                                                            {
+                                                                "id": "minecraft:instant_health",
+                                                                "amplifier": 3
+                                                            }
+                                                        ]
+                                                    },
+                                                    "minecraft:max_stack_size": 3
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
-                        }
-                    ]
+                        ]
+                    },
+                    "weight": 3,
+                    "quality": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": {
+                                    "min": 4,
+                                    "max": 8
+                                },
+                                "bonus_rolls": 1,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:golden_pickaxe",
+                                        "weight": 3,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 40,
+                                                    "max": 80
+                                                },
+                                                "options": "#minecraft:on_random_loot"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:diamond_pickaxe",
+                                        "weight": 2,
+                                        "quality": 1,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 40,
+                                                    "max": 80
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:lapis_lazuli",
+                                        "weight": 20,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 6,
+                                                    "max": 10
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:coal",
+                                        "weight": 20,
+                                        "quality": 0,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:binomial",
+                                                    "n": 6,
+                                                    "p": 10
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:redstone",
+                                        "weight": 20,
+                                        "quality": 0,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:binomial",
+                                                    "n": 3,
+                                                    "p": 7
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:iron_ingot",
+                                        "weight": 10,
+                                        "quality": 1,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 3,
+                                                    "max": 6
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:gold_ingot",
+                                        "weight": 10,
+                                        "quality": 1,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 3,
+                                                    "max": 6
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:copper_ingot",
+                                        "weight": 10,
+                                        "quality": 1,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 3,
+                                                    "max": 6
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:diamond",
+                                        "weight": 5,
+                                        "quality": 3,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 4
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:emerald",
+                                        "weight": 5,
+                                        "quality": 2,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 2
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:netherite_ingot",
+                                        "weight": 3,
+                                        "quality": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": {
+                                    "type": "minecraft:uniform",
+                                    "min": 3,
+                                    "max": 6
+                                },
+                                "bonus_rolls": 3,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:obsidian",
+                                        "weight": 3,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 2
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:crying_obsidian",
+                                        "weight": 3,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 1,
+                                                    "max": 2
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:stone",
+                                        "weight": 5,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "min": 4,
+                                                    "max": 8
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:cobblestone",
+                                        "weight": 5,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 4,
+                                                    "max": 8
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:deepslate",
+                                        "weight": 5,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 4,
+                                                    "max": 8
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:cobbled_deepslate",
+                                        "weight": 5,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 4,
+                                                    "max": 8
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:reinforced_deepslate",
+                                        "weight": 1
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:dirt",
+                                        "weight": 5,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 4,
+                                                    "max": 8
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:sand",
+                                        "weight": 5,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 4,
+                                                    "max": 8
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:gravel",
+                                        "weight": 5,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 4,
+                                                    "max": 8
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:clay",
+                                        "weight": 5,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_count",
+                                                "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 4,
+                                                    "max": 8
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:diamond_sword",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 40,
+                                                    "max": 80
+                                                },
+                                                "options": "#minecraft:on_random_loot"
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_randomly",
+                                                "options": "#minecraft:ancient_city_curse",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:bow",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 40,
+                                                    "max": 80
+                                                },
+                                                "options": "#minecraft:on_random_loot"
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_randomly",
+                                                "options": "#minecraft:ancient_city_curse"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:trident",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:enchant_with_levels",
+                                                "levels": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 40,
+                                                    "max": 80
+                                                },
+                                                "options": "#minecraft:on_random_loot"
+                                            },
+                                            {
+                                                "function": "minecraft:enchant_randomly",
+                                                "options": "#minecraft:ancient_city_curse",
+                                                "conditions": [
+                                                    {
+                                                        "condition": "minecraft:random_chance",
+                                                        "chance": 0.5
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "weight": 2,
+                    "quality": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:dragon_breath",
+                                        "weight": 1,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "custom_name": "[\"\",{\"text\":\"龍涎\",\"italic\":false,\"color\":\"gold\"}]",
+                                                    "lore": [
+                                                        "[\"\",{\"text\":\"按下 \",\"italic\":false,\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後可以獲得五分鐘吸收 X 級\",\"color\":\"gray\"}]"
+                                                    ],
+                                                    "minecraft:food": {
+                                                        "nutrition": 5,
+                                                        "saturation": 5,
+                                                        "can_always_eat": true,
+                                                        "eat_seconds": 0.1,
+                                                        "using_converts_to": {
+                                                            "id": "minecraft:glass_bottle"
+                                                        },
+                                                        "effects": [
+                                                            {
+                                                                "effect": {
+                                                                    "id": "minecraft:absorption",
+                                                                    "amplifier": 5,
+                                                                    "duration": 4000,
+                                                                    "ambient": true,
+                                                                    "show_particles": true,
+                                                                    "show_icon": true
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "weight": 2,
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:potion",
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:potion_contents": {
+                                                        "custom_color": 5767063,
+                                                        "custom_effects": [
+                                                            {
+                                                                "id": "minecraft:luck",
+                                                                "amplifier": 1,
+                                                                "duration": 2400,
+                                                                "ambient": true,
+                                                                "show_particles": true,
+                                                                "show_icon": true
+                                                            }
+                                                        ]
+                                                    },
+                                                    "custom_name": "[\"\",{\"text\":\"蜜露\",\"italic\":false,\"color\":\"gold\"}]",
+                                                    "lore": [
+                                                        "[\"\",{\"text\":\"用蜂蜜釀造出來的精華，帶給所有人意想不到的效果\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"
+                                                    ],
+                                                    "minecraft:max_stack_size": 3
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:nether_star",
+                                        "weight": 1,
+                                        "quality": 1,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_components",
+                                                "components": {
+                                                    "minecraft:custom_data": {
+                                                        "advence_mobile_respawn": 1
+                                                    },
+                                                    "minecraft:custom_model_data": 724002,
+                                                    "custom_name": "[\"\",{\"text\":\"移動式重生信標\",\"italic\":false,\"color\":\"gold\"}]",
+                                                    "lore": [
+                                                        "[\"\",{\"text\":\"尋找一個§b透天的地方§r後按下 \",\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後即可召喚\",\"color\":\"gray\"}]",
+                                                        "{\"text\":\"請確保召喚點是淨空的！\",\"color\":\"dark_red\"}"
+                                                    ],
+                                                    "minecraft:enchantments": {
+                                                        "minecraft:loyalty": 5
+                                                    },
+                                                    "minecraft:food": {
+                                                        "nutrition": 0,
+                                                        "saturation": 0,
+                                                        "can_always_eat": true,
+                                                        "eat_seconds": 0.1
+                                                    },
+                                                    "minecraft:max_stack_size": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "weight": 1,
+                    "quality": 1
                 }
             ]
         },
         {
-            "rolls": 1,
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+            },
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -685,8 +895,8 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 5
+                                "min": 10,
+                                "max": 20
                             }
                         }
                     ]
@@ -700,8 +910,8 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 5
+                                "min": 10,
+                                "max": 20
                             }
                         }
                     ]
@@ -715,8 +925,8 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 5
+                                "min": 10,
+                                "max": 20
                             }
                         }
                     ]
@@ -730,8 +940,53 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 2,
-                                "max": 5
+                                "min": 10,
+                                "max": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:soul_torch",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:white_candle",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 20
                             }
                         }
                     ]
