@@ -34,8 +34,8 @@
                                                 "function": "minecraft:enchant_with_levels",
                                                 "levels": {
                                                     "type": "minecraft:uniform",
-                                                    "min": 30,
-                                                    "max": 80
+                                                    "min": 40,
+                                                    "max": 100
                                                 },
                                                 "options": "#cursefight:ancient_city"
                                             },
@@ -61,8 +61,8 @@
                                                 "function": "minecraft:enchant_with_levels",
                                                 "levels": {
                                                     "type": "minecraft:uniform",
-                                                    "min": 30,
-                                                    "max": 80
+                                                    "min": 40,
+                                                    "max": 100
                                                 },
                                                 "options": "#cursefight:ancient_city"
                                             },
@@ -87,8 +87,8 @@
                                                 "function": "minecraft:enchant_with_levels",
                                                 "levels": {
                                                     "type": "minecraft:uniform",
-                                                    "min": 30,
-                                                    "max": 80
+                                                    "min": 40,
+                                                    "max": 100
                                                 },
                                                 "options": "#cursefight:ancient_city"
                                             },
@@ -113,113 +113,8 @@
                                                 "function": "minecraft:enchant_with_levels",
                                                 "levels": {
                                                     "type": "minecraft:uniform",
-                                                    "min": 30,
-                                                    "max": 80
-                                                },
-                                                "options": "#cursefight:ancient_city"
-                                            },
-                                            {
-                                                "function": "minecraft:enchant_randomly",
-                                                "options": "#minecraft:ancient_city_curse",
-                                                "conditions": [
-                                                    {
-                                                        "condition": "minecraft:random_chance",
-                                                        "chance": 0.5
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type": "minecraft:item",
-                                        "name": "minecraft:iron_helmet",
-                                        "weight": 8,
-                                        "functions": [
-                                            {
-                                                "function": "minecraft:enchant_with_levels",
-                                                "levels": {
-                                                    "type": "minecraft:uniform",
-                                                    "min": 30,
-                                                    "max": 80
-                                                },
-                                                "options": "#cursefight:ancient_city"
-                                            },
-                                            {
-                                                "function": "minecraft:enchant_randomly",
-                                                "options": "#minecraft:ancient_city_curse",
-                                                "conditions": [
-                                                    {
-                                                        "condition": "minecraft:random_chance",
-                                                        "chance": 0.5
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type": "minecraft:item",
-                                        "name": "minecraft:iron_chestplate",
-                                        "weight": 4,
-                                        "quality": 1,
-                                        "functions": [
-                                            {
-                                                "function": "minecraft:enchant_with_levels",
-                                                "levels": {
-                                                    "type": "minecraft:uniform",
-                                                    "min": 30,
-                                                    "max": 80
-                                                },
-                                                "options": "#cursefight:ancient_city"
-                                            },
-                                            {
-                                                "function": "minecraft:enchant_randomly",
-                                                "options": "#minecraft:ancient_city_curse",
-                                                "conditions": [
-                                                    {
-                                                        "condition": "minecraft:random_chance",
-                                                        "chance": 0.5
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type": "minecraft:item",
-                                        "name": "minecraft:iron_leggings",
-                                        "weight": 8,
-                                        "functions": [
-                                            {
-                                                "function": "minecraft:enchant_with_levels",
-                                                "levels": {
-                                                    "type": "minecraft:uniform",
-                                                    "min": 30,
-                                                    "max": 80
-                                                },
-                                                "options": "#cursefight:ancient_city"
-                                            },
-                                            {
-                                                "function": "minecraft:enchant_randomly",
-                                                "options": "#minecraft:ancient_city_curse",
-                                                "conditions": [
-                                                    {
-                                                        "condition": "minecraft:random_chance",
-                                                        "chance": 0.5
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type": "minecraft:item",
-                                        "name": "minecraft:iron_boots",
-                                        "weight": 8,
-                                        "functions": [
-                                            {
-                                                "function": "minecraft:enchant_with_levels",
-                                                "levels": {
-                                                    "type": "minecraft:uniform",
-                                                    "min": 30,
-                                                    "max": 80
+                                                    "min": 40,
+                                                    "max": 100
                                                 },
                                                 "options": "#cursefight:ancient_city"
                                             },
@@ -311,7 +206,7 @@
                                                         "custom_effects": [
                                                             {
                                                                 "id": "minecraft:instant_health",
-                                                                "amplifier": 3
+                                                                "amplifier": 2
                                                             }
                                                         ]
                                                     },
