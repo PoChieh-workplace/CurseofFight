@@ -7,7 +7,7 @@
     ],
     "key": {
         "a": {
-            "item": "minecraft:bookshelf"
+            "item": "minecraft:book"
         },
         "b": {
             "item": "minecraft:activator_rail"
@@ -16,10 +16,10 @@
             "item": "minecraft:ender_eye"
         },
         "d": {
-            "item": "minecraft:sugar"
+            "item": "minecraft:water_bucket"
         },
         "e": {
-            "item": "minecraft:lava_bucket"
+            "item": "minecraft:slime_block"
         }
     },
     "result": {

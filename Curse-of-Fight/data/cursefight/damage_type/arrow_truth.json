@@ -1,0 +1,7 @@
+{
+  "exhaustion": 10,
+  "message_id": "arrow_truth",
+  "scaling": "when_caused_by_living_non_player",
+  "effects": "freezing",
+  "death_message_type": "default"
+}

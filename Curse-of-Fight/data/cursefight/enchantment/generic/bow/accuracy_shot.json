@@ -8,7 +8,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "cursefight:career/sniper/no_gravity"
+                    "function": "cursefight:enchantment/bow/no_gravity"
                 }
             }
         ]
@@ -26,6 +26,6 @@
         "mainhand",
         "offhand"
     ],
-    "supported_items": "#minecraft:enchantable/bow",
+    "supported_items": "#cursefight:bow",
     "weight": 1
 }

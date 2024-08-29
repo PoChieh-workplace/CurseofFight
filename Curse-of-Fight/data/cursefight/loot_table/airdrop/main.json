@@ -16,8 +16,33 @@
                 },
                 {
                     "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "[\"\",{\"text\":\"死亡之女\",\"italic\":false,\"color\":\"gold\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"狙擊女王 - 柳德米拉·帕夫利琴科的愛槍\",\"italic\":false,\"color\":\"dark_purple\"}]",
+                                    "[\"\",{\"text\":\"蹲下時可啟動三倍鏡\",\"italic\":false,\"color\":\"green\"}]",
+                                    "[\"\",{\"text\":\"貫穿 XX、真傷 10~14 點血量\",\"italic\":false,\"color\":\"green\"}]",
+                                    "[\"\",{\"text\":\"行走速度大減、換彈時間長\",\"italic\":false,\"color\":\"red\"}]"
+                                ],
+                                "minecraft:enchantments": {
+                                    "cursefight:generic/bow/accuracy_shot": 1,
+                                    "cursefight:generic/crossbow/sniper": 10,
+                                    "cursefight:generic/curse/breaking": 20
+                                },
+                                "minecraft:repair_cost": 100
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
                     "name": "minecraft:diamond_sword",
-                    "weight": 2,
+                    "weight": 3,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
