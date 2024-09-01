@@ -1,0 +1,23 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type_specific": {
+            "type": "minecraft:player"
+        },
+        "equipment": {
+            "offhand": {
+                "predicates": {
+                    "minecraft:enchantments": [
+                        {
+                            "enchantments": "cursefight:generic/crossbow/sniper"
+                        }
+                    ]
+                }
+            },
+            "mainhand": {
+                "items": "minecraft:air"
+            }
+        }
+    }
+}

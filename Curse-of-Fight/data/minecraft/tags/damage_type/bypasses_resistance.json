@@ -2,8 +2,6 @@
   "values": [
     "minecraft:out_of_world",
     "minecraft:generic_kill",
-    "minecraft:wither",
-    "cursefight:ammo_truth",
     "cursefight:backlash"
   ]
 }

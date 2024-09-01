@@ -1,12 +1,12 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "b",
-        "@"
+        "bbb",
+        " @ "
     ],
     "key": {
         "b": {
-            "item": "minecraft:pufferfish"
+            "item": "minecraft:brick"
         },
         "@": {
             "item": "minecraft:bowl"

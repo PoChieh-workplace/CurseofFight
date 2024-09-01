@@ -14,3 +14,6 @@ execute as @a[team=!black,gamemode=!spectator,scores={death=0}] at @s if entity 
 
 # bow acc_arrow
 execute as @e[type=arrow,tag=cursefight.accuracy_shot,predicate=cursefight:accuracy_shot] at @s unless entity @a[distance=..5] run kill @s
+
+# crossbow sniper
+function cursefight:enchantment/crossbow/tick

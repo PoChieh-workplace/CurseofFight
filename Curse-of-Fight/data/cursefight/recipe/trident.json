@@ -29,13 +29,15 @@
                         "id": "cof.trident.attack",
                         "type": "minecraft:generic.attack_damage",
                         "amount": 9,
-                        "operation": "add_value"
+                        "operation": "add_value",
+                        "slot": "mainhand"
                     },
                     {
                         "id": "cof.trident.movement",
                         "type": "minecraft:generic.movement_speed",
                         "amount": -0.02,
-                        "operation": "add_value"
+                        "operation": "add_value",
+                        "slot": "mainhand"
                     }
                 ]
             }

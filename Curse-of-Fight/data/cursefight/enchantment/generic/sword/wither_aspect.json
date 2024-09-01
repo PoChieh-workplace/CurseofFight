@@ -15,7 +15,11 @@
 					"max_duration": 8,
 					"min_amplifier": 0,
 					"max_amplifier": 0
-				}
+				},
+                "requirements": {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                }
 			}
 		]
 	},

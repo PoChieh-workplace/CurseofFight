@@ -1,0 +1,2 @@
+execute as @a[predicate=cursefight:enchantment/holding_sniper,tag=!holding_sniper] run function cursefight:enchantment/crossbow/holding_sniper
+execute as @a[predicate=cursefight:enchantment/not_holding_sniper,tag=holding_sniper] run execute unless function cursefight:enchantment/crossbow/not_holding_sniper run damage @s 12 cursefight:backlash

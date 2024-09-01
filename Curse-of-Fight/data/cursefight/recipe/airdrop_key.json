@@ -7,19 +7,19 @@
     ],
     "key": {
         "a": {
-            "item": "minecraft:book"
+            "item": "minecraft:golden_helmet"
         },
         "b": {
-            "item": "minecraft:activator_rail"
+            "item": "minecraft:wheat"
         },
         "c": {
-            "item": "minecraft:ender_eye"
+            "item": "minecraft:leather"
         },
         "d": {
-            "item": "minecraft:water_bucket"
+            "item": "minecraft:glowstone"
         },
         "e": {
-            "item": "minecraft:slime_block"
+            "item": "minecraft:lava_bucket"
         }
     },
     "result": {

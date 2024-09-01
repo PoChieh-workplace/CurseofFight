@@ -18,7 +18,15 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:stone_pickaxe",
-                    "weight": 12
+                    "weight": 12,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "cursefight:generic/pickaxe/mob_mining": 1
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
@@ -28,6 +36,12 @@
                         {
                             "function": "minecraft:enchant_randomly",
                             "options": "#minecraft:on_random_loot"
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "cursefight:generic/pickaxe/mob_mining": 1
+                            }
                         }
                     ]
                 },
@@ -65,12 +79,12 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_shovel",
-                    "weight": 6
+                    "weight": 3
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_shovel",
-                    "weight": 2,
+                    "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:enchant_randomly",
@@ -118,12 +132,12 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_shovel",
-                    "weight": 6
+                    "weight": 3
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_shovel",
-                    "weight": 2,
+                    "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:enchant_randomly",
@@ -134,7 +148,15 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_pickaxe",
-                    "weight": 6
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "cursefight:generic/pickaxe/mob_mining": 1
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
@@ -144,6 +166,12 @@
                         {
                             "function": "minecraft:enchant_randomly",
                             "options": "#minecraft:on_random_loot"
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "cursefight:generic/pickaxe/mob_mining": 1
+                            }
                         }
                     ]
                 },

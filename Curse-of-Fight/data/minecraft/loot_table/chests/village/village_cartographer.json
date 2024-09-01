@@ -72,6 +72,44 @@
           ],
           "name": "minecraft:stick",
           "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "cursefight:dungeon",
+              "decoration": "target_x",
+              "zoom": 2,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Deep Dungeon"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "cursefight:city",
+              "decoration": "monument",
+              "zoom": 2,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient City"
+            }
+          ]
         }
       ],
       "rolls": {
