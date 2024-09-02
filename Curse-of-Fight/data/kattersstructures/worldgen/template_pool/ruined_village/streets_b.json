@@ -2,12 +2,12 @@
     "name": "kattersstructures:ruined_village/streets_b",
     "fallback": "minecraft:empty",
     "elements": [{
-        "weight": 20,
+        "weight": 100,
         "element": {
             "element_type": "minecraft:empty_pool_element"
         }
     },{
-        "weight": 5,
+        "weight": 10,
         "element": {
             "location": "kattersstructures:ruined_village/streets/ruined_street_1",
             "processors": "minecraft:empty",
@@ -15,7 +15,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 5,
+        "weight": 10,
         "element": {
             "location": "kattersstructures:ruined_village/streets/ruined_street_2",
             "processors": "minecraft:empty",
@@ -23,7 +23,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 5,
+        "weight": 10,
         "element": {
             "location": "kattersstructures:ruined_village/streets/ruined_street_3",
             "processors": "minecraft:empty",
@@ -33,7 +33,7 @@
     },
 
     {
-        "weight": 1,
+        "weight": 3,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_1",
             "processors": "minecraft:empty",
@@ -41,7 +41,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 1,
+        "weight": 3,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_2",
             "processors": "minecraft:empty",
@@ -49,7 +49,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 1,
+        "weight": 3,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_3",
             "processors": "minecraft:empty",
@@ -60,12 +60,12 @@
         "weight": 1,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_4",
-            "processors": "minecraft:empty",
+            "processors": "kattersstructures:ruined_village/ore",
             "projection": "rigid",
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 1,
+        "weight": 3,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_5",
             "processors": "minecraft:empty",
@@ -73,7 +73,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 1,
+        "weight": 3,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_6",
             "processors": "minecraft:empty",
@@ -81,7 +81,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 1,
+        "weight": 3,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_7",
             "processors": "minecraft:empty",
@@ -89,7 +89,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 1,
+        "weight": 3,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_8",
             "processors": "minecraft:empty",
@@ -97,7 +97,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 1,
+        "weight": 3,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_9",
             "processors": "minecraft:empty",
@@ -105,7 +105,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 4,
+        "weight": 3,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_10",
             "processors": "minecraft:empty",
@@ -113,7 +113,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 1,
+        "weight": 3,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_11",
             "processors": "minecraft:empty",
@@ -121,7 +121,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 1,
+        "weight": 3,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_12",
             "processors": "minecraft:empty",
@@ -129,7 +129,7 @@
             "element_type": "minecraft:single_pool_element"
         }
     },{
-        "weight": 1,
+        "weight": 3,
         "element": {
             "location": "kattersstructures:ruined_village/ruins/ruin_13",
             "processors": "minecraft:empty",

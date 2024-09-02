@@ -2,7 +2,7 @@
     "name": "cursefight:deep_dungeon/blocks/boss_room_ore",
     "fallback": "cursefight:deep_dungeon/blocks/boss_room_ore",
     "elements": [
-        {	
+        {
             "weight": 3,
             "element": {
                 "location": "cursefight:deep_dungeon/blocks/boss_room_ore_diamond",
@@ -15,6 +15,24 @@
             "weight": 1,
             "element": {
                 "location": "cursefight:deep_dungeon/blocks/boss_room_ore_netherite",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 3,
+            "element": {
+                "location": "cursefight:deep_dungeon/blocks/boss_room_ore_emerald",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 3,
+            "element": {
+                "location": "minecraft:empty",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"

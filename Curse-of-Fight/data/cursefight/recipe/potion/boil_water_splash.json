@@ -11,7 +11,7 @@
             "minecraft:custom_data": {
                 "boiled":1
             },
-            "minecraft:max_stack_size": 16
+            "minecraft:max_stack_size": 3
         }
     },
     "experience": 20,

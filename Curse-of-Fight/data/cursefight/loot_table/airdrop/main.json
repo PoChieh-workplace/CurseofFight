@@ -12,12 +12,12 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:saddle",
-                    "weight": 2
+                    "weight": 4
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:crossbow",
-                    "weight": 2,
+                    "weight": 4,
                     "functions": [
                         {
                             "function": "minecraft:set_components",
@@ -42,7 +42,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_sword",
+                    "name": "minecraft:iron_sword",
                     "weight": 3,
                     "functions": [
                         {
@@ -59,7 +59,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_boots",
-                    "weight": 3,
+                    "weight": 2,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
@@ -75,7 +75,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_chestplate",
-                    "weight": 3,
+                    "weight": 2,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
@@ -91,7 +91,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_leggings",
-                    "weight": 3,
+                    "weight": 2,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
@@ -107,7 +107,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_helmet",
-                    "weight": 3,
+                    "weight": 2,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
@@ -123,7 +123,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_pickaxe",
-                    "weight": 3,
+                    "weight": 2,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
@@ -155,7 +155,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_boots",
-                    "weight": 3,
+                    "weight": 6,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
@@ -171,7 +171,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_chestplate",
-                    "weight": 3,
+                    "weight": 6,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
@@ -187,7 +187,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_leggings",
-                    "weight": 3,
+                    "weight": 6,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
@@ -203,7 +203,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_helmet",
-                    "weight": 3,
+                    "weight": 6,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
@@ -286,8 +286,8 @@
             ]
         },
         {
-            "rolls": 2,
-            "bonus_rolls": 3,
+            "rolls": 3,
+            "bonus_rolls": 2,
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -334,8 +334,8 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 8,
-                                "max": 16
+                                "min": 4,
+                                "max": 8
                             },
                             "add": false
                         }
@@ -350,8 +350,8 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 8,
-                                "max": 16
+                                "min": 4,
+                                "max": 8
                             },
                             "add": false
                         }
@@ -870,7 +870,7 @@
             "conditions": [
                 {
                     "condition": "minecraft:random_chance",
-                    "chance": 0.6
+                    "chance": 0.3
                 }
             ]
         }
