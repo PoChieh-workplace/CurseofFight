@@ -268,17 +268,6 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
                     "name": "minecraft:potion",
                     "weight": 1,
                     "functions": [

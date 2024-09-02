@@ -58,8 +58,8 @@
         {
             "rolls": 0,
             "bonus_rolls": {
-                "min": 0.3,
-                "max": 0.5
+                "min": 0.2,
+                "max": 0.3
             },
             "entries":[
                 {

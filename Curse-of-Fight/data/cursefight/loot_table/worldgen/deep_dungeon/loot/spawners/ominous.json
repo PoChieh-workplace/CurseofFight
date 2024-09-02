@@ -224,22 +224,12 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:emerald",
-                    "weight": 20
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond",
-                    "weight": 20,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
+                    "weight": 5
                 }
             ]
         },

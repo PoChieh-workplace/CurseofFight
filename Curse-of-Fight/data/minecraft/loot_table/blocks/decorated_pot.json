@@ -140,16 +140,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ],
+          "weight": 2,
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -339,15 +330,6 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ],
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -559,15 +541,6 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ],
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -1030,15 +1003,6 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ],
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -1228,15 +1192,6 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ],
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -1447,15 +1402,6 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ],
           "conditions": [
             {
               "condition": "minecraft:location_check",
