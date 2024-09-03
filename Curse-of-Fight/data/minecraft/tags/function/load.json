@@ -3,6 +3,7 @@
     "values": [
         "cursefight:install",
         "kattersstructures:load",
-        "vanilla_refresh:load"
+        "vanilla_refresh:load",
+        "theft:load"
     ]
 }

@@ -787,7 +787,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_sword",
+                    "name": "minecraft:iron_sword",
                     "weight": 1,
                     "functions": [
                         {
