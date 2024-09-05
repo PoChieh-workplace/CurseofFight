@@ -93,7 +93,7 @@
 											"effect": {
 												"id": "minecraft:water_breathing",
 												"amplifier": 0,
-												"duration": 200
+												"duration": 400
 											}
 										}
 									]
