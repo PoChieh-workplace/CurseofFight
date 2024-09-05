@@ -1,20 +1,83 @@
 {
   "type": "minecraft:gift",
   "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cod"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:salmon"
-        }
-      ],
-      "rolls": 1.0
-    }
+      {
+          "rolls": 1,
+          "bonus_rolls": 0,
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:cod"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:salmon"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:cooked_cod"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:cooked_salmon"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:heart_of_the_sea"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:fishing_rod",
+                  "functions": [
+                      {
+                          "function": "minecraft:set_enchantments",
+                          "enchantments": {
+                              "minecraft:lure": 5,
+                              "minecraft:luck_of_the_sea": 5,
+                              "minecraft:unbreaking": 3
+                          }
+                      }
+                  ]
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:pufferfish_bucket"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:axolotl_bucket"
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:trident",
+                  "functions": [
+                      {
+                          "function": "minecraft:set_components",
+                          "components": {
+                              "minecraft:attribute_modifiers": {
+                                  "modifiers": [
+                                      {
+                                          "id": "cof.trident.attack",
+                                          "type": "minecraft:generic.attack_damage",
+                                          "amount": 7,
+                                          "operation": "add_value",
+                                          "slot": "mainhand"
+                                      },
+                                      {
+                                          "id": "cof.trident.movement",
+                                          "type": "minecraft:generic.movement_speed",
+                                          "amount": -0.02,
+                                          "operation": "add_value",
+                                          "slot": "mainhand"
+                                      }
+                                  ]
+                              }
+                          }
+                      }
+                  ]
+              }
+          ]
+      }
   ],
   "random_sequence": "minecraft:gameplay/hero_of_the_village/fisherman_gift"
 }

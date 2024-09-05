@@ -6,15 +6,138 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread"
+          "name": "minecraft:glow_berries",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 2,
+                  "can_always_eat": true,
+                  "eat_seconds": 2,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:regeneration",
+                        "amplifier": 3,
+                        "duration": 60
+                      }
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "[\"\",{\"text\":\"大甜點\",\"italic\":false,\"color\":\"red\"}]"
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:pumpkin_pie"
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 2,
+                  "can_always_eat": true,
+                  "eat_seconds": 0.5,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:absorption",
+                        "amplifier": 2,
+                        "duration": 12000
+                      }
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "[\"\",{\"text\":\"曲奇大餅乾\",\"italic\":false,\"color\":\"yellow\"}]"
+              }
+            }
+          ]
         },
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wheat",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2,
+								"max": 4
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:food": {
+									"nutrition": 1,
+									"saturation": 1,
+									"can_always_eat": true,
+									"eat_seconds": 1,
+									"effects": [
+										{
+											"effect": {
+												"id": "minecraft:water_breathing",
+												"amplifier": 0,
+												"duration": 400
+											}
+										}
+									]
+								},
+								"minecraft:custom_name": "[\"\",{\"text\":\"水稻\",\"italic\":false,\"color\":\"aqua\"}]",
+								"minecraft:custom_model_data": 724103
+							}
+						}
+					]
+				},
         {
-          "type": "minecraft:item",
-          "name": "minecraft:cookie"
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:custom_name": "頂級乾糧",
+                        "minecraft:custom_model_data": 724102,
+                        "minecraft:food": {
+                            "nutrition": 6,
+                            "saturation": 6,
+                            "can_always_eat": true,
+                            "eat_seconds": 3,
+                            "effects": [
+                                {
+                                    "effect": {
+                                        "id": "minecraft:haste",
+                                        "amplifier": 4,
+                                        "duration": 400
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
         }
       ],
       "rolls": 1.0
