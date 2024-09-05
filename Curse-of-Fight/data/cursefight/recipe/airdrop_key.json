@@ -7,19 +7,19 @@
     ],
     "key": {
         "a": {
-            "item": "minecraft:golden_helmet"
+            "item": "minecraft:rose_bush"
         },
         "b": {
-            "item": "minecraft:wheat"
+            "item": "minecraft:glow_lichen"
         },
         "c": {
-            "item": "minecraft:leather"
+            "item": "minecraft:brick"
         },
         "d": {
-            "item": "minecraft:glowstone"
+            "item": "minecraft:smooth_stone_slab"
         },
         "e": {
-            "item": "minecraft:lava_bucket"
+            "item": "minecraft:oak_fence_gate"
         }
     },
     "result": {
