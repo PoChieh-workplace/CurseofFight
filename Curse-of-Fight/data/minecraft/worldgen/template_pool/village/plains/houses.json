@@ -200,7 +200,7 @@
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
-      "weight": 5
+      "weight": 4
     },
     {
       "element": {
@@ -209,7 +209,7 @@
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "element": {
@@ -325,6 +325,28 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/plains/houses/plains_meeting_point_5",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/plains/houses/plains_temple_3",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/plains/houses/plains_temple_4",
         "processors": {
           "processors": []
         },

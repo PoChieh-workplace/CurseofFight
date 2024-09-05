@@ -7,3 +7,11 @@ execute if score _game_start_ info matches 1 run function cursefight:activity/se
 
 # game start set
 execute if score _game_start_ info matches 1 run function cursefight:time/game_start_sec
+
+# village career Xp
+execute as @a at @s if entity @n[type=minecraft:villager,distance=..5] run function cursefight:mob/villager/xp_sec
+
+# village protect particle
+function cursefight:particle/sec
+execute as @e[type=minecraft:marker,tag=village_protect] at @s run tp @s ~ ~ ~ ~-20 0
+execute as @e[type=minecraft:marker,tag=village_protect] at @s run execute as @e[type=#cursefight:hostile,distance=..100] run damage @s 5 minecraft:wither

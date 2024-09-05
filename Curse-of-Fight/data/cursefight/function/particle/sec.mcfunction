@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,tag=village_protect] at @s run function cursefight:particle/village_protect
