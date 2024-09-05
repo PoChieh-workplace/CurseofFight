@@ -32,6 +32,7 @@ scoreboard objectives remove player_random
 scoreboard objectives remove survival_time
 scoreboard objectives remove team_respawn
 scoreboard objectives remove self_respawn
+scoreboard objectives remove villager_xp 
 
 # 動畫
 scoreboard objectives remove animation.timer.a

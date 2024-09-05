@@ -38,6 +38,8 @@ scoreboard objectives add respawning dummy {"text":"使用重生信標"}
 scoreboard objectives add respawning_sec dummy {"text":"使用重生信標秒數"}
 scoreboard objectives add respawning_if_firework dummy {"text":"使用重生信標警示"}
 scoreboard objectives add survival_time dummy {"text":"存活時間"}
+scoreboard objectives add villager_xp dummy {"text":"村民經驗"}
+
 
 worldborder center ~ ~
 worldborder set 256
