@@ -2,81 +2,40 @@
   "type": "minecraft:fishing",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "conditions":[
-      	{
-      	  "condition":"minecraft:inverted",
-      	  "term": {
-      	  	  "condition":"minecraft:match_tool",
-      	  	  "predicate":{
-      	  	  	"nbt":"{FishRush:1}"
-      	  	  }
-      	   }
-      	}
-      ],
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 10,
           "quality": -2,
-          "value": "minecraft:gameplay/fishing/junk"
+          "value": "minecraft:gameplay/fishing/junk",
+          "weight": 20
         },
         {
           "type": "minecraft:loot_table",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
+              "entity": "this",
               "predicate": {
-                "fishing_hook": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook",
                   "in_open_water": true
                 }
-              },
-              "entity": "this"
+              }
             }
           ],
-          "weight": 5,
           "quality": 2,
-          "value": "minecraft:gameplay/fishing/treasure"
+          "value": "minecraft:gameplay/fishing/treasure",
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 85,
-          "quality": -1,
-          "value": "minecraft:gameplay/fishing/fish"
+          "quality": -5,
+          "value": "minecraft:gameplay/fishing/fish",
+          "weight": 40
         }
-      ]
-    },
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "conditions":[
-      	{
-      	  "condition":"minecraft:match_tool",
-      	  "predicate":{
-      	  	"nbt":"{FishRush:1}"
-      	  }
-      	}
       ],
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "weight": 30,
-          "value": "minecraft:gameplay/fishing/junk"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 60,
-          "quality": 2,
-          "value": "minecraft:gameplay/fishing/treasure"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 10,
-          "quality": -1,
-          "value": "minecraft:gameplay/fishing/fish"
-        }
-      ]
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:gameplay/fishing"
