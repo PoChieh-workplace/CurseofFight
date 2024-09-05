@@ -127,7 +127,7 @@
                                             "effect": {
                                                 "id": "minecraft:haste",
                                                 "amplifier": 2,
-                                                "duration": 200
+                                                "duration": 1200
                                             }
                                         }
                                     ]
@@ -163,7 +163,7 @@
                                             "effect": {
                                                 "id": "minecraft:haste",
                                                 "amplifier": 0,
-                                                "duration": 100
+                                                "duration": 1200
                                             }
                                         }
                                     ]
