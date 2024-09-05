@@ -13,6 +13,7 @@ gamerule doImmediateRespawn true
 gamerule doWeatherCycle true
 gamerule randomTickSpeed 3
 gamerule sendCommandFeedback false
+gamerule doInsomnia true
 
 scoreboard objectives add death deathCount "\u00A70【死亡數】"
 scoreboard players set @a[team=black] career_chosen -1
