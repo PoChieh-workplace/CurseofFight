@@ -23,6 +23,7 @@ scoreboard players set @a kills 0
 scoreboard players set @a death 0
 scoreboard players set @a survival_time 0
 scoreboard players set @a refresh_player_mobkills 0
+scoreboard players set @a village_friendly 100
 scoreboard objectives setdisplay sidebar show_info
 scoreboard players set _forgiven_ activity_set 0
 scoreboard players set _worldborder_ activity_set 0
