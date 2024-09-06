@@ -17,3 +17,7 @@ execute as @e[type=arrow,tag=cursefight.accuracy_shot,predicate=cursefight:accur
 
 # crossbow sniper
 function cursefight:enchantment/crossbow/tick
+
+# open chest and berrier
+execute as @a[scores={open_chest=1..}] run function cursefight:game/generic/player/open_chest_or_barrel
+execute as @a[scores={open_barrel=1..}] run function cursefight:game/generic/player/open_chest_or_barrel
