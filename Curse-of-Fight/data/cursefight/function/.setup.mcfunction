@@ -34,11 +34,14 @@ scoreboard objectives add career_chosen dummy
 scoreboard objectives add damage_warn minecraft.custom:minecraft.damage_taken {"text":"通知受到傷害"}
 scoreboard objectives add knowledge minecraft.used:minecraft.knowledge_book {"text":"獲得合成表"}
 scoreboard objectives add use_skill minecraft.used:minecraft.warped_fungus_on_a_stick {"text":"使用技能"}
+scoreboard objectives add open_chest minecraft.custom:minecraft.open_chest {"text":"打開箱子"}
+scoreboard objectives add open_barrel minecraft.custom:minecraft.open_barrel {"text":"打開桶子"}
 scoreboard objectives add respawning dummy {"text":"使用重生信標"}
 scoreboard objectives add respawning_sec dummy {"text":"使用重生信標秒數"}
 scoreboard objectives add respawning_if_firework dummy {"text":"使用重生信標警示"}
 scoreboard objectives add survival_time dummy {"text":"存活時間"}
 scoreboard objectives add villager_xp dummy {"text":"村民經驗"}
+scoreboard objectives add village_friendly dummy {"text":"村民友好度"}
 
 
 worldborder center ~ ~

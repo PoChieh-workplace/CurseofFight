@@ -1,0 +1,1 @@
+execute at @s run particle minecraft:damage_indicator ~ ~ ~ 1 1 1 1 10 force
