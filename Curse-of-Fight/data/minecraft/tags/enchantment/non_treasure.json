@@ -39,6 +39,7 @@
 		"cursefight:generic/armor/armor_knockback",
         "cursefight:generic/trident/depth_strider",
 		"cursefight:generic/armor/high_land_breath",
-		"theft:theft"
+		"theft:theft",
+		"cursefight:generic/bow/exploded_arrow"
 	]
 }

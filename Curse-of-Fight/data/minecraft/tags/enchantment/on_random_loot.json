@@ -5,6 +5,7 @@
     "minecraft:vanishing_curse",
     "minecraft:frost_walker",
     "minecraft:mending",
-    "cursefight:generic/trident/depth_strider"
+    "cursefight:generic/trident/depth_strider",
+    "cursefight:generic/bow/exploded_arrow"
   ]
 }
