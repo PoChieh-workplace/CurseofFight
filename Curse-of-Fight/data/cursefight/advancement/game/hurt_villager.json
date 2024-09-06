@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "minecraft:is_player_attack",
+                                "expected": true
+                            }
+                        ]
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:villager",
+                    "location": {
+                        "structures": "minecraft:village_plains"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight:game/generic/player/hurt_villager"
+    }
+}
