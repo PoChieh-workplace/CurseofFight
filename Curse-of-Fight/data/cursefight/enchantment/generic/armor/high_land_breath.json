@@ -72,8 +72,8 @@
                                         "numerator": 1,
                                         "denominator": {
                                             "type": "minecraft:linear",
-                                            "base": 30,
-                                            "per_level_above_first": 20
+                                            "base": 50,
+                                            "per_level_above_first": 30
                                         }
                                     }
                                 }
@@ -97,5 +97,5 @@
 		"armor"
 	],
 	"supported_items": "#minecraft:head_armor",
-	"weight": 5
+	"weight": 10
 }
