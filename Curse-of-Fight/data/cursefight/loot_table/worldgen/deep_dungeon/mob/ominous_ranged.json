@@ -16,23 +16,13 @@
             "bonus_rolls": 0,
             "entries": [
                 {
-                    "type": "minecraft:loot_table",
-                    "value": "cursefight:worldgen/deep_dungeon/mob/ominous_armor"
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "bonus_rolls": 0,
-            "entries": [
-                {
                     "type": "minecraft:item",
                     "name": "minecraft:bow",
                     "functions": [
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "cursefight:generic/bow/exploded_arrow":2,
+                                "cursefight:generic/crossbow/sniper_for_mob":2,
                                 "minecraft:power": 1
                             },
                             "add": false
@@ -47,9 +37,9 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "cursefight:generic/bow/exploded_arrow":2,
+                                "cursefight:generic/crossbow/sniper_for_mob":2,
                                 "minecraft:punch": 2,
-                                "minecraft:power": 2
+                                "minecraft:power": 1
                             },
                             "add": false
                         }
@@ -62,6 +52,7 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
+                                "cursefight:generic/crossbow/sniper_for_mob":2,
                                 "minecraft:power": 3
                             },
                             "add": false
@@ -75,7 +66,7 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "cursefight:generic/bow/exploded_arrow":2,
+                                "cursefight:generic/crossbow/sniper_for_mob":2,
                                 "minecraft:punch": 3
                             },
                             "add": false

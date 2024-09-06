@@ -1,0 +1,198 @@
+{
+	"anvil_cost": 1,
+	"description": {
+		"translate": "enchantment.cursefight.sniper_for_mob"
+	},
+	"exclusive_set": "#minecraft:exclusive_set/crossbow",
+	"max_cost": {
+		"base": 50,
+		"per_level_above_first": 0
+	},
+	"max_level": 30,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 10
+	},
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:weakness",
+                    "min_duration": {
+                        "type": "minecraft:linear",
+                        "base": 3,
+                        "per_level_above_first": 3
+                    },
+                    "max_duration": {
+                        "type": "minecraft:linear",
+                        "base": 3,
+                        "per_level_above_first": 3
+                    },
+                    "min_amplifier": 1,
+                    "max_amplifier": 2
+                }
+            },
+			{
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "cursefight:enchantment/crossbow/sniper_for_mob_hit_effect"
+                }
+            },
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "cursefight:ammo_truth",
+					"min_damage": {
+						"type": "minecraft:linear",
+						"base": 4,
+						"per_level_above_first": 1
+					},
+					"max_damage": {
+						"type": "minecraft:linear",
+						"base": 4,
+						"per_level_above_first": 1
+					}
+				},
+				"requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate": {
+                        "type": "#minecraft:arrows"
+                    }
+                }
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:play_sound",
+					"sound": "minecraft:item.trident.thunder",
+					"volume": 1,
+					"pitch": 1
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:spawn_particles",
+					"particle": {
+						"type": "minecraft:damage_indicator"
+					},
+					"horizontal_position": {
+						"type": "in_bounding_box",
+						"offset": 0,
+						"scale": 5
+					},
+					"vertical_position": {
+						"type": "in_bounding_box",
+						"offset": 0,
+						"scale": 5
+					},
+					"horizontal_velocity": {
+						"base": 3,
+						"movement_scale": 1
+					},
+					"vertical_velocity": {
+						"base": 3,
+						"movement_scale": 1
+					},
+					"speed": 1
+				}
+			}
+		],
+		"minecraft:projectile_spawned": [
+			{
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "cursefight:enchantment/crossbow/sniper_weakness"
+                }
+            },
+			{
+				"effect": {
+					"type": "minecraft:play_sound",
+					"sound": "minecraft:entity.blaze.shoot",
+					"volume": 1,
+					"pitch": 1
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:play_sound",
+					"sound": "minecraft:entity.dragon_fireball.explode",
+					"volume": 1,
+					"pitch": 1
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:spawn_particles",
+					"particle": {
+						"type": "minecraft:sonic_boom"
+					},
+					"horizontal_position": {
+						"type": "entity_position",
+                        "offset": 0
+					},
+					"vertical_position": {
+						"type": "entity_position",
+                        "offset": 0
+					},
+					"horizontal_velocity": {
+						"base": 3,
+						"movement_scale": 1
+					},
+					"vertical_velocity": {
+						"base": 3,
+						"movement_scale": 1
+					},
+					"speed": 1
+				}
+			}
+		],
+		"minecraft:projectile_piercing": [
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": 2,
+						"per_level_above_first": 2
+					}
+				}
+			}
+		],
+		"minecraft:crossbow_charge_time": {
+			"type": "minecraft:add",
+			"value": {
+				"type": "minecraft:linear",
+				"base": 5,
+				"per_level_above_first": 1.5
+			}
+		},
+		"minecraft:attributes": [
+            {
+                "id": "cursefight.sniper.movement",
+                "attribute": "generic.movement_speed",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": -0.03,
+                    "per_level_above_first": -0.03
+                },
+                "operation": "add_multiplied_base"
+            }
+        ]
+	},
+	"supported_items": "#minecraft:enchantable/crossbow",
+	"weight": 10
+}
