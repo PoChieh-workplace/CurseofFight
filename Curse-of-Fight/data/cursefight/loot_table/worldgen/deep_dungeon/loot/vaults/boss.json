@@ -218,7 +218,7 @@
                                 "minecraft:unbreakable": {
                                     "show_in_tooltip":false
                                 },
-                                "minecraft:repair_cost": 100
+                                "minecraft:repair_cost": 10
                             }
                         }
                     ]
@@ -271,8 +271,7 @@
                                 },
                                 "minecraft:unbreakable": {
                                     "show_in_tooltip":false
-                                },
-                                "minecraft:repair_cost": 100
+                                }
                             }
                         }
                     ]
@@ -341,8 +340,7 @@
                                 },
                                 "minecraft:unbreakable": {
                                     "show_in_tooltip":false
-                                },
-                                "minecraft:repair_cost": 100
+                                }
                             }
                         }
                     ]
