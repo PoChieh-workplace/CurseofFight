@@ -48,17 +48,17 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:stone_sword",
-                    "weight": 6
+                    "weight": 3
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:stone_sword",
-                    "weight": 4,
+                    "weight": 3,
                     "functions": [
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "minecraft:sharpness": 1
+                                "minecraft:sharpness": 2
                             }
                         }
                     ]
@@ -79,7 +79,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_shovel",
-                    "weight": 3
+                    "weight": 1
                 },
                 {
                     "type": "minecraft:item",
@@ -132,7 +132,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_shovel",
-                    "weight": 3
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:item",
@@ -203,8 +203,8 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "minecraft:sharpness": 2,
-                                "minecraft:knockback": 3
+                                "minecraft:sharpness": 5,
+                                "cursefight:generic/sword/wither_aspect": 1
                             }
                         }
                     ]
@@ -217,8 +217,8 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "minecraft:fire_aspect": 2,
-                                "minecraft:sharpness": 1
+                                "minecraft:fire_aspect": 10,
+                                "minecraft:sharpness": 5
                             }
                         }
                     ]
@@ -231,9 +231,9 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "minecraft:sharpness": 4,
-                                "minecraft:flame": 1,
-                                "minecraft:knockback": 1
+                                "minecraft:sharpness": 5,
+                                "minecraft:flame": 2,
+                                "cursefight:generic/sword/life_steal": 5
                             }
                         }
                     ]
