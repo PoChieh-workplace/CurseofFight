@@ -10,13 +10,13 @@
             "item": "minecraft:rose_bush"
         },
         "b": {
-            "item": "minecraft:glow_lichen"
+            "item": "minecraft:armor_stand"
         },
         "c": {
             "item": "minecraft:brick"
         },
         "d": {
-            "item": "minecraft:smooth_stone_slab"
+            "item": "minecraft:glowstone"
         },
         "e": {
             "item": "minecraft:oak_fence_gate"
