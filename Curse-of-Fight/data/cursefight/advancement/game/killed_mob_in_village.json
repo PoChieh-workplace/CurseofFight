@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#cursefight:hostile",
+                    "location": {
+                        "structures": "#minecraft:village"
+                    }
+                }
+            }
+        }
+    }
+}
