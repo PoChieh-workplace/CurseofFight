@@ -8,7 +8,7 @@
                     {
                         "condition": "minecraft:location_check",
                         "predicate": {
-                            "structures": "minecraft:village_plains",
+                            "structures": "#minecraft:village",
                             "block": {
                                 "blocks": "minecraft:end_portal_frame"
                             }
