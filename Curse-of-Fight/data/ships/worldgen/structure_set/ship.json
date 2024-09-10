@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "ships:ship",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1209359398,
+    "exclusion_zone": {
+      "other_set": "ships:ship_fleet",
+      "chunk_count": 10
+    },
+    "spacing": 20,
+    "separation": 10
+  }
+}

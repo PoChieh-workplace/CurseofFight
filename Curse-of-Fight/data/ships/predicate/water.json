@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "fluid": {
+          "fluids": "minecraft:water"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "fluid": {
+          "fluids": "minecraft:flowing_water"
+        }
+      }
+    }
+  ]
+}

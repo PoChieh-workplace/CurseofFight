@@ -1,0 +1,6 @@
+{
+  "values": [
+    "#ships:uses_boat_melee",
+    "#ships:uses_boat_ranged"
+  ]
+}
