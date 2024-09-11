@@ -1,1 +1,0 @@
-summon marker ~ ~ ~ {Silent:1b,Invulnerable:1b,Tags:["katter.raj.spawner"]}

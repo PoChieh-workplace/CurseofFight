@@ -1,3 +1,0 @@
-schedule function kattersstructures:schedules/schedule_20t 20t
-schedule function kattersstructures:schedules/schedule_2t 2t
-schedule function kattersstructures:schedules/schedule_10s 10s
