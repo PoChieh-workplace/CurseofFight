@@ -189,12 +189,12 @@ setblock ~ ~ ~ minecraft:trial_spawner{
     target_cooldown_length:36000,
     required_player_range:50,
     normal_config:{
-        spawn_range:8,
+        spawn_range:6,
         total_mobs:2,
         total_mobs_added_per_player:1,
         simultaneous_mobs:1,
         simultaneous_mobs_added_per_player:0,
-        ticks_between_spawn:10,
+        ticks_between_spawn:5,
         spawn_potentials:[
             {
                 data:{
@@ -205,9 +205,9 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                     entity:{
                         id:"minecraft:evoker",
                         SpellTicks:200f,
-                        Health:20,
+                        Health:30,
                         DeathLootTable:"minecraft:empty",
-                        attributes:[{id:"generic.max_health",base:20f}]
+                        attributes:[{id:"generic.max_health",base:30f}]
                     }
                 },
                 weight:1
@@ -326,7 +326,8 @@ setblock ~ ~ ~ minecraft:trial_spawner{
             {
                 data:{
                     entity:{
-                        id:"minecraft:vindicator"
+                        id:"minecraft:vindicator",
+                        DeathLootTable:"minecraft:empty"
                     }
                 },
                 weight:1
@@ -352,6 +353,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                 data:{
                     entity:{
                         id:"minecraft:vindicator",
+                        DeathLootTable:"minecraft:empty",
                         attributes:[{id:"generic.scale",base:0.5f}],
                         HandItems:[{id:netherite_axe,count:1}],
                         HandDropChances:[0f]
