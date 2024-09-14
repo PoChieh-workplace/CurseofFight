@@ -50,6 +50,15 @@
         {	
             "weight": 1,
             "element": {
+                "location": "cursefight:deep_dungeon/spawners/boss_spawner_x6",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {	
+            "weight": 1,
+            "element": {
                 "location": "cursefight:deep_dungeon/spawners/boss_spawner_x7",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
