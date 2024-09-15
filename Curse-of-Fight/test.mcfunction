@@ -190,24 +190,17 @@ setblock ~ ~ ~ minecraft:trial_spawner{
     required_player_range:50,
     normal_config:{
         spawn_range:6,
-        total_mobs:2,
-        total_mobs_added_per_player:1,
-        simultaneous_mobs:1,
-        simultaneous_mobs_added_per_player:0,
+        total_mobs:4,
+        total_mobs_added_per_player:2,
+        simultaneous_mobs:3,
+        simultaneous_mobs_added_per_player:1,
         ticks_between_spawn:5,
         spawn_potentials:[
             {
                 data:{
-                    equipment:{
-                        slot_drop_chances:0,
-                        loot_table:"cursefight:worldgen/deep_dungeon/mob/normal"
-                    },
                     entity:{
-                        id:"minecraft:evoker",
-                        SpellTicks:200f,
-                        Health:30,
-                        DeathLootTable:"minecraft:empty",
-                        attributes:[{id:"generic.max_health",base:30f}]
+                        id:"minecraft:vex",
+                        attributes:[{id:"generic.scale",base:0.5f},{id:"generic.follow_range",base:50f},{id:"generic.flying_speed",base:2f}]
                     }
                 },
                 weight:1
@@ -223,17 +216,23 @@ setblock ~ ~ ~ minecraft:trial_spawner{
     ominous_config:{
         items_to_drop_when_ominous:"cursefight:worldgen/deep_dungeon/loot/spawners/ominous_drop",
         spawn_range:8,
-        total_mobs:3,
+        total_mobs:2,
         total_mobs_added_per_player:2,
-        simultaneous_mobs:2,
-        simultaneous_mobs_added_per_player:1,
-        ticks_between_spawn:0,
+        simultaneous_mobs:1,
+        simultaneous_mobs_added_per_player:0.5,
+        ticks_between_spawn:20,
         spawn_potentials:[
             {
                 data:{
+                    equipment:{
+                        slot_drop_chances:0,
+                        loot_table:"cursefight:worldgen/deep_dungeon/mob/normal"
+                    },
                     entity:{
-                        id:"minecraft:vex",
-                        attributes:[{id:"generic.scale",base:0.5f},{id:"generic.follow_range",base:50f},{id:"generic.flying_speed",base:2f}]
+                        id:"minecraft:evoker",
+                        Health:30,
+                        DeathLootTable:"minecraft:empty",
+                        attributes:[{id:"generic.max_health",base:30f}]
                     }
                 },
                 weight:1
@@ -371,6 +370,68 @@ setblock ~ ~ ~ minecraft:trial_spawner{
     }
 } replace
 
+----------------------------------------------
+
+# rabbit
+setblock ~ ~ ~ minecraft:trial_spawner{
+    target_cooldown_length:12000,
+    required_player_range:50,
+    normal_config:{
+        spawn_range:8,
+        total_mobs:3,
+        total_mobs_added_per_player:2,
+        simultaneous_mobs:1,
+        simultaneous_mobs_added_per_player:0.5,
+        ticks_between_spawn:10,
+        spawn_potentials:[
+            {
+                data:{
+                    entity:{
+                        id:"minecraft:rabbit",
+                        RabbitType:99,
+                        Health:9,
+                        attributes:[{id:"generic.movement_speed",base:0.2f},{id:"generic.max_health",base:9f}]
+                    }
+                },
+                weight:1
+            }
+        ],
+        loot_tables_to_eject:[
+            {
+                data:"cursefight:worldgen/deep_dungeon/loot/spawners/normal",
+                weight:1
+            }
+        ]
+    },
+    ominous_config:{
+        items_to_drop_when_ominous:"cursefight:worldgen/deep_dungeon/loot/spawners/ominous_drop",
+        spawn_range:8,
+        total_mobs:2,
+        total_mobs_added_per_player:2,
+        simultaneous_mobs:2,
+        simultaneous_mobs_added_per_player:1,
+        ticks_between_spawn:0,
+        spawn_potentials:[
+            {
+                data:{
+                    entity:{
+                        id:"minecraft:rabbit",
+                        RabbitType:99,
+                        Health:12,
+                        attributes:[{id:"generic.movement_speed",base:0.4f},{id:"generic.max_health",base:12f}]
+                    }
+                },
+                weight:1
+            }
+        ],
+        loot_tables_to_eject:[
+            {
+                data:"cursefight:worldgen/deep_dungeon/loot/spawners/ominous",
+                weight:1
+            }
+        ]
+    }
+} replace
 
 ----------------------------------------------
 # baby zombie
@@ -821,3 +882,5 @@ setblock ~ ~ ~ minecraft:trial_spawner{
         ]
     }
 } replace
+
+--------------------------------------
