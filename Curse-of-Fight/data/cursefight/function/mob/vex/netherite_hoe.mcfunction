@@ -1,0 +1,2 @@
+execute at @s if entity @e[type=evoker,distance=..5] run item replace entity @s weapon.mainhand with minecraft:netherite_hoe[minecraft:enchantments={"cursefight:generic/sword/wither_aspect":1}]
+tag @s add changed_vex
