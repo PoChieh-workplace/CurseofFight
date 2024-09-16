@@ -12,7 +12,7 @@
       "other_set": "ships:ship_fleet",
       "chunk_count": 10
     },
-    "spacing": 20,
-    "separation": 15
+    "spacing": 15,
+    "separation": 10
   }
 }
