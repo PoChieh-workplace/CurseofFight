@@ -38,76 +38,46 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:map",
+          "weight": 10,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "ships:on_outpost_explorer_maps",
-              "decoration": "mansion",
+              "destination": "cursefight:dungeon",
+              "decoration": "target_x",
               "zoom": 2,
-              "search_radius": 1000,
               "skip_existing_chunks": false
             },
             {
               "function": "minecraft:set_name",
-              "entity": "this",
-              "target": "item_name",
-              "name": "Outpost Explorer Map"
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                  "structure": "ships:ship_fleet",
-                  "structures": "ships:ship_fleet"
-                }
-              }
+              "name": "Deep Dungeon"
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:map",
+          "weight": 10,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "minecraft:on_woodland_explorer_maps",
-              "decoration": "mansion",
+              "destination": "cursefight:city",
+              "decoration": "monument",
               "zoom": 2,
-              "search_radius": 1000,
               "skip_existing_chunks": false
             },
             {
               "function": "minecraft:set_name",
-              "target": "item_name",
-              "name": {
-                "translate": "filled_map.mansion"
-              }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "structure": "ships:ship_fleet",
-                "structures": "ships:ship_fleet"
-              }
+              "name": "Ancient City"
             }
           ]
         }
       ]
     },
     {
-      "rolls": 3,
-      "bonus_rolls": 0,
+      "rolls": 5,
+      "bonus_rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
