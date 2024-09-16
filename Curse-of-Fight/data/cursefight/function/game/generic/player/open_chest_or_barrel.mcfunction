@@ -1,6 +1,6 @@
-execute at @s as @e[type=minecraft:villager,distance=..15] at @s anchored eyes positioned ^ ^ ^6 as @p[distance=..6] if predicate cursefight:village_seeing_range run scoreboard players set @s open_barrel 2
-execute at @s as @e[type=minecraft:villager,distance=..15] at @s anchored eyes positioned ^ ^ ^4 as @p[distance=..4] if predicate cursefight:village_seeing_range run scoreboard players set @s open_barrel 2
-execute at @s as @e[type=minecraft:villager,distance=..15] at @s anchored eyes positioned ^ ^ ^2 as @p[distance=..2] if predicate cursefight:village_seeing_range run scoreboard players set @s open_barrel 2
+execute at @s as @e[type=minecraft:villager,distance=..15] at @s anchored eyes positioned ^ ^ ^6 as @p[distance=..6,team=!black,scores={death=0}] if predicate cursefight:village_seeing_range run scoreboard players set @s open_barrel 2
+execute at @s as @e[type=minecraft:villager,distance=..15] at @s anchored eyes positioned ^ ^ ^4 as @p[distance=..4,team=!black,scores={death=0}] if predicate cursefight:village_seeing_range run scoreboard players set @s open_barrel 2
+execute at @s as @e[type=minecraft:villager,distance=..15] at @s anchored eyes positioned ^ ^ ^2 as @p[distance=..2,team=!black,scores={death=0}] if predicate cursefight:village_seeing_range run scoreboard players set @s open_barrel 2
 
 
 execute if score @s open_barrel matches 2 at @s run playsound minecraft:block.bell.resonate player @s ~ ~ ~ 5 0.5
