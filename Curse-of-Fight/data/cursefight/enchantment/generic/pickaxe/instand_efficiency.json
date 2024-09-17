@@ -1,0 +1,33 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.cursefight.instand_efficiency"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:levels_squared",
+          "added": 100.0
+        },
+        "attribute": "minecraft:player.mining_efficiency",
+        "id": "cursefight:enchantment.efficiency",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/mining",
+  "weight": 10
+}
