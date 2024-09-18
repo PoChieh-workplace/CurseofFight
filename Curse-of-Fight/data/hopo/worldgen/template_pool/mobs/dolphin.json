@@ -1,0 +1,15 @@
+{
+    "name": "hopo:mobs/dolphin",
+    "fallback": "hopo:mobs/dolphin",
+    "elements": [
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/mobs/dolphin",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

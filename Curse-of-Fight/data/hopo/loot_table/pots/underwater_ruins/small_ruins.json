@@ -1,0 +1,347 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:slowness"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:water_breathing"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:night_vision"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_turtle_master"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"italic\":false,\"text\":\"Splash Potion of Water Boost\"}",
+								"minecraft:potion_contents": {
+									"custom_color": 3847167,
+									"custom_effects": [
+										{
+											"id": "minecraft:water_breathing",
+											"duration": 1200
+										},
+										{
+											"id": "minecraft:dolphins_grace",
+											"duration": 1200
+										}
+									]
+								},
+								"minecraft:rarity": "uncommon"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bundle",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:experience_bottle",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nautilus_shell",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prismarine_crystals",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prismarine_shard",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:copper_ingot",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_rocket",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Marine Glow Rocket\"}"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:fireworks": {
+									"flight_duration": 2,
+									"explosions": [
+										{
+											"shape": "large_ball",
+											"colors": [
+												2651799,
+												16351261
+											],
+											"fade_colors": [
+												16645372
+											],
+											"has_trail": true,
+											"has_twinkle": false
+										}
+									]
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 10
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_rocket",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 10
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Multicolor Glow Rocket\"}",
+								"minecraft:fireworks": {
+									"flight_duration": 2,
+									"explosions": [
+										{
+											"shape": "star",
+											"colors": [
+												11250603,
+												6719955
+											],
+											"fade_colors": [
+												11743532,
+												1537522,
+												8073150,
+												14602026,
+												12801229,
+												15790320
+											],
+											"has_trail": true,
+											"has_twinkle": true
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

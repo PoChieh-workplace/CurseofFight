@@ -1,0 +1,186 @@
+{
+    "name": "hopo:underwater_fossils",
+    "fallback": "hopo:underwater_fossils",
+    "elements": [
+        {       
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/1",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/2",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/3",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/4",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {      
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/5",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/6",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/7",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {       
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/8",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/9",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/10",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/11",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {       
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/12",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/13",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/14",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/15",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/16",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {       
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/17",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/18",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/19",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/fossils/20",
+                "projection": "rigid",
+                "processors": "hopo:path/fossil"
+            }
+        }
+    ]
+}

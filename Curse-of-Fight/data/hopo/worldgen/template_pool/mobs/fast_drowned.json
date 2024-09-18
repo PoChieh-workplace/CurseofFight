@@ -1,0 +1,15 @@
+{
+    "name": "hopo:mobs/fast_drowned",
+    "fallback": "hopo:mobs/fast_drowned",
+    "elements": [
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/mobs/fast_drowned",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

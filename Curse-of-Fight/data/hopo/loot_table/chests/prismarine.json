@@ -1,0 +1,725 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+	  {
+		"rolls": {
+		  "type": "minecraft:uniform",
+		  "min": 5,
+		  "max": 6
+		},
+		"bonus_rolls": 0,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:potion",
+			"weight": 2,
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:rarity": "uncommon"
+				}
+			  },
+			  {
+				"function": "minecraft:set_potion",
+				"id": "minecraft:luck"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:potion",
+			"weight": 2,
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:potion_contents": {
+					"custom_color": 16773678,
+					"custom_effects": [
+					  {
+						"id": "minecraft:absorption",
+						"amplifier": 4,
+						"duration": 3600
+					  }
+					]
+				  },
+				  "minecraft:rarity": "uncommon"
+				}
+			  },
+			  {
+				"function": "minecraft:set_name",
+				"name": [
+				  {
+					"text": "Potion of Absorption",
+					"italic": false
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:potion",
+			"weight": 1,
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:potion_contents": {
+					"custom_color": 16726313,
+					"custom_effects": [
+					  {
+						"id": "minecraft:health_boost",
+						"amplifier": 1,
+						"duration": 1200
+					  }
+					]
+				  },
+				  "minecraft:rarity": "uncommon"
+				}
+			  },
+			  {
+				"function": "minecraft:set_name",
+				"name": [
+				  {
+					"text": "Potion of Health Boost",
+					"italic": false
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:potion",
+			"weight": 2,
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:potion_contents": {
+					"custom_color": 13149152,
+					"custom_effects": [
+					  {
+						"id": "minecraft:dolphins_grace",
+						"duration": 3600
+					  }
+					]
+				  },
+				  "minecraft:rarity": "uncommon"
+				}
+			  },
+			  {
+				"function": "minecraft:set_name",
+				"name": [
+				  {
+					"text": "Potion of Dolphin’s Grace",
+					"italic": false
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:potion",
+			"weight": 1,
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:potion_contents": {
+					"custom_color": 6160084,
+					"custom_effects": [
+					  {
+						"id": "minecraft:conduit_power",
+						"duration": 1200
+					  }
+					]
+				  },
+				  "minecraft:rarity": "uncommon"
+				}
+			  },
+			  {
+				"function": "minecraft:set_name",
+				"name": [
+				  {
+					"text": "Potion of Conduit",
+					"italic": false
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:potion",
+			"weight": 1,
+			"functions": [
+			  {
+				"function": "minecraft:set_potion",
+				"id": "minecraft:long_water_breathing"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:trident",
+			"weight": 1,
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.05,
+				  "max": 0.2
+				},
+				"add": false
+			  },
+			  {
+				"function": "minecraft:enchant_with_levels",
+				"levels": {
+				  "min": 15,
+				  "max": 30
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:trident",
+			"weight": 1,
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.05,
+				  "max": 0.2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:book",
+			"weight": 10,
+			"functions": [
+			  {
+				"function": "minecraft:enchant_randomly",
+				"options": "#minecraft:on_random_loot"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:gold_block",
+			"weight": 2,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 0,
+				  "max": 1
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:gold_ingot",
+			"weight": 6,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:prismarine_crystals",
+			"weight": 8,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 8,
+				  "max": 20
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:prismarine_shard",
+			"weight": 7,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 8,
+				  "max": 20
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:wet_sponge",
+			"weight": 6,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 4
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:sponge",
+			"weight": 6,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 3
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:sea_lantern",
+			"weight": 8,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 2,
+				  "max": 7
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:prismarine",
+			"weight": 11,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 6,
+				  "max": 16
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:dark_prismarine",
+			"weight": 10,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 6,
+				  "max": 16
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:prismarine_bricks",
+			"weight": 10,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 6,
+				  "max": 16
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:gold_ingot",
+			"weight": 3,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 0,
+				  "max": 3
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:iron_ingot",
+			"weight": 3,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 0,
+				  "max": 3
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:book",
+			"weight": 4,
+			"functions": [
+			  {
+				"function": "minecraft:enchant_randomly",
+				"options": "#minecraft:on_random_loot"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:turtle_scute",
+			"weight": 2,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 0,
+				  "max": 1
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:name_tag",
+			"weight": 3,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 0,
+				  "max": 1
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:tipped_arrow",
+			"weight": 3,
+			"functions": [
+			  {
+				"function": "minecraft:set_potion",
+				"id": "minecraft:long_slowness"
+			  },
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 4,
+				  "max": 6
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:emerald",
+			"weight": 2,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 2,
+				  "max": 6
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:emerald_block",
+			"weight": 1,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 0,
+				  "max": 1
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:experience_bottle",
+			"weight": 5,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 2,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:flint",
+			"weight": 2,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 6
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:lapis_lazuli",
+			"weight": 2,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 2,
+				  "max": 7
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:chiseled_stone_bricks",
+			"weight": 2,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 4,
+				  "max": 12
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:sea_pickle",
+			"weight": 2,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 2,
+				  "max": 10
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:sand",
+			"weight": 2,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 4,
+				  "max": 12
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:tnt",
+			"weight": 2,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:coal",
+			"weight": 1,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 4
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:stick",
+			"weight": 1,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 3,
+				  "max": 9
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:golden_sword",
+			"weight": 1,
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.6,
+				  "max": 0.8
+				},
+				"add": false
+			  },
+			  {
+				"function": "minecraft:enchant_with_levels",
+				"levels": 30
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:golden_axe",
+			"weight": 1,
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.6,
+				  "max": 0.8
+				},
+				"add": false
+			  },
+			  {
+				"function": "minecraft:enchant_with_levels",
+				"levels": 30
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_sword",
+			"weight": 1,
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.2,
+				  "max": 0.5
+				},
+				"add": false
+			  },
+			  {
+				"function": "minecraft:enchant_with_levels",
+				"levels": 25
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_axe",
+			"weight": 1,
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.2,
+				  "max": 0.5
+				},
+				"add": false
+			  },
+			  {
+				"function": "minecraft:enchant_with_levels",
+				"levels": 25
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond",
+			"weight": 8,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 0,
+				  "max": 2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:barrel",
+			"functions": [
+			  {
+				"function": "minecraft:set_loot_table",
+				"type": "minecraft:barrel",
+				"name": "hopo:chests/prismarine"
+			  }
+			]
+		  }
+		]
+	  }
+	]
+  }
+  

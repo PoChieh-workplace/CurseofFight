@@ -1,0 +1,15 @@
+{ ///doesnt work :c
+    "name": "hopo:mobs/guardian",
+    "fallback": "hopo:mobs/guardian",
+    "elements": [
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mobs/guardian",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:jigsaw",
+    "project_start_to_heightmap": "OCEAN_FLOOR_WG",
+    "biomes": "#zhopo:has_structure/underwater_warm_small_ruins",
+    "step": "fluid_springs",
+    "spawn_overrides": {},
+    "start_pool": "hopo:underwater_warm_small_ruins",
+    "terrain_adaptation": "none",
+    "size": 1,  
+    "start_height": {
+    "absolute": 0
+  },
+  "max_distance_from_center": 1,
+  "use_expansion_hack": true
+}

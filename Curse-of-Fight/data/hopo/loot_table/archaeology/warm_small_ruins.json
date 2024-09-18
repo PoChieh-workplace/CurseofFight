@@ -1,0 +1,676 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:angler_pottery_sherd",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:riptide",
+								"minecraft:impaling",
+								"minecraft:loyalty",
+								"minecraft:channeling",
+								"minecraft:depth_strider",
+								"minecraft:mending",
+								"minecraft:unbreaking",
+								"minecraft:aqua_affinity",
+								"minecraft:respiration",
+								"minecraft:thorns",
+								"minecraft:frost_walker"
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shelter_pottery_sherd",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snort_pottery_sherd",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.05,
+								"max": 0.2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spyglass",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clock",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:compass",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal_block",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone_block",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oxidized_copper",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_axe",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.05,
+								"max": 0.1
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wheat",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coast_armor_trim_smithing_template",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:globe_banner_pattern",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:trident",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.05,
+								"max": 0.1
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:turtle_egg",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nautilus_shell",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tnt",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30,
+							"treasure": false
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.05,
+								"max": 0.1
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bow",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30,
+							"treasure": false
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.05,
+								"max": 0.1
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.05,
+								"max": 0.1
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sniffer_egg",
+					"weight": 6
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skeleton_skull",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skull_banner_pattern",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_eye",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:weakness",
+									"duration": {
+										"min": 20,
+										"max": 40
+									}
+								},
+								{
+									"type": "minecraft:poison",
+									"duration": {
+										"min": 10,
+										"max": 20
+									}
+								},
+								{
+									"type": "minecraft:night_vision",
+									"duration": {
+										"min": 20,
+										"max": 40
+									}
+								},
+								{
+									"type": "minecraft:saturation",
+									"duration": {
+										"min": 7,
+										"max": 10
+									}
+								},
+								{
+									"type": "minecraft:jump_boost",
+									"duration": {
+										"min": 20,
+										"max": 40
+									}
+								},
+								{
+									"type": "minecraft:blindness",
+									"duration": {
+										"min": 10,
+										"max": 20
+									}
+								},
+								{
+									"type": "minecraft:haste",
+									"duration": {
+										"min": 20,
+										"max": 40
+									}
+								},
+								{
+									"type": "minecraft:speed",
+									"duration": {
+										"min": 20,
+										"max": 40
+									}
+								},
+								{
+									"type": "minecraft:water_breathing",
+									"duration": {
+										"min": 20,
+										"max": 40
+									}
+								},
+								{
+									"type": "minecraft:regeneration",
+									"duration": {
+										"min": 10,
+										"max": 20
+									}
+								},
+								{
+									"type": "minecraft:strength",
+									"duration": {
+										"min": 10,
+										"max": 20
+									}
+								},
+								{
+									"type": "minecraft:absorption",
+									"duration": {
+										"min": 10,
+										"max": 20
+									}
+								},
+								{
+									"type": "minecraft:conduit_power",
+									"duration": {
+										"min": 10,
+										"max": 20
+									}
+								},
+								{
+									"type": "minecraft:health_boost",
+									"duration": {
+										"min": 10,
+										"max": 20
+									}
+								},
+								{
+									"type": "minecraft:dolphins_grace",
+									"duration": {
+										"min": 10,
+										"max": 20
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:turtle_scute",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrel",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:chest",
+							"name": "minecraft:chests/buried_treasure"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrel",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:chest",
+							"name": "minecraft:chests/underwater_ruin_big"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrel",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:chest",
+							"name": "minecraft:chests/shipwreck_map"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrel",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:chest",
+							"name": "minecraft:chests/shipwreck_supply"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrel",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:chest",
+							"name": "minecraft:chests/shipwreck_treasure"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:light_blue_banner",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Prismarine Fragment Banner\"}",
+								"minecraft:banner_patterns": [
+									{
+										"pattern": "minecraft:straight_cross",
+										"color": "black"
+									},
+									{
+										"pattern": "minecraft:straight_cross",
+										"color": "cyan"
+									},
+									{
+										"pattern": "minecraft:triangle_bottom",
+										"color": "black"
+									},
+									{
+										"pattern": "minecraft:triangle_bottom",
+										"color": "cyan"
+									},
+									{
+										"pattern": "minecraft:flower",
+										"color": "black"
+									},
+									{
+										"pattern": "minecraft:flower",
+										"color": "cyan"
+									},
+									{
+										"pattern": "minecraft:triangle_top",
+										"color": "black"
+									},
+									{
+										"pattern": "minecraft:triangle_top",
+										"color": "cyan"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gray_banner",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Guardian Banner\"}",
+								"minecraft:banner_patterns": [
+									{
+										"pattern": "minecraft:gradient",
+										"color": "cyan"
+									},
+									{
+										"pattern": "minecraft:flower",
+										"color": "white"
+									},
+									{
+										"pattern": "minecraft:circle",
+										"color": "red"
+									},
+									{
+										"pattern": "minecraft:half_horizontal",
+										"color": "cyan"
+									},
+									{
+										"pattern": "minecraft:triangle_top",
+										"color": "orange"
+									},
+									{
+										"pattern": "minecraft:triangles_bottom",
+										"color": "orange"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"italic\":false,\"text\":\"Golden Drowned\"}",
+								"minecraft:rarity": "epic",
+								"minecraft:profile": {
+									"id": [
+										73815719,
+										-1952232878,
+										-1883685731,
+										-1447904206
+									],
+									"properties": [
+										{
+											"name": "textures",
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ1MzEzYTU0MGEyZDBiYjE0ZDA3YmJmMjNhMDcwZmY4MzFiOWZhNzZkZDQyZTY5YmJiYzJjMDQ4MWY0Mzc0ZiJ9fX0="
+										}
+									]
+								},
+								"minecraft:note_block_sound": "minecraft:entity.drowned.ambient_water"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"italic\":false,\"text\":\"Drowned Necromancer\"}",
+								"minecraft:rarity": "epic",
+								"minecraft:profile": {
+									"id": [
+										-860470255,
+										1403932464,
+										-2119595067,
+										-541075009
+									],
+									"properties": [
+										{
+											"name": "textures",
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJjZmU1ZmQ4ZjFlNDU0NDc5OGY3ZThiMjQyMTUwYTU1ZGY5NmQ0ZjA0YjNlOWUwYzgwMzkwOWYzNDBkNTc5ZiJ9fX0="
+										}
+									]
+								},
+								"minecraft:note_block_sound": "minecraft:entity.drowned.ambient_water"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_11",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dried_kelp_block",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:light_blue_banner",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Prismarine Fragment Banner\"}",
+								"minecraft:banner_patterns": [
+									{
+										"pattern": "minecraft:straight_cross",
+										"color": "black"
+									},
+									{
+										"pattern": "minecraft:straight_cross",
+										"color": "cyan"
+									},
+									{
+										"pattern": "minecraft:triangle_bottom",
+										"color": "black"
+									},
+									{
+										"pattern": "minecraft:triangle_bottom",
+										"color": "cyan"
+									},
+									{
+										"pattern": "minecraft:flower",
+										"color": "black"
+									},
+									{
+										"pattern": "minecraft:flower",
+										"color": "cyan"
+									},
+									{
+										"pattern": "minecraft:triangle_top",
+										"color": "black"
+									},
+									{
+										"pattern": "minecraft:triangle_top",
+										"color": "cyan"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_healing"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:long_water_breathing"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_swiftness"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strength"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "hopo:archaeology/warm_small_ruins"
+}

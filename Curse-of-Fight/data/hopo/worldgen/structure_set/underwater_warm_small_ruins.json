@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "hopo:underwater/underwater_warm_small_ruins",
+            "weight": 10
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 10,
+        "separation": 2,
+        "salt": 44332211
+    }
+}

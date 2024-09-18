@@ -1,0 +1,583 @@
+{
+    "name": "hopo:underwater_small_ruins",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {       
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_1",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_2",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_3",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_4",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_5",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_6",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_7",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_8",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element", 
+                "location": "hopo:underwater_city/small/cold_9",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_10",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_11",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },      
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_12",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_13",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_14",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_15",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_16",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_17",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_18",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_19",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_20",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_21",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_22",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_23",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_24",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_25",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_26",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_27",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_28",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_29",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_30",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_31",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_32",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_33",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_34",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_35",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_36",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_37",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_38",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_39",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_40",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_41",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_42",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_43",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_44",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_45",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_46",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_47",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_48",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_49",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },        
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_50",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_51",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_52",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_53",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_54",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_55",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_56",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_57",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_58",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_59",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_60",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_c_6",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_c_7",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_c_8",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_c_9",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        },
+        {
+            "weight": 96,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/small/cold_c_10",
+                "projection": "rigid",
+                "processors": "hopo:path/detail"
+            }
+        }
+    ]
+}
