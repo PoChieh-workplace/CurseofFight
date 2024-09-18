@@ -1,0 +1,60 @@
+{
+    "anvil_cost": 100,
+    "description": {
+      "translate": "enchantment.cursefight.once"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:damage_item",
+                    "amount": 10
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:player",
+                        "flags": {
+                            "is_on_ground": true
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:resistance",
+                    "min_duration": 20,
+                    "max_duration": 20,
+                    "min_amplifier": 4,
+                    "max_amplifier": 4
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:player",
+                        "flags": {
+                            "is_on_ground": false
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+      "base": 300,
+      "per_level_above_first": 1
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 200,
+      "per_level_above_first": 1
+    },
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "minecraft:elytra",
+    "weight": 1
+}
