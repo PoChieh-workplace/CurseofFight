@@ -10,8 +10,8 @@
                     "type": "minecraft:multiply",
                     "factor": {
                         "type": "minecraft:linear",
-                        "base": 3,
-                        "per_level_above_first": 1.5
+                        "base": 1.5,
+                        "per_level_above_first": 0.5
                     }
                 }
             }
@@ -31,5 +31,5 @@
     ],
     "supported_items": "#minecraft:enchantable/sword",
     "primary_items": "#minecraft:enchantable/sword",
-    "weight": 5
+    "weight": 10
 }
