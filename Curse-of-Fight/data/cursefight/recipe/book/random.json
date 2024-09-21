@@ -6,9 +6,7 @@
         "aaa"
     ],
     "key": {
-        "a": {
-            "item": "minecraft:iron_ingot"
-        }
+        "a": "minecraft:iron_ingot"
     },
     "result": {
         "id": "minecraft:book",

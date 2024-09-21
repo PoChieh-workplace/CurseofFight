@@ -31,9 +31,7 @@
                 "item": "minecraft:stripped_spruce_log"
             }
         ],
-        "l": {
-            "item": "minecraft:stick"
-        }
+        "l": "minecraft:stick"
     },
     "result": {
         "id": "minecraft:paper",

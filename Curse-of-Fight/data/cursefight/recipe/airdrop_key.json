@@ -6,21 +6,11 @@
         " c "
     ],
     "key": {
-        "a": {
-            "item": "minecraft:rose_bush"
-        },
-        "b": {
-            "item": "minecraft:armor_stand"
-        },
-        "c": {
-            "item": "minecraft:brick"
-        },
-        "d": {
-            "item": "minecraft:glowstone"
-        },
-        "e": {
-            "item": "minecraft:oak_fence_gate"
-        }
+        "a": "minecraft:rose_bush",
+        "b": "minecraft:armor_stand",
+        "c": "minecraft:brick",
+        "d": "minecraft:glowstone",
+        "e": "minecraft:oak_fence_gate"
     },
     "result": {
         "id": "minecraft:echo_shard",

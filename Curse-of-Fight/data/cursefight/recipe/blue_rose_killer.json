@@ -6,24 +6,12 @@
         "fef"
     ],
     "key": {
-        "a": {
-            "item": "diamond"
-        },
-        "b": {
-            "item": "minecraft:lapis_lazuli"
-        },
-        "c": {
-            "item": "minecraft:rose_bush"
-        },
-        "d": {
-            "item": "minecraft:iron_sword"
-        },
-        "e": {
-            "item": "minecraft:blue_dye"
-        },
-        "f": {
-            "item": "minecraft:gold_ingot"
-        }
+        "a": "diamond",
+        "b": "minecraft:lapis_lazuli",
+        "c": "minecraft:rose_bush",
+        "d": "minecraft:iron_sword",
+        "e": "minecraft:blue_dye",
+        "f": "minecraft:gold_ingot"
     },
     "result": {
         "id": "minecraft:iron_sword",

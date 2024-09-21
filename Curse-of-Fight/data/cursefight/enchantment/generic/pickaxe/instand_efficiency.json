@@ -10,7 +10,7 @@
           "type": "minecraft:levels_squared",
           "added": 100.0
         },
-        "attribute": "minecraft:player.mining_efficiency",
+        "attribute": "minecraft:mining_efficiency",
         "id": "cursefight:enchantment.efficiency",
         "operation": "add_value"
       }

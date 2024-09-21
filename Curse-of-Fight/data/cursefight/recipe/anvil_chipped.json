@@ -6,12 +6,8 @@
         "aaa"
     ],
     "key": {
-        "a": {
-            "item": "minecraft:iron_ingot"
-        },
-        "b": {
-            "item": "minecraft:iron_block"
-        }
+        "a": "minecraft:iron_ingot",
+        "b": "minecraft:iron_block"
     },
     "result": {
         "id": "minecraft:chipped_anvil"

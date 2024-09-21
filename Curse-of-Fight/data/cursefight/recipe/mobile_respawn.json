@@ -6,33 +6,15 @@
         "ghi"
     ],
     "key": {
-        "a": {
-            "item": "minecraft:coal_block"
-        },
-        "b": {
-            "item": "minecraft:iron_block"
-        },
-        "c": {
-            "item": "minecraft:gold_block"
-        },
-        "d": {
-            "item": "minecraft:iron_sword"
-        },
-        "e": {
-            "item": "minecraft:golden_apple"
-        },
-        "f": {
-            "item": "minecraft:iron_pickaxe"
-        },
-        "g": {
-            "item": "minecraft:lapis_block"
-        },
-        "h": {
-            "item": "minecraft:redstone_block"
-        },
-        "i": {
-            "item": "minecraft:copper_block"
-        }
+        "a": "minecraft:coal_block",
+        "b": "minecraft:iron_block",
+        "c": "minecraft:gold_block",
+        "d": "minecraft:iron_sword",
+        "e": "minecraft:golden_apple",
+        "f": "minecraft:iron_pickaxe",
+        "g": "minecraft:lapis_block",
+        "h": "minecraft:redstone_block",
+        "i": "minecraft:copper_block"
     },
     "result": {
         "id": "minecraft:nether_star",

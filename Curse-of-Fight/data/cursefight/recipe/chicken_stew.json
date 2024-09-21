@@ -5,18 +5,10 @@
         " u "
     ],
     "key": {
-        "a": {
-            "item": "minecraft:brown_mushroom"
-        },
-        "b": {
-            "item": "minecraft:red_mushroom"
-        },
-        "c": {
-            "item": "minecraft:cooked_chicken"
-        },
-        "u": {
-            "item": "minecraft:bowl"
-        }
+        "a": "minecraft:brown_mushroom",
+        "b": "minecraft:red_mushroom",
+        "c": "minecraft:cooked_chicken",
+        "u": "minecraft:bowl"
     },
     "result": {
         "id": "minecraft:rabbit_stew",

@@ -6,12 +6,8 @@
         "aaa"
     ],
     "key": {
-        "a": {
-            "item": "minecraft:iron_ingot"
-        },
-        "b": {
-            "item": "minecraft:stone_pickaxe"
-        }
+        "a": "minecraft:iron_ingot",
+        "b": "minecraft:stone_pickaxe"
     },
     "result": {
         "id": "minecraft:book",

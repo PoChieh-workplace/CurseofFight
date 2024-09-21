@@ -32,7 +32,7 @@
         "minecraft:attributes": [
             {
                 "id": "cursefight.elytra.landing",
-                "attribute": "minecraft:generic.scale",
+                "attribute": "minecraft:scale",
                 "amount": -0.2,
                 "operation": "add_multiplied_base"
             }

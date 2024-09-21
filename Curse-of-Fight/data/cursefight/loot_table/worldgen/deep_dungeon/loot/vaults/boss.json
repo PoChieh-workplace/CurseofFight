@@ -254,13 +254,13 @@
                                     "modifiers": [
                                         {
                                             "id": "cursefight.armor.dark_protection.armor",
-                                            "type": "minecraft:generic.armor",
+                                            "type": "minecraft:armor",
                                             "amount": 7,
                                             "operation": "add_value"
                                         },
                                         {
                                             "id": "cursefight.armor.dark_protection.armor_effect",
-                                            "type": "minecraft:generic.armor_toughness",
+                                            "type": "minecraft:armor_toughness",
                                             "amount": 2,
                                             "operation": "add_value"
                                         }
@@ -298,13 +298,13 @@
                                     "modifiers": [
                                         {
                                             "id": "cursefight.armor.dark_protection.armor",
-                                            "type": "minecraft:generic.armor",
+                                            "type": "minecraft:armor",
                                             "amount": 6,
                                             "operation": "add_value"
                                         },
                                         {
                                             "id": "cursefight.armor.dark_protection.armor_effect",
-                                            "type": "minecraft:generic.armor_toughness",
+                                            "type": "minecraft:armor_toughness",
                                             "amount": 2,
                                             "operation": "add_value"
                                         }

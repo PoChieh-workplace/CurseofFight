@@ -7,19 +7,19 @@
 		"minecraft:attributes": [
 			{
 				"id": "cursefight.mob_armor.scale",
-				"attribute": "minecraft:generic.step_height",
+				"attribute": "minecraft:step_height",
 				"amount": 2,
 				"operation": "add_value"
 			},
 			{
 				"id": "cursefight.mob_armor.movement",
-				"attribute": "minecraft:generic.movement_speed",
+				"attribute": "minecraft:movement_speed",
 				"amount": 0.15,
 				"operation": "add_value"
 			},
 			{
 				"id": "cursefight.mob_armor.water_movement",
-				"attribute": "minecraft:generic.water_movement_efficiency",
+				"attribute": "minecraft:water_movement_efficiency",
 				"amount": 1,
 				"operation": "add_value"
 			}

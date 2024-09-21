@@ -4,12 +4,8 @@
         "aba"
     ],
     "key": {
-        "a": {
-            "item": "minecraft:glow_berries"
-        },
-        "b": {
-            "item": "minecraft:netherite_scrap"
-        }
+        "a": "minecraft:glow_berries",
+        "b": "minecraft:netherite_scrap"
     },
     "result": {
         "id": "minecraft:slime_ball",

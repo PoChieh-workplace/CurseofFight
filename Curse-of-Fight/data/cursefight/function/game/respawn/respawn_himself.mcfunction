@@ -1,4 +1,4 @@
-execute at @s positioned over motion_blocking run summon minecraft:allay ~ ~30 ~ {Tags:[respawn_allay],attributes:[{id:"minecraft:generic.scale",base:5b,NoAI:1b}]}
+execute at @s positioned over motion_blocking run summon minecraft:allay ~ ~30 ~ {Tags:[respawn_allay],attributes:[{id:"minecraft:scale",base:5b,NoAI:1b}]}
 
 title @s times 0t 3s 1s
 title @s subtitle {"text":"傳送到隊友附近","color":"green"}

@@ -1,4 +1,4 @@
-execute if score @s village_friendly matches ..0 at @s run summon iron_golem ~ ~ ~ {Tags:["village_guard"],CustomName:'[{"text":"村莊守衛","color":"gold","bold":true}]',Health:300,attributes:[{id:"generic.attack_damage",base:10f},{id:"generic.water_movement_efficiency",base:1f},{id:"generic.scale",base:0.25f},{id:"generic.max_health",base:300f}]}
+execute if score @s village_friendly matches ..0 at @s run summon iron_golem ~ ~ ~ {Tags:["village_guard"],CustomName:'[{"text":"村莊守衛","color":"gold","bold":true}]',Health:300,attributes:[{id:"attack_damage",base:10f},{id:"water_movement_efficiency",base:1f},{id:"scale",base:0.25f},{id:"max_health",base:300f}]}
 execute if score @s village_friendly matches ..0 at @s run spreadplayers ~ ~ 10 10 false @n[type=minecraft:iron_golem,tag=village_guard]
 execute if score @s village_friendly matches ..0 at @s as @e[type=minecraft:iron_golem,distance=..50,limit=3] run data modify entity @s AngryAt set from entity @p UUID
 execute if score @s village_friendly matches ..0 at @s as @e[type=minecraft:iron_golem,distance=..50,limit=3] run data modify entity @s AngerTime set value 1000

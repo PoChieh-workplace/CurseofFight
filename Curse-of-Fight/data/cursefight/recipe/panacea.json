@@ -5,12 +5,8 @@
         " @ "
     ],
     "key": {
-        "b": {
-            "item": "minecraft:golden_carrot"
-        },
-        "@": {
-            "item": "minecraft:bowl"
-        }
+        "b": "minecraft:golden_carrot",
+        "@": "minecraft:bowl"
     },
     "result": {
         "id": "minecraft:beetroot_soup",

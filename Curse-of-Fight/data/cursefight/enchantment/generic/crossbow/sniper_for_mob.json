@@ -183,7 +183,7 @@
 		"minecraft:attributes": [
             {
                 "id": "cursefight.sniper.movement",
-                "attribute": "generic.movement_speed",
+                "attribute": "movement_speed",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": -0.03,

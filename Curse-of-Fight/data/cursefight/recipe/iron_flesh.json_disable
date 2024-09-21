@@ -6,12 +6,8 @@
         "iii"
     ],
     "key": {
-        "i": {
-            "item": "minecraft:iron_nugget"
-        },
-        "f": {
-            "item": "minecraft:rotten_flesh"
-        }
+        "i": "minecraft:iron_nugget",
+        "f": "minecraft:rotten_flesh"
     },
     "result": {
         "id": "minecraft:rotten_flesh",

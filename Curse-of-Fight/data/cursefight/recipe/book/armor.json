@@ -6,12 +6,8 @@
         "aaa"
     ],
     "key": {
-        "a": {
-            "item": "minecraft:iron_ingot"
-        },
-        "b": {
-            "tag": "minecraft:stone_crafting_materials"
-        }
+        "a": "minecraft:iron_ingot",
+        "b": "#minecraft:stone_crafting_materials"
     },
     "result": {
         "id": "minecraft:book",

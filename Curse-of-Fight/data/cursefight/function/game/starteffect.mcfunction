@@ -2,7 +2,7 @@ execute as @a[gamemode=!spectator] at @s run tp @s ~ ~ ~ facing entity @e[tag=st
 gamemode adventure @a[gamemode=creative]
 playsound minecraft:block.end_portal.spawn player @a ~ ~ ~ 1
 execute at @e[tag=starteffect1] run playsound minecraft:entity.ender_dragon.ambient player @a ~ ~ ~ 10
-execute as @a[gamemode=!spectator] run attribute @s minecraft:generic.gravity base set 0.0
+execute as @a[gamemode=!spectator] run attribute @s minecraft:gravity base set 0.0
 schedule function cursefight:game/transportloop 3s
 schedule function cursefight:game/stopfalling 5t
 effect give @a[gamemode=!spectator] minecraft:darkness 5

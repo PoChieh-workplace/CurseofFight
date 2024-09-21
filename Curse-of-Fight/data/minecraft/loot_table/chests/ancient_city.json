@@ -668,14 +668,14 @@
                                                         "modifiers": [
                                                             {
                                                                 "id": "cof.trident.attack",
-                                                                "type": "minecraft:generic.attack_damage",
+                                                                "type": "minecraft:attack_damage",
                                                                 "amount": 7,
                                                                 "operation": "add_value",
                                                                 "slot": "mainhand"
                                                             },
                                                             {
                                                                 "id": "cof.trident.movement",
-                                                                "type": "minecraft:generic.movement_speed",
+                                                                "type": "minecraft:movement_speed",
                                                                 "amount": -0.03,
                                                                 "operation": "add_value",
                                                                 "slot": "mainhand"

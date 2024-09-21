@@ -62,7 +62,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                         id:"minecraft:husk",
                         Health:3,
                         IsBaby:1b,
-                        attributes:[{id:"generic.movement_speed",base:0.35f},{id:"generic.attack_damage",base:0.5f},{id:"generic.max_health",base:3f}]
+                        attributes:[{id:"movement_speed",base:0.35f},{id:"attack_damage",base:0.5f},{id:"max_health",base:3f}]
                     }
                 },
                 weight:1
@@ -95,12 +95,12 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                         Health:10,
                         IsBaby:1b,
                         attributes:[
-                            {id:"generic.step_height",base:4.6f},
-                            {id:"generic.follow_range",base:50f},
-                            {id:"generic.scale",base:0.5f},
-                            {id:"generic.movement_speed",base:0.35f},
-                            {id:"generic.attack_damage",base:0.5f},
-                            {id:"generic.max_health",base:10f}
+                            {id:"step_height",base:4.6f},
+                            {id:"follow_range",base:50f},
+                            {id:"scale",base:0.5f},
+                            {id:"movement_speed",base:0.35f},
+                            {id:"attack_damage",base:0.5f},
+                            {id:"max_health",base:10f}
                         ],
                         active_effects:[{id:fire_resistance,duration:999999,show_particles:0b}]
                     }
@@ -139,7 +139,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                     entity:{
                         id:"minecraft:illusioner",
                         Health:20,
-                        attributes:[{id:"generic.movement_speed",base:0.06f},{id:"generic.max_health",base:20f}]
+                        attributes:[{id:"movement_speed",base:0.06f},{id:"max_health",base:20f}]
                     }
                 },
                 weight:1
@@ -200,7 +200,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                 data:{
                     entity:{
                         id:"minecraft:vex",
-                        attributes:[{id:"generic.scale",base:0.5f},{id:"generic.follow_range",base:50f},{id:"generic.flying_speed",base:2f}]
+                        attributes:[{id:"scale",base:0.5f},{id:"follow_range",base:50f},{id:"flying_speed",base:2f}]
                     }
                 },
                 weight:1
@@ -232,7 +232,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                         id:"minecraft:evoker",
                         Health:30,
                         DeathLootTable:"minecraft:empty",
-                        attributes:[{id:"generic.max_health",base:30f}]
+                        attributes:[{id:"max_health",base:30f}]
                     }
                 },
                 weight:1
@@ -353,7 +353,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                     entity:{
                         id:"minecraft:vindicator",
                         DeathLootTable:"minecraft:empty",
-                        attributes:[{id:"generic.scale",base:0.5f}],
+                        attributes:[{id:"scale",base:0.5f}],
                         HandItems:[{id:netherite_axe,count:1}],
                         HandDropChances:[0f]
                     }
@@ -390,7 +390,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                         id:"minecraft:rabbit",
                         RabbitType:99,
                         Health:9,
-                        attributes:[{id:"generic.movement_speed",base:0.2f},{id:"generic.max_health",base:9f}]
+                        attributes:[{id:"movement_speed",base:0.2f},{id:"max_health",base:9f}]
                     }
                 },
                 weight:1
@@ -418,7 +418,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                         id:"minecraft:rabbit",
                         RabbitType:99,
                         Health:12,
-                        attributes:[{id:"generic.movement_speed",base:0.4f},{id:"generic.max_health",base:12f}]
+                        attributes:[{id:"movement_speed",base:0.4f},{id:"max_health",base:12f}]
                     }
                 },
                 weight:1
@@ -456,7 +456,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                         id:"minecraft:zombie",
                         Health:10,
                         IsBaby:1b,
-                        attributes:[{id:"generic.max_health",base:10f}]
+                        attributes:[{id:"max_health",base:10f}]
                     }
                 },
                 weight:1
@@ -488,7 +488,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                         id:"minecraft:zombie",
                         Health:10,
                         IsBaby:1b,
-                        attributes:[{id:"generic.jump_strength",base:0.84f},{id:"generic.scale",base:0.5f},{id:"generic.max_health",base:10f}]
+                        attributes:[{id:"jump_strength",base:0.84f},{id:"scale",base:0.5f},{id:"max_health",base:10f}]
                     }
                 },
                 weight:1
@@ -803,7 +803,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                     entity:{
                         id:"minecraft:creeper",
                         Health:10,
-                        attributes:[{id:"generic.scale",base:0.5f},{id:"generic.max_health",base:10f}]
+                        attributes:[{id:"scale",base:0.5f},{id:"max_health",base:10f}]
                     }
                 },
                 weight:1

@@ -6,12 +6,8 @@
         " l "
     ],
     "key": {
-        "@": {
-            "item": "minecraft:emerald"
-        },
-        "l": {
-            "item": "minecraft:paper"
-        }
+        "@": "minecraft:emerald",
+        "l": "minecraft:paper"
     },
     "result": {
         "id": "minecraft:bookshelf",

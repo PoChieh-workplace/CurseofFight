@@ -29,43 +29,43 @@
         "minecraft:attributes": [
             {
                 "id": "cof.wolf_armor_movement",
-                "attribute": "minecraft:generic.movement_speed",
+                "attribute": "minecraft:movement_speed",
                 "amount": 0.15,
                 "operation": "add_value"
             },
             {
                 "id": "cof.wolf_armor_armor",
-                "attribute": "minecraft:generic.armor",
+                "attribute": "minecraft:armor",
                 "amount": 11,
                 "operation": "add_value"
             },
             {
                 "id": "cof.wolf_armor_step",
-                "attribute": "minecraft:generic.step_height",
+                "attribute": "minecraft:step_height",
                 "amount": 1,
                 "operation": "add_value"
             },
             {
                 "id": "cof.wolf_armor_jump",
-                "attribute": "minecraft:generic.jump_strength",
+                "attribute": "minecraft:jump_strength",
                 "amount": 0.3,
                 "operation": "add_multiplied_base"
             },
             {
                 "id": "cof.wolf_armor_attack_knockback",
-                "attribute": "minecraft:generic.attack_knockback",
+                "attribute": "minecraft:attack_knockback",
                 "amount": 2,
                 "operation": "add_value"
             },
             {
                 "id": "cof.wolf_water_movement_efficiency",
-                "attribute": "minecraft:generic.water_movement_efficiency",
+                "attribute": "minecraft:water_movement_efficiency",
                 "amount": 1,
                 "operation": "add_value"
             },
             {
                 "id": "cof.wolf_attack_damage",
-                "attribute": "minecraft:generic.attack_damage",
+                "attribute": "minecraft:attack_damage",
                 "amount": -2,
                 "operation": "add_value"
             }

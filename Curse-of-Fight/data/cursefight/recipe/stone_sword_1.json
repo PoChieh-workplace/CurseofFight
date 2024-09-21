@@ -6,15 +6,9 @@
         "bcb"
     ],
     "key": {
-        "a": {
-            "item": "minecraft:diamond"
-        },
-        "b": {
-            "item": "minecraft:obsidian"
-        },
-        "c": {
-            "item": "minecraft:iron_ingot"
-        }
+        "a": "minecraft:diamond",
+        "b": "minecraft:obsidian",
+        "c": "minecraft:iron_ingot"
     },
     "result": {
         "id": "minecraft:stone_sword",
@@ -39,28 +33,28 @@
                 "modifiers": [
                     {
                         "id": "cof.stone_sword_1.attack_damage",
-                        "type": "minecraft:generic.attack_damage",
+                        "type": "minecraft:attack_damage",
                         "amount": 5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "cof.stone_sword_1.attack_speed",
-                        "type": "minecraft:generic.attack_speed",
+                        "type": "minecraft:attack_speed",
                         "amount": -0.9,
                         "operation": "add_multiplied_base",
                         "slot": "mainhand"
                     },
                     {
                         "id": "cof.stone_sword_1.movement",
-                        "type": "minecraft:generic.movement_speed",
+                        "type": "minecraft:movement_speed",
                         "amount": -0.3,
                         "operation": "add_multiplied_base",
                         "slot": "mainhand"
                     },
                     {
                         "id": "cof.stone_sword_1.knock_resis",
-                        "type": "minecraft:generic.knockback_resistance",
+                        "type": "minecraft:knockback_resistance",
                         "amount": 10,
                         "operation": "add_value",
                         "slot": "mainhand"

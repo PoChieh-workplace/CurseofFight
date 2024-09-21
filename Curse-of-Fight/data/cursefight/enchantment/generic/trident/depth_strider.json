@@ -11,7 +11,7 @@
           "base": 1,
           "per_level_above_first": 0
         },
-        "attribute": "minecraft:generic.water_movement_efficiency",
+        "attribute": "minecraft:water_movement_efficiency",
         "id": "minecraft:enchantment.depth_strider",
         "operation": "add_value"
       }

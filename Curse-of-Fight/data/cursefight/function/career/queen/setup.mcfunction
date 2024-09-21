@@ -4,4 +4,4 @@
 # path    : /career/miner
 # func    : miner setup
 
-attribute @s minecraft:generic.movement_speed base set 0.085
+attribute @s minecraft:movement_speed base set 0.085

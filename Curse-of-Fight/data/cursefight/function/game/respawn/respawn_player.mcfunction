@@ -1,7 +1,7 @@
 execute at @s run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air replace #cursefight:respawn_block
 execute at @s run kill @n[type=marker,tag=respawn_beacon,distance=..5]
 scoreboard players set @s respawning 0
-execute at @s run summon minecraft:allay ~ ~30 ~ {Tags:[respawn_allay],attributes:[{id:"minecraft:generic.scale",base:5b,NoAI:1b}]}
+execute at @s run summon minecraft:allay ~ ~30 ~ {Tags:[respawn_allay],attributes:[{id:"minecraft:scale",base:5b,NoAI:1b}]}
 
 execute if entity @s[team=white] as @r[team=white,gamemode=spectator,scores={death=1..}] run tag @s add respawning
 execute if entity @s[team=red] as @r[team=red,gamemode=spectator,scores={death=1..}] run tag @s add respawning

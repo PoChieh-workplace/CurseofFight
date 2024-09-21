@@ -6,12 +6,8 @@
         "rrr"
     ],
     "key": {
-        "r": {
-            "item": "minecraft:netherrack"
-        },
-        "d": {
-            "item": "minecraft:diamond"
-        }
+        "r": "minecraft:netherrack",
+        "d": "minecraft:diamond"
     },
     "result": {
         "id": "minecraft:netherite_upgrade_smithing_template"

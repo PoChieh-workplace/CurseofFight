@@ -6,12 +6,8 @@
         " l "
     ],
     "key": {
-        "@": {
-            "item": "minecraft:copper_ingot"
-        },
-        "l": {
-            "item": "minecraft:stick"
-        }
+        "@": "minecraft:copper_ingot",
+        "l": "minecraft:stick"
     },
     "result": {
         "id": "minecraft:golden_pickaxe",

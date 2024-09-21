@@ -4,9 +4,7 @@
         "a"
     ],
     "key": {
-        "a": {
-            "item": "minecraft:barrier"
-        }
+        "a": "minecraft:barrier"
     },
     "result": {
         "id": "minecraft:dirt"

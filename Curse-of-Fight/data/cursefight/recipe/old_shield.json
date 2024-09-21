@@ -34,7 +34,7 @@
                 "modifiers": [
                     {
                         "id": "cursefight.shield.knock_back",
-                        "type": "minecraft:generic.knockback_resistance",
+                        "type": "minecraft:knockback_resistance",
                         "amount": 0.1,
                         "operation": "add_value"
                     }
