@@ -1,5 +1,5 @@
 {
-  "carvers":[
+  "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
@@ -81,7 +81,6 @@
       "arboria:patch_sugar_cane",
       "arboria:patch_pumpkin_rare",
       "arboria:lukewarm_ocean/seagrass",
-      "minecraft:seagrass_simple",
       "arboria:deep_ocean/kelp/layer_1",
       "arboria:deep_ocean/kelp/layer_2",
       "arboria:deep_ocean/kelp/layer_3",

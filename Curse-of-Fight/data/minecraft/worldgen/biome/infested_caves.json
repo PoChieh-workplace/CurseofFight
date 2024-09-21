@@ -1,5 +1,5 @@
 {
-  "carvers":[
+  "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
@@ -81,7 +81,6 @@
       "minecraft:hanging_web",
       "minecraft:pot_infested_cave",
       "arboria:ocean/seagrass",
-      "minecraft:seagrass_simple",
       "arboria:ocean/kelp/layer_1",
       "arboria:ocean/kelp/layer_2",
       "arboria:ocean/kelp/layer_3",
