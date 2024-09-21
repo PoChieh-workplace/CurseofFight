@@ -13,3 +13,113 @@ give @p written_book[written_book_content={pages:['["",{"text":"\\n\\n\\n      "
     attribute_modifiers={modifiers:[{slot:"any",type:"generic.attack_damage",id:"generic.attack_damage_2070858381",amount:5d,operation:'add_value'},{slot:"any",type:"generic.attack_speed",id:"generic.attack_speed_1677621136",amount:-0.90d,operation:'add_multiplied_base'},{slot:"any",type:"generic.movement_speed",id:"generic.movement_speed_417148388",amount:-0.3d,operation:'add_multiplied_base'},{slot:"any",type:"generic.knockback_resistance",id:"generic.knockback_resistance_557451557",amount:10d,operation:'add_value'}],show_in_tooltip:true},
     enchantments={levels:{'minecraft:vanishing_curse':1,'minecraft:density':5,'minecraft:breach':4},show_in_tooltip:true}
 ] 1
+
+
+setblock ~ ~ ~ minecraft:trial_spawner{
+    target_cooldown_length:36000,
+    required_player_range:50,
+    normal_config:{
+        spawn_range:20,
+        total_mobs:9,
+        total_mobs_added_per_player:3,
+        simultaneous_mobs:3,
+        simultaneous_mobs_added_per_player:10,
+        ticks_between_spawn:80,
+        spawn_potentials:[
+            {
+                data:{
+                    equipment:{
+                        slot_drop_chances:0,
+                        loot_table:"cursefight:worldgen/deep_dungeon/mob/normal"
+                    },
+                    entity:{
+                        id:"minecraft:ominous_item_spawner",
+                        spawn_item_after_ticks:120,
+                        item:{
+                            id:"splash_potion",
+                            components:{
+                                potion_contents:{potion:"minecraft:harming"}
+                            }
+                        }
+                    }
+                },
+                weight:1
+            },
+            {
+                data:{
+                    equipment:{
+                        slot_drop_chances:0,
+                        loot_table:"cursefight:worldgen/deep_dungeon/mob/normal"
+                    },
+                    entity:{
+                        id:"minecraft:ominous_item_spawner",
+                        spawn_item_after_ticks:120,
+                        item:{
+                            id:"splash_potion",
+                            components:{
+                                potion_contents:{potion:"minecraft:harming"}
+                            }
+                        }
+                    }
+                },
+                weight:1
+            }
+        ],
+        loot_tables_to_eject:[
+            {
+                data:"cursefight:worldgen/deep_dungeon/loot/spawners/boss",
+                weight:1
+            }
+        ]
+    },
+    ominous_config:{
+        items_to_drop_when_ominous:"cursefight:worldgen/deep_dungeon/loot/spawners/ominous_drop",
+        spawn_range:20,
+        total_mobs:50,
+        total_mobs_added_per_player:30,
+        simultaneous_mobs:50,
+        simultaneous_mobs_added_per_player:30,
+        ticks_between_spawn:2,
+        spawn_potentials:[
+            {
+                data:{
+                    equipment:{
+                        slot_drop_chances:0,
+                        loot_table:"cursefight:worldgen/deep_dungeon/mob/normal"
+                    },
+                    entity:{
+                        id:"minecraft:ominous_item_spawner",
+                        spawn_item_after_ticks:40,
+                        item:{
+                            id:"splash_potion",
+                            components: {
+                                "minecraft:potion_contents": {
+                                    potion: "minecraft:strong_harming",
+                                    custom_effects: [
+                                        {
+                                            id: "minecraft:slowness",
+                                            amplifier: 4,
+                                            duration: 1200
+                                        },
+                                        {
+                                            id: "minecraft:blindness",
+                                            amplifier: 0,
+                                            duration: 400
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                weight:1
+            }
+        ],
+        loot_tables_to_eject:[
+            {
+                data:"cursefight:worldgen/deep_dungeon/loot/spawners/boss_ominous",
+                weight:1
+            }
+        ]
+    }
+} replace
