@@ -1,0 +1,261 @@
+"effects": [
+{
+"effect": {
+"id": "minecraft:absorption",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:bad_omen",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:blindness",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:conduit_power",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:darkness",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:dolphins_grace",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:fire_resistance",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:glowing",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:haste",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:health_boost",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:hero_of_the_village",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:hunger",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:infested",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:invisibility",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:jump_boost",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:levitation",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:luck",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:mining_fatigue",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:nausea",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:night_vision",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:oozing",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:poison",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:raid_omen",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:regeneration",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:resistance",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:saturation",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:slow_falling",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:slowness",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:speed",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:strength",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:trial_omen",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:unluck",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:water_breathing",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:weakness",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:weaving",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:wind_charged",
+"amplifier": 2,
+"duration": 1000
+}
+},
+{
+"effect": {
+"id": "minecraft:wither",
+"amplifier": 2,
+"duration": 1000
+}
+}
+]

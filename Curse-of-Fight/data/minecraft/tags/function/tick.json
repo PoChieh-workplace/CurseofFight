@@ -3,7 +3,6 @@
     "values": [
         "cursefight:time/tick",
         "cursefight:mob/tick",
-        "vanilla_refresh:tick",
         "ships:main"
     ]
 }

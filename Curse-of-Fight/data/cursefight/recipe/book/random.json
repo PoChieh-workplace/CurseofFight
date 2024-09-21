@@ -17,11 +17,16 @@
             },
             "custom_name":"[\"\",{\"text\":\"隨機附魔書\",\"italic\":false,\"color\":\"gold\"}]",
             "lore":["[\"\",{\"text\":\"使用後可以獲得 15 等級的隨機附魔，按下 \",\"italic\":false,\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後使用\",\"color\":\"gray\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
-            "minecraft:food": {
-                "nutrition": 0,
-                "saturation": 0,
-                "eat_seconds": 0.1,
-                "can_always_eat": true
+            "minecraft:consumable": {
+                "consume_seconds": 3,
+                "animation": "bow",
+                "sound": "minecraft:item.book.page_turn",
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:play_sound",
+                        "sound": "minecraft:block.enchantment_table.use"
+                    }
+                ]
             }
         }
     }

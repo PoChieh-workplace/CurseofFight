@@ -20,23 +20,28 @@
 						"minecraft:food": {
 							"nutrition": 20,
 							"saturation": 10,
-							"eat_seconds": 1,
-							"can_always_eat": true,
-							"using_converts_to": {
-								"id": "minecraft:gray_dye",
-								"components": {
-									"minecraft:custom_name": "渣渣"
-								}
-							},
-							"effects": [
+							"can_always_eat": true
+						},
+						"minecraft:consumable": {
+							"consume_seconds": 1,
+							"on_consume_effects": [
 								{
-									"effect": {
-										"id": "minecraft:regeneration",
-										"amplifier": 0,
-										"duration": 300
-									}
+									"type": "minecraft:apply_effects",
+									"effects": [
+										{
+											"id": "minecraft:regeneration",
+											"amplifier": 0,
+											"duration": 300
+										}
+									]
 								}
 							]
+						},
+						"minecraft:use_remainder": {
+							"id": "minecraft:gray_dye",
+							"components": {
+								"minecraft:custom_name": "渣渣"
+							}
 						}
 					}
 				},

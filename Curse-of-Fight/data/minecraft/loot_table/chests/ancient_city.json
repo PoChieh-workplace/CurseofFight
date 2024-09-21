@@ -720,23 +720,31 @@
                                                     "minecraft:food": {
                                                         "nutrition": 5,
                                                         "saturation": 5,
-                                                        "can_always_eat": true,
-                                                        "eat_seconds": 0.1,
-                                                        "using_converts_to": {
-                                                            "id": "minecraft:glass_bottle"
-                                                        },
-                                                        "effects": [
+                                                        "can_always_eat": true
+                                                    },
+                                                    "minecraft:consumable": {
+                                                        "consume_seconds": 5,
+                                                        "animation": "drink",
+                                                        "sound": "minecraft:item.honey_bottle.drink",
+                                                        "on_consume_effects": [
                                                             {
-                                                                "effect": {
-                                                                    "id": "minecraft:absorption",
-                                                                    "amplifier": 5,
-                                                                    "duration": 4000,
-                                                                    "ambient": true,
-                                                                    "show_particles": true,
-                                                                    "show_icon": true
-                                                                }
+                                                                "type": "minecraft:play_sound",
+                                                                "sound": "minecraft:entity.ender_dragon.growl"
+                                                            },
+                                                            {
+                                                                "type": "minecraft:apply_effects",
+                                                                "effects": [
+                                                                    {
+                                                                        "id": "minecraft:absorption",
+                                                                        "amplifier": 4,
+                                                                        "duration": 4000
+                                                                    }
+                                                                ]
                                                             }
                                                         ]
+                                                    },
+                                                    "minecraft:use_remainder": {
+                                                        "id": "minecraft:glass_bottle"
                                                     }
                                                 }
                                             }

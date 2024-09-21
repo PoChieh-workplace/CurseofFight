@@ -2,7 +2,6 @@
     "replace": false,
     "values": [
         "cursefight:install",
-        "vanilla_refresh:load",
         "theft:load",
         "ships:load"
     ]

@@ -16,10 +16,10 @@
             "minecraft:food": {
                 "nutrition": 10,
                 "saturation": 20,
-                "can_always_eat": false,
-                "using_converts_to": {
-                    "id": "minecraft:bone"
-                }
+                "can_always_eat": false
+            },
+            "minecraft:use_remainder": {
+                "id": "minecraft:bone"
             },
             "custom_name":"[\"\",{\"text\":\"香菇雞湯\",\"italic\":false,\"color\":\"aqua\"}]",
             "lore":["[\"\",{\"text\":\"垂均的最愛\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
