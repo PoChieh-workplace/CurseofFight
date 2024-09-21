@@ -40,7 +40,9 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {},
+                                "minecraft:custom_data": {
+                                    "advence_mobile_respawn": 1
+                                },
                                 "minecraft:custom_model_data": 724002,
                                 "custom_name": "[\"\",{\"text\":\"移動式重生信標\",\"italic\":false,\"color\":\"gold\"}]",
                                 "lore": [
@@ -50,11 +52,11 @@
                                 "minecraft:enchantments": {
                                     "minecraft:loyalty": 5
                                 },
-                                "minecraft:food": {
-                                    "nutrition": 0,
-                                    "saturation": 0,
-                                    "can_always_eat": true,
-                                    "eat_seconds": 0.1
+                                "minecraft:consumable": {
+                                    "consume_seconds": 5,
+                                    "animation": "bow",
+                                    "sound": "minecraft:entity.wither.ambient",
+                                    "has_consume_particles": false
                                 },
                                 "minecraft:max_stack_size": 1
                             }

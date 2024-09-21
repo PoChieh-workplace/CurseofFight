@@ -382,11 +382,11 @@
                                 "minecraft:enchantments": {
                                     "minecraft:loyalty": 5
                                 },
-                                "minecraft:food": {
-                                    "nutrition": 0,
-                                    "saturation": 0,
-                                    "can_always_eat": true,
-                                    "eat_seconds": 0.1
+                                "minecraft:consumable": {
+                                    "consume_seconds": 5,
+                                    "animation": "bow",
+                                    "sound": "minecraft:entity.wither.ambient",
+                                    "has_consume_particles": false
                                 },
                                 "minecraft:max_stack_size": 1
                             }
@@ -430,50 +430,47 @@
                                 "minecraft:food": {
                                     "nutrition": 20,
                                     "saturation": 20,
-                                    "can_always_eat": true,
-                                    "eat_seconds": 0.1,
-                                    "effects": [
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 1,
+                                    "animation": "eat",
+                                    "has_consume_particles": true,
+                                    "on_consume_effects": [
                                         {
-                                            "effect": {
-                                                "id": "minecraft:night_vision",
-                                                "amplifier": 0,
-                                                "duration": 1200
-                                            }
-                                        },
-                                        {
-                                            "effect": {
-                                                "id": "minecraft:resistance",
-                                                "amplifier": 1,
-                                                "duration": 100
-                                            }
-                                        },
-                                        {
-                                            "effect": {
-                                                "id": "minecraft:jump_boost",
-                                                "amplifier": 1,
-                                                "duration": 1200
-                                            }
-                                        },
-                                        {
-                                            "effect": {
-                                                "id": "minecraft:absorption",
-                                                "amplifier": 2,
-                                                "duration": 1200
-                                            }
-                                        },
-                                        {
-                                            "effect": {
-                                                "id": "minecraft:haste",
-                                                "amplifier": 3,
-                                                "duration": 1200
-                                            }
-                                        },
-                                        {
-                                            "effect": {
-                                                "id": "minecraft:speed",
-                                                "amplifier": 1,
-                                                "duration": 1200
-                                            }
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:night_vision",
+                                                    "amplifier": 0,
+                                                    "duration": 1200
+                                                },
+                                                {
+                                                    "id": "minecraft:resistance",
+                                                    "amplifier": 1,
+                                                    "duration": 100
+                                                },
+                                                {
+                                                    "id": "minecraft:jump_boost",
+                                                    "amplifier": 1,
+                                                    "duration": 1200
+                                                },
+                                                {
+                                                    "id": "minecraft:absorption",
+                                                    "amplifier": 2,
+                                                    "duration": 1200
+                                                },
+                                                {
+                                                    "id": "minecraft:haste",
+                                                    "amplifier": 3,
+                                                    "duration": 1200
+                                                },
+                                                {
+                                                    "id": "minecraft:speed",
+                                                    "amplifier": 1,
+                                                    "duration": 1200
+                                                }
+                                            ]
                                         }
                                     ]
                                 },
@@ -642,11 +639,11 @@
                                 "minecraft:custom_data": {
                                     "evoker": 1
                                 },
-                                "minecraft:food": {
-                                    "nutrition": 0,
-                                    "saturation": 0,
-                                    "can_always_eat": true,
-                                    "eat_seconds": 0.1
+                                "minecraft:consumable": {
+                                    "consume_seconds": 5,
+                                    "animation": "block",
+                                    "sound": "minecraft:entity.evoker.cast_spell",
+                                    "has_consume_particles": true
                                 }
                             }
                         }

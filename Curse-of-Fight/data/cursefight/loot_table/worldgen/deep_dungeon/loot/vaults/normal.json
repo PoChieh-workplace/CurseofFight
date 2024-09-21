@@ -19,50 +19,47 @@
                                 "minecraft:food": {
                                     "nutrition": 20,
                                     "saturation": 20,
-                                    "can_always_eat": true,
-                                    "eat_seconds": 0.1,
-                                    "effects": [
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 1,
+                                    "animation": "eat",
+                                    "has_consume_particles": true,
+                                    "on_consume_effects": [
                                         {
-                                            "effect": {
-                                                "id": "minecraft:night_vision",
-                                                "amplifier": 0,
-                                                "duration": 1200
-                                            }
-                                        },
-                                        {
-                                            "effect": {
-                                                "id": "minecraft:resistance",
-                                                "amplifier": 1,
-                                                "duration": 100
-                                            }
-                                        },
-                                        {
-                                            "effect": {
-                                                "id": "minecraft:jump_boost",
-                                                "amplifier": 1,
-                                                "duration": 1200
-                                            }
-                                        },
-                                        {
-                                            "effect": {
-                                                "id": "minecraft:absorption",
-                                                "amplifier": 2,
-                                                "duration": 1200
-                                            }
-                                        },
-                                        {
-                                            "effect": {
-                                                "id": "minecraft:haste",
-                                                "amplifier": 3,
-                                                "duration": 1200
-                                            }
-                                        },
-                                        {
-                                            "effect": {
-                                                "id": "minecraft:speed",
-                                                "amplifier": 1,
-                                                "duration": 1200
-                                            }
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:night_vision",
+                                                    "amplifier": 0,
+                                                    "duration": 1200
+                                                },
+                                                {
+                                                    "id": "minecraft:resistance",
+                                                    "amplifier": 1,
+                                                    "duration": 100
+                                                },
+                                                {
+                                                    "id": "minecraft:jump_boost",
+                                                    "amplifier": 1,
+                                                    "duration": 1200
+                                                },
+                                                {
+                                                    "id": "minecraft:absorption",
+                                                    "amplifier": 2,
+                                                    "duration": 1200
+                                                },
+                                                {
+                                                    "id": "minecraft:haste",
+                                                    "amplifier": 3,
+                                                    "duration": 1200
+                                                },
+                                                {
+                                                    "id": "minecraft:speed",
+                                                    "amplifier": 1,
+                                                    "duration": 1200
+                                                }
+                                            ]
                                         }
                                     ]
                                 },
@@ -263,11 +260,33 @@
                                 "lore": [
                                     "[\"\",{\"text\":\"從安德身上提煉出的空間傳送，使用後將會傳送自己到地表\",\"italic\":false,\"color\":\"dark_purple\"}]"
                                 ],
-                                "minecraft:food": {
-                                    "nutrition": 1,
-                                    "saturation": 0,
-                                    "can_always_eat": true,
-                                    "eat_seconds": 0.1
+                                "minecraft:consumable": {
+                                    "consume_seconds": 10,
+                                    "animation": "spear",
+                                    "sound": "minecraft:block.portal.trigger",
+                                    "has_consume_particles": false,
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:slowness",
+                                                    "amplifier": 2,
+                                                    "duration": 200
+                                                },
+                                                {
+                                                    "id": "minecraft:darkness",
+                                                    "amplifier": 0,
+                                                    "duration": 100
+                                                },
+                                                {
+                                                    "id": "minecraft:nausea",
+                                                    "amplifier": 0,
+                                                    "duration": 100
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 },
                                 "minecraft:enchantments": {
                                     "minecraft:efficiency": 5
