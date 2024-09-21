@@ -1,15 +1,9 @@
 {
     "type": "minecraft:smithing_transform",
     "category": "misc",
-    "template": {
-        "item": "minecraft:blaze_powder"
-    },
-    "base": {
-        "item": "minecraft:emerald_block"
-    },
-    "addition": {
-        "item": "minecraft:netherite_scrap"
-    },
+    "template": "minecraft:blaze_powder",
+    "base": "minecraft:emerald_block",
+    "addition": "minecraft:netherite_scrap",
     "result": {
         "id": "minecraft:blaze_powder",
         "count": 3,

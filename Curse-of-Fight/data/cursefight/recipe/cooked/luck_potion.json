@@ -1,8 +1,6 @@
 {
     "type": "minecraft:smoking",
-    "ingredient": {
-        "item": "minecraft:honey_bottle"
-    },
+    "ingredient": "minecraft:honey_bottle",
     "result": {
         "id": "minecraft:potion",
         "components": {

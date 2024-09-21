@@ -1,15 +1,9 @@
 {
     "type": "minecraft:smithing_transform",
     "category": "misc",
-    "template": {
-        "item": "minecraft:magma_cream"
-    },
-    "base": {
-        "item": "minecraft:emerald_block"
-    },
-    "addition": {
-        "item": "minecraft:netherite_scrap"
-    },
+    "template": "minecraft:magma_cream",
+    "base": "minecraft:emerald_block",
+    "addition": "minecraft:netherite_scrap",
     "result": {
         "id": "minecraft:magma_cream",
         "count": 3,

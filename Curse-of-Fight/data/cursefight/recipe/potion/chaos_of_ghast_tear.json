@@ -1,15 +1,9 @@
 {
     "type": "minecraft:smithing_transform",
     "category": "misc",
-    "template": {
-        "item": "minecraft:ghast_tear"
-    },
-    "base": {
-        "item": "minecraft:emerald_block"
-    },
-    "addition": {
-        "item": "minecraft:netherite_scrap"
-    },
+    "template": "minecraft:ghast_tear",
+    "base": "minecraft:emerald_block",
+    "addition": "minecraft:netherite_scrap",
     "result": {
         "id": "minecraft:ghast_tear",
         "count": 3,

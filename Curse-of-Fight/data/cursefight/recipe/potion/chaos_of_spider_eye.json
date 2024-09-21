@@ -1,15 +1,9 @@
 {
     "type": "minecraft:smithing_transform",
     "category": "misc",
-    "template": {
-        "item": "minecraft:spider_eye"
-    },
-    "base": {
-        "item": "minecraft:emerald_block"
-    },
-    "addition": {
-        "item": "minecraft:netherite_scrap"
-    },
+    "template": "minecraft:spider_eye",
+    "base": "minecraft:emerald_block",
+    "addition": "minecraft:netherite_scrap",
     "result": {
         "id": "minecraft:spider_eye",
         "count": 3,

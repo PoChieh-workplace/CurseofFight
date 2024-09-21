@@ -1,8 +1,6 @@
 {
     "type": "minecraft:blasting",
-    "ingredient": {
-        "item": "minecraft:redstone_block"
-    },
+    "ingredient": "minecraft:redstone_block",
     "result": {
         "id": "minecraft:redstone",
         "components": {

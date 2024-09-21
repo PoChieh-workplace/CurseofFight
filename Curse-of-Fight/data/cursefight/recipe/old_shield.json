@@ -2,12 +2,8 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"key": {
-		"W": {
-			"tag": "minecraft:logs"
-		},
-		"O": {
-			"item": "minecraft:iron_block"
-		}
+		"W": "#minecraft:logs",
+		"O": "minecraft:iron_block"
 	},
 	"pattern": [
 		"WOW",

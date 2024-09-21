@@ -1,15 +1,9 @@
 {
     "type": "minecraft:smithing_transform",
     "category": "misc",
-    "template": {
-        "item": "minecraft:sugar"
-    },
-    "base": {
-        "item": "minecraft:emerald_block"
-    },
-    "addition": {
-        "item": "minecraft:netherite_scrap"
-    },
+    "template": "minecraft:sugar",
+    "base": "minecraft:emerald_block",
+    "addition": "minecraft:netherite_scrap",
     "result": {
         "id": "minecraft:sugar",
         "count": 3,
