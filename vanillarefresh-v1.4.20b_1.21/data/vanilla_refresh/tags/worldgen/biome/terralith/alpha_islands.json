@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-      
       {"id":"terralith:alpha_islands","required":false},
       {"id":"terralith:alpha_islands_winter","required":false}
     ]

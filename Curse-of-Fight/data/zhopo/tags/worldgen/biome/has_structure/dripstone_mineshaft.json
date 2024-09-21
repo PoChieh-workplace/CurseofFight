@@ -2,7 +2,6 @@
     "replace": false,
     "values": [
         "minecraft:dripstone_caves",
-        "#minecraft:is_underground",
-        {"id": "clifftree:caves", "required": false}
+        "#minecraft:is_underground"
     ]
 }

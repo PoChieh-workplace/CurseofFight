@@ -3,15 +3,6 @@
     "values": [
         "minecraft:jungle",
         "minecraft:bamboo_jungle",
-        "minecraft:sparse_jungle",
-        {"id": "terralith:cave/fungal_caves", "required": false},
-        {"id": "terralith:desert_oasis", "required": false},
-        {"id": "terralith:jungle_mountains", "required": false},
-        {"id": "terralith:rocky_jungle", "required": false},
-        {"id": "terralith:tropical_jungle", "required": false},
-        {"id": "regions_unexplored:rainforest", "required": false},
-        {"id": "regions_unexplored:sparse_rainforest", "required": false},
-        {"id": "regions_unexplored:tropics", "required": false},
-        {"id": "clifftree:caves", "required": false}
+        "minecraft:sparse_jungle"
     ]
 }
