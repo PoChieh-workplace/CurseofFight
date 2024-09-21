@@ -67,15 +67,20 @@
                                 "minecraft:food": {
                                     "nutrition": 2,
                                     "saturation": 2,
-                                    "can_always_eat": true,
-                                    "eat_seconds": 2,
-                                    "effects": [
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 2,
+                                    "on_consume_effects": [
                                         {
-                                            "effect": {
-                                                "id": "minecraft:regeneration",
-                                                "amplifier": 0,
-                                                "duration": 60
-                                            }
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:regeneration",
+                                                    "amplifier": 0,
+                                                    "duration": 60
+                                                }
+                                            ]
                                         }
                                     ]
                                 },
