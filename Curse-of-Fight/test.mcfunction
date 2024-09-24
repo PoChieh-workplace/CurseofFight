@@ -190,9 +190,9 @@ setblock ~ ~ ~ minecraft:trial_spawner{
     required_player_range:50,
     normal_config:{
         spawn_range:6,
-        total_mobs:4,
+        total_mobs:3,
         total_mobs_added_per_player:2,
-        simultaneous_mobs:3,
+        simultaneous_mobs:2,
         simultaneous_mobs_added_per_player:1,
         ticks_between_spawn:5,
         spawn_potentials:[
@@ -220,7 +220,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
         total_mobs_added_per_player:2,
         simultaneous_mobs:1,
         simultaneous_mobs_added_per_player:0.5,
-        ticks_between_spawn:20,
+        ticks_between_spawn:40,
         spawn_potentials:[
             {
                 data:{
@@ -343,7 +343,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
         items_to_drop_when_ominous:"cursefight:worldgen/deep_dungeon/loot/spawners/ominous_drop",
         spawn_range:8,
         total_mobs:2,
-        total_mobs_added_per_player:2,
+        total_mobs_added_per_player:1,
         simultaneous_mobs:1,
         simultaneous_mobs_added_per_player:1,
         ticks_between_spawn:0,
@@ -390,7 +390,8 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                         id:"minecraft:rabbit",
                         RabbitType:99,
                         Health:9,
-                        attributes:[{id:"movement_speed",base:0.2f},{id:"max_health",base:9f}]
+                        attributes:[{id:"movement_speed",base:0.4f},{id:"max_health",base:9f}],
+                        active_effects:[{id:fire_resistance,duration:999999,show_particles:0b}]
                     }
                 },
                 weight:1
@@ -408,7 +409,7 @@ setblock ~ ~ ~ minecraft:trial_spawner{
         spawn_range:8,
         total_mobs:2,
         total_mobs_added_per_player:2,
-        simultaneous_mobs:2,
+        simultaneous_mobs:1,
         simultaneous_mobs_added_per_player:1,
         ticks_between_spawn:0,
         spawn_potentials:[
@@ -418,7 +419,8 @@ setblock ~ ~ ~ minecraft:trial_spawner{
                         id:"minecraft:rabbit",
                         RabbitType:99,
                         Health:12,
-                        attributes:[{id:"movement_speed",base:0.4f},{id:"max_health",base:12f}]
+                        attributes:[{id:"movement_speed",base:0.7f},{id:"max_health",base:12f}],
+                        active_effects:[{id:fire_resistance,duration:999999,show_particles:0b}]
                     }
                 },
                 weight:1
