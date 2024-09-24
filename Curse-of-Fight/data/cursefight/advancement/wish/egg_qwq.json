@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "來自 uwu._.egg 的遺志",
+            "color": "gold"
+        },
+        "description": {
+            "text": "使用終界珍珠摔死",
+            "color": "dark_red"
+        },
+        "icon": {
+            "id": "minecraft:ender_pearl"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "killing_blow": {
+                    "tags": [
+                        {
+                            "id": "cursefight:is_ender_pearl",
+                            "expected": true
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "cursefight:wish"
+}
