@@ -1,0 +1,38 @@
+{
+    "anvil_cost": 6,
+    "description": {
+        "translate": "enchantment.cursefight.teleport"
+    },
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "cursefight:enchantment/bow/arrow_tp"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "#minecraft:impact_projectiles"
+                    }
+                }
+            }
+        ]
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 1,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "mainhand",
+        "offhand"
+    ],
+    "supported_items": "#cursefight:bow",
+    "weight": 1
+}
