@@ -1,0 +1,13 @@
+{
+    "feature": "terralith:jungle/amethyst/bending_acacia",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 3,
+                "max_inclusive": 4
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:awkward",
+                  "custom_color": 16762880,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:absorption",
+                      "duration": 1000
+                    },
+                    {
+                      "id": "minecraft:glowing",
+                      "duration": 300
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 1,
+                      "duration": 600
+                    },
+                    {
+                      "id": "minecraft:saturation",
+                      "amplifier": 39,
+                      "duration": 1
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "duration": 6000
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Royal Jelly",
+                "color": "light_purple",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

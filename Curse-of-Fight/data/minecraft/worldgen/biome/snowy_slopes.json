@@ -1,9 +1,9 @@
 {
   "carvers": [
-    "minecraft:cave",
-    "minecraft:cave_extra_underground",
-    "minecraft:canyon"
-  ],
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "minecraft:canyon"
+    ],
   "downfall": 0.9,
   "effects": {
     "fog_color": 12638463,
@@ -21,13 +21,7 @@
     },
     "sky_color": 8560639,
     "water_color": 4159204,
-    "water_fog_color": 329011,
-    "particle": {
-      "options": {
-        "type": "minecraft:white_ash"
-      },
-      "probability": 0.2
-    }
+    "water_fog_color": 329011
   },
   "features": [
     [],

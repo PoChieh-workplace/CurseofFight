@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "S",
+        "S"
+    ],
+    "key": {
+        "S": "minecraft:stone_slab"
+    },
+    "result": {
+        "id": "minecraft:cobblestone",
+        "count": 1
+    }
+}

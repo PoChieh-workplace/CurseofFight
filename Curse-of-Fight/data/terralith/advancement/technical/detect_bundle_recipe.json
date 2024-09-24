@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "bundle": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:bundle"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bundle"
+        ]
+    ],
+    "rewards": {
+        "function": "terralith:enable_bundle"
+    },
+    "sends_telemetry_event": false
+}

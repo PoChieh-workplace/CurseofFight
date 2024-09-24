@@ -44,7 +44,7 @@
                 "min_value": -64,
                 "max_value": 64,
                 "spline": {
-                  "coordinate": "tectonic:overworld_large_biomes/continents",
+                  "coordinate": "minecraft:overworld_large_biomes/continents",
                   "points": [
                     {
                       "location": -1.1,

@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:grove",
+        "terralith:siberian_grove",
+        "terralith:snowy_shield",
+        "terralith:snowy_maple_forest",
+        "terralith:snowy_cherry_grove"
+    ]
+}

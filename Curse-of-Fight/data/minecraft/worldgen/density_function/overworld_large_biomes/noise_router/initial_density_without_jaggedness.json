@@ -5,7 +5,7 @@
     "type": "minecraft:quarter_negative",
     "argument": {
       "type": "minecraft:mul",
-      "argument1": "tectonic:overworld_large_biomes/depth",
+      "argument1": "minecraft:overworld/depth",
       "argument2": 6
     }
   }

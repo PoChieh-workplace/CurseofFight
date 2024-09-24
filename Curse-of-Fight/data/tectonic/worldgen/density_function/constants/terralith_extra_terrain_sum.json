@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "argument1": "terralith:overworld/extra_terrain_sum",
+  "argument2": 0
+}

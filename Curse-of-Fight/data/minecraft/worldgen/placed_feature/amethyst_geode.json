@@ -1,27 +1,34 @@
 {
-  "feature": "minecraft:amethyst_geode",
-  "placement": [
-    {
-      "type": "minecraft:rarity_filter",
-      "chance": 25
-    },
-    {
-      "type": "minecraft:in_square"
-    },
-    {
-      "type": "minecraft:height_range",
-      "height": {
-        "type": "minecraft:uniform",
-        "max_inclusive": {
-          "absolute": 30
+    "feature": "terralith:cave/generic/amethyst_geode",
+    "placement": [
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 18
         },
-        "min_inclusive": {
-          "above_bottom": 6
+        {
+            "type": "minecraft:random_offset",
+            "xz_spread": 8,
+            "y_spread": 0
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "absolute": -50
+                },
+                "max_inclusive": {
+                    "absolute": 120
+                }
+            }
+        },
+        {
+            "type": "minecraft:surface_relative_threshold_filter",
+            "heightmap": "OCEAN_FLOOR_WG",
+            "max_inclusive": -24
+        },
+        {
+            "type": "minecraft:biome"
         }
-      }
-    },
-    {
-      "type": "minecraft:biome"
-    }
-  ]
+    ]
 }

@@ -1,9 +1,9 @@
 {
   "carvers": [
-    "minecraft:cave",
-    "minecraft:cave_extra_underground",
-    "minecraft:canyon"
-  ],
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "minecraft:canyon"
+    ],
   "creature_spawn_probability": 0.07,
   "downfall": 0.5,
   "effects": {
@@ -16,13 +16,7 @@
     },
     "sky_color": 8364543,
     "water_color": 4159204,
-    "water_fog_color": 329011,
-    "particle": {
-      "options": {
-        "type": "minecraft:white_ash"
-      },
-      "probability": 0.2
-    }
+    "water_fog_color": 329011
   },
   "features": [
     [],

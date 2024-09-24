@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#terralith:reference/jungle",
+    "#terralith:reference/savanna",
+    "terralith:basalt_cliffs",
+    "terralith:brushland",
+    "terralith:granite_cliffs",
+    "terralith:hot_shrubland",
+    "terralith:skylands_summer",
+    "terralith:tropical_jungle",
+    "terralith:volcanic_crater",
+    "terralith:volcanic_peaks"
+  ]
+}

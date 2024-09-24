@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#terralith:reference/all_with_structures",
+    "terralith:cave/frostfire_caves"
+  ]
+}

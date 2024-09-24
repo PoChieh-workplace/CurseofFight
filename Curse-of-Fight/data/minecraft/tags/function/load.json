@@ -1,8 +1,8 @@
 {
-    "replace": false,
-    "values": [
-        "cursefight:install",
-        "theft:load",
-        "ships:load"
-    ]
+  "values": [
+    {
+      "id": "terralith:setup",
+      "required": false
+    }
+  ]
 }

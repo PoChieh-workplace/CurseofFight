@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:old_growth_pine_taiga",
+        "terralith:alpine_highlands",
+        "terralith:birch_taiga",
+        "terralith:cold_shrubland",
+        "terralith:rocky_shrubland"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#terralith:reference/temperature/frozen_with_structures",
+    "terralith:frozen_cliffs",
+    "terralith:glacial_chasm",
+    "terralith:gravel_desert",
+    "terralith:ice_marsh"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:amethyst_canyon",
+    "terralith:amethyst_rainforest",
+    "terralith:jungle_mountains",
+    "terralith:rocky_jungle",
+    "terralith:tropical_jungle"
+  ]
+}
