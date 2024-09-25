@@ -1,2 +1,0 @@
-particle effect
-kill @s

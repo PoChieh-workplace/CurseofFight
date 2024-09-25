@@ -1,1 +1,0 @@
-execute align zyx positioned ~.5 ~.5 ~.5 run summon marker ~ ~ ~ {Tags:["refresh_entity_lightblock"]}

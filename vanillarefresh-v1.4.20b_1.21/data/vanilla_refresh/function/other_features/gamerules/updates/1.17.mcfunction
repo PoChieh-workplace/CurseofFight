@@ -1,2 +1,0 @@
-
-execute store result score playersSleepingPercentage refresh_gamerules run gamerule playersSleepingPercentage

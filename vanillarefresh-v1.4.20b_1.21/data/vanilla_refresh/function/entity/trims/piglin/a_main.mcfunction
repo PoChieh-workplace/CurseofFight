@@ -1,2 +1,0 @@
-execute as @s[predicate=!vanilla_refresh:position/bastion_remnant] run function vanilla_refresh:entity/trims/piglin/a_main_nonbastion
-execute as @s[predicate=vanilla_refresh:position/bastion_remnant] run function vanilla_refresh:entity/trims/piglin/a_main_bastion

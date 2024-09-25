@@ -1,9 +1,0 @@
-{
-    "criteria": {
-      "1": {
-        "trigger": "minecraft:enchanted_item",
-        "conditions": {}
-      }
-    }
-  }
-  

@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-      
-      {"id":"terralith:forested_highlands","required":false},
-      {"id":"terralith:temperate_highlands","required":false}
-    ]
-  }
