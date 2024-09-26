@@ -11,8 +11,7 @@
         "minecraft:strider",
         "minecraft:trader_llama",
         "minecraft:zombie_horse",
-        "minecraft:boat",
-        "minecraft:chest_boat",
+        "#minecraft:boat",
         "minecraft:minecart"
     ]
   }

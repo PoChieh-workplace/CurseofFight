@@ -3,7 +3,7 @@ execute as @e[type=#ships:uses_boat,predicate=ships:target,predicate=ships:on_bo
 execute as @e[type=#ships:uses_boat_ranged,predicate=ships:target,predicate=ships:on_boat] on vehicle at @s run function ships:boat/move_ranged
 execute as @e[type=#ships:uses_boat_melee,predicate=ships:target,predicate=ships:on_boat] on vehicle at @s run function ships:boat/move_melee
 #boat ai
-execute as @e[tag=ships.boat] on controller at @s run data modify entity @s Rotation[0] set from entity @e[limit=1,sort=nearest,type=minecraft:boat] Rotation[0]
+execute as @e[tag=ships.boat] on controller at @s run data modify entity @s Rotation[0] set from entity @e[limit=1,sort=nearest,type=#minecraft:boat] Rotation[0]
 execute as @e[tag=ships.boat,predicate=!ships:water] on controller unless score @s ships.boat.cooldown matches 0.. at @s run function ships:boat/dismount
 #boat sink
 execute as @e[tag=ships.boat,predicate=ships:water] on controller unless score @s ships.boat.cooldown matches 0.. at @s rotated ~ 0 positioned ^ ^.5 ^1 unless predicate ships:water run function ships:boat/dismount
