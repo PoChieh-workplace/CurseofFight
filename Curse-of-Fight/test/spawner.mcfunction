@@ -1,3 +1,30 @@
+setblock ~ ~ ~ minecraft:chest{
+    lock:{
+        Slot:0b,
+        id:"minecraft:echo_shard",
+        count:1,
+        components:{
+            "minecraft:custom_data":{key:"airdrop"},
+            "minecraft:custom_model_data":724001,
+"custom_name":"[\"\",{\"text\":\"空投鑰匙\",\"italic\":false,\"color\":\"gold\"}]","lore":["[\"\",{\"text\":\"好像可以開啟某個寶箱呢！\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],"minecraft:enchantments": {"minecraft:loyalty": 5}}},LootTable:"cursefight:airdrop/main"} replace
+
+setblock ~ ~ ~ minecraft:chest{
+    lock:{
+        Slot:0b,
+        id:"minecraft:echo_shard",
+        count:1,
+        components:{
+            "minecraft:custom_data":{key:"airdrop"},
+            "minecraft:custom_model_data":724001,
+            "custom_name":"[\"\",{\"text\":\"空投鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
+            "lore":["[\"\",{\"text\":\"好像可以開啟某個寶箱呢！\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "minecraft:enchantments": {"minecraft:loyalty": 5}
+        }
+    },
+    LootTable:"cursefight:airdrop/main"
+} replace
+
+
 # vault
 setblock ~ ~ ~ minecraft:vault[ominous=false]{
     config:{
