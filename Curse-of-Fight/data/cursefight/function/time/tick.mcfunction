@@ -21,3 +21,6 @@ function cursefight:enchantment/crossbow/tick
 # open chest and berrier
 execute as @a[scores={open_chest=1..}] run function cursefight:game/generic/player/open_chest_or_barrel
 execute as @a[scores={open_barrel=1..}] run function cursefight:game/generic/player/open_chest_or_barrel
+
+# parachute
+execute as @e[type=minecraft:allay,tag=parachute_allay] run function cursefight:game/spreadplayers/parachute/tick
