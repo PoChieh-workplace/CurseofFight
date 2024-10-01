@@ -1,7 +1,7 @@
 {
     "anvil_cost": 100,
     "description": {
-      "translate": "enchantment.cursefight.once"
+      "translate": "enchantment.cursefight.elytra_once"
     },
     "effects": {
         "minecraft:tick": [
