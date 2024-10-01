@@ -1,2 +1,2 @@
-function cursefight:game/spreadplayers/spreadplayer_one
+function cursefight:game/spreadplayers/random/spreadplayer_one
 function cursefight:game/respawn/respawn_himself

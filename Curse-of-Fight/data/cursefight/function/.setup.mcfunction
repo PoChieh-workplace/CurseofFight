@@ -49,10 +49,12 @@ worldborder set 256
 
 # 常數
 scoreboard objectives add X dummy {"text":"常數"}
+
 scoreboard players set const10 X 10
 scoreboard players set const20 X 20
 scoreboard players set const30 X 30
 scoreboard players set positive X -1
+scoreboard players set const1 X 1
 scoreboard players set const2 X 2
 scoreboard players set const3 X 3
 
@@ -86,6 +88,7 @@ scoreboard players set _forgiven_ info 20
 scoreboard players set _starteffect1_ info 0
 scoreboard players set _if_no_nature_regeneration_ info 1
 scoreboard players set _if_career_ info 0
+scoreboard players set _spread_mod_ info 0
 
 # 動畫
 scoreboard objectives add animation.timer.a dummy

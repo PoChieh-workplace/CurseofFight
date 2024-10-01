@@ -1,4 +1,4 @@
-function cursefight:game/spreadplayers/spreadplayer_team
+function cursefight:game/spreadplayers/random/spreadplayer_team
 
 gamerule keepInventory true
 
