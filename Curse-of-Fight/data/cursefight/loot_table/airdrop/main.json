@@ -856,6 +856,22 @@
                                 },
                                 "minecraft:unbreakable": {
                                     "show_in_tooltip": false
+                                },
+                                "minecraft:equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "minecraft:item.goat_horn.sound.0",
+                                    "damage_on_hurt": false
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "id": "cursefight.banner.uninteraction",
+                                            "type": "minecraft:block_interaction_range",
+                                            "amount": -1,
+                                            "operation": "add_multiplied_base",
+                                            "slot": "any"
+                                        }
+                                    ]
                                 }
                             }
                         }
