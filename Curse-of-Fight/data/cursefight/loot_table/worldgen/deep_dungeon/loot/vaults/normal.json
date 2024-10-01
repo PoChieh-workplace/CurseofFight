@@ -220,7 +220,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:custom_data": {
-                                    "airdrop": 1
+                                    "key": "airdrop"
                                 },
                                 "minecraft:custom_model_data": 724001,
                                 "custom_name": "[\"\",{\"text\":\"空投鑰匙\",\"italic\":false,\"color\":\"gold\"}]",

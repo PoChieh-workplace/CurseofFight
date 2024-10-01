@@ -391,6 +391,22 @@
                                 },
                                 "minecraft:unbreakable": {
                                     "show_in_tooltip":false
+                                },
+                                "minecraft:equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "minecraft:item.goat_horn.sound.0",
+                                    "damage_on_hurt": false
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "id": "cursefight.banner.uninteraction",
+                                            "type": "minecraft:block_interaction_range",
+                                            "amount": -1,
+                                            "operation": "add_multiplied_base",
+                                            "slot": "any"
+                                        }
+                                    ]
                                 }
                             }
                         }
@@ -462,7 +478,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:custom_data": {
-                                    "airdrop": 1
+                                    "key": "airdrop"
                                 },
                                 "minecraft:custom_model_data": 724001,
                                 "custom_name": "[\"\",{\"text\":\"空投鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
