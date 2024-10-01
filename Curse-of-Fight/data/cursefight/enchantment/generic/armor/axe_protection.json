@@ -1,0 +1,85 @@
+{
+	"anvil_cost": 5,
+	"description": {
+		"translate": "enchantment.minecraft.axe_protection"
+	},
+	"effects": {
+		"minecraft:damage_protection": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 1,
+                        "per_level_above_first": 2
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "attacker",
+                    "predicate": {
+                        "equipment": {
+                            "mainhand": {
+                                "items": "#minecraft:axes"
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+		"minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:trial_spawner_detection_ominous"
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "offset": 0,
+                        "scale": 2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "offset": -1,
+                        "scale": 0.1
+                    },
+                    "horizontal_velocity": {
+                        "base": 0,
+                        "movement_scale": 0
+                    },
+                    "vertical_velocity": {
+                        "base": 0,
+                        "movement_scale": 0
+                    },
+                    "speed": 0
+                },
+                "requirements": {
+                    "condition": "minecraft:random_chance",
+                    "chance": {
+                        "type": "minecraft:enchantment_level",
+                        "amount": {
+                            "type": "minecraft:linear",
+                            "base": 0.05,
+                            "per_level_above_first": 0.1
+                        }
+                    }
+                }
+            }
+        ]
+	},
+	"max_cost": {
+		"base": 20,
+		"per_level_above_first": 15
+	},
+	"max_level": 5,
+	"min_cost": {
+		"base": 5,
+		"per_level_above_first": 17
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#minecraft:enchantable/armor",
+	"weight": 30
+}
