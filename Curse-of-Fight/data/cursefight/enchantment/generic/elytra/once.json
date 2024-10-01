@@ -7,26 +7,68 @@
         "minecraft:tick": [
             {
                 "effect": {
-                    "type": "minecraft:damage_item",
-                    "amount": 10
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:firework"
+                    },
+                    "horizontal_position": {
+                        "type": "entity_position",
+                        "offset": 0
+                    },
+                    "vertical_position": {
+                        "type": "entity_position",
+                        "offset": 0
+                    },
+                    "horizontal_velocity": {},
+                    "vertical_velocity": {},
+                    "speed": 0
                 },
                 "requirements": {
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "type": "minecraft:player",
                         "flags": {
-                            "is_on_ground": true
+                            "is_flying": true
                         }
                     }
                 }
             },
             {
                 "effect": {
+                    "type": "minecraft:damage_item",
+                    "amount": 100
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_on_ground": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
                     "type": "minecraft:apply_mob_effect",
                     "to_apply": "minecraft:resistance",
-                    "min_duration": 20,
-                    "max_duration": 20,
+                    "min_duration": 30,
+                    "max_duration": 30,
                     "min_amplifier": 4,
                     "max_amplifier": 4
                 },
