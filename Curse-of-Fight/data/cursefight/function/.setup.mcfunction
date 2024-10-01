@@ -167,6 +167,23 @@ team modify dark_green friendlyFire false
 team modify dark_gray friendlyFire false
 team modify light_purple friendlyFire false
 team modify black friendlyFire false
+
+team modify white nametagVisibility hideForOtherTeams
+team modify red nametagVisibility hideForOtherTeams
+team modify blue nametagVisibility hideForOtherTeams
+team modify yellow nametagVisibility hideForOtherTeams
+team modify green nametagVisibility hideForOtherTeams
+team modify aqua nametagVisibility hideForOtherTeams
+team modify gray nametagVisibility hideForOtherTeams
+team modify gold nametagVisibility hideForOtherTeams
+team modify dark_red nametagVisibility hideForOtherTeams
+team modify dark_blue nametagVisibility hideForOtherTeams
+team modify dark_purple nametagVisibility hideForOtherTeams
+team modify dark_aqua nametagVisibility hideForOtherTeams
+team modify dark_green nametagVisibility hideForOtherTeams
+team modify dark_gray nametagVisibility hideForOtherTeams
+team modify light_purple nametagVisibility hideForOtherTeams
+
 # 布告欄顯示顏色
 team add now_team
 team modify now_team color gold
