@@ -28,13 +28,53 @@
 			}
 		],
 		"minecraft:tick": [
-			{
-				"effect": {
-					"type": "minecraft:run_function",
-					"function": "cursefight:particle/protection"
-				}
-			}
-		]
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:ominous_spawning"
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box",
+                        "offset": 0,
+                        "scale": 3
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box",
+                        "offset": 0,
+                        "scale": 1
+                    },
+                    "horizontal_velocity": {
+                        "base": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": -2,
+                            "max_exclusive": 2
+                        },
+                        "movement_scale": 1
+                    },
+                    "vertical_velocity": {
+                        "base": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": -2,
+                            "max_exclusive": 2
+                        },
+                        "movement_scale": 1
+                    },
+                    "speed": 1
+                },
+                "requirements": {
+                    "condition": "minecraft:random_chance",
+                    "chance": {
+                        "type": "minecraft:enchantment_level",
+                        "amount": {
+                            "type": "minecraft:linear",
+                            "base": 0.05,
+                            "per_level_above_first": 0.1
+                        }
+                    }
+                }
+            }
+        ]
 	},
 	"exclusive_set": "#minecraft:exclusive_set/armor",
 	"max_cost": {
