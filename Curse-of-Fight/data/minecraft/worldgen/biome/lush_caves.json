@@ -126,13 +126,13 @@
                 "type": "minecraft:spider",
                 "maxCount": 4,
                 "minCount": 4,
-                "weight": 100
+                "weight": 50
             },
             {
                 "type": "minecraft:zombie",
                 "maxCount": 4,
                 "minCount": 4,
-                "weight": 95
+                "weight": 40
             },
             {
                 "type": "minecraft:zombie_villager",
@@ -144,19 +144,19 @@
                 "type": "minecraft:skeleton",
                 "maxCount": 4,
                 "minCount": 4,
-                "weight": 100
+                "weight": 50
             },
             {
                 "type": "minecraft:creeper",
                 "maxCount": 4,
                 "minCount": 4,
-                "weight": 100
+                "weight": 200
             },
             {
                 "type": "minecraft:slime",
                 "maxCount": 4,
                 "minCount": 4,
-                "weight": 100
+                "weight": 50
             },
             {
                 "type": "minecraft:enderman",
