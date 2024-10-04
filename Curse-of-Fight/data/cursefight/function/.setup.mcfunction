@@ -46,6 +46,7 @@ scoreboard objectives add village_friendly dummy {"text":"村民友好度"}
 
 worldborder center ~ ~
 worldborder set 256
+worldborder warning distance 100
 
 # 常數
 scoreboard objectives add X dummy {"text":"常數"}
