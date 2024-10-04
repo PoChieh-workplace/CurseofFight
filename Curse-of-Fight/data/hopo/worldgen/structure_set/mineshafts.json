@@ -54,7 +54,7 @@
 		"salt": 10110110,
 		"exclusion_zone": {
 			"other_set": "cursefight:deep_dungeon",
-			"chunk_count": 3
+			"chunk_count": 5
 		},
 		"spacing": 12,
 		"separation": 8
