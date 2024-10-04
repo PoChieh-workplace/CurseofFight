@@ -35,6 +35,10 @@
                                     "cursefight:generic/crossbow/sniper": 10,
                                     "cursefight:generic/curse/breaking": 30
                                 },
+                                "minecraft:use_cooldown": {
+                                    "seconds": 60,
+                                    "cooldown_group": "sniper"
+                                },
                                 "minecraft:repair_cost": 100
                             }
                         }
