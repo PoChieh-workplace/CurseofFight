@@ -226,15 +226,19 @@
                                             {
                                                 "function": "minecraft:set_components",
                                                 "components": {
+                                                    "minecraft:custom_name": "[\"\",{\"translate\":\"cursefight.potion.enchanted\",\"italic\":false,\"color\":\"aqua\"},{\"translate\":\"item.minecraft.potion.effect.healing\",\"italic\":false,\"color\":\"white\"}]",
                                                     "minecraft:potion_contents": {
-                                                        "potion": "minecraft:healing",
-                                                        "custom_color": 8388863,
+                                                        "custom_color": 10420186,
                                                         "custom_effects": [
                                                             {
                                                                 "id": "minecraft:instant_health",
-                                                                "amplifier": 2
+                                                                "amplifier": 4
                                                             }
                                                         ]
+                                                    },
+                                                    "minecraft:use_cooldown": {
+                                                        "seconds": 120,
+                                                        "cooldown_group": "strong_health"
                                                     },
                                                     "minecraft:max_stack_size": 3
                                                 }
@@ -745,6 +749,10 @@
                                                     },
                                                     "minecraft:use_remainder": {
                                                         "id": "minecraft:glass_bottle"
+                                                    },
+                                                    "minecraft:use_cooldown": {
+                                                        "seconds": 180,
+                                                        "cooldown_group": "strong_health"
                                                     }
                                                 }
                                             }
