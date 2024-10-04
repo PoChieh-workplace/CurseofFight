@@ -22,7 +22,7 @@
         "minecraft:tick": [
             {
                 "effect": {
-                    "type": "minecraft:damage_item",
+                    "type": "minecraft:change_item_damage",
                     "amount": 1
                 },
                 "requirements": {
