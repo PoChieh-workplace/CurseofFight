@@ -1866,6 +1866,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.2,
+              0.62
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.2,
+              0.6
+            ],
+            "humidity": [
+              0.6,
+              0.8
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -1,
+              -0.26666668
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -2993,6 +3023,36 @@
             "humidity": [
               0.3,
               0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -1,
+              -0.7666667
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.5,
+              1
+            ],
+            "humidity": [
+              0.6,
+              1
             ],
             "offset": 0,
             "temperature": [
@@ -5269,6 +5329,36 @@
             "erosion": [
               -0.78,
               0.05
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -1,
+              -0.93333334
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:dark_forest",
+          "parameters": {
+            "continentalness": [
+              0.03,
+              0.62
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.7,
+              0.13
             ],
             "humidity": [
               0.3,
@@ -8856,6 +8946,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.62,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.3,
+              -0.1
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -1,
+              -0.9
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -10069,6 +10189,36 @@
             "erosion": [
               -0.375,
               0.4
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.93333334,
+              -0.4
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.2,
+              0.03
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.1,
+              0.6
             ],
             "humidity": [
               0.3,
@@ -11976,6 +12126,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.03,
+              0.62
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.1,
+              0.325
+            ],
+            "humidity": [
+              0.3,
+              0.7
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.93333334,
+              -0.05
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -12409,6 +12589,36 @@
             "erosion": [
               -0.375,
               -0.2225
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.93333334,
+              -0.05
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.62,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.2,
+              0.1
             ],
             "humidity": [
               0.3,
@@ -13553,6 +13763,36 @@
             "humidity": [
               0.3,
               0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.56666666,
+              -0.4
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.2,
+              0.11
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -1,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              0.6
             ],
             "offset": 0,
             "temperature": [
@@ -15066,6 +15306,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.5,
+              0.68
+            ],
+            "humidity": [
+              0.4,
+              0.6
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.56666666,
+              -0.05
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -17196,6 +17466,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.2,
+              -0.15
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.7,
+              -0.3
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.4,
+              -0.05
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -18631,6 +18931,36 @@
             ],
             "weirdness": [
               -0.4,
+              -0.05
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.03,
+              0.6
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.7,
+              0.13
+            ],
+            "humidity": [
+              0.4,
+              0.7
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.5,
               -0.05
             ]
           }
@@ -20226,6 +20556,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.62,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.6,
+              -0.24
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.4,
+              -0.05
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -20946,6 +21306,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -1,
+              0.5
+            ],
+            "humidity": [
+              0.4,
+              0.8
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.26666668,
+              -0.05
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -21323,6 +21713,36 @@
             "humidity": [
               0.3,
               0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.26666668,
+              -0.05
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.6,
+              0.5
+            ],
+            "humidity": [
+              0.3,
+              0.6
             ],
             "offset": 0,
             "temperature": [
@@ -22986,6 +23406,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.3,
+              0.62
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -1,
+              0.1
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.18,
+              -0.05
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -24519,7 +24969,7 @@
           "biome": "minecraft:dark_forest",
           "parameters": {
             "continentalness": [
-              0.03,
+              0.1,
               0.3
             ],
             "depth": [
@@ -24529,6 +24979,36 @@
             "erosion": [
               -1,
               -0.375
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.05,
+              0.26666668
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0,
+              1
             ],
             "humidity": [
               0.3,
@@ -25326,6 +25806,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.3,
+              0.62
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.7,
+              -0.1
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.05,
+              0.19
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -25912,6 +26422,36 @@
             ],
             "humidity": [
               0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              -0.05,
+              0.05
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.62,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -1,
+              -0.3
+            ],
+            "humidity": [
+              -0.5,
               0.5650000000000001
             ],
             "offset": 0,
@@ -27482,6 +28022,36 @@
             "weirdness": [
               0.05,
               0.56666666
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.2,
+              -0.11
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0,
+              0.6
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0,
+              0.8
             ]
           }
         },
@@ -29423,6 +29993,36 @@
             "humidity": [
               0.3,
               0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.05,
+              0.26666668
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -1,
+              0.6
+            ],
+            "humidity": [
+              0.3,
+              0.566
             ],
             "offset": 0,
             "temperature": [
@@ -31373,6 +31973,36 @@
             "humidity": [
               0.3,
               0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.05,
+              1
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.03,
+              0.62
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.5,
+              0.5
+            ],
+            "humidity": [
+              0.5,
+              1
             ],
             "offset": 0,
             "temperature": [
@@ -34626,6 +35256,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.62,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.05,
+              0.4
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -36066,6 +36726,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.3,
+              0.62
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -1,
+              0
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.19,
+              0.4
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -36829,6 +37519,36 @@
             "erosion": [
               -0.2225,
               0.4
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.26666668,
+              1
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.2,
+              0.03
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.2,
+              0.62225
             ],
             "humidity": [
               0.3,
@@ -37913,6 +38633,36 @@
             "humidity": [
               0.3,
               0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.26666668,
+              0.4
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.2,
+              -0.11
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.1,
+              1
+            ],
+            "humidity": [
+              0.5650000000000001,
+              0.8
             ],
             "offset": 0,
             "temperature": [
@@ -38976,6 +39726,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.78,
+              0.5
+            ],
+            "humidity": [
+              -0.3,
+              0.7
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.26666668,
+              0.56666666
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -39709,6 +40489,36 @@
             "erosion": [
               -0.78,
               0.05
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.26666668,
+              0.4
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.03,
+              0.62
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.7,
+              1
             ],
             "humidity": [
               0.3,
@@ -41029,6 +41839,36 @@
             "erosion": [
               -0.375,
               0.4
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.4,
+              0.93333334
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.2,
+              0.03
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.2,
+              0.6
             ],
             "humidity": [
               0.3,
@@ -43866,6 +44706,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.62,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.3,
+              -0.15
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.4,
+              1
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -46086,6 +46956,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.2,
+              -0.11
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.6,
+              1
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.7666667,
+              1
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -47179,6 +48079,36 @@
             "erosion": [
               -0.78,
               0.4
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.7666667,
+              1
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.7,
+              0.48
             ],
             "humidity": [
               0.3,
@@ -49506,6 +50436,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.03,
+              0.62
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.7,
+              0.13
+            ],
+            "humidity": [
+              0.3,
+              0.5650000000000001
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.93333334,
+              1
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -50676,6 +51636,36 @@
           }
         },
         {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "continentalness": [
+              0.62,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.78,
+              -0.2225
+            ],
+            "humidity": [
+              0.3,
+              0.6
+            ],
+            "offset": 0,
+            "temperature": [
+              -0.155,
+              0.2
+            ],
+            "weirdness": [
+              0.93333334,
+              1
+            ]
+          }
+        },
+        {
           "biome": "terralith:sakura_grove",
           "parameters": {
             "continentalness": [
@@ -50754,9 +51744,9 @@
               -1,
               1
             ],
-            "offset": 0.1,
+            "offset": 0,
             "temperature": [
-              -1.0047858741932016,
+              -1,
               1
             ],
             "weirdness": [
@@ -50769,19 +51759,19 @@
           "biome": "minecraft:dripstone_caves",
           "parameters": {
             "continentalness": [
-              0.8,
+              0.5,
               1
             ],
             "depth": [
               0.23,
-              0.95
+              0.5
             ],
             "erosion": [
               -1,
               1
             ],
             "humidity": [
-              -1,
+              0,
               1
             ],
             "offset": 0,
@@ -50803,12 +51793,12 @@
               1
             ],
             "depth": [
-              1.05,
+              1,
               2
             ],
             "erosion": [
               -2,
-              -0.475
+              0.475
             ],
             "humidity": [
               -1,
@@ -50834,24 +51824,24 @@
             ],
             "depth": [
               0.22,
-              0.935
+              0.75
             ],
             "erosion": [
               -1,
               1
             ],
             "humidity": [
-              0.45,
+              -0.3,
               1
             ],
-            "offset": 0.05,
+            "offset": 0,
             "temperature": [
               -1,
-              0.3
+              0.5
             ],
             "weirdness": [
               -1,
-              0.5
+              1
             ]
           }
         },
@@ -50874,7 +51864,7 @@
               0.6,
               1
             ],
-            "offset": 0.035,
+            "offset": 0,
             "temperature": [
               0.3,
               1
@@ -50904,7 +51894,7 @@
               0,
               0.2
             ],
-            "offset": 0.24,
+            "offset": 0,
             "temperature": [
               -1,
               1
@@ -50919,22 +51909,22 @@
           "biome": "terralith:cave/infested_caves",
           "parameters": {
             "continentalness": [
-              0.05,
-              0.725
+              0.35,
+              0.6
             ],
             "depth": [
-              0.225,
+              0.5,
               0.9
             ],
             "erosion": [
-              -0.3,
+              -0.6,
               0.3
             ],
             "humidity": [
-              -0.36,
+              -1,
               -0.34
             ],
-            "offset": 0.215,
+            "offset": 0,
             "temperature": [
               -1,
               0.1
@@ -50964,7 +51954,7 @@
               -1,
               -0.7
             ],
-            "offset": 0.065,
+            "offset": 0,
             "temperature": [
               -0.3,
               1
@@ -50994,7 +51984,7 @@
               -1,
               1
             ],
-            "offset": 0.225,
+            "offset": 0,
             "temperature": [
               0.3,
               1
@@ -51024,7 +52014,7 @@
               -1,
               1
             ],
-            "offset": 0.225,
+            "offset": 0,
             "temperature": [
               -0.3,
               0.3
@@ -51054,7 +52044,7 @@
               -1,
               1
             ],
-            "offset": 0.25,
+            "offset": 0,
             "temperature": [
               -1,
               0.15
@@ -51084,7 +52074,7 @@
               -0.4,
               0.4
             ],
-            "offset": 0.05,
+            "offset": 0,
             "temperature": [
               -1,
               0
@@ -51103,21 +52093,21 @@
               1
             ],
             "depth": [
-              1.3,
+              1.1,
               2
             ],
             "erosion": [
-              0.275,
+              0,
               1
             ],
             "humidity": [
               -1,
               1
             ],
-            "offset": 0.015,
+            "offset": 0,
             "temperature": [
               -1,
-              0
+              0.5
             ],
             "weirdness": [
               -1,
@@ -51144,7 +52134,7 @@
               -1,
               1
             ],
-            "offset": 0.015,
+            "offset": 0,
             "temperature": [
               0.1,
               1
