@@ -9,7 +9,7 @@
     "max_exclusive": 72,
     "when_in_range": {
       "type": "minecraft:spline",
-      "min_value": -64,
+      "min_value": -80,
       "max_value": 64,
       "spline": {
         "coordinate": "tectonic:overworld/continents",

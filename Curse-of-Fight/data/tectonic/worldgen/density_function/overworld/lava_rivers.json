@@ -7,7 +7,7 @@
       "type": "minecraft:mul",
       "argument1": {
         "type": "minecraft:spline",
-        "min_value": -64,
+        "min_value": -80,
         "max_value": 64,
         "spline": {
           "coordinate": "minecraft:y",
