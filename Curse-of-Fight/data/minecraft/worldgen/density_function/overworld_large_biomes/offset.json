@@ -41,7 +41,7 @@
               "argument1": "tectonic:constants/terrain_scale",
               "argument2": {
                 "type": "minecraft:spline",
-                "min_value": -64,
+                "min_value": -80,
                 "max_value": 64,
                 "spline": {
                   "coordinate": "minecraft:overworld_large_biomes/continents",
