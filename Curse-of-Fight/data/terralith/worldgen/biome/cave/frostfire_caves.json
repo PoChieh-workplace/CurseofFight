@@ -40,9 +40,7 @@
             "terralith:cave/frostfire/columns",
             "terralith:cave/frostfire/sculk_patch",
             "terralith:cave/frostfire/frostfire_patch",
-            "terralith:cave/frostfire/frostfire_ceiling",
-            "minecraft:lake_lava_underground",
-            "minecraft:lake_lava_surface"
+            "terralith:cave/frostfire/frostfire_ceiling"
         ],
         [
             "minecraft:amethyst_geode",
