@@ -1,3 +1,0 @@
-
-"vanilla_refresh:load"
-"vanilla_refresh:tick"
