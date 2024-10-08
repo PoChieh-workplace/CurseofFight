@@ -7,4 +7,4 @@ execute at @s run fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 minecraft:air destroy
 execute at @s run setblock ~ ~ ~ minecraft:chain
 execute at @s run tp @s ~ ~-0.05 ~
 
-execute at @s run kill @s[y=-64,dy=30]
+execute at @s run kill @s[y=-80,dy=30]
