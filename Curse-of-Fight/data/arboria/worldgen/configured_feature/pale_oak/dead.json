@@ -277,50 +277,6 @@
                 ]
               },
               {
-                "feature": {
-                  "config": {
-                    "block": "minecraft:glow_lichen",
-                    "can_be_placed_on": [
-                      "minecraft:pale_oak_log",
-                      "minecraft:stripped_pale_oak_log",
-                      "minecraft:pale_oak_wood",
-                      "minecraft:stripped_pale_oak_wood"
-                    ],
-                    "can_place_on_ceiling": true,
-                    "can_place_on_floor": true,
-                    "can_place_on_wall": true,
-                    "chance_of_spreading": 0.25,
-                    "search_range": 2
-                  },
-                  "type": "minecraft:multiface_growth"
-                },
-                "placement": [
-                  {
-                    "predicate": {
-                      "blocks": [
-                        "minecraft:pale_oak_log",
-                        "minecraft:stripped_pale_oak_log"
-                      ],
-                      "type": "minecraft:matching_blocks"
-                    },
-                    "type": "minecraft:block_predicate_filter"
-                  },
-                  {
-                    "xz_spread": {
-                      "type": "minecraft:uniform",
-                      "min_inclusive": -3,
-                      "max_inclusive": 3
-                    },
-                    "y_spread": {
-                      "type": "minecraft:uniform",
-                      "min_inclusive": -1,
-                      "max_inclusive": 15
-                    },
-                    "type": "minecraft:random_offset"
-                  }
-                ]
-              },
-              {
                 "feature": "arboria:pale_oak/roots/dead",
                 "placement": [
                   {

@@ -207,6 +207,12 @@
                                 "probability": 1.0
                               },
                               {
+                                "type": "minecraft:pale_moss",
+                                "ground_probability": 0.8,
+                                "leaves_probability": 0.15,
+                                "trunk_probability": 0.4
+                              },
+                              {
                                 "block_provider": {
                                   "state": {
                                     "Name": "minecraft:pale_oak_leaves",
