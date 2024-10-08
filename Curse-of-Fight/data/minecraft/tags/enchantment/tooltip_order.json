@@ -29,6 +29,7 @@
 		"minecraft:knockback",
 		"minecraft:punch",
 		"minecraft:protection",
+		"cursefight:generic/armor/axe_protection",
 		"minecraft:blast_protection",
 		"minecraft:fire_protection",
 		"minecraft:projectile_protection",
