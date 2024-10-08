@@ -3,7 +3,7 @@
     "config": {
         "aquifers_enabled": true,
         "lava_level": {
-            "above_bottom": 8
+            "above_bottom": 6
         },
         "probability": 0,
         "replaceable": "#minecraft:overworld_carver_replaceables",
