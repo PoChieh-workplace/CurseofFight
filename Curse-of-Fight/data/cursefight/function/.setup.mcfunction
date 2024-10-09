@@ -77,13 +77,12 @@ scoreboard players set _timer_sec_ info 0
 scoreboard players set _timer_min_ info 0
 scoreboard players set _mode_ info 0
 scoreboard players set _teamcount_ info 2
-scoreboard players set _monster_clean_ info 60
 scoreboard players set _worldborder_ info 50
 scoreboard players set _border_reminder_ info 40
 scoreboard players set _worldborder_shrink_ info 30
 scoreboard players set _worldborder_min_range_ info 16
 scoreboard players set _worldborder.range_ info 256
-scoreboard players set _glowing_ info 70
+scoreboard players set _glowing_ info 80
 scoreboard players set _ominous_ info 100
 scoreboard players set _forgiven_ info 20
 scoreboard players set _starteffect1_ info 0
