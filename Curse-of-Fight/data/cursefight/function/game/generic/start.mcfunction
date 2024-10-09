@@ -28,7 +28,6 @@ scoreboard objectives setdisplay sidebar show_info
 scoreboard players set _forgiven_ activity_set 0
 scoreboard players set _worldborder_ activity_set 0
 scoreboard players set _border_reminder_ activity_set 0
-scoreboard players set _monster_clean_ activity_set 0
 scoreboard players set _worldborder_end_ activity_set 0
 scoreboard players set _glowing_ activity_set 0
 scoreboard players set _ominous_ activity_set 0
@@ -56,7 +55,6 @@ scoreboard players operation _worldborder_end_ info += _worldborder_ info
 execute store result score 詛咒蠹蝕 show_info run scoreboard players get _ominous_ info
 execute store result score 開始縮圈 show_info run scoreboard players get _worldborder_ info
 execute store result score 縮圈完畢 show_info run scoreboard players get _worldborder_end_ info
-execute store result score 清除怪物 show_info run scoreboard players get _monster_clean_ info
 execute store result score 玩家發光 show_info run scoreboard players get _glowing_ info
 execute store result score 敗者寬恕 show_info run scoreboard players get _forgiven_ info
 
