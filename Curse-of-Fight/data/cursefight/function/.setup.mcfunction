@@ -42,7 +42,6 @@ scoreboard objectives add respawning_if_firework dummy {"text":"使用重生信�
 scoreboard objectives add survival_time dummy {"text":"存活時間"}
 scoreboard objectives add villager_xp dummy {"text":"村民經驗"}
 scoreboard objectives add village_friendly dummy {"text":"村民友好度"}
-
 scoreboard objectives add found_player_time dummy {"text":"尋找敵人冷卻時間"}
 
 worldborder center ~ ~
@@ -62,6 +61,7 @@ scoreboard players set const3 X 3
 
 # 訊息 info
 scoreboard objectives add info dummy
+scoreboard objectives add death deathCount "\u00A70【死亡數】"
 scoreboard objectives add activity_set dummy
 scoreboard objectives add player_random dummy
 scoreboard objectives add show_info dummy "\u00A73【 遊戲事件 】"
