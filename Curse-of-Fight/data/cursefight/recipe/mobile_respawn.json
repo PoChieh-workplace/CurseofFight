@@ -6,15 +6,15 @@
         "ghi"
     ],
     "key": {
-        "a": "minecraft:coal_block",
-        "b": "minecraft:iron_block",
-        "c": "minecraft:gold_block",
+        "a": "#minecraft:coals",
+        "b": "minecraft:iron_ingot",
+        "c": "minecraft:gold_ingot",
         "d": "minecraft:iron_sword",
         "e": "minecraft:golden_apple",
         "f": "minecraft:iron_pickaxe",
-        "g": "minecraft:lapis_block",
-        "h": "minecraft:redstone_block",
-        "i": "minecraft:copper_block"
+        "g": "minecraft:lapis_lazuli",
+        "h": "minecraft:redstone",
+        "i": "minecraft:copper_ingot"
     },
     "result": {
         "id": "minecraft:nether_star",
