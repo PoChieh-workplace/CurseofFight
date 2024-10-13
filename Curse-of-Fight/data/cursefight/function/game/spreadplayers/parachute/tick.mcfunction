@@ -1,6 +1,6 @@
 
 execute if entity @s[tag=way_to_center] at @s facing entity @n[tag=border_center] feet rotated ~ 0 positioned 0.0 0 0.0 run summon marker ^ ^ ^1 {Tags:["direction_parachute"]}
-execute unless entity @s[tag=way_to_center] run execute at @s positioned 0.0 0 0.0 run summon marker ^ ^ ^1 {Tags:["direction_parachute"]}
+execute unless entity @s[tag=way_to_center] run execute at @s positioned 0.0 0 0.0 run summon marker ^ ^ ^0.5 {Tags:["direction_parachute"]}
 data modify entity @s Motion set from entity @n[type=marker,tag=direction_parachute] Pos
 kill @e[type=marker,tag=direction_parachute]
 
