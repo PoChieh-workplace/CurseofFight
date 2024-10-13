@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ab ",
+        "bcb",
+        " b "
+    ],
+    "key": {
+        "a": "minecraft:lantern",
+        "b": "minecraft:iron_ingot",
+        "c": "minecraft:redstone"
+    },
+    "result": {
+        "id": "minecraft:compass",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": 724012,
+            "minecraft:custom_data": {
+                "tool": "found_player"
+            },
+            "custom_name": "[\"\",{\"text\":\"偵查羅盤\",\"italic\":false,\"color\":\"gold\"}]",
+            "lore": [
+                "[\"\",{\"text\":\"簽訂靈魂契約，按下 \",\"italic\":false,\"color\":\"dark_purple\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 可尋找最近的敵人\",\"italic\":false,\"color\":\"dark_purple\"}]"
+            ],
+            "minecraft:consumable": {
+                "consume_seconds": 3,
+                "animation": "spear",
+                "has_consume_particles": false,
+                "sound": "minecraft:block.bell.use",
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:play_sound",
+                        "sound": "minecraft:block.bell.resonate"
+                    },
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:mining_fatigue",
+                                "amplifier": 1,
+                                "duration": 600
+                            }
+                        ]
+                    }
+                ]
+            },
+            "minecraft:use_cooldown": {
+                "seconds": 300,
+                "cooldown_group": "found_player"
+            },
+            "minecraft:max_stack_size": 1
+        }
+    }
+}

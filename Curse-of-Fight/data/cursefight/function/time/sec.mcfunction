@@ -15,3 +15,6 @@ execute as @a at @s if entity @n[type=minecraft:villager,distance=..5] run funct
 function cursefight:particle/sec
 execute as @e[type=minecraft:marker,tag=village_protect] at @s run tp @s ~ ~ ~ ~-20 0
 execute as @e[type=minecraft:marker,tag=village_protect] at @s run execute as @e[type=#minecraft:zombies,distance=..100] run damage @s 5 minecraft:wither
+
+# found player
+execute as @a[scores={found_player_time=1..},team=!black] run function cursefight:tools/found_player/sec

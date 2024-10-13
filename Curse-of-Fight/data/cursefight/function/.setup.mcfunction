@@ -43,6 +43,7 @@ scoreboard objectives add survival_time dummy {"text":"存活時間"}
 scoreboard objectives add villager_xp dummy {"text":"村民經驗"}
 scoreboard objectives add village_friendly dummy {"text":"村民友好度"}
 
+scoreboard objectives add found_player_time dummy {"text":"尋找敵人冷卻時間"}
 
 worldborder center ~ ~
 worldborder set 256

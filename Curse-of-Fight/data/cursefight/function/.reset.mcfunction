@@ -37,6 +37,7 @@ scoreboard objectives remove open_chest
 scoreboard objectives remove open_barrel
 scoreboard objectives remove _skill_cool_
 scoreboard objectives remove _ultimate_cool_
+scoreboard objectives remove found_player_time
 
 # 動畫
 scoreboard objectives remove animation.timer.a
