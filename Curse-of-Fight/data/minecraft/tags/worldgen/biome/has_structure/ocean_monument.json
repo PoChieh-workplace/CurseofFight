@@ -1,5 +1,7 @@
 {
-  "values": [
-    "#terralith:skylands"
-  ]
+    "replace": false,
+    "values": [
+        "#terralith:skylands",
+        "terralith:deep_warm_ocean"
+    ]
 }

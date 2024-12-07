@@ -16,12 +16,17 @@
             "sound": "minecraft:ambient.cave",
             "tick_delay": 6000
         },
-        "music": {
-            "max_delay": 24000,
-            "min_delay": 12000,
-            "replace_current_music": false,
-            "sound": "minecraft:music.overworld.swamp"
-        },
+        "music": [
+            {
+                "data": {
+                    "max_delay": 24000,
+                    "min_delay": 12000,
+                    "replace_current_music": false,
+                    "sound": "minecraft:music.overworld.swamp"
+                },
+                "weight": 1
+            }
+        ],
         "sky_color": 10599601,
         "water_color": 6388594,
         "water_fog_color": 2302743
@@ -170,10 +175,10 @@
                 "weight": 70
             },
             {
-              "type": "minecraft:bogged",
-              "maxCount": 4,
-              "minCount": 4,
-              "weight": 30
+                "type": "minecraft:bogged",
+                "maxCount": 4,
+                "minCount": 4,
+                "weight": 30
             },
             {
                 "type": "minecraft:creeper",

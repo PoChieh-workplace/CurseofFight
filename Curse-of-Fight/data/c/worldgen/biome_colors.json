@@ -515,6 +515,11 @@
         "b": 52,
         "name": "Lush Desert"
     },
+    "terralith:deep_warm_ocean": {
+        "r": 58,
+        "g": 0,
+        "b": 143
+    },
     "terralith:cave/andesite_caves": {
         "r": 198,
         "g": 197,

@@ -4,15 +4,14 @@
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
-  "creature_spawn_probability": 0.03,
-  "downfall": 0.0,
+  "downfall": 0,
   "effects": {
-    "fog_color": 12638463,
+    "fog_color": 14866371,
     "foliage_color": 10387789,
     "grass_color": 9470285,
     "mood_sound": {
       "block_search_extent": 8,
-      "offset": 2.0,
+      "offset": 2,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
@@ -38,7 +37,8 @@
       "arboria:badlands/red_sandstone/layer_2"
     ],
     [
-      "minecraft:lake_lava_underground"
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
     ],
     [
       "arboria:badlands/red_sandstone_spike/layer_1",
@@ -73,6 +73,7 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
