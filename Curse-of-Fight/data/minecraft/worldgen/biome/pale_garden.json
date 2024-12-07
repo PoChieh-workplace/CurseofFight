@@ -15,21 +15,18 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.forest"
-    },
+    "music": [],
+    "music_volume": 0.0,
     "sky_color": 12171705,
     "water_color": 7768221,
     "water_fog_color": 5597568
   },
   "features": [
-    [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "arboria:pale_garden/coarse_dirt"
+    ],
+    [
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -41,8 +38,9 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
+      "arboria:ore_dirt",
+      "arboria:ore_gravel_lower",
+      "arboria:ore_gravel_upper",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
@@ -66,29 +64,36 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "arboria:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    [],
+    [
+      "arboria:pale_garden/tuff/steep",
+      "arboria:pale_garden/tuff/slope"
+    ],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "arboria:pale_garden/rocks"
     ],
     [
       "minecraft:glow_lichen",
-      "arboria:forest/grass/layer_1",
-      "arboria:forest/grass/layer_2",
-      "arboria:pale_garden/trees/big",
+      "arboria:pale_garden/grass",
+      "arboria:pale_garden/big_trees",
+      "arboria:pale_garden/trees",
+      "arboria:pale_garden/pale_moss_patch",
       "arboria:pale_garden/saplings",
-      "arboria:pale_garden/tree_lichen",
+      "arboria:pale_garden/flowers/patch",
+      "arboria:pale_garden/flowers/single",
       "arboria:patch_sugar_cane",
-      "arboria:patch_pumpkin",
-      "minecraft:pale_garden_vegetation"
+      "arboria:patch_pumpkin"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "arboria:bottom/stone_slab",
+      "arboria:bottom/snow"
     ]
   ],
   "has_precipitation": true,
