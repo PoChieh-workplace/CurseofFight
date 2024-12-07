@@ -8,6 +8,8 @@
     "minecraft:podzol",
     "minecraft:mycelium",
     "minecraft:mud",
-    "minecraft:muddy_mangrove_roots"
+    "minecraft:muddy_mangrove_roots",
+    "minecraft:moss_block",
+    "minecraft:pale_moss_block"
   ]
 }

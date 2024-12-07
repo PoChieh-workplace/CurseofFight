@@ -1,0 +1,131 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "decorators": [
+                      {
+                        "type": "minecraft:pale_moss",
+                        "ground_probability": 0.0,
+                        "leaves_probability": 0.0,
+                        "trunk_probability": 0.3
+                      }
+                    ],
+                    "dirt_provider": {
+                      "state": {
+                        "Name": "minecraft:rooted_dirt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "height": 0,
+                      "offset": 0,
+                      "radius": 0,
+                      "type": "minecraft:fancy_foliage_placer"
+                    },
+                    "foliage_provider": {
+                      "state": {
+                        "Name": "minecraft:air"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "force_dirt": false,
+                    "ignore_vines": true,
+                    "minimum_size": {
+                      "limit": 3,
+                      "lower_size": 0,
+                      "upper_size": 0,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "trunk_placer": {
+                      "base_height": 15,
+                      "height_rand_a": 2,
+                      "height_rand_b": 0,
+                      "type": "minecraft:mega_jungle_trunk_placer"
+                    },
+                    "trunk_provider": {
+                      "entries": [
+                        {
+                          "data": {
+                            "Name": "minecraft:pale_oak_log",
+                            "Properties": {
+                              "axis": "y"
+                            }
+                          },
+                          "weight": 2
+                        },
+                        {
+                          "data": {
+                            "Name": "minecraft:stripped_pale_oak_log",
+                            "Properties": {
+                              "axis": "y"
+                            }
+                          },
+                          "weight": 1
+                        }
+                      ],
+                      "type": "minecraft:weighted_state_provider"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "type": "minecraft:replaceable"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 4,
+                    "type": "minecraft:count"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:pale_oak/roots/dead_1",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": [
+                        "minecraft:pale_oak_log",
+                        "minecraft:stripped_pale_oak_log"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "state": {
+                "Name": "minecraft:pale_oak_sapling",
+                "Properties": {
+                  "stage": "0"
+                }
+              },
+              "type": "minecraft:would_survive"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 32,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

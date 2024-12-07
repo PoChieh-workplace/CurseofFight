@@ -2,21 +2,14 @@
   "feature": {
     "config": {
       "default": {
-        "feature": "arboria:rock/pale_garden/medium",
+        "feature": "arboria:rock/pale_garden/small",
         "placement": []
       },
       "features": [
         {
-          "chance": 0.15,
+          "chance": 0.2,
           "feature": {
             "feature": "arboria:rock/pale_garden/tiny",
-            "placement": []
-          }
-        },
-        {
-          "chance": 0.85,
-          "feature": {
-            "feature": "arboria:rock/pale_garden/small",
             "placement": []
           }
         }
@@ -26,8 +19,20 @@
   },
   "placement": [
     {
-      "chance": 24,
-      "type": "minecraft:rarity_filter"
+      "count": {
+        "distribution": [
+          {
+            "data": 0,
+            "weight": 24
+          },
+          {
+            "data": 1,
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_list"
+      },
+      "type": "minecraft:count"
     },
     {
       "xz_spread": {

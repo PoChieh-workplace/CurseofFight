@@ -8,34 +8,13 @@
               "entries": [
                 {
                   "data": {
-                    "Name": "minecraft:cobbled_deepslate"
+                    "Name": "minecraft:andesite"
                   },
-                  "weight": 5
+                  "weight": 1
                 },
                 {
                   "data": {
-                    "Name": "minecraft:deepslate",
-                    "Properties": {
-                      "axis": "y"
-                    }
-                  },
-                  "weight": 3
-                },
-                {
-                  "data": {
-                    "Name": "minecraft:deepslate",
-                    "Properties": {
-                      "axis": "x"
-                    }
-                  },
-                  "weight": 2
-                },
-                {
-                  "data": {
-                    "Name": "minecraft:deepslate",
-                    "Properties": {
-                      "axis": "z"
-                    }
+                    "Name": "minecraft:cobblestone"
                   },
                   "weight": 2
                 }
@@ -50,8 +29,8 @@
             "predicate": {
               "blocks": [
                 "minecraft:tuff",
-                "minecraft:deepslate",
-                "minecraft:cobbled_deepslate"
+                "minecraft:andesite",
+                "minecraft:cobblestone"
               ],
               "offset": [
                 0,
@@ -90,7 +69,7 @@
       },
       "features": [
         {
-          "chance": 0.6,
+          "chance": 0.7,
           "feature": {
             "feature": {
               "config": {
@@ -125,8 +104,8 @@
                   "predicate": {
                     "blocks": [
                       "minecraft:tuff",
-                      "minecraft:deepslate",
-                      "minecraft:cobbled_deepslate"
+                      "minecraft:andesite",
+                      "minecraft:cobblestone"
                     ],
                     "offset": [
                       0,

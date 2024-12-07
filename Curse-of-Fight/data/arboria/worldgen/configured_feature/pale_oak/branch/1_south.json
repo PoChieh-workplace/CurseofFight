@@ -19,11 +19,7 @@
                     "direction": "south",
                     "layers": [
                       {
-                        "height": {
-                          "type": "minecraft:uniform",
-                          "min_inclusive": 2,
-                          "max_inclusive": 3
-                        },
+                        "height": 2,
                         "provider": {
                           "state": {
                             "Name": "minecraft:pale_oak_log",
@@ -72,11 +68,7 @@
                             "direction": "south",
                             "layers": [
                               {
-                                "height": {
-                                  "type": "minecraft:uniform",
-                                  "min_inclusive": 1,
-                                  "max_inclusive": 2
-                                },
+                                "height": 1,
                                 "provider": {
                                   "state": {
                                     "Name": "minecraft:pale_oak_log",
@@ -106,6 +98,12 @@
                         "feature": {
                           "config": {
                             "decorators": [
+                              {
+                                "type": "minecraft:pale_moss",
+                                "ground_probability": 0.0,
+                                "leaves_probability": 0.2,
+                                "trunk_probability": 0.0
+                              },
                               {
                                 "block_provider": {
                                   "state": {
@@ -210,12 +208,6 @@
                                 "probability": 0.8,
                                 "required_empty_blocks": 1,
                                 "type": "minecraft:attached_to_leaves"
-                              },
-                              {
-                                "type": "minecraft:pale_moss",
-                                "ground_probability": 0.8,
-                                "leaves_probability": 0.15,
-                                "trunk_probability": 0.4
                               }
                             ],
                             "dirt_provider": {
@@ -408,6 +400,29 @@
                                 -1,
                                 -1,
                                 0
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            }
+                          ],
+                          "type": "minecraft:any_of"
+                        },
+                        {
+                          "predicates": [
+                            {
+                              "blocks": "minecraft:pale_oak_log",
+                              "offset": [
+                                0,
+                                -2,
+                                -2
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            {
+                              "blocks": "minecraft:pale_oak_log",
+                              "offset": [
+                                0,
+                                -2,
+                                -3
                               ],
                               "type": "minecraft:matching_blocks"
                             }

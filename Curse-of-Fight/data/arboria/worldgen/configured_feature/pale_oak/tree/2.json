@@ -1,0 +1,467 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "decorators": [],
+                            "dirt_provider": {
+                              "state": {
+                                "Name": "minecraft:pale_moss_block"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "foliage_placer": {
+                              "height": 1,
+                              "offset": 0,
+                              "radius": 2,
+                              "type": "minecraft:blob_foliage_placer"
+                            },
+                            "foliage_provider": {
+                              "state": {
+                                "Name": "minecraft:pale_oak_log",
+                                "Properties": {
+                                  "axis": "y"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "force_dirt": true,
+                            "ignore_vines": true,
+                            "minimum_size": {
+                              "limit": 0,
+                              "lower_size": 0,
+                              "upper_size": 0,
+                              "type": "minecraft:two_layers_feature_size"
+                            },
+                            "trunk_placer": {
+                              "base_height": 1,
+                              "height_rand_a": 3,
+                              "height_rand_b": 0,
+                              "type": "minecraft:straight_trunk_placer"
+                            },
+                            "trunk_provider": {
+                              "state": {
+                                "Name": "minecraft:pale_oak_log",
+                                "Properties": {
+                                  "axis": "y"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            }
+                          },
+                          "type": "minecraft:tree"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "type": "minecraft:replaceable"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "count": 64,
+                            "type": "minecraft:count"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": "arboria:pale_oak/trunk/1",
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:pale_oak_log",
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "predicate": {
+                                    "blocks": "minecraft:pale_oak_log",
+                                    "offset": [
+                                      0,
+                                      8,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  "type": "minecraft:not"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "direction_of_search": "up",
+                            "max_steps": 10,
+                            "target_condition": {
+                              "predicate": {
+                                "blocks": "minecraft:pale_oak_log",
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:environment_scan"
+                          },
+                          {
+                            "count": 64,
+                            "type": "minecraft:count"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "allowed_placement": {
+                              "predicate": {
+                                "blocks": "#minecraft:features_cannot_replace",
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "direction": "up",
+                            "layers": [
+                              {
+                                "height": {
+                                  "min_inclusive": 8,
+                                  "max_inclusive": 10,
+                                  "type": "minecraft:uniform"
+                                },
+                                "provider": {
+                                  "state": {
+                                    "Name": "minecraft:pale_oak_log",
+                                    "Properties": {
+                                      "axis": "y"
+                                    }
+                                  },
+                                  "type": "minecraft:simple_state_provider"
+                                }
+                              }
+                            ],
+                            "prioritize_tip": false
+                          },
+                          "type": "minecraft:block_column"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:pale_oak_log",
+                                  "offset": [
+                                    0,
+                                    8,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "predicate": {
+                                    "blocks": "minecraft:pale_oak_log",
+                                    "offset": [
+                                      1,
+                                      5,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  "type": "minecraft:not"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "direction_of_search": "up",
+                            "max_steps": 10,
+                            "target_condition": {
+                              "predicate": {
+                                "blocks": "minecraft:pale_oak_log",
+                                "offset": [
+                                  1,
+                                  0,
+                                  1
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:environment_scan"
+                          },
+                          {
+                            "count": 56,
+                            "type": "minecraft:count"
+                          },
+                          {
+                            "xz_spread": {
+                              "distribution": [
+                                {
+                                  "data": -1,
+                                  "weight": 1
+                                },
+                                {
+                                  "data": 1,
+                                  "weight": 1
+                                }
+                              ],
+                              "type": "minecraft:weighted_list"
+                            },
+                            "y_spread": 0,
+                            "type": "minecraft:random_offset"
+                          },
+                          {
+                            "predicate": {
+                              "predicate": {
+                                "blocks": "minecraft:pale_oak_log",
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "decorators": [],
+                            "dirt_provider": {
+                              "state": {
+                                "Name": "minecraft:pale_oak_log",
+                                "Properties": {
+                                  "axis": "y"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "foliage_placer": {
+                              "height": 16,
+                              "offset": 0,
+                              "radius": 1,
+                              "type": "minecraft:fancy_foliage_placer"
+                            },
+                            "foliage_provider": {
+                              "state": {
+                                "Name": "minecraft:pale_oak_log",
+                                "Properties": {
+                                  "axis": "y"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "force_dirt": false,
+                            "ignore_vines": true,
+                            "minimum_size": {
+                              "limit": 0,
+                              "lower_size": 0,
+                              "upper_size": 0,
+                              "type": "minecraft:two_layers_feature_size"
+                            },
+                            "trunk_placer": {
+                              "base_height": 9,
+                              "height_rand_a": 9,
+                              "height_rand_b": 0,
+                              "type": "minecraft:straight_trunk_placer"
+                            },
+                            "trunk_provider": {
+                              "state": {
+                                "Name": "minecraft:pale_oak_log",
+                                "Properties": {
+                                  "axis": "y"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            }
+                          },
+                          "type": "minecraft:tree"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:pale_oak_log",
+                                  "offset": [
+                                    1,
+                                    6,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "predicate": {
+                                    "blocks": "minecraft:pale_oak_log",
+                                    "offset": [
+                                      1,
+                                      6,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  "type": "minecraft:not"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "direction_of_search": "up",
+                            "max_steps": 10,
+                            "target_condition": {
+                              "predicate": {
+                                "blocks": "minecraft:pale_oak_log",
+                                "offset": [
+                                  1,
+                                  0,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:environment_scan"
+                          },
+                          {
+                            "count": 16,
+                            "type": "minecraft:count"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "type": "minecraft:replaceable"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 96,
+                    "type": "minecraft:count"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": "arboria:pale_oak/branch/1_east",
+                        "placement": []
+                      },
+                      {
+                        "feature": "arboria:pale_oak/branch/1_south",
+                        "placement": []
+                      },
+                      {
+                        "feature": "arboria:pale_oak/branch/1_west",
+                        "placement": []
+                      },
+                      {
+                        "feature": "arboria:pale_oak/branch/1_north",
+                        "placement": []
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:pale_oak_log",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "xz_spread": 0,
+                    "y_spread": 10,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "xz_spread": 0,
+                    "y_spread": 10,
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "direction_of_search": "up",
+                    "max_steps": 10,
+                    "target_condition": {
+                      "predicates": [
+                        {
+                          "blocks": "minecraft:air",
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:pale_oak_log",
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:environment_scan"
+                  },
+                  {
+                    "count": 32,
+                    "type": "minecraft:count"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:pale_oak/roots/2",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:pale_oak_log",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria:pale_oak/rooted_dirt/2",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:pale_oak_log",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 96,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

@@ -58,19 +58,9 @@
             },
             "features": [
               {
-                "chance": 0.1,
+                "chance": 0.3,
                 "feature": {
-                  "feature": {
-                    "config": {
-                      "to_place": {
-                        "state": {
-                          "Name": "minecraft:pale_moss_carpet"
-                        },
-                        "type": "minecraft:simple_state_provider"
-                      }
-                    },
-                    "type": "minecraft:simple_block"
-                  },
+                  "feature": "arboria:pale_oak/pale_moss_carpet",
                   "placement": [
                     {
                       "xz_spread": 0,
@@ -110,7 +100,7 @@
         },
         "placement": [
           {
-            "count": 24,
+            "count": 40,
             "type": "minecraft:count"
           },
           {

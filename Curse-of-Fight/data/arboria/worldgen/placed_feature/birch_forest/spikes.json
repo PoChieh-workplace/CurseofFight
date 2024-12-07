@@ -2,12 +2,20 @@
   "feature": "arboria:spikes/rare/birch_forest",
   "placement": [
     {
-      "chance": 40,
-      "type": "minecraft:rarity_filter"
-    },
-    {
-      "chance": 25,
-      "type": "minecraft:rarity_filter"
+      "count": {
+        "distribution": [
+          {
+            "data": 0,
+            "weight": 1000
+          },
+          {
+            "data": 1,
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_list"
+      },
+      "type": "minecraft:count"
     },
     {
       "xz_spread": {

@@ -49,10 +49,7 @@
                 },
                 {
                   "if_true": {
-                    "blocks": [
-                      "minecraft:cobblestone",
-                      "minecraft:tuff"
-                    ],
+                    "blocks": "minecraft:cobblestone",
                     "offset": [
                       0,
                       -1,
@@ -63,6 +60,27 @@
                   "then": {
                     "state": {
                       "Name": "minecraft:cobblestone_slab",
+                      "Properties": {
+                        "waterlogged": "false",
+                        "type": "bottom"
+                      }
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                {
+                  "if_true": {
+                    "blocks": "minecraft:tuff",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "then": {
+                    "state": {
+                      "Name": "minecraft:tuff_slab",
                       "Properties": {
                         "waterlogged": "false",
                         "type": "bottom"

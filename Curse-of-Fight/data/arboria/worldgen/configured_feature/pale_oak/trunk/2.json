@@ -1,0 +1,263 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "decorators": [
+              {
+                "type": "minecraft:pale_moss",
+                "ground_probability": 0.0,
+                "leaves_probability": 0.15,
+                "trunk_probability": 0.0
+              },
+              {
+                "block_provider": {
+                  "state": {
+                    "Name": "minecraft:pale_oak_leaves",
+                    "Properties": {
+                      "distance": "2",
+                      "persistent": "false",
+                      "waterlogged": "false"
+                    }
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "directions": [
+                  "down"
+                ],
+                "exclusion_radius_xz": 0,
+                "exclusion_radius_y": 0,
+                "probability": 0.25,
+                "required_empty_blocks": 1,
+                "type": "minecraft:attached_to_leaves"
+              },
+              {
+                "block_provider": {
+                  "state": {
+                    "Name": "minecraft:pale_oak_leaves",
+                    "Properties": {
+                      "distance": "2",
+                      "persistent": "false",
+                      "waterlogged": "false"
+                    }
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "directions": [
+                  "east"
+                ],
+                "exclusion_radius_xz": 0,
+                "exclusion_radius_y": 0,
+                "probability": 0.3,
+                "required_empty_blocks": 1,
+                "type": "minecraft:attached_to_leaves"
+              },
+              {
+                "block_provider": {
+                  "state": {
+                    "Name": "minecraft:pale_oak_leaves",
+                    "Properties": {
+                      "distance": "2",
+                      "persistent": "false",
+                      "waterlogged": "false"
+                    }
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "directions": [
+                  "south"
+                ],
+                "exclusion_radius_xz": 0,
+                "exclusion_radius_y": 0,
+                "probability": 0.3,
+                "required_empty_blocks": 1,
+                "type": "minecraft:attached_to_leaves"
+              },
+              {
+                "block_provider": {
+                  "state": {
+                    "Name": "minecraft:pale_oak_leaves",
+                    "Properties": {
+                      "distance": "2",
+                      "persistent": "false",
+                      "waterlogged": "false"
+                    }
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "directions": [
+                  "west"
+                ],
+                "exclusion_radius_xz": 0,
+                "exclusion_radius_y": 0,
+                "probability": 0.3,
+                "required_empty_blocks": 1,
+                "type": "minecraft:attached_to_leaves"
+              },
+              {
+                "block_provider": {
+                  "state": {
+                    "Name": "minecraft:pale_oak_leaves",
+                    "Properties": {
+                      "distance": "2",
+                      "persistent": "false",
+                      "waterlogged": "false"
+                    }
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "directions": [
+                  "north"
+                ],
+                "exclusion_radius_xz": 0,
+                "exclusion_radius_y": 0,
+                "probability": 0.3,
+                "required_empty_blocks": 1,
+                "type": "minecraft:attached_to_leaves"
+              }
+            ],
+            "dirt_provider": {
+              "state": {
+                "Name": "minecraft:pale_moss_block"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "foliage_placer": {
+              "offset": 1,
+              "radius": 0,
+              "type": "minecraft:dark_oak_foliage_placer"
+            },
+            "foliage_provider": {
+              "state": {
+                "Name": "minecraft:pale_oak_leaves",
+                "Properties": {
+                  "distance": "1",
+                  "persistent": "false",
+                  "waterlogged": "false"
+                }
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "force_dirt": true,
+            "ignore_vines": true,
+            "minimum_size": {
+              "limit": 1,
+              "lower_size": 0,
+              "upper_size": 0,
+              "type": "minecraft:two_layers_feature_size"
+            },
+            "trunk_placer": {
+              "base_height": 20,
+              "height_rand_a": 2,
+              "height_rand_b": 0,
+              "type": "minecraft:fancy_trunk_placer"
+            },
+            "trunk_provider": {
+              "state": {
+                "Name": "minecraft:pale_oak_log",
+                "Properties": {
+                  "axis": "y"
+                }
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:tree"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicate": {
+                "blocks": "minecraft:pale_oak_log",
+                "offset": [
+                  0,
+                  4,
+                  0
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "allowed_placement": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:pale_hanging_moss",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:pale_hanging_moss",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:any_of"
+            },
+            "direction": "up",
+            "layers": [
+              {
+                "height": 20,
+                "provider": {
+                  "state": {
+                    "Name": "minecraft:air"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                }
+              }
+            ],
+            "prioritize_tip": false
+          },
+          "type": "minecraft:block_column"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:pale_oak_log",
+              "offset": [
+                0,
+                4,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 6,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "min_inclusive": -1,
+              "max_inclusive": 1,
+              "type": "minecraft:uniform"
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "direction_of_search": "up",
+            "max_steps": 24,
+            "target_condition": {
+              "blocks": "minecraft:pale_hanging_moss",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:environment_scan"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

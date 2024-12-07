@@ -15,8 +15,20 @@
   },
   "placement": [
     {
-      "chance": 2,
-      "type": "minecraft:rarity_filter"
+      "count": {
+        "distribution": [
+          {
+            "data": 0,
+            "weight": 1
+          },
+          {
+            "data": 1,
+            "weight": 3
+          }
+        ],
+        "type": "minecraft:weighted_list"
+      },
+      "type": "minecraft:count"
     },
     {
       "xz_spread": {
@@ -41,7 +53,7 @@
     {
       "predicate": {
         "state": {
-          "Name": "minecraft:pale_oak_sapling",
+          "Name": "minecraft:dark_oak_sapling",
           "Properties": {
             "stage": "0"
           }

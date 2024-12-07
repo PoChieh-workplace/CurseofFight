@@ -409,6 +409,29 @@
                           "type": "minecraft:any_of"
                         },
                         {
+                          "predicates": [
+                            {
+                              "blocks": "minecraft:dark_oak_log",
+                              "offset": [
+                                2,
+                                -2,
+                                0
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            {
+                              "blocks": "minecraft:dark_oak_log",
+                              "offset": [
+                                3,
+                                -2,
+                                0
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            }
+                          ],
+                          "type": "minecraft:any_of"
+                        },
+                        {
                           "blocks": "#arboria:tree_branch_replaceable",
                           "offset": [
                             -1,

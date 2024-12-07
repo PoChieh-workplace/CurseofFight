@@ -4,6 +4,7 @@
     "minecraft:air",
     "minecraft:vine",
     "minecraft:glow_lichen",
+    "minecraft:pale_hanging_moss",
     "minecraft:oak_leaves",
     "minecraft:spruce_leaves",
     "minecraft:birch_leaves",
@@ -13,6 +14,7 @@
     "minecraft:azalea_leaves",
     "minecraft:flowering_azalea_leaves",
     "minecraft:mangrove_leaves",
-    "minecraft:cherry_leaves"
+    "minecraft:cherry_leaves",
+    "minecraft:pale_oak_leaves"
   ]
 }

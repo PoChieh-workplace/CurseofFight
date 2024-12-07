@@ -68,7 +68,7 @@
                             "type": "minecraft:block_predicate_filter"
                           },
                           {
-                            "count": 64,
+                            "count": 96,
                             "type": "minecraft:count"
                           }
                         ]
@@ -276,52 +276,35 @@
                       {
                         "feature": {
                           "config": {
-                            "decorators": [],
-                            "dirt_provider": {
-                              "state": {
-                                "Name": "minecraft:dark_oak_log",
-                                "Properties": {
-                                  "axis": "y"
+                            "allowed_placement": {
+                              "predicate": {
+                                "blocks": "#minecraft:features_cannot_replace",
+                                "type": "minecraft:matching_blocks"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "direction": "up",
+                            "layers": [
+                              {
+                                "height": {
+                                  "min_inclusive": 10,
+                                  "max_inclusive": 12,
+                                  "type": "minecraft:uniform"
+                                },
+                                "provider": {
+                                  "state": {
+                                    "Name": "minecraft:dark_oak_log",
+                                    "Properties": {
+                                      "axis": "y"
+                                    }
+                                  },
+                                  "type": "minecraft:simple_state_provider"
                                 }
-                              },
-                              "type": "minecraft:simple_state_provider"
-                            },
-                            "foliage_placer": {
-                              "offset": 0,
-                              "radius": 0,
-                              "type": "minecraft:acacia_foliage_placer"
-                            },
-                            "foliage_provider": {
-                              "state": {
-                                "Name": "minecraft:air"
-                              },
-                              "type": "minecraft:simple_state_provider"
-                            },
-                            "force_dirt": false,
-                            "ignore_vines": true,
-                            "minimum_size": {
-                              "limit": 1,
-                              "lower_size": 0,
-                              "upper_size": 0,
-                              "type": "minecraft:two_layers_feature_size"
-                            },
-                            "trunk_placer": {
-                              "base_height": 10,
-                              "height_rand_a": 2,
-                              "height_rand_b": 0,
-                              "type": "minecraft:straight_trunk_placer"
-                            },
-                            "trunk_provider": {
-                              "state": {
-                                "Name": "minecraft:dark_oak_log",
-                                "Properties": {
-                                  "axis": "y"
-                                }
-                              },
-                              "type": "minecraft:simple_state_provider"
-                            }
+                              }
+                            ],
+                            "prioritize_tip": false
                           },
-                          "type": "minecraft:tree"
+                          "type": "minecraft:block_column"
                         },
                         "placement": [
                           {
@@ -341,7 +324,7 @@
                                     "blocks": "minecraft:dark_oak_log",
                                     "offset": [
                                       1,
-                                      10,
+                                      8,
                                       1
                                     ],
                                     "type": "minecraft:matching_blocks"
@@ -394,8 +377,22 @@
                           {
                             "predicate": {
                               "predicate": {
-                                "blocks": "minecraft:dark_oak_log",
-                                "type": "minecraft:matching_blocks"
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:dark_oak_log",
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:dark_oak_log",
+                                    "offset": [
+                                      0,
+                                      1,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
                               },
                               "type": "minecraft:not"
                             },
@@ -465,7 +462,7 @@
                                   "blocks": "minecraft:dark_oak_log",
                                   "offset": [
                                     1,
-                                    10,
+                                    8,
                                     1
                                   ],
                                   "type": "minecraft:matching_blocks"
@@ -475,7 +472,7 @@
                                     "blocks": "minecraft:dark_oak_log",
                                     "offset": [
                                       1,
-                                      10,
+                                      8,
                                       0
                                     ],
                                     "type": "minecraft:matching_blocks"
@@ -505,7 +502,7 @@
                             "type": "minecraft:environment_scan"
                           },
                           {
-                            "count": 14,
+                            "count": 16,
                             "type": "minecraft:count"
                           }
                         ]
@@ -522,7 +519,7 @@
                     "type": "minecraft:block_predicate_filter"
                   },
                   {
-                    "count": 64,
+                    "count": 96,
                     "type": "minecraft:count"
                   }
                 ]
@@ -712,7 +709,7 @@
             "type": "minecraft:block_predicate_filter"
           },
           {
-            "count": 64,
+            "count": 96,
             "type": "minecraft:count"
           }
         ]

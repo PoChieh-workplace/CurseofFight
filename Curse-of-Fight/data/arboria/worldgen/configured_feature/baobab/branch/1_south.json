@@ -341,6 +341,29 @@
                           "type": "minecraft:any_of"
                         },
                         {
+                          "predicates": [
+                            {
+                              "blocks": "minecraft:acacia_log",
+                              "offset": [
+                                0,
+                                -2,
+                                -2
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            {
+                              "blocks": "minecraft:acacia_log",
+                              "offset": [
+                                0,
+                                -2,
+                                -3
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            }
+                          ],
+                          "type": "minecraft:any_of"
+                        },
+                        {
                           "blocks": "#arboria:tree_branch_replaceable",
                           "offset": [
                             0,

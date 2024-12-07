@@ -5,7 +5,7 @@
         "config": {
           "to_place": {
             "state": {
-              "Name": "minecraft:pale_moss_block"
+              "Name": "minecraft:rooted_dirt"
             },
             "type": "minecraft:simple_state_provider"
           }
@@ -39,7 +39,7 @@
         }
       ]
     },
-    "tries": 14,
+    "tries": 2,
     "xz_spread": 2,
     "y_spread": 2
   },

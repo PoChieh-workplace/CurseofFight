@@ -7,7 +7,7 @@
       },
       "features": [
         {
-          "chance": 0.02,
+          "chance": 0.01,
           "feature": {
             "feature": "arboria:spring/plains/hot",
             "placement": []
@@ -19,8 +19,20 @@
   },
   "placement": [
     {
-      "chance": 160,
-      "type": "minecraft:rarity_filter"
+      "count": {
+        "distribution": [
+          {
+            "data": 0,
+            "weight": 150
+          },
+          {
+            "data": 1,
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_list"
+      },
+      "type": "minecraft:count"
     },
     {
       "xz_spread": {

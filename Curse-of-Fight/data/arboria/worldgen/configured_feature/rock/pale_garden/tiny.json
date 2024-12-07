@@ -11,36 +11,15 @@
                     "entries": [
                       {
                         "data": {
-                          "Name": "minecraft:cobbled_deepslate"
-                        },
-                        "weight": 5
-                      },
-                      {
-                        "data": {
-                          "Name": "minecraft:deepslate",
-                          "Properties": {
-                            "axis": "y"
-                          }
-                        },
-                        "weight": 3
-                      },
-                      {
-                        "data": {
-                          "Name": "minecraft:deepslate",
-                          "Properties": {
-                            "axis": "x"
-                          }
+                          "Name": "minecraft:cobblestone"
                         },
                         "weight": 2
                       },
                       {
                         "data": {
-                          "Name": "minecraft:deepslate",
-                          "Properties": {
-                            "axis": "z"
-                          }
+                          "Name": "minecraft:andesite"
                         },
-                        "weight": 2
+                        "weight": 1
                       }
                     ],
                     "type": "minecraft:weighted_state_provider"
@@ -53,15 +32,15 @@
                   "predicate": {
                     "blocks": [
                       "minecraft:tuff",
-                      "minecraft:deepslate",
-                      "minecraft:cobbled_deepslate"
+                      "minecraft:andesite",
+                      "minecraft:cobblestone"
                     ],
                     "type": "minecraft:matching_blocks"
                   },
                   "type": "minecraft:block_predicate_filter"
                 },
                 {
-                  "count": 10,
+                  "count": 3,
                   "type": "minecraft:count"
                 },
                 {
@@ -72,7 +51,7 @@
                   },
                   "y_spread": {
                     "type": "minecraft:uniform",
-                    "min_inclusive": -2,
+                    "min_inclusive": -1,
                     "max_inclusive": 2
                   },
                   "type": "minecraft:random_offset"
@@ -88,7 +67,7 @@
             },
             "features": [
               {
-                "chance": 0.5,
+                "chance": 0.6,
                 "feature": {
                   "feature": {
                     "config": {
@@ -104,8 +83,8 @@
                         "predicate": {
                           "blocks": [
                             "minecraft:tuff",
-                            "minecraft:deepslate",
-                            "minecraft:cobbled_deepslate"
+                            "minecraft:andesite",
+                            "minecraft:cobblestone"
                           ],
                           "type": "minecraft:matching_blocks"
                         },
@@ -116,77 +95,6 @@
                     {
                       "count": 5,
                       "type": "minecraft:count"
-                    }
-                  ]
-                }
-              },
-              {
-                "chance": 0.5,
-                "feature": {
-                  "feature": {
-                    "config": {
-                      "to_place": {
-                        "state": {
-                          "Name": "minecraft:pale_moss_carpet"
-                        },
-                        "type": "minecraft:simple_state_provider"
-                      }
-                    },
-                    "type": "minecraft:simple_block"
-                  },
-                  "placement": [
-                    {
-                      "predicate": {
-                        "blocks": [
-                          "minecraft:tuff",
-                          "minecraft:deepslate",
-                          "minecraft:cobbled_deepslate"
-                        ],
-                        "type": "minecraft:matching_blocks"
-                      },
-                      "type": "minecraft:block_predicate_filter"
-                    },
-                    {
-                      "count": 6,
-                      "type": "minecraft:count"
-                    },
-                    {
-                      "xz_spread": {
-                        "type": "minecraft:uniform",
-                        "min_inclusive": -3,
-                        "max_inclusive": 3
-                      },
-                      "y_spread": {
-                        "type": "minecraft:uniform",
-                        "min_inclusive": -1,
-                        "max_inclusive": 3
-                      },
-                      "type": "minecraft:random_offset"
-                    },
-                    {
-                      "predicate": {
-                        "predicates": [
-                          {
-                            "blocks": "minecraft:air",
-                            "type": "minecraft:matching_blocks"
-                          },
-                          {
-                            "blocks": [
-                              "minecraft:tuff",
-                              "minecraft:deepslate",
-                              "minecraft:cobbled_deepslate"
-                            ],
-                            "offset": [
-                              0,
-                              -1,
-                              0
-                            ],
-                            "type": "minecraft:matching_blocks"
-                          }
-                        ],
-                        "type": "minecraft:all_of"
-                      },
-                      "type": "minecraft:block_predicate_filter"
                     }
                   ]
                 }
@@ -202,7 +110,7 @@
             "type": "minecraft:random_offset"
           },
           {
-            "count": 64,
+            "count": 32,
             "type": "minecraft:count"
           }
         ]

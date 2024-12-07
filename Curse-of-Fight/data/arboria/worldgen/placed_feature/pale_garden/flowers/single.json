@@ -1,0 +1,36 @@
+{
+  "feature": {
+    "type": "minecraft:simple_block",
+    "config": {
+      "schedule_tick": true,
+      "to_place": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:closed_eyeblossom"
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "count": 8,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "noise_factor": 40.0,
+      "noise_offset": -0.55,
+      "noise_to_count_ratio": 1,
+      "type": "minecraft:noise_based_count"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
