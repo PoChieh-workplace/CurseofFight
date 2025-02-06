@@ -1,5 +1,6 @@
 execute positioned over world_surface run spawnpoint @s ~ ~ ~
 gamemode spectator @s
+tag @s remove cursefight.alive
 execute as @a at @s run playsound cursefight.playerkilled player @s ~ ~ ~
 
 execute if entity @s[team=white] unless entity @a[team=white,tag=cursefight.alive] run kill @e[tag=alive,tag=white]
