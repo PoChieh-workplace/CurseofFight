@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "spider_attack": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": [
+                                "minecraft:spider",
+                                "minecraft:cave_spider"
+                            ],
+                            "nbt": "{Tags:[\"cursefight.activity.blood_moon\"]}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "spider_attack"
+        ]
+    ],
+    "rewards": {
+        "function": "cursefight:activity/random/blood_moon/spider_attack"
+    }
+}
