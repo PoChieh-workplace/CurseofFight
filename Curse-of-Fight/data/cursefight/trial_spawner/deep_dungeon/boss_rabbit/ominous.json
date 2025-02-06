@@ -1,0 +1,34 @@
+{
+    "items_to_drop_when_ominous": "cursefight:worldgen/deep_dungeon/loot/spawners/ominous_drop",
+    "spawn_range": 8,
+    "total_mobs": 2,
+    "total_mobs_added_per_player": 2,
+    "simultaneous_mobs": 1,
+    "simultaneous_mobs_added_per_player": 0,
+    "ticks_between_spawn": 10,
+    "spawn_potentials": [
+        {
+            "data": {
+                "entity": {
+                    "id": "minecraft:rabbit",
+                    "RabbitType": 99,
+                    "Health": 25,
+                    "attributes": [
+                        {"id": "movement_speed", "base": 0.7},
+                        {"id": "max_health", "base": 12}
+                    ],
+                    "active_effects": [
+                        {"id": "fire_resistance", "duration": 999999, "show_particles": false}
+                    ]
+                }
+            },
+            "weight": 1
+        }
+    ],
+    "loot_tables_to_eject": [
+        {
+            "data": "cursefight:worldgen/deep_dungeon/loot/spawners/ominous",
+            "weight": 1
+        }
+    ]
+}

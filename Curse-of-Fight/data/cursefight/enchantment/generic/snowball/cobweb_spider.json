@@ -1,0 +1,38 @@
+{
+    "description": "",
+    "supported_items": "minecraft:snowball",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+        "any"
+    ],
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:replace_block",
+                    "block_state": {
+                        "type": "minecraft:simple_state_provider",
+                        "state": {
+                            "Name": "minecraft:cobweb"
+                        }
+                    },
+                    "offset": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        ]
+    }
+}

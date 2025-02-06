@@ -116,7 +116,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:custom_name": "頂級乾糧",
-                                "minecraft:custom_model_data": 724102,
+                                "minecraft:custom_model_data": {"floats": [724102]},
                                 "minecraft:food": {
                                     "nutrition": 6,
                                     "saturation": 6,
@@ -157,7 +157,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 724101,
+                                "minecraft:custom_model_data": {"floats": [724101]},
                                 "minecraft:custom_name": "乾糧",
                                 "minecraft:food": {
                                     "nutrition": 3,

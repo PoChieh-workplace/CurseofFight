@@ -6,7 +6,7 @@
                 "item": {
                     "items": "minecraft:nether_star",
                     "components": {
-                        "minecraft:custom_model_data": 724002,
+                        "minecraft:custom_model_data": {"floats": [724002]},
                         "minecraft:custom_data": {
                             "advence_mobile_respawn": 1
                         }

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:wooden_tool_materials"
+  },
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:wooden_sword",
+    "components": {
+      "minecraft:attribute_modifiers": {
+          "modifiers": [
+              {
+                  "type": "minecraft:attack_damage",
+                  "id": "minecraft:sword_damage",
+                  "amount": 2,
+                  "operation": "add_value"
+              },
+              {
+                  "type": "minecraft:attack_speed",
+                  "id": "minecraft:sword_damage_speed",
+                  "amount": -0.6,
+                  "operation": "add_multiplied_base"
+              }
+          ]
+      }
+    }
+  }
+}

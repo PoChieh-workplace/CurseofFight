@@ -434,7 +434,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:custom_data": {"deep_dungeon_legendary_boss_key":1},
-                                "minecraft:custom_model_data":724011,
+                                "minecraft:custom_model_data": {"floats": [724011]},
                                 "custom_name":"[\"\",{\"text\":\"詛咒試煉 - 武器庫鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
                                 "lore":["[\"\",{\"text\":\"可以開啟傳奇武器庫中寶箱的鑰匙，不過要小心那房間裡面很危險喔！\",\"italic\":false,\"color\":\"dark_purple\"}]"],
                                 "minecraft:enchantments": {

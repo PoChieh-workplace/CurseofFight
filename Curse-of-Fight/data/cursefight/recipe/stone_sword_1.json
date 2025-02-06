@@ -17,7 +17,7 @@
             "minecraft:unbreakable": {
                 "show_in_tooltip": false
             },
-            "minecraft:custom_model_data": 724020,
+            "minecraft:custom_model_data": {"floats": [724020]},
             "minecraft:custom_data": {"stone_sword_1":1},
             "custom_name":"[\"\",{\"text\":\"遠古巨劍\",\"italic\":false,\"color\":\"dark_gray\"}]",
             "lore":[
@@ -34,14 +34,14 @@
                     {
                         "id": "cof.stone_sword_1.attack_damage",
                         "type": "minecraft:attack_damage",
-                        "amount": 5,
+                        "amount": 3,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "cof.stone_sword_1.attack_speed",
                         "type": "minecraft:attack_speed",
-                        "amount": -0.9,
+                        "amount": -0.85,
                         "operation": "add_multiplied_base",
                         "slot": "mainhand"
                     },

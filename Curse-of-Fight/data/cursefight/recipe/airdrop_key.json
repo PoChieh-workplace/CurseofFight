@@ -17,7 +17,7 @@
         "count": 1,
         "components": {
             "minecraft:custom_data": {"airdrop":1},
-            "minecraft:custom_model_data":724001,
+            "minecraft:custom_model_data": {"floats": [724001]},
             "custom_name":"[\"\",{\"text\":\"空投鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
             "lore":["[\"\",{\"text\":\"好像可以開啟某個寶箱呢！\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
             "minecraft:enchantments": {

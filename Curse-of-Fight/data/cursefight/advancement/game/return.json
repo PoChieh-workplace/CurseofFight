@@ -6,7 +6,7 @@
                 "item": {
                     "items": "minecraft:slime_ball",
                     "components": {
-                        "minecraft:custom_model_data": 724006,
+                        "minecraft:custom_model_data": {"floats": [724006]},
                         "minecraft:custom_data": {
                             "return": 1
                         }

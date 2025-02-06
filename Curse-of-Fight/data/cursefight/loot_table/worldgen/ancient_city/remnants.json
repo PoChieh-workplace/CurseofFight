@@ -43,7 +43,7 @@
                                 "minecraft:custom_data": {
                                     "advence_mobile_respawn": 1
                                 },
-                                "minecraft:custom_model_data": 724002,
+                                "minecraft:custom_model_data": {"floats": [724002]},
                                 "custom_name": "[\"\",{\"text\":\"移動式重生信標\",\"italic\":false,\"color\":\"gold\"}]",
                                 "lore": [
                                     "[\"\",{\"text\":\"尋找一個§b透天的地方§r後按下 \",\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後即可召喚\",\"color\":\"gray\"}]",

@@ -44,6 +44,8 @@ scoreboard objectives remove animation.timer.a
 scoreboard objectives remove animation.timer
 scoreboard objectives remove animation.playing
 
+bossbar remove minecraft:cursefight.activity.run
+
 gamerule doMobSpawning true
 gamerule doDaylightCycle true
 gamerule doImmediateRespawn false
@@ -71,6 +73,7 @@ team remove dark_blue
 team remove black
 team remove now_team
 tag @a remove gameplay
+tag @a remove cursefight.alive
 kill @e[tag=ad]
 kill @n[tag=lobby_center]
 kill @n[tag=border_center]

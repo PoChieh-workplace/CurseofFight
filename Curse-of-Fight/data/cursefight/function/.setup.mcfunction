@@ -54,6 +54,7 @@ scoreboard objectives add X dummy {"text":"常數"}
 scoreboard players set const10 X 10
 scoreboard players set const20 X 20
 scoreboard players set const30 X 30
+scoreboard players set const60 X 60
 scoreboard players set positive X -1
 scoreboard players set const1 X 1
 scoreboard players set const2 X 2

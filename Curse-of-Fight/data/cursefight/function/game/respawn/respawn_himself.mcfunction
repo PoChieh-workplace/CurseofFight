@@ -9,6 +9,7 @@ execute as @s run tellraw @a {"text":"","color":"white","bold":true,"extra":[{"t
 execute at @s positioned over motion_blocking positioned ~ ~30 ~ as @s run ride @s mount @n[type=minecraft:allay,tag=respawn_allay]
 
 scoreboard players set @s death 0
+tag @s add cursefight.alive
 gamemode survival @s
 title @s subtitle {"text":"","color":"white","bold":true,"extra":[{"text":"使用 ","color":"gray"},{"keybind":"key.sneak"},{"text":" 鍵回到戰場","color":"gray"}]}
 title @s title {"text":"你重生了","color":"green"}

@@ -23,6 +23,12 @@ scoreboard players set @a death 0
 scoreboard players set @a survival_time 0
 scoreboard players set @a refresh_player_mobkills 0
 scoreboard players set @a village_friendly 100
+
+# default activity
+scoreboard players set cursefight_activity_sleep_tick X 0
+scoreboard players set cursefight_activity_sleep_max_tick X 999999
+scoreboard players set cursefight_activity_start X 0
+
 scoreboard objectives setdisplay sidebar show_info
 scoreboard players set _forgiven_ activity_set 0
 scoreboard players set _worldborder_ activity_set 0
@@ -90,7 +96,7 @@ team join now_team 剩餘隊伍
 gamemode survival @a[team=!black]
 gamemode spectator @a[team=black]
 
-item replace entity @a[team=!black] armor.head with minecraft:iron_helmet[minecraft:enchantments={"cursefight:generic/curse/tick_breaking":1,"cursefight:generic/armor/high_land_breath":1,"minecraft:vanishing_curse":1,"minecraft:binding_curse":1}]
+item replace entity @a[team=!black] armor.head with minecraft:iron_helmet[minecraft:enchantments={"cursefight:generic/curse/tick_breaking":1,"cursefight:generic/armor/high_land_breath":2,"minecraft:vanishing_curse":1,"minecraft:binding_curse":1}]
 
 execute if score _mode_ info matches 0 run function cursefight:game/mode/classic/main
 execute if score _mode_ info matches 1 run function cursefight:game/mode/recovery/main

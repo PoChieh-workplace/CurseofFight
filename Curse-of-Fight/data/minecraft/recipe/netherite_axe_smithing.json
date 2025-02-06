@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "minecraft:diamond_axe",
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_axe",
+    "components": {
+      "minecraft:attribute_modifiers": {
+          "modifiers": [
+              {
+                  "type": "minecraft:attack_damage",
+                  "id": "minecraft:sword_damage",
+                  "amount": 7,
+                  "operation": "add_value"
+              },
+              {
+                  "type": "minecraft:attack_speed",
+                  "id": "minecraft:sword_damage_speed",
+                  "amount": -0.8,
+                  "operation": "add_multiplied_base"
+              }
+          ]
+      }
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

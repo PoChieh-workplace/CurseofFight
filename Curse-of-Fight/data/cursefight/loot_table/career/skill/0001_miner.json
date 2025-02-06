@@ -20,7 +20,7 @@
                                     "career": 1,
                                     "is_career":1
                                 },
-                                "minecraft:custom_model_data": 724901,
+                                "minecraft:custom_model_data": {"floats": [724901]},
                                 "minecraft:enchantments": {
                                     "minecraft:efficiency": 5
                                 }

@@ -103,8 +103,8 @@
                                         }
                                     ]
                                 },
-								"minecraft:custom_name": "[\"\",{\"text\":\"水稻\",\"italic\":false,\"color\":\"aqua\"}]",
-								"minecraft:custom_model_data": 724103
+								"minecraft:custom_model_data": {"floats": [724103]},
+								"minecraft:custom_name": "[\"\",{\"text\":\"水稻\",\"italic\":false,\"color\":\"aqua\"}]"
 							}
 						},
 						{

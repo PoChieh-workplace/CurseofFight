@@ -14,7 +14,7 @@
 		"count": 1,
 		"id": "minecraft:shield",
 		"components": {
-			"minecraft:custom_model_data": 724003,
+			"minecraft:custom_model_data": {"floats": [724003]},
 			"minecraft:custom_data": {
 				"shield": 1
 			},

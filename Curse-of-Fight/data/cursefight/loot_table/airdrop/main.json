@@ -377,7 +377,7 @@
                                 "minecraft:custom_data": {
                                     "advence_mobile_respawn": 1
                                 },
-                                "minecraft:custom_model_data": 724002,
+                                "minecraft:custom_model_data": {"floats": [724002]},
                                 "custom_name": "[\"\",{\"text\":\"移動式重生信標\",\"italic\":false,\"color\":\"gold\"}]",
                                 "lore": [
                                     "[\"\",{\"text\":\"尋找一個§b透天的地方§r後按下 \",\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後即可召喚\",\"color\":\"gray\"}]",
@@ -639,7 +639,7 @@
                                 "lore": [
                                     "[\"\",{\"text\":\"似乎喜歡上你身上的詛咒氣息，決定為你現身一戰\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"\"}]"
                                 ],
-                                "minecraft:custom_model_data": 724501,
+                                "minecraft:custom_model_data": {"floats": [724501]},
                                 "minecraft:custom_data": {
                                     "evoker": 1
                                 },
@@ -666,7 +666,7 @@
                                     "[\"\",{\"text\":\"生與死的仲裁者，冥王星的象徵，凡人見到他都因恐懼而顫抖\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"\"}]",
                                     "[\"\",{\"text\":\"受到玩家攻擊時有小機率召喚一隻凋零骷髏為你戰鬥\",\"italic\":false,\"color\":\"green\"}]"
                                 ],
-                                "minecraft:custom_model_data": 724502,
+                                "minecraft:custom_model_data": {"floats": [724502]},
                                 "minecraft:custom_data": {
                                     "dark_summon": 1
                                 },
@@ -701,7 +701,7 @@
                                     "[\"\",{\"text\":\"司掌死亡的魔物所配戴的斗篷，他的力量隨著靈魂留在了斗篷中\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"\"}]",
                                     "[\"\",{\"text\":\"去除大部分的負面效果，無視玩家與苦力怕所造成的箭矢與爆炸傷害\",\"italic\":false,\"color\":\"green\"}]"
                                 ],
-                                "minecraft:custom_model_data": 724503,
+                                "minecraft:custom_model_data": {"floats": [724503]},
                                 "minecraft:custom_data": {
                                     "dark_protection": 1
                                 },
@@ -798,7 +798,7 @@
                                     "[\"\",{\"text\":\"即使曾經作為刺客而被唾棄，不屈不撓的她依然用實力證明無人比她更適合「英雄」的稱號\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"\"}]",
                                     "[\"\",{\"text\":\"攻擊到的所有生物將會賦予最高二級的凋零效果\",\"italic\":false,\"color\":\"green\"}]"
                                 ],
-                                "minecraft:custom_model_data": 724504,
+                                "minecraft:custom_model_data": {"floats": [724504]},
                                 "minecraft:enchantments": {
                                     "minecraft:unbreaking": 3,
                                     "minecraft:looting": 3,

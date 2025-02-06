@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:crafting_transmute",
+    "category": "equipment",
+    "input": "minecraft:skeleton_skull",
+    "material": "minecraft:shield",
+    "result": "minecraft:shield"
+}

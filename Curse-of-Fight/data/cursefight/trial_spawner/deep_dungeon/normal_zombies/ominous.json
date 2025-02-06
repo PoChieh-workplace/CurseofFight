@@ -1,0 +1,65 @@
+{
+    "items_to_drop_when_ominous": "cursefight:worldgen/deep_dungeon/loot/spawners/ominous_drop",
+    "spawn_range": 15,
+    "total_mobs": 3,
+    "total_mobs_added_per_player": 2,
+    "simultaneous_mobs": 3,
+    "simultaneous_mobs_added_per_player": 2,
+    "ticks_between_spawn": 1,
+    "spawn_potentials": [
+        {
+            "data": {
+                "equipment": {
+                    "slot_drop_chances": 0,
+                    "loot_table": "cursefight:worldgen/deep_dungeon/mob/ominous_melee"
+                },
+                "entity": {
+                    "id": "minecraft:zombie"
+                }
+            },
+            "weight": 1
+        },
+        {
+            "data": {
+                "equipment": {
+                    "slot_drop_chances": 0,
+                    "loot_table": "cursefight:worldgen/deep_dungeon/mob/ominous_melee"
+                },
+                "entity": {
+                    "id": "minecraft:husk"
+                }
+            },
+            "weight": 1
+        },
+        {
+            "data": {
+                "equipment": {
+                    "slot_drop_chances": 0,
+                    "loot_table": "cursefight:worldgen/deep_dungeon/mob/ominous_melee"
+                },
+                "entity": {
+                    "id": "minecraft:drowned"
+                }
+            },
+            "weight": 1
+        },
+        {
+            "data": {
+                "equipment": {
+                    "slot_drop_chances": 0,
+                    "loot_table": "cursefight:worldgen/deep_dungeon/mob/ominous_melee"
+                },
+                "entity": {
+                    "id": "minecraft:skeleton"
+                }
+            },
+            "weight": 1
+        }
+    ],
+    "loot_tables_to_eject": [
+        {
+            "data": "cursefight:worldgen/deep_dungeon/loot/spawners/ominous",
+            "weight": 1
+        }
+    ]
+}

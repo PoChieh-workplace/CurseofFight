@@ -1,0 +1,29 @@
+{
+    "items_to_drop_when_ominous": "cursefight:worldgen/deep_dungeon/loot/spawners/ominous_drop",
+    "spawn_range": 8,
+    "total_mobs": 5,
+    "total_mobs_added_per_player": 5,
+    "simultaneous_mobs": 4,
+    "simultaneous_mobs_added_per_player": 3,
+    "ticks_between_spawn": 0,
+    "spawn_potentials": [
+        {
+            "data": {
+                "equipment": {
+                    "slot_drop_chances": 0,
+                    "loot_table": "cursefight:worldgen/deep_dungeon/mob/normal"
+                },
+                "entity": {
+                    "id": "minecraft:silverfish"
+                }
+            },
+            "weight": 1
+        }
+    ],
+    "loot_tables_to_eject": [
+        {
+            "data": "cursefight:worldgen/deep_dungeon/loot/spawners/ominous",
+            "weight": 1
+        }
+    ]
+}

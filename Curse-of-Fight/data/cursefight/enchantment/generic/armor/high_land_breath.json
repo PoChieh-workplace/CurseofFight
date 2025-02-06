@@ -72,8 +72,8 @@
                                         "numerator": 1,
                                         "denominator": {
                                             "type": "minecraft:linear",
-                                            "base": 50,
-                                            "per_level_above_first": 30
+                                            "base": 100,
+                                            "per_level_above_first": 50
                                         }
                                     }
                                 }

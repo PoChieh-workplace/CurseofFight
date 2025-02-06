@@ -6,7 +6,7 @@ execute store result score 剩餘隊伍 show_info run execute if entity @e[tag=a
 effect give @e[team=!,type=!minecraft:player,type=!minecraft:wolf] minecraft:glowing infinite 0
 
 # high_land_breath
-execute as @a at @s if entity @s[y=161,dy=1000,predicate=!cursefight:if_high_land_breath,scores={death=0},team=!black] run function cursefight:game/generic/player/high_land_effect
+execute as @a at @s if entity @s[y=161,dy=1000,predicate=!cursefight:if_high_land_breath,tag=cursefight.alive,team=!black] run function cursefight:game/generic/player/high_land_effect
 
 # spectate
 execute as @a[team=!black,scores={death=1..},gamemode=spectator] run function cursefight:game/spectate/team_only

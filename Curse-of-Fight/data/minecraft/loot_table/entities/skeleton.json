@@ -2,7 +2,7 @@
     "type": "minecraft:entity",
     "pools": [
         {
-            "bonus_rolls": 0.0,
+            "bonus_rolls": 0,
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -11,16 +11,16 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 2.0,
-                                "min": 0.0
+                                "max": 2,
+                                "min": 0
                             },
                             "function": "minecraft:set_count"
                         },
                         {
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": 0.0
+                                "max": 1,
+                                "min": 0
                             },
                             "enchantment": "minecraft:looting",
                             "function": "minecraft:enchanted_count_increase"
@@ -29,10 +29,10 @@
                     "name": "minecraft:arrow"
                 }
             ],
-            "rolls": 1.0
+            "rolls": 1
         },
         {
-            "bonus_rolls": 0.0,
+            "bonus_rolls": 0,
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -41,16 +41,16 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 2.0,
-                                "min": 0.0
+                                "max": 2,
+                                "min": 0
                             },
                             "function": "minecraft:set_count"
                         },
                         {
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": 0.0
+                                "max": 1,
+                                "min": 0
                             },
                             "enchantment": "minecraft:looting",
                             "function": "minecraft:enchanted_count_increase"
@@ -59,54 +59,341 @@
                     "name": "minecraft:bone"
                 }
             ],
-            "rolls": 1.0
+            "rolls": 1
         },
         {
-            "bonus_rolls": 0.0,
+            "bonus_rolls": 0,
             "entries": [
                 {
                     "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "weight": 4,
                     "functions": [
                         {
-                            "add": false,
+                            "function": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": 0.0
-                            },
-                            "function": "minecraft:set_count"
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "entity": "this",
-                            "name": {
-                                "text": "地表晶球配方",
-                                "color": "gold",
-                                "italic": false
+                                "min": 1,
+                                "max": 4
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_nugget",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags:[\"cursefight.activity.blood_moon\"]}"
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:skeleton_skull",
+                    "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "lore": [
-                                    "[\"\",{\"text\":\"使用後請至工作臺查詢！\",\"italic\":false,\"color\":\"dark_purple\"}]"
-                                ],
-                                "minecraft:recipes": [
-                                    "cursefight:return"
+                                "minecraft:custom_name": "[\"\",{\"text\":\"重力\",\"bold\":true,\"color\":\"gray\"},{\"text\":\"勇者頭顱\",\"bold\":true,\"color\":\"white\"}]",
+                                "minecraft:lore": [
+                                    "[\"\",{\"text\":\"可以使用\",\"italic\":true,\"color\":\"dark_purple\"},{\"text\":\"工作臺\",\"italic\":true,\"color\":\"green\"},{\"text\":\"合成附加屬性在\",\"italic\":true,\"color\":\"dark_purple\"},{\"text\":\"盾牌\",\"italic\":true,\"color\":\"green\"},{\"text\":\"上\",\"italic\":true,\"color\":\"dark_purple\"}]"
                                 ]
+                                
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:knockback_resistance",
+                                    "id": "cursefight:shield.skeleten.shield.add_armor_1",
+                                    "amount": 0.2,
+                                    "operation": "add_value",
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "attribute": "minecraft:armor_toughness",
+                                    "id": "cursefight:shield.skeleten.shield.add_armor_2",
+                                    "amount": 2,
+                                    "operation": "add_value",
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:unbreaking": 3
                             }
                         }
-                    ],
-                    "conditions": [
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:skeleton_skull",
+                    "functions": [
                         {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.27
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "[\"\",{\"text\":\"光\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"之賢者頭顱\",\"bold\":true,\"color\":\"white\"}]",
+                                "minecraft:lore": [
+                                    "[\"\",{\"text\":\"可以使用\",\"italic\":true,\"color\":\"dark_purple\"},{\"text\":\"工作臺\",\"italic\":true,\"color\":\"green\"},{\"text\":\"合成附加屬性在\",\"italic\":true,\"color\":\"dark_purple\"},{\"text\":\"盾牌\",\"italic\":true,\"color\":\"green\"},{\"text\":\"上\",\"italic\":true,\"color\":\"dark_purple\"}]"
+                                ]
+                                
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:movement_speed",
+                                    "id": "cursefight:shield.skeleten.shield.speed",
+                                    "amount": 0.15,
+                                    "operation": "add_multiplied_base",
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:unbreaking": 3
+                            }
                         }
-                    ],
-                    "name": "minecraft:knowledge_book"
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:skeleton_skull",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "[\"\",{\"text\":\"輕盈\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\"魁儡頭顱\",\"bold\":true,\"color\":\"white\"}]",
+                                "minecraft:lore": [
+                                    "[\"\",{\"text\":\"可以使用\",\"italic\":true,\"color\":\"dark_purple\"},{\"text\":\"工作臺\",\"italic\":true,\"color\":\"green\"},{\"text\":\"合成附加屬性在\",\"italic\":true,\"color\":\"dark_purple\"},{\"text\":\"盾牌\",\"italic\":true,\"color\":\"green\"},{\"text\":\"上\",\"italic\":true,\"color\":\"dark_purple\"}]"
+                                ]
+                                
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:fall_damage_multiplier",
+                                    "id": "cursefight:shield.skeleten.shield.fall_damage",
+                                    "amount": -0.4,
+                                    "operation": "add_multiplied_base",
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "attribute": "minecraft:jump_strength",
+                                    "id": "cursefight:shield.skeleten.shield.add_armor_2",
+                                    "amount": 0.2,
+                                    "operation": "add_multiplied_base",
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:unbreaking": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:skeleton_skull",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "[\"\",{\"text\":\"海洋\",\"bold\":true,\"color\":\"blue\"},{\"text\":\"魁儡頭顱\",\"bold\":true,\"color\":\"white\"}]",
+                                "minecraft:lore": [
+                                    "[\"\",{\"text\":\"可以使用\",\"italic\":true,\"color\":\"dark_purple\"},{\"text\":\"工作臺\",\"italic\":true,\"color\":\"green\"},{\"text\":\"合成附加屬性在\",\"italic\":true,\"color\":\"dark_purple\"},{\"text\":\"盾牌\",\"italic\":true,\"color\":\"green\"},{\"text\":\"上\",\"italic\":true,\"color\":\"dark_purple\"}]"
+                                ]
+                                
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:oxygen_bonus",
+                                    "id": "cursefight:shield.skeleten.shield.oxygen_bonus",
+                                    "amount": 1,
+                                    "operation": "add_multiplied_base",
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "attribute": "minecraft:submerged_mining_speed",
+                                    "id": "cursefight:shield.skeleten.shield.add_armor_2",
+                                    "amount": 1,
+                                    "operation": "add_multiplied_base",
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:unbreaking": 3
+                            }
+                        }
+                    ]
                 }
             ],
-            "rolls": 1.0
+            "conditions": [
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags:[\"cursefight.activity.blood_moon\"]}"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.18
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {"floats": [724006]},
+                                "minecraft:custom_data": {
+                                    "return": 1
+                                },
+                                "custom_name": "[\"\",{\"text\":\"地表晶球\",\"italic\":false,\"color\":\"gold\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"從安德身上提煉出的空間傳送，使用後將會傳送自己到地表\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                ],
+                                "minecraft:consumable": {
+                                    "consume_seconds": 10,
+                                    "animation": "spear",
+                                    "sound": "minecraft:block.end_portal_frame.fill",
+                                    "has_consume_particles": false,
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:slowness",
+                                                    "amplifier": 2,
+                                                    "duration": 200
+                                                },
+                                                {
+                                                    "id": "minecraft:darkness",
+                                                    "amplifier": 0,
+                                                    "duration": 100
+                                                },
+                                                {
+                                                    "id": "minecraft:nausea",
+                                                    "amplifier": 0,
+                                                    "duration": 100
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:play_sound",
+                                            "sound": "minecraft:block.portal.travel"
+                                        }
+                                    ]
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:efficiency": 5
+                                },
+                                "minecraft:use_cooldown": {
+                                    "seconds": 300,
+                                    "cooldown_group": "geode"
+                                },
+                                "minecraft:max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.08
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "position": {
+                                        "y": {
+                                            "min": -200,
+                                            "max": 20
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "random_sequence": "minecraft:entities/skeleton"

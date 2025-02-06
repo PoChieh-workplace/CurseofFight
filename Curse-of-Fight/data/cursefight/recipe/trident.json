@@ -20,7 +20,7 @@
                     {
                         "id": "cof.trident.attack",
                         "type": "minecraft:attack_damage",
-                        "amount": 7,
+                        "amount": 6,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
@@ -30,6 +30,12 @@
                         "amount": -0.02,
                         "operation": "add_value",
                         "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:attack_speed",
+                        "id": "minecraft:damage_speed",
+                        "amount": -0.6,
+                        "operation": "add_multiplied_base"
                     }
                 ]
             }

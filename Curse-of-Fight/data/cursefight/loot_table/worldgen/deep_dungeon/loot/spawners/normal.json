@@ -342,7 +342,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:custom_data": {"deep_dungeon_legendary_key":1},
-                                "minecraft:custom_model_data":724010,
+                                "minecraft:custom_model_data": {"floats": [724010]},
                                 "custom_name":"[\"\",{\"text\":\"詛咒試煉 - 小鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
                                 "lore":["[\"\",{\"text\":\"可以開啟附近小寶箱的鑰匙，似乎是不錯的工具呢！\",\"italic\":false,\"color\":\"dark_purple\"}]"],
                                 "minecraft:enchantments": {

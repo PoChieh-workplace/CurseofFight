@@ -6,7 +6,7 @@
                 "item": {
                     "items": "minecraft:compass",
                     "components": {
-                        "minecraft:custom_model_data": 724012,
+                        "minecraft:custom_model_data": {"floats": [724012]},
                         "minecraft:custom_data": {
                             "tool": "found_player"
                         }

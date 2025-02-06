@@ -1,1 +1,1 @@
-execute as @a[team=!black,scores={death=0}] run scoreboard players add @s survival_time 1
+execute as @a[team=!black,tag=cursefight.alive] run scoreboard players add @s survival_time 1
