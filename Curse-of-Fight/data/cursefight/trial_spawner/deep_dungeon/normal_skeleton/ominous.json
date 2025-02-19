@@ -14,7 +14,8 @@
                     "loot_table": "cursefight:worldgen/deep_dungeon/mob/ominous_ranged"
                 },
                 "entity": {
-                    "id": "minecraft:skeleton"
+                    "id": "minecraft:skeleton",
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob"]
                 }
             },
             "weight": 1
@@ -26,7 +27,8 @@
                     "loot_table": "cursefight:worldgen/deep_dungeon/mob/ominous_ranged"
                 },
                 "entity": {
-                    "id": "minecraft:bogged"
+                    "id": "minecraft:bogged",
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob"]
                 }
             },
             "weight": 1
@@ -38,7 +40,8 @@
                     "loot_table": "cursefight:worldgen/deep_dungeon/mob/ominous_ranged"
                 },
                 "entity": {
-                    "id": "minecraft:stray"
+                    "id": "minecraft:stray",
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob"]
                 }
             },
             "weight": 1

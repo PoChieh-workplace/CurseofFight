@@ -18,7 +18,8 @@
                     "attributes": [
                         {"id": "movement_speed", "base": 0.06},
                         {"id": "max_health", "base": 20}
-                    ]
+                    ],
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
                 }
             },
             "weight": 1

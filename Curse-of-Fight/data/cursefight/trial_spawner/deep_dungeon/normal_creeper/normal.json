@@ -13,7 +13,8 @@
                     "loot_table": "cursefight:worldgen/deep_dungeon/mob/normal"
                 },
                 "entity": {
-                    "id": "minecraft:creeper"
+                    "id": "minecraft:creeper",
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
                 }
             },
             "weight": 1

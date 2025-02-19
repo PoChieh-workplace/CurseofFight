@@ -9,12 +9,13 @@
         {
             "data": {
                 "entity": {
-                    "id": "minecraft:vex",
+                    "id": "minecraft:evoker",
+                    "Health": 20,
+                    "DeathLootTable": "minecraft:empty",
                     "attributes": [
-                        {"id": "scale", "base": 0.5},
-                        {"id": "follow_range", "base": 50},
-                        {"id": "flying_speed", "base": 2}
-                    ]
+                        {"id": "max_health", "base": 20}
+                    ],
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
                 }
             },
             "weight": 1

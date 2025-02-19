@@ -1,7 +1,7 @@
 {
     "spawn_range": 10,
-    "total_mobs": 5,
-    "total_mobs_added_per_player": 5,
+    "total_mobs": 4,
+    "total_mobs_added_per_player": 3,
     "simultaneous_mobs": 3,
     "simultaneous_mobs_added_per_player": 2,
     "ticks_between_spawn": 0,
@@ -18,7 +18,8 @@
                     "IsBaby": 1,
                     "attributes": [
                         {"id": "max_health", "base": 10}
-                    ]
+                    ],
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
                 }
             },
             "weight": 1

@@ -18,7 +18,8 @@
                             "amplifier": 0,
                             "show_particles": 1
                         }
-                    ]
+                    ],
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob"]
                 }
             },
             "weight": 1

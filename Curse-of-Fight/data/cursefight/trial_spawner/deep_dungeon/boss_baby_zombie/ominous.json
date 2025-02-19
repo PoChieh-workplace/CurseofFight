@@ -1,8 +1,8 @@
 {
     "items_to_drop_when_ominous": "cursefight:worldgen/deep_dungeon/loot/spawners/ominous_drop",
     "spawn_range": 10,
-    "total_mobs": 5,
-    "total_mobs_added_per_player": 5,
+    "total_mobs": 4,
+    "total_mobs_added_per_player": 3,
     "simultaneous_mobs": 4,
     "simultaneous_mobs_added_per_player": 3,
     "ticks_between_spawn": 0,
@@ -21,7 +21,8 @@
                         {"id": "jump_strength", "base": 0.84},
                         {"id": "scale", "base": 0.5},
                         {"id": "max_health", "base": 10}
-                    ]
+                    ],
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob","cursefight.deep_dungeon.boss.baby_zombies"]
                 }
             },
             "weight": 1

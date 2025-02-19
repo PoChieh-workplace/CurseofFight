@@ -50,7 +50,8 @@
                     "loot_table": "cursefight:worldgen/deep_dungeon/mob/ominous_melee"
                 },
                 "entity": {
-                    "id": "minecraft:skeleton"
+                    "id": "minecraft:skeleton",
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob"]
                 }
             },
             "weight": 1

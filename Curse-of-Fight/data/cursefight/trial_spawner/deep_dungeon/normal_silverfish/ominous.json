@@ -14,7 +14,8 @@
                     "loot_table": "cursefight:worldgen/deep_dungeon/mob/normal"
                 },
                 "entity": {
-                    "id": "minecraft:silverfish"
+                    "id": "minecraft:silverfish",
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob"]
                 }
             },
             "weight": 1

@@ -18,7 +18,8 @@
                     ],
                     "active_effects": [
                         {"id": "fire_resistance", "duration": 999999, "show_particles": false}
-                    ]
+                    ],
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
                 }
             },
             "weight": 1

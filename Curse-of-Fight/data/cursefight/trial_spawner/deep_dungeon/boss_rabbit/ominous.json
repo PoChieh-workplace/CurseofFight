@@ -19,7 +19,8 @@
                     ],
                     "active_effects": [
                         {"id": "fire_resistance", "duration": 999999, "show_particles": false}
-                    ]
+                    ],
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob","cursefight.deep_dungeon.boss.rabbit"]
                 }
             },
             "weight": 1

@@ -19,7 +19,8 @@
                     "attributes": [
                         {"id": "scale", "base": 0.5},
                         {"id": "max_health", "base": 10}
-                    ]
+                    ],
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob"]
                 }
             },
             "weight": 1

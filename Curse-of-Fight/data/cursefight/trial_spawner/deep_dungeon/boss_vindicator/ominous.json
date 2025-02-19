@@ -18,7 +18,8 @@
                     "HandItems": [
                         {"id": "netherite_axe", "count": 1}
                     ],
-                    "HandDropChances": [0]
+                    "HandDropChances": [0],
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob","cursefight.deep_dungeon.boss.vindicator"]
                 }
             },
             "weight": 1

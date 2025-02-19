@@ -14,7 +14,8 @@
                     "loot_table": "cursefight:worldgen/deep_dungeon/mob/normal_ranged"
                 },
                 "entity": {
-                    "id": "minecraft:illusioner"
+                    "id": "minecraft:illusioner",
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob","cursefight.deep_dungeon.boss.illusioner"]
                 }
             },
             "weight": 1

@@ -4,7 +4,7 @@
     "total_mobs": 2,
     "total_mobs_added_per_player": 2,
     "simultaneous_mobs": 1,
-    "simultaneous_mobs_added_per_player": 0.5,
+    "simultaneous_mobs_added_per_player": 1,
     "ticks_between_spawn": 40,
     "spawn_potentials": [
         {
@@ -19,7 +19,8 @@
                     "DeathLootTable": "minecraft:empty",
                     "attributes": [
                         {"id": "max_health", "base": 30}
-                    ]
+                    ],
+                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob","cursefight.deep_dungeon.boss.evoker"]
                 }
             },
             "weight": 1
