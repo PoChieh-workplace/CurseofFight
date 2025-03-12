@@ -1,0 +1,75 @@
+{
+	"name": "explorify:ruins/house",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 13,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		},
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/house/ruins_01",
+				"projection": "rigid",
+				"processors": "explorify:ruins_house_processor"
+			}
+		},
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/house/ruins_02",
+				"projection": "rigid",
+				"processors": "explorify:ruins_house_processor"
+			}
+		},
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/house/01",
+				"projection": "rigid",
+				"processors": "explorify:ruins_house_processor"
+			}
+		},
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/house/02",
+				"projection": "rigid",
+				"processors": "explorify:ruins_house_processor"
+			}
+		},
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/house/03",
+				"projection": "rigid",
+				"processors": "explorify:ruins_house_processor"
+			}
+		},
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/house/04",
+				"projection": "rigid",
+				"processors": "explorify:ruins_house_processor"
+			}
+		},
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/house/05",
+				"projection": "rigid",
+				"processors": "explorify:ruins_house_processor"
+			}
+		}
+	]
+}

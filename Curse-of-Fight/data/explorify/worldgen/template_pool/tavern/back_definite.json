@@ -1,0 +1,15 @@
+{
+	"name": "explorify:tavern/back_definite",
+	"fallback": "explorify:tavern/back",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:tavern/back/01",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		}
+	]
+}

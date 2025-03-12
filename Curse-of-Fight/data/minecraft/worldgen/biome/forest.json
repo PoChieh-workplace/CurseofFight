@@ -16,10 +16,12 @@
         "music": [
             {
                 "data": {
-                    "max_delay": 24000,
-                    "min_delay": 12000,
+                    "max_delay": 800,
+                    "min_delay": 100,
                     "replace_current_music": false,
-                    "sound": "minecraft:music.overworld.forest"
+                    "sound": {
+                        "sound_id": "minecraft:music.overworld.dense_forest"
+                    }
                 },
                 "weight": 1
             }
@@ -172,7 +174,7 @@
                 "type": "minecraft:wolf",
                 "maxCount": 4,
                 "minCount": 4,
-        "weight": 5
+                "weight": 5
             }
         ],
         "misc": [],

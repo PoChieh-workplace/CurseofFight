@@ -1,0 +1,15 @@
+{
+  "name": "explorify:guide_post/cold",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "explorify:guide_post/cold/whole",
+        "projection": "rigid",
+        "processors": "explorify:guide_post_randomization"
+      }
+    }
+  ]
+}

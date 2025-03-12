@@ -1,0 +1,129 @@
+{
+	"name": "explorify:dark_forest_settlement/house",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/01",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/02",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/03",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/04",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/05",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/06",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/07",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/08",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/09",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/10",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/11",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/12",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/house/13",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		}
+	]
+}

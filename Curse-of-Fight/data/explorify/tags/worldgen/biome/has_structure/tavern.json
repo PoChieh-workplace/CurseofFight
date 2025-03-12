@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:has_structure/village_plains",
+		"minecraft:forest",
+		"minecraft:flower_forest"
+	]
+}

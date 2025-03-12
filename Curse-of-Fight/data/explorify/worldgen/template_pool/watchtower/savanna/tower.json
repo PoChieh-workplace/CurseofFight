@@ -1,0 +1,15 @@
+{
+  "name": "explorify:watchtower/savanna/tower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "explorify:watchtower/savanna/tower/whole",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

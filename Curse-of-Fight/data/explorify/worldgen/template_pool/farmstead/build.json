@@ -1,0 +1,114 @@
+{
+	"name": "explorify:farmstead/build",
+	"fallback": "explorify:farmstead/build",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:farmstead/build/animal_pen",
+				"projection": "rigid",
+				"processors": "minecraft:street_plains"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:farmstead/build/animal_shelter",
+				"projection": "rigid",
+				"processors": "minecraft:street_plains"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:farmstead/build/bees",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_plains"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:farmstead/build/wheat_farm",
+				"projection": "rigid",
+				"processors": "minecraft:street_plains"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:farmstead/build/wood",
+				"projection": "rigid",
+				"processors": "minecraft:street_plains"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "explorify:farmstead/build/tree",
+				"projection": "rigid",
+				"processors": "minecraft:street_plains"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "explorify:farmstead/build/sugar_cane",
+				"projection": "rigid",
+				"processors": "minecraft:street_plains"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "explorify:farmstead/build/well",
+				"projection": "rigid",
+				"processors": "minecraft:street_plains"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "explorify:farmstead/build/potato_beetroot_farm",
+				"projection": "rigid",
+				"processors": "minecraft:street_plains"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "explorify:farmstead/build/pumpkin_farm",
+				"projection": "rigid",
+				"processors": "minecraft:street_plains"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "explorify:farmstead/build/road",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_plains"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "explorify:farmstead/build/turn",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_plains"
+			}
+		}
+	]
+}

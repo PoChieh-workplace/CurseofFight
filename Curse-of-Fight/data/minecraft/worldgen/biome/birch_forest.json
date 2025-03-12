@@ -16,34 +16,36 @@
         "music": [
             {
                 "data": {
-                    "max_delay": 24000,
-                    "min_delay": 12000,
+                    "max_delay": 800,
+                    "min_delay": 100,
                     "replace_current_music": false,
-                    "sound": "minecraft:music.overworld.forest"
+                    "sound": {
+                        "sound_id": "minecraft:music.overworld.dense_forest"
+                    }
                 },
                 "weight": 1
             }
         ],
-    "music_volume": 1.0,
+        "music_volume": 1.0,
         "sky_color": 8037887,
         "water_color": 4159204,
         "water_fog_color": 329011
     },
     "features": [
-    [
-      "arboria:birch_forest/coarse_dirt/layer_1",
-      "arboria:birch_forest/coarse_dirt/layer_2",
-      "arboria:birch_forest/coarse_dirt/layer_3",
-      "arboria:birch_forest/coarse_dirt/layer_4",
-      "arboria:birch_forest/coarse_dirt/layer_5",
-      "arboria:birch_forest/coarse_dirt/layer_6",
-      "arboria:birch_forest/coarse_dirt/layer_7",
-      "arboria:birch_forest/coarse_dirt/layer_8",
-      "arboria:birch_forest/coarse_dirt/layer_9",
-      "arboria:birch_forest/rooted_dirt"
-    ],
-    [
-      "minecraft:lake_lava_underground"
+        [
+            "arboria:birch_forest/coarse_dirt/layer_1",
+            "arboria:birch_forest/coarse_dirt/layer_2",
+            "arboria:birch_forest/coarse_dirt/layer_3",
+            "arboria:birch_forest/coarse_dirt/layer_4",
+            "arboria:birch_forest/coarse_dirt/layer_5",
+            "arboria:birch_forest/coarse_dirt/layer_6",
+            "arboria:birch_forest/coarse_dirt/layer_7",
+            "arboria:birch_forest/coarse_dirt/layer_8",
+            "arboria:birch_forest/coarse_dirt/layer_9",
+            "arboria:birch_forest/rooted_dirt"
+        ],
+        [
+            "minecraft:lake_lava_underground"
         ],
         [
             "minecraft:amethyst_geode"
@@ -57,9 +59,9 @@
             "terralith:birch/disk_stone"
         ],
         [
-      "arboria:ore_dirt",
-      "arboria:ore_gravel_lower",
-      "arboria:ore_gravel_upper",
+            "arboria:ore_dirt",
+            "arboria:ore_gravel_lower",
+            "arboria:ore_gravel_upper",
             "minecraft:ore_granite_upper",
             "minecraft:ore_granite_lower",
             "minecraft:ore_diorite_upper",
@@ -83,60 +85,60 @@
             "minecraft:ore_lapis",
             "minecraft:ore_lapis_buried",
             "minecraft:ore_copper",
-      "arboria:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+            "arboria:underwater_magma",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel"
         ],
-    [
-      "arboria:birch_forest/spring",
-      "arboria:birch_forest/calcite/blobs",
-      "arboria:birch_forest/calcite/steep"
-    ],
+        [
+            "arboria:birch_forest/spring",
+            "arboria:birch_forest/calcite/blobs",
+            "arboria:birch_forest/calcite/steep"
+        ],
         [
             "minecraft:spring_water",
-      "minecraft:spring_lava",
-      "arboria:birch_forest/spikes",
-      "arboria:birch_forest/rocks/layer_1",
-      "arboria:birch_forest/rocks/layer_2",
-      "arboria:birch_forest/rocks/layer_3",
-      "arboria:birch_forest/fallen_trees/layer_1",
-      "arboria:birch_forest/fallen_trees/layer_2",
-      "arboria:birch_forest/fallen_trees/layer_3",
-      "arboria:birch_forest/fallen_trees/layer_4"
+            "minecraft:spring_lava",
+            "arboria:birch_forest/spikes",
+            "arboria:birch_forest/rocks/layer_1",
+            "arboria:birch_forest/rocks/layer_2",
+            "arboria:birch_forest/rocks/layer_3",
+            "arboria:birch_forest/fallen_trees/layer_1",
+            "arboria:birch_forest/fallen_trees/layer_2",
+            "arboria:birch_forest/fallen_trees/layer_3",
+            "arboria:birch_forest/fallen_trees/layer_4"
         ],
         [
             "minecraft:glow_lichen",
-      "arboria:birch_forest/grass/layer_1",
-      "arboria:birch_forest/grass/layer_2",
-      "arboria:birch_forest/grass/layer_3",
-      "arboria:birch_forest/grass/layer_4",
-      "arboria:birch_forest/grass/layer_5",
-      "arboria:birch_forest/tall_grass",
-      "arboria:birch_forest/trees/layer_1",
-      "arboria:birch_forest/trees/layer_2",
-      "arboria:birch_forest/trees/layer_3",
-      "arboria:birch_forest/trees/layer_4",
-      "arboria:birch_forest/trees/layer_5",
-      "arboria:birch_forest/trees/layer_6",
-      "arboria:birch_forest/trees/layer_7",
-      "arboria:birch_forest/trees/layer_8",
-      "arboria:birch_forest/tree_lichen",
-      "arboria:birch_forest/flowers/forest",
-      "arboria:birch_forest/flowers/mari",
-      "arboria:birch_forest/flowers/layer_1",
-      "arboria:birch_forest/flowers/layer_2",
-      "arboria:birch_forest/mushrooms",
+            "arboria:birch_forest/grass/layer_1",
+            "arboria:birch_forest/grass/layer_2",
+            "arboria:birch_forest/grass/layer_3",
+            "arboria:birch_forest/grass/layer_4",
+            "arboria:birch_forest/grass/layer_5",
+            "arboria:birch_forest/tall_grass",
+            "arboria:birch_forest/trees/layer_1",
+            "arboria:birch_forest/trees/layer_2",
+            "arboria:birch_forest/trees/layer_3",
+            "arboria:birch_forest/trees/layer_4",
+            "arboria:birch_forest/trees/layer_5",
+            "arboria:birch_forest/trees/layer_6",
+            "arboria:birch_forest/trees/layer_7",
+            "arboria:birch_forest/trees/layer_8",
+            "arboria:birch_forest/tree_lichen",
+            "arboria:birch_forest/flowers/forest",
+            "arboria:birch_forest/flowers/mari",
+            "arboria:birch_forest/flowers/layer_1",
+            "arboria:birch_forest/flowers/layer_2",
+            "arboria:birch_forest/mushrooms",
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",
-      "arboria:patch_sugar_cane",
-      "arboria:patch_pumpkin",
-      "arboria:birch_forest/moss_patch"
+            "arboria:patch_sugar_cane",
+            "arboria:patch_pumpkin",
+            "arboria:birch_forest/moss_patch"
         ],
         [
-      "minecraft:freeze_top_layer",
-      "arboria:bottom/stone_slab",
-      "arboria:bottom/snow"
+            "minecraft:freeze_top_layer",
+            "arboria:bottom/stone_slab",
+            "arboria:bottom/snow"
         ]
     ],
     "has_precipitation": true,
@@ -154,26 +156,26 @@
         "creature": [
             {
                 "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
+                "maxCount": 4,
+                "minCount": 4,
                 "weight": 12
             },
             {
                 "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 4,
+                "maxCount": 4,
+                "minCount": 4,
                 "weight": 10
             },
             {
                 "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
+                "maxCount": 4,
+                "minCount": 4,
                 "weight": 10
             },
             {
                 "type": "minecraft:cow",
-        "maxCount": 4,
-        "minCount": 4,
+                "maxCount": 4,
+                "minCount": 4,
                 "weight": 8
             }
         ],

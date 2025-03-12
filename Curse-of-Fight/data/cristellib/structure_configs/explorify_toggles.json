@@ -1,0 +1,29 @@
+{
+  "name": "structure_toggles",
+  "subPath": "explorify",
+  "header": "",
+  "config_type": "ENABLE_DISABLE",
+  "comments": {
+  },
+  "structure_sets": [
+    {
+      "modid": "explorify",
+      "structure_set": [
+        "explorify:badlands_pyramids",
+        "explorify:black_spirals",
+        "explorify:campsites",
+        "explorify:dark_forest_settlements",
+        "explorify:desert_shrines",
+        "explorify:end_shipwrecks",
+        "explorify:farmsteads",
+        "explorify:guide_posts",
+        "explorify:mangrove_huts",
+        "explorify:mausoleums",
+        "explorify:ruins",
+        "explorify:supply_caches",
+        "explorify:taverns",
+        "explorify:watchtowers"
+      ]
+    }
+  ]
+}

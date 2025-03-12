@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{spawn:"infested_cave"}},id:"minecraft:iron_nugget"}}] at @s run function cursefight:biome/infested_caves/spider_wool

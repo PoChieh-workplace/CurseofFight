@@ -1,0 +1,30 @@
+{
+  "name": "explorify:bastion_spiral/bridge",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "explorify:bastion_spiral/bridge/ruined",
+        "projection": "rigid",
+        "processors": "explorify:spiral_bridge_randomization"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "explorify:bastion_spiral/bridge/normal",
+        "projection": "rigid",
+        "processors": "explorify:spiral_bridge_randomization"
+      }
+    }
+  ]
+}

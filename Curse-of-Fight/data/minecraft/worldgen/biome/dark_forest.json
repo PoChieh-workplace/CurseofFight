@@ -10,24 +10,26 @@
         "grass_color_modifier": "dark_forest",
         "mood_sound": {
             "block_search_extent": 8,
-      "offset": 2.0,
+            "offset": 2.0,
             "sound": "minecraft:ambient.cave",
             "tick_delay": 6000
         },
         "music": [
             {
                 "data": {
-                    "max_delay": 24000,
-                    "min_delay": 12000,
+                    "max_delay": 800,
+                    "min_delay": 100,
                     "replace_current_music": false,
-                    "sound": "minecraft:music.overworld.forest"
+                    "sound": {
+                        "sound_id": "minecraft:music.overworld.dense_forest"
+                    }
                 },
                 "weight": 1
             }
         ],
-    "music_volume": 1.0,
+        "music_volume": 1.0,
         "sky_color": 7972607,
-    "water_color": 4159204,
+        "water_color": 4159204,
         "water_fog_color": 329011
     },
     "features": [
@@ -41,7 +43,7 @@
             "arboria:dark_forest/coarse_dirt/layer_2"
         ],
         [
-      "minecraft:lake_lava_underground"
+            "minecraft:lake_lava_underground"
         ],
         [
             "minecraft:amethyst_geode"

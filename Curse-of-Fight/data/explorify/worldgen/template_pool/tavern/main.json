@@ -1,0 +1,33 @@
+{
+	"name": "explorify:tavern/main",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:tavern/main/01",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:tavern/main/03",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:tavern/main/02",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		}
+	]
+}

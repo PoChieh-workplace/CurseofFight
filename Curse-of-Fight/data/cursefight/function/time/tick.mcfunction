@@ -31,3 +31,8 @@ execute as @a[scores={open_barrel=1..}] run function cursefight:game/generic/pla
 
 # parachute
 execute as @e[type=minecraft:allay,tag=parachute_allay] run function cursefight:game/spreadplayers/parachute/tick
+
+
+
+# infested cave
+function cursefight:biome/infested_caves/tick

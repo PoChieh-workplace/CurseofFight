@@ -1,0 +1,84 @@
+{
+	"name": "explorify:campsite/tent",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:campsite/tent/01",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:campsite/tent/02",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:campsite/tent/03",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:campsite/tent/04",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:campsite/tent/05",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:campsite/tent/06",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:campsite/tent/07",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:campsite/tent/08",
+				"projection": "rigid",
+				"processors": "minecraft:mossify_10_percent"
+			}
+		}
+	]
+}

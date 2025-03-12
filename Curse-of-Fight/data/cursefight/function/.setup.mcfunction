@@ -45,6 +45,7 @@ scoreboard objectives add village_friendly dummy {"text":"村民友好度"}
 scoreboard objectives add found_player_time dummy {"text":"尋找敵人冷卻時間"}
 scoreboard objectives add cursefight.activity.demon_contract.benefit dummy {"text":"惡魔契約好處"}
 scoreboard objectives add cursefight.activity.demon_contract.harm dummy {"text":"惡魔契約成本"}
+scoreboard objectives add cursefight_temp dummy {"text":"臨時"}
 
 
 worldborder center ~ ~

@@ -1,0 +1,42 @@
+{
+	"name": "explorify:ruins/house",
+	"fallback": "explorify:ruins/treasure_fallback",
+	"elements": [
+    {
+			"weight": 17,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/treasure/nothing",
+				"projection": "rigid",
+				"processors": "explorify:ruins_house_processor"
+			}
+		},
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/treasure/dungeon_chest",
+				"projection": "rigid",
+				"processors": "explorify:ruins_house_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/treasure/temple_chest",
+				"projection": "rigid",
+				"processors": "explorify:ruins_house_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/treasure/temple_barrel",
+				"projection": "rigid",
+				"processors": "explorify:ruins_house_processor"
+			}
+		}
+	]
+}

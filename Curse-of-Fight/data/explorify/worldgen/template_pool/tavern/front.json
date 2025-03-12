@@ -1,0 +1,69 @@
+{
+	"name": "explorify:tavern/front",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:tavern/front/01",
+				"projection": "rigid",
+				"processors": "explorify:tavern_randomization"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:tavern/front/02",
+				"projection": "rigid",
+				"processors": "explorify:tavern_randomization"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:tavern/front/03",
+				"projection": "rigid",
+				"processors": "explorify:tavern_randomization"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:tavern/front/04",
+				"projection": "rigid",
+				"processors": "explorify:tavern_randomization"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:tavern/front/05",
+				"projection": "rigid",
+				"processors": "explorify:tavern_randomization"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:tavern/front/06",
+				"projection": "rigid",
+				"processors": "explorify:tavern_randomization"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:tavern/front/07",
+				"projection": "rigid",
+				"processors": "explorify:tavern_randomization"
+			}
+		}
+	]
+}

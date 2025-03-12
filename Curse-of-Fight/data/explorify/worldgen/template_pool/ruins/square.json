@@ -1,0 +1,15 @@
+{
+	"name": "explorify:ruins/house",
+	"fallback": "minecraft:empty",
+	"elements": [
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/square/01",
+				"projection": "terrain_matching",
+				"processors": "explorify:ruins_path_processor"
+			}
+		}
+	]
+}

@@ -15,7 +15,20 @@
     },
     "sky_color": 7907327,
     "water_color": 8479276,
-    "water_fog_color": 4600854
+    "water_fog_color": 4600854,
+    "music": [
+      {
+        "data": {
+          "max_delay": 800,
+          "min_delay": 100,
+          "replace_current_music": false,
+          "sound": {
+            "sound_id": "minecraft:music.overworld.deep_cave"
+          }
+        },
+        "weight": 1
+      }
+    ]
   },
   "features": [
     [],

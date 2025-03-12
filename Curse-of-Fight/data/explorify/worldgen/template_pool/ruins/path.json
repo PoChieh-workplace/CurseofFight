@@ -1,0 +1,39 @@
+{
+	"name": "explorify:ruins/house",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		},
+    {
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/path/straight",
+				"projection": "terrain_matching",
+				"processors": "explorify:ruins_path_processor"
+			}
+		},
+    {
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/path/turn",
+				"projection": "terrain_matching",
+				"processors": "explorify:ruins_path_processor"
+			}
+		},
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/path/junction",
+				"projection": "terrain_matching",
+				"processors": "explorify:ruins_path_processor"
+			}
+		}
+	]
+}

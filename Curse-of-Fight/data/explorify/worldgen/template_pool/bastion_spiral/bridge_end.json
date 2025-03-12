@@ -1,0 +1,15 @@
+{
+  "name": "explorify:bastion_spiral/bridge_end",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "explorify:bastion_spiral/bridge_end/whole",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

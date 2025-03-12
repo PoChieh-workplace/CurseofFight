@@ -1,0 +1,15 @@
+{
+  "name": "explorify:bastion_spiral/tower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "explorify:bastion_spiral/tower/whole",
+        "projection": "rigid",
+        "processors": "explorify:spiral_tower_randomization"
+      }
+    }
+  ]
+}

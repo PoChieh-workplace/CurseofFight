@@ -17,10 +17,12 @@
         "music": [
             {
                 "data": {
-                    "max_delay": 24000,
-                    "min_delay": 12000,
+                    "max_delay": 800,
+                    "min_delay": 100,
                     "replace_current_music": false,
-                    "sound": "minecraft:music.overworld.stony_peaks"
+                    "sound": {
+                        "sound_id": "minecraft:music.overworld.deep_cave"
+                    }
                 },
                 "weight": 1
             }

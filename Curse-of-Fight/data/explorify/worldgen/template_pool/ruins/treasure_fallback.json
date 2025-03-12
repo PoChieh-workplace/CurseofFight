@@ -1,0 +1,15 @@
+{
+	"name": "explorify:ruins/house",
+	"fallback": "explorify:ruins/treasure",
+	"elements": [
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+        "location": "explorify:ruins/treasure_fallback/nothing",
+				"projection": "rigid",
+				"processors": "explorify:ruins_house_processor"
+			}
+		}
+	]
+}

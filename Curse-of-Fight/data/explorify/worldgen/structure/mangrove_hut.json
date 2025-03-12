@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:jigsaw",
+  "step": "surface_structures",
+  "biomes": "#explorify:has_structure/mangrove_hut",
+  "start_pool": "explorify:mangrove_hut/main",
+  "terrain_adaptation": "none",
+  "size": 7,
+  "max_distance_from_center": 116,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+	"start_height": {
+		"type": "uniform",
+		"min_inclusive": {
+			"absolute": -21
+		},
+		"max_inclusive": {
+			"absolute": -17
+		}
+	},
+  "spawn_overrides": {},
+  "use_expansion_hack": false
+}

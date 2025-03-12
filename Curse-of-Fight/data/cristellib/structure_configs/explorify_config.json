@@ -1,0 +1,29 @@
+{
+  "name": "structure_settings",
+  "subPath": "explorify",
+  "header": "Spacing: Average distance (in chunks) between two of these structures. Value between 0 and 4096.\nSeparation: Minimum distance (in chunks) between two of these structures. Has to be smaller than spacing.\nFrequency: Probability to try to generate. Use other config file to disable structures.\nSee https://minecraft.wiki/w/Structure_set",
+  "config_type": "PLACEMENT",
+  "comments": {
+  },
+  "structure_sets": [
+    {
+      "modid": "explorify",
+      "structure_set": [
+        "explorify:badlands_pyramids",
+        "explorify:black_spirals",
+        "explorify:campsites",
+        "explorify:dark_forest_settlements",
+        "explorify:desert_shrines",
+        "explorify:end_shipwrecks",
+        "explorify:farmsteads",
+        "explorify:guide_posts",
+        "explorify:mangrove_huts",
+        "explorify:mausoleums",
+        "explorify:ruins",
+        "explorify:supply_caches",
+        "explorify:taverns",
+        "explorify:watchtowers"
+      ]
+    }
+  ]
+}

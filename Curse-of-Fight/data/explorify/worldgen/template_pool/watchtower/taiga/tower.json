@@ -1,0 +1,15 @@
+{
+  "name": "explorify:watchtower/taiga/tower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "explorify:watchtower/taiga/tower/whole",
+        "projection": "rigid",
+        "processors": "minecraft:mossify_70_percent"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+	"name": "explorify:dark_forest_settlement/centre",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/centre/01",
+				"projection": "rigid",
+				"processors": "explorify:dark_forest_path"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/centre/02",
+				"projection": "rigid",
+				"processors": "explorify:dark_forest_path"
+			}
+		}
+	]
+}

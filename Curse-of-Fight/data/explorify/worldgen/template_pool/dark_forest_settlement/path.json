@@ -1,0 +1,33 @@
+{
+	"name": "explorify:dark_forest_settlement/path",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/path/straight_01",
+				"projection": "terrain_matching",
+				"processors": "explorify:dark_forest_path"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/path/junction_01",
+				"projection": "terrain_matching",
+				"processors": "explorify:dark_forest_path"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "explorify:dark_forest_settlement/path/turn_01",
+				"projection": "terrain_matching",
+				"processors": "explorify:dark_forest_path"
+			}
+		}
+	]
+}

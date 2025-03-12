@@ -1,0 +1,40 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 12413523,
+    "spacing": 32,
+    "separation": 20,
+    "frequency": 0.75
+  },
+  "structures": [
+    {
+      "structure": "explorify:supply_cache/birch",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/dark",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/desert",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/forest",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/jungle",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/mangrove",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/taiga",
+      "weight": 1
+    }
+  ]
+}
