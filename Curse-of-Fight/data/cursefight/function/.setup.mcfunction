@@ -52,6 +52,9 @@ worldborder center ~ ~
 worldborder set 256
 worldborder warning distance 100
 
+# 強制載入 0 0，動能座標用
+forceload add 0 0
+
 # 常數
 scoreboard objectives add X dummy {"text":"常數"}
 
