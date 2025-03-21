@@ -1,0 +1,204 @@
+{
+  "name": "brutos:village/swamp/houses",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_armorer",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_big_house",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_butcher",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_cartographer",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_church",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_farm1",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_farm2",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_fletcher",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_library",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_mason",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_shepherd",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_small_house_1",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_small_house_2",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_small_house_3",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_small_house_4",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_small_house_5",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_medium_house_1",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_medium_house_2",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_tannery",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_toolsmith",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_weaponsmith",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "brutos:village/swamp/houses/swamp_fisher",
+        "processors": "vsrevamped:swamp_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

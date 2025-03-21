@@ -1,0 +1,69 @@
+{
+  "name": "brutos:village/cherry/streets",
+  "fallback": "brutos:village/cherry/terminators",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "brutos:village/cherry/streets/cherry_crossroad_1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "brutos:village/cherry/streets/cherry_crossroad_2",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "brutos:village/cherry/streets/cherry_crossroad_3",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "brutos:village/cherry/streets/cherry_curve_1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "brutos:village/cherry/streets/cherry_curve_2",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight":14,
+      "element": {
+        "location": "brutos:village/cherry/streets/cherry_straight_1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 18,
+      "element": {
+        "location": "brutos:village/cherry/streets/cherry_straight_2",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

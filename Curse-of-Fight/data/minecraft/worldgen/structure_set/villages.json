@@ -2,8 +2,8 @@
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 10387312,
-    "separation": 6,
-    "spacing": 17
+    "separation": 10,
+    "spacing": 18
   },
   "structures": [
     {
@@ -24,6 +24,14 @@
     },
     {
       "structure": "minecraft:village_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "vsrevamped:village_cherry",
+      "weight": 1
+    },
+    {
+      "structure": "vsrevamped:village_swamp",
       "weight": 1
     }
   ]

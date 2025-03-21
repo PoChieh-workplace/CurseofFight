@@ -1,0 +1,189 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:ice"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:structure_void",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:ice",
+            "Properties": {}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:structure_void",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:water",
+            "Properties": {}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dirt",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:ice",
+            "Properties": {}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:snow_block"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dirt",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:snow_block",
+            "Properties": {}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:ice"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dirt",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:ice",
+            "Properties": {}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:packed_ice"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dirt",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:packed_ice",
+            "Properties": {}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:blue_ice"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dirt",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:blue_ice",
+            "Properties": {}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dirt_path",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:ice",
+            "Properties": {}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:snow_block"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dirt_path",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:snow_block",
+            "Properties": {}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:ice"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dirt_path",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:ice",
+            "Properties": {}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:packed_ice"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dirt_path",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:packed_ice",
+            "Properties": {}
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:blue_ice"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dirt_path",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:blue_ice",
+            "Properties": {}
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -3,8 +3,8 @@
     "type": "minecraft:random_spread",
     "spread_type": "linear",
     "salt": 15731481,
-    "spacing": 36,
-    "separation": 18,
+    "spacing": 20,
+    "separation": 12,
     "frequency": 0.80,
     "exclusion_zone": {
       "other_set": "minecraft:villages",

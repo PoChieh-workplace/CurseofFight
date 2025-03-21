@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:village_plains",
+    "minecraft:village_desert",
+    "minecraft:village_savanna",
+    "minecraft:village_snowy",
+    "minecraft:village_taiga",
+    "vsrevamped:village_cherry",
+    "vsrevamped:village_swamp"
+  ]
+}
