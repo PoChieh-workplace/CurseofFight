@@ -4,13 +4,8 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": "minecraft:silence_armor_trim_smithing_template",
+                    "items": "minecraft:paper",
                     "components": {
-                        "minecraft:custom_model_data": {
-                            "floats": [
-                                724501
-                            ]
-                        },
                         "minecraft:custom_data": {
                             "cursefight.activity.demon_contract.used": true
                         }
@@ -20,6 +15,6 @@
         }
     },
     "rewards": {
-        "function": "cursefight:tools/evoker"
+        "function": "cursefight:activity/random/demon_contract/use_contract"
     }
 }

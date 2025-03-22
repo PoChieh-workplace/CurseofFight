@@ -1,0 +1,1 @@
+execute if score @s cursefight.activity.demon_contract.benefit matches 1..3 run attribute @s minecraft:block_interaction_range modifier add cursefight:benefit/lvl1/block_interaction_range_2 2 add_value

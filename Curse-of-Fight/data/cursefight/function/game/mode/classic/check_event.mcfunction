@@ -4,7 +4,7 @@ execute if score _timer_min_ info >= _glowing_ info if score _glowing_ activity_
 execute if score _timer_min_ info >= _worldborder_end_ info if score _worldborder_end_ activity_set matches 0 run function cursefight:game/worldborder/end
 execute if score _timer_min_ info >= _ominous_ info if score _ominous_ activity_set matches 0 run function cursefight:game/ominous/announce
 execute if score _timer_min_ info >= _forgiven_ info if score _forgiven_ activity_set matches 0 run function cursefight:game/forgiven/main
-execute if score _timer_min_ info matches 30.. unless score cursefight_activity_start X matches 1 run scoreboard players set cursefight_activity_start X 1
+execute if score _timer_min_ info matches 25.. unless score cursefight_activity_start X matches 1 run scoreboard players set cursefight_activity_start X 1
 
 execute store result score _activity_temp_ info run scoreboard players get _timer_min_ info
 scoreboard players operation _activity_temp_ info %= const20 X

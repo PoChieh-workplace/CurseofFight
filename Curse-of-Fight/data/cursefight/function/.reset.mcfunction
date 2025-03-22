@@ -38,10 +38,11 @@ scoreboard objectives remove open_barrel
 scoreboard objectives remove _skill_cool_
 scoreboard objectives remove _ultimate_cool_
 scoreboard objectives remove found_player_time
+scoreboard objectives remove village_friendly
 scoreboard objectives remove cursefight.activity.demon_contract.benefit
 scoreboard objectives remove cursefight.activity.demon_contract.curse
-scoreboard objectives remove cursefight.activity.village_friendly
-
+scoreboard objectives remove cursefight.activity.demon_contract.lvl
+scoreboard objectives remove cursefight.activity.demon_contract.response
 
 
 # 動畫
