@@ -22,22 +22,6 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "cursefight:generic/crossbow/sniper_for_mob":2,
-                                "minecraft:power": 1
-                            },
-                            "add": false
-                        }
-                    ],
-                    "weight": 2
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bow",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "cursefight:generic/crossbow/sniper_for_mob":2,
                                 "minecraft:punch": 2,
                                 "minecraft:power": 1
                             },
@@ -52,7 +36,6 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "cursefight:generic/crossbow/sniper_for_mob":2,
                                 "minecraft:power": 3
                             },
                             "add": false
@@ -66,8 +49,21 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "cursefight:generic/crossbow/sniper_for_mob":2,
                                 "minecraft:punch": 3
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:flame": 2,
+                                "minecraft:power": 1
                             },
                             "add": false
                         }
