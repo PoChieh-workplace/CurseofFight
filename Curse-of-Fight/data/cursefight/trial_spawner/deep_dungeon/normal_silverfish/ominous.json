@@ -5,7 +5,7 @@
     "total_mobs_added_per_player": 5,
     "simultaneous_mobs": 4,
     "simultaneous_mobs_added_per_player": 3,
-    "ticks_between_spawn": 0,
+    "ticks_between_spawn": 10,
     "spawn_potentials": [
         {
             "data": {
@@ -15,7 +15,10 @@
                 },
                 "entity": {
                     "id": "minecraft:silverfish",
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob"]
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.ominous_mob"
+                    ]
                 }
             },
             "weight": 1

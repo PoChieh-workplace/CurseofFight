@@ -4,7 +4,7 @@
     "total_mobs": 3,
     "total_mobs_added_per_player": 1,
     "simultaneous_mobs": 1,
-    "simultaneous_mobs_added_per_player": 1,
+    "simultaneous_mobs_added_per_player": 0.5,
     "ticks_between_spawn": 1,
     "spawn_potentials": [
         {
@@ -17,10 +17,19 @@
                     "id": "minecraft:creeper",
                     "Health": 10,
                     "attributes": [
-                        {"id": "scale", "base": 0.5},
-                        {"id": "max_health", "base": 10}
+                        {
+                            "id": "scale",
+                            "base": 0.5
+                        },
+                        {
+                            "id": "max_health",
+                            "base": 10
+                        }
                     ],
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob"]
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.ominous_mob"
+                    ]
                 }
             },
             "weight": 1

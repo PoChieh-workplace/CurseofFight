@@ -23,6 +23,10 @@
   ],
   "placement": {
     "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "other_set": "cursefight:deep_dungeon",
+      "chunk_count": 10
+    },
     "salt": 838677219,
     "spacing": 11,
     "separation": 3

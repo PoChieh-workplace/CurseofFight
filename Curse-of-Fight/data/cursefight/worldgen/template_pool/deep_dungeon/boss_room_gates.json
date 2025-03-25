@@ -1,0 +1,33 @@
+{
+    "name": "cursefight:deep_dungeon/boss_room_gates",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/gates/boss_room_gate_lvl2_1",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/gates/boss_room_gate_lvl3_1",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "location": "cursefight:deep_dungeon/gates/boss_room_gate_lvl4_1",
+                "processors": "cursefight:deep_dungeon/sidewalk",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

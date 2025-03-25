@@ -1,9 +1,9 @@
 {
-    "name": "cursefight:deep_dungeon/sidewalk",
-    "fallback": "cursefight:deep_dungeon/boss_room_gates",
+    "name": "cursefight:deep_dungeon/sidewalk_only",
+    "fallback": "cursefight:deep_dungeon/sidewalk",
     "elements": [
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "cursefight:deep_dungeon/sidewalks/sidewalk_1",
                 "processors": "cursefight:deep_dungeon/sidewalk",
@@ -12,7 +12,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "cursefight:deep_dungeon/sidewalks/sidewalk_2",
                 "processors": "cursefight:deep_dungeon/sidewalk",
@@ -21,7 +21,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "cursefight:deep_dungeon/sidewalks/sidewalk_3",
                 "processors": "cursefight:deep_dungeon/sidewalk",
@@ -30,7 +30,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "cursefight:deep_dungeon/sidewalks/sidewalk_4",
                 "processors": "cursefight:deep_dungeon/sidewalk",
@@ -51,33 +51,6 @@
             "weight": 1,
             "element": {
                 "location": "cursefight:deep_dungeon/corners/corner_type2_1",
-                "processors": "cursefight:deep_dungeon/sidewalk",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        },
-        {
-            "weight": 2,
-            "element": {
-                "location": "cursefight:deep_dungeon/gates/boss_room_gate_lvl2_1",
-                "processors": "cursefight:deep_dungeon/sidewalk",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        },
-        {
-            "weight": 2,
-            "element": {
-                "location": "cursefight:deep_dungeon/gates/boss_room_gate_lvl3_1",
-                "processors": "cursefight:deep_dungeon/sidewalk",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "location": "cursefight:deep_dungeon/gates/boss_room_gate_lvl4_1",
                 "processors": "cursefight:deep_dungeon/sidewalk",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"

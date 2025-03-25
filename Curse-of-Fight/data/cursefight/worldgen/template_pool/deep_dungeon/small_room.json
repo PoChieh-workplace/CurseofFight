@@ -1,11 +1,11 @@
 {
-    "name": "cursefight:deep_dungeon/center",
+    "name": "cursefight:deep_dungeon/small_room",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
-                "location": "cursefight:deep_dungeon/lobby_1",
+                "location": "cursefight:deep_dungeon/rooms/small_room_1",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"

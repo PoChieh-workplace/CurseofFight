@@ -14,7 +14,10 @@
                 },
                 "entity": {
                     "id": "minecraft:silverfish",
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.normal_mob"
+                    ]
                 }
             },
             "weight": 1

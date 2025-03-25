@@ -22,11 +22,11 @@
                     },
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:deepslate_bricks",
+                        "block": "minecraft:polished_deepslate",
                         "probability": 0.05
                     },
                     "output_state": {
-                        "Name": "minecraft:deepslate_tiles"
+                        "Name": "minecraft:cracked_deepslate_tiles"
                     }
                 },
                 {
@@ -35,8 +35,8 @@
                     },
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:deepslate_bricks",
-                        "probability": 0.2
+                        "block": "minecraft:polished_deepslate",
+                        "probability": 0.08
                     },
                     "output_state": {
                         "Name": "minecraft:cracked_deepslate_bricks"
@@ -48,8 +48,8 @@
                     },
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:deepslate_bricks",
-                        "probability": 0.1
+                        "block": "minecraft:polished_deepslate",
+                        "probability": 0.08
                     },
                     "output_state": {
                         "Name": "minecraft:deepslate"
@@ -61,7 +61,7 @@
                     },
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:deepslate_bricks",
+                        "block": "minecraft:polished_deepslate",
                         "probability": 0.01
                     },
                     "output_state": {
@@ -74,11 +74,104 @@
                     },
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:deepslate_brick_wall",
+                        "block": "minecraft:cobbled_deepslate",
                         "probability": 0.2
                     },
                     "output_state": {
-                        "Name": "minecraft:deepslate_bricks"
+                        "Name": "minecraft:cobbled_deepslate_slab",
+                        "Properties": {
+                            "type": "bottom",
+                            "waterlogged": "false"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobbled_deepslate",
+                        "probability": 0.12
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cobbled_deepslate_stairs",
+                        "Properties": {
+                            "facing": "south",
+                            "half": "bottom",
+                            "shape": "straight",
+                            "waterlogged": "false"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobbled_deepslate",
+                        "probability": 0.12
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cobbled_deepslate_stairs",
+                        "Properties": {
+                            "facing": "east",
+                            "half": "bottom",
+                            "shape": "straight",
+                            "waterlogged": "false"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobbled_deepslate",
+                        "probability": 0.12
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cobbled_deepslate_stairs",
+                        "Properties": {
+                            "facing": "west",
+                            "half": "bottom",
+                            "shape": "straight",
+                            "waterlogged": "false"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobbled_deepslate",
+                        "probability": 0.12
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cobbled_deepslate_stairs",
+                        "Properties": {
+                            "facing": "north",
+                            "half": "bottom",
+                            "shape": "straight",
+                            "waterlogged": "false"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobbled_deepslate",
+                        "probability": 0.3
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
                     }
                 },
                 {
@@ -88,9 +181,9 @@
                     "input_predicate": {
                         "predicate_type": "minecraft:random_blockstate_match",
                         "block_state": {
-                            "Name": "minecraft:deepslate_bricks"
+                            "Name": "minecraft:deepslate_brick_stairs"
                         },
-                        "probability": 0.027
+                        "probability": 0.08
                     },
                     "output_state": {
                         "Name": "minecraft:deepslate_brick_slab",
@@ -106,60 +199,8 @@
                     },
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:cobbled_deepslate",
-                        "probability": 0.025
-                    },
-                    "output_state": {
-                        "Name": "minecraft:deepslate_tiles"
-                    }
-                },
-                {
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:cobbled_deepslate",
-                        "probability": 0.05
-                    },
-                    "output_state": {
-                        "Name": "minecraft:cracked_deepslate_bricks"
-                    }
-                },
-                {
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:cobbled_deepslate",
-                        "probability": 0.05
-                    },
-                    "output_state": {
-                        "Name": "minecraft:deepslate"
-                    }
-                },
-                {
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:cobbled_deepslate",
-                        "probability": 0.01
-                    },
-                    "output_state": {
-                        "Name": "minecraft:infested_deepslate"
-                    }
-                },
-                {
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:cobbled_deepslate",
-                        "probability": 0.04
+                        "block": "minecraft:polished_deepslate",
+                        "probability": 0.03
                     },
                     "output_state": {
                         "Name": "minecraft:suspicious_gravel",
@@ -178,11 +219,11 @@
                     },
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:deepslate_brick_wall",
+                        "block": "minecraft:soul_torch",
                         "probability": 0.2
                     },
                     "output_state": {
-                        "Name": "minecraft:cobbled_deepslate"
+                        "Name": "minecraft:air"
                     }
                 },
                 {
@@ -190,18 +231,46 @@
                         "predicate_type": "minecraft:always_true"
                     },
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_blockstate_match",
-                        "block_state": {
-                            "Name": "minecraft:cobbled_deepslate"
-                        },
-                        "probability": 0.027
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:soul_torch",
+                        "probability": 0.2
                     },
                     "output_state": {
-                        "Name": "minecraft:deepslate_brick_slab",
-                        "Properties": {
-                            "type": "bottom",
-                            "waterlogged": "false"
-                        }
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:decorated_pot",
+                        "probability": 1
+                    },
+                    "output_state": {
+                        "Name": "minecraft:decorated_pot"
+                    },
+                    "block_entity_modifier": {
+                        "type": "minecraft:append_loot",
+                        "loot_table": "cursefight:worldgen/deep_dungeon/loot/pots"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:barrel",
+                        "probability": 1
+                    },
+                    "output_state": {
+                        "Name": "minecraft:barrel"
+                    },
+                    "block_entity_modifier": {
+                        "type": "minecraft:append_loot",
+                        "loot_table": "cursefight:worldgen/deep_dungeon/loot/pots"
                     }
                 }
             ]

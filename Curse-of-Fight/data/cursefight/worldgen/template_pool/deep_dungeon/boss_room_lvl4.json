@@ -1,11 +1,11 @@
 {
-    "name": "cursefight:deep_dungeon/center",
-    "fallback": "minecraft:empty",
+    "name": "cursefight:deep_dungeon/boss_room_lvl4",
+    "fallback": "cursefight:deep_dungeon/boss_room_lvl4",
     "elements": [
         {
             "weight": 1,
             "element": {
-                "location": "cursefight:deep_dungeon/lobby_1",
+                "location": "cursefight:deep_dungeon/rooms/boss_room_lvl4_1",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
