@@ -15,4 +15,6 @@ execute if score @s cursefight.activity.demon_contract.curse matches 13..15 run 
 execute if score @s cursefight.activity.demon_contract.curse matches 16..18 run attribute @s minecraft:armor modifier add cursefight:curse/lvl1/armor_3 -3 add_value
 execute if score @s cursefight.activity.demon_contract.curse matches 19..21 run attribute @s minecraft:luck modifier add cursefight:curse/lvl1/luck_1 -1 add_value
 
+playsound minecraft:entity.experience_orb.pickup player @s
+
 tellraw @s ["",{"text":"Curse of Fight ","color":"#CA8EFF"},{"text":"【 掌管者 】","color":"dark_gray"},{"text":" >>> ","color":"#CA8EFF"},{"text":"很好，我就喜歡你這樣貪婪又愚蠢的小傢伙。","color":"gray"}]
