@@ -14,7 +14,11 @@
                     "loot_table": "cursefight:worldgen/deep_dungeon/mob/ominous_melee"
                 },
                 "entity": {
-                    "id": "minecraft:zombie"
+                    "id": "minecraft:zombie",
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.ominous_mob"
+                    ]
                 }
             },
             "weight": 1
@@ -26,7 +30,11 @@
                     "loot_table": "cursefight:worldgen/deep_dungeon/mob/ominous_melee"
                 },
                 "entity": {
-                    "id": "minecraft:husk"
+                    "id": "minecraft:husk",
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.ominous_mob"
+                    ]
                 }
             },
             "weight": 1
@@ -38,7 +46,11 @@
                     "loot_table": "cursefight:worldgen/deep_dungeon/mob/ominous_melee"
                 },
                 "entity": {
-                    "id": "minecraft:drowned"
+                    "id": "minecraft:drowned",
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.ominous_mob"
+                    ]
                 }
             },
             "weight": 1
