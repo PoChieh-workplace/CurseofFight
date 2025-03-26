@@ -45,9 +45,9 @@ execute if score cursefight_activity_tick X matches 400..600 store result bossba
 execute if score cursefight_activity_tick X matches 400..600 run scoreboard players operation cursefight_activity_sec X /= const20 X
 execute if score cursefight_activity_tick X matches 400..600 run bossbar set minecraft:cursefight.activity.run name ["",{"text":"\u00A78—《 \u00A75\u00A7l混沌 \u00A76\u00A7l咒縛 \u00A78》— \u00A7r剩餘 \u00A71"},{"score":{"name":"cursefight_activity_sec","objective":"X"}},{"text":" \u00A7r秒"}]
 
-execute if score cursefight_activity_tick X matches 400 run effect give @a minecraft:darkness 7 1
-execute if score cursefight_activity_tick X matches 420 run effect give @a minecraft:blindness 7 1
-execute if score cursefight_activity_tick X matches 400 run effect give @a minecraft:resistance 7 4
+execute if score cursefight_activity_tick X matches 400 run effect give @a[tag=cursefight.alive] minecraft:darkness 7 1
+execute if score cursefight_activity_tick X matches 420 run effect give @a[tag=cursefight.alive] minecraft:blindness 7 1
+execute if score cursefight_activity_tick X matches 400 run effect give @a[tag=cursefight.alive] minecraft:resistance 7 4
 execute if score cursefight_activity_tick X matches 405 as @a[tag=cursefight.alive] at @s run particle minecraft:portal ~ ~1 ~ 0.2 1 0.2 2 8000
 execute if score cursefight_activity_tick X matches 445 as @a[tag=cursefight.alive] at @s run playsound minecraft:block.portal.travel neutral @s
 execute if score cursefight_activity_tick X matches 450 run scoreboard players set cursefight.activity.switch.swap_count X 0
