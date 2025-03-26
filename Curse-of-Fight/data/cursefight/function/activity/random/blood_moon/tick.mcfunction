@@ -59,6 +59,6 @@ execute if score cursefight_activity_tick X matches 1..3600 run effect give @e[t
 # end
 execute if score cursefight_activity_tick X matches 3600 run worldborder warning distance 100
 execute if score cursefight_activity_tick X matches 3600 run weather clear
-execute if score cursefight_activity_tick X matches 6001.. run bossbar set minecraft:cursefight.activity.run visible false
-execute if score cursefight_activity_tick X matches 6001.. run scoreboard players reset cursefight_activity_temp X
-execute if score cursefight_activity_tick X matches 6001.. run scoreboard players reset cursefight_activity_tick X
+execute if score cursefight_activity_tick X matches 3601.. run bossbar set minecraft:cursefight.activity.run visible false
+execute if score cursefight_activity_tick X matches 3601.. run scoreboard players reset cursefight_activity_temp X
+execute if score cursefight_activity_tick X matches 3601.. run scoreboard players reset cursefight_activity_tick X
