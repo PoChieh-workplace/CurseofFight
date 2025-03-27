@@ -19,7 +19,7 @@
                     "attributes": [
                         {
                             "id": "scale",
-                            "base": 0.5
+                            "base": 0.6
                         },
                         {
                             "id": "max_health",
