@@ -37,24 +37,6 @@
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
             }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "location": "cursefight:deep_dungeon/corners/corner_type1_1",
-                "processors": "cursefight:deep_dungeon/sidewalk",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "location": "cursefight:deep_dungeon/corners/corner_type2_1",
-                "processors": "cursefight:deep_dungeon/sidewalk",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
         }
     ]
 }
