@@ -19,33 +19,13 @@
 	"effects": {
 		"minecraft:post_attack": [
 			{
-                "enchanted": "attacker",
-                "affected": "attacker",
-                "effect": {
-                    "type": "minecraft:apply_mob_effect",
-                    "to_apply": "minecraft:weakness",
-                    "min_duration": {
-                        "type": "minecraft:linear",
-                        "base": 3,
-                        "per_level_above_first": 3
-                    },
-                    "max_duration": {
-                        "type": "minecraft:linear",
-                        "base": 3,
-                        "per_level_above_first": 3
-                    },
-                    "min_amplifier": 1,
-                    "max_amplifier": 2
-                }
-            },
-			{
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "cursefight:enchantment/crossbow/sniper_for_mob_hit_effect"
-                }
-            },
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "cursefight:enchantment/crossbow/sniper_for_mob_hit_effect"
+				}
+			},
 			{
 				"enchanted": "attacker",
 				"affected": "victim",
@@ -64,12 +44,12 @@
 					}
 				},
 				"requirements": {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "direct_attacker",
-                    "predicate": {
-                        "type": "#minecraft:impact_projectiles"
-                    }
-                }
+					"condition": "minecraft:entity_properties",
+					"entity": "direct_attacker",
+					"predicate": {
+						"type": "#minecraft:impact_projectiles"
+					}
+				}
 			},
 			{
 				"enchanted": "attacker",
@@ -113,12 +93,6 @@
 		],
 		"minecraft:projectile_spawned": [
 			{
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "cursefight:enchantment/crossbow/sniper_weakness"
-                }
-            },
-			{
 				"effect": {
 					"type": "minecraft:play_sound",
 					"sound": "minecraft:entity.blaze.shoot",
@@ -142,11 +116,11 @@
 					},
 					"horizontal_position": {
 						"type": "entity_position",
-                        "offset": 0
+						"offset": 0
 					},
 					"vertical_position": {
 						"type": "entity_position",
-                        "offset": 0
+						"offset": 0
 					},
 					"horizontal_velocity": {
 						"base": 3,
@@ -181,17 +155,17 @@
 			}
 		},
 		"minecraft:attributes": [
-            {
-                "id": "cursefight.sniper.movement",
-                "attribute": "movement_speed",
-                "amount": {
-                    "type": "minecraft:linear",
-                    "base": -0.03,
-                    "per_level_above_first": -0.03
-                },
-                "operation": "add_multiplied_base"
-            }
-        ]
+			{
+				"id": "cursefight.sniper.movement",
+				"attribute": "movement_speed",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": -0.03,
+					"per_level_above_first": -0.03
+				},
+				"operation": "add_multiplied_base"
+			}
+		]
 	},
 	"supported_items": "#minecraft:enchantable/crossbow",
 	"weight": 10
