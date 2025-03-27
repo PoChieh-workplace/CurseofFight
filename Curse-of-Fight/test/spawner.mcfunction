@@ -322,7 +322,16 @@ setblock ~ ~ ~ minecraft:trial_spawner{
     ominous_config:"cursefight:deep_dungeon/boss_baby_zombie/ominous"
 } replace
 
+------------------------------------
+# lvl4
+setblock ~ ~ ~ minecraft:trial_spawner{
+    target_cooldown_length:36000,
+    required_player_range:20,
+    normal_config:"cursefight:deep_dungeon/lvl4_bosses/normal",
+    ominous_config:"cursefight:deep_dungeon/lvl4_bosses/ominous"
+} replace
 
+--------------------------------------
 # normal
 setblock ~ ~ ~ minecraft:trial_spawner{
     target_cooldown_length:12000,

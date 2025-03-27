@@ -43,7 +43,8 @@ scoreboard objectives remove cursefight.activity.demon_contract.benefit
 scoreboard objectives remove cursefight.activity.demon_contract.curse
 scoreboard objectives remove cursefight.activity.demon_contract.lvl
 scoreboard objectives remove cursefight.activity.demon_contract.response
-
+scoreboard objectives remove cursefight_mob_spell_tick
+scoreboard objectives remove cursefight_mob_spell_max_tick
 
 # 動畫
 scoreboard objectives remove animation.timer.a

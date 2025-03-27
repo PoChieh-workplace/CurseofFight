@@ -1,0 +1,44 @@
+{
+    "spawn_range": 8,
+    "total_mobs": 1,
+    "total_mobs_added_per_player": 0,
+    "simultaneous_mobs": 1,
+    "simultaneous_mobs_added_per_player": 0,
+    "ticks_between_spawn": 10,
+    "spawn_potentials": [
+        {
+            "data": {
+                "equipment": {
+                    "slot_drop_chances": 0,
+                    "loot_table": "cursefight:worldgen/deep_dungeon/mob/lvl4_boss/skeleton/normal"
+                },
+                "entity": {
+                    "id": "minecraft:skeleton",
+                    "Health": 150,
+                    "attributes": [
+                        {
+                            "id": "max_health",
+                            "base": 150
+                        }
+                    ],
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.normal_mob",
+                        "cursefight.deep_dungeon.lvl4_boss",
+                        "cursefight.deep_dungeon.lvl4_boss.normal_skeleton",
+                        "can_use_mob_protection_spell",
+                        "using_bow",
+                        "init_boss"
+                    ]
+                }
+            },
+            "weight": 1
+        }
+    ],
+    "loot_tables_to_eject": [
+        {
+            "data": "cursefight:worldgen/deep_dungeon/loot/spawners/lvl4/normal",
+            "weight": 1
+        }
+    ]
+}
