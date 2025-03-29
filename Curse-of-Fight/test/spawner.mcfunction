@@ -334,8 +334,8 @@ setblock ~ ~ ~ minecraft:trial_spawner{
 --------------------------------------
 # normal
 setblock ~ ~ ~ minecraft:trial_spawner{
-    target_cooldown_length:12000,
-    required_player_range:20,
-    normal_config:"cursefight:deep_dungeon/normal_silverfish/normal",
-    ominous_config:"cursefight:deep_dungeon/normal_silverfish/ominous"
+    target_cooldown_length:18000,
+    required_player_range:14,
+    normal_config:"cursefight:deep_dungeon/normal_skeleton/normal",
+    ominous_config:"cursefight:deep_dungeon/normal_skeleton/ominous"
 } replace
