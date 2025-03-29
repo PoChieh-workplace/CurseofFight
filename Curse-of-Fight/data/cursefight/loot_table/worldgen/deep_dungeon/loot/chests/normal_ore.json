@@ -145,6 +145,73 @@
                     "weight": 2
                 }
             ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:trial_key",
+                    "weight": 19,
+                    "quality": 0,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "deep_dungeon_legendary_key": 1
+                                },
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        724010
+                                    ]
+                                },
+                                "custom_name": "[\"\",{\"text\":\"詛咒試煉 - 小鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"可以開啟附近小寶箱的鑰匙，似乎是不錯的工具呢！\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:sharpness": 5
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ominous_trial_key",
+                    "weight": 1,
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "deep_dungeon_legendary_boss_key": 1
+                                },
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        724011
+                                    ]
+                                },
+                                "custom_name": "[\"\",{\"text\":\"詛咒試煉 - 武器庫鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"可以開啟傳奇武器庫中寶箱的鑰匙，不過要小心那房間裡面很危險喔！\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                ],
+                                "minecraft:enchantments": {
+                                    "cursefight:career/steve/original": 5
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.02
+                }
+            ]
         }
     ],
     "random_sequence": "cursefight:worldgen/deep_dungeon/loot/chests/normal_ore"
