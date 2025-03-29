@@ -2,7 +2,7 @@
     "name": "cursefight:deep_dungeon/spawners/normal",
     "fallback": "cursefight:deep_dungeon/spawners/normal",
     "elements": [
-        {	
+        {
             "weight": 2,
             "element": {
                 "location": "cursefight:deep_dungeon/spawners/normal_spawner_x1",
@@ -11,7 +11,7 @@
                 "element_type": "minecraft:single_pool_element"
             }
         },
-        {	
+        {
             "weight": 2,
             "element": {
                 "location": "cursefight:deep_dungeon/spawners/normal_spawner_x2",
@@ -20,7 +20,7 @@
                 "element_type": "minecraft:single_pool_element"
             }
         },
-        {	
+        {
             "weight": 1,
             "element": {
                 "location": "cursefight:deep_dungeon/spawners/normal_spawner_x3",
@@ -29,7 +29,7 @@
                 "element_type": "minecraft:single_pool_element"
             }
         },
-        {	
+        {
             "weight": 1,
             "element": {
                 "location": "cursefight:deep_dungeon/spawners/normal_spawner_x4",
