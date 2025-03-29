@@ -2,7 +2,7 @@
     "items_to_drop_when_ominous": "cursefight:worldgen/deep_dungeon/loot/spawners/ominous_drop",
     "spawn_range": 8,
     "total_mobs": 2,
-    "total_mobs_added_per_player": 1,
+    "total_mobs_added_per_player": 2,
     "simultaneous_mobs": 1,
     "simultaneous_mobs_added_per_player": 1,
     "ticks_between_spawn": 0,
@@ -13,13 +13,25 @@
                     "id": "minecraft:vindicator",
                     "DeathLootTable": "minecraft:empty",
                     "attributes": [
-                        {"id": "scale", "base": 0.5}
+                        {
+                            "id": "scale",
+                            "base": 0.8
+                        }
                     ],
                     "HandItems": [
-                        {"id": "netherite_axe", "count": 1}
+                        {
+                            "id": "netherite_axe",
+                            "count": 1
+                        }
                     ],
-                    "HandDropChances": [0],
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob","cursefight.deep_dungeon.boss.vindicator"]
+                    "HandDropChances": [
+                        0
+                    ],
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.ominous_mob",
+                        "cursefight.deep_dungeon.boss.vindicator"
+                    ]
                 }
             },
             "weight": 1

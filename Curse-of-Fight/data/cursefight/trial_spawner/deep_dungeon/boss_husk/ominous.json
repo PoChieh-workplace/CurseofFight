@@ -1,43 +1,69 @@
 {
-    "items_to_drop_when_ominous":"cursefight:worldgen/deep_dungeon/loot/spawners/ominous_drop",
-    "spawn_range":6,
-    "total_mobs":25,
-    "total_mobs_added_per_player":10,
-    "simultaneous_mobs":25,
-    "simultaneous_mobs_added_per_player":10,
-    "ticks_between_spawn":0,
-    "spawn_potentials":[
+    "items_to_drop_when_ominous": "cursefight:worldgen/deep_dungeon/loot/spawners/ominous_drop",
+    "spawn_range": 6,
+    "total_mobs": 25,
+    "total_mobs_added_per_player": 10,
+    "simultaneous_mobs": 15,
+    "simultaneous_mobs_added_per_player": 10,
+    "ticks_between_spawn": 0,
+    "spawn_potentials": [
         {
-            "data":{
-                "equipment":{
-                    "slot_drop_chances":0,
-                    "loot_table":"cursefight:worldgen/deep_dungeon/mob/normal"
+            "data": {
+                "equipment": {
+                    "slot_drop_chances": 0,
+                    "loot_table": "cursefight:worldgen/deep_dungeon/mob/normal"
                 },
-                "entity":{
-                    "id":"minecraft:husk",
-                    "Health":10,
-                    "IsBaby":true,
-                    "attributes":[
-                        {"id":"step_height","base":4.6},
-                        {"id":"follow_range","base":50},
-                        {"id":"scale","base":0.5},
-                        {"id":"movement_speed","base":0.35},
-                        {"id":"attack_damage","base":0.5},
-                        {"id":"max_health","base":10}
+                "entity": {
+                    "id": "minecraft:husk",
+                    "Health": 10,
+                    "IsBaby": true,
+                    "attributes": [
+                        {
+                            "id": "step_height",
+                            "base": 4.6
+                        },
+                        {
+                            "id": "follow_range",
+                            "base": 50
+                        },
+                        {
+                            "id": "scale",
+                            "base": 0.7
+                        },
+                        {
+                            "id": "movement_speed",
+                            "base": 0.35
+                        },
+                        {
+                            "id": "attack_damage",
+                            "base": 0.5
+                        },
+                        {
+                            "id": "max_health",
+                            "base": 10
+                        }
                     ],
-                    "active_effects":[
-                        {"id":"fire_resistance","duration":999999,"show_particles":false}
+                    "active_effects": [
+                        {
+                            "id": "fire_resistance",
+                            "duration": 999999,
+                            "show_particles": false
+                        }
                     ],
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob","cursefight.deep_dungeon.boss.husk"]
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.ominous_mob",
+                        "cursefight.deep_dungeon.boss.husk"
+                    ]
                 }
             },
-            "weight":1
+            "weight": 1
         }
     ],
-    "loot_tables_to_eject":[
+    "loot_tables_to_eject": [
         {
-            "data":"cursefight:worldgen/deep_dungeon/loot/spawners/boss_ominous",
-            "weight":1
+            "data": "cursefight:worldgen/deep_dungeon/loot/spawners/boss_ominous",
+            "weight": 1
         }
     ]
 }

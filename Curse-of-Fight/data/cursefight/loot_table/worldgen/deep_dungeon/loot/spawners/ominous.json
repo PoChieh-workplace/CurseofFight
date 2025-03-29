@@ -85,70 +85,6 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_helmet",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 30,
-                                "max": 70
-                            },
-                            "options": "#minecraft:on_random_loot"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_chestplate",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 30,
-                                "max": 70
-                            },
-                            "options": "#minecraft:on_random_loot"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_leggings",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 30,
-                                "max": 70
-                            },
-                            "options": "#minecraft:on_random_loot"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_boots",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 30,
-                                "max": 70
-                            },
-                            "options": "#minecraft:on_random_loot"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
                     "name": "minecraft:iron_pickaxe",
                     "weight": 3,
                     "functions": [
@@ -224,12 +160,12 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:emerald",
-                    "weight": 10
+                    "weight": 5
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond",
-                    "weight": 5
+                    "weight": 10
                 }
             ]
         },
@@ -262,7 +198,7 @@
                     "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "weight": 6,
-                    "quality": 3,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -274,7 +210,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:ender_pearl",
-                    "weight": 6,
+                    "weight": 4,
                     "quality": 0
                 },
                 {
@@ -349,14 +285,22 @@
                     "name": "minecraft:trial_key",
                     "weight": 8,
                     "quality": 0,
-                    "functions":[
+                    "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {"deep_dungeon_legendary_key":1},
-                                "minecraft:custom_model_data": {"floats": [724010]},
-                                "custom_name":"[\"\",{\"text\":\"詛咒試煉 - 小鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
-                                "lore":["[\"\",{\"text\":\"可以開啟附近小寶箱的鑰匙，似乎是不錯的工具呢！\",\"italic\":false,\"color\":\"dark_purple\"}]"],
+                                "minecraft:custom_data": {
+                                    "deep_dungeon_legendary_key": 1
+                                },
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        724010
+                                    ]
+                                },
+                                "custom_name": "[\"\",{\"text\":\"詛咒試煉 - 小鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"可以開啟附近小寶箱的鑰匙，似乎是不錯的工具呢！\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                ],
                                 "minecraft:enchantments": {
                                     "minecraft:sharpness": 5
                                 }
@@ -369,14 +313,22 @@
                     "name": "minecraft:ominous_trial_key",
                     "weight": 1,
                     "quality": 2,
-                    "functions":[
+                    "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {"deep_dungeon_legendary_boss_key":1},
-                                "minecraft:custom_model_data": {"floats": [724011]},
-                                "custom_name":"[\"\",{\"text\":\"詛咒試煉 - 武器庫鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
-                                "lore":["[\"\",{\"text\":\"可以開啟傳奇武器庫中寶箱的鑰匙，不過要小心那房間裡面很危險喔！\",\"italic\":false,\"color\":\"dark_purple\"}]"],
+                                "minecraft:custom_data": {
+                                    "deep_dungeon_legendary_boss_key": 1
+                                },
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        724011
+                                    ]
+                                },
+                                "custom_name": "[\"\",{\"text\":\"詛咒試煉 - 武器庫鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
+                                "lore": [
+                                    "[\"\",{\"text\":\"可以開啟傳奇武器庫中寶箱的鑰匙，不過要小心那房間裡面很危險喔！\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                ],
                                 "minecraft:enchantments": {
                                     "cursefight:career/steve/original": 5
                                 }

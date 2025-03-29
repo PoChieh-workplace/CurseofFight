@@ -23,7 +23,14 @@
                         },
                         {
                             "id": "armor_toughness",
-                            "base": 20
+                            "base": 10
+                        }
+                    ],
+                    "active_effects": [
+                        {
+                            "id": "fire_resistance",
+                            "duration": 999999,
+                            "show_particles": false
                         }
                     ],
                     "Tags": [

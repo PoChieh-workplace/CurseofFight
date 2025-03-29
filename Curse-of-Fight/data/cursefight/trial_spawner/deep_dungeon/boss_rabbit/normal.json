@@ -13,13 +13,26 @@
                     "RabbitType": 99,
                     "Health": 9,
                     "attributes": [
-                        {"id": "movement_speed", "base": 0.4},
-                        {"id": "max_health", "base": 9}
+                        {
+                            "id": "movement_speed",
+                            "base": 0.4
+                        },
+                        {
+                            "id": "max_health",
+                            "base": 9
+                        }
                     ],
                     "active_effects": [
-                        {"id": "fire_resistance", "duration": 999999, "show_particles": false}
+                        {
+                            "id": "fire_resistance",
+                            "duration": 999999,
+                            "show_particles": false
+                        }
                     ],
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.normal_mob"
+                    ]
                 }
             },
             "weight": 1

@@ -1,36 +1,48 @@
 {
-    "spawn_range":6,
-    "total_mobs":25,
-    "total_mobs_added_per_player":10,
-    "simultaneous_mobs":8,
-    "simultaneous_mobs_added_per_player":4,
-    "ticks_between_spawn":0,
-    "spawn_potentials":[
+    "spawn_range": 6,
+    "total_mobs": 25,
+    "total_mobs_added_per_player": 10,
+    "simultaneous_mobs": 5,
+    "simultaneous_mobs_added_per_player": 4,
+    "ticks_between_spawn": 0,
+    "spawn_potentials": [
         {
-            "data":{
-                "equipment":{
-                    "slot_drop_chances":0,
-                    "loot_table":"cursefight:worldgen/deep_dungeon/mob/normal"
+            "data": {
+                "equipment": {
+                    "slot_drop_chances": 0,
+                    "loot_table": "cursefight:worldgen/deep_dungeon/mob/normal"
                 },
-                "entity":{
-                    "id":"minecraft:husk",
+                "entity": {
+                    "id": "minecraft:husk",
                     "Health": 3,
                     "IsBaby": true,
-                    "attributes":[
-                        {"id":"movement_speed","base":0.35},
-                        {"id":"attack_damage","base":0.5},
-                        {"id":"max_health","base":3}
+                    "attributes": [
+                        {
+                            "id": "movement_speed",
+                            "base": 0.35
+                        },
+                        {
+                            "id": "attack_damage",
+                            "base": 0.5
+                        },
+                        {
+                            "id": "max_health",
+                            "base": 3
+                        }
                     ],
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.normal_mob"
+                    ]
                 }
             },
-            "weight":1
+            "weight": 1
         }
     ],
-    "loot_tables_to_eject":[
+    "loot_tables_to_eject": [
         {
-            "data":"cursefight:worldgen/deep_dungeon/loot/spawners/boss",
-            "weight":1
+            "data": "cursefight:worldgen/deep_dungeon/loot/spawners/boss",
+            "weight": 1
         }
     ]
 }
