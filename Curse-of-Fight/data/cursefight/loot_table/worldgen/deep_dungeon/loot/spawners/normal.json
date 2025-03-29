@@ -58,22 +58,22 @@
         {
             "rolls": {
                 "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
+                "min": 4,
+                "max": 6
             },
             "bonus_rolls": 0,
             "entries": [
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:glow_berries",
-                    "weight": 8,
+                    "weight": 13,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 3
+                                "min": 2,
+                                "max": 5
                             }
                         },
                         {
@@ -107,7 +107,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:gold_ingot",
-                    "weight": 10,
+                    "weight": 8,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -122,7 +122,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_ingot",
-                    "weight": 10,
+                    "weight": 8,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -192,8 +192,19 @@
                 },
                 {
                     "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
                     "name": "minecraft:potion",
-                    "weight": 6,
+                    "weight": 10,
                     "functions": [
                         {
                             "function": "minecraft:set_potion",
@@ -228,8 +239,8 @@
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 20
+                                "min": 10,
+                                "max": 30
                             },
                             "options": "#minecraft:on_random_loot"
                         }
