@@ -353,13 +353,18 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {"floats": [724006]},
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        724006
+                                    ]
+                                },
                                 "minecraft:custom_data": {
                                     "return": 1
                                 },
                                 "custom_name": "[\"\",{\"text\":\"地表晶球\",\"italic\":false,\"color\":\"gold\"}]",
                                 "lore": [
-                                    "[\"\",{\"text\":\"從安德身上提煉出的空間傳送，使用後將會傳送自己到地表\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                    "[\"\",{\"text\":\"從安德身上提煉出的空間傳送，使用後將會傳送自己到地表\",\"italic\":false,\"color\":\"dark_purple\"}]",
+                                    "[\"\",{\"text\":\"詠唱時間 10 秒，冷卻 5 分鐘，期間保持使用狀態\",\"italic\":false,\"color\":\"red\"}]"
                                 ],
                                 "minecraft:consumable": {
                                     "consume_seconds": 10,
