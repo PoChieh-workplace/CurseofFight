@@ -8,5 +8,5 @@ execute as @e[type=marker,tag=spell_init] run summon minecraft:armor_stand ~ ~ ~
 execute as @e[type=marker,tag=spell_init] run rotate @s facing entity @p feet
 
 
-execute if score @s cursefight_mob_spell_tick matches 500.. run kill @e[type=flying_sword,distance=..50]
+execute if score @s cursefight_mob_spell_tick matches 500.. run kill @e[tag=flying_sword,distance=..50]
 scoreboard players add @s cursefight_mob_spell_tick 1
