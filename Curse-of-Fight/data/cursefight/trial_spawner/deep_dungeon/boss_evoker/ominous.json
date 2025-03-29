@@ -18,9 +18,16 @@
                     "Health": 30,
                     "DeathLootTable": "minecraft:empty",
                     "attributes": [
-                        {"id": "max_health", "base": 30}
+                        {
+                            "id": "max_health",
+                            "base": 30
+                        }
                     ],
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.ominous_mob","cursefight.deep_dungeon.boss.evoker"]
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.ominous_mob",
+                        "cursefight.deep_dungeon.boss.evoker"
+                    ]
                 }
             },
             "weight": 1

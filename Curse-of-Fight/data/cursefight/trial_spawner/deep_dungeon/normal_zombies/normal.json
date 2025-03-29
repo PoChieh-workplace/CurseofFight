@@ -14,7 +14,10 @@
                 },
                 "entity": {
                     "id": "minecraft:zombie",
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.normal_mob"
+                    ]
                 }
             },
             "weight": 1
@@ -27,7 +30,10 @@
                 },
                 "entity": {
                     "id": "minecraft:husk",
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.normal_mob"
+                    ]
                 }
             },
             "weight": 1
@@ -40,7 +46,10 @@
                 },
                 "entity": {
                     "id": "minecraft:drowned",
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.normal_mob"
+                    ]
                 }
             },
             "weight": 1
@@ -53,7 +62,10 @@
                 },
                 "entity": {
                     "id": "minecraft:skeleton",
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.normal_mob"
+                    ]
                 }
             },
             "weight": 1

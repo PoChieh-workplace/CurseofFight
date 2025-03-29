@@ -3,7 +3,7 @@
     "total_mobs": 2,
     "total_mobs_added_per_player": 2,
     "simultaneous_mobs": 1,
-    "simultaneous_mobs_added_per_player": 1,
+    "simultaneous_mobs_added_per_player": 0.5,
     "ticks_between_spawn": 10,
     "spawn_potentials": [
         {
@@ -14,7 +14,10 @@
                 },
                 "entity": {
                     "id": "minecraft:witch",
-                    "Tags":["cursefight.deep_dungeon.spawner_mob","cursefight.deep_dungeon.normal_mob"]
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.normal_mob"
+                    ]
                 }
             },
             "weight": 1

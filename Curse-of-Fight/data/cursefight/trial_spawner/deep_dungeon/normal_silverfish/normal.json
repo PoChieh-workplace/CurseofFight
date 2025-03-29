@@ -1,8 +1,8 @@
 {
     "spawn_range": 8,
     "total_mobs": 3,
-    "total_mobs_added_per_player": 3,
-    "simultaneous_mobs": 2,
+    "total_mobs_added_per_player": 2,
+    "simultaneous_mobs": 1,
     "simultaneous_mobs_added_per_player": 1,
     "ticks_between_spawn": 10,
     "spawn_potentials": [
