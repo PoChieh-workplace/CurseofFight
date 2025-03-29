@@ -50,8 +50,6 @@ tag @a remove win
 tag @a add gameplay
 advancement revoke @a everything
 recipe give @a *
-recipe take @a cursefight:return
-recipe take @a cursefight:panacea
 execute as @a[team=!black] at @n[tag=init_item] run loot give @s mine ~ ~ ~
 xp set @a 0 levels
 xp set @a 0 points
