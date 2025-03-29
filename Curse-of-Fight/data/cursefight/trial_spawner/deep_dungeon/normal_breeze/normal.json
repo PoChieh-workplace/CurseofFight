@@ -1,0 +1,28 @@
+{
+    "spawn_range": 8,
+    "total_mobs": 1,
+    "total_mobs_added_per_player": 1,
+    "simultaneous_mobs": 1,
+    "simultaneous_mobs_added_per_player": 0.5,
+    "ticks_between_spawn": 10,
+    "spawn_potentials": [
+        {
+            "data": {
+                "entity": {
+                    "id": "minecraft:breeze",
+                    "Tags": [
+                        "cursefight.deep_dungeon.spawner_mob",
+                        "cursefight.deep_dungeon.normal_mob"
+                    ]
+                }
+            },
+            "weight": 1
+        }
+    ],
+    "loot_tables_to_eject": [
+        {
+            "data": "cursefight:worldgen/deep_dungeon/loot/spawners/normal",
+            "weight": 1
+        }
+    ]
+}
