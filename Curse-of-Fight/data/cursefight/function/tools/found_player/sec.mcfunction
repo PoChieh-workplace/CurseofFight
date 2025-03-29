@@ -14,15 +14,17 @@ execute if entity @s[team=dark_green] at @s as @p[distance=1..,tag=cursefight.al
 execute if entity @s[team=dark_gray] at @s as @p[distance=1..,tag=cursefight.alive,team=!dark_gray] run tag @s add founded_player
 execute if entity @s[team=light_purple] at @s as @p[distance=1..,tag=cursefight.alive,team=!light_purple] run tag @s add founded_player
 
-execute at @s anchored eyes facing entity @p[tag=founded_player] eyes run particle minecraft:soul ^ ^-0.5 ^1 0 0 0 0 1 force
-execute at @s anchored eyes facing entity @p[tag=founded_player] eyes run particle minecraft:soul ^ ^-0.5 ^1.5 0 0 0 0 1 force
-execute at @s anchored eyes facing entity @p[tag=founded_player] eyes run particle minecraft:soul ^ ^-0.5 ^2.0 0 0 0 0 1 force
-execute at @s anchored eyes facing entity @p[tag=founded_player] eyes run particle minecraft:soul ^ ^-0.5 ^2.5 0 0 0 0 1 force
+execute at @s anchored eyes facing entity @p[tag=founded_player] eyes positioned ~ ~0.4 ~ run particle minecraft:soul ^ ^ ^0.5 0 0 0 0 1 force
+execute at @s anchored eyes facing entity @p[tag=founded_player] eyes positioned ~ ~0.4 ~ run particle minecraft:soul ^ ^ ^1 0 0 0 0 1 force
+execute at @s anchored eyes facing entity @p[tag=founded_player] eyes positioned ~ ~0.4 ~ run particle minecraft:soul ^ ^ ^1.5 0 0 0 0 1 force
+execute at @s anchored eyes facing entity @p[tag=founded_player] eyes positioned ~ ~0.4 ~ run particle minecraft:soul ^ ^ ^2.0 0 0 0 0 1 force
+execute at @s anchored eyes facing entity @p[tag=founded_player] eyes positioned ~ ~0.4 ~ run particle minecraft:soul ^ ^ ^2.5 0 0 0 0 1 force
 
-execute at @p[tag=founded_player] anchored eyes facing entity @s eyes run particle minecraft:soul ^ ^-0.5 ^1 0 0 0 0 1 force
-execute at @p[tag=founded_player] anchored eyes facing entity @s eyes run particle minecraft:soul ^ ^-0.5 ^1.5 0 0 0 0 1 force
-execute at @p[tag=founded_player] anchored eyes facing entity @s eyes run particle minecraft:soul ^ ^-0.5 ^2.0 0 0 0 0 1 force
-execute at @p[tag=founded_player] anchored eyes facing entity @s eyes run particle minecraft:soul ^ ^-0.5 ^2.5 0 0 0 0 1 force
+execute at @p[tag=founded_player] anchored eyes facing entity @s eyes positioned ~ ~0.4 ~ run particle minecraft:soul ^ ^ ^0.5 0 0 0 0 1 force
+execute at @p[tag=founded_player] anchored eyes facing entity @s eyes positioned ~ ~0.4 ~ run particle minecraft:soul ^ ^ ^1 0 0 0 0 1 force
+execute at @p[tag=founded_player] anchored eyes facing entity @s eyes positioned ~ ~0.4 ~ run particle minecraft:soul ^ ^ ^1.5 0 0 0 0 1 force
+execute at @p[tag=founded_player] anchored eyes facing entity @s eyes positioned ~ ~0.4 ~ run particle minecraft:soul ^ ^ ^2.0 0 0 0 0 1 force
+execute at @p[tag=founded_player] anchored eyes facing entity @s eyes positioned ~ ~0.4 ~ run particle minecraft:soul ^ ^ ^2.5 0 0 0 0 1 force
 
 
 tag @e[tag=founded_player] remove founded_player
