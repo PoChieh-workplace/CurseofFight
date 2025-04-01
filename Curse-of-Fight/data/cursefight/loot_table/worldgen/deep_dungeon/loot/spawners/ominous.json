@@ -283,7 +283,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:trial_key",
-                    "weight": 8,
+                    "weight": 9,
                     "quality": 0,
                     "functions": [
                         {
@@ -340,7 +340,7 @@
             "conditions": [
                 {
                     "condition": "minecraft:random_chance",
-                    "chance": 0.25
+                    "chance": 0.2
                 }
             ]
         }

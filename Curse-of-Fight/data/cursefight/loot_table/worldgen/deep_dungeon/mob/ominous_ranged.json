@@ -36,7 +36,7 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "minecraft:power": 3
+                                "minecraft:power": 2
                             },
                             "add": false
                         }
@@ -62,7 +62,7 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "minecraft:flame": 2,
+                                "minecraft:flame": 1,
                                 "minecraft:power": 1
                             },
                             "add": false

@@ -1,0 +1,112 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_pickaxe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "type": "minecraft:uniform",
+                                "min": 0.5,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shears",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "type": "minecraft:uniform",
+                                "min": 0.5,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:brush",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "type": "minecraft:uniform",
+                                "min": 0.5,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 5,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_hanging_moss",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cobweb",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glow_lichen",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "cursefight:worldgen/deep_dungeon/lobby_barrel"
+}

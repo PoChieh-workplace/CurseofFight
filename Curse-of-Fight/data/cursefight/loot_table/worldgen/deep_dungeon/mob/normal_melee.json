@@ -82,12 +82,12 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_shovel",
+                    "name": "minecraft:wooden_shovel",
                     "weight": 6
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_shovel",
+                    "name": "minecraft:wooden_shovel",
                     "weight": 2,
                     "functions": [
                         {
@@ -98,12 +98,12 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_pickaxe",
+                    "name": "minecraft:wooden_pickaxe",
                     "weight": 6
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_pickaxe",
+                    "name": "minecraft:wooden_pickaxe",
                     "weight": 2,
                     "functions": [
                         {
@@ -114,12 +114,12 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_sword",
+                    "name": "minecraft:wooden_sword",
                     "weight": 3
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_sword",
+                    "name": "minecraft:wooden_sword",
                     "functions": [
                         {
                             "function": "minecraft:set_enchantments",
@@ -132,7 +132,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_sword",
+                    "name": "minecraft:wooden_sword",
                     "functions": [
                         {
                             "function": "minecraft:set_enchantments",
