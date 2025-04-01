@@ -540,17 +540,38 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "conditions": [
-                                {
-                                    "chance": 0.4,
-                                    "condition": "minecraft:random_chance"
-                                }
-                            ],
+                            "function": "minecraft:set_count",
                             "count": {
-                                "max": 15,
-                                "min": 4
-                            },
-                            "function": "minecraft:set_count"
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 4
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 2,
+                                    "saturation": 2,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 2,
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:regeneration",
+                                                    "amplifier": 0,
+                                                    "duration": 60
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_name": "[\"\",{\"text\":\"小甜點\",\"italic\":false,\"color\":\"red\"}]"
+                            }
                         }
                     ],
                     "name": "minecraft:glow_berries",
