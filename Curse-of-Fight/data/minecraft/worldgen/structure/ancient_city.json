@@ -22,20 +22,7 @@
     },
     "monster": {
       "bounding_box": "full",
-      "spawns": [
-        {
-					"type": "minecraft:skeleton",
-					"maxCount": 2,
-					"minCount": 1,
-					"weight": 10
-				},
-        {
-					"type": "minecraft:stray",
-					"maxCount": 1,
-					"minCount": 1,
-					"weight": 1
-				}
-      ]
+      "spawns": []
     },
     "underground_water_creature": {
       "bounding_box": "full",
@@ -51,14 +38,14 @@
     }
   },
   "start_height": {
-		"type": "minecraft:uniform",
-		"min_inclusive": {
-			"above_bottom": 52
-		},
-		"max_inclusive": {
-			"above_bottom": 60
-		}
-	},
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "above_bottom": 52
+    },
+    "max_inclusive": {
+      "above_bottom": 60
+    }
+  },
   "start_jigsaw_name": "minecraft:city_anchor",
   "start_pool": "minecraft:ancient_city/city_center",
   "step": "underground_decoration",
