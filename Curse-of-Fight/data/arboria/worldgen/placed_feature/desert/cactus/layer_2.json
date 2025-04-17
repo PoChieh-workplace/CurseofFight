@@ -25,6 +25,27 @@
                   },
                   "type": "minecraft:simple_state_provider"
                 }
+              },
+              {
+                "height": {
+                  "type": "minecraft:weighted_list",
+                  "distribution": [
+                    {
+                      "data": 0,
+                      "weight": 3
+                    },
+                    {
+                      "data": 1,
+                      "weight": 1
+                    }
+                  ]
+                },
+                "provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:cactus_flower"
+                  }
+                }
               }
             ],
             "prioritize_tip": false
@@ -63,7 +84,7 @@
   },
   "placement": [
     {
-      "chance": 8,
+      "chance": 4,
       "type": "minecraft:rarity_filter"
     },
     {
@@ -71,18 +92,18 @@
     },
     {
       "noise_factor": 120.0,
-      "noise_offset": 0.35,
+      "noise_offset": 0.3,
       "noise_to_count_ratio": 1,
       "type": "minecraft:noise_based_count"
     },
     {
       "noise_factor": 120.0,
-      "noise_offset": -0.05,
+      "noise_offset": -0.1,
       "noise_to_count_ratio": -1,
       "type": "minecraft:noise_based_count"
     },
     {
-      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "heightmap": "WORLD_SURFACE_WG",
       "type": "minecraft:heightmap"
     },
     {

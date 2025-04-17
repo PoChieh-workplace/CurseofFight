@@ -1,0 +1,90 @@
+{
+  "feature": "arboria:other/leaf_litter",
+  "placement": [
+    {
+      "count": 48,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -6,
+        "max_inclusive": 6
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "blocks": "minecraft:air",
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "state": {
+              "Name": "minecraft:leaf_litter",
+              "Properties": {
+                "facing": "east",
+                "segment_amount": "4"
+              }
+            },
+            "type": "minecraft:would_survive"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "direction_of_search": "up",
+      "max_steps": 32,
+      "target_condition": {
+        "blocks": [
+          "minecraft:oak_leaves",
+          "minecraft:birch_leaves",
+          "minecraft:dark_oak_leaves"
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:environment_scan"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "predicate": {
+          "blocks": [
+            "minecraft:red_mushroom_block",
+            "minecraft:brown_mushroom_block",
+            "minecraft:mushroom_stem"
+          ],
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:not"
+      },
+      "type": "minecraft:block_predicate_filter"
+    }
+  ]
+}

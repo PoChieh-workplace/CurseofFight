@@ -27,12 +27,24 @@
       "type": "minecraft:random_offset"
     },
     {
-      "heightmap": "OCEAN_FLOOR",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
       "type": "minecraft:heightmap"
     },
     {
       "max_water_depth": 0,
       "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "predicate": {
+        "blocks": "#arboria:dirt",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
     },
     {
       "type": "minecraft:biome"

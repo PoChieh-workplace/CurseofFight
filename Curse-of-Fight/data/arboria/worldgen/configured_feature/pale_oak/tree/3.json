@@ -420,9 +420,9 @@
                                     {
                                       "blocks": "minecraft:pale_oak_log",
                                       "offset": [
-                                        1,
+                                        -1,
                                         0,
-                                        -1
+                                        1
                                       ],
                                       "type": "minecraft:matching_blocks"
                                     }

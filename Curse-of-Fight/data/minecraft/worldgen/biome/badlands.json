@@ -4,14 +4,15 @@
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
-  "downfall": 0,
+  "creature_spawn_probability": 0.03,
+  "downfall": 0.0,
   "effects": {
-    "fog_color": 14866371,
+    "fog_color": 12638463,
     "foliage_color": 10387789,
     "grass_color": 9470285,
     "mood_sound": {
       "block_search_extent": 8,
-      "offset": 2,
+      "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
@@ -37,8 +38,7 @@
       "arboria:badlands/red_sandstone/layer_2"
     ],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_underground"
     ],
     [
       "arboria:badlands/red_sandstone_spike/layer_1",
@@ -73,7 +73,6 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
@@ -98,10 +97,13 @@
       "arboria:badlands/dead_bush/layer_3",
       "arboria:badlands/dead_bush/layer_4",
       "arboria:badlands/dead_bush/layer_5",
+      "arboria:badlands/dry_grass_patch/layer_1",
+      "arboria:badlands/dry_grass_patch/layer_2",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "arboria:patch_sugar_cane_rare",
       "arboria:patch_pumpkin_rare",
+      "arboria:patch_firefly_bush_rare",
       "arboria:badlands/cactus/layer_1",
       "arboria:badlands/cactus/layer_2",
       "arboria:badlands/cactus/layer_3"
@@ -125,6 +127,30 @@
     ],
     "axolotls": [],
     "creature": [
+      {
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
       {
         "type": "minecraft:armadillo",
         "maxCount": 2,

@@ -1,0 +1,9 @@
+{
+  "feature": "minecraft:wildflowers_birch_forest",
+  "placement": [
+    {
+      "count": 0,
+      "type": "minecraft:count"
+    }
+  ]
+}

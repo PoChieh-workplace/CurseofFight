@@ -7,28 +7,28 @@
       },
       "features": [
         {
-          "chance": 0.0035,
+          "chance": 0.0015,
           "feature": {
             "feature": "arboria:dead_oak/1",
             "placement": []
           }
         },
         {
-          "chance": 0.0035,
+          "chance": 0.0015,
           "feature": {
             "feature": "arboria:dead_oak/5",
             "placement": []
           }
         },
         {
-          "chance": 0.0025,
+          "chance": 0.0005,
           "feature": {
             "feature": "arboria:dead_oak/6",
             "placement": []
           }
         },
         {
-          "chance": 0.0015,
+          "chance": 0.0005,
           "feature": {
             "feature": "arboria:dead_birch/3",
             "placement": []

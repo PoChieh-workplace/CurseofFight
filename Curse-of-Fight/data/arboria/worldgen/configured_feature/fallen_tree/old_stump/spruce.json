@@ -1,0 +1,150 @@
+{
+  "type": "minecraft:fallen_tree",
+  "config": {
+    "log_decorators": [
+      {
+        "type": "minecraft:attached_to_logs",
+        "block_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "data": {
+                "Name": "minecraft:moss_carpet"
+              },
+              "weight": 5
+            },
+            {
+              "data": {
+                "Name": "minecraft:red_mushroom"
+              },
+              "weight": 2
+            },
+            {
+              "data": {
+                "Name": "minecraft:brown_mushroom"
+              },
+              "weight": 1
+            }
+          ]
+        },
+        "directions": [
+          "up"
+        ],
+        "probability": 0.3
+      },
+      {
+        "type": "minecraft:attached_to_logs",
+        "block_provider": {
+          "state": {
+            "Name": "minecraft:vine",
+            "Properties": {
+              "east": "true",
+              "west": "false",
+              "north": "false",
+              "south": "false",
+              "up": "false"
+            }
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "directions": [
+          "west"
+        ],
+        "probability": 0.2
+      },
+      {
+        "type": "minecraft:attached_to_logs",
+        "block_provider": {
+          "state": {
+            "Name": "minecraft:vine",
+            "Properties": {
+              "east": "false",
+              "west": "true",
+              "north": "false",
+              "south": "false",
+              "up": "false"
+            }
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "directions": [
+          "east"
+        ],
+        "probability": 0.2
+      },
+      {
+        "type": "minecraft:attached_to_logs",
+        "block_provider": {
+          "state": {
+            "Name": "minecraft:vine",
+            "Properties": {
+              "east": "false",
+              "west": "false",
+              "north": "true",
+              "south": "false",
+              "up": "false"
+            }
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "directions": [
+          "south"
+        ],
+        "probability": 0.2
+      },
+      {
+        "type": "minecraft:attached_to_logs",
+        "block_provider": {
+          "state": {
+            "Name": "minecraft:vine",
+            "Properties": {
+              "east": "false",
+              "west": "false",
+              "north": "false",
+              "south": "true",
+              "up": "false"
+            }
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "directions": [
+          "north"
+        ],
+        "probability": 0.2
+      }
+    ],
+    "log_length": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 10,
+      "min_inclusive": 4
+    },
+    "stump_decorators": [
+      {
+        "type": "minecraft:trunk_vine"
+      }
+    ],
+    "trunk_provider": {
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:spruce_log",
+            "Properties": {
+              "axis": "y"
+            }
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "minecraft:stripped_spruce_log",
+            "Properties": {
+              "axis": "y"
+            }
+          },
+          "weight": 2
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    }
+  }
+}

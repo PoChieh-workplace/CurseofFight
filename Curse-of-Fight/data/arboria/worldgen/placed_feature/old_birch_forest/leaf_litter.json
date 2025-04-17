@@ -1,0 +1,67 @@
+{
+  "feature": "arboria:other/leaf_litter",
+  "placement": [
+    {
+      "count": 32,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -5,
+        "max_inclusive": 5
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "blocks": "minecraft:air",
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "state": {
+              "Name": "minecraft:leaf_litter",
+              "Properties": {
+                "facing": "east",
+                "segment_amount": "4"
+              }
+            },
+            "type": "minecraft:would_survive"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "direction_of_search": "up",
+      "max_steps": 32,
+      "target_condition": {
+        "blocks": "minecraft:birch_leaves",
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:environment_scan"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    }
+  ]
+}

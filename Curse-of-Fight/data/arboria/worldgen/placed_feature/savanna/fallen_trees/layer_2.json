@@ -7,6 +7,20 @@
       },
       "features": [
         {
+          "chance": 0.25,
+          "feature": {
+            "feature": "arboria:fallen_tree/stump/acacia",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.25,
+          "feature": {
+            "feature": "arboria:fallen_tree/old_stump/acacia",
+            "placement": []
+          }
+        },
+        {
           "chance": 0.6,
           "feature": {
             "feature": "arboria:fallen_tree/degraded/acacia",
@@ -23,7 +37,7 @@
         "distribution": [
           {
             "data": 0,
-            "weight": 24
+            "weight": 20
           },
           {
             "data": 1,
@@ -50,12 +64,24 @@
       "type": "minecraft:noise_based_count"
     },
     {
-      "heightmap": "OCEAN_FLOOR",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
       "type": "minecraft:heightmap"
     },
     {
       "max_water_depth": 0,
       "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "predicate": {
+        "blocks": "#arboria:dirt",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
     },
     {
       "type": "minecraft:biome"

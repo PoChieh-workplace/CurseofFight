@@ -1,11 +1,12 @@
 {
-    "carvers": [
-        "minecraft:cave",
-        "minecraft:cave_extra_underground",
-        "minecraft:canyon"
-    ],
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "downfall": 0.8,
   "effects": {
+    "dry_foliage_color": 10528412,
     "fog_color": 8484720,
     "foliage_color": 8883574,
     "grass_color": 7832178,
@@ -21,65 +22,65 @@
     "water_color": 7768221,
     "water_fog_color": 5597568
   },
-    "features": [
-        [
+  "features": [
+    [
       "arboria:pale_garden/coarse_dirt"
-        ],
-        [
+    ],
+    [
       "minecraft:lake_lava_underground"
-        ],
-        [
-            "minecraft:amethyst_geode"
-        ],
-        [
-            "minecraft:monster_room",
-            "minecraft:monster_room_deep"
-        ],
-        [],
-        [],
-        [
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
       "arboria:ore_dirt",
       "arboria:ore_gravel_lower",
       "arboria:ore_gravel_upper",
-            "minecraft:ore_granite_upper",
-            "minecraft:ore_granite_lower",
-            "minecraft:ore_diorite_upper",
-            "minecraft:ore_diorite_lower",
-            "minecraft:ore_andesite_upper",
-            "minecraft:ore_andesite_lower",
-            "minecraft:ore_tuff",
-            "minecraft:ore_coal_upper",
-            "minecraft:ore_coal_lower",
-            "minecraft:ore_iron_upper",
-            "minecraft:ore_iron_middle",
-            "minecraft:ore_iron_small",
-            "minecraft:ore_gold",
-            "minecraft:ore_gold_lower",
-            "minecraft:ore_redstone",
-            "minecraft:ore_redstone_lower",
-            "minecraft:ore_diamond",
-            "minecraft:ore_diamond_medium",
-            "minecraft:ore_diamond_large",
-            "minecraft:ore_diamond_buried",
-            "minecraft:ore_lapis",
-            "minecraft:ore_lapis_buried",
-            "minecraft:ore_copper",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
       "arboria:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
-        ],
+    ],
     [
       "arboria:pale_garden/tuff/steep",
       "arboria:pale_garden/tuff/slope"
     ],
-        [
-            "minecraft:spring_water",
+    [
+      "minecraft:spring_water",
       "minecraft:spring_lava",
       "arboria:pale_garden/rocks"
-        ],
-        [
-            "minecraft:glow_lichen",
+    ],
+    [
+      "minecraft:glow_lichen",
       "arboria:pale_garden/grass",
       "arboria:pale_garden/big_trees",
       "arboria:pale_garden/trees",
@@ -88,7 +89,8 @@
       "arboria:pale_garden/flowers/patch",
       "arboria:pale_garden/flowers/single",
       "arboria:patch_sugar_cane",
-      "arboria:patch_pumpkin"
+      "arboria:patch_pumpkin",
+      "arboria:patch_firefly_bush_rare"
     ],
     [
       "minecraft:freeze_top_layer",

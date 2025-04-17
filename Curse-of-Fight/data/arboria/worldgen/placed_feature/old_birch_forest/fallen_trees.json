@@ -7,6 +7,20 @@
       },
       "features": [
         {
+          "chance": 0.15,
+          "feature": {
+            "feature": "arboria:fallen_tree/stump/birch",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.2,
+          "feature": {
+            "feature": "arboria:fallen_tree/old_stump/birch",
+            "placement": []
+          }
+        },
+        {
           "chance": 0.3,
           "feature": {
             "feature": "arboria:fallen_tree/trunk/birch",
@@ -30,7 +44,7 @@
         "distribution": [
           {
             "data": 0,
-            "weight": 4
+            "weight": 2
           },
           {
             "data": 1,
@@ -51,12 +65,24 @@
       "type": "minecraft:random_offset"
     },
     {
-      "heightmap": "MOTION_BLOCKING",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
       "type": "minecraft:heightmap"
     },
     {
       "max_water_depth": 0,
       "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "predicate": {
+        "blocks": "#arboria:dirt",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
     },
     {
       "type": "minecraft:biome"

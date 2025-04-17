@@ -95,9 +95,7 @@
       "arboria:jungle/spikes",
       "arboria:sparse_jungle/rocks/layer_1",
       "arboria:sparse_jungle/rocks/layer_2",
-      "arboria:sparse_jungle/rocks/layer_3",
-      "arboria:sparse_jungle/fallen_trees/layer_1",
-      "arboria:sparse_jungle/fallen_trees/layer_2"
+      "arboria:sparse_jungle/rocks/layer_3"
     ],
     [
       "minecraft:glow_lichen",
@@ -113,11 +111,14 @@
       "arboria:sparse_jungle/trees/layer_2",
       "arboria:sparse_jungle/trees/layer_3",
       "arboria:sparse_jungle/trees/layer_4",
+      "arboria:sparse_jungle/fallen_trees/layer_1",
+      "arboria:sparse_jungle/fallen_trees/layer_2",
       "arboria:sparse_jungle/flowers",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "arboria:patch_sugar_cane",
       "arboria:patch_pumpkin",
+      "arboria:patch_firefly_bush",
       "arboria:sparse_jungle/vines",
       "arboria:sparse_jungle/patch_melon",
       "arboria:sparse_jungle/moss_on_tuff"

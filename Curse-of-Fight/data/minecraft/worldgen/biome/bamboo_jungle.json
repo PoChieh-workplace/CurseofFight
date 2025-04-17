@@ -88,8 +88,7 @@
       "arboria:jungle/spikes",
       "arboria:bamboo_jungle/rocks/layer_1",
       "arboria:bamboo_jungle/rocks/layer_2",
-      "arboria:bamboo_jungle/rocks/layer_3",
-      "arboria:bamboo_jungle/fallen_trees"
+      "arboria:bamboo_jungle/rocks/layer_3"
     ],
     [
       "minecraft:glow_lichen",
@@ -109,11 +108,13 @@
       "arboria:bamboo_jungle/undergrowth/layer_3",
       "arboria:bamboo_jungle/undergrowth/layer_4",
       "arboria:bamboo_jungle/undergrowth/layer_5",
+      "arboria:bamboo_jungle/fallen_trees",
       "arboria:jungle/flowers",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "arboria:patch_sugar_cane",
       "arboria:patch_pumpkin",
+      "arboria:patch_firefly_bush",
       "arboria:jungle/vines",
       "arboria:jungle/patch_melon",
       "arboria:sparse_jungle/moss_on_tuff"
