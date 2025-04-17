@@ -18,3 +18,6 @@ execute as @e[type=minecraft:marker,tag=village_protect] at @s run execute as @e
 
 # found player
 execute as @a[scores={found_player_time=1..},team=!black] run function cursefight:tools/found_player/sec
+
+# ancient city player patch sculk
+execute as @a[tag=cursefight.alive] if predicate cursefight:player/in_ancient_city run function cursefight:structure/ancient_city/player_sculk_patch_sec
