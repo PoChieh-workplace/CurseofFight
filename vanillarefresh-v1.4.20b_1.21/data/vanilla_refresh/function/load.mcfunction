@@ -1,5 +1,5 @@
 
-tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.20b","color": "green"}]
+# execute unless data storage vanilla_refresh_config:config config{load_message:0} unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.27c","color": "green"}]
 
 ### Pack Installed
 
@@ -106,6 +106,7 @@ scoreboard objectives add refresh_player_level_previous dummy
 
 
 
+scoreboard objectives add refresh_player_deaths_non_pvp dummy {"translate":"💀","color":"white"}
 scoreboard objectives add refresh_player_deaths deathCount
 scoreboard objectives add refresh_player_deaths2 deathCount
 scoreboard objectives add refresh_player_kills playerKillCount
@@ -143,6 +144,9 @@ scoreboard objectives add refresh_daycounter dummy
 scoreboard objectives add refresh_player_deathaverage dummy
 scoreboard objectives add refresh_player_deathaverage_decimal dummy
 
+scoreboard objectives add refresh_player_deathaverage_non_pvp dummy
+scoreboard objectives add refresh_player_deathaverage_decimal_non_pvp dummy
+
 scoreboard objectives add refresh_player_uitoastout dummy
 
 scoreboard objectives add refresh_exists dummy
@@ -156,6 +160,7 @@ scoreboard objectives add refresh_soul_despawntime_minutes dummy
 scoreboard objectives add refresh_event_highdamage dummy
 
 scoreboard objectives add refresh_player_death_score dummy
+scoreboard objectives add refresh_player_death_score_non_pvp dummy
 
 scoreboard objectives add refresh_gamerules dummy
 scoreboard objectives add refresh_members dummy
@@ -166,14 +171,18 @@ scoreboard objectives add refresh_carrot minecraft.used:carrot_on_a_stick
 
 scoreboard objectives modify refresh_health displayname {"translate":"Health"}
 
+scoreboard objectives modify refresh_player_health displayname "❤"
+
 scoreboard objectives modify refresh_player_hours displayname {"translate":"Hours"}
 scoreboard objectives modify refresh_player_mobkills displayname {"translate":"Mob Kills"}
 scoreboard objectives modify refresh_player_kills displayname {"translate":"Player Kills"}
-scoreboard objectives modify refresh_player_deaths displayname {"translate":"Deaths"}
+scoreboard objectives modify refresh_player_deaths displayname {"translate":"☠"}
+scoreboard objectives modify refresh_player_deaths_non_pvp displayname {"translate":"☠"}
 scoreboard objectives modify refresh_player_d_hours displayname {"translate":"Hours Survived"}
-scoreboard objectives modify refresh_player_level displayname {"translate":"XP Level"}
+scoreboard objectives modify refresh_player_level displayname {"translate":"XP"}
 scoreboard objectives modify refresh_memberID displayname {"translate":"Member ID"}
-scoreboard objectives modify refresh_player_death_score displayname {"translate":"Death Score"}
+scoreboard objectives modify refresh_player_death_score displayname ["☠",{"text":"S","bold":true,"color":"white"}]
+scoreboard objectives modify refresh_player_death_score_non_pvp displayname ["☠",{"text":"S","bold":true,"color":"white"}]
 
 scoreboard objectives add refresh_player_x dummy
 scoreboard objectives add refresh_player_y dummy
@@ -207,6 +216,7 @@ scoreboard objectives add refresh_adv_outer dummy
 
 scoreboard objectives add refresh_soul_percent_xp dummy
 
+
 scoreboard objectives add refresh_constants dummy
 
 scoreboard players set 1 refresh_constants 1
@@ -215,13 +225,28 @@ scoreboard players set 3 refresh_constants 3
 scoreboard players set 4 refresh_constants 4
 scoreboard players set 5 refresh_constants 5
 scoreboard players set 6 refresh_constants 6
+scoreboard players set 7 refresh_constants 7
+scoreboard players set 8 refresh_constants 8
+
+
+scoreboard players set -1 refresh_constants -1
+
+scoreboard players set 12 refresh_constants 12
+
+scoreboard players set 24 refresh_constants 24
 
 
 scoreboard players set 10 refresh_constants 10
 
+scoreboard players set -10 refresh_constants -10
+
+scoreboard players set 20 refresh_constants 20
+
+scoreboard players set 50 refresh_constants 50
 
 scoreboard players set 100 refresh_constants 100
 
+scoreboard players set 1000 refresh_constants 1000
 
 scoreboard players set num_100 refresh_constants 100
 scoreboard players set num_1000 refresh_constants 1000
@@ -234,7 +259,7 @@ scoreboard players set num_16666 refresh_constants 16666
 
 
 
-schedule function vanilla_refresh:other/clock/2400tick 2400t
+schedule function vanilla_refresh:other/clock/2min 2400t
 
 schedule function vanilla_refresh:other/clock/20tick 20t
 
@@ -244,10 +269,14 @@ schedule function vanilla_refresh:other/clock/2tick 2t
 
 schedule function vanilla_refresh:other/clock/5tick 5t
 
+#==============
 
+execute unless score settings_ported refresh_settings matches 1 if score mob_health refresh_settings matches -2147483648..2147483647 run function vanilla_refresh:other/default_settings_port
 function vanilla_refresh:other/default_settings
+
+schedule function vanilla_refresh:other/check_installs 1t
 
 #execute as @a run function vanilla_refresh:player/first_join_stats
 
-execute if score gamerules refresh_settings matches 1 run function vanilla_refresh:other_features/gamerules/update
+execute if data storage vanilla_refresh_config:config config{gamerules:1} run function vanilla_refresh:other_features/gamerules/update
 execute store result score keepInventory refresh_gamerules run gamerule keepInventory

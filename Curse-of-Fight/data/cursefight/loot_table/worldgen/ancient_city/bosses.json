@@ -214,25 +214,21 @@
                                     "minecraft:vanishing_curse": 1,
                                     "minecraft:fire_protection": 20
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "id": "cursefight.armor.dark_protection.armor",
-                                            "type": "minecraft:armor",
-                                            "amount": 7,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "id": "cursefight.armor.dark_protection.armor_effect",
-                                            "type": "minecraft:armor_toughness",
-                                            "amount": 2,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                },
-                                "minecraft:dyed_color": {
-                                    "rgb": 8991416
-                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "cursefight.armor.dark_protection.armor",
+                                        "type": "minecraft:armor",
+                                        "amount": 7,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "id": "cursefight.armor.dark_protection.armor_effect",
+                                        "type": "minecraft:armor_toughness",
+                                        "amount": 2,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "minecraft:dyed_color": 8991416,
                                 "minecraft:unbreakable": {
                                     "show_in_tooltip": false
                                 }
@@ -258,22 +254,20 @@
                                     "minecraft:unbreaking": 10,
                                     "cursefight:generic/elytra/landing": 1
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "id": "cursefight.armor.dark_protection.armor",
-                                            "type": "minecraft:armor",
-                                            "amount": 6,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "id": "cursefight.armor.dark_protection.armor_effect",
-                                            "type": "minecraft:armor_toughness",
-                                            "amount": 2,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "cursefight.armor.dark_protection.armor",
+                                        "type": "minecraft:armor",
+                                        "amount": 6,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "id": "cursefight.armor.dark_protection.armor_effect",
+                                        "type": "minecraft:armor_toughness",
+                                        "amount": 2,
+                                        "operation": "add_value"
+                                    }
+                                ],
                                 "minecraft:unbreakable": {
                                     "show_in_tooltip": false
                                 },
@@ -365,17 +359,15 @@
                                     "equip_sound": "minecraft:item.goat_horn.sound.0",
                                     "damage_on_hurt": false
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "id": "cursefight.banner.uninteraction",
-                                            "type": "minecraft:block_interaction_range",
-                                            "amount": -1,
-                                            "operation": "add_multiplied_base",
-                                            "slot": "any"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "cursefight.banner.uninteraction",
+                                        "type": "minecraft:block_interaction_range",
+                                        "amount": -1,
+                                        "operation": "add_multiplied_base",
+                                        "slot": "any"
+                                    }
+                                ]
                             }
                         }
                     ]

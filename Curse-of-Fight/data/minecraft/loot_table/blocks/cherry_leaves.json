@@ -26,9 +26,7 @@
                       "predicate": {
                         "components": {
                           "minecraft:enchantments": {
-                            "levels": {
-                              "minecraft:silk_touch": 1
-                            }
+                            "minecraft:silk_touch": 1
                           }
                         }
                       }
@@ -83,9 +81,7 @@
                 "predicate": {
                   "components": {
                     "minecraft:enchantments": {
-                      "levels": {
-                        "minecraft:silk_touch": 1
-                      }
+                      "minecraft:silk_touch": 1
                     }
                   }
                 }
@@ -150,9 +146,7 @@
                 "predicate": {
                   "components": {
                     "minecraft:enchantments": {
-                      "levels": {
-                        "minecraft:silk_touch": 1
-                      }
+                      "minecraft:silk_touch": 1
                     }
                   }
                 }
@@ -225,9 +219,7 @@
                 "predicate": {
                   "components": {
                     "minecraft:enchantments": {
-                      "levels": {
-                        "minecraft:silk_touch": 1
-                      }
+                      "minecraft:silk_touch": 1
                     }
                   }
                 }

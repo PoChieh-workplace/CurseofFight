@@ -24,9 +24,7 @@
                                                         "pattern": "host"
                                                     },
                                                     "minecraft:enchantments": {
-                                                        "levels": {
-                                                            "minecraft:protection": 2
-                                                        }
+                                                        "minecraft:protection": 2
                                                     }
                                                 }
                                             }
@@ -49,9 +47,7 @@
                                                         "pattern": "minecraft:host"
                                                     },
                                                     "minecraft:enchantments": {
-                                                        "levels": {
-                                                            "minecraft:protection": 2
-                                                        }
+                                                        "minecraft:protection": 2
                                                     }
                                                 }
                                             }
@@ -74,9 +70,7 @@
                                                         "pattern": "host"
                                                     },
                                                     "minecraft:enchantments": {
-                                                        "levels": {
-                                                            "minecraft:protection": 2
-                                                        }
+                                                        "minecraft:protection": 2
                                                     }
                                                 }
                                             }
@@ -95,9 +89,7 @@
                                                 "function": "minecraft:set_components",
                                                 "components": {
                                                     "minecraft:enchantments": {
-                                                        "levels": {
-                                                            "minecraft:power": 1
-                                                        }
+                                                        "minecraft:power": 1
                                                     }
                                                 }
                                             }
@@ -116,9 +108,7 @@
                                                 "function": "minecraft:set_components",
                                                 "components": {
                                                     "minecraft:enchantments": {
-                                                        "levels": {
-                                                            "minecraft:unbreaking": 3
-                                                        }
+                                                        "minecraft:unbreaking": 3
                                                     }
                                                 }
                                             }

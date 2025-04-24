@@ -1,4 +1,4 @@
-scoreboard players set stoptime refresh_settings 0
+data modify storage vanilla_refresh_config:config config.stoptime set value 0
 
 
 
@@ -6,4 +6,6 @@ scoreboard players set stoptime refresh_settings 0
 
 function vanilla_refresh:other/menus/stats/settings3
 
-playsound entity.experience_orb.pickup player @s ~ ~ ~ 1 1
+playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1
+
+#execute store result storage vanilla_refresh:settings stoptime int 1 run scoreboard players get config.stoptime refresh_settings

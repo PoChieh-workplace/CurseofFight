@@ -663,30 +663,28 @@
                                             {
                                                 "function": "minecraft:set_components",
                                                 "components": {
-                                                    "minecraft:attribute_modifiers": {
-                                                        "modifiers": [
-                                                            {
-                                                                "id": "cof.trident.attack",
-                                                                "type": "minecraft:attack_damage",
-                                                                "amount": 7,
-                                                                "operation": "add_value",
-                                                                "slot": "mainhand"
-                                                            },
-                                                            {
-                                                                "id": "cof.trident.movement",
-                                                                "type": "minecraft:movement_speed",
-                                                                "amount": -0.03,
-                                                                "operation": "add_value",
-                                                                "slot": "mainhand"
-                                                            },
-                                                            {
-                                                                "type": "minecraft:attack_speed",
-                                                                "id": "minecraft:damage_speed",
-                                                                "amount": -0.6,
-                                                                "operation": "add_multiplied_base"
-                                                            }
-                                                        ]
-                                                    }
+                                                    "minecraft:attribute_modifiers": [
+                                                        {
+                                                            "id": "cof.trident.attack",
+                                                            "type": "minecraft:attack_damage",
+                                                            "amount": 7,
+                                                            "operation": "add_value",
+                                                            "slot": "mainhand"
+                                                        },
+                                                        {
+                                                            "id": "cof.trident.movement",
+                                                            "type": "minecraft:movement_speed",
+                                                            "amount": -0.03,
+                                                            "operation": "add_value",
+                                                            "slot": "mainhand"
+                                                        },
+                                                        {
+                                                            "type": "minecraft:attack_speed",
+                                                            "id": "minecraft:damage_speed",
+                                                            "amount": -0.6,
+                                                            "operation": "add_multiplied_base"
+                                                        }
+                                                    ]
                                                 }
                                             }
                                         ]

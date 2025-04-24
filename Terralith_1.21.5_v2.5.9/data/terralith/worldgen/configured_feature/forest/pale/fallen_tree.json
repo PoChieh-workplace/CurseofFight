@@ -1,0 +1,164 @@
+{
+    "type": "minecraft:fallen_tree",
+    "config": {
+        "log_decorators": [
+            {
+                "type": "minecraft:attached_to_logs",
+                "probability": 0.4,
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:resin_clump",
+                        "Properties": {
+                            "north": "true"
+                        }
+                    }
+                },
+                "directions": [
+                    "south"
+                ]
+            },
+            {
+                "type": "minecraft:attached_to_logs",
+                "probability": 0.4,
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:resin_clump",
+                        "Properties": {
+                            "south": "true"
+                        }
+                    }
+                },
+                "directions": [
+                    "north"
+                ]
+            },
+            {
+                "type": "minecraft:attached_to_logs",
+                "probability": 0.4,
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:resin_clump",
+                        "Properties": {
+                            "east": "true"
+                        }
+                    }
+                },
+                "directions": [
+                    "west"
+                ]
+            },
+            {
+                "type": "minecraft:attached_to_logs",
+                "probability": 0.4,
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:resin_clump",
+                        "Properties": {
+                            "west": "true"
+                        }
+                    }
+                },
+                "directions": [
+                    "east"
+                ]
+            },
+            {
+                "type": "minecraft:attached_to_logs",
+                "probability": 0.5,
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:pale_moss_carpet"
+                    }
+                },
+                "directions": [
+                    "up"
+                ]
+            }
+        ],
+        "log_length": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 8,
+            "min_inclusive": 5
+        },
+        "stump_decorators": [
+            {
+                "type": "minecraft:attached_to_logs",
+                "probability": 0.2,
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:resin_clump",
+                        "Properties": {
+                            "north": "true"
+                        }
+                    }
+                },
+                "directions": [
+                    "south"
+                ]
+            },
+            {
+                "type": "minecraft:attached_to_logs",
+                "probability": 0.2,
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:resin_clump",
+                        "Properties": {
+                            "south": "true"
+                        }
+                    }
+                },
+                "directions": [
+                    "north"
+                ]
+            },
+            {
+                "type": "minecraft:attached_to_logs",
+                "probability": 0.2,
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:resin_clump",
+                        "Properties": {
+                            "east": "true"
+                        }
+                    }
+                },
+                "directions": [
+                    "west"
+                ]
+            },
+            {
+                "type": "minecraft:attached_to_logs",
+                "probability": 0.2,
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:resin_clump",
+                        "Properties": {
+                            "west": "true"
+                        }
+                    }
+                },
+                "directions": [
+                    "east"
+                ]
+            }
+        ],
+        "trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:pale_oak_log",
+                "Properties": {
+                    "axis": "y"
+                }
+            }
+        }
+    }
+}

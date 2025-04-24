@@ -1,8 +1,10 @@
-scoreboard players set recovery refresh_settings 1
+data modify storage vanilla_refresh_config:config config.recovery set value 1
 
 
 
 
 function vanilla_refresh:other/menus/block/settings3
 
-playsound entity.experience_orb.pickup player @s ~ ~ ~ 1 1
+playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1
+
+#execute store result storage vanilla_refresh:settings recovery int 1 run scoreboard players get config.recovery refresh_settings

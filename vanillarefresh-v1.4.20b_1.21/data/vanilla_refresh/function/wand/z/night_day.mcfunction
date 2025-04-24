@@ -5,9 +5,9 @@
 execute store result score lastchecked_timeofday refresh_storage run time query daytime
 
 
-execute if score lastchecked_timeofday refresh_storage matches 1..12999 run tellraw @s [{"text": ""},{"translate": "Night","color": "yellow"},{"translate":" - Set the time to 13000"}]
-execute if score lastchecked_timeofday refresh_storage matches 13000..17999 run tellraw @s [{"text": ""},{"translate": "Midnight","color": "yellow"},{"translate": " - Set the time to 18000"}]
-execute if score lastchecked_timeofday refresh_storage matches 18000..24000 run tellraw @s [{"text": ""},{"translate": "Day","color": "yellow"},{"translate": " - Set the time to 1000"}]
+execute if score lastchecked_timeofday refresh_storage matches 1..12999 run tellraw @s [{"translate": ""},{"translate": "Night","color": "yellow"},{"translate":" - Set the time to 13000"}]
+execute if score lastchecked_timeofday refresh_storage matches 13000..17999 run tellraw @s [{"translate": ""},{"translate": "Midnight","color": "yellow"},{"translate": " - Set the time to 18000"}]
+execute if score lastchecked_timeofday refresh_storage matches 18000..24000 run tellraw @s [{"translate": ""},{"translate": "Day","color": "yellow"},{"translate": " - Set the time to 1000"}]
 
 
 execute if score lastchecked_timeofday refresh_storage matches 13000..17999 run time set 18000

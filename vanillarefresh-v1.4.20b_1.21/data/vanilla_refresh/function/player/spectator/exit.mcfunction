@@ -1,3 +1,3 @@
 tag @s remove refresh_spectator
 
-function vanilla_refresh:wand/z/spectate_appear2
+function vanilla_refresh:player/spectator/appear2

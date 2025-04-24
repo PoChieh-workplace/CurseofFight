@@ -29,7 +29,14 @@ scoreboard players add @s refresh_player_minutes 0
 scoreboard players add @s refresh_player_hours 0
 
 scoreboard players add @s refresh_player_deaths 0
+scoreboard players add @s refresh_player_deaths_non_pvp 0
 scoreboard players add @s refresh_player_deaths2 0
+
+scoreboard players add @s refresh_player_deathaverage 0
+scoreboard players add @s refresh_player_deathaverage_decimal 0
+scoreboard players add @s refresh_player_deathaverage_non_pvp 0
+scoreboard players add @s refresh_player_deathaverage_decimal_non_pvp 0
+
 scoreboard players add @s refresh_player_kills 0
 scoreboard players add @s refresh_player_mobkills 0
 scoreboard players add @s refresh_player_kills 0
@@ -40,8 +47,12 @@ scoreboard players add @s refresh_player_d_seconds 0
 
 scoreboard players add @s refresh_player_level 0
 
+execute store result score @s refresh_maxhealth run data get entity @s attributes[{id:"minecraft:max_health"}].base
+execute unless score @s refresh_maxhealth matches 1.. run scoreboard players set @s refresh_maxhealth 20
 
-execute as @s store result score @s refresh_uuid1 run data get entity @s UUID[0]
-execute as @s store result score @s refresh_uuid2 run data get entity @s UUID[1]
-execute as @s store result score @s refresh_uuid3 run data get entity @s UUID[2]
-execute as @s store result score @s refresh_uuid4 run data get entity @s UUID[3]
+
+
+execute store result score @s refresh_uuid1 run data get entity @s UUID[0]
+execute store result score @s refresh_uuid2 run data get entity @s UUID[1]
+execute store result score @s refresh_uuid3 run data get entity @s UUID[2]
+execute store result score @s refresh_uuid4 run data get entity @s UUID[3]

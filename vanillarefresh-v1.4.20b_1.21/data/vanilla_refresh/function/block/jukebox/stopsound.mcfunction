@@ -77,3 +77,5 @@ execute if score @s refresh_count matches 1800000..1899999 run stopsound @a[dist
 #creator music box
 #73 seconds
 execute if score @s refresh_count matches 1900000..1999999 run stopsound @a[distance=..64] record music_disc.creator_music_box
+
+tag @s remove refresh_entity_jukebox_islooping

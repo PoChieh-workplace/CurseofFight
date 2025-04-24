@@ -1,2 +1,2 @@
 tp @s ~ -500 ~
-kill @s
+execute if entity @s[type=#vanilla_refresh:markers] run kill @s

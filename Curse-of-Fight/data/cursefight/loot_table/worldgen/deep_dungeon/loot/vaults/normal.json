@@ -664,36 +664,34 @@
                                     "minecraft:unbreaking": 5,
                                     "cursefight:generic/armor/advence_attribute": 1
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "id": "0-1-0-2-0",
-                                            "type": "minecraft:armor",
-                                            "amount": 20,
-                                            "operation": "add_value",
-                                            "slot": "armor"
-                                        },
-                                        {
-                                            "id": "0-1-0-2-1",
-                                            "type": "minecraft:movement_speed",
-                                            "amount": 0.2,
-                                            "operation": "add_value",
-                                            "slot": "armor"
-                                        },
-                                        {
-                                            "id": "0-1-0-2-2",
-                                            "type": "minecraft:fall_damage_multiplier",
-                                            "amount": -1,
-                                            "operation": "add_multiplied_base"
-                                        },
-                                        {
-                                            "id": "0-1-0-2-3",
-                                            "type": "minecraft:step_height",
-                                            "amount": 1,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "0-1-0-2-0",
+                                        "type": "minecraft:armor",
+                                        "amount": 20,
+                                        "operation": "add_value",
+                                        "slot": "armor"
+                                    },
+                                    {
+                                        "id": "0-1-0-2-1",
+                                        "type": "minecraft:movement_speed",
+                                        "amount": 0.2,
+                                        "operation": "add_value",
+                                        "slot": "armor"
+                                    },
+                                    {
+                                        "id": "0-1-0-2-2",
+                                        "type": "minecraft:fall_damage_multiplier",
+                                        "amount": -1,
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "id": "0-1-0-2-3",
+                                        "type": "minecraft:step_height",
+                                        "amount": 1,
+                                        "operation": "add_value"
+                                    }
+                                ],
                                 "minecraft:custom_name": "[\"\",{\"text\":\"強化馬鎧\",\"italic\":false,\"color\":\"aqua\"}]"
                             }
                         }
@@ -718,24 +716,22 @@
                                     "minecraft:vanishing_curse": 1
                                 },
                                 "minecraft:custom_name": "[\"\",{\"text\":\"戰斧\",\"italic\":false,\"color\":\"dark_red\"}]",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "id": "0-0-3-1-3",
-                                            "type": "minecraft:attack_damage",
-                                            "amount": 10,
-                                            "operation": "add_value",
-                                            "slot": "mainhand"
-                                        },
-                                        {
-                                            "id": "0-0-3-1-4",
-                                            "type": "minecraft:attack_speed",
-                                            "amount": -3.6,
-                                            "operation": "add_value",
-                                            "slot": "mainhand"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "0-0-3-1-3",
+                                        "type": "minecraft:attack_damage",
+                                        "amount": 10,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    },
+                                    {
+                                        "id": "0-0-3-1-4",
+                                        "type": "minecraft:attack_speed",
+                                        "amount": -3.6,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    }
+                                ]
                             }
                         }
                     ]

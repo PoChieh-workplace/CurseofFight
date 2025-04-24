@@ -21,4 +21,4 @@ give @s bricks
 give @s grass_block
 give @s bricks
 give @s oak_planks
-give @s redstone 
+give @s redstone

@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:dandelion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poppy"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_orchid"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:allium"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:azure_bluet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:red_tulip"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_tulip"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:white_tulip"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pink_tulip"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:oxeye_daisy"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cornflower"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lily_of_the_valley"
+                }
+            ]
+        }
+    ]
+}

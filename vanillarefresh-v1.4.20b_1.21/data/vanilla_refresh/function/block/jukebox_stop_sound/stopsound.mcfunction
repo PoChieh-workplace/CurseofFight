@@ -1,0 +1,1 @@
+stopsound @a[distance=..40,tag=refresh_hears_jukebox] music

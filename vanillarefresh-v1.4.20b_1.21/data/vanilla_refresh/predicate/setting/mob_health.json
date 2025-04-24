@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "vanilla_refresh_config:config",
+    "path": "config.mob_health"
+  },
+  "range": 1
+}

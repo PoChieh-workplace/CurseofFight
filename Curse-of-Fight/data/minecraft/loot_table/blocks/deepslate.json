@@ -15,9 +15,7 @@
                   "predicate": {
                     "components": {
                       "minecraft:enchantments": {
-                        "levels": {
-                          "minecraft:silk_touch": 1
-                        }
+                        "minecraft:silk_touch": 1
                       }
                     }
                   }
@@ -41,50 +39,50 @@
     },
     {
       "bonus_rolls": 0.0,
-      "conditions":[
+      "conditions": [
         {
-          "condition":"minecraft:entity_properties",
-          "predicate":{
-            "nbt":"{Tags:[silverfish]}"
+          "condition": "minecraft:entity_properties",
+          "predicate": {
+            "nbt": "{Tags:[silverfish]}"
           },
-          "entity":"this"
+          "entity": "this"
         }
       ],
-      "entries":[
+      "entries": [
         {
-          "type":"minecraft:item",
-          "conditions":[
+          "type": "minecraft:item",
+          "conditions": [
             {
-              "condition":"minecraft:random_chance",
-              "chance":0.005
+              "condition": "minecraft:random_chance",
+              "chance": 0.005
             }
           ],
-          "name":"minecraft:debug_stick"
+          "name": "minecraft:debug_stick"
         }
       ],
       "rolls": 1.0
     },
     {
       "bonus_rolls": 0.0,
-      "conditions":[
+      "conditions": [
         {
-          "condition":"minecraft:entity_properties",
-          "predicate":{
-            "nbt":"{Tags:[mine_bomb]}"
+          "condition": "minecraft:entity_properties",
+          "predicate": {
+            "nbt": "{Tags:[mine_bomb]}"
           },
-          "entity":"this"
+          "entity": "this"
         }
       ],
-      "entries":[
+      "entries": [
         {
-          "type":"minecraft:item",
-          "conditions":[
+          "type": "minecraft:item",
+          "conditions": [
             {
-              "condition":"minecraft:random_chance",
-              "chance":0.01
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
             }
           ],
-          "name":"minecraft:tropical_fish_spawn_egg"
+          "name": "minecraft:tropical_fish_spawn_egg"
         }
       ],
       "rolls": 1.0

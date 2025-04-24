@@ -17,21 +17,32 @@ fill ^ ^-1 ^1 ^ ^-1 ^1 coarse_dirt replace #vanilla_refresh:gravestone_replaceab
 execute if score @s refresh_player_rotation matches -180..-136 rotated -180 0 run setblock ^ ^ ^1 player_head[rotation=0]
 execute if score @s refresh_player_rotation matches 135..179 rotated -180 0 run setblock ^ ^ ^1 player_head[rotation=0]
 
+execute if score @s refresh_player_rotation matches -180..-136 rotated -180 0 run setblock ^ ^1 ^1 oak_wall_sign[facing=north]
+execute if score @s refresh_player_rotation matches 135..179 rotated -180 0 run setblock ^ ^1 ^1 oak_wall_sign[facing=north]
+
 #east
 execute if score @s refresh_player_rotation matches -135..-46 rotated -90 0 run setblock ^ ^ ^1 player_head[rotation=4]
+execute if score @s refresh_player_rotation matches -135..-46 rotated -90 0 run setblock ^ ^1 ^1 oak_wall_sign[facing=east]
 
 #south
 execute if score @s refresh_player_rotation matches -45..44 rotated 0 0 run setblock ^ ^ ^1 player_head[rotation=8]
+execute if score @s refresh_player_rotation matches -45..44 rotated 0 0 run setblock ^ ^1 ^1 oak_wall_sign[facing=south]
 
 #west
 execute if score @s refresh_player_rotation matches 45..134 rotated 90 0 run setblock ^ ^ ^1 player_head[rotation=12]
+execute if score @s refresh_player_rotation matches 45..134 rotated 90 0 run setblock ^ ^1 ^1 oak_wall_sign[facing=west]
+
+data modify block ^ ^1 ^1 front_text.messages[1] set from storage vanilla_refresh:storage last_player_death
+data modify block ^ ^1 ^1 front_text.has_glowing_text set value 1b
+data modify block ^ ^1 ^1 front_text.color set value "light_gray"
+data modify block ^ ^1 ^1 is_waxed set value 1b
 
 
 
 #insert texture
 execute on origin run loot spawn ^ ^ ^1 loot vanilla_refresh:drop/player_head
-execute positioned ^ ^ ^1 run data modify block ^ ^ ^ SkullOwner set from entity @e[sort=nearest,limit=1,type=item] Item.tag.SkullOwner
-kill @e[sort=nearest,limit=1,type=item]
+execute positioned ^ ^ ^1 run data modify block ^ ^ ^ profile set from entity @n[type=item] Item.components."minecraft:profile"
+execute positioned ^ ^ ^1 run kill @n[type=item,nbt={Item:{id:"minecraft:player_head",components:{"minecraft:custom_data":{"vanilla_refresh_death_head":1b}}}}]
 
 #========================================================
 

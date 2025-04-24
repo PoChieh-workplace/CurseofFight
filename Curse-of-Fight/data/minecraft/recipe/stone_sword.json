@@ -14,22 +14,20 @@
     "count": 1,
     "id": "minecraft:stone_sword",
     "components": {
-      "minecraft:attribute_modifiers": {
-          "modifiers": [
-              {
-                  "type": "minecraft:attack_damage",
-                  "id": "minecraft:sword_damage",
-                  "amount": 3,
-                  "operation": "add_value"
-              },
-              {
-                  "type": "minecraft:attack_speed",
-                  "id": "minecraft:sword_damage_speed",
-                  "amount": -0.6,
-                  "operation": "add_multiplied_base"
-              }
-          ]
-      }
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:sword_damage",
+          "amount": 3,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:sword_damage_speed",
+          "amount": -0.6,
+          "operation": "add_multiplied_base"
+        }
+      ]
     }
   }
 }

@@ -1,0 +1,15 @@
+{
+    "feature": "terralith:swamp/vanilla/patch_firefly_bush",
+    "placement": [
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

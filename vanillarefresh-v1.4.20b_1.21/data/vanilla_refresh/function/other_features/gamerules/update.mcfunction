@@ -1,4 +1,6 @@
 
+scoreboard players reset gamerules_cooldown refresh_storage
+
 execute store result score difficulty refresh_gamerules run difficulty
 
 execute store result score announceAdvancements refresh_gamerules run gamerule announceAdvancements
@@ -26,6 +28,10 @@ execute store result score fireDamage refresh_gamerules run gamerule fireDamage
 
 execute store result score forgiveDeadPlayers refresh_gamerules run gamerule forgiveDeadPlayers
 execute store result score freezeDamage refresh_gamerules run gamerule freezeDamage
+
+execute store result score keepInventory refresh_gamerules run gamerule keepInventory
+
+
 execute store result score logAdminCommands refresh_gamerules run gamerule logAdminCommands
 execute store result score maxCommandChainLength refresh_gamerules run gamerule maxCommandChainLength
 
@@ -42,7 +48,6 @@ execute store result score spectatorsGenerateChunks refresh_gamerules run gameru
 
 execute store result score universalAnger refresh_gamerules run gamerule universalAnger
 execute store result score announceAdvancements refresh_gamerules run gamerule announceAdvancements
-
 
 #1.17
 function vanilla_refresh:other_features/gamerules/updates/1.17
@@ -62,8 +67,6 @@ execute store result score enderPearlsVanishOnDeath refresh_gamerules run gameru
 execute store result score maxCommandForkCount refresh_gamerules run gamerule maxCommandForkCount
 execute store result score playersNetherPortalCreativeDelay refresh_gamerules run gamerule playersNetherPortalCreativeDelay
 execute store result score playersNetherPortalDefaultDelay refresh_gamerules run gamerule playersNetherPortalDefaultDelay
-execute store result score projectilesCanBreakBlocks refresh_gamerules run gamerule projectilesCanBreakBlocks
-
 execute store result score projectilesCanBreakBlocks refresh_gamerules run gamerule projectilesCanBreakBlocks
 
 execute store result score spawnChunkRadius refresh_gamerules run gamerule spawnChunkRadius

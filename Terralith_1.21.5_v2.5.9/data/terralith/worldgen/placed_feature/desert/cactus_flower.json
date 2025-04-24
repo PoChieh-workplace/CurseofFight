@@ -1,0 +1,66 @@
+{
+    "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+            "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:cactus_flower"
+                }
+            }
+        }
+    },
+    "placement": [
+        {
+            "type": "count",
+            "count": 2
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                            "minecraft:air"
+                        ],
+                        "offset": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                            "minecraft:red_sand",
+                            "minecraft:sand"
+                        ],
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "minecraft:would_survive",
+                        "state": {
+                            "Name": "minecraft:cactus_flower"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

@@ -203,17 +203,15 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "id": "cursefight.banner.uninteraction",
-                                            "type": "minecraft:block_interaction_range",
-                                            "amount": -1,
-                                            "operation": "add_multiplied_base",
-                                            "slot": "any"
-                                        }
-                                    ]
-                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "cursefight.banner.uninteraction",
+                                        "type": "minecraft:block_interaction_range",
+                                        "amount": -1,
+                                        "operation": "add_multiplied_base",
+                                        "slot": "any"
+                                    }
+                                ],
                                 "minecraft:custom_name": "[\"\",{\"text\":\"屍血\",\"bold\":true,\"color\":\"red\"}]",
                                 "minecraft:consumable": {
                                     "consume_seconds": 2,

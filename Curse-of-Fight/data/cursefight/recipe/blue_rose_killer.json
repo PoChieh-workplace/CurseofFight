@@ -17,32 +17,38 @@
         "id": "minecraft:iron_sword",
         "count": 1,
         "components": {
-            "minecraft:custom_model_data": {"floats": [724301]},
-            "minecraft:custom_data": {"blue_rose_killer":1},
-            "custom_name":"[\"\",{\"text\":\"藍薔薇追擊者\",\"italic\":false,\"color\":\"aqua\"}]",
-            "lore":["[\"\",{\"text\":\"她是一名刺客，也是一位英雄，更是為大家帶來幸福的存在\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "minecraft:custom_model_data": {
+                "floats": [
+                    724301
+                ]
+            },
+            "minecraft:custom_data": {
+                "blue_rose_killer": 1
+            },
+            "custom_name": "[\"\",{\"text\":\"藍薔薇追擊者\",\"italic\":false,\"color\":\"aqua\"}]",
+            "lore": [
+                "[\"\",{\"text\":\"她是一名刺客，也是一位英雄，更是為大家帶來幸福的存在\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"
+            ],
             "minecraft:enchantments": {
                 "minecraft:sharpness": 2,
                 "minecraft:unbreaking": 3,
-                "minecraft:looting":2,
-                "cursefight:generic/sword/life_steal":1
+                "minecraft:looting": 2,
+                "cursefight:generic/sword/life_steal": 1
             },
-            "minecraft:attribute_modifiers": {
-                "modifiers": [
-                    {
-                        "type": "minecraft:attack_damage",
-                        "id": "minecraft:sword_damage",
-                        "amount": 4,
-                        "operation": "add_value"
-                    },
-                    {
-                        "type": "minecraft:attack_speed",
-                        "id": "minecraft:sword_damage_speed",
-                        "amount": -0.6,
-                        "operation": "add_multiplied_base"
-                    }
-                ]
-            }
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:sword_damage",
+                    "amount": 4,
+                    "operation": "add_value"
+                },
+                {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:sword_damage_speed",
+                    "amount": -0.6,
+                    "operation": "add_multiplied_base"
+                }
+            ]
         }
     }
 }

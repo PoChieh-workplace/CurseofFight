@@ -2,11 +2,6 @@
   "values": [
     "minecraft:dripstone_caves",
     "minecraft:lush_caves",
-    "minecraft:infested_caves",
-    "minecraft:ice_caves",
-    "minecraft:desert_caves",
-    "minecraft:thermal_caves",
-    "minecraft:mushroom_caves",
     "minecraft:deep_dark",
     "terralith:cave/andesite_caves",
     "terralith:cave/deep_caves",

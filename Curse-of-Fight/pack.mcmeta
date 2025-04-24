@@ -1,6 +1,6 @@
 {
-	"pack": {
-		"pack_format": 61,
-		"description": "datapack for Waterball server"
-	}
+  "pack": {
+    "pack_format": 71,
+    "description": "datapack for Waterball server"
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "values": [
-    "#terralith:reference/temperature/frozen_all"
-  ]
+    "replace": false,
+    "values": [
+        "#terralith:reference/temperature/frozen_all"
+    ]
 }

@@ -3,11 +3,17 @@
 
 tag @s add refresh_usingbrush_mob
 
-#execute positioned ~ ~1.62 ~ run particle electric_spark ~ ~ ~ 0 0 0 0 1 force @a[distance=..128]
 scoreboard players add temp refresh_count 1
-tag @e[distance=..2,type=!#vanilla_refresh:misc_brush,sort=nearest,limit=1,tag=!refresh_usingbrush_mob] add refresh_oh_ur_dead_like_bye_RIP
-execute unless entity @e[distance=..2,type=!#vanilla_refresh:misc_brush,sort=nearest,limit=1,tag=refresh_oh_ur_dead_like_bye_RIP] positioned ^ ^ ^1 if block ^ ^ ^ #vanilla_refresh:permeable unless score temp refresh_count matches 128.. run function vanilla_refresh:wand/z/brush_mob
-execute as @e[type=!#vanilla_refresh:misc_brush,tag=refresh_oh_ur_dead_like_bye_RIP] at @s run function vanilla_refresh:wand/z/brush_mob_poof
+
+
+particle electric_spark ~ ~ ~ 0 0 0 0 1 force @a[distance=..256]
+
+$execute as @n[tag=!refresh_temp_usingwand,distance=..1,type=$(wand_mob_filter),tag=!refresh_entity_deletion_locked] at @s run function vanilla_refresh:wand/z/brush_mob_poof
+
+#$execute if predicate vanilla_refresh:condition/sneaking if entity @n[distance=..1,type=$(wand_mob_filter)] as @e[distance=..3,type=$(wand_mob_filter)] at @s run function vanilla_refresh:wand/z/brush_mob_poof
+
+
+execute positioned ^ ^ ^1 if block ^ ^ ^ #vanilla_refresh:permeable unless score temp refresh_count matches 128.. run function vanilla_refresh:wand/z/brush_mob with storage vanilla_refresh:storage
 
 scoreboard players reset temp refresh_count
 

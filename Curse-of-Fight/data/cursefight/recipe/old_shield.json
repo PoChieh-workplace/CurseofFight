@@ -14,7 +14,11 @@
 		"count": 1,
 		"id": "minecraft:shield",
 		"components": {
-			"minecraft:custom_model_data": {"floats": [724003]},
+			"minecraft:custom_model_data": {
+				"floats": [
+					724003
+				]
+			},
 			"minecraft:custom_data": {
 				"shield": 1
 			},
@@ -26,16 +30,14 @@
 				"minecraft:unbreaking": 10,
 				"minecraft:vanishing_curse": 1
 			},
-			"minecraft:attribute_modifiers": {
-                "modifiers": [
-                    {
-                        "id": "cursefight.shield.knock_back",
-                        "type": "minecraft:knockback_resistance",
-                        "amount": 0.1,
-                        "operation": "add_value"
-                    }
-                ]
-            }
+			"minecraft:attribute_modifiers": [
+				{
+					"id": "cursefight.shield.knock_back",
+					"type": "minecraft:knockback_resistance",
+					"amount": 0.1,
+					"operation": "add_value"
+				}
+			]
 		}
 	}
 }
