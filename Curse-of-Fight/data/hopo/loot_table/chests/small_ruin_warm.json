@@ -1,866 +1,888 @@
 {
 	"pools": [
-	  {
-		"rolls": {
-		  "min": 3,
-		  "max": 7
-		},
-		"entries": [
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:splash_potion",
-			"weight": 3,
-			"functions": [
-			  {
-				"function": "minecraft:set_components",
-				"components": {
-				  "minecraft:item_name": "{\"italic\":false,\"text\":\"Splash Potion of Water Boost\"}",
-				  "minecraft:potion_contents": {
-					"custom_color": 3847167,
-					"custom_effects": [
-					  {
-						"id": "minecraft:water_breathing",
-						"duration": 1200
-					  },
-					  {
-						"id": "minecraft:dolphins_grace",
-						"duration": 1200
-					  }
+		{
+			"rolls": {
+				"min": 3,
+				"max": 7
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": {
+									"italic": false,
+									"text": "Splash Potion of Water Boost"
+								},
+								"minecraft:potion_contents": {
+									"custom_color": 3847167,
+									"custom_effects": [
+										{
+											"id": "minecraft:water_breathing",
+											"duration": 1200
+										},
+										{
+											"id": "minecraft:dolphins_grace",
+											"duration": 1200
+										}
+									]
+								},
+								"minecraft:rarity": "uncommon"
+							}
+						}
 					]
-				  },
-				  "minecraft:rarity": "uncommon"
-				}
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:sea_pickle",
-			"weight": 2,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 5
 				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:horn_coral_fan",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:horn_coral_block",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:horn_coral",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:fire_coral_fan",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:fire_coral_block",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:fire_coral",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:bubble_coral_fan",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:bubble_coral_block",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:bubble_coral",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:brain_coral_fan",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:brain_coral_block",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:brain_coral",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:tube_coral_fan",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:tube_coral_block",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:tube_coral",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 15
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:fishing_rod",
-			"weight": 2,
-			"functions": [
-			  {
-				"function": "minecraft:set_damage",
-				"damage": {
-				  "min": 0.3,
-				  "max": 0.8
-				},
-				"add": false
-			  },
-			  {
-				"function": "minecraft:enchant_randomly",
-				"options": "#minecraft:on_random_loot"
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:golden_boots",
-			"weight": 1,
-			"functions": [
-			  {
-				"function": "minecraft:enchant_randomly",
-				"options": "#minecraft:on_random_loot"
-			  },
-			  {
-				"function": "minecraft:set_damage",
-				"damage": {
-				  "min": 0.5,
-				  "max": 0.8
-				},
-				"add": false
-			  },
-			  {
-				"function": "minecraft:set_components",
-				"components": {
-				  "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Drowned Golden Armor Boots\"}",
-				  "minecraft:trim": {
-					"material": "minecraft:iron",
-					"pattern": "minecraft:coast",
-					"show_in_tooltip": true
-				  }
-				}
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:golden_leggings",
-			"weight": 1,
-			"functions": [
-			  {
-				"function": "minecraft:enchant_randomly",
-				"options": "#minecraft:on_random_loot"
-			  },
-			  {
-				"function": "minecraft:set_damage",
-				"damage": {
-				  "min": 0.5,
-				  "max": 0.8
-				},
-				"add": false
-			  },
-			  {
-				"function": "minecraft:set_components",
-				"components": {
-				  "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Drowned Golden Armor Leggings\"}",
-				  "minecraft:trim": {
-					"material": "minecraft:iron",
-					"pattern": "minecraft:coast",
-					"show_in_tooltip": true
-				  }
-				}
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:golden_chestplate",
-			"weight": 1,
-			"functions": [
-			  {
-				"function": "minecraft:enchant_randomly",
-				"options": "#minecraft:on_random_loot"
-			  },
-			  {
-				"function": "minecraft:set_damage",
-				"damage": {
-				  "min": 0.5,
-				  "max": 0.8
-				},
-				"add": false
-			  },
-			  {
-				"function": "minecraft:set_components",
-				"components": {
-				  "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Drowned Golden Armor Chestplate\"}",
-				  "minecraft:trim": {
-					"material": "minecraft:iron",
-					"pattern": "minecraft:coast",
-					"show_in_tooltip": true
-				  }
-				}
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:golden_helmet",
-			"weight": 1,
-			"functions": [
-			  {
-				"function": "minecraft:enchant_randomly",
-				"options": "#minecraft:on_random_loot"
-			  },
-			  {
-				"function": "minecraft:set_damage",
-				"damage": {
-				  "min": 0.5,
-				  "max": 0.8
-				},
-				"add": false
-			  },
-			  {
-				"function": "minecraft:set_components",
-				"components": {
-				  "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Drowned Golden Armor Helmet\"}",
-				  "minecraft:trim": {
-					"material": "minecraft:iron",
-					"pattern": "minecraft:coast",
-					"show_in_tooltip": true
-				  }
-				}
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:iron_axe",
-			"weight": 2,
-			"functions": [
-			  {
-				"function": "minecraft:set_damage",
-				"damage": {
-				  "min": 0.4,
-				  "max": 0.8
-				},
-				"add": false
-			  },
-			  {
-				"function": "minecraft:enchant_randomly",
-				"options": "#minecraft:on_random_loot"
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:iron_sword",
-			"weight": 2,
-			"functions": [
-			  {
-				"function": "minecraft:enchant_randomly",
-				"options": "#minecraft:on_random_loot"
-			  },
-			  {
-				"function": "minecraft:set_damage",
-				"damage": {
-				  "min": 0.4,
-				  "max": 0.8
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:tropical_fish_bucket",
-			"weight": 2
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:water_bucket",
-			"weight": 1
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:prismarine",
-			"weight": 2,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 3,
-				  "max": 12
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:sandstone",
-			"weight": 2,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 3,
-				  "max": 12
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:coal",
-			"weight": 3,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 1,
-				  "max": 5
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:rotten_flesh",
-			"weight": 3,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 1,
-				  "max": 5
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:nautilus_shell",
-			"weight": 1,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 1,
-				  "max": 2
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:prismarine_crystals",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 5
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:prismarine_shard",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 5
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:seagrass",
-			"weight": 3,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 5
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:kelp",
-			"weight": 3,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 5
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:wheat",
-			"weight": 3,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 5
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:bone",
-			"weight": 3,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 5
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:gold_ingot",
-			"weight": 5,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 6
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:iron_ingot",
-			"weight": 5,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 6
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:copper_ingot",
-			"weight": 5,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 6
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:lapis_lazuli",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 6
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:emerald",
-			"weight": 5,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 6
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:iron_nugget",
-			"weight": 6,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 12
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:book",
-			"weight": 6,
-			"functions": [
-			  {
-				"function": "minecraft:enchant_randomly",
-				"options": "#minecraft:on_random_loot"
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:firework_rocket",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 4,
-				  "max": 10
-				},
-				"add": false
-			  },
-			  {
-				"function": "minecraft:set_components",
-				"components": {
-				  "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Multicolor Glow Rocket\"}",
-				  "minecraft:fireworks": {
-					"flight_duration": 2,
-					"explosions": [
-					  {
-						"shape": "star",
-						"colors": [
-						  11250603,
-						  6719955
-						],
-						"fade_colors": [
-						  11743532,
-						  1537522,
-						  8073150,
-						  14602026,
-						  12801229,
-						  15790320
-						],
-						"has_trail": true,
-						"has_twinkle": true
-					  }
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sea_pickle",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
 					]
-				  }
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:horn_coral_fan",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:horn_coral_block",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:horn_coral",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fire_coral_fan",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fire_coral_block",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fire_coral",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bubble_coral_fan",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bubble_coral_block",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bubble_coral",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brain_coral_fan",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brain_coral_block",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brain_coral",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tube_coral_fan",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tube_coral_block",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tube_coral",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 15
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.3,
+								"max": 0.8
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_boots",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 0.8
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Drowned Golden Armor Boots"
+								},
+								"minecraft:trim": {
+									"material": "minecraft:iron",
+									"pattern": "minecraft:coast",
+									"show_in_tooltip": true
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_leggings",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 0.8
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Drowned Golden Armor Leggings"
+								},
+								"minecraft:trim": {
+									"material": "minecraft:iron",
+									"pattern": "minecraft:coast",
+									"show_in_tooltip": true
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_chestplate",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 0.8
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Drowned Golden Armor Chestplate"
+								},
+								"minecraft:trim": {
+									"material": "minecraft:iron",
+									"pattern": "minecraft:coast",
+									"show_in_tooltip": true
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_helmet",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 0.8
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Drowned Golden Armor Helmet"
+								},
+								"minecraft:trim": {
+									"material": "minecraft:iron",
+									"pattern": "minecraft:coast",
+									"show_in_tooltip": true
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_axe",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.4,
+								"max": 0.8
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.4,
+								"max": 0.8
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tropical_fish_bucket",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:water_bucket",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prismarine",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 12
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sandstone",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 12
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nautilus_shell",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prismarine_crystals",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prismarine_shard",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:seagrass",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:kelp",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wheat",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:copper_ingot",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lapis_lazuli",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_nugget",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 12
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_rocket",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 10
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Multicolor Glow Rocket"
+								},
+								"minecraft:fireworks": {
+									"flight_duration": 2,
+									"explosions": [
+										{
+											"shape": "star",
+											"colors": [
+												11250603,
+												6719955
+											],
+											"fade_colors": [
+												11743532,
+												1537522,
+												8073150,
+												14602026,
+												12801229,
+												15790320
+											],
+											"has_trail": true,
+											"has_twinkle": true
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pufferfish",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tropical_fish",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pufferfish_bucket",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_apple",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_healing"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.3
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						}
+					]
 				}
-			  }
 			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:gunpowder",
-			"weight": 3,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 6
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:gold_nugget",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 2,
-				  "max": 4
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:pufferfish",
-			"weight": 3
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:tropical_fish",
-			"weight": 3,
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 1,
-				  "max": 3
-				},
-				"add": false
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:pufferfish_bucket",
-			"weight": 2
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:golden_apple",
-			"weight": 3
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:potion",
-			"weight": 4,
-			"functions": [
-			  {
-				"function": "minecraft:set_potion",
-				"id": "minecraft:strong_healing"
-			  }
-			]
-		  },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:crossbow",
-			"weight": 2,
-			"functions": [
-			  {
-				"function": "minecraft:set_damage",
-				"damage": {
-				  "min": 0.1,
-				  "max": 0.3
-				},
-				"add": false
-			  },
-			  {
-				"function": "minecraft:enchant_randomly",
-				"options": "#minecraft:on_random_loot"
-			  }
-			]
-		  }
-		]
-	  }
+		}
 	]
-  }
-  
+}

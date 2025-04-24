@@ -4,10 +4,37 @@
     "result": {
         "id": "minecraft:rotten_flesh",
         "components": {
-            "minecraft:custom_data": {"cooked_rotten_flesh":1},
-            "custom_name":"[\"\",{\"text\":\"烤腐肉\",\"italic\":false,\"color\":\"gold\"}]",
-            "lore":["[\"\",{\"text\":\"用火精心炭烤而成的食物，但它依舊還是腐肉\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
-            "minecraft:custom_model_data": {"floats": [724004]},
+            "minecraft:custom_data": {
+                "cooked_rotten_flesh": 1
+            },
+            "custom_name": [
+                "",
+                {
+                    "text": "烤腐肉",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            "lore": [
+                [
+                    "",
+                    {
+                        "text": "用火精心炭烤而成的食物，但它依舊還是腐肉",
+                        "italic": false,
+                        "color": "dark_purple"
+                    },
+                    {
+                        "text": " .cof",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ]
+            ],
+            "minecraft:custom_model_data": {
+                "floats": [
+                    724004
+                ]
+            },
             "minecraft:food": {
                 "nutrition": 10,
                 "saturation": 20

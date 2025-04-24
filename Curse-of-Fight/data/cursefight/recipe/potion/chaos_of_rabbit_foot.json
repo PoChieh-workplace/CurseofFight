@@ -8,9 +8,16 @@
         "id": "minecraft:rabbit_foot",
         "count": 3,
         "components": {
-            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.chaos_of_rabbit_foot\",\"italic\":false,\"color\":\"green\"}]",
+            "custom_name": [
+                "",
+                {
+                    "translate": "cursefight.potion.chaos_of_rabbit_foot",
+                    "italic": false,
+                    "color": "green"
+                }
+            ],
             "minecraft:custom_data": {
-                "ingredient":1
+                "ingredient": 1
             }
         }
     }

@@ -15,8 +15,37 @@
                 "enchant_random": 1,
                 "random": 1
             },
-            "custom_name":"[\"\",{\"text\":\"隨機附魔書\",\"italic\":false,\"color\":\"gold\"}]",
-            "lore":["[\"\",{\"text\":\"使用後可以獲得 15 等級的隨機附魔，按下 \",\"italic\":false,\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後使用\",\"color\":\"gray\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "custom_name": [
+                "",
+                {
+                    "text": "隨機附魔書",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            "lore": [
+                [
+                    "",
+                    {
+                        "text": "使用後可以獲得 15 等級的隨機附魔，按下 ",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "keybind": "key.use",
+                        "color": "green"
+                    },
+                    {
+                        "text": " 鍵後使用",
+                        "color": "gray"
+                    },
+                    {
+                        "text": " .cof",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ]
+            ],
             "minecraft:consumable": {
                 "consume_seconds": 3,
                 "animation": "bow",

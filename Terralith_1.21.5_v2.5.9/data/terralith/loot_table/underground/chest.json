@@ -584,7 +584,14 @@
                                         }
                                     ]
                                 },
-                                "minecraft:custom_name": "[\"\",{\"text\":\"小甜點\",\"italic\":false,\"color\":\"red\"}]"
+                                "minecraft:custom_name": [
+                                    "",
+                                    {
+                                        "text": "小甜點",
+                                        "italic": false,
+                                        "color": "red"
+                                    }
+                                ]
                             }
                         }
                     ],

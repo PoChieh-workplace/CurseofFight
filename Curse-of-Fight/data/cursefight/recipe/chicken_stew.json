@@ -21,11 +21,37 @@
             "minecraft:use_remainder": {
                 "id": "minecraft:bone"
             },
-            "custom_name":"[\"\",{\"text\":\"香菇雞湯\",\"italic\":false,\"color\":\"aqua\"}]",
-            "lore":["[\"\",{\"text\":\"垂均的最愛\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
-            "minecraft:custom_model_data": {"floats": [724009]},
-            "minecraft:custom_data": {"chicken_stew":1}
-            
+            "custom_name": [
+                "",
+                {
+                    "text": "香菇雞湯",
+                    "italic": false,
+                    "color": "aqua"
+                }
+            ],
+            "lore": [
+                [
+                    "",
+                    {
+                        "text": "垂均的最愛",
+                        "italic": false,
+                        "color": "dark_purple"
+                    },
+                    {
+                        "text": " .cof",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ]
+            ],
+            "minecraft:custom_model_data": {
+                "floats": [
+                    724009
+                ]
+            },
+            "minecraft:custom_data": {
+                "chicken_stew": 1
+            }
         }
     }
 }

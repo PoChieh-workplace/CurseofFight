@@ -13,10 +13,37 @@
         "id": "minecraft:golden_pickaxe",
         "count": 1,
         "components": {
-            "minecraft:custom_model_data": {"floats": [724033]},
-            "minecraft:custom_data": {"copper_pickaxe":1},
-            "custom_name":"[\"\",{\"text\":\"銅鎬\",\"italic\":false,\"color\":\"gold\"}]",
-            "lore":["[\"\",{\"text\":\"用銅錠製造出的鎬子，如同金鎬一般的屬性，但似乎比較好用呢！\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "minecraft:custom_model_data": {
+                "floats": [
+                    724033
+                ]
+            },
+            "minecraft:custom_data": {
+                "copper_pickaxe": 1
+            },
+            "custom_name": [
+                "",
+                {
+                    "text": "銅鎬",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            "lore": [
+                [
+                    "",
+                    {
+                        "text": "用銅錠製造出的鎬子，如同金鎬一般的屬性，但似乎比較好用呢！",
+                        "italic": false,
+                        "color": "dark_purple"
+                    },
+                    {
+                        "text": " .cof",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ]
+            ],
             "minecraft:enchantments": {
                 "minecraft:efficiency": 5,
                 "minecraft:unbreaking": 5

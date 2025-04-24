@@ -15,7 +15,14 @@
 					"function": "minecraft:set_components",
 					"components": {
 						"lore": [
-							"[\"\",{\"text\":\"似乎可以拿來吃，回復六點血！\",\"italic\":false,\"color\":\"dark_purple\"}]"
+							[
+								"",
+								{
+									"text": "似乎可以拿來吃，回復六點血！",
+									"italic": false,
+									"color": "dark_purple"
+								}
+							]
 						],
 						"minecraft:food": {
 							"nutrition": 20,

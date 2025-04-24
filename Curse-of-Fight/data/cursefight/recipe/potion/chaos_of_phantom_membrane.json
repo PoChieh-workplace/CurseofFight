@@ -8,9 +8,16 @@
         "id": "minecraft:phantom_membrane",
         "count": 3,
         "components": {
-            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.chaos_of_phantom_membrane\",\"italic\":false,\"color\":\"green\"}]",
+            "custom_name": [
+                "",
+                {
+                    "translate": "cursefight.potion.chaos_of_phantom_membrane",
+                    "italic": false,
+                    "color": "green"
+                }
+            ],
             "minecraft:custom_data": {
-                "ingredient":1
+                "ingredient": 1
             }
         }
     }

@@ -6,7 +6,7 @@ setblock ~ ~ ~ minecraft:chest{
         components:{
             "minecraft:custom_data":{key:"airdrop"},
             "minecraft:custom_model_data": {"floats": [724001]},
-"custom_name":"[\"\",{\"text\":\"空投鑰匙\",\"italic\":false,\"color\":\"gold\"}]","lore":["[\"\",{\"text\":\"好像可以開啟某個寶箱呢！\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],"minecraft:enchantments": {"minecraft:loyalty": 5}}},LootTable:"cursefight:airdrop/main"} replace
+"custom_name":["",{"text":"空投鑰匙","italic":false,"color":"gold"}],"lore":[["",{"text":"好像可以開啟某個寶箱呢！","italic":false,"color":"dark_purple"},{"text":" .cof","italic":false,"color":"gray"}]"],"minecraft:enchantments": {"minecraft:loyalty": 5}}},LootTable:"cursefight:airdrop/main"} replace
 
 setblock ~ ~ ~ minecraft:chest{
     lock:{
@@ -16,8 +16,8 @@ setblock ~ ~ ~ minecraft:chest{
         components:{
             "minecraft:custom_data":{key:"airdrop"},
             "minecraft:custom_model_data": {"floats": [724001]},
-            "custom_name":"[\"\",{\"text\":\"空投鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
-            "lore":["[\"\",{\"text\":\"好像可以開啟某個寶箱呢！\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "custom_name":["",{"text":"空投鑰匙","italic":false,"color":"gold"}],
+            "lore":[["",{"text":"好像可以開啟某個寶箱呢！","italic":false,"color":"dark_purple"},{"text":" .cof","italic":false,"color":"gray"}]"],
             "minecraft:enchantments": {"minecraft:loyalty": 5}
         }
     },
@@ -35,8 +35,8 @@ setblock ~ ~ ~ minecraft:vault[ominous=false]{
             components: {
                 "minecraft:custom_data": {deep_dungeon_legendary_key:1b},
                 "minecraft:custom_model_data": {"floats": [724010]},
-                "custom_name":"[\"\",{\"text\":\"詛咒試煉 - 小鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
-                "lore":["[\"\",{\"text\":\"可以開啟附近小寶箱的鑰匙，似乎是不錯的工具呢！\",\"italic\":false,\"color\":\"dark_purple\"}]"],
+                "custom_name":["",{"text":"詛咒試煉 - 小鑰匙","italic":false,"color":"gold"}],
+                "lore":[["",{"text":"可以開啟附近小寶箱的鑰匙，似乎是不錯的工具呢！","italic":false,"color":"dark_purple"}]"],
                 "minecraft:enchantments": {
                     "minecraft:sharpness": 5
                 }
@@ -55,8 +55,8 @@ setblock ~ ~ ~ minecraft:vault[ominous=true]{
             components: {
                 "minecraft:custom_data": {deep_dungeon_legendary_boss_key:1b},
                 "minecraft:custom_model_data": {"floats": [724011]},
-                "custom_name":"[\"\",{\"text\":\"詛咒試煉 - 武器庫鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
-                "lore":["[\"\",{\"text\":\"可以開啟傳奇武器庫中寶箱的鑰匙，不過要小心那房間裡面很危險喔！\",\"italic\":false,\"color\":\"dark_purple\"}]"],
+                "custom_name":["",{"text":"詛咒試煉 - 武器庫鑰匙","italic":false,"color":"gold"}],
+                "lore":[["",{"text":"可以開啟傳奇武器庫中寶箱的鑰匙，不過要小心那房間裡面很危險喔！","italic":false,"color":"dark_purple"}]"],
                 "minecraft:enchantments": {
                     "cursefight:career/steve/original": 5
                 }

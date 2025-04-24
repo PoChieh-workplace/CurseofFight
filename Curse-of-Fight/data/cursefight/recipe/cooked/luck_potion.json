@@ -9,7 +9,7 @@
                 "custom_effects": [
                     {
                         "id": "minecraft:luck",
-                        "amplifier": 4,
+                        "amplifier": 2,
                         "duration": 2400,
                         "ambient": true,
                         "show_particles": true,
@@ -17,8 +17,29 @@
                     }
                 ]
             },
-            "custom_name":"[\"\",{\"text\":\"蜜露\",\"italic\":false,\"color\":\"gold\"}]",
-            "lore":["[\"\",{\"text\":\"用蜂蜜釀造出來的精華，帶給所有人意想不到的效果\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "custom_name": [
+                "",
+                {
+                    "text": "蜜露",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            "lore": [
+                [
+                    "",
+                    {
+                        "text": "用蜂蜜釀造出來的精華，帶給所有人意想不到的效果",
+                        "italic": false,
+                        "color": "dark_purple"
+                    },
+                    {
+                        "text": " .cof",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ]
+            ],
             "minecraft:max_stack_size": 3
         }
     }

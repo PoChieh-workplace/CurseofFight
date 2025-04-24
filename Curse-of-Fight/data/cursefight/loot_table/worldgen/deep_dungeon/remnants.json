@@ -159,7 +159,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Midnight Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Midnight Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:mojang",
@@ -198,7 +202,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Red Sky Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Red Sky Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:mojang",
@@ -237,7 +245,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Ring Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Ring Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:circle",
@@ -268,7 +280,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Soul Fire Creature Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Soul Fire Creature Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:straight_cross",
@@ -307,7 +323,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Bow Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Bow Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:straight_cross",
@@ -350,7 +370,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Bow Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Bow Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:straight_cross",
@@ -393,7 +417,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Potion Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Potion Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:cross",
@@ -432,7 +460,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"text\":\"Sculk Banner\",\"color\":\"gold\"}",
+                                "minecraft:item_name": {
+                                    "text": "Sculk Banner",
+                                    "color": "gold"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:small_stripes",
@@ -471,7 +502,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Diamond Pickaxe Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Diamond Pickaxe Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:straight_cross",
@@ -518,7 +553,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Battle Axe Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Battle Axe Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:flower",
@@ -561,7 +600,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Phoenix Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Phoenix Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:curly_border",
@@ -600,7 +643,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Red Eye Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Red Eye Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:straight_cross",
@@ -639,7 +686,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Golden Criature Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Golden Criature Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:straight_cross",
@@ -678,7 +729,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Fox Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Fox Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:rhombus",
@@ -713,7 +768,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Crown Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Crown Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:rhombus",
@@ -752,7 +811,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Blue Bird Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Blue Bird Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:cross",
@@ -791,7 +854,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Black Cat Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Black Cat Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:curly_border",
@@ -826,7 +893,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Wolf Banner\"}",
+                                "minecraft:item_name": {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Wolf Banner"
+                                },
                                 "minecraft:banner_patterns": [
                                     {
                                         "pattern": "minecraft:triangles_bottom",
@@ -1412,9 +1483,23 @@
                                         724010
                                     ]
                                 },
-                                "custom_name": "[\"\",{\"text\":\"詛咒試煉 - 小鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
+                                "custom_name": [
+                                    "",
+                                    {
+                                        "text": "詛咒試煉 - 小鑰匙",
+                                        "italic": false,
+                                        "color": "gold"
+                                    }
+                                ],
                                 "lore": [
-                                    "[\"\",{\"text\":\"可以開啟附近小寶箱的鑰匙，似乎是不錯的工具呢！\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                    [
+                                        "",
+                                        {
+                                            "text": "可以開啟附近小寶箱的鑰匙，似乎是不錯的工具呢！",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        }
+                                    ]
                                 ],
                                 "minecraft:enchantments": {
                                     "minecraft:sharpness": 5
@@ -1439,9 +1524,23 @@
                                         724011
                                     ]
                                 },
-                                "custom_name": "[\"\",{\"text\":\"詛咒試煉 - 武器庫鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
+                                "custom_name": [
+                                    "",
+                                    {
+                                        "text": "詛咒試煉 - 武器庫鑰匙",
+                                        "italic": false,
+                                        "color": "gold"
+                                    }
+                                ],
                                 "lore": [
-                                    "[\"\",{\"text\":\"可以開啟傳奇武器庫中寶箱的鑰匙，不過要小心那房間裡面很危險喔！\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                    [
+                                        "",
+                                        {
+                                            "text": "可以開啟傳奇武器庫中寶箱的鑰匙，不過要小心那房間裡面很危險喔！",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        }
+                                    ]
                                 ],
                                 "minecraft:enchantments": {
                                     "cursefight:career/steve/original": 5

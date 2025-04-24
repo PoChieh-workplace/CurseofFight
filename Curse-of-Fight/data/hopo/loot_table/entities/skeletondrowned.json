@@ -42,7 +42,10 @@
 										}
 									]
 								},
-								"minecraft:item_name": "{\"italic\":false,\"text\":\"Arrow of Super Fatigue\"}",
+								"minecraft:item_name": {
+									"italic": false,
+									"text": "Arrow of Super Fatigue"
+								},
 								"minecraft:rarity": "uncommon"
 							}
 						},

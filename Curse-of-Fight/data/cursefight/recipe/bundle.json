@@ -12,7 +12,16 @@
         "id": "minecraft:bundle",
         "count": 1,
         "components": {
-            "lore":["[\"\",{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"]
+            "lore": [
+                [
+                    "",
+                    {
+                        "text": " .cof",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ]
+            ]
         }
     }
 }

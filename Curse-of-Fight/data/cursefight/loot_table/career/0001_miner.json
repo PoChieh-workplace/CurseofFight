@@ -10,25 +10,42 @@
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
-                            "name": {"text":"【塔塔 - 礦工】(輔助職業)","color":"aqua","italic":false}
+                            "name": {
+                                "text": "【塔塔 - 礦工】(輔助職業)",
+                                "color": "aqua",
+                                "italic": false
+                            }
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "minecraft:fortune": 2,
-                                    "cursefight:career/miner/auto_smelt":1
+                                    "cursefight:career/miner/auto_smelt": 1
                                 },
-                                "minecraft:lore":[
-                                    "{\"text\": \"\u00A75曾為伊莉莎白效命的頂級礦工，討厭戰鬥的他卻在挖礦日常中捲進了詛咒。\", \"color\": \"white\", \"italic\": false}",
-                                    "{\"text\": \"\u00A7f道具：   \u00A7b鐵稿(幸運II、自動燃燒)\", \"color\": \"white\", \"italic\": false}",
-                                    "{\"text\": \"\u00A7f特色：   \u00A72挖掘加速I、\u00A72永久抗性I、\u00A74永久發光、\u00A74永久虛弱I\",\"color\":\"dark_red\"}"
+                                "minecraft:lore": [
+                                    {
+                                        "text": "\u00A75曾為伊莉莎白效命的頂級礦工，討厭戰鬥的他卻在挖礦日常中捲進了詛咒。",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "\u00A7f道具：   \u00A7b鐵稿(幸運II、自動燃燒)",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "\u00A7f特色：   \u00A72挖掘加速I、\u00A72永久抗性I、\u00A74永久發光、\u00A74永久虛弱I",
+                                        "color": "dark_red"
+                                    }
                                 ]
                             }
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": {"career":1}
+                            "tag": {
+                                "career": 1
+                            }
                         }
                     ]
                 }

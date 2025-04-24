@@ -16,8 +16,37 @@
                 "enchant_random": 1,
                 "armor": 1
             },
-            "custom_name":"[\"\",{\"text\":\"隨機引導書 - 裝備\",\"italic\":false,\"color\":\"gold\"}]",
-            "lore":["[\"\",{\"text\":\"使用後可以獲得可附在裝備上的 15 等級隨機附魔，按下 \",\"italic\":false,\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後使用\",\"color\":\"gray\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "custom_name": [
+                "",
+                {
+                    "text": "隨機引導書 - 裝備",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            "lore": [
+                [
+                    "",
+                    {
+                        "text": "使用後可以獲得可附在裝備上的 15 等級隨機附魔，按下 ",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "keybind": "key.use",
+                        "color": "green"
+                    },
+                    {
+                        "text": " 鍵後使用",
+                        "color": "gray"
+                    },
+                    {
+                        "text": " .cof",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ]
+            ],
             "minecraft:consumable": {
                 "consume_seconds": 3,
                 "animation": "bow",

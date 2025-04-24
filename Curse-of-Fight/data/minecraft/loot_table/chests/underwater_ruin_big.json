@@ -84,27 +84,38 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:food": {
-                                    "nutrition": 2,
-                                    "saturation": 1,
-                                    "can_always_eat": true
-                                },
-                                "minecraft:consumable": {
-                                    "consume_seconds": 1,
-                                    "on_consume_effects": [
-                                        {
-                                            "type": "minecraft:apply_effects",
-                                            "effects": [
-                                                {
-                                                    "id": "minecraft:water_breathing",
-                                                    "amplifier": 0,
-                                                    "duration": 800
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-								"minecraft:custom_model_data": {"floats": [724103]},
-								"minecraft:custom_name": "[\"\",{\"text\":\"水稻\",\"italic\":false,\"color\":\"aqua\"}]"
+									"nutrition": 2,
+									"saturation": 1,
+									"can_always_eat": true
+								},
+								"minecraft:consumable": {
+									"consume_seconds": 1,
+									"on_consume_effects": [
+										{
+											"type": "minecraft:apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:water_breathing",
+													"amplifier": 0,
+													"duration": 800
+												}
+											]
+										}
+									]
+								},
+								"minecraft:custom_model_data": {
+									"floats": [
+										724103
+									]
+								},
+								"minecraft:custom_name": [
+									"",
+									{
+										"text": "水稻",
+										"italic": false,
+										"color": "aqua"
+									}
+								]
 							}
 						},
 						{

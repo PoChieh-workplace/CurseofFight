@@ -4,10 +4,36 @@
     "result": {
         "id": "minecraft:potion",
         "components": {
-            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.boiled\",\"italic\":false,\"color\":\"blue\"}]",
-            "lore":["[\"\",{\"text\":\"雙手拿著沸騰的水與地獄疙瘩，按下 \",\"italic\":false,\"color\":\"dark_purple\"},{\"keybind\":\"key.swapOffhand\",\"italic\":false,\"color\":\"green\"},{\"text\":\" 可使兩物搖晃，溶解變成基礎藥水\",\"italic\":false,\"color\":\"dark_purple\"}]"],
+            "custom_name": [
+                "",
+                {
+                    "translate": "cursefight.potion.boiled",
+                    "italic": false,
+                    "color": "blue"
+                }
+            ],
+            "lore": [
+                [
+                    "",
+                    {
+                        "text": "雙手拿著沸騰的水與地獄疙瘩，按下 ",
+                        "italic": false,
+                        "color": "dark_purple"
+                    },
+                    {
+                        "keybind": "key.swapOffhand",
+                        "italic": false,
+                        "color": "green"
+                    },
+                    {
+                        "text": " 可使兩物搖晃，溶解變成基礎藥水",
+                        "italic": false,
+                        "color": "dark_purple"
+                    }
+                ]
+            ],
             "minecraft:custom_data": {
-                "boiled":1
+                "boiled": 1
             },
             "minecraft:max_stack_size": 3
         }

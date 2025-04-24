@@ -460,10 +460,31 @@
                                 "minecraft:custom_data": {
                                     "return": 1
                                 },
-                                "custom_name": "[\"\",{\"text\":\"地表晶球\",\"italic\":false,\"color\":\"gold\"}]",
+                                "custom_name": [
+                                    "",
+                                    {
+                                        "text": "地表晶球",
+                                        "italic": false,
+                                        "color": "gold"
+                                    }
+                                ],
                                 "lore": [
-                                    "[\"\",{\"text\":\"從安德身上提煉出的空間傳送，使用後將會傳送自己到地表\",\"italic\":false,\"color\":\"dark_purple\"}]",
-                                    "[\"\",{\"text\":\"詠唱時間 10 秒，冷卻 5 分鐘，期間保持使用狀態\",\"italic\":false,\"color\":\"red\"}]"
+                                    [
+                                        "",
+                                        {
+                                            "text": "從安德身上提煉出的空間傳送，使用後將會傳送自己到地表",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        }
+                                    ],
+                                    [
+                                        "",
+                                        {
+                                            "text": "詠唱時間 10 秒，冷卻 5 分鐘，期間保持使用狀態",
+                                            "italic": false,
+                                            "color": "red"
+                                        }
+                                    ]
                                 ],
                                 "minecraft:consumable": {
                                     "consume_seconds": 10,
@@ -525,9 +546,32 @@
                                 "minecraft:custom_data": {
                                     "tool": "found_player"
                                 },
-                                "custom_name": "[\"\",{\"text\":\"偵查羅盤\",\"italic\":false,\"color\":\"gold\"}]",
+                                "custom_name": [
+                                    "",
+                                    {
+                                        "text": "偵查羅盤",
+                                        "italic": false,
+                                        "color": "gold"
+                                    }
+                                ],
                                 "lore": [
-                                    "[\"\",{\"text\":\"簽訂靈魂契約，按下 \",\"italic\":false,\"color\":\"dark_purple\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 可尋找最近的敵人\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                    [
+                                        "",
+                                        {
+                                            "text": "簽訂靈魂契約，按下 ",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        },
+                                        {
+                                            "keybind": "key.use",
+                                            "color": "green"
+                                        },
+                                        {
+                                            "text": " 可尋找最近的敵人",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        }
+                                    ]
                                 ],
                                 "minecraft:consumable": {
                                     "consume_seconds": 3,
@@ -630,7 +674,14 @@
                                         }
                                     ]
                                 },
-                                "minecraft:custom_name": "[\"\",{\"text\":\"萬應白花葵油\",\"italic\":false,\"color\":\"gold\"}]"
+                                "minecraft:custom_name": [
+                                    "",
+                                    {
+                                        "text": "萬應白花葵油",
+                                        "italic": false,
+                                        "color": "gold"
+                                    }
+                                ]
                             }
                         }
                     ]
@@ -647,7 +698,14 @@
                                     "minecraft:unbreaking": 1,
                                     "cursefight:generic/wolf/hardness": 1
                                 },
-                                "minecraft:custom_name": "[\"\",{\"text\":\"強化狼鎧\",\"italic\":false,\"color\":\"light_purple\"}]"
+                                "minecraft:custom_name": [
+                                    "",
+                                    {
+                                        "text": "強化狼鎧",
+                                        "italic": false,
+                                        "color": "light_purple"
+                                    }
+                                ]
                             }
                         }
                     ]
@@ -692,7 +750,14 @@
                                         "operation": "add_value"
                                     }
                                 ],
-                                "minecraft:custom_name": "[\"\",{\"text\":\"強化馬鎧\",\"italic\":false,\"color\":\"aqua\"}]"
+                                "minecraft:custom_name": [
+                                    "",
+                                    {
+                                        "text": "強化馬鎧",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ]
                             }
                         }
                     ]
@@ -715,7 +780,14 @@
                                     "minecraft:knockback": 4,
                                     "minecraft:vanishing_curse": 1
                                 },
-                                "minecraft:custom_name": "[\"\",{\"text\":\"戰斧\",\"italic\":false,\"color\":\"dark_red\"}]",
+                                "minecraft:custom_name": [
+                                    "",
+                                    {
+                                        "text": "戰斧",
+                                        "italic": false,
+                                        "color": "dark_red"
+                                    }
+                                ],
                                 "minecraft:attribute_modifiers": [
                                     {
                                         "id": "0-0-3-1-3",
@@ -744,7 +816,14 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_name": "[\"\",{\"text\":\"受到蠹蝕的翅膀\",\"italic\":false,\"color\":\"gray\"}]",
+                                "minecraft:custom_name": [
+                                    "",
+                                    {
+                                        "text": "受到蠹蝕的翅膀",
+                                        "italic": false,
+                                        "color": "gray"
+                                    }
+                                ],
                                 "minecraft:enchantments": {
                                     "minecraft:vanishing_curse": 1,
                                     "cursefight:generic/curse/breaking": 5
@@ -769,9 +848,28 @@
                                         724001
                                     ]
                                 },
-                                "custom_name": "[\"\",{\"text\":\"空投鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
+                                "custom_name": [
+                                    "",
+                                    {
+                                        "text": "空投鑰匙",
+                                        "italic": false,
+                                        "color": "gold"
+                                    }
+                                ],
                                 "lore": [
-                                    "[\"\",{\"text\":\"好像可以開啟某個寶箱呢！\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"
+                                    [
+                                        "",
+                                        {
+                                            "text": "好像可以開啟某個寶箱呢！",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        },
+                                        {
+                                            "text": " .cof",
+                                            "italic": false,
+                                            "color": "gray"
+                                        }
+                                    ]
                                 ],
                                 "minecraft:enchantments": {
                                     "minecraft:loyalty": 5

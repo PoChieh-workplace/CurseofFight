@@ -13,7 +13,7 @@
     "legacy_random_source": false,
     "noise": {
         "height": 384,
-        "min_y": -64,
+        "min_y": -80,
         "size_horizontal": 1,
         "size_vertical": 1
     },

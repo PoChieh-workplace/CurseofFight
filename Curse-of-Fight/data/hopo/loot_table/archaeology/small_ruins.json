@@ -257,7 +257,9 @@
 									"pattern": "minecraft:coast",
 									"show_in_tooltip": true
 								},
-								"minecraft:item_name": "{\"text\":\"Old Drowned Chainmail Helmet\"}"
+								"minecraft:item_name": {
+									"text": "Old Drowned Chainmail Helmet"
+								}
 							}
 						}
 					]
@@ -287,7 +289,9 @@
 									"pattern": "minecraft:coast",
 									"show_in_tooltip": true
 								},
-								"minecraft:item_name": "{\"text\":\"Old Drowned Chainmail Chestplate\"}"
+								"minecraft:item_name": {
+									"text": "Old Drowned Chainmail Chestplate"
+								}
 							}
 						}
 					]
@@ -317,7 +321,9 @@
 									"pattern": "minecraft:coast",
 									"show_in_tooltip": true
 								},
-								"minecraft:item_name": "{\"text\":\"Old Drowned Chainmail Leggings\"}"
+								"minecraft:item_name": {
+									"text": "Old Drowned Chainmail Leggings"
+								}
 							}
 						}
 					]
@@ -347,7 +353,9 @@
 									"pattern": "minecraft:coast",
 									"show_in_tooltip": true
 								},
-								"minecraft:item_name": "{\"text\":\"Old Drowned Chainmail Boots\"}"
+								"minecraft:item_name": {
+									"text": "Old Drowned Chainmail Boots"
+								}
 							}
 						}
 					]
@@ -557,7 +565,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Prismarine Fragment Banner\"}",
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Prismarine Fragment Banner"
+								},
 								"minecraft:banner_patterns": [
 									{
 										"pattern": "minecraft:straight_cross",
@@ -604,7 +616,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Guardian Banner\"}",
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Guardian Banner"
+								},
 								"minecraft:banner_patterns": [
 									{
 										"pattern": "minecraft:gradient",
@@ -643,7 +659,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"italic\":false,\"text\":\"Golden Drowned\"}",
+								"minecraft:item_name": {
+									"italic": false,
+									"text": "Golden Drowned"
+								},
 								"minecraft:rarity": "epic",
 								"minecraft:profile": {
 									"id": [
@@ -672,7 +691,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"italic\":false,\"text\":\"Drowned Necromancer\"}",
+								"minecraft:item_name": {
+									"italic": false,
+									"text": "Drowned Necromancer"
+								},
 								"minecraft:rarity": "epic",
 								"minecraft:profile": {
 									"id": [

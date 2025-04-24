@@ -25,10 +25,35 @@
             "minecraft:custom_data": {
                 "stone_sword_1": 1
             },
-            "custom_name": "[\"\",{\"text\":\"遠古巨劍\",\"italic\":false,\"color\":\"dark_gray\"}]",
+            "custom_name": [
+                "",
+                {
+                    "text": "遠古巨劍",
+                    "italic": false,
+                    "color": "dark_gray"
+                }
+            ],
             "lore": [
-                "[\"\",{\"text\":\"一把充滿著詛咒和力量的劍\",\"italic\":false,\"color\":\"aqua\"}]",
-                "[{\"text\":\"據說是高空的遠古凋零王創造的強大武器\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"
+                [
+                    "",
+                    {
+                        "text": "一把充滿著詛咒和力量的劍",
+                        "italic": false,
+                        "color": "aqua"
+                    }
+                ],
+                [
+                    {
+                        "text": "據說是高空的遠古凋零王創造的強大武器",
+                        "italic": false,
+                        "color": "aqua"
+                    },
+                    {
+                        "text": " .cof",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ]
             ],
             "minecraft:enchantments": {
                 "minecraft:vanishing_curse": 1,

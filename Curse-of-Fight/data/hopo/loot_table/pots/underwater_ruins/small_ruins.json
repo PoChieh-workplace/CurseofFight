@@ -71,7 +71,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"italic\":false,\"text\":\"Splash Potion of Water Boost\"}",
+								"minecraft:item_name": {
+									"italic": false,
+									"text": "Splash Potion of Water Boost"
+								},
 								"minecraft:potion_contents": {
 									"custom_color": 3847167,
 									"custom_effects": [
@@ -248,7 +251,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Marine Glow Rocket\"}"
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Marine Glow Rocket"
+								}
 							}
 						},
 						{
@@ -299,7 +306,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Multicolor Glow Rocket\"}",
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Multicolor Glow Rocket"
+								},
 								"minecraft:fireworks": {
 									"flight_duration": 2,
 									"explosions": [

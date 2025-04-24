@@ -10,7 +10,14 @@
     "result": {
         "id": "minecraft:netherite_scrap",
         "components": {
-            "custom_name": "[\"\",{\"translate\":\"cursefight.potion.chaos\",\"italic\":false,\"color\":\"blue\"}]",
+            "custom_name": [
+                "",
+                {
+                    "translate": "cursefight.potion.chaos",
+                    "italic": false,
+                    "color": "blue"
+                }
+            ],
             "minecraft:food": {
                 "nutrition": 1,
                 "saturation": 1,

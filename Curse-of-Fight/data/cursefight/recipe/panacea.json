@@ -11,13 +11,36 @@
     "result": {
         "id": "minecraft:beetroot_soup",
         "components": {
-            "minecraft:custom_model_data": {"floats": [724005]},
+            "minecraft:custom_model_data": {
+                "floats": [
+                    724005
+                ]
+            },
             "minecraft:custom_data": {
                 "panacea": 1
             },
-            "custom_name": "[\"\",{\"text\":\"仙人湯\",\"italic\":false,\"color\":\"gold\"}]",
+            "custom_name": [
+                "",
+                {
+                    "text": "仙人湯",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
             "lore": [
-                "[\"\",{\"text\":\"加了許多地獄食材，特別好喝了呢！\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"
+                [
+                    "",
+                    {
+                        "text": "加了許多地獄食材，特別好喝了呢！",
+                        "italic": false,
+                        "color": "dark_purple"
+                    },
+                    {
+                        "text": " .cof",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ]
             ],
             "minecraft:food": {
                 "nutrition": 1,

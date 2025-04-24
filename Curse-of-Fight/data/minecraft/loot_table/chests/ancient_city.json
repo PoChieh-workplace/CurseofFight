@@ -195,7 +195,14 @@
                                                             }
                                                         ]
                                                     },
-                                                    "minecraft:custom_name": "[\"\",{\"text\":\"小甜點\",\"italic\":false,\"color\":\"red\"}]"
+                                                    "minecraft:custom_name": [
+                                                        "",
+                                                        {
+                                                            "text": "小甜點",
+                                                            "italic": false,
+                                                            "color": "red"
+                                                        }
+                                                    ]
                                                 }
                                             }
                                         ]
@@ -226,7 +233,19 @@
                                             {
                                                 "function": "minecraft:set_components",
                                                 "components": {
-                                                    "minecraft:custom_name": "[\"\",{\"translate\":\"cursefight.potion.enchanted\",\"italic\":false,\"color\":\"aqua\"},{\"translate\":\"item.minecraft.potion.effect.healing\",\"italic\":false,\"color\":\"white\"}]",
+                                                    "minecraft:custom_name": [
+                                                        "",
+                                                        {
+                                                            "translate": "cursefight.potion.enchanted",
+                                                            "italic": false,
+                                                            "color": "aqua"
+                                                        },
+                                                        {
+                                                            "translate": "item.minecraft.potion.effect.healing",
+                                                            "italic": false,
+                                                            "color": "white"
+                                                        }
+                                                    ],
                                                     "minecraft:potion_contents": {
                                                         "custom_color": 10420186,
                                                         "custom_effects": [
@@ -636,58 +655,6 @@
                                                 "options": "#minecraft:ancient_city_curse"
                                             }
                                         ]
-                                    },
-                                    {
-                                        "type": "minecraft:item",
-                                        "name": "minecraft:trident",
-                                        "functions": [
-                                            {
-                                                "function": "minecraft:enchant_with_levels",
-                                                "levels": {
-                                                    "type": "minecraft:uniform",
-                                                    "min": 40,
-                                                    "max": 60
-                                                },
-                                                "options": "#minecraft:on_random_loot"
-                                            },
-                                            {
-                                                "function": "minecraft:enchant_randomly",
-                                                "options": "#minecraft:ancient_city_curse",
-                                                "conditions": [
-                                                    {
-                                                        "condition": "minecraft:random_chance",
-                                                        "chance": 0.5
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "function": "minecraft:set_components",
-                                                "components": {
-                                                    "minecraft:attribute_modifiers": [
-                                                        {
-                                                            "id": "cof.trident.attack",
-                                                            "type": "minecraft:attack_damage",
-                                                            "amount": 7,
-                                                            "operation": "add_value",
-                                                            "slot": "mainhand"
-                                                        },
-                                                        {
-                                                            "id": "cof.trident.movement",
-                                                            "type": "minecraft:movement_speed",
-                                                            "amount": -0.03,
-                                                            "operation": "add_value",
-                                                            "slot": "mainhand"
-                                                        },
-                                                        {
-                                                            "type": "minecraft:attack_speed",
-                                                            "id": "minecraft:damage_speed",
-                                                            "amount": -0.6,
-                                                            "operation": "add_multiplied_base"
-                                                        }
-                                                    ]
-                                                }
-                                            }
-                                        ]
                                     }
                                 ]
                             }
@@ -711,9 +678,31 @@
                                             {
                                                 "function": "minecraft:set_components",
                                                 "components": {
-                                                    "custom_name": "[\"\",{\"text\":\"龍涎\",\"italic\":false,\"color\":\"gold\"}]",
+                                                    "custom_name": [
+                                                        "",
+                                                        {
+                                                            "text": "龍涎",
+                                                            "italic": false,
+                                                            "color": "gold"
+                                                        }
+                                                    ],
                                                     "lore": [
-                                                        "[\"\",{\"text\":\"按下 \",\"italic\":false,\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後可以獲得五分鐘吸收 X 級\",\"color\":\"gray\"}]"
+                                                        [
+                                                            "",
+                                                            {
+                                                                "text": "按下 ",
+                                                                "italic": false,
+                                                                "color": "gray"
+                                                            },
+                                                            {
+                                                                "keybind": "key.use",
+                                                                "color": "green"
+                                                            },
+                                                            {
+                                                                "text": " 鍵後可以獲得五分鐘吸收 X 級",
+                                                                "color": "gray"
+                                                            }
+                                                        ]
                                                     ],
                                                     "minecraft:food": {
                                                         "nutrition": 5,
@@ -765,7 +754,7 @@
                                                         "custom_effects": [
                                                             {
                                                                 "id": "minecraft:luck",
-                                                                "amplifier": 1,
+                                                                "amplifier": 0,
                                                                 "duration": 2400,
                                                                 "ambient": true,
                                                                 "show_particles": true,
@@ -773,9 +762,28 @@
                                                             }
                                                         ]
                                                     },
-                                                    "custom_name": "[\"\",{\"text\":\"蜜露\",\"italic\":false,\"color\":\"gold\"}]",
+                                                    "custom_name": [
+                                                        "",
+                                                        {
+                                                            "text": "蜜露",
+                                                            "italic": false,
+                                                            "color": "gold"
+                                                        }
+                                                    ],
                                                     "lore": [
-                                                        "[\"\",{\"text\":\"用蜂蜜釀造出來的精華，帶給所有人意想不到的效果\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"
+                                                        [
+                                                            "",
+                                                            {
+                                                                "text": "用蜂蜜釀造出來的精華，帶給所有人意想不到的效果",
+                                                                "italic": false,
+                                                                "color": "dark_purple"
+                                                            },
+                                                            {
+                                                                "text": " .cof",
+                                                                "italic": false,
+                                                                "color": "gray"
+                                                            }
+                                                        ]
                                                     ],
                                                     "minecraft:max_stack_size": 3
                                                 }
@@ -799,10 +807,34 @@
                                                             724002
                                                         ]
                                                     },
-                                                    "custom_name": "[\"\",{\"text\":\"移動式重生信標\",\"italic\":false,\"color\":\"gold\"}]",
+                                                    "custom_name": [
+                                                        "",
+                                                        {
+                                                            "text": "移動式重生信標",
+                                                            "italic": false,
+                                                            "color": "gold"
+                                                        }
+                                                    ],
                                                     "lore": [
-                                                        "[\"\",{\"text\":\"尋找一個§b透天的地方§r後按下 \",\"color\":\"gray\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 鍵後即可召喚\",\"color\":\"gray\"}]",
-                                                        "{\"text\":\"請確保召喚點是淨空的！\",\"color\":\"dark_red\"}"
+                                                        [
+                                                            "",
+                                                            {
+                                                                "text": "尋找一個§b透天的地方§r後按下 ",
+                                                                "color": "gray"
+                                                            },
+                                                            {
+                                                                "keybind": "key.use",
+                                                                "color": "green"
+                                                            },
+                                                            {
+                                                                "text": " 鍵後即可召喚",
+                                                                "color": "gray"
+                                                            }
+                                                        ],
+                                                        {
+                                                            "text": "請確保召喚點是淨空的！",
+                                                            "color": "dark_red"
+                                                        }
                                                     ],
                                                     "minecraft:enchantments": {
                                                         "minecraft:loyalty": 5

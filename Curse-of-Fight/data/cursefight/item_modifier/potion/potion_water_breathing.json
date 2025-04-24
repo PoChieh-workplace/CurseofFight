@@ -2,8 +2,29 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:custom_name":"[\"\",{\"translate\":\"cursefight.potion.unenchanted\",\"italic\":false,\"color\":\"red\"},{\"translate\":\"item.minecraft.potion.effect.water_breathing\",\"italic\":false,\"color\":\"white\"}]",
-            "lore":["[\"\",{\"text\":\"可以使用冶煉過的紅石漿強化喔！\",\"italic\":false,\"color\":\"dark_purple\"}]"],
+            "minecraft:custom_name": [
+                "",
+                {
+                    "translate": "cursefight.potion.unenchanted",
+                    "italic": false,
+                    "color": "red"
+                },
+                {
+                    "translate": "item.minecraft.potion.effect.water_breathing",
+                    "italic": false,
+                    "color": "white"
+                }
+            ],
+            "lore": [
+                [
+                    "",
+                    {
+                        "text": "可以使用冶煉過的紅石漿強化喔！",
+                        "italic": false,
+                        "color": "dark_purple"
+                    }
+                ]
+            ],
             "minecraft:potion_contents": {
                 "custom_effects": [
                     {
@@ -13,9 +34,9 @@
                     }
                 ]
             },
-            "minecraft:custom_data":{
-                "potion":1,
-                "water_breathing":1
+            "minecraft:custom_data": {
+                "potion": 1,
+                "water_breathing": 1
             },
             "minecraft:max_stack_size": 3
         }

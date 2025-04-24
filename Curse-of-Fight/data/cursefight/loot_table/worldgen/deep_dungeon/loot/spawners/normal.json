@@ -99,7 +99,14 @@
                                         }
                                     ]
                                 },
-                                "minecraft:custom_name": "[\"\",{\"text\":\"小甜點\",\"italic\":false,\"color\":\"red\"}]"
+                                "minecraft:custom_name": [
+                                    "",
+                                    {
+                                        "text": "小甜點",
+                                        "italic": false,
+                                        "color": "red"
+                                    }
+                                ]
                             }
                         }
                     ]
@@ -279,9 +286,23 @@
                                         724010
                                     ]
                                 },
-                                "custom_name": "[\"\",{\"text\":\"詛咒試煉 - 小鑰匙\",\"italic\":false,\"color\":\"gold\"}]",
+                                "custom_name": [
+                                    "",
+                                    {
+                                        "text": "詛咒試煉 - 小鑰匙",
+                                        "italic": false,
+                                        "color": "gold"
+                                    }
+                                ],
                                 "lore": [
-                                    "[\"\",{\"text\":\"可以開啟附近小寶箱的鑰匙，似乎是不錯的工具呢！\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                    [
+                                        "",
+                                        {
+                                            "text": "可以開啟附近小寶箱的鑰匙，似乎是不錯的工具呢！",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        }
+                                    ]
                                 ],
                                 "minecraft:enchantments": {
                                     "minecraft:sharpness": 5

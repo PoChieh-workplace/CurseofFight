@@ -21,9 +21,28 @@
             "minecraft:custom_data": {
                 "copper_sword": 1
             },
-            "custom_name": "[\"\",{\"text\":\"銅劍\",\"italic\":false,\"color\":\"gold\"}]",
+            "custom_name": [
+                "",
+                {
+                    "text": "銅劍",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
             "lore": [
-                "[\"\",{\"text\":\"用銅錠製造出的劍，攻擊力偏低，但可以獲得更多經驗值！\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"
+                [
+                    "",
+                    {
+                        "text": "用銅錠製造出的劍，攻擊力偏低，但可以獲得更多經驗值！",
+                        "italic": false,
+                        "color": "dark_purple"
+                    },
+                    {
+                        "text": " .cof",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ]
             ],
             "minecraft:enchantments": {
                 "cursefight:generic/sword/xp_boost": 3,

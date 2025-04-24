@@ -8,9 +8,16 @@
         "id": "minecraft:magma_cream",
         "count": 3,
         "components": {
-            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.chaos_of_magma_cream\",\"italic\":false,\"color\":\"green\"}]",
+            "custom_name": [
+                "",
+                {
+                    "translate": "cursefight.potion.chaos_of_magma_cream",
+                    "italic": false,
+                    "color": "green"
+                }
+            ],
             "minecraft:custom_data": {
-                "ingredient":1
+                "ingredient": 1
             }
         }
     }

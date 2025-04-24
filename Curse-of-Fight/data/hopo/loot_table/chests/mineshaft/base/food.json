@@ -7,10 +7,10 @@
             },
             "entries": [
                 {
-					"type": "minecraft:loot_table",
-					"weight": 10,
-					"value": "hopo:chests/mineshaft/abandoned_miners_stuff"
-				},
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "value": "hopo:chests/mineshaft/abandoned_miners_stuff"
+                },
                 {
                     "type": "minecraft:item",
                     "weight": 10,
@@ -84,7 +84,14 @@
                                         }
                                     ]
                                 },
-                                "minecraft:custom_name": "[\"\",{\"text\":\"小甜點\",\"italic\":false,\"color\":\"red\"}]"
+                                "minecraft:custom_name": [
+                                    "",
+                                    {
+                                        "text": "小甜點",
+                                        "italic": false,
+                                        "color": "red"
+                                    }
+                                ]
                             }
                         },
                         {

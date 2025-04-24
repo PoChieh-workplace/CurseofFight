@@ -8,9 +8,16 @@
         "id": "minecraft:ghast_tear",
         "count": 3,
         "components": {
-            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.chaos_of_ghast_tear\",\"italic\":false,\"color\":\"green\"}]",
+            "custom_name": [
+                "",
+                {
+                    "translate": "cursefight.potion.chaos_of_ghast_tear",
+                    "italic": false,
+                    "color": "green"
+                }
+            ],
             "minecraft:custom_data": {
-                "ingredient":1
+                "ingredient": 1
             }
         }
     }

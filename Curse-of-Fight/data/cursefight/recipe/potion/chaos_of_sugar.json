@@ -8,9 +8,16 @@
         "id": "minecraft:sugar",
         "count": 3,
         "components": {
-            "custom_name":"[\"\",{\"translate\":\"cursefight.potion.chaos_of_sugar\",\"italic\":false,\"color\":\"blue\"}]",
+            "custom_name": [
+                "",
+                {
+                    "translate": "cursefight.potion.chaos_of_sugar",
+                    "italic": false,
+                    "color": "blue"
+                }
+            ],
             "minecraft:custom_data": {
-                "ingredient":1
+                "ingredient": 1
             }
         }
     }

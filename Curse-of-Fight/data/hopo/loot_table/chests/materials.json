@@ -530,7 +530,11 @@
 									"pattern": "minecraft:coast",
 									"show_in_tooltip": true
 								},
-								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Underwater Leather Boots\"}"
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Underwater Leather Boots"
+								}
 							}
 						}
 					]
@@ -561,7 +565,11 @@
 									"pattern": "minecraft:coast",
 									"show_in_tooltip": true
 								},
-								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Underwater Leather Pants\"}"
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Underwater Leather Pants"
+								}
 							}
 						}
 					]
@@ -592,7 +600,11 @@
 									"pattern": "minecraft:coast",
 									"show_in_tooltip": true
 								},
-								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Underwater Leather Chestplate\"}"
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Underwater Leather Chestplate"
+								}
 							}
 						}
 					]
@@ -623,7 +635,11 @@
 									"pattern": "minecraft:coast",
 									"show_in_tooltip": true
 								},
-								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Underwater Leather Cap\"}"
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Underwater Leather Cap"
+								}
 							}
 						}
 					]

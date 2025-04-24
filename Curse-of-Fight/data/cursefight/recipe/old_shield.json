@@ -22,9 +22,28 @@
 			"minecraft:custom_data": {
 				"shield": 1
 			},
-			"custom_name": "[\"\",{\"text\":\"誓言神木的守護\",\"italic\":false,\"color\":\"gold\"}]",
+			"custom_name": [
+				"",
+				{
+					"text": "誓言神木的守護",
+					"italic": false,
+					"color": "gold"
+				}
+			],
 			"lore": [
-				"[\"\",{\"text\":\"有別於天冠紫椴神木的詛咒，受到誓言神木的神聖守護後變得格外堅硬\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"
+				[
+					"",
+					{
+						"text": "有別於天冠紫椴神木的詛咒，受到誓言神木的神聖守護後變得格外堅硬",
+						"italic": false,
+						"color": "dark_purple"
+					},
+					{
+						"text": " .cof",
+						"italic": false,
+						"color": "gray"
+					}
+				]
 			],
 			"minecraft:enchantments": {
 				"minecraft:unbreaking": 10,

@@ -13,10 +13,37 @@
         "id": "minecraft:golden_shovel",
         "count": 1,
         "components": {
-            "minecraft:custom_model_data": {"floats": [724032]},
-            "minecraft:custom_data": {"copper_shovel":1},
-            "custom_name":"[\"\",{\"text\":\"銅鏟\",\"italic\":false,\"color\":\"gold\"}]",
-            "lore":["[\"\",{\"text\":\"用銅錠製造出的鏟子，有點雞肋耶...\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\" .cof\",\"italic\":false,\"color\":\"gray\"}]"],
+            "minecraft:custom_model_data": {
+                "floats": [
+                    724032
+                ]
+            },
+            "minecraft:custom_data": {
+                "copper_shovel": 1
+            },
+            "custom_name": [
+                "",
+                {
+                    "text": "銅鏟",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            "lore": [
+                [
+                    "",
+                    {
+                        "text": "用銅錠製造出的鏟子，有點雞肋耶...",
+                        "italic": false,
+                        "color": "dark_purple"
+                    },
+                    {
+                        "text": " .cof",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ]
+            ],
             "minecraft:enchantments": {
                 "minecraft:silk_touch": 3,
                 "minecraft:unbreaking": 3

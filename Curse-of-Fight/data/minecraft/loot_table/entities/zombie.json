@@ -212,7 +212,14 @@
                                         "slot": "any"
                                     }
                                 ],
-                                "minecraft:custom_name": "[\"\",{\"text\":\"屍血\",\"bold\":true,\"color\":\"red\"}]",
+                                "minecraft:custom_name": [
+                                    "",
+                                    {
+                                        "text": "屍血",
+                                        "bold": true,
+                                        "color": "red"
+                                    }
+                                ],
                                 "minecraft:consumable": {
                                     "consume_seconds": 2,
                                     "animation": "drink",
@@ -286,9 +293,32 @@
                                 "minecraft:custom_data": {
                                     "tool": "found_player"
                                 },
-                                "custom_name": "[\"\",{\"text\":\"偵查羅盤\",\"italic\":false,\"color\":\"gold\"}]",
+                                "custom_name": [
+                                    "",
+                                    {
+                                        "text": "偵查羅盤",
+                                        "italic": false,
+                                        "color": "gold"
+                                    }
+                                ],
                                 "lore": [
-                                    "[\"\",{\"text\":\"簽訂靈魂契約，按下 \",\"italic\":false,\"color\":\"dark_purple\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 可尋找最近的敵人\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                    [
+                                        "",
+                                        {
+                                            "text": "簽訂靈魂契約，按下 ",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        },
+                                        {
+                                            "keybind": "key.use",
+                                            "color": "green"
+                                        },
+                                        {
+                                            "text": " 可尋找最近的敵人",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        }
+                                    ]
                                 ],
                                 "minecraft:consumable": {
                                     "consume_seconds": 3,
@@ -359,10 +389,31 @@
                                 "minecraft:custom_data": {
                                     "return": 1
                                 },
-                                "custom_name": "[\"\",{\"text\":\"地表晶球\",\"italic\":false,\"color\":\"gold\"}]",
+                                "custom_name": [
+                                    "",
+                                    {
+                                        "text": "地表晶球",
+                                        "italic": false,
+                                        "color": "gold"
+                                    }
+                                ],
                                 "lore": [
-                                    "[\"\",{\"text\":\"從安德身上提煉出的空間傳送，使用後將會傳送自己到地表\",\"italic\":false,\"color\":\"dark_purple\"}]",
-                                    "[\"\",{\"text\":\"詠唱時間 10 秒，冷卻 5 分鐘，期間保持使用狀態\",\"italic\":false,\"color\":\"red\"}]"
+                                    [
+                                        "",
+                                        {
+                                            "text": "從安德身上提煉出的空間傳送，使用後將會傳送自己到地表",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        }
+                                    ],
+                                    [
+                                        "",
+                                        {
+                                            "text": "詠唱時間 10 秒，冷卻 5 分鐘，期間保持使用狀態",
+                                            "italic": false,
+                                            "color": "red"
+                                        }
+                                    ]
                                 ],
                                 "minecraft:consumable": {
                                     "consume_seconds": 10,

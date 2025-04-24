@@ -10,24 +10,41 @@
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
-                            "name": {"text":"【史蒂夫】(無職業)","color":"aqua","italic":false}
+                            "name": {
+                                "text": "【史蒂夫】(無職業)",
+                                "color": "aqua",
+                                "italic": false
+                            }
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "cursefight:career/steve/original":1
+                                    "cursefight:career/steve/original": 1
                                 },
-                                "minecraft:lore":[
-                                    "{\"text\": \"\u00A75就很原味\", \"color\": \"white\", \"italic\": false}",
-                                    "{\"text\": \"\u00A7f道具：   無\", \"color\": \"white\", \"italic\": false}",
-                                    "{\"text\": \"\u00A7f特色：   無\",\"color\":\"dark_red\"}"
+                                "minecraft:lore": [
+                                    {
+                                        "text": "\u00A75就很原味",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "\u00A7f道具：   無",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "\u00A7f特色：   無",
+                                        "color": "dark_red"
+                                    }
                                 ]
                             }
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": {"career":0}
+                            "tag": {
+                                "career": 0
+                            }
                         }
                     ]
                 }

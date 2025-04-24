@@ -432,7 +432,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Prismarine Fragment Banner\"}",
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Prismarine Fragment Banner"
+								},
 								"minecraft:banner_patterns": [
 									{
 										"pattern": "minecraft:straight_cross",
@@ -479,7 +483,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Guardian Banner\"}",
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Guardian Banner"
+								},
 								"minecraft:banner_patterns": [
 									{
 										"pattern": "minecraft:gradient",
@@ -518,7 +526,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"italic\":false,\"text\":\"Golden Drowned\"}",
+								"minecraft:item_name": {
+									"italic": false,
+									"text": "Golden Drowned"
+								},
 								"minecraft:rarity": "epic",
 								"minecraft:profile": {
 									"id": [
@@ -547,7 +558,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"italic\":false,\"text\":\"Drowned Necromancer\"}",
+								"minecraft:item_name": {
+									"italic": false,
+									"text": "Drowned Necromancer"
+								},
 								"minecraft:rarity": "epic",
 								"minecraft:profile": {
 									"id": [
@@ -586,7 +600,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Prismarine Fragment Banner\"}",
+								"minecraft:item_name": {
+									"color": "gold",
+									"italic": false,
+									"text": "Prismarine Fragment Banner"
+								},
 								"minecraft:banner_patterns": [
 									{
 										"pattern": "minecraft:straight_cross",

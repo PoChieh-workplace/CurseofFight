@@ -7,18 +7,45 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:compass",
-                    "weight":1,
+                    "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {"floats": [724012]},
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        724012
+                                    ]
+                                },
                                 "minecraft:custom_data": {
                                     "tool": "found_player"
                                 },
-                                "custom_name": "[\"\",{\"text\":\"偵查羅盤\",\"italic\":false,\"color\":\"gold\"}]",
+                                "custom_name": [
+                                    "",
+                                    {
+                                        "text": "偵查羅盤",
+                                        "italic": false,
+                                        "color": "gold"
+                                    }
+                                ],
                                 "lore": [
-                                    "[\"\",{\"text\":\"簽訂靈魂契約，按下 \",\"italic\":false,\"color\":\"dark_purple\"},{\"keybind\":\"key.use\",\"color\":\"green\"},{\"text\":\" 可尋找最近的敵人\",\"italic\":false,\"color\":\"dark_purple\"}]"
+                                    [
+                                        "",
+                                        {
+                                            "text": "簽訂靈魂契約，按下 ",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        },
+                                        {
+                                            "keybind": "key.use",
+                                            "color": "green"
+                                        },
+                                        {
+                                            "text": " 可尋找最近的敵人",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        }
+                                    ]
                                 ],
                                 "minecraft:consumable": {
                                     "consume_seconds": 3,

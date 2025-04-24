@@ -39,7 +39,14 @@
 										}
 									]
 								},
-								"minecraft:custom_name": "[\"\",{\"text\":\"大甜點\",\"italic\":false,\"color\":\"red\"}]"
+								"minecraft:custom_name": [
+									"",
+									{
+										"text": "大甜點",
+										"italic": false,
+										"color": "red"
+									}
+								]
 							}
 						}
 					]
@@ -79,7 +86,14 @@
 										}
 									]
 								},
-								"minecraft:custom_name": "[\"\",{\"text\":\"曲奇大餅乾\",\"italic\":false,\"color\":\"yellow\"}]"
+								"minecraft:custom_name": [
+									"",
+									{
+										"text": "曲奇大餅乾",
+										"italic": false,
+										"color": "yellow"
+									}
+								]
 							}
 						}
 					]
@@ -120,8 +134,19 @@
 										}
 									]
 								},
-								"minecraft:custom_model_data": {"floats": [724103]},
-								"minecraft:custom_name": "[\"\",{\"text\":\"水稻\",\"italic\":false,\"color\":\"aqua\"}]"
+								"minecraft:custom_model_data": {
+									"floats": [
+										724103
+									]
+								},
+								"minecraft:custom_name": [
+									"",
+									{
+										"text": "水稻",
+										"italic": false,
+										"color": "aqua"
+									}
+								]
 							}
 						}
 					]
@@ -134,7 +159,11 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_name": "頂級乾糧",
-								"minecraft:custom_model_data": {"floats": [724102]},
+								"minecraft:custom_model_data": {
+									"floats": [
+										724102
+									]
+								},
 								"minecraft:food": {
 									"nutrition": 6,
 									"saturation": 6,
