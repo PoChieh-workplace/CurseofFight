@@ -5,4 +5,4 @@ execute if score _teamcount_ info matches 14.. run scoreboard players set _teamc
 
 particle minecraft:end_rod ~ ~ ~0.3 0.1 0.1 0.1 0.3 10
 
-data modify block ~ ~ ~ front_text.messages[2] set value '{"score":{"name":"_teamcount_","objective":"info"},"bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}'
+data modify block ~ ~ ~ front_text.messages[2] set value {"score":{"name":"_teamcount_","objective":"info"},"bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}

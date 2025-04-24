@@ -4,7 +4,7 @@ scoreboard players add _worldborder_ info 10
 execute if score _worldborder_ info matches 130.. run scoreboard players set _worldborder_ info 0
 # execute if score _worldborder_ info matches 0 run data modify block ~ ~ ~ front_text.messages[2] set value '{"text":"不縮圈","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}'
 # execute unless score _worldborder_ info matches 0 run 
-data modify block ~ ~ ~ front_text.messages[2] set value '{"score":{"name":"_worldborder_","objective":"info"},"bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}'
+data modify block ~ ~ ~ front_text.messages[2] set value {"score":{"name":"_worldborder_","objective":"info"},"bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}
 
 
 execute store result score _border_reminder_ info run scoreboard players get _worldborder_ info

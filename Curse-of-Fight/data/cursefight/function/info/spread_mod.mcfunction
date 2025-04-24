@@ -5,6 +5,6 @@ execute if score _spread_mod_ info matches 3.. run scoreboard players set _sprea
 
 particle minecraft:end_rod ~ ~ ~-0.3 0.1 0.1 0.1 0.3 10
 
-execute if score _spread_mod_ info matches 0 run data modify block ~ ~ ~ front_text.messages[2] set value '{"text":"隨機傳送","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}'
-execute if score _spread_mod_ info matches 1 run data modify block ~ ~ ~ front_text.messages[2] set value '{"text":"經典跳傘","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}'
-execute if score _spread_mod_ info matches 2 run data modify block ~ ~ ~ front_text.messages[2] set value '{"text":"依隊伍跳傘","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}'
+execute if score _spread_mod_ info matches 0 run data modify block ~ ~ ~ front_text.messages[2] set value {"text":"隨機傳送","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}
+execute if score _spread_mod_ info matches 1 run data modify block ~ ~ ~ front_text.messages[2] set value {"text":"經典跳傘","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}
+execute if score _spread_mod_ info matches 2 run data modify block ~ ~ ~ front_text.messages[2] set value {"text":"依隊伍跳傘","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}

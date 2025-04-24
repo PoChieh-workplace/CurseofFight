@@ -5,5 +5,5 @@ execute if score _glowing_ info matches 130.. run scoreboard players set _glowin
 
 particle minecraft:end_rod ~ ~ ~-0.3 0.1 0.1 0.1 0.3 10
 
-execute if score _glowing_ info matches 0 run data modify block ~ ~ ~ front_text.messages[2] set value '{"text":"不發光","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}'
-execute unless score _glowing_ info matches 0 run data modify block ~ ~ ~ front_text.messages[2] set value '{"score":{"name":"_glowing_","objective":"info"},"bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}'
+execute if score _glowing_ info matches 0 run data modify block ~ ~ ~ front_text.messages[2] set value {"text":"不發光","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}
+execute unless score _glowing_ info matches 0 run data modify block ~ ~ ~ front_text.messages[2] set value {"score":{"name":"_glowing_","objective":"info"},"bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}

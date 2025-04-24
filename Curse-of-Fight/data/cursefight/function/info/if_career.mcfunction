@@ -6,5 +6,5 @@ execute if score _if_career_ info matches 1 run execute as @a run function curse
 
 particle minecraft:end_rod ~ ~ ~-0.3 0.1 0.1 0.1 0.3 10
 
-execute if score _if_career_ info matches 0 run data modify block ~ ~ ~ front_text.messages[2] set value '{"text":"關閉","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}'
-execute if score _if_career_ info matches 1 run data modify block ~ ~ ~ front_text.messages[2] set value '{"text":"開啟","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}'
+execute if score _if_career_ info matches 0 run data modify block ~ ~ ~ front_text.messages[2] set value {"text":"關閉","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}
+execute if score _if_career_ info matches 1 run data modify block ~ ~ ~ front_text.messages[2] set value {"text":"開啟","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}

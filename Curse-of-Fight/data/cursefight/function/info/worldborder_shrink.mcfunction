@@ -4,4 +4,4 @@ scoreboard players add _worldborder_shrink_ info 5
 execute if score _worldborder_shrink_ info matches 51.. run scoreboard players set _worldborder_shrink_ info 10
 
 particle minecraft:end_rod ~ ~ ~-0.3 0.1 0.1 0.1 0.3 10
-execute unless score _worldborder_shrink_ info matches 0 run data modify block ~ ~ ~ front_text.messages[2] set value '{"score":{"name":"_worldborder_shrink_","objective":"info"},"bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}'
+execute unless score _worldborder_shrink_ info matches 0 run data modify block ~ ~ ~ front_text.messages[2] set value {"score":{"name":"_worldborder_shrink_","objective":"info"},"bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"playsound minecraft:entity.player.attack.sweep ambient @s"}}
