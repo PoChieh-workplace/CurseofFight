@@ -80,7 +80,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:echo_shard",
+                    "name": "minecraft:ominous_trial_key",
                     "weight": 1,
                     "functions": [
                         {
@@ -728,7 +728,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:echo_shard",
+                    "name": "minecraft:ominous_trial_key",
                     "weight": 1,
                     "functions": [
                         {

@@ -1,7 +1,7 @@
 setblock ~ ~ ~ minecraft:chest{
     lock:{
         Slot:0b,
-        id:"minecraft:echo_shard",
+        id:"minecraft:ominous_trial_key",
         count:1,
         components:{
             "minecraft:custom_data":{key:"airdrop"},
@@ -11,7 +11,7 @@ setblock ~ ~ ~ minecraft:chest{
 setblock ~ ~ ~ minecraft:chest{
     lock:{
         Slot:0b,
-        id:"minecraft:echo_shard",
+        id:"minecraft:ominous_trial_key",
         count:1,
         components:{
             "minecraft:custom_data":{key:"airdrop"},
