@@ -44,7 +44,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:echo_shard",
+          "name": "minecraft:ominous_trial_key",
           "weight": 1,
           "functions": [
             {
@@ -95,11 +95,11 @@
           "terms": [
             {
               "condition": "minecraft:random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.003,
+              "unenchanted_chance": 0.005,
               "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.005,
-                "per_level_above_first": 0.001
+                "base": 0.007,
+                "per_level_above_first": 0.002
               },
               "enchantment": "minecraft:looting"
             },
