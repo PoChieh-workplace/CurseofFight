@@ -3,6 +3,10 @@
     {
       "id": "terralith:setup",
       "required": false
-    }
+    },
+    "cursefight:install",
+    "theft:load",
+    "ships:load",
+    "vanilla_refresh:load"
   ]
 }
