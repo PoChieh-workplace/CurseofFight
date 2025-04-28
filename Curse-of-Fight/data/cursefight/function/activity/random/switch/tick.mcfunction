@@ -8,6 +8,7 @@ execute if score cursefight_activity_tick X matches 1 run bossbar set minecraft:
 execute if score cursefight_activity_tick X matches 1 run bossbar set minecraft:cursefight.activity.run max 400
 execute if score cursefight_activity_tick X matches 1 run bossbar set minecraft:cursefight.activity.run color green
 execute if score cursefight_activity_tick X matches 1 as @a at @s run playsound minecraft:block.end_portal.spawn neutral @s
+execute if score cursefight_activity_tick X matches 1 run tellraw @a ["",{"text":"\u00A7d—《 \u00A75\u00A7l混沌 \u00A76\u00A7l咒縛 \u00A7d》— >>> \u00A77隨機互換在場的所有玩家位置，可能會\u00A7a與隊友、敵人交換\u00A77或是\u00A74不交換位置","color":"gray"}]
 
 
 # bossbar_1
@@ -15,7 +16,7 @@ execute if score cursefight_activity_tick X matches 1..400 run scoreboard player
 execute if score cursefight_activity_tick X matches 1..400 run scoreboard players operation cursefight_activity_sec X -= cursefight_activity_tick X
 execute if score cursefight_activity_tick X matches 1..400 store result bossbar minecraft:cursefight.activity.run value run scoreboard players get cursefight_activity_sec X
 execute if score cursefight_activity_tick X matches 1..400 run scoreboard players operation cursefight_activity_sec X /= const20 X
-execute if score cursefight_activity_tick X matches 1..400 run bossbar set minecraft:cursefight.activity.run name ["",{"text":"\u00A78—《 \u00A75\u00A7l混沌 \u00A76\u00A7l咒縛 \u00A78》— \u00A7r剩餘 \u00A71"},{"score":{"name":"cursefight_activity_sec","objective":"X"}},{"text":" \u00A7r秒"}]
+execute if score cursefight_activity_tick X matches 1..400 run bossbar set minecraft:cursefight.activity.run name ["",{"text":"\u00A78—《 \u00A75\u00A7l混沌 \u00A76\u00A7l咒縛 \u00A78》— \u00A7r剩餘 \u00A71"},{"score":{"name":"cursefight_activity_sec","objective":"X"}},{"text":" \u00A7r秒後傳送"}]
 
 execute if score cursefight_activity_tick X matches 21 run title @a times 0t 11t 0t
 execute if score cursefight_activity_tick X matches 21 run title @a title "\u00A78—《  \u00A75\u00A7l混沌 \u00A76\u00A7l咒縛  \u00A78》—"
