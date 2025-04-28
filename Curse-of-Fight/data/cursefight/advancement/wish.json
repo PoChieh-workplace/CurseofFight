@@ -1,28 +1,27 @@
 {
     "display": {
         "title": {
-            "text":"WaterBall：遺志",
-            "color":"aqua",
-            "bold":true
+            "text": "WaterBall：遺志",
+            "color": "aqua"
         },
         "description": {
-            "text":"這裡列出了所有玩家的遺志",
-            "color":"white"
+            "text": "這裡列出了所有玩家的遺志",
+            "color": "white"
         },
         "icon": {
             "id": "minecraft:writable_book",
-            "count":1,
+            "count": 1,
             "components": {
                 "minecraft:enchantments": {
                     "minecraft:mending": 1
                 }
             }
         },
-        "frame":"challenge",
-        "show_toast":false,
-        "announce_to_chat":false,
-        "hidden":false,
-        "background":"minecraft:textures/block/birch_planks.png"
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:block/pale_moss_block"
     },
     "criteria": {
         "join": {

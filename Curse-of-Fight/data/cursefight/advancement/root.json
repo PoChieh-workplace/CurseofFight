@@ -1,13 +1,12 @@
 {
     "display": {
         "title": {
-            "text":"WaterBall - Curse Of Fight",
-            "color":"aqua",
-            "bold":true
+            "text": "WaterBall - Curse Of Fight",
+            "color": "aqua"
         },
         "description": {
-            "text":"基本任務",
-            "color":"white"
+            "text": "基本任務",
+            "color": "white"
         },
         "icon": {
             "id": "minecraft:diamond_axe",
@@ -17,11 +16,11 @@
                 }
             }
         },
-        "frame":"challenge",
-        "show_toast":true,
-        "announce_to_chat":true,
-        "hidden":false,
-        "background":"minecraft:textures/block/netherite_block.png"
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:block/polished_deepslate"
     },
     "criteria": {
         "join": {
