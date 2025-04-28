@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BWB",
+    "WMW",
+    "CWC"
+  ],
+  "key": {
+    "W": "minecraft:wheat",
+    "B": "minecraft:sweet_berries",
+    "C": "minecraft:cocoa_beans",
+    "M": "minecraft:milk_bucket"
+  },
+  "result": {
+    "id": "minecraft:cookie",
+    "components": {
+      "minecraft:item_name": { "translate": "item.jmmf.black_forest_doughnut"},
+      "minecraft:item_model": "jmmf:doughnut/black_forest_doughnut",
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:black_forest_doughnut"
+        },
+        "joshmats": {
+          "tag": ["doughnut"]
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 3, "saturation": 3
+      }
+    },
+    "count": 16
+  }
+}

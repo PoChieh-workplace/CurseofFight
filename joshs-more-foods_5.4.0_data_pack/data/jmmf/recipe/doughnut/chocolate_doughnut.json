@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "WCW",
+    " W "
+  ],
+  "key": {
+    "W": "minecraft:wheat",
+    "C": "minecraft:cocoa_beans"
+  },
+  "result": {
+    "id": "minecraft:cookie",
+    "components": {
+      "minecraft:item_name": { "translate": "item.jmmf.chocolate_doughnut"},
+      "minecraft:item_model": "jmmf:doughnut/chocolate_doughnut",
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:chocolate_doughnut"
+        },
+        "joshmats": {
+          "tag": ["doughnut"]
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 3, "saturation": 3
+      }
+    },
+    "count": 12
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SWS",
+    "W W",
+    "SWS"
+  ],
+  "key": {
+    "W": "minecraft:wheat",
+    "S": "minecraft:sugar"
+  },
+  "result": {
+    "id": "minecraft:cookie",
+    "components": {
+      "minecraft:item_name": { "translate": "item.jmmf.sugar_doughnut"},
+      "minecraft:item_model": "jmmf:doughnut/sugar_doughnut",
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:sugar_doughnut"
+        },
+        "joshmats": {
+          "tag": ["doughnut"]
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 3, "saturation": 3
+      }
+    },
+    "count": 12
+  }
+}

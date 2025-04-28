@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        { "function": "set_count", "count": 1 },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": { "translate": "item.jmmf.tea_leaves" },
+                                "minecraft:item_model": "jmmf:tea_leaves",
+                                "minecraft:rarity": "common",
+                                "minecraft:custom_data": {
+                                    "smithed": { "id": "jmmf:tea_leaves" }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

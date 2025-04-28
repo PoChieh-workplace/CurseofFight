@@ -125,13 +125,13 @@
                 "type": "minecraft:spider",
                 "maxCount": 4,
                 "minCount": 4,
-                "weight": 100
+                "weight": 20
             },
             {
                 "type": "minecraft:zombie",
                 "maxCount": 4,
                 "minCount": 4,
-                "weight": 95
+                "weight": 65
             },
             {
                 "type": "minecraft:zombie_villager",
@@ -143,19 +143,19 @@
                 "type": "minecraft:skeleton",
                 "maxCount": 4,
                 "minCount": 4,
-                "weight": 100
+                "weight": 50
             },
             {
                 "type": "minecraft:creeper",
                 "maxCount": 4,
                 "minCount": 4,
-                "weight": 100
+                "weight": 50
             },
             {
-                "type": "minecraft:slime",
-                "maxCount": 4,
-                "minCount": 4,
-                "weight": 100
+                "type": "minecraft:magma_cube",
+                "maxCount": 1,
+                "minCount": 1,
+                "weight": 50
             },
             {
                 "type": "minecraft:enderman",
@@ -164,16 +164,10 @@
                 "weight": 10
             },
             {
-                "type": "minecraft:witch",
-                "maxCount": 1,
-                "minCount": 1,
-                "weight": 5
-            },
-            {
-                "type": "minecraft:drowned",
+                "type": "minecraft:breeze",
                 "maxCount": 4,
-                "minCount": 4,
-                "weight": 95
+                "minCount": 2,
+                "weight": 150
             }
         ],
         "underground_water_creature": [

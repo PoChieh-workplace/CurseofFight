@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WCW"
+  ],
+  "key": {
+    "W": "minecraft:wheat",
+    "C": "minecraft:carrot"
+  },
+  "result": {
+    "id": "minecraft:bread",
+    "components": {
+      "minecraft:item_name": { "translate": "item.jmmf.carrot_bread"},
+      "minecraft:item_model": "jmmf:bread/carrot_bread",
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:carrot_bread"
+        }
+      }
+    }
+  }
+}

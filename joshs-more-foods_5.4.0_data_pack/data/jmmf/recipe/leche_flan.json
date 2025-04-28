@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    "minecraft:egg",
+    "minecraft:milk_bucket",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:item_name": { "translate": "item.jmmf.leche_flan"},
+      "minecraft:item_model": "jmmf:leche_flan",
+      "minecraft:custom_data": {
+        "smithed": { "id": "jmmf:leche_flan" }
+      },
+      "minecraft:food": {
+        "nutrition": 6, "saturation": 7
+      }
+    }
+  }
+}

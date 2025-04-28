@@ -1,0 +1,27 @@
+{   
+  "display": {
+    "icon":{
+      "id": "minecraft:bread",
+      "components": {"item_model":"jmmf:bread/carrot_bread"}
+    },
+    "title": {
+      "translate": "advancements.jmmf.start.title"
+    },
+    "description": {
+      "translate": "advancements.jmmf.start.description"
+    },
+    "background": "minecraft:block/stripped_oak_log",
+    "hidden": false,
+    "show_toast": false,
+    "announce_to_chat": false
+  }, 
+  "criteria": {
+    "start": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+        ]
+      }
+    }
+  }
+}

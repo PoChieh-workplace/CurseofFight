@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {"translate": "item.jmmf.rice"},
+    "minecraft:item_model": "jmmf:rice",
+    "minecraft:custom_data": {
+      "smithed": { "id": "jmmf:rice" },
+      "joshmats":{"tag":["rice"]}
+    }
+  }
+}

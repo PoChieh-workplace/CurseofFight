@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": { "translate": "item.jmmf.teacup"},
+                                "minecraft:rarity": "common",
+                                "minecraft:item_model": "jmmf:teacup",
+                                "minecraft:custom_data": {
+                                    "smithed": { "id": "jmmf:teacup" }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

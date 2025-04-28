@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "S"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "components": {
+      "minecraft:item_name": { "translate": "item.jmmf.iron_knife"},
+      "minecraft:item_model": "jmmf:knife/iron_knife",
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:iron_knife"
+        },
+        "joshmats": {
+          "tag": ["knife"]
+        }
+      },
+      "minecraft:lore": [
+        {"text": ""},
+        {"translate": "item.modifiers.mainhand", "color": "gray", "italic": false}, 
+        {"translate": "item.jmmf.iron_knife.lore.attack_damage", "color": "dark_green", "italic": false}, 
+        {"translate": "item.jmmf.iron_knife.lore.attack_speed", "color": "dark_green",  "italic": false}
+      ],
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "slot": "mainhand",
+          "id": "jmmf:iron_knife.attack_damage",
+          "amount": 3,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "slot": "mainhand",
+          "id": "jmmf:iron_knife.attack_speed",
+          "amount": -2,
+          "operation": "add_value"
+        }
+      ],
+      "minecraft:tooltip_display": { "hidden_components": ["minecraft:attribute_modifiers"] }
+      
+    }
+  }
+}

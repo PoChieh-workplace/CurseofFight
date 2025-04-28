@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "B B",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:brick"
+  },
+  "result": {
+    "id": "minecraft:structure_block",
+    "components": {
+      "minecraft:item_name": { "translate": "item.jmmf.teacup"},
+      "minecraft:rarity": "common",
+      "minecraft:item_model": "jmmf:teacup",
+      "minecraft:custom_data": {
+        "smithed": { "id": "jmmf:teacup" }
+      }
+    }, 
+    "count": 2
+  } 
+}

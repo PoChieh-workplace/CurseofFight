@@ -1,0 +1,29 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " P ",
+    "EMC",
+    " L "
+  ],
+  "key": {
+    "P": "minecraft:baked_potato",
+    "E": "minecraft:egg",
+    "M": "minecraft:milk_bucket",
+    "C": "minecraft:carrot",
+    "L": "minecraft:cooked_mutton"
+  },
+  "result": {
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:item_name": { "translate": "item.jmmf.shepherds_pie"},
+      "minecraft:item_model": "jmmf:pie/shepherds_pie",
+      "minecraft:custom_data": {
+        "smithed": { "id": "jmmf:shepherds_pie" }
+      },
+      "minecraft:food": {
+        "nutrition": 14,
+        "saturation": 17
+      }
+    }
+  }
+}

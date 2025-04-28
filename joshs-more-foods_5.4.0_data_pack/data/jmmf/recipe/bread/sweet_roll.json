@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:sugar",
+    "minecraft:milk_bucket",
+    "minecraft:bread"
+  ],
+  "result": {
+    "id": "minecraft:bread",
+    "components": {
+      "minecraft:item_name": { "translate": "item.jmmf.sweet_roll"},
+      "minecraft:item_model": "jmmf:bread/sweet_roll",
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:sweet_roll"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 7, "saturation": 8
+      }
+    }
+  }
+}

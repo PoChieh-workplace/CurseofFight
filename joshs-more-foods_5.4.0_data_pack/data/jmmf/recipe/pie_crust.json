@@ -1,0 +1,25 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "WEW",
+      " W "
+    ],
+    "key": {
+      "W": "minecraft:wheat",
+      "E": "minecraft:egg"
+    },
+    "result": {
+      "id": "minecraft:cookie",
+      "components": {
+        "minecraft:item_name": { "translate": "item.jmmf.pie_crust"},
+        "minecraft:item_model": "jmmf:pie_crust",
+        "minecraft:custom_data": {
+          "smithed": { "id": "jmmf:pie_crust" }
+        },
+        "minecraft:food": {
+          "nutrition": 3, "saturation": 3
+        }
+      },
+      "count": 2
+    }
+  }
