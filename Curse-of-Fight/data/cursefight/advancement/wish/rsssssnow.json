@@ -16,7 +16,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "cursefight:wish",
+    "parent": "cursefight:wish/oian0505o",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:entity_hurt_player",
