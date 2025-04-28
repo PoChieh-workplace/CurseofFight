@@ -1,83 +1,136 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-      {
-          "rolls": {
-              "type": "minecraft:uniform",
-              "min": 1,
-              "max": 5
-          },
-          "bonus_rolls": 1,
-          "entries": [
-              {
-                  "type": "minecraft:item",
-                  "name": "minecraft:iron_ingot",
-                  "weight": 4,
-                  "functions": [
-                      {
-                          "function": "minecraft:set_count",
-                          "count": {
-                              "type": "minecraft:uniform",
-                              "min": 1,
-                              "max": 3
-                          },
-                          "add": false
-                      }
-                  ]
-              },
-              {
-                  "type": "minecraft:item",
-                  "name": "minecraft:gold_nugget",
-                  "weight": 4
-              },
-              {
-                  "type": "minecraft:item",
-                  "name": "minecraft:bread",
-                  "weight": 8,
-                  "functions": [
-                      {
-                          "function": "minecraft:set_count",
-                          "count": {
-                              "type": "minecraft:uniform",
-                              "min": 1,
-                              "max": 4
-                          },
-                          "add": false
-                      }
-                  ]
-              },
-              {
-                  "type": "minecraft:item",
-                  "name": "minecraft:iron_helmet"
-              },
-              {
-                  "type": "minecraft:item",
-                  "name": "minecraft:iron_chestplate"
-              },
-              {
-                  "type": "minecraft:item",
-                  "name": "minecraft:emerald",
-                  "functions": [
-                      {
-                          "function": "minecraft:set_count",
-                          "count": {
-                              "type": "minecraft:uniform",
-                              "min": 1,
-                              "max": 3
-                          }
-                      }
-                  ]
-              },
-              {
-                  "type": "minecraft:item",
-                  "name": "minecraft:chainmail_helmet"
-              },
-              {
-                  "type": "minecraft:item",
-                  "name": "minecraft:chainmail_chestplate"
-              }
-          ]
-      }
-  ],
-  "random_sequence": "minecraft:chests/village/village_armorer"
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+            },
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 3
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_nugget",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bread",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 4
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_helmet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_chestplate"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_helmet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_chestplate"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:consumable": {
+                                    "consume_seconds": 3,
+                                    "animation": "brush",
+                                    "sound": "minecraft:block.wool.place",
+                                    "has_consume_particles": false,
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:regeneration",
+                                                    "amplifier": 4,
+                                                    "duration": 10
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "minecraft:max_stack_size": 5,
+                                "minecraft:custom_name": {
+                                    "translate": "Bandage",
+                                    "italic": false
+                                },
+                                "minecraft:lore": [
+                                    [
+                                        "",
+                                        {
+                                            "keybind": "key.use",
+                                            "color": "green"
+                                        },
+                                        {
+                                            "translate": " 使用來治療傷勢，包紮時間需要三秒 .cof"
+                                        }
+                                    ]
+                                ],
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        724013
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:chests/village/village_armorer"
 }
