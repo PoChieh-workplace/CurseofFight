@@ -27,7 +27,12 @@
           "amount": -0.8,
           "operation": "add_multiplied_base"
         }
-      ]
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
     }
   }
 }

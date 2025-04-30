@@ -11,17 +11,39 @@
   "result": {
     "id": "minecraft:wooden_sword",
     "components": {
-      "minecraft:item_name": { "translate": "item.jmmf.wooden_knife"},
+      "minecraft:item_name": {
+        "translate": "item.jmmf.wooden_knife"
+      },
       "minecraft:item_model": "jmmf:knife/wooden_knife",
       "minecraft:custom_data": {
-        "smithed": { "id": "jmmf:wooden_knife" },
-        "joshmats": { "tag": ["knife"] }
+        "smithed": {
+          "id": "jmmf:wooden_knife"
+        },
+        "joshmats": {
+          "tag": [
+            "knife"
+          ]
+        }
       },
       "minecraft:lore": [
-        {"text": ""},
-        {"translate": "item.modifiers.mainhand", "color": "gray", "italic": false}, 
-        {"translate": "item.jmmf.wooden_knife.lore.attack_damage", "color": "dark_green", "italic": false}, 
-        {"translate": "item.jmmf.wooden_knife.lore.attack_speed", "color": "dark_green",  "italic": false}
+        {
+          "text": ""
+        },
+        {
+          "translate": "item.modifiers.mainhand",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item.jmmf.wooden_knife.lore.attack_damage",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "translate": "item.jmmf.wooden_knife.lore.attack_speed",
+          "color": "dark_green",
+          "italic": false
+        }
       ],
       "minecraft:attribute_modifiers": [
         {
@@ -39,7 +61,11 @@
           "operation": "add_value"
         }
       ],
-      "minecraft:tooltip_display": { "hidden_components": ["minecraft:attribute_modifiers"] }
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
     }
   }
 }

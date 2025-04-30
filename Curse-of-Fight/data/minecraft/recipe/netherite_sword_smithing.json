@@ -19,7 +19,12 @@
           "amount": -0.6,
           "operation": "add_multiplied_base"
         }
-      ]
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
     }
   },
   "template": "minecraft:netherite_upgrade_smithing_template"

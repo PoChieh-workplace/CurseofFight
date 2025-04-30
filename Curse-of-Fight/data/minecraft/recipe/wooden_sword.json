@@ -14,6 +14,26 @@
     "count": 1,
     "id": "minecraft:wooden_sword",
     "components": {
+      "minecraft:lore": [
+        {
+          "text": ""
+        },
+        {
+          "translate": "item.modifiers.mainhand",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item.lore.attack_damage_3",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "translate": "item.lore.attack_speed_1.6",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:attack_damage",
@@ -24,10 +44,15 @@
         {
           "type": "minecraft:attack_speed",
           "id": "minecraft:sword_damage_speed",
-          "amount": -0.6,
-          "operation": "add_multiplied_base"
+          "amount": -2.4,
+          "operation": "add_value"
         }
-      ]
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
     }
   }
 }
