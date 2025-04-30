@@ -46,6 +46,8 @@ scoreboard objectives add found_player_time dummy {"text":"尋找敵人冷卻時
 scoreboard objectives add cursefight.activity.demon_contract.benefit dummy {"text":"惡魔契約好處"}
 scoreboard objectives add cursefight.activity.demon_contract.harm dummy {"text":"惡魔契約成本"}
 scoreboard objectives add cursefight_temp dummy {"text":"臨時"}
+scoreboard objectives add magnelis_thornweaver_task_completed dummy {"text":"瑪格尼里斯的任務完成數量"}
+scoreboard objectives add magnelis_thornweaver_task_count dummy {"text":"瑪格尼里斯的任務數量"}
 
 
 worldborder center ~ ~
