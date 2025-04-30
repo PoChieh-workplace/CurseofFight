@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cursefight:magnelis_thornweaver",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 7266470,
+		"separation": 15,
+		"spacing": 20
+	}
+}
