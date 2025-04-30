@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:plains",
+		"minecraft:flower_forest",
+		"minecraft:meadow",
+		"minecraft:sunflower_plains",
+		"#minecraft:is_forest",
+		"#terralith:reference/plains"
+	]
+}

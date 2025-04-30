@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "active_with_campfire": {
+            "trigger": "minecraft:default_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "structures": "cursefight:magnelis_thornweaver",
+                            "block": {
+                                "blocks": "minecraft:bell"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight:structure/magnelis_thornweaver/active_check"
+    }
+}
