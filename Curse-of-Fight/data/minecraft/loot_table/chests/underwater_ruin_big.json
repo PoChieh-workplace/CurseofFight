@@ -97,7 +97,7 @@
 												{
 													"id": "minecraft:water_breathing",
 													"amplifier": 0,
-													"duration": 800
+													"duration": 2400
 												}
 											]
 										}
