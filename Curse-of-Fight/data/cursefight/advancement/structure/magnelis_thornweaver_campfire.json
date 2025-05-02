@@ -1,7 +1,7 @@
 {
     "criteria": {
         "active_with_campfire": {
-            "trigger": "minecraft:default_block_use",
+            "trigger": "minecraft:any_block_use",
             "conditions": {
                 "location": [
                     {
