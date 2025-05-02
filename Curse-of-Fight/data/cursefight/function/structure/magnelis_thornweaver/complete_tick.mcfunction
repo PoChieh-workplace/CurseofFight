@@ -8,7 +8,7 @@ execute if score @s cursefight.object.tick matches 1 run title @a[tag=magnelis_t
 # summon armor stand for spectator
 execute if score @s cursefight.object.tick matches 1 at @s rotated 180 -10 run summon minecraft:armor_stand ^ ^ ^5 {Invisible:true,Invulnerable:true,NoBasePlate:true,NoGravity:true,Small:true,Tags:["magnelis_thornweaver_complete_ani_point"]}
 execute if score @s cursefight.object.tick matches 11 run gamemode spectator @a[tag=magnelis_thornweaver_player_complete_anim,distance=..50] 
-execute if score @s cursefight.object.tick matches 12..160 @a[tag=magnelis_thornweaver_player_complete_anim] run spectate @n[tag=magnelis_thornweaver_complete_ani_point] @s
+execute if score @s cursefight.object.tick matches 12..159 as @a[tag=magnelis_thornweaver_player_complete_anim,distance=..50] run spectate @n[tag=magnelis_thornweaver_complete_ani_point] @s
 
 execute if score @s cursefight.object.tick matches 1..100 run particle minecraft:tinted_leaves{color:[255,0,255,0]} ~ ~7 ~ 4 2 4 1 3
 execute if score @s cursefight.object.tick matches 1..100 run particle minecraft:tinted_leaves{color:[255,100,200,100]} ~ ~7 ~ 4 2 4 1 3
@@ -36,7 +36,9 @@ execute if score @s cursefight.object.tick matches 160 run gamemode survival @a[
 
 execute if score @s cursefight.object.tick matches 161 positioned ~-30 -70 ~-30 run tag @a[tag=magnelis_thornweaver_player_complete_anim,distance=..50] remove magnelis_thornweaver_player_complete_single_task
 execute if score @s cursefight.object.tick matches 161 positioned ~-30 -70 ~-30 run tag @a[tag=magnelis_thornweaver_player_complete_anim,distance=..50] remove magnelis_thornweaver_player_complete_anim
+execute if score @s cursefight.object.tick matches 161 run kill @e[type=armor_stand,tag=magnelis_thornweaver_complete_ani_point,distance=..50]
 execute if score @s cursefight.object.tick matches 161 run tag @s remove magnelis_thornweaver_center_completed
+execute if score @s cursefight.object.tick matches 161 run tag @s add magnelis_thornweaver_center_all_completed
 
 
 scoreboard players add @s cursefight.object.tick 1
