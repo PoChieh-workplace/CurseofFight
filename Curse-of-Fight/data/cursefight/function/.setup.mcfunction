@@ -49,7 +49,7 @@ scoreboard objectives add cursefight.activity.demon_contract.harm dummy {"text":
 scoreboard objectives add cursefight_temp dummy {"text":"臨時"}
 scoreboard objectives add magnelis_thornweaver_task_completed dummy {"text":"瑪格尼里斯的任務完成數量"}
 scoreboard objectives add magnelis_thornweaver_task_count dummy {"text":"瑪格尼里斯的任務數量"}
-
+scoreboard objectives add cursefight.object.tick dummy {"text":"物件時間"}
 
 worldborder center ~ ~
 worldborder set 256

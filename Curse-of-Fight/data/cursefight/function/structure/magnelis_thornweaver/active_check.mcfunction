@@ -1,1 +1,1 @@
-execute as @n[distance=..15,type=minecraft:marker,tag=magnelis_thornweaver_center] at @s if block ~ ~ ~ #minecraft:flowers run function cursefight:structure/magnelis_thornweaver/active_init
+execute as @n[distance=..15,type=minecraft:marker,tag=magnelis_thornweaver_center,tag=!magnelis_thornweaver_center_active,tag=!magnelis_thornweaver_center_completed] at @s if block ~ ~ ~ #minecraft:flowers run function cursefight:structure/magnelis_thornweaver/active_init
