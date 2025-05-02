@@ -9,7 +9,7 @@
                         "predicate": {
                             "structures": "cursefight:magnelis_thornweaver",
                             "block": {
-                                "blocks": "minecraft:campfire"
+                                "blocks": "minecraft:soul_campfire"
                             }
                         }
                     }
