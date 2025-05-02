@@ -50,7 +50,7 @@ execute as @e[type=marker,tag=player_step_sculk_patch] at @s run function cursef
 
 # magnelis thornweaver initialization
 execute as @e[type=minecraft:marker,tag=magnelis_thornweaver_init] at @s run function cursefight:structure/magnelis_thornweaver/init
-
-# magnelis thornweaver initialization
+# magnelis thornweaver active
 execute as @e[type=minecraft:marker,tag=magnelis_thornweaver_center_active] at @s run function cursefight:structure/magnelis_thornweaver/active_tick
-
+# magnelis thornweaver complete animation
+execute as @e[type=minecraft:marker,tag=magnelis_thornweaver_center_completed] at @s run function cursefight:structure/magnelis_thornweaver/complete_tick

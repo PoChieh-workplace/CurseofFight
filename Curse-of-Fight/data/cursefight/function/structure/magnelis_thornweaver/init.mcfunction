@@ -3,3 +3,4 @@ execute if score @s X matches 1..2 run function cursefight:structure/magnelis_th
 scoreboard players set @s magnelis_thornweaver_task_completed 0
 
 tag @s remove magnelis_thornweaver_init
+tag @s add magnelis_thornweaver_activable
