@@ -7,7 +7,6 @@
                     {
                         "condition": "minecraft:location_check",
                         "predicate": {
-                            "structures": "cursefight:magnelis_thornweaver",
                             "block": {
                                 "blocks": "minecraft:soul_campfire"
                             }
