@@ -1,3 +1,12 @@
+##
+ # file:    sec.mcfunction
+ # purpose: Main sec function.
+ # route:   cursefight:time/sec
+ #
+ # Created by Waterball.
+##
+
+
 scoreboard players add _timer_sec_ info 1
 execute if score _game_start_ info matches 1 if score _timer_sec_ info matches 60.. run function cursefight:time/min
 

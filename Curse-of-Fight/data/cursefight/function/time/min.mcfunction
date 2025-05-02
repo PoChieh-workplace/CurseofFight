@@ -1,3 +1,11 @@
+##
+ # file:    min.mcfunction
+ # purpose: Main minutes function.
+ # route:   cursefight:time/min
+ #
+ # Created by Waterball.
+##
+
 scoreboard players set _timer_sec_ info 0
 scoreboard players add _timer_min_ info 1
 

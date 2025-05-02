@@ -1,3 +1,12 @@
+##
+ # file:    tick.mcfunction
+ # purpose: Main tick function.
+ # route:   cursefight:time/tick
+ #
+ # Created by Waterball.
+##
+
+
 execute store result score _timer_tick_ info run time query gametime
 scoreboard players operation _timer_tick_ info -= _last_tick_ info
 
@@ -36,5 +45,8 @@ execute as @e[type=minecraft:allay,tag=parachute_allay] run function cursefight:
 # infested cave
 function cursefight:biome/infested_caves/tick
 
-# 
+# ancient city player sculk patch
 execute as @e[type=marker,tag=player_step_sculk_patch] at @s run function cursefight:structure/ancient_city/player_sculk_patch_tick
+
+# magnelis thornweaver initialization
+execute as @e[type=minecraft:marker,tag=magnelis_thornweaver_init] at @s run function cursefight:structure/magnelis_thornweaver/init

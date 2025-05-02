@@ -5,6 +5,7 @@
  #
  # Created by Waterball.
 ##
+
 # 職業
 execute at @s run place template cursefight:lobby ~-9 280 ~-12
 forceload add ~ ~ ~ ~

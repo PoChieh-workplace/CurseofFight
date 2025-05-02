@@ -1,1 +1,2 @@
 execute at @e[tag=magnelis_thornweaver_task,type=minecraft:marker,distance=..40] run particle minecraft:witch
+execute at @e[tag=magnelis_thornweaver_task,type=minecraft:marker,distance=..40] run particle minecraft:witch
