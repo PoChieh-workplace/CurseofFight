@@ -11,7 +11,7 @@
           "value": {
             "type": "minecraft:linear",
             "base": 0.5,
-            "per_level_above_first": 0.5
+            "per_level_above_first": 0.3
           }
         },
         "requirements": {
@@ -30,8 +30,8 @@
   },
   "max_level": 5,
   "min_cost": {
-    "base": 20,
-    "per_level_above_first": 20
+    "base": 15,
+    "per_level_above_first": 13
   },
   "slots": [
     "mainhand"
