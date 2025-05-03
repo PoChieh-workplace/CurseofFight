@@ -169,7 +169,7 @@
                             "levels": {
                                 "type": "minecraft:uniform",
                                 "min": 80,
-                                "max": 200
+                                "max": 100
                             },
                             "options": "#minecraft:on_random_loot"
                         }
@@ -381,6 +381,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
+                    "weight": 5,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
