@@ -4,6 +4,6 @@ execute if score @s magnelis_thornweaver_task_count matches 2.. run summon minec
 execute if score @s magnelis_thornweaver_task_count matches 3.. run summon minecraft:marker ~ ~ ~ {Tags:["magnelis_thornweaver_temp"]}
 execute if score @s magnelis_thornweaver_task_count matches 4.. run summon minecraft:marker ~ ~ ~ {Tags:["magnelis_thornweaver_temp"]}
 execute if score @s magnelis_thornweaver_task_count matches 5.. run summon minecraft:marker ~ ~ ~ {Tags:["magnelis_thornweaver_temp"]}
-spreadplayers ~ ~ 6 10 false @e[type=minecraft:marker,tag=magnelis_thornweaver_temp,distance=..40]
-execute at @e[tag=magnelis_thornweaver_temp,type=minecraft:marker,distance=..40] positioned over motion_blocking_no_leaves run place jigsaw cursefight:magnelis_thornweaver/campfire cursefight:bottom 1 ~ ~ ~
+spreadplayers ~ ~ 8 15 false @e[type=minecraft:marker,tag=magnelis_thornweaver_temp,distance=..40]
+execute at @e[tag=magnelis_thornweaver_temp,type=minecraft:marker,distance=..40] positioned over world_surface run place jigsaw cursefight:magnelis_thornweaver/campfire cursefight:bottom 1 ~ ~ ~
 kill @e[tag=magnelis_thornweaver_temp,type=minecraft:marker,distance=..40]
