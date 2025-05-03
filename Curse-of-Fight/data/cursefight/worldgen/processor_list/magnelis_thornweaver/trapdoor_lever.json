@@ -1,0 +1,153 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lever"
+          },
+          "output_state": {
+            "Name": "minecraft:lever",
+            "Properties": {
+              "face": "floor",
+              "facing": "north",
+              "powered": "false"
+            }
+          },
+          "chance": 0.125
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lever"
+          },
+          "output_state": {
+            "Name": "minecraft:lever",
+            "Properties": {
+              "face": "floor",
+              "facing": "north",
+              "powered": "true"
+            }
+          },
+          "chance": 0.125
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lever"
+          },
+          "output_state": {
+            "Name": "minecraft:lever",
+            "Properties": {
+              "face": "floor",
+              "facing": "south",
+              "powered": "false"
+            }
+          },
+          "chance": 0.125
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lever"
+          },
+          "output_state": {
+            "Name": "minecraft:lever",
+            "Properties": {
+              "face": "floor",
+              "facing": "south",
+              "powered": "true"
+            }
+          },
+          "chance": 0.125
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lever"
+          },
+          "output_state": {
+            "Name": "minecraft:lever",
+            "Properties": {
+              "face": "floor",
+              "facing": "west",
+              "powered": "false"
+            }
+          },
+          "chance": 0.125
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lever"
+          },
+          "output_state": {
+            "Name": "minecraft:lever",
+            "Properties": {
+              "face": "floor",
+              "facing": "west",
+              "powered": "true"
+            }
+          },
+          "chance": 0.125
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lever"
+          },
+          "output_state": {
+            "Name": "minecraft:lever",
+            "Properties": {
+              "face": "floor",
+              "facing": "east",
+              "powered": "false"
+            }
+          },
+          "chance": 0.125
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lever"
+          },
+          "output_state": {
+            "Name": "minecraft:lever",
+            "Properties": {
+              "face": "floor",
+              "facing": "east",
+              "powered": "true"
+            }
+          },
+          "chance": 0.125
+        }
+      ]
+    }
+  ]
+}
