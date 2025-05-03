@@ -1,4 +1,4 @@
-execute positioned over world_surface run spawnpoint @s ~ ~ ~
+execute positioned over motion_blocking_no_leaves run spawnpoint @s ~ ~ ~
 gamemode spectator @s
 tag @s remove cursefight.alive
 execute as @a at @s run playsound cursefight.playerkilled player @s ~ ~ ~

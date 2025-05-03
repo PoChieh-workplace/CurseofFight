@@ -155,6 +155,246 @@
                     "weight": 2
                 }
             ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "min": 80,
+                                "max": 200
+                            },
+                            "options": "#minecraft:on_random_loot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glow_berries",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 64,
+                                "max": 100
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 2,
+                                    "saturation": 2,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 2,
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:regeneration",
+                                                    "amplifier": 0,
+                                                    "duration": 60
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_name": [
+                                    "",
+                                    {
+                                        "text": "小甜點",
+                                        "italic": false,
+                                        "color": "red"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": [
+                                    "",
+                                    {
+                                        "text": "瑪格尼里斯的斗篷",
+                                        "italic": false,
+                                        "color": "#8932B8"
+                                    }
+                                ],
+                                "lore": [
+                                    [
+                                        "",
+                                        {
+                                            "text": "瑪格尼里斯給予通過考驗的玩家自己的斗篷作為獎勵，但效果不如自己的師傅",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        },
+                                        {
+                                            "text": ""
+                                        }
+                                    ],
+                                    [
+                                        "",
+                                        {
+                                            "text": "去除大部分的負面效果，無視玩家與苦力怕所造成的箭矢與爆炸傷害",
+                                            "italic": false,
+                                            "color": "green"
+                                        }
+                                    ]
+                                ],
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        724503
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "dark_protection": 1
+                                },
+                                "minecraft:trim": {
+                                    "material": "minecraft:netherite",
+                                    "pattern": "minecraft:silence"
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 2,
+                                    "minecraft:unbreaking": 10,
+                                    "cursefight:generic/armor/witch_protection": 1,
+                                    "minecraft:vanishing_curse": 1
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "cursefight.armor.dark_protection.armor",
+                                        "type": "minecraft:armor",
+                                        "amount": 5,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "id": "cursefight.armor.dark_protection.armor_effect",
+                                        "type": "minecraft:armor_toughness",
+                                        "amount": 1,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "minecraft:dyed_color": 9751807,
+                                "minecraft:unbreakable": {
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": [
+                                    "",
+                                    {
+                                        "text": "巫妖斗篷",
+                                        "italic": false,
+                                        "color": "#8932B8"
+                                    }
+                                ],
+                                "lore": [
+                                    [
+                                        "",
+                                        {
+                                            "text": "司掌死亡的魔物所配戴的斗篷，他的力量隨著靈魂留在了斗篷中",
+                                            "italic": false,
+                                            "color": "dark_purple"
+                                        },
+                                        {
+                                            "text": ""
+                                        }
+                                    ],
+                                    [
+                                        "",
+                                        {
+                                            "text": "去除大部分的負面效果，無視玩家與苦力怕所造成的箭矢與爆炸傷害",
+                                            "italic": false,
+                                            "color": "green"
+                                        }
+                                    ]
+                                ],
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        724503
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "dark_protection": 1
+                                },
+                                "minecraft:trim": {
+                                    "material": "minecraft:netherite",
+                                    "pattern": "minecraft:silence"
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 3,
+                                    "minecraft:unbreaking": 10,
+                                    "cursefight:generic/armor/witch_protection": 1,
+                                    "minecraft:vanishing_curse": 1,
+                                    "minecraft:fire_protection": 20
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "cursefight.armor.dark_protection.armor",
+                                        "type": "minecraft:armor",
+                                        "amount": 7,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "id": "cursefight.armor.dark_protection.armor_effect",
+                                        "type": "minecraft:armor_toughness",
+                                        "amount": 2,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "minecraft:dyed_color": 8991416,
+                                "minecraft:unbreakable": {
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.8
+                }
+            ]
         }
     ],
     "random_sequence": "cursefight:worldgen/deep_dungeon/loot/chests/normal_ore"
