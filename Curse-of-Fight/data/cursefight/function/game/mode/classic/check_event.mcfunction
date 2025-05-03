@@ -1,3 +1,11 @@
+##
+ # file:    check_event.mcfunction
+ # purpose: setup the datapack functions when function called.
+ # route:   cursefight:game/mode/classic/check_event
+ #
+ # Created by Waterball.
+##
+
 execute if score _timer_min_ info >= _worldborder_ info if score _worldborder_ activity_set matches 0 run function cursefight:game/worldborder/narrow_in_center
 execute if score _timer_min_ info >= _border_reminder_ info if score _border_reminder_ activity_set matches 0 run function cursefight:game/worldborder/reminder
 execute if score _timer_min_ info >= _glowing_ info if score _glowing_ activity_set matches 0 run function cursefight:game/glowing/main
