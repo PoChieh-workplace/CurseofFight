@@ -181,14 +181,6 @@
                     "weight": 5,
                     "functions": [
                         {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 64,
-                                "max": 100
-                            }
-                        },
-                        {
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
@@ -220,6 +212,15 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 64,
+                                "max": 100
+                            },
+                            "add": false
                         }
                     ]
                 },
