@@ -1,0 +1,153 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:dark_oak_trapdoor"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:dark_oak_trapdoor",
+                        "Properties": {
+                            "facing": "north",
+                            "half": "bottom",
+                            "open": "false"
+                        }
+                    },
+                    "chance": 0.125
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:dark_oak_trapdoor"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:dark_oak_trapdoor",
+                        "Properties": {
+                            "facing": "north",
+                            "half": "bottom",
+                            "open": "true"
+                        }
+                    },
+                    "chance": 0.125
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:dark_oak_trapdoor"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:dark_oak_trapdoor",
+                        "Properties": {
+                            "facing": "south",
+                            "half": "bottom",
+                            "open": "false"
+                        }
+                    },
+                    "chance": 0.125
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:dark_oak_trapdoor"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:dark_oak_trapdoor",
+                        "Properties": {
+                            "facing": "south",
+                            "half": "bottom",
+                            "open": "true"
+                        }
+                    },
+                    "chance": 0.125
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:dark_oak_trapdoor"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:dark_oak_trapdoor",
+                        "Properties": {
+                            "facing": "east",
+                            "half": "bottom",
+                            "open": "false"
+                        }
+                    },
+                    "chance": 0.125
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:dark_oak_trapdoor"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:dark_oak_trapdoor",
+                        "Properties": {
+                            "facing": "east",
+                            "half": "bottom",
+                            "open": "true"
+                        }
+                    },
+                    "chance": 0.125
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:dark_oak_trapdoor"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:dark_oak_trapdoor",
+                        "Properties": {
+                            "facing": "west",
+                            "half": "bottom",
+                            "open": "false"
+                        }
+                    },
+                    "chance": 0.125
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:dark_oak_trapdoor"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:dark_oak_trapdoor",
+                        "Properties": {
+                            "facing": "west",
+                            "half": "bottom",
+                            "open": "true"
+                        }
+                    },
+                    "chance": 0.125
+                }
+            ]
+        }
+    ]
+}
