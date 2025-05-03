@@ -1,7 +1,7 @@
 ##
- # file:    setup.mcfunction
+ # file:    .setup.mcfunction
  # purpose: setup the datapack functions when function called.
- # route:   cursefight:setup
+ # route:   cursefight:.setup
  #
  # Created by Waterball.
 ##
@@ -211,3 +211,7 @@ tellraw @a {"text":"設置 curse of Fight 完成","color":"green"}
 playsound minecraft:entity.experience_orb.pickup player @a
 function cursefight:system/beforegame1s
 execute as @a run function cursefight:ender_chest/career_reset
+
+
+# refesh setting
+data modify storage vanilla_refresh_config:config config.spectate set value 0

@@ -1,0 +1,1 @@
+execute at @s if blocks ~ ~ ~ ~ ~ ~ ^ ^ ^4 all

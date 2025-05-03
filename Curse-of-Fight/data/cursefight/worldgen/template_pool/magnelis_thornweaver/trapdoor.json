@@ -1,0 +1,15 @@
+{
+    "name": "cursefight:magnelis_thornweaver/trapdoor",
+    "fallback": "cursefight:magnelis_thornweaver/trapdoor",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "cursefight:magnelis_thornweaver/trapdoor_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}
