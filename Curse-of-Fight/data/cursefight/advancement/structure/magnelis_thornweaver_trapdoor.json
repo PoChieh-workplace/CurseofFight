@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "active_with_campfire": {
+            "trigger": "minecraft:default_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#minecraft:wooden_trapdoors"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight:structure/magnelis_thornweaver/trapdoor/task_check"
+    }
+}

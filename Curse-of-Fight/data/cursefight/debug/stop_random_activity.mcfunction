@@ -1,0 +1,1 @@
+scoreboard players set cursefight_activity_start X 2
