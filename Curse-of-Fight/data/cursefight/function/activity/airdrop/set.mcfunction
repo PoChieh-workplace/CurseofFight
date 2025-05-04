@@ -1,32 +1,38 @@
-# Curse of Fight 
-# Name    : set.mcfunction 
-# Author  : waterball
-# path    : /activity/airdrop/
-# func    : airdrop setup
+execute store result score cursefight_airdrop_range_x cursefight_temp run worldborder get
+execute store result score cursefight_airdrop_range_z cursefight_temp run worldborder get
+scoreboard players operation cursefight_airdrop_range_x cursefight_temp /= const3 X
+scoreboard players operation cursefight_airdrop_range_z cursefight_temp /= const3 X
 
-execute if score _teamcount_ info matches 1.. run summon area_effect_cloud ~ ~ ~ {Tags:[airdrop,ad],Duration:200,particle:"block air"}
-execute if score _teamcount_ info matches 7.. run summon area_effect_cloud ~ ~ ~ {Tags:[airdrop,ad],Duration:200,particle:"block air"}
-execute if score _teamcount_ info matches 12.. run summon area_effect_cloud ~ ~ ~ {Tags:[airdrop,ad],Duration:200,particle:"block air"}
+# random proportion
+execute store result score airdrop_range_proportion_x cursefight_temp run random value -100..100
+execute store result score airdrop_range_proportion_z cursefight_temp run random value -100..100
+
+# x
+scoreboard players operation cursefight_airdrop_range_x cursefight_temp *= airdrop_range_proportion_x cursefight_temp
+scoreboard players operation cursefight_airdrop_range_z cursefight_temp *= airdrop_range_proportion_z cursefight_temp
+
+scoreboard players operation cursefight_airdrop_range_x cursefight_temp /= const100 X
+scoreboard players operation cursefight_airdrop_range_z cursefight_temp /= const100 X
+
+scoreboard players operation cursefight_airdrop_x cursefight_temp = _center_ posX
+scoreboard players operation cursefight_airdrop_z cursefight_temp = _center_ posZ
+
+scoreboard players operation cursefight_airdrop_x cursefight_temp += cursefight_airdrop_range_x cursefight_temp
+scoreboard players operation cursefight_airdrop_z cursefight_temp += cursefight_airdrop_range_z cursefight_temp
+
+# store position
+data modify storage cursefight:airdrop Pos insert 0 value [0,100,0]
+execute store result storage cursefight:airdrop Pos[0][0] int 1 run scoreboard players get cursefight_airdrop_x cursefight_temp
+execute store result storage cursefight:airdrop Pos[0][2] int 1 run scoreboard players get cursefight_airdrop_z cursefight_temp
 
 
-execute if score _now_worldborder_ info matches ..32 run spreadplayers ~ ~ 1 10 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 33..64 run spreadplayers ~ ~ 1 16 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 65..128 run spreadplayers ~ ~ 1 50 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 129..192 run spreadplayers ~ ~ 10 100 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 193..256 run spreadplayers ~ ~ 50 125 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 257..320 run spreadplayers ~ ~ 50 125 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 321..384 run spreadplayers ~ ~ 50 175 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 385..448 run spreadplayers ~ ~ 100 220 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 449..512 run spreadplayers ~ ~ 100 260 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 513..576 run spreadplayers ~ ~ 100 335 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 577..640 run spreadplayers ~ ~ 100 410 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 641..704 run spreadplayers ~ ~ 200 435 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 705..768 run spreadplayers ~ ~ 200 440 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 769..832 run spreadplayers ~ ~ 200 510 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 833..896 run spreadplayers ~ ~ 200 550 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
-execute if score _now_worldborder_ info matches 897..961 run spreadplayers ~ ~ 200 650 false @e[tag=airdrop,type=minecraft:area_effect_cloud]
+# summon and teleport
+execute at @n[tag=border_center,type=minecraft:armor_stand] positioned ~ 100 ~ run summon minecraft:marker ~ ~ ~ {Tags:["airdrop_spread","airdrop.init"]}
+execute at @n[tag=border_center,type=minecraft:armor_stand] positioned ~ 100 ~ run data modify entity @n[type=minecraft:marker,tag=airdrop_spread] Pos set from storage cursefight:airdrop Pos[0]
+tag @e[tag=airdrop_spread] remove airdrop_spread
 
-execute positioned as @e[tag=airdrop] run forceload add ~ ~ ~ ~
+# tellrow position
+tellraw @a {"text":"","color":"white","bold":false,"extra":[{"text":"Curse of Fight >>> ","color":"#CA8EFF"},{"text":"空投降落座標: (","color":"gold"},{"score":{"name":"cursefight_airdrop_x","objective":"cursefight_temp"}},{"text":",","color":"gold"},{"score":{"name":"cursefight_airdrop_z","objective":"cursefight_temp"}},{"text":")","color":"gold"}]}
 
 title @a subtitle "\u00A78\u00A7l詛咒的能量外溢"
 title @a title "\u00A78\u00A7kh \u00A73\u00A7l空投降落 \u00A78\u00A7kh"
