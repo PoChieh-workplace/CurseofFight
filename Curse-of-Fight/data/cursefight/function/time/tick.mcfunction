@@ -54,3 +54,6 @@ execute as @e[type=minecraft:marker,tag=magnelis_thornweaver_init] at @s run fun
 execute as @e[type=minecraft:marker,tag=magnelis_thornweaver_center_active] at @s run function cursefight:structure/magnelis_thornweaver/active_tick
 # magnelis thornweaver complete animation
 execute as @e[type=minecraft:marker,tag=magnelis_thornweaver_center_completed] at @s run function cursefight:structure/magnelis_thornweaver/complete_tick
+
+# airdrop information
+function cursefight:trigger/airdrop/tick
