@@ -1,0 +1,78 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:black_banner",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:banner_patterns": [
+                                    {
+                                        "pattern": "minecraft:flower",
+                                        "color": "yellow"
+                                    },
+                                    {
+                                        "pattern": "minecraft:triangle_bottom",
+                                        "color": "black"
+                                    },
+                                    {
+                                        "pattern": "minecraft:stripe_center",
+                                        "color": "light_gray"
+                                    },
+                                    {
+                                        "pattern": "minecraft:half_horizontal",
+                                        "color": "yellow"
+                                    },
+                                    {
+                                        "pattern": "minecraft:triangle_top",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "pattern": "minecraft:stripe_top",
+                                        "color": "yellow"
+                                    },
+                                    {
+                                        "pattern": "minecraft:curly_border",
+                                        "color": "black"
+                                    },
+                                    {
+                                        "pattern": "minecraft:square_top_left",
+                                        "color": "black"
+                                    },
+                                    {
+                                        "pattern": "minecraft:square_top_right",
+                                        "color": "black"
+                                    },
+                                    {
+                                        "pattern": "minecraft:triangles_top",
+                                        "color": "yellow"
+                                    },
+                                    {
+                                        "pattern": "minecraft:curly_border",
+                                        "color": "black"
+                                    }
+                                ],
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": ["banner_patterns"]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "incendium.item.banner_blade.name",
+                                "fallback": "Banner of the Blade",
+                                "color": "gold",
+                                "italic": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

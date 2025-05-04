@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "incendium.item.undying_elixer.name",
+                                "fallback": "Elixir of Undying",
+                                "color": "#ffcc00",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 14679821,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:regeneration",
+                                            "amplifier": 1,
+                                            "duration": 1200
+                                        },
+                                        {
+                                            "id": "minecraft:resistance",
+                                            "amplifier": 4,
+                                            "duration": 600
+                                        },
+                                        {
+                                            "id": "minecraft:absorption",
+                                            "amplifier": 3,
+                                            "duration": 4800
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

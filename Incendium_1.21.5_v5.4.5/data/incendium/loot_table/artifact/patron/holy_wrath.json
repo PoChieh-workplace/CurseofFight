@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate":"incendium.item.holy_wrath.desc1","fallback":"Spawn a spiral of fireballs",
+                  "color": "#ccbb88",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate":"incendium","fallback":"Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate":"incendium.item.holy_wrath.name","fallback":"Holy Wrath",
+                "color": "#ffee77",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{incendium:{item:'holy_wrath'}}"
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450100],
+                      "mode": "replace_all"
+                  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

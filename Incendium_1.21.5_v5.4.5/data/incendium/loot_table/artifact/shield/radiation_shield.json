@@ -1,0 +1,99 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "incendium.item.radiation_shield.desc1",
+                  "fallback": "Releases radiation",
+                  "color": "#77cc00",
+                  "italic": false
+                },
+                {
+                  "translate": "incendium.item.radiation_shield.desc2",
+                  "fallback": "when blocking an attack",
+                  "color": "#77cc00",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "incendium",
+                  "fallback": "Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "incendium.item.radiation_shield.name",
+                "fallback": "Radiation Shield",
+                "color": "#44ff00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{incendium:{item:'radiation_shield'}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_display": {
+                  "hidden_components": ["banner_patterns"]
+                },
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:base",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "minecraft:half_horizontal_bottom",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:triangle_bottom",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "minecraft:rhombus",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:triangle_top",
+                    "color": "black"
+                  }
+                ]
+              }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450302],
+                      "mode": "replace_all"
+                  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

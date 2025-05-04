@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate":"incendium.advancement.infernal_dunes.pipeline.unlimited_power.title","fallback":"UNLIMITED POWER!!!"
+    },
+    "description": {
+      "translate":"incendium.advancement.infernal_dunes.pipeline.unlimited_power.desc","fallback":"Get hit by a Sentry's lightning attack"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/pipeline/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "block": "ancient_debris"
+      }
+    }
+  }
+}

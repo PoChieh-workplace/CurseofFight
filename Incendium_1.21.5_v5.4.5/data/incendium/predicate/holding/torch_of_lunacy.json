@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "predicates": {
+          "custom_data": "{incendium:{item:'torch_of_lunacy'}}"
+        }
+      },
+      "weapon.offhand": {
+        "predicates": {
+          "custom_data": "{incendium:{item:'torch_of_lunacy'}}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,295 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{incendium:{item:'hazmat_suit'}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "incendium.item.hazmat.helmet.name",
+                                "fallback": "Hazmat Helmet",
+                                "color": "#44ff00",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:armor",
+                                    "id": "armor",
+                                    "amount": {
+                                        "min": 2.25,
+                                        "max": 3
+                                    },
+                                    "operation": "add_value",
+                                    "slot": "head"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "incendium.item.hazmat.suit.desc1",
+                                    "fallback": "Protects the wearer from poison",
+                                    "color": "#77cc00",
+                                    "italic": true
+                                },
+                                "",
+                                {
+                                    "translate": "incendium",
+                                    "fallback": "Incendium",
+                                    "color": "#FF8000",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 30,
+                                "max": 45
+                            },
+                            "options": "#minecraft:on_random_loot"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:dyed_color":6219030
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{incendium:{item:'hazmat_suit'}}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "incendium.item.hazmat.suit.desc1",
+                                    "fallback": "Protects the wearer from poison",
+                                    "color": "#77cc00",
+                                    "italic": true
+                                },
+                                "",
+                                {
+                                    "translate": "incendium",
+                                    "fallback": "Incendium",
+                                    "color": "#FF8000",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "incendium.item.hazmat.chestplate.name",
+                                "fallback": "Hazmat Chestplate",
+                                "color": "#44ff00",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:armor",
+                                    "id": "armor",
+                                    "amount": {
+                                        "min": 5.5,
+                                        "max": 8
+                                    },
+                                    "operation": "add_value",
+                                    "slot": "chest"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 30,
+                                "max": 45
+                            },
+                            "options": "#minecraft:on_random_loot"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:dyed_color":6219030
+
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{incendium:{item:'hazmat_suit'}}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "incendium.item.hazmat.suit.desc1",
+                                    "fallback": "Protects the wearer from poison",
+                                    "color": "#77cc00",
+                                    "italic": true
+                                },
+                                "",
+                                {
+                                    "translate": "incendium",
+                                    "fallback": "Incendium",
+                                    "color": "#FF8000",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "incendium.item.hazmat.leggings.name",
+                                "fallback": "Hazmat Leggings",
+                                "color": "#44ff00",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:armor",
+                                    "id": "armor",
+                                    "amount": {
+                                        "min": 4.5,
+                                        "max": 6
+                                    },
+                                    "operation": "add_value",
+                                    "slot": "legs"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 30,
+                                "max": 45
+                            },
+                            "options": "#minecraft:on_random_loot"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:dyed_color":6219030
+
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{incendium:{item:'hazmat_suit'}}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "incendium.item.hazmat.suit.desc1",
+                                    "fallback": "Protects the wearer from poison",
+                                    "color": "#77cc00",
+                                    "italic": true
+                                },
+                                "",
+                                {
+                                    "translate": "incendium",
+                                    "fallback": "Incendium",
+                                    "color": "#FF8000",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "incendium.item.hazmat.boots.name",
+                                "fallback": "Hazmat Boots",
+                                "color": "#44ff00",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:armor",
+                                    "id": "armor",
+                                    "amount": {
+                                        "min": 2.5,
+                                        "max": 3
+                                    },
+                                    "operation": "add_value",
+                                    "slot": "feet"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 30,
+                                "max": 45
+                            },
+                            "options": "#minecraft:on_random_loot"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:dyed_color":6219030
+
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

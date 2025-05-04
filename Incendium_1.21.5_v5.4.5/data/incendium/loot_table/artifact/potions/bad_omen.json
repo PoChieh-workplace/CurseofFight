@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "incendium.item.bad_omen_pot.name",
+                                "fallback": "Potion of Bad Omen",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:water",
+                                    "custom_color": 424462,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:bad_omen",
+                                            "duration": 1200
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

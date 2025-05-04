@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_block",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate":"incendium.advancement.quartz_flats.sanctum.root.title","fallback":"An Illager Refuge?"
+    },
+    "description": {
+      "translate":"incendium.advancement.quartz_flats.sanctum.root.desc","fallback":"The Illagers' Sanctum might not be so holy..."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:quartz_flats/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "incendium:sanctum"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+summon minecraft:piglin_brute ~ ~.2 ~ {equipment: {chest:{id: "minecraft:elytra", count: 1b}}, attributes: [{base: 0.345d, id: "minecraft:movement_speed"}, {base: 100.0d, id: "minecraft:follow_range"}, {base: 50.0d, id: "minecraft:max_health"}, {base: 0.25d, id: "minecraft:attack_knockback"}], Tags: ["in.paratrooper", "in.castle"], Health: 50.0f, PersistenceRequired: 1b}

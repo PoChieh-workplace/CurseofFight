@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "Suspicious Brew",
+                                "color": "#8957ff",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 12162815,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:slowness",
+                                            "amplifier": 0,
+                                            "duration": 4000
+                                        },
+                                        {
+                                            "id": "minecraft:strength",
+                                            "amplifier": 3,
+                                            "duration": 1500
+                                        },
+                                        {
+                                            "id": "minecraft:nausea",
+                                            "amplifier": 0,
+                                            "duration": 200
+                                        },
+                                        {
+                                            "id": "minecraft:resistance",
+                                            "amplifier": 1,
+                                            "duration": 1000
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

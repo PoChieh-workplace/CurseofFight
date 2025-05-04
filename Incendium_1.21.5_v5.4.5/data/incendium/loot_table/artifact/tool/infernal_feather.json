@@ -1,0 +1,101 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "id": "armor",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "armor_toughness",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:movement_speed",
+                  "id": "speed",
+                  "amount": -0.05,
+                  "operation": "add_multiplied_base",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "incendium.item.infernal_feather.name",
+                "fallback": "Infernal Feather",
+                "color": "#ff3333",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "incendium.item.infernal_feather.desc1",
+                  "fallback": "The strong piece of scrap",
+                  "color": "#ff1234",
+                  "italic": true
+                },
+                {
+                  "translate": "incendium.item.infernal_feather.desc2",
+                  "fallback": "forged from the remains",
+                  "color": "#ff1234",
+                  "italic": true
+                },
+                {
+                  "translate": "incendium.item.infernal_wings.desc3",
+                  "fallback": "of the Hovering Inferno's shields",
+                  "color": "#ff1234",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate": "incendium",
+                  "fallback": "Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{incendium:{item:'infernal_feather'}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "damage_resistant": {
+                  "types": "#minecraft:no_knockback"
+                }
+              }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450201],
+                      "mode": "replace_all"
+                  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

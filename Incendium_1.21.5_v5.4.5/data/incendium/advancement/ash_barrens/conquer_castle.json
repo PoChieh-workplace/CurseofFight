@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
+    },
+    "title": {
+      "translate":"incendium.advancement.ash_barrens.conquer_castle.title","fallback":"The Conqueror"
+    },
+    "description": {
+      "translate":"incendium.advancement.ash_barrens.conquer_castle.desc","fallback":"Storm a Forbidden Castle and kill every last piglin living inside"    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:ash_barrens/enter_castle",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

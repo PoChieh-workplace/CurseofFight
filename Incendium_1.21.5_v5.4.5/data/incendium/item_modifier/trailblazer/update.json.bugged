@@ -1,0 +1,40 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{attribute_modifiers:[]}"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "name": "zoom",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "in.trailblazer",
+          "scale": -0.01
+        },
+        "operation": "add_multiplied_total",
+        "slot": [
+          "mainhand",
+          "offhand"
+        ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "incendium:temp"
+    },
+    "ops": [
+      {
+        "source": "bow.custom_model_data",
+        "target": "custom_model_data",
+        "op": "replace"
+      }
+    ]
+  }
+]

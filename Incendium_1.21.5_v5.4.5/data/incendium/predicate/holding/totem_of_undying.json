@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "items": [
+          "minecraft:totem_of_undying"
+        ]
+      }
+    }
+  }
+}

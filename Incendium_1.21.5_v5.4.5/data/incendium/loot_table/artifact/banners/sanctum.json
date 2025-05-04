@@ -1,0 +1,58 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:white_banner",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:banner_patterns": [
+                                    {
+                                        "pattern": "minecraft:triangles_top",
+                                        "color": "yellow"
+                                    },
+                                    {
+                                        "pattern": "minecraft:triangles_bottom",
+                                        "color": "yellow"
+                                    },
+                                    {
+                                        "pattern": "minecraft:border",
+                                        "color": "yellow"
+                                    },
+                                    {
+                                        "pattern": "minecraft:flower",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "pattern": "minecraft:skull",
+                                        "color": "blue"
+                                    },
+                                    {
+                                        "pattern": "minecraft:gradient_up",
+                                        "color": "yellow"
+                                    }
+                                ],
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": ["banner_patterns"]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "incendium.item.banner_sanctum.name",
+                                "fallback": "A Sanctum's Oath",
+                                "color": "gold",
+                                "italic": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

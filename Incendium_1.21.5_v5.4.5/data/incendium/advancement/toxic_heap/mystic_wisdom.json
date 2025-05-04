@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_chest"
+    },
+    "title": {
+      "translate":"incendium.advancement.toxic_heap.mystic_wisdom.title","fallback":"Mystic Wisdom"
+    },
+    "description": {
+      "translate":"incendium.advancement.toxic_heap.mystic_wisdom.desc","fallback":"Discover every type of loot in a Nether Reactor"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:toxic_heap/nuclear_fusion",
+  "criteria": {
+    "office_treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:reactor/office_treasure"
+      }
+    },
+    "office": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:reactor/office"
+      }
+    },
+    "junk": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:reactor/junk"
+      }
+    },
+    "treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:reactor/treasure"
+      }
+    },
+    "waste": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "incendium:reactor/waste"
+      }
+    }
+  }
+}

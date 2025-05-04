@@ -1,0 +1,26 @@
+{
+  "parent": "incendium:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 0
+            },
+            "predicates": {
+              "minecraft:custom_data": "{incendium:{item:'sentrys_wrath'}}"
+            }
+          }
+        ]
+      }
+    },
+    "log_spam_fixer": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "rewards": {
+    "function": "incendium:item/sentrys_wrath/shatter"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "incendium:artifact/potions/elixer_of_undying",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "incendium:artifact/potions/miners_ale",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "incendium:artifact/potions/sus_brew",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

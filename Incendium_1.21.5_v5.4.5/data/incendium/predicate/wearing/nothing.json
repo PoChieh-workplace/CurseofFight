@@ -1,0 +1,28 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "armor.head": {
+        "items": [
+          "minecraft:air"
+        ]
+      },
+      "armor.chest": {
+        "items": [
+          "minecraft:air"
+        ]
+      },
+      "armor.legs": {
+        "items": [
+          "minecraft:air"
+        ]
+      },
+      "armor.feet": {
+        "items": [
+          "minecraft:air"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ],
+          "predicates": {
+            "minecraft:custom_data": "{incendium:{item:'trailblazer'}}"
+          }
+        }
+      }
+    },
+    "log_spam_fixer": {
+      "trigger": "minecraft:location"
+    }
+  }
+}

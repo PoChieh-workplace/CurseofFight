@@ -1,0 +1,120 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "id": "weaken",
+                  "amount": {
+                    "min": -0.07,
+                    "max": -0.001
+                  },
+                  "operation": "add_multiplied_base",
+                  "slot": [
+                    "offhand"
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "incendium.item.necrotic_shield.desc1",
+                  "fallback": "Reacts to attacks with",
+                  "color": "#884444",
+                  "italic": true
+                },
+                {
+                  "translate": "incendium.item.necrotic_shield.desc2",
+                  "fallback": "an explosion of death",
+                  "color": "#884444",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate": "incendium",
+                  "fallback": "Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "incendium.item.necrotic_shield.name",
+                "fallback": "Necrotic Shield",
+                "color": "#993333",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{incendium:{item:'necrotic_shield'}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_display": {
+                  "hidden_components": ["banner_patterns"]
+                },
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:base",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:straight_cross",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:diagonal_left",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:diagonal_right",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:skull",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_top",
+                    "color": "black"
+                  }
+                ],
+                "damage_resistant": {
+                  "types": "#minecraft:no_knockback"
+                }
+              }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450300],
+                      "mode": "replace_all"
+                  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

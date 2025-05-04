@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate":"incendium.advancement.infernal_dunes.pipeline.kill_sentry.title","fallback":"Ceci n'est pas un blaze"
+    },
+    "description": {
+      "translate":"incendium.advancement.infernal_dunes.pipeline.kill_sentry.desc","fallback":"Extinguish a Pipeline Sentry"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "incendium:infernal_dunes/pipeline/unlimited_power",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:blaze",
+          "nbt": "{Tags:[\"in.sentry\"]}"
+        }
+      }
+    }
+  }
+}

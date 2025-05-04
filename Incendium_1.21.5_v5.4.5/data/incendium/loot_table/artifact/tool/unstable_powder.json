@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 9
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate":"incendium.item.unstable_powder.desc1","fallback":"Emits a brilliant light when dropped",
+                  "color": "#666633",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate":"incendium","fallback":"Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate":"incendium.item.unstable_powder.name","fallback":"Unstable Powder",
+                "color": "#ffeebb",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{incendium:{item:'unstable_powder'}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450401],
+                      "mode": "replace_all"
+                  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

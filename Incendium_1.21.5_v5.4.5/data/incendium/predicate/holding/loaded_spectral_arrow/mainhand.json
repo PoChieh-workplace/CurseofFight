@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": "minecraft:crossbow",
+        "components": {
+          "minecraft:charged_projectiles": [
+            {
+              "id": "minecraft:spectral_arrow"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

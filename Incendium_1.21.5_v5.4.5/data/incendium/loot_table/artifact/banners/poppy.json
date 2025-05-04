@@ -1,0 +1,58 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:black_banner",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:banner_patterns": [
+                                    {
+                                        "pattern": "minecraft:flower",
+                                        "color": "lime"
+                                    },
+                                    {
+                                        "pattern": "minecraft:mojang",
+                                        "color": "lime"
+                                    },
+                                    {
+                                        "pattern": "minecraft:diagonal_up_left",
+                                        "color": "black"
+                                    },
+                                    {
+                                        "pattern": "minecraft:square_top_left",
+                                        "color": "red"
+                                    },
+                                    {
+                                        "pattern": "minecraft:curly_border",
+                                        "color": "black"
+                                    },
+                                    {
+                                        "pattern": "minecraft:triangles_top",
+                                        "color": "black"
+                                    }
+                                ],
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": ["banner_patterns"]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "incendium.item.banner_poppy.name",
+                                "fallback": "A Poppy's Pledge",
+                                "color": "gold",
+                                "italic": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_boots"
+    },
+    "title": {
+      "translate":"incendium.advancement.misc.root.title","fallback":"Strange Biomes"
+    },
+    "description": {
+      "translate":"incendium.advancement.misc.root.desc","fallback":"Visit any Incendium biomes"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:root",
+  "criteria": {
+    "incendium:infernal_dunes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "incendium:infernal_dunes"
+          }
+        }
+      }
+    },
+    "incendium:quartz_flats": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "incendium:quartz_flats"
+          }
+        }
+      }
+    },
+    "incendium:withered_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "incendium:withered_forest"
+          }
+        }
+      }
+    },
+    "incendium:ash_barrens": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "incendium:ash_barrens"
+          }
+        }
+      }
+    },
+    "incendium:inverted_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "incendium:inverted_forest"
+          }
+        }
+      }
+    },
+    "incendium:weeping_valley": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "incendium:weeping_valley"
+          }
+        }
+      }
+    },
+    "incendium:volcanic_deltas": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "incendium:volcanic_deltas"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "incendium:infernal_dunes",
+      "incendium:quartz_flats",
+      "incendium:withered_forest",
+      "incendium:ash_barrens",
+      "incendium:inverted_forest",
+      "incendium:weeping_valley",
+      "incendium:volcanic_deltas"
+    ]
+  ]
+}

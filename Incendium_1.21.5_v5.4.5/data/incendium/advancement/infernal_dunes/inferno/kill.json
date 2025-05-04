@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "jigsaw",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate":"incendium.advancement.infernal_dunes.inferno.kill.title","fallback":"Fallen to Ashes"
+    },
+    "description": {
+      "translate":"incendium.advancement.infernal_dunes.inferno.kill.desc","fallback":"Survive the Inferno's last spell and claim your reward"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/inferno/run",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

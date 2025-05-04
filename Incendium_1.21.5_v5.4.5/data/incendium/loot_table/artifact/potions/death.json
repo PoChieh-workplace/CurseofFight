@@ -1,0 +1,140 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "incendium.item.death_pot.name",
+                                "fallback": "Death potion",
+                                "color": "#b20306",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "incendium.item.death_pot.desc1",
+                                    "fallback": "Make your choice, adventurous stranger",
+                                    "color": "red"
+                                },
+                                {
+                                    "translate": "incendium.item.death_pot.desc2",
+                                    "fallback": "Drink the brew, and bide the danger,",
+                                    "color": "red"
+                                },
+                                {
+                                    "translate": "incendium.item.death_pot.desc3",
+                                    "fallback": "Or wonder till it drives you mad;",
+                                    "color": "red"
+                                },
+                                {
+                                    "translate": "incendium.item.death_pot.desc4",
+                                    "fallback": "What would have happened if you had?",
+                                    "color": "red"
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:water",
+                                    "custom_color": 1517120,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:instant_damage",
+                                            "amplifier": 1
+                                        },
+                                        {
+                                            "id": "minecraft:instant_damage",
+                                            "amplifier": 28
+                                        },
+                                        {
+                                            "id": "minecraft:darkness",
+                                            "amplifier": 1,
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:invisibility",
+                                            "amplifier": 1,
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:slowness",
+                                            "amplifier": 9,
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:mining_fatigue",
+                                            "amplifier": 9,
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:nausea",
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:blindness",
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:hunger",
+                                            "amplifier": 19,
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:weakness",
+                                            "amplifier": 9,
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:poison",
+                                            "amplifier": 2,
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:wither",
+                                            "amplifier": 4,
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:glowing",
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:levitation",
+                                            "amplifier": 49,
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:unluck",
+                                            "amplifier": 99,
+                                            "duration": 2147483647
+                                        },
+                                        {
+                                            "id": "minecraft:bad_omen",
+                                            "amplifier": 5,
+                                            "duration": 1200
+                                        }
+                                    ]
+                                },
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": ["potion_contents"]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

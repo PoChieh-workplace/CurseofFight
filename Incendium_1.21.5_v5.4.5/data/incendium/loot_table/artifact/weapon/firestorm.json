@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:piercing": 5,
+                "minecraft:quick_charge": 1,
+                "minecraft:mending": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate":"incendium.item.firestorm.desc1","fallback":"Turns spectral arrows into",
+                  "color": "#eb783f",
+                  "italic": true
+                },
+                {
+                  "translate":"incendium.item.firestorm.desc2","fallback":"a powerful lightning attack",
+                  "color": "#eb783f",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate":"incendium","fallback":"Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "translate":"incendium.item.firestorm.name","fallback":"Firestorm",
+                  "color": "#ff4400",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{incendium:{item:'firestorm'}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 1000,
+                "damage_resistant": {
+                  "types": "#minecraft:no_knockback"
+                }
+              }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450101],
+                      "mode": "replace_all"
+                  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

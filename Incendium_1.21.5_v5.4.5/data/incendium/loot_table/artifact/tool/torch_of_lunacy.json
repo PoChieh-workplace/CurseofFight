@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_torch",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate":"incendium.item.lunacy_torch.name","fallback":"Torch of Lunacy",
+                "color": "#aaccff",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate":"incendium.item.lunacy_torch.desc1","fallback":"Emits a strange light which",
+                  "color": "#aaffcc",
+                  "italic": true
+                },
+                {
+                  "translate":"incendium.item.lunacy_torch.desc2","fallback":"blinds nearby desert blazes",
+                  "color": "#aaffcc",
+                  "italic": true
+                },
+                {
+                  "translate":"incendium.item.lunacy_torch.desc3","fallback":"if kept in your inventory",
+                  "color": "#aaffcc",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate":"incendium","fallback":"Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{incendium:{item:'torch_of_lunacy'}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450400],
+                      "mode": "replace_all"
+                  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

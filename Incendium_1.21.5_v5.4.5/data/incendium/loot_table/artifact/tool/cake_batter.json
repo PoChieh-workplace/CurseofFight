@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "id": "cake_power",
+                  "amount": {
+                    "type": "minecraft:binomial",
+                    "n": 2.5,
+                    "p": 0.65
+                  },
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate":"incendium.item.cake.desc1","fallback":"Torte's infamous deadly cake!",
+                  "color": "#ff69b4",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate":"incendium","fallback":"Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{incendium:{item:'cake_batter'}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate":"incendium.item.cake.name","fallback":"Cake Batter",
+                "color": "#ffddf4",
+                "italic": false
+              }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450402],
+                      "mode": "replace_all"
+                  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

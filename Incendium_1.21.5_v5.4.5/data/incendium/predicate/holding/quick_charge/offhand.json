@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.offhand": {
+        "components": {
+          "minecraft:enchantments": {
+            "minecraft:quick_charge": 2
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "incendium.item.eternal_glowing.name",
+                                "fallback": "Splash Potion of Eternal Glowing",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "incendium.item.eternal_glowing.desc",
+                                    "fallback": "Glowing (∞)",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:water",
+                                    "custom_color": 16514882,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:glowing",
+                                            "duration": 100000000
+                                        }
+                                    ]
+                                },
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": ["potion_contents"]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

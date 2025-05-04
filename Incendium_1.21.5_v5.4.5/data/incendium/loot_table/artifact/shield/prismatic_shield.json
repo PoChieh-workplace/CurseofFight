@@ -1,0 +1,233 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "weaken",
+                  "amount": {
+                    "min": -0.05,
+                    "max": -0.001
+                  },
+                  "operation": "add_multiplied_base",
+                  "slot": [
+                    "offhand"
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "incendium.item.prismatic_shield.desc1",
+                  "fallback": "Reflects attacks with a",
+                  "color": "#88aaff",
+                  "italic": false
+                },
+                {
+                  "translate": "incendium.item.prismatic_shield.desc2",
+                  "fallback": "powerful spark of light",
+                  "color": "#88aaff",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "incendium",
+                  "fallback": "Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "incendium.item.prismatic_shield.name",
+                "fallback": "Prismatic Shield",
+                "color": "#bbddff",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{incendium:{item:'prismatic_shield'}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_display": {
+                  "hidden_components": ["banner_patterns"]
+                },
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:base",
+                    "color": "lime"
+                  },
+                  {
+                    "pattern": "minecraft:half_horizontal",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_top",
+                    "color": "orange"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_bottom",
+                    "color": "light_blue"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "purple"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "white"
+                  }
+                ],
+                "damage_resistant": {
+                  "types": "#minecraft:no_knockback"
+                }
+              }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450301],
+                      "mode": "replace_all"
+                  }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "weaken",
+                  "amount": {
+                    "min": -0.05,
+                    "max": -0.001
+                  },
+                  "operation": "add_multiplied_base",
+                  "slot": [
+                    "offhand"
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "incendium.item.prismatic_shield.desc1",
+                  "fallback": "Reflects attacks with a",
+                  "color": "#88aaff",
+                  "italic": false
+                },
+                {
+                  "translate": "incendium.item.prismatic_shield.desc2",
+                  "fallback": "powerful spark of light",
+                  "color": "#88aaff",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "incendium",
+                  "fallback": "Incendium",
+                  "color": "#FF8000",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "incendium.item.prismatic_shield.name",
+                "fallback": "Prismatic Shield",
+                "color": "#bbddff",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{incendium:{item:'prismatic_shield'}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_display": {
+                  "hidden_components": ["banner_patterns"]
+                },
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:base",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "light_gray"
+                  },
+                  {
+                    "pattern": "minecraft:half_horizontal",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "minecraft:triangle_top",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_top",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "minecraft:gradient",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:border",
+                    "color": "gray"
+                  }
+                ],
+                "damage_resistant": {
+                  "types": "#minecraft:no_knockback"
+                }
+              }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450303],
+                      "mode": "replace_all"
+                  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
