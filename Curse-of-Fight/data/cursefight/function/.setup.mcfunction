@@ -114,6 +114,9 @@ scoreboard objectives add animation.playing dummy
 scoreboard objectives add health health
 scoreboard objectives add cursefight_health dummy
 
+# storage
+data modify storage cursefight:airdrop Pos set value []
+
 # 隊伍 team
 team add white "【單人】"
 team add red "【紅隊】"

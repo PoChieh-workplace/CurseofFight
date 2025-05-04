@@ -53,6 +53,8 @@ scoreboard objectives remove animation.playing
 
 bossbar remove minecraft:cursefight.activity.run
 
+data remove storage cursefight:airdrop Pos
+
 gamerule doMobSpawning true
 gamerule doDaylightCycle true
 gamerule doImmediateRespawn false
