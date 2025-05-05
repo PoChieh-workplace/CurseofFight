@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:repeating_command_block",
+  "addition": "minecraft:sweet_berries",
+  "result": {
+    "id": "minecraft:repeating_command_block",
+    "components": {
+      "item_model": "backpacks:backpacks/normal/3/autumnal"
+    }
+  }
+}
+  

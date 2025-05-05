@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:jigsaw",
+    "addition": "minecraft:obsidian",
+    "result": {
+      "id": "minecraft:jigsaw",
+      "components": {
+        "item_model": "backpacks:backpacks/ender/ender_backpack"
+      }
+    }
+  }
+    

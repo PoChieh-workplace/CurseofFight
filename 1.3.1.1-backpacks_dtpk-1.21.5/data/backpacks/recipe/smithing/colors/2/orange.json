@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:chain_command_block",
+  "addition": "minecraft:orange_dye",
+  "result": {
+    "id": "minecraft:chain_command_block",
+    "components": {
+      "item_model": "backpacks:backpacks/normal/2/orange"
+    }
+  }
+}
+  

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:command_block",
+  "addition": "minecraft:blue_dye",
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+      "item_model": "backpacks:backpacks/normal/1/blue"
+    }
+  }
+}
+  

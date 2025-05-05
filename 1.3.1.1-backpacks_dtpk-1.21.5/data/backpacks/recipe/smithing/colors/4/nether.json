@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:structure_block",
+  "addition": "minecraft:netherite_scrap",
+  "result": {
+    "id": "minecraft:structure_block",
+    "components": {
+      "item_model": "backpacks:backpacks/normal/4/nether"
+    }
+  }
+}
+  
