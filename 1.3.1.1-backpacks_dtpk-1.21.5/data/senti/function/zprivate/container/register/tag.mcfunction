@@ -1,1 +1,0 @@
-$tag @s add senti.b$(loop)_$(bit)

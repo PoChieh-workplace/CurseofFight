@@ -1,1 +1,0 @@
-$scoreboard players reset $(name) senti.id

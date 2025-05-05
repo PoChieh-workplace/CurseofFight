@@ -1,1 +1,0 @@
-execute if entity @s[type=#senti:container] run function senti:zprivate/container/register/init
