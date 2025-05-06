@@ -1,0 +1,21 @@
+{
+    "description": {
+        "translate": "cursefight.enchantment.garbage_man"
+    },
+    "supported_items": "#minecraft:pickaxes",
+    "weight": 1,
+    "max_level": 5,
+    "min_cost": {
+        "base": 300,
+        "per_level_above_first": 300
+    },
+    "max_cost": {
+        "base": 300,
+        "per_level_above_first": 300
+    },
+    "anvil_cost": 300,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {}
+}
