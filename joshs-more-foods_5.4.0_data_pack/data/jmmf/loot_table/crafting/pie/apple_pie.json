@@ -10,10 +10,38 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                               "minecraft:item_name": { "translate": "item.jmmf.apple_pie"},
+                                "minecraft:item_name": {
+                                    "translate": "item.jmmf.apple_pie"
+                                },
                                 "minecraft:item_model": "jmmf:pie/apple_pie",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:apple_pie" }
+                                    "smithed": {
+                                        "id": "jmmf:apple_pie"
+                                    }
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 8,
+                                    "saturation": 5,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:speed",
+                                                    "amplifier": 0,
+                                                    "duration": 6000
+                                                },
+                                                {
+                                                    "id": "minecraft:regeneration",
+                                                    "amplifier": 0,
+                                                    "duration": 2000
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 }
                             }
                         }

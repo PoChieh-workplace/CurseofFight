@@ -10,26 +10,59 @@
   "result": {
     "id": "minecraft:suspicious_stew",
     "components": {
-      "minecraft:item_name": { "translate": "item.jmmf.pumpkin_ice_cream"},
+      "minecraft:item_name": {
+        "translate": "item.jmmf.pumpkin_ice_cream"
+      },
       "minecraft:item_model": "jmmf:ice_cream/pumpkin_ice_cream",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:pumpkin_ice_cream"
         },
         "joshmats": {
-          "tag": ["ice_cream"]
+          "tag": [
+            "ice_cream"
+          ]
         }
       },
       "minecraft:food": {
-        "nutrition": 6, "saturation": 6
+        "nutrition": 6,
+        "saturation": 6
       },
       "minecraft:consumable": {
         "on_consume_effects": [
           {
             "type": "apply_effects",
             "effects": [
-              { "id": "minecraft:slowness", "duration": 1200 },
-              { "id": "minecraft:weakness", "duration": 1200 }
+              {
+                "id": "minecraft:slowness",
+                "amplifier": 4,
+                "duration": 1200
+              },
+              {
+                "id": "minecraft:weakness",
+                "amplifier": 9,
+                "duration": 1200
+              },
+              {
+                "id": "minecraft:resistance",
+                "amplifier": 9,
+                "duration": 1200
+              },
+              {
+                "id": "minecraft:darkness",
+                "amplifier": 0,
+                "duration": 1200
+              },
+              {
+                "id": "minecraft:levitation",
+                "amplifier": 39,
+                "duration": 20
+              },
+              {
+                "id": "minecraft:slow_falling",
+                "amplifier": 0,
+                "duration": 200
+              }
             ]
           }
         ]

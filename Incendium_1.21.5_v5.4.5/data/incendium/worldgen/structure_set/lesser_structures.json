@@ -32,7 +32,7 @@
       "other_set": "incendium:greater_structures",
       "chunk_count": 10
     },
-    "spacing": 20,
-    "separation": 12
+    "spacing": 16,
+    "separation": 8
   }
 }

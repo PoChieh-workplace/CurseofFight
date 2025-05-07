@@ -10,15 +10,46 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": { "translate": "item.jmmf.coleslaw"},
+                                "minecraft:item_name": {
+                                    "translate": "item.jmmf.coleslaw"
+                                },
                                 "minecraft:item_model": "jmmf:salad/coleslaw",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:coleslaw" }
+                                    "smithed": {
+                                        "id": "jmmf:coleslaw"
+                                    }
                                 },
                                 "minecraft:food": {
-                                    "nutrition": 6, "saturation": 8
+                                    "nutrition": 6,
+                                    "saturation": 8,
+                                    "can_always_eat": true
                                 },
-                                "minecraft:max_stack_size": 16
+                                "minecraft:max_stack_size": 16,
+                                "minecraft:consumable": {
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:night_vision",
+                                                    "amplifier": 0,
+                                                    "duration": 6000
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "minecraft:remove_effects",
+                                            "effects": [
+                                                "minecraft:hunger",
+                                                "minecraft:poison",
+                                                "minecraft:mining_fatigue",
+                                                "minecraft:blindness",
+                                                "minecraft:slowness",
+                                                "minecraft:weakness"
+                                            ]
+                                        }
+                                    ]
+                                }
                             }
                         }
                     ]

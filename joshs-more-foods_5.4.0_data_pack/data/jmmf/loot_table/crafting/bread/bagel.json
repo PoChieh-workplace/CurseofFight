@@ -10,13 +10,34 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": { "translate": "item.jmmf.bagel"},
+                                "minecraft:item_name": {
+                                    "translate": "item.jmmf.bagel"
+                                },
                                 "minecraft:item_model": "jmmf:bread/bagel",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:bagel" }
+                                    "smithed": {
+                                        "id": "jmmf:bagel"
+                                    }
                                 },
                                 "minecraft:food": {
-                                    "nutrition": 7, "saturation": 8
+                                    "nutrition": 7,
+                                    "saturation": 8,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 2,
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:saturations",
+                                                    "amplifier": 0,
+                                                    "duration": 60
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 }
                             }
                         }
