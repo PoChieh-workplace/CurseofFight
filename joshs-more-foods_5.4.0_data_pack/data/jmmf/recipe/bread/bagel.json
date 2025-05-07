@@ -25,7 +25,6 @@
         "saturation": 8
       },
       "minecraft:consumable": {
-        "consume_seconds": 2,
         "on_consume_effects": [
           {
             "type": "minecraft:apply_effects",
