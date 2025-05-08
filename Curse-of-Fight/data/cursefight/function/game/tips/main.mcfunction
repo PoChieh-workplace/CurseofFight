@@ -1,4 +1,4 @@
-execute store score _game_tips_ X run random value 1..9
+execute store result score _game_tips_ X run random value 1..9
 execute if score _game_tips_ X matches 1 run tellraw @a [{"translate":"","color":"gray"},{"text":"\uF001","font":"cursefight:icon","color":"white"},{"translate": "Tips: ","color": "yellow"},{"translate": "Acquiring a greater variety of food will bring different beneficial effects!","color": "yellow"}]
 execute if score _game_tips_ X matches 2 run tellraw @a [{"translate":"","color":"gray"},{"text":"\uF001","font":"cursefight:icon","color":"white"},{"translate": "Tips: ","color": "yellow"},{"translate": "In addition to providing ample survival resources, Deep dungeon may also grant powerful ancient equipment.","color": "yellow"}]
 execute if score _game_tips_ X matches 3 run tellraw @a [{"translate":"","color":"gray"},{"text":"\uF001","font":"cursefight:icon","color":"white"},{"translate": "Tips: ","color": "yellow"},{"translate": "Magnelis will grant his own cloak relic to those who solve his puzzles multiple times.","color": "yellow"}]
