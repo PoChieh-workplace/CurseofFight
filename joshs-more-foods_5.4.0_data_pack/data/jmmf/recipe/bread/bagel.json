@@ -22,7 +22,8 @@
       },
       "minecraft:food": {
         "nutrition": 7,
-        "saturation": 8
+        "saturation": 8,
+        "can_always_eat": true
       },
       "minecraft:consumable": {
         "on_consume_effects": [

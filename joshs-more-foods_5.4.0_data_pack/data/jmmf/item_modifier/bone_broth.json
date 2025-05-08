@@ -1,15 +1,40 @@
 {
   "function": "minecraft:set_components",
   "components": {
-      "minecraft:item_name": {"translate": "item.jmmf.bone_broth"},
-      "minecraft:item_model": "jmmf:soup/bone_broth",
-      "minecraft:custom_data": {
-        "smithed": { "id": "jmmf:bone_broth" },
-        "joshmats":{ "tag": ["soup_base"]}
+    "minecraft:item_name": {
+      "translate": "item.jmmf.bone_broth"
+    },
+    "minecraft:item_model": "jmmf:soup/bone_broth",
+    "minecraft:custom_data": {
+      "smithed": {
+        "id": "jmmf:bone_broth"
       },
-      "minecraft:food": { 
-        "nutrition": 4, "saturation": 4
-      },
-      "minecraft:max_stack_size": 16
+      "joshmats": {
+        "tag": [
+          "soup_base"
+        ]
+      }
+    },
+    "minecraft:food": {
+      "nutrition": 4,
+      "saturation": 4,
+      "can_always_eat": true
+    },
+    "minecraft:consumable": {
+      "on_consume_effects": [
+        {
+          "type": "minecraft:remove_effects",
+          "effects": [
+            "minecraft:hunger",
+            "minecraft:poison",
+            "minecraft:mining_fatigue",
+            "minecraft:blindness",
+            "minecraft:slowness",
+            "minecraft:weakness"
+          ]
+        }
+      ]
+    },
+    "minecraft:max_stack_size": 16
   }
 }

@@ -37,36 +37,26 @@
                                                 {
                                                     "id": "minecraft:slowness",
                                                     "amplifier": 4,
-                                                    "duration": 1200
+                                                    "duration": 600
                                                 },
                                                 {
                                                     "id": "minecraft:weakness",
                                                     "amplifier": 9,
-                                                    "duration": 1200
+                                                    "duration": 600
                                                 },
                                                 {
                                                     "id": "minecraft:resistance",
                                                     "amplifier": 2,
-                                                    "duration": 1200
+                                                    "duration": 600
                                                 },
                                                 {
                                                     "id": "minecraft:darkness",
                                                     "amplifier": 0,
-                                                    "duration": 1200
+                                                    "duration": 600
                                                 },
                                                 {
                                                     "id": "minecraft:water_breathing",
-                                                    "duration": 12000
-                                                },
-                                                {
-                                                    "id": "minecraft:levitation",
-                                                    "amplifier": 39,
-                                                    "duration": 20
-                                                },
-                                                {
-                                                    "id": "minecraft:slow_falling",
-                                                    "amplifier": 0,
-                                                    "duration": 200
+                                                    "duration": 6000
                                                 }
                                             ]
                                         }

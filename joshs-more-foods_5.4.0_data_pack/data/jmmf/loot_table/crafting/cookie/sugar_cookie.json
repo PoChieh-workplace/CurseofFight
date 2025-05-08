@@ -10,11 +10,38 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": { "translate": "item.jmmf.sugar_cookie"},
+                                "minecraft:item_name": {
+                                    "translate": "item.jmmf.sugar_cookie"
+                                },
                                 "minecraft:item_model": "jmmf:cookie/sugar_cookie",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:sugar_cookie" },
-                                    "joshmats": { "tag": ["cookie"] }
+                                    "smithed": {
+                                        "id": "jmmf:sugar_cookie"
+                                    },
+                                    "joshmats": {
+                                        "tag": [
+                                            "cookie"
+                                        ]
+                                    }
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 2,
+                                    "saturation": 1,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:speed",
+                                                    "amplifier": 2,
+                                                    "duration": 60
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 }
                             }
                         }

@@ -10,12 +10,33 @@
   "result": {
     "id": "minecraft:bread",
     "components": {
-      "minecraft:item_name": { "translate": "item.jmmf.beetroot_bread"},
+      "minecraft:item_name": {
+        "translate": "item.jmmf.beetroot_bread"
+      },
       "minecraft:item_model": "jmmf:bread/beetroot_bread",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:beetroot_bread"
         }
+      },
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation": 6,
+        "can_always_eat": true
+      },
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 1,
+                "duration": 12000
+              }
+            ]
+          }
+        ]
       }
     }
   }

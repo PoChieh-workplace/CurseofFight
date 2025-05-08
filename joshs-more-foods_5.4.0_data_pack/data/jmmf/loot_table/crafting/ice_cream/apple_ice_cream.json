@@ -37,30 +37,25 @@
                                                 {
                                                     "id": "minecraft:slowness",
                                                     "amplifier": 9,
-                                                    "duration": 1200
+                                                    "duration": 600
                                                 },
                                                 {
                                                     "id": "minecraft:weakness",
                                                     "amplifier": 9,
-                                                    "duration": 1200
+                                                    "duration": 600
                                                 },
                                                 {
                                                     "id": "minecraft:regeneration",
                                                     "amplifier": 2,
-                                                    "duration": 1200
+                                                    "duration": 600
                                                 },
                                                 {
                                                     "id": "minecraft:bad_omen",
                                                     "amplifier": 4,
-                                                    "duration": 1200
+                                                    "duration": 600
                                                 },
                                                 {
-                                                    "id": "minecraft:levitation",
-                                                    "amplifier": 39,
-                                                    "duration": 20
-                                                },
-                                                {
-                                                    "id": "minecraft:slow_falling",
+                                                    "id": "minecraft:blindness",
                                                     "amplifier": 0,
                                                     "duration": 200
                                                 }
