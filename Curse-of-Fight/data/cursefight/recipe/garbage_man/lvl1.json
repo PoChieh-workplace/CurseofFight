@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "aba",
+        " c ",
+        " c "
+    ],
+    "key": {
+        "a": "minecraft:gold_ingot",
+        "b": "minecraft:diamond",
+        "c": "minecraft:stick"
+    },
+    "result": {
+        "id": "minecraft:golden_pickaxe",
+        "components": {
+            "minecraft:enchantments": {
+                "cursefight:generic/pickaxe/garbage_man": 1,
+                "minecraft:unbreaking": 10,
+                "minecraft:efficiency": 1
+            }
+        }
+    }
+}

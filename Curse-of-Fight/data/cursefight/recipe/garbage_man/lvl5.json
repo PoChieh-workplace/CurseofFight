@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "bbb",
+        "ada",
+        " c "
+    ],
+    "key": {
+        "a": "minecraft:gold_ingot",
+        "b": "minecraft:diamond",
+        "c": "minecraft:stick",
+        "d": "minecraft:conduit"
+    },
+    "result": {
+        "id": "minecraft:diamond_pickaxe",
+        "components": {
+            "minecraft:enchantments": {
+                "cursefight:generic/pickaxe/garbage_man": 5,
+                "minecraft:unbreaking": 10,
+                "minecraft:fortune": 4,
+                "minecraft:efficiency": 6,
+                "cursefight:career/miner/auto_smelt": 1
+            },
+            "minecraft:unbreakable": {
+                "show_in_tooltip": false
+            }
+        }
+    }
+}
