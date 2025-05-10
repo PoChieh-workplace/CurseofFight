@@ -1,7 +1,7 @@
 {
   "values": [
     "minecraft:silk_touch",
-    "cursefight:enchantment/pickaxe/garbage_man",
+    "cursefight:generic/pickaxe/garbage_man",
     "cursefight:career/miner/auto_smelt"
   ]
 }
