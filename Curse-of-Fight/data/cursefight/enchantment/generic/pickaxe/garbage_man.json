@@ -3,6 +3,7 @@
         "translate": "cursefight.enchantment.garbage_man"
     },
     "supported_items": "#minecraft:pickaxes",
+    "exclusive_set": "#cursefight:exclusive_set/mining_garbage_man",
     "weight": 1,
     "max_level": 5,
     "min_cost": {
@@ -16,6 +17,5 @@
     "anvil_cost": 300,
     "slots": [
         "mainhand"
-    ],
-    "effects": {}
+    ]
 }
