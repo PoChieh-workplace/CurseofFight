@@ -1,23 +1,8 @@
 {
+    "anvil_cost": 100,
     "description": {
         "translate": "cursefight.enchantment.garbage_man"
     },
-    "supported_items": "#minecraft:enchantable/mining",
-    "exclusive_set": "#cursefight:exclusive_set/mining_garbage_man",
-    "weight": 1,
-    "max_level": 5,
-    "min_cost": {
-        "base": 100,
-        "per_level_above_first": 100
-    },
-    "max_cost": {
-        "base": 100,
-        "per_level_above_first": 100
-    },
-    "anvil_cost": 100,
-    "slots": [
-        "mainhand"
-    ],
     "effects": {
         "minecraft:hit_block": [
             {
@@ -28,16 +13,31 @@
                     "max_duration": 1,
                     "min_amplifier": {
                         "type": "minecraft:linear",
-                        "base": 0,
+                        "base": 1,
                         "per_level_above_first": 0.5
                     },
                     "max_amplifier": {
                         "type": "minecraft:linear",
-                        "base": 0,
+                        "base": 1,
                         "per_level_above_first": 0.5
                     }
                 }
             }
         ]
-    }
+    },
+    "supported_items": "#minecraft:enchantable/mining",
+    "exclusive_set": "#cursefight:exclusive_set/mining_garbage_man",
+    "max_level": 5,
+    "min_cost": {
+        "base": 100,
+        "per_level_above_first": 1
+    },
+    "max_cost": {
+        "base": 101,
+        "per_level_above_first": 2
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "weight": 1
 }
