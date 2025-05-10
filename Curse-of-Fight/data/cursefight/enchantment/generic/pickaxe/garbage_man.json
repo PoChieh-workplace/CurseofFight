@@ -3,28 +3,6 @@
     "description": {
         "translate": "cursefight.enchantment.garbage_man"
     },
-    "effects": {
-        "minecraft:hit_block": [
-            {
-                "effect": {
-                    "type": "minecraft:apply_mob_effect",
-                    "to_apply": "minecraft:haste",
-                    "min_duration": 1,
-                    "max_duration": 1,
-                    "min_amplifier": {
-                        "type": "minecraft:linear",
-                        "base": 0,
-                        "per_level_above_first": 0.35
-                    },
-                    "max_amplifier": {
-                        "type": "minecraft:linear",
-                        "base": 0,
-                        "per_level_above_first": 0.35
-                    }
-                }
-            }
-        ]
-    },
     "supported_items": "#minecraft:enchantable/mining",
     "exclusive_set": "#cursefight:exclusive_set/mining_garbage_man",
     "max_level": 5,
