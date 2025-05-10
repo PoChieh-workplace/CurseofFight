@@ -31,8 +31,8 @@
                                     {
                                         "rolls": {
                                             "type": "minecraft:uniform",
-                                            "min": 8,
-                                            "max": 12
+                                            "min": 5,
+                                            "max": 8
                                         },
                                         "entries": [
                                             {
@@ -119,11 +119,10 @@
                                                 ]
                                             }
                                         ],
-                                        "functions": [],
                                         "conditions": [
                                             {
                                                 "condition": "minecraft:random_chance",
-                                                "chance": 0.01
+                                                "chance": 0.008
                                             }
                                         ]
                                     }
@@ -153,7 +152,7 @@
                             "value": {
                                 "pools": [
                                     {
-                                        "rolls": 15,
+                                        "rolls": 8,
                                         "entries": [
                                             {
                                                 "type": "minecraft:item",
@@ -179,7 +178,7 @@
                                         "conditions": [
                                             {
                                                 "condition": "minecraft:random_chance",
-                                                "chance": 0.02
+                                                "chance": 0.01
                                             }
                                         ]
                                     },
@@ -329,7 +328,7 @@
                                         "conditions": [
                                             {
                                                 "condition": "minecraft:random_chance",
-                                                "chance": 0.02
+                                                "chance": 0.003
                                             }
                                         ]
                                     },
@@ -344,10 +343,10 @@
                                         "conditions": [
                                             {
                                                 "condition": "minecraft:random_chance_with_enchanted_bonus",
-                                                "unenchanted_chance": 0.002,
+                                                "unenchanted_chance": 0.001,
                                                 "enchanted_chance": {
                                                     "type": "minecraft:linear",
-                                                    "base": 0.003,
+                                                    "base": 0.002,
                                                     "per_level_above_first": 0.001
                                                 },
                                                 "enchantment": "cursefight:generic/pickaxe/garbage_man"
@@ -381,8 +380,8 @@
                                 "pools": [
                                     {
                                         "rolls": {
-                                            "min": 4,
-                                            "max": 8
+                                            "min": 3,
+                                            "max": 6
                                         },
                                         "entries": [
                                             {
@@ -424,7 +423,7 @@
                                         "conditions": [
                                             {
                                                 "condition": "minecraft:random_chance",
-                                                "chance": 0.04
+                                                "chance": 0.005
                                             }
                                         ]
                                     },
@@ -446,7 +445,7 @@
                                                         "count": {
                                                             "type": "minecraft:uniform",
                                                             "min": 8,
-                                                            "max": 20
+                                                            "max": 15
                                                         }
                                                     }
                                                 ]
@@ -573,7 +572,7 @@
                                         "conditions": [
                                             {
                                                 "condition": "minecraft:random_chance",
-                                                "chance": 0.02
+                                                "chance": 0.005
                                             }
                                         ]
                                     }

@@ -18,8 +18,8 @@
             "minecraft:enchantments": {
                 "cursefight:generic/pickaxe/garbage_man": 5,
                 "minecraft:unbreaking": 10,
-                "minecraft:fortune": 4,
-                "minecraft:efficiency": 6,
+                "minecraft:fortune": 1,
+                "minecraft:efficiency": 5,
                 "cursefight:career/miner/auto_smelt": 1
             },
             "minecraft:unbreakable": {

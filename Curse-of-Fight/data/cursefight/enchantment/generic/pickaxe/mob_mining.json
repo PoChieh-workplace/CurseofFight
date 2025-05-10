@@ -1,5 +1,5 @@
 {
-    "description":{
+    "description": {
         "translate": "enchantment.cursefight.mob_mining"
     },
     "supported_items": "#minecraft:pickaxes",
@@ -16,19 +16,5 @@
     "anvil_cost": 6,
     "slots": [
         "mainhand"
-    ],
-    "effects": {
-        "minecraft:tick": [
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "cursefight:enchantment/pickaxe/mob_mining"
-                },
-                "requirements": {
-                    "condition": "minecraft:random_chance",
-                    "chance": 0.02
-                }
-            }
-        ]
-    }
+    ]
 }
