@@ -333,6 +333,27 @@
                                                 "chance": 0.02
                                             }
                                         ]
+                                    },
+                                    {
+                                        "rolls": 1,
+                                        "entries": [
+                                            {
+                                                "type": "minecraft:item",
+                                                "name": "minecraft:conduit"
+                                            }
+                                        ],
+                                        "conditions": [
+                                            {
+                                                "condition": "minecraft:random_chance_with_enchanted_bonus",
+                                                "unenchanted_chance": 0.002,
+                                                "enchanted_chance": {
+                                                    "type": "minecraft:linear",
+                                                    "base": 0.003,
+                                                    "per_level_above_first": 0.001
+                                                },
+                                                "enchantment": "cursefight:generic/pickaxe/garbage_man"
+                                            }
+                                        ]
                                     }
                                 ]
                             },
