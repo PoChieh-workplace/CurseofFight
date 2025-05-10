@@ -30,7 +30,7 @@
                                             "type": "minecraft:apply_effects",
                                             "effects": [
                                                 {
-                                                    "id": "minecraft:saturations",
+                                                    "id": "minecraft:saturation",
                                                     "amplifier": 0,
                                                     "duration": 60
                                                 }

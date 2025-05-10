@@ -9,10 +9,14 @@
   "result": {
     "id": "minecraft:rabbit_stew",
     "components": {
-      "minecraft:item_name": { "translate": "item.jmmf.fish_and_chips" },
+      "minecraft:item_name": {
+        "translate": "item.jmmf.fish_and_chips"
+      },
       "minecraft:item_model": "jmmf:fish_and_chips",
       "minecraft:custom_data": {
-        "smithed": { "id": "jmmf:fish_and_chips" }
+        "smithed": {
+          "id": "jmmf:fish_and_chips"
+        }
       },
       "minecraft:food": {
         "nutrition": 7,
@@ -26,7 +30,7 @@
             "type": "minecraft:apply_effects",
             "effects": [
               {
-                "id": "minecraft:saturations",
+                "id": "minecraft:saturation",
                 "amplifier": 0,
                 "duration": 2000
               },
