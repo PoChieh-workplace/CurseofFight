@@ -13,13 +13,13 @@
                     "max_duration": 1,
                     "min_amplifier": {
                         "type": "minecraft:linear",
-                        "base": 1,
-                        "per_level_above_first": 0.5
+                        "base": 0,
+                        "per_level_above_first": 0.35
                     },
                     "max_amplifier": {
                         "type": "minecraft:linear",
-                        "base": 1,
-                        "per_level_above_first": 0.5
+                        "base": 0,
+                        "per_level_above_first": 0.35
                     }
                 }
             }
