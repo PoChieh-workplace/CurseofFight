@@ -33,18 +33,25 @@ scoreboard objectives remove survival_time
 scoreboard objectives remove team_respawn
 scoreboard objectives remove self_respawn
 scoreboard objectives remove villager_xp 
+scoreboard objectives remove village_friendly
 scoreboard objectives remove open_chest
 scoreboard objectives remove open_barrel
 scoreboard objectives remove _skill_cool_
 scoreboard objectives remove _ultimate_cool_
 scoreboard objectives remove found_player_time
-scoreboard objectives remove village_friendly
 scoreboard objectives remove cursefight.activity.demon_contract.benefit
 scoreboard objectives remove cursefight.activity.demon_contract.curse
 scoreboard objectives remove cursefight.activity.demon_contract.lvl
 scoreboard objectives remove cursefight.activity.demon_contract.response
 scoreboard objectives remove cursefight_mob_spell_tick
 scoreboard objectives remove cursefight_mob_spell_max_tick
+scoreboard objectives remove airdrop_position
+scoreboard objectives remove cursefight_temp
+scoreboard objectives remove magnelis_thornweaver_task_completed
+scoreboard objectives remove magnelis_thornweaver_task_count
+scoreboard objectives remove cursefight.object.tick
+scoreboard objectives remove cursefight.gamerule.cursefight
+scoreboard objectives remove cursefight.gamerule.player_info.tips
 
 # 動畫
 scoreboard objectives remove animation.timer.a

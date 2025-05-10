@@ -31,26 +31,6 @@ effect give @a minecraft:blindness 3
 effect give @a minecraft:resistance infinite 4 true
 effect give @a minecraft:saturation infinite 1 true
 advancement revoke @a everything
-scoreboard objectives add career_chosen dummy
-scoreboard objectives add damage_warn minecraft.custom:minecraft.damage_taken {"text":"通知受到傷害"}
-scoreboard objectives add knowledge minecraft.used:minecraft.knowledge_book {"text":"獲得合成表"}
-scoreboard objectives add use_skill minecraft.used:minecraft.warped_fungus_on_a_stick {"text":"使用技能"}
-scoreboard objectives add open_chest minecraft.custom:minecraft.open_chest {"text":"打開箱子"}
-scoreboard objectives add open_barrel minecraft.custom:minecraft.open_barrel {"text":"打開桶子"}
-scoreboard objectives add respawning dummy {"text":"使用重生信標"}
-scoreboard objectives add respawning_sec dummy {"text":"使用重生信標秒數"}
-scoreboard objectives add respawning_if_firework dummy {"text":"使用重生信標警示"}
-scoreboard objectives add survival_time dummy {"text":"存活時間"}
-scoreboard objectives add villager_xp dummy {"text":"村民經驗"}
-scoreboard objectives add village_friendly dummy {"text":"村民友好度"}
-scoreboard objectives add found_player_time dummy {"text":"尋找敵人冷卻時間"}
-scoreboard objectives add cursefight.activity.demon_contract.benefit dummy {"text":"惡魔契約好處"}
-scoreboard objectives add cursefight.activity.demon_contract.harm dummy {"text":"惡魔契約成本"}
-scoreboard objectives add cursefight_temp dummy {"text":"臨時"}
-scoreboard objectives add magnelis_thornweaver_task_completed dummy {"text":"瑪格尼里斯的任務完成數量"}
-scoreboard objectives add magnelis_thornweaver_task_count dummy {"text":"瑪格尼里斯的任務數量"}
-scoreboard objectives add cursefight.object.tick dummy {"text":"物件時間"}
-
 worldborder center ~ ~
 worldborder set 256
 worldborder warning distance 100
@@ -60,7 +40,6 @@ forceload add 0 0
 
 # 常數
 scoreboard objectives add X dummy {"text":"常數"}
-
 scoreboard players set const10 X 10
 scoreboard players set const20 X 20
 scoreboard players set const30 X 30
@@ -82,6 +61,30 @@ scoreboard objectives add posX dummy
 scoreboard objectives add posZ dummy
 scoreboard objectives add _ultimate_cool_ dummy {"text":"絕招冷卻"}
 scoreboard objectives add _skill_cool_ dummy {"text":"技能冷卻"}
+
+scoreboard objectives add career_chosen dummy
+scoreboard objectives add damage_warn minecraft.custom:minecraft.damage_taken {"text":"通知受到傷害"}
+scoreboard objectives add knowledge minecraft.used:minecraft.knowledge_book {"text":"獲得合成表"}
+scoreboard objectives add use_skill minecraft.used:minecraft.warped_fungus_on_a_stick {"text":"使用技能"}
+scoreboard objectives add open_chest minecraft.custom:minecraft.open_chest {"text":"打開箱子"}
+scoreboard objectives add open_barrel minecraft.custom:minecraft.open_barrel {"text":"打開桶子"}
+scoreboard objectives add respawning dummy {"text":"使用重生信標"}
+scoreboard objectives add respawning_sec dummy {"text":"使用重生信標秒數"}
+scoreboard objectives add respawning_if_firework dummy {"text":"使用重生信標警示"}
+scoreboard objectives add survival_time dummy {"text":"存活時間"}
+scoreboard objectives add villager_xp dummy {"text":"村民經驗"}
+scoreboard objectives add village_friendly dummy {"text":"村民友好度"}
+scoreboard objectives add found_player_time dummy {"text":"尋找敵人冷卻時間"}
+scoreboard objectives add cursefight.activity.demon_contract.benefit dummy {"text":"惡魔契約好處"}
+scoreboard objectives add cursefight.activity.demon_contract.harm dummy {"text":"惡魔契約成本"}
+scoreboard objectives add cursefight_temp dummy {"text":"臨時"}
+scoreboard objectives add magnelis_thornweaver_task_completed dummy {"text":"瑪格尼里斯的任務完成數量"}
+scoreboard objectives add magnelis_thornweaver_task_count dummy {"text":"瑪格尼里斯的任務數量"}
+scoreboard objectives add cursefight.object.tick dummy {"text":"物件時間"}
+
+scoreboard objectives add cursefight.gamerule.cursefight trigger
+scoreboard objectives add cursefight.gamerule.player_info.tips trigger
+
 
 # 遊戲時間設置
 scoreboard players set _game_start_ info 0
