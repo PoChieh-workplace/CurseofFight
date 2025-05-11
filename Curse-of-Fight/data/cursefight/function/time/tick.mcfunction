@@ -45,6 +45,9 @@ execute as @e[type=minecraft:allay,tag=parachute_allay] run function cursefight:
 # infested cave
 function cursefight:biome/infested_caves/tick
 
+# garbage man
+function cursefight:game/garbage_man/tick
+
 # ancient city player sculk patch
 execute as @e[type=marker,tag=player_step_sculk_patch] at @s run function cursefight:structure/ancient_city/player_sculk_patch_tick
 
