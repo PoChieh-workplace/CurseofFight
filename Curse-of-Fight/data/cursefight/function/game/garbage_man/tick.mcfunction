@@ -1,2 +1,2 @@
 execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{spawn:"garbage_man_zombie"}},id:"minecraft:iron_nugget"}}] at @s run function cursefight:game/garbage_man/zombie
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{spawn:"garbage_man_creeper"}},id:"minecraft:iron_nugget"}}] at @s run function cursefight:game/garbage_man/zombie
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{spawn:"garbage_man_creeper"}},id:"minecraft:iron_nugget"}}] at @s run function cursefight:game/garbage_man/creeper
