@@ -445,6 +445,21 @@
                                                         }
                                                     }
                                                 ]
+                                            },
+                                            {
+                                                "type": "minecraft:item",
+                                                "name": "minecraft:iron_nugget",
+                                                "weight": 1,
+                                                "functions": [
+                                                    {
+                                                        "function": "minecraft:set_components",
+                                                        "components": {
+                                                            "minecraft:custom_data": {
+                                                                "spawn": "garbage_man_creeper"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "conditions": [
