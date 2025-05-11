@@ -312,7 +312,7 @@
                       },
                       {
                         "type": "item",
-                        "name": "minecraft:egg",
+                        "name": "minecraft:cookie",
                         "weight": 2,
                         "functions": [
                           {
@@ -471,8 +471,8 @@
                   },
                   {
                     "rolls": {
-                      "min": 3,
-                      "max": 5
+                      "min": 4,
+                      "max": 7
                     },
                     "entries": [
                       {
