@@ -200,13 +200,13 @@
                                         "rolls": {
                                             "type": "minecraft:uniform",
                                             "min": 1,
-                                            "max": 3
+                                            "max": 2
                                         },
                                         "entries": [
                                             {
                                                 "type": "minecraft:item",
                                                 "name": "minecraft:iron_nugget",
-                                                "weight": 1,
+                                                "weight": 2,
                                                 "functions": [
                                                     {
                                                         "function": "minecraft:set_components",
@@ -221,7 +221,7 @@
                                             {
                                                 "type": "minecraft:item",
                                                 "name": "minecraft:iron_nugget",
-                                                "weight": 1,
+                                                "weight": 3,
                                                 "functions": [
                                                     {
                                                         "function": "minecraft:set_components",
@@ -412,14 +412,14 @@
                                     {
                                         "rolls": {
                                             "type": "minecraft:uniform",
-                                            "min": 1,
+                                            "min": 2,
                                             "max": 3
                                         },
                                         "entries": [
                                             {
                                                 "type": "minecraft:item",
                                                 "name": "minecraft:iron_nugget",
-                                                "weight": 1,
+                                                "weight": 2,
                                                 "functions": [
                                                     {
                                                         "function": "minecraft:set_components",
@@ -434,7 +434,7 @@
                                             {
                                                 "type": "minecraft:item",
                                                 "name": "minecraft:iron_nugget",
-                                                "weight": 1,
+                                                "weight": 2,
                                                 "functions": [
                                                     {
                                                         "function": "minecraft:set_components",
@@ -514,7 +514,7 @@
                                         "conditions": [
                                             {
                                                 "condition": "minecraft:random_chance",
-                                                "chance": 0.005
+                                                "chance": 0.008
                                             }
                                         ]
                                     },
