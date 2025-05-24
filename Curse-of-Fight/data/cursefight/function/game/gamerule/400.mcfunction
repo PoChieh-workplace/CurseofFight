@@ -11,7 +11,7 @@ execute store result score #cursefight.temp3 cursefight_temp run attribute @s mi
 tellraw @s ["",{"text":"   "},{"text":"盔甲值","color":"gray"},{"text":"：","color":"gray"},{"score":{"name":"#cursefight.temp1","objective":"cursefight_temp"},"color":"green"},{"text":"   "},{"text":"盔甲強度","color":"gray"},{"text":"：","color":"gray"},{"score":{"name":"#cursefight.temp2","objective":"cursefight_temp"},"color":"green"},{"text":"   "},{"text":"攻擊力","color":"gray"},{"text":"：","color":"gray"},{"score":{"name":"#cursefight.temp3","objective":"cursefight_temp"},"color":"green"}]
 
 execute store result score #cursefight.temp1 cursefight_temp run attribute @s minecraft:max_health get
-execute store result score #cursefight.temp2 cursefight_temp run attribute @s minecraft:jump_strength 10
+execute store result score #cursefight.temp2 cursefight_temp run attribute @s minecraft:jump_strength get 10
 execute store result score #cursefight.temp3 cursefight_temp run attribute @s minecraft:luck get 10
 tellraw @s ["",{"text":"   "},{"text":"最大血量","color":"gray"},{"text":"：","color":"gray"},{"score":{"name":"#cursefight.temp1","objective":"cursefight_temp"},"color":"green"},{"text":"   "},{"text":"跳躍強度(×10)","color":"gray"},{"text":"：","color":"gray"},{"score":{"name":"#cursefight.temp2","objective":"cursefight_temp"},"color":"green"},{"text":"   "},{"text":"幸運值(×10)","color":"gray"},{"text":"：","color":"gray"},{"score":{"name":"#cursefight.temp3","objective":"cursefight_temp"},"color":"green"}]
 
