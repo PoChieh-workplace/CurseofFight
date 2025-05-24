@@ -60,3 +60,6 @@ execute as @e[type=minecraft:marker,tag=magnelis_thornweaver_center_completed] a
 
 # airdrop information
 function cursefight:trigger/airdrop/tick
+
+# gamesetting
+execute as @a if score @s cursefight.gamerule.cursefight matches 1.. run function cursefight:game/gamerule/trigger
