@@ -18,5 +18,8 @@ scoreboard players set @s kills 0
 scoreboard players set @s death 0
 scoreboard players set @s refresh_player_mobkills 0
 
+scoreboard players reset @s cursefight.gamerule.cursefight
+scoreboard players enable @s cursefight.gamerule.cursefight
+
 # recovery mode set
 execute if score _mode_ info matches 1 run scoreboard players set @s team_respawn 10

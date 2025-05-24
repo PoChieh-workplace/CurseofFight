@@ -10,3 +10,6 @@ execute at @n[tag=lobby_center] run spawnpoint @s ~ 455 ~
 effect give @s minecraft:blindness 3
 effect give @s minecraft:resistance infinite 4 true
 effect give @s minecraft:saturation infinite 1 true
+
+scoreboard players reset @s cursefight.gamerule.cursefight
+scoreboard players enable @s cursefight.gamerule.cursefight
