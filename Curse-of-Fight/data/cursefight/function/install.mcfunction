@@ -79,6 +79,10 @@ scoreboard objectives add airdrop_position trigger
 scoreboard objectives add cursefight.gamerule.cursefight trigger
 scoreboard objectives add cursefight.gamerule.player_info.tips trigger
 
+scoreboard players reset @s cursefight.gamerule.cursefight
+scoreboard players enable @s cursefight.gamerule.cursefight
+
+
 # 動畫
 scoreboard objectives add animation.timer.a dummy
 scoreboard objectives add animation.timer dummy
@@ -87,7 +91,6 @@ scoreboard objectives add animation.playing dummy
 # 資料紀錄
 scoreboard objectives add health health
 scoreboard objectives add cursefight_health dummy
-
 
 data modify storage cursefight:airdrop Pos set value []
 
