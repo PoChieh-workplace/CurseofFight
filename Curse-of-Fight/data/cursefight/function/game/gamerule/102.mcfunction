@@ -1,0 +1,1 @@
+execute at @s run loot spawn ~ ~ ~ loot jmmf:crafting/nutritionbook

@@ -76,6 +76,8 @@ scoreboard players set _spread_mod_ info 0
 scoreboard objectives add cursefight_mob_spell_tick dummy "怪物施法時間"
 scoreboard objectives add cursefight_mob_spell_max_tick dummy "怪物施法冷卻時間"
 scoreboard objectives add airdrop_position trigger
+scoreboard objectives add cursefight.gamerule.cursefight trigger
+scoreboard objectives add cursefight.gamerule.player_info.tips trigger
 
 # 動畫
 scoreboard objectives add animation.timer.a dummy

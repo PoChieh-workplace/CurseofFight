@@ -85,6 +85,9 @@ scoreboard objectives add cursefight.object.tick dummy {"text":"物件時間"}
 scoreboard objectives add cursefight.gamerule.cursefight trigger
 scoreboard objectives add cursefight.gamerule.player_info.tips trigger
 
+scoreboard players reset @s cursefight.gamerule.cursefight
+scoreboard players enable @s cursefight.gamerule.cursefight
+
 
 # 遊戲時間設置
 scoreboard players set _game_start_ info 0
