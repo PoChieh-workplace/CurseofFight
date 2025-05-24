@@ -1,6 +1,8 @@
 execute if score @s cursefight.gamerule.cursefight matches 1 run function cursefight:game/gamerule/1
 execute if score @s cursefight.gamerule.cursefight matches 2 run function cursefight:game/gamerule/2
 execute if score @s cursefight.gamerule.cursefight matches 100 run function cursefight:game/gamerule/100
+execute if score @s cursefight.gamerule.cursefight matches 101 run function cursefight:game/gamerule/101
+execute if score @s cursefight.gamerule.cursefight matches 102 run function cursefight:game/gamerule/102
 
 execute if score @s cursefight.gamerule.cursefight matches 200 run function cursefight:game/gamerule/200
 

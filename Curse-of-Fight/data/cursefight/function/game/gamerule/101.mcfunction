@@ -1,1 +1,2 @@
 execute at @s run loot spawn ~ ~ ~ loot jmmf:crafting/cookbook
+tellraw @s {"text":"","color":"white","bold":false,"extra":[{"text":"Curse of Fight >>> ","color":"#CA8EFF"},{"text":"給予了你一本","color":"gray"},{"text":" 【Josh 的食譜】","color":"green"}]}

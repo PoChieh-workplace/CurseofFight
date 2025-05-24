@@ -4,6 +4,7 @@ title @s subtitle "\u00A78\u00A7l歡迎觀戰"
 title @s title "\u00A76\u00A7lCurse \u00A77\u00A7lof \u00A76\u00A7lFight"
 team join black @s
 playsound minecraft:entity.experience_orb.pickup player @s
+scoreboard players set @s cursefight.gamerule.player_info.tips 1
 recipe give @s *
 clear @s
 gamemode spectator @s
