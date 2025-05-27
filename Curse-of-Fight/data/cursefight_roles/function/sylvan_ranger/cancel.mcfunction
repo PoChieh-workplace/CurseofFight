@@ -1,0 +1,1 @@
+advancement revoke @s from cursefight_roles:sylvan_ranger/root

@@ -1,0 +1,1 @@
+advancement grant waterball0724 only cursefight_roles:sylvan_ranger/root

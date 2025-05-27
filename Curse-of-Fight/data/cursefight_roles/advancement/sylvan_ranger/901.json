@@ -4,17 +4,17 @@
             "id": "minecraft:arrow"
         },
         "title": {
-            "translate": "cursefight.roles.sylvan_ranger.advancement.end01.title"
+            "translate": "cursefight.roles.sylvan_ranger.advancement.901.title"
         },
         "description": {
-            "translate": "cursefight.roles.sylvan_ranger.advancement.end01.description"
+            "translate": "cursefight.roles.sylvan_ranger.advancement.901.description"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "cursefight_roles:sylvan_ranger/901",
+    "parent": "cursefight_roles:sylvan_ranger/801",
     "criteria": {
         "sylvan_ranger_901": {
             "trigger": "minecraft:impossible"

@@ -25,5 +25,8 @@
         "sylvan_ranger_root": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "function": "cursefight_roles:sylvan_ranger/enable_end_description"
     }
 }
