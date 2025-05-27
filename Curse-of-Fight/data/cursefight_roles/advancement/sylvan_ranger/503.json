@@ -11,7 +11,8 @@
         },
         "frame": "challenge",
         "show_toast": true,
-        "announce_to_chat": false
+        "announce_to_chat": false,
+        "hidden": false
     },
     "parent": "cursefight_roles:sylvan_ranger/403",
     "criteria": {

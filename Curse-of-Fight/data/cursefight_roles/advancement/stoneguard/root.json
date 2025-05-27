@@ -1,7 +1,12 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:shield"
+            "id": "minecraft:shield",
+            "components": {
+                "minecraft:enchantments": {
+                    "minecraft:mending": 1
+                }
+            }
         },
         "title": {
             "translate": "cursefight.roles.stoneguard.advancement.title"

@@ -1,7 +1,12 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:arrow"
+            "id": "minecraft:bow",
+            "components": {
+                "minecraft:enchantments": {
+                    "minecraft:power": 1
+                }
+            }
         },
         "title": {
             "translate": "cursefight.roles.sylvan_ranger.advancement.title"
@@ -13,6 +18,7 @@
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
+        "hidden": false,
         "background": "minecraft:block/oak_planks"
     },
     "criteria": {
