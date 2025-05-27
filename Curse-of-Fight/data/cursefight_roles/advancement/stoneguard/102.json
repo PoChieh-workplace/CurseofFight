@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:netherite_ingot"
+            "id": "minecraft:iron_chestplate"
         },
         "title": {
             "translate": "cursefight.roles.stoneguard.advancement.102.title"

@@ -11,9 +11,9 @@
         },
         "frame": "challenge",
         "show_toast": true,
-        "announce_to_chat": false
+        "announce_to_chat": false,
+        "background": "minecraft:block/oak_planks"
     },
-    "background": "minecraft:block/oak_plank",
     "criteria": {
         "sylvan_ranger_root": {
             "trigger": "minecraft:impossible"

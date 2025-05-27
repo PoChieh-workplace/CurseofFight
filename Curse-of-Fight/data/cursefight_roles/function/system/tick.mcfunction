@@ -1,0 +1,1 @@
+function cursefight_roles:system/no_item_drop

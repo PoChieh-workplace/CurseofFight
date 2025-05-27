@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "cursefight:time/tick",
+        "cursefight_roles:system/tick",
         "cursefight:mob/tick",
         "ships:main",
         "vanilla_refresh:tick"
