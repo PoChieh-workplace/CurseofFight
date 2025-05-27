@@ -1,13 +1,14 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:bow"
+            "id": "minecraft:arrow"
         },
         "title": {
             "translate": "cursefight.roles.sylvan_ranger.advancement.title"
         },
         "description": {
-            "translate": "cursefight.roles.sylvan_ranger.advancement.description"
+            "translate": "cursefight.roles.sylvan_ranger.advancement.description",
+            "color": "white"
         },
         "frame": "challenge",
         "show_toast": true,

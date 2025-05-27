@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_boots"
+        },
+        "title": {
+            "translate": "cursefight.roles.sylvan_ranger.advancement.603.title"
+        },
+        "description": {
+            "translate": "cursefight.roles.sylvan_ranger.advancement.603.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "cursefight_roles:sylvan_ranger/503",
+    "criteria": {
+        "sylvan_ranger_603": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,13 +1,14 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:bow"
+            "id": "minecraft:shield"
         },
         "title": {
             "translate": "cursefight.roles.stoneguard.advancement.title"
         },
         "description": {
-            "translate": "cursefight.roles.stoneguard.advancement.description"
+            "translate": "cursefight.roles.stoneguard.advancement.description",
+            "color": "white"
         },
         "frame": "challenge",
         "show_toast": true,

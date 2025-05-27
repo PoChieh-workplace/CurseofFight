@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:bow"
+        },
+        "title": {
+            "translate": "cursefight.roles.sylvan_ranger.advancement.501.title"
+        },
+        "description": {
+            "translate": "cursefight.roles.sylvan_ranger.advancement.501.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "cursefight_roles:sylvan_ranger/401",
+    "criteria": {
+        "sylvan_ranger_501": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

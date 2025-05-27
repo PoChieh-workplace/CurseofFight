@@ -1,21 +1,21 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:netherite_ingot"
+            "id": "minecraft:arrow"
         },
         "title": {
-            "translate": "cursefight.roles.stoneguard.advancement.101.title"
+            "translate": "cursefight.roles.sylvan_ranger.advancement.201.title"
         },
         "description": {
-            "translate": "cursefight.roles.stoneguard.advancement.101.description"
+            "translate": "cursefight.roles.sylvan_ranger.advancement.201.description"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false
     },
-    "parent": "cursefight_roles:stoneguard/root",
+    "parent": "cursefight_roles:sylvan_ranger/101",
     "criteria": {
-        "stoneguard_101": {
+        "sylvan_ranger_201": {
             "trigger": "minecraft:impossible"
         }
     }

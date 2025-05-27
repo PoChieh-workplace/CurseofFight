@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:rabbit_foot"
+        },
+        "title": {
+            "translate": "cursefight.roles.sylvan_ranger.advancement.402.title"
+        },
+        "description": {
+            "translate": "cursefight.roles.sylvan_ranger.advancement.402.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "cursefight_roles:sylvan_ranger/302",
+    "criteria": {
+        "sylvan_ranger_402": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
