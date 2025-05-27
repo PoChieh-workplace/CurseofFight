@@ -13,6 +13,7 @@
         "show_toast": true,
         "announce_to_chat": false
     },
+    "background": "minecraft:block/iron_block",
     "criteria": {
         "stoneguard_root": {
             "trigger": "minecraft:impossible"
