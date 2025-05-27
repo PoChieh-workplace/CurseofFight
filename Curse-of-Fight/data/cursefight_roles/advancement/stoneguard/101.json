@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_boots"
+        },
+        "title": {
+            "translate": "cursefight.roles.stoneguard.advancement.101.title"
+        },
+        "description": {
+            "translate": "cursefight.roles.stoneguard.advancement.101.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "cursefight_skill:stoneguard/root",
+    "criteria": {
+        "stoneguard_101": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

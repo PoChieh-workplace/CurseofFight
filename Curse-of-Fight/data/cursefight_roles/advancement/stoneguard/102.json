@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:rabbit_foot"
+        },
+        "title": {
+            "translate": "cursefight.roles.stoneguard.advancement.102.title"
+        },
+        "description": {
+            "translate": "cursefight.roles.stoneguard.advancement.102.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "cursefight_skill:stoneguard/root",
+    "criteria": {
+        "stoneguard_102": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

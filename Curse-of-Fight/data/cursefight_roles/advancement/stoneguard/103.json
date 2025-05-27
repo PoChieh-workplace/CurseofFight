@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:bow"
+        },
+        "title": {
+            "translate": "cursefight.roles.stoneguard.advancement.103.title"
+        },
+        "description": {
+            "translate": "cursefight.roles.stoneguard.advancement.103.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "cursefight_skill:stoneguard/root",
+    "criteria": {
+        "stoneguard_103": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

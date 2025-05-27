@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:bow"
+        },
+        "title": {
+            "translate": "cursefight.roles.stoneguard.advancement.title"
+        },
+        "description": {
+            "translate": "cursefight.roles.stoneguard.advancement.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "stoneguard_root": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

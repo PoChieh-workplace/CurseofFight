@@ -1,0 +1,3 @@
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{Nopickup:1b}}}}] at @s on origin run data modify entity @n[type=item] Owner set from entity @s UUID
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{Nopickup:1b}}}}] run data modify entity @s PickupDelay set value 0s
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{Nopickup:1b}}}}] at @s on origin run tp @e[type=item,sort=nearest,limit=1] @s
