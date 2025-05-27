@@ -13,6 +13,7 @@
         "show_toast": true,
         "announce_to_chat": false
     },
+    "background": "minecraft:block/oak_planks",
     "criteria": {
         "sylvan_ranger_root": {
             "trigger": "minecraft:impossible"

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:rabbit_foot"
+            "id": "minecraft:netherite_ingot"
         },
         "title": {
             "translate": "cursefight.roles.stoneguard.advancement.102.title"
@@ -13,7 +13,7 @@
         "show_toast": true,
         "announce_to_chat": false
     },
-    "parent": "cursefight_skill:stoneguard/root",
+    "parent": "cursefight_roles:stoneguard/root",
     "criteria": {
         "stoneguard_102": {
             "trigger": "minecraft:impossible"

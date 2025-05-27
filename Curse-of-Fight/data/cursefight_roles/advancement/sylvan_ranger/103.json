@@ -13,7 +13,7 @@
         "show_toast": true,
         "announce_to_chat": false
     },
-    "parent": "cursefight_skill:sylvan_ranger/root",
+    "parent": "cursefight_roles:sylvan_ranger/root",
     "criteria": {
         "sylvan_ranger_103": {
             "trigger": "minecraft:impossible"
