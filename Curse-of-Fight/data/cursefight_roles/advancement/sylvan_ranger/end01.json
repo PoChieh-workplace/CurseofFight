@@ -17,7 +17,7 @@
     "parent": "cursefight_roles:sylvan_ranger/901",
     "criteria": {
         "end": {
-            "trigger": "minecraft:tick"
+            "trigger": "minecraft:impossible"
         }
     }
 }
