@@ -1,1 +1,2 @@
 function cursefight_roles:system/no_item_drop
+function cursefight_roles:sylvan_ranger/double_jump/tick

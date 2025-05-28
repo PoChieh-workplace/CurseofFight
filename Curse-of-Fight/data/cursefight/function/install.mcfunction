@@ -24,7 +24,12 @@ scoreboard objectives add cursefight_temp dummy {"text":"臨時"}
 scoreboard objectives add magnelis_thornweaver_task_completed dummy {"text":"瑪格尼里斯的任務完成數量"}
 scoreboard objectives add magnelis_thornweaver_task_count dummy {"text":"瑪格尼里斯的任務數量"}
 scoreboard objectives add cursefight.object.tick dummy {"text":"物件時間"}
-
+scoreboard objectives add cursefight.gamerule.cursefight trigger
+scoreboard objectives add cursefight.gamerule.player_info.tips trigger
+scoreboard players reset @a cursefight.gamerule.cursefight
+scoreboard players enable @a cursefight.gamerule.cursefight
+scoreboard objectives add cursefight.air_crouch minecraft.custom:minecraft.sneak_time
+scoreboard objectives add cursefight.jump_time dummy
 
 # 強制載入 0 0，動能座標用
 forceload add 0 0
@@ -76,11 +81,6 @@ scoreboard players set _spread_mod_ info 0
 scoreboard objectives add cursefight_mob_spell_tick dummy "怪物施法時間"
 scoreboard objectives add cursefight_mob_spell_max_tick dummy "怪物施法冷卻時間"
 scoreboard objectives add airdrop_position trigger
-scoreboard objectives add cursefight.gamerule.cursefight trigger
-scoreboard objectives add cursefight.gamerule.player_info.tips trigger
-
-scoreboard players reset @a cursefight.gamerule.cursefight
-scoreboard players enable @a cursefight.gamerule.cursefight
 
 
 # 動畫
