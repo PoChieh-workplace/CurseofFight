@@ -1,15 +1,25 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "type_specific": {
-            "type": "minecraft:player",
-            "input": {
-                "jump": false
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "input": {
+                        "jump": false
+                    }
+                },
+                "flags": {
+                    "is_on_ground": false
+                },
+                "stepping_on": {
+                    "block": {
+                        "blocks": "#minecraft:air"
+                    }
+                }
             }
-        },
-        "flags": {
-            "is_on_ground": false
         }
-    }
+    ]
 }
