@@ -1,2 +1,2 @@
 function cursefight_roles:system/no_item_drop
-function cursefight_roles:sylvan_ranger/double_jump/tick
+execute as @a run function cursefight_roles:sylvan_ranger/double_jump/tick
