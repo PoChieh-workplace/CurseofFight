@@ -13,11 +13,6 @@
                 },
                 "flags": {
                     "is_on_ground": false
-                },
-                "stepping_on": {
-                    "block": {
-                        "blocks": "#minecraft:air"
-                    }
                 }
             }
         }
