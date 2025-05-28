@@ -1,0 +1,30 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "cursefight.skills.opened": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "weapon.offhand": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "mainweapon": "sylvan_ranger"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
