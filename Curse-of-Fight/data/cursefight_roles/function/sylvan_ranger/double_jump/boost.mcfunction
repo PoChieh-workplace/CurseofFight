@@ -1,4 +1,4 @@
-execute as @s at @s if items entity @s[tag=!boosted] weapon.mainhand *[minecraft:enchantments={"cursefight_roles:double_jump_on_weapon":1}] if entity @s[scores={cursefight.air_crouch=5..}] at @s run tag @s add boost
+execute as @s at @s if items entity @s[tag=!boosted] weapon.mainhand *[minecraft:enchantments={"cursefight_roles:double_jump_on_weapon":1}] if entity @s[scores={cursefight.air_crouch=4..}] at @s run tag @s add boost
 
 execute as @s[tag=boost,tag=!boosted,scores={cursefight.jump_time=..2}] at @s run effect give @s levitation 1 50 true
 
