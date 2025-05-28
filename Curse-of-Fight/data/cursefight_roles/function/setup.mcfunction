@@ -1,0 +1,1 @@
+scoreboard objectives add cursefight.roles.choose_skill trigger

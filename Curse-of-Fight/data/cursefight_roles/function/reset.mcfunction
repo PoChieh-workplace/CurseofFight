@@ -1,0 +1,1 @@
+scoreboard objectives remove cursefight.roles.choose_skill

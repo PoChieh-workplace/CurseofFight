@@ -1,0 +1,9 @@
+execute if score @s cursefight.roles.choose_skill matches 101 run function cursefight_roles:sylvan_ranger/101
+execute if score @s cursefight.roles.choose_skill matches 201 run function cursefight_roles:sylvan_ranger/201
+execute if score @s cursefight.roles.choose_skill matches 301 run function cursefight_roles:sylvan_ranger/301
+execute if score @s cursefight.roles.choose_skill matches 401 run function cursefight_roles:sylvan_ranger/401
+execute if score @s cursefight.roles.choose_skill matches 501 run function cursefight_roles:sylvan_ranger/501
+execute if score @s cursefight.roles.choose_skill matches 601 run function cursefight_roles:sylvan_ranger/601
+execute if score @s cursefight.roles.choose_skill matches 701 run function cursefight_roles:sylvan_ranger/701
+execute if score @s cursefight.roles.choose_skill matches 801 run function cursefight_roles:sylvan_ranger/801
+execute if score @s cursefight.roles.choose_skill matches 901 run function cursefight_roles:sylvan_ranger/901
