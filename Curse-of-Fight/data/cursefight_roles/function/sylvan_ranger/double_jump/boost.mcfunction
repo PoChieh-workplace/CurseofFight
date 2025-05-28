@@ -4,7 +4,7 @@ execute as @s[tag=boost,tag=!boosted,scores={cursefight.jump_time=..2}] at @s ru
 
 execute as @s[tag=boost] at @s run scoreboard players add @s cursefight.jump_time 1
 
-execute as @s[tag=boost,tag=!boosted] at @s run particle explosion ~ ~-0.5 ~ 0 0 0 1 1 normal
+execute as @s[tag=boost,tag=!boosted] at @s run particle gust ~ ~-0.5 ~ 0 0 0 1 1 normal
 execute as @s[tag=boost,tag=!boosted] at @s run playsound entity.ender_dragon.flap master @s ~ ~ ~ 1 1 1
 execute as @s[tag=boost,tag=!boosted] at @s run tag @s add boosted
 execute as @s[tag=boosted] if predicate cursefight_roles:sylvan_ranger/is_on_ground run tag @s remove boosted
