@@ -28,7 +28,8 @@ scoreboard objectives add cursefight.gamerule.cursefight trigger
 scoreboard objectives add cursefight.gamerule.player_info.tips trigger
 scoreboard players reset @a cursefight.gamerule.cursefight
 scoreboard players enable @a cursefight.gamerule.cursefight
-scoreboard objectives add cursefight.air_crouch minecraft.custom:minecraft.sneak_time
+scoreboard objectives add cursefight.pre_air_crouch dummy
+scoreboard objectives add cursefight.air_crouch dummy
 scoreboard objectives add cursefight.jump_time dummy
 
 # 強制載入 0 0，動能座標用

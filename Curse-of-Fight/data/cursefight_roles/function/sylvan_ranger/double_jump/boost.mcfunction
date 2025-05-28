@@ -1,7 +1,7 @@
 execute as @s at @s unless block ~ ~-1 ~ air run scoreboard players set @s cursefight.air_crouch 0
 execute as @s[tag=boost] at @s unless block ~ ~-1 ~ air run tag @s remove boost
 
-execute as @s at @s if items entity @s[tag=!boosted] weapon.mainhand *[minecraft:enchantments={"cursefight_roles:double_jump_on_weapon":1}] if entity @s[scores={cursefight.air_crouch=2..}] at @s run tag @s add boost
+execute as @s at @s if items entity @s[tag=!boosted] weapon.mainhand *[minecraft:enchantments={"cursefight_roles:double_jump_on_weapon":1}] if entity @s[scores={cursefight.air_crouch=1..}] at @s run tag @s add boost
 
 execute as @s[tag=boost,tag=!boosted,scores={cursefight.jump_time=..2}] at @s run effect give @s levitation 1 50 true
 
