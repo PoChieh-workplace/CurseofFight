@@ -1,0 +1,7 @@
+{
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+        "cursefight_roles:sylvan_ranger_power": 1
+    },
+    "add": true
+}
