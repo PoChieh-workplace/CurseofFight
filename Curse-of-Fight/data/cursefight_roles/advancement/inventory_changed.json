@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "Inventory": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "cursefight_roles:system/inventory_changed"
+    }
+}
