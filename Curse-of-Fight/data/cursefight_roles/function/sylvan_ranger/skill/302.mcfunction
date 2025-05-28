@@ -1,0 +1,1 @@
+function cursefight_roles:system/close_skill_gui

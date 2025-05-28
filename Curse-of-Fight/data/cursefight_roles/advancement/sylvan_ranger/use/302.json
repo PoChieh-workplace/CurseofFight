@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "sylvan_ranger_301_used": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "sylvan_ranger": 302
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cursefight_roles:sylvan_ranger/skill/302"
+    }
+}

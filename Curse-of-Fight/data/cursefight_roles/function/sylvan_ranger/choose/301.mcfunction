@@ -1,0 +1,1 @@
+advancement grant @s only cursefight_roles:sylvan_ranger/301
