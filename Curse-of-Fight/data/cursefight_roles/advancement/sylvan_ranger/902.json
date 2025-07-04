@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:rabbit_foot"
+            "id": "minecraft:iron_boots"
         },
         "title": {
             "translate": "cursefight.roles.sylvan_ranger.advancement.902.title"
