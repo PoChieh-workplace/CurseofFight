@@ -34,3 +34,7 @@ execute if score _if_career_ info matches 1 run function cursefight:career/syste
 
 # 清除 tnt 礦車
 clear @a minecraft:tnt_minecart
+
+
+# 溫度系統
+execute as @a[tag=cursefight.alive,team=!black] at @s run function cursefight:game/generic/player/count_temperature

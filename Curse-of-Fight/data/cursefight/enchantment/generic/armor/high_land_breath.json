@@ -1,9 +1,9 @@
 {
-	"anvil_cost": 5,
-	"description": {
-		"translate": "enchantment.cursefight.high_land_breath"
-	},
-	"effects": {
+    "anvil_cost": 5,
+    "description": {
+        "translate": "enchantment.cursefight.high_land_breath"
+    },
+    "effects": {
         "minecraft:tick": [
             {
                 "effect": {
@@ -39,63 +39,21 @@
                     },
                     "speed": 1
                 }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:change_item_damage",
-                    "amount": 1
-                },
-                "requirements": [
-                    {
-                        "condition": "minecraft:all_of",
-                        "terms": [
-                            {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "location": {
-                                        "position": {
-                                            "y": {
-                                                "min": 160,
-                                                "max": 1000
-                                            }
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "condition": "minecraft:random_chance",
-                                "chance": {
-                                    "type": "minecraft:enchantment_level",
-                                    "amount": {
-                                        "type": "minecraft:fraction",
-                                        "numerator": 1,
-                                        "denominator": {
-                                            "type": "minecraft:linear",
-                                            "base": 100,
-                                            "per_level_above_first": 50
-                                        }
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                ]
             }
         ]
     },
-	"max_cost": {
-		"base": 15,
-		"per_level_above_first": 10
-	},
-	"max_level": 3,
-	"min_cost": {
-		"base": 5,
-		"per_level_above_first": 10
-	},
-	"slots": [
-		"armor"
-	],
-	"supported_items": "#minecraft:head_armor",
-	"weight": 15
+    "max_cost": {
+        "base": 15,
+        "per_level_above_first": 10
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 10
+    },
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "#minecraft:head_armor",
+    "weight": 15
 }
