@@ -32,6 +32,7 @@ scoreboard objectives add cursefight.pre_air_crouch dummy
 scoreboard objectives add cursefight.air_crouch dummy
 scoreboard objectives add cursefight.jump_time dummy
 scoreboard objectives add cursefight.roles.choose_skill trigger
+scoreboard objectives add cursefight.temperature dummy
 
 # 強制載入 0 0，動能座標用
 forceload add 0 0

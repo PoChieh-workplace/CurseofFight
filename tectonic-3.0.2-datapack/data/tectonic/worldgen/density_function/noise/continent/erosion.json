@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "tectonic:noise/continent/erosion_raw",
+      "points": [
+        {
+          "location": -0.35,
+          "value": -0.4,
+          "derivative": 0.6
+        },
+        {
+          "location": -0.14,
+          "value": -0.1,
+          "derivative": 0.4
+        },
+        {
+          "location": 0.14,
+          "value": 0.1,
+          "derivative": 0.4
+        },
+        {
+          "location": 0.35,
+          "value": 0.4,
+          "derivative": 0.6
+        }
+      ]
+    }
+  }
+}

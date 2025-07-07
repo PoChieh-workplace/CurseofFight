@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:add",
+    "argument1": 1,
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": "tectonic:underground_river/noise/height",
+      "argument2": {
+        "type": "minecraft:abs",
+        "argument": {
+          "type": "minecraft:add",
+          "argument1": "tectonic:underground_river/noise/y_offset",
+          "argument2": {
+            "type": "minecraft:spline",
+            "spline": {
+              "coordinate": "minecraft:y",
+              "points": [
+                {
+                  "location": 48,
+                  "derivative": 1,
+                  "value": 40
+                },
+                {
+                  "location": 60,
+                  "derivative": 1,
+                  "value": 60
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "min": 0,
+  "max": 1
+}

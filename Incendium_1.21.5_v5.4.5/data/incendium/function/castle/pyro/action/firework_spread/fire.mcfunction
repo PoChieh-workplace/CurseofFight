@@ -1,3 +1,0 @@
-summon minecraft:firework_rocket ~ ~ ~ {Tags:["in.fire"],Silent:0b,Motion:[0.0,0.0,0.0],ShotAtAngle:true,LifeTime:90,FireworksItem:{id:"firework_rocket",count:1,components:{fireworks:{flight_duration:1,explosions:[{shape:'burst',has_twinkle:false,has_trail:false,colors:[16711680]},{shape:'burst',has_twinkle:false,has_trail:false,colors:[16733184]},{shape:'burst',has_twinkle:false,has_trail:false,colors:[16751872]}]}}}}
-#playsound minecraft:item.trident.throw player @a[distance=..30] ~ ~ ~ 0.35 1.5 0.35
-execute as @e[type=firework_rocket,tag=in.fire,tag=!in.checked,distance=..1,limit=1] run function incendium:castle/pyro/action/firework_spread/fire_init

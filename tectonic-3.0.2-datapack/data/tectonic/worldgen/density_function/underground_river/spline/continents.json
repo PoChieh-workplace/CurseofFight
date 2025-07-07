@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:mul",
+    "argument1": 20,
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": 0.2,
+      "argument2": "tectonic:noise/raw_continents"
+    }
+  },
+  "min": 0,
+  "max": 1
+}

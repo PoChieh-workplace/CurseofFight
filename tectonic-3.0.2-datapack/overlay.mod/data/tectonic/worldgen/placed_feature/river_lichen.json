@@ -1,0 +1,44 @@
+{
+  "feature": "minecraft:glow_lichen",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 32
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 80
+        },
+        "min_inclusive": {
+          "absolute": 48
+        },
+        "value": {
+          "max_inclusive": {
+            "absolute": 80
+          },
+          "min_inclusive": {
+            "absolute": 48
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:sample_density",
+        "density_function": "tectonic:underground_river/parameters",
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

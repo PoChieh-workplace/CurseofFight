@@ -1,4 +1,4 @@
-{ ///doesnt work :c
+{
     "name": "hopo:mobs/guardian",
     "fallback": "hopo:mobs/guardian",
     "elements": [

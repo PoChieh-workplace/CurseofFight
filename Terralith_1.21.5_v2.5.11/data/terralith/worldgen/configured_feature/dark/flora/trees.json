@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "terralith:dark/trees/thick_dark_oak",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.02,
+        "feature": "terralith:mushroom/vanilla_huge_brown_mushroom"
+      },
+      {
+        "chance": 0.01,
+        "feature": {
+          "feature": "terralith:dark/giant_shrooms/brown_1",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.01,
+        "feature": {
+          "feature": "terralith:dark/giant_shrooms/brown_2",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.02,
+        "feature": {
+          "feature": "terralith:dark/giant_shrooms/brown_small",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.02,
+        "feature": "terralith:mushroom/vanilla_huge_red_mushroom"
+      },
+      {
+        "chance": 0.02,
+        "feature": {
+          "feature": "terralith:dark/giant_shrooms/red_1",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.35,
+        "feature": {
+          "feature": "terralith:dark/trees/thick_dark_oak",
+          "placement": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE"
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.15,
+        "feature": {
+          "feature": "terralith:dark/trees/birch",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.30,
+        "feature": {
+          "feature": "terralith:dark/trees/thin_dark_oak",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

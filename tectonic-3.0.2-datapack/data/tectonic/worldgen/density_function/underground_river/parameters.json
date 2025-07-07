@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "minecraft:y",
+    "min_inclusive": 32,
+    "max_exclusive": 72,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": "tectonic:noise/continent/ridges_folded",
+      "min_inclusive": 0,
+      "max_exclusive": 0.2,
+      "when_in_range": {
+        "type": "minecraft:range_choice",
+        "input": "tectonic:noise/raw_continents",
+        "min_inclusive": -0.17,
+        "max_exclusive": 64,
+        "when_in_range": {
+          "type": "minecraft:range_choice",
+          "input": "tectonic:noise/continent/erosion_folded",
+          "min_inclusive": 0,
+          "max_exclusive": 0.37,
+          "when_in_range": 1,
+          "when_out_of_range": 0
+        },
+        "when_out_of_range": 0
+      },
+      "when_out_of_range": 0
+    },
+    "when_out_of_range": 0
+  }
+}

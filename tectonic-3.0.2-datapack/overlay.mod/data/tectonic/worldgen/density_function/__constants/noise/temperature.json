@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "tectonic:config_constant",
+      "key": "temperature_multiplier"
+    },
+    "argument2": {
+      "type": "tectonic:config_noise",
+      "noise": "minecraft:temperature",
+      "key": "temperature_scale",
+      "shift_x": "minecraft:shift_x",
+      "shift_z": "minecraft:shift_z"
+    }
+  }
+}

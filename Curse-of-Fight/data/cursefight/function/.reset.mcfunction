@@ -52,6 +52,7 @@ scoreboard objectives remove magnelis_thornweaver_task_count
 scoreboard objectives remove cursefight.object.tick
 scoreboard objectives remove cursefight.gamerule.cursefight
 scoreboard objectives remove cursefight.gamerule.player_info.tips
+scoreboard objectives remove cursefight.temperature
 
 # 動畫
 scoreboard objectives remove animation.timer.a

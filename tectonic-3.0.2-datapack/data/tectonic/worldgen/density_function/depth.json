@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_value": 1.5,
+      "from_y": -64,
+      "to_value": -4,
+      "to_y": 640
+    },
+    "argument2": "tectonic:terrain_spline/offset/final"
+  }
+}

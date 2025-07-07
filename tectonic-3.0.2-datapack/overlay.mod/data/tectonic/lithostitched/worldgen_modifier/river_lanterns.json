@@ -1,0 +1,22 @@
+{
+  "predicate": {
+    "type": "tectonic:config",
+    "key": "river_lanterns"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "tectonic:config",
+      "key": "river_lanterns"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "tectonic:config",
+      "key": "river_lanterns"
+    }
+  ],
+  "type": "lithostitched:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "tectonic:river_lanterns",
+  "step": "vegetal_decoration"
+}

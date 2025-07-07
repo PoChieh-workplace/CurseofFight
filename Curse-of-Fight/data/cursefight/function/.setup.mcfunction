@@ -85,6 +85,7 @@ scoreboard objectives add cursefight.gamerule.cursefight trigger
 scoreboard objectives add cursefight.gamerule.player_info.tips trigger
 scoreboard players reset @a cursefight.gamerule.cursefight
 scoreboard players enable @a cursefight.gamerule.cursefight
+scoreboard objectives add cursefight.temperature dummy
 
 
 # 遊戲時間設置

@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "tectonic:noise/continent/ridges",
+    "points": [
+      {
+        "location": -0.45,
+        "value": 0.03,
+        "derivative": 0
+      },
+      {
+        "location": -0.3,
+        "value": 0.25,
+        "derivative": 0
+      },
+      {
+        "location": -0.2,
+        "value": {
+          "coordinate": "tectonic:region/spade/lower_tier",
+          "points": [
+            {
+              "location": 0,
+              "value": 0.1,
+              "derivative": 0
+            },
+            {
+              "location": 0.15,
+              "value": 0.22,
+              "derivative": 0
+            }
+          ]
+        },
+        "derivative": 0
+      },
+      {
+        "location": -0.14,
+        "value": 0.05,
+        "derivative": -0.8
+      },
+      {
+        "location": -0.075,
+        "value": 0.01,
+        "derivative": 0
+      },
+      {
+        "location": -0.03,
+        "value": -0.06,
+        "derivative": -0.5
+      },
+      {
+        "location": 0.03,
+        "value": -0.06,
+        "derivative": 0.5
+      },
+      {
+        "location": 0.075,
+        "value": 0.01,
+        "derivative": 0
+      },
+      {
+        "location": 0.14,
+        "value": 0.05,
+        "derivative": 0.8
+      },
+      {
+        "location": 0.2,
+        "value": {
+          "coordinate": "tectonic:region/spade/lower_tier",
+          "points": [
+            {
+              "location": 0,
+              "value": 0.135,
+              "derivative": 0
+            },
+            {
+              "location": 0.15,
+              "value": 0.28,
+              "derivative": 0
+            }
+          ]
+        },
+        "derivative": 0
+      },
+      {
+        "location": 0.3,
+        "value": 0.35,
+        "derivative": 0
+      },
+      {
+        "location": 0.45,
+        "value": 0.03,
+        "derivative": 0
+      }
+    ]
+  }
+}
