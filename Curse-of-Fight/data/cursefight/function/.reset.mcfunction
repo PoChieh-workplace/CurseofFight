@@ -53,6 +53,7 @@ scoreboard objectives remove cursefight.object.tick
 scoreboard objectives remove cursefight.gamerule.cursefight
 scoreboard objectives remove cursefight.gamerule.player_info.tips
 scoreboard objectives remove cursefight.temperature
+scoreboard objectives remove cursefight.temperature.float
 
 # 動畫
 scoreboard objectives remove animation.timer.a

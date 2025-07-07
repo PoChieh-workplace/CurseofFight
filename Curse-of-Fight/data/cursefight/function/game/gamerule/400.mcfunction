@@ -16,6 +16,9 @@ execute store result score #cursefight.temp3 cursefight_temp run attribute @s mi
 tellraw @s ["",{"text":"   "},{"text":"最大血量","color":"gray"},{"text":"：","color":"gray"},{"score":{"name":"#cursefight.temp1","objective":"cursefight_temp"},"color":"green"},{"text":"   "},{"text":"跳躍強度(×10)","color":"gray"},{"text":"：","color":"gray"},{"score":{"name":"#cursefight.temp2","objective":"cursefight_temp"},"color":"green"},{"text":"   "},{"text":"幸運值(×10)","color":"gray"},{"text":"：","color":"gray"},{"score":{"name":"#cursefight.temp3","objective":"cursefight_temp"},"color":"green"}]
 
 
+execute store result score #cursefight.temp1 cursefight_temp run scoreboard players get @s cursefight.temperature
+tellraw @s ["",{"text":"   "},{"text":"體溫","color":"gray"},{"text":"：","color":"gray"},{"score":{"name":"#cursefight.temp1","objective":"cursefight_temp"},"color":"green"}]
+
 
 tellraw @s ["",{"text":"      "},{"text":"【","color":"gray"},{"text":"惡魔","color":"red","hover_event":{"action":"show_text","value": {"text":"浪潮事件效果","color":"white"}}},{"text":" 契約","color":"dark_blue","hover_event":{"action":"show_text","value": {"text":"浪潮事件效果","color":"white"}}},{"text":"】","color":"gray"}]
 tellraw @s [""]
