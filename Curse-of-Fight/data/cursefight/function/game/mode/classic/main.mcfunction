@@ -1,6 +1,5 @@
 function cursefight:game/spreadplayers/main
-scoreboard player set @a[team=!black] cursefight.temperature.float 37000
-
+scoreboard players set @a[team=!black] cursefight.temperature.float 37000
 gamerule keepInventory false
 
 # T0削弱 T3增強

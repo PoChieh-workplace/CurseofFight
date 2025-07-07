@@ -1,5 +1,5 @@
 function cursefight:game/spreadplayers/main
-scoreboard player set @a[team=!black] cursefight.temperature.float 37000
+scoreboard players set @a[team=!black] cursefight.temperature.float 37000
 gamerule keepInventory true
 
 scoreboard objectives add team_respawn dummy "\u00A7a【隊伍重生秒數】"
