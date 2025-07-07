@@ -26,4 +26,4 @@ execute if score @s cursefight.temperature.float matches ..8999 run effect give 
 
 execute if score @s cursefight.temperature.float matches ..6000 run effect give @s minecraft:darkness 10 0
 execute if score @s cursefight.temperature.float matches ..2000 run effect give @s minecraft:nausea 10 0
-execute if score @s cursefight.temperature.float matches ..-1000 execute unless entity @s[nbt={active_effects:[{id:"minecraft:wither"}]}] if score _ominous_ activity_set matches 1 run effect give @s minecraft:wither 10 0
+execute if score @s cursefight.temperature.float matches ..-1000 run execute unless entity @s[nbt={active_effects:[{id:"minecraft:wither"}]}] if score _ominous_ activity_set matches 1 run effect give @s minecraft:wither 10 0
