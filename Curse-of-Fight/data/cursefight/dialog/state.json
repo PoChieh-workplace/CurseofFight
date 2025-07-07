@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "cursefight.dialog.player.state.title"
+    },
+    "external_title": {
+        "translate": "cursefight.dialog.player.state.external_title"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "cursefight.dialog.player.state.plain.a"
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": [
+                {
+                    "translate": "cursefight.dialog.player.state.plain.a1"
+                },
+                ": ",
+                {
+                    "score": {
+                        "objective": "cursefight.temperature",
+                        "name": "@s"
+                    }
+                }
+            ]
+        }
+    ],
+    "can_close_with_escape": true,
+    "after_action": "close"
+}
