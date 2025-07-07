@@ -18,7 +18,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-                "cursefight.temperature_float": {
+                "cursefight.temperature.float": {
                     "min": -10000
                 }
             }
