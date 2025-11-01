@@ -1,6 +1,43 @@
 {
   "pack": {
+    "supported_formats": [1,99],
+    "min_format": 1,
+    "max_format": 99,
     "pack_format": 15,
-    "description": ""
+    "description": [
+      "Made with ",
+      {
+        "text": "<3",
+        "color": "red"
+      },
+      " by ",
+      {
+        "text": "Apollo",
+        "color": "#b891ff"
+      },
+      "\n"
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay.datapack",
+        "formats": [1, 99],
+        "min_format": 1,
+        "max_format": 99
+      },
+      {
+        "directory": "overlay.terratonic",
+        "formats": [1, 99],
+        "min_format": 1,
+        "max_format": 99
+      },
+      {
+        "directory": "overlay.1_21_9",
+        "formats": [82, 99],
+        "min_format": 82,
+        "max_format": 99
+      }
+    ]
   }
 }

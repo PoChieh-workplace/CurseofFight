@@ -22,7 +22,7 @@
                 "coordinate": "tectonic:noise/raw_continents",
                 "points": [
                   {
-                    "location": -0.115,
+                    "location": -0.12,
                     "derivative": 0,
                     "value": {
                       "coordinate": "tectonic:noise/continent/ridges",
@@ -30,28 +30,28 @@
                         {
                           "location": -1,
                           "derivative": 0,
-                          "value": -0.35
+                          "value": -1
                         },
                         {
                           "location": 0,
                           "derivative": 0,
-                          "value": -0.35
+                          "value": -1
                         },
                         {
                           "location": 0,
                           "derivative": 0,
-                          "value": 0.35
+                          "value": 1
                         },
                         {
                           "location": 1,
                           "derivative": 0,
-                          "value": 0.35
+                          "value": 1
                         }
                       ]
                     }
                   },
                   {
-                    "location": -0.095,
+                    "location": -0.12,
                     "derivative": 0,
                     "value": {
                       "coordinate": "tectonic:noise/continent/ridges",

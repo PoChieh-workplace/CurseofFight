@@ -9,8 +9,107 @@
         "points": [
           {
             "derivative": 0,
-            "location": -1.1,
-            "value": 0.044
+            "location": -1.07,
+            "value": {
+              "coordinate": "tectonic:noise/continent/erosion",
+              "points": [
+                {
+                  "location": -0.8,
+                  "derivative": 0,
+                  "value": {
+                    "coordinate": "tectonic:__constants/deep_ocean_depth",
+                    "points": [
+                      {
+                        "location": 0,
+                        "derivative": 1,
+                        "value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "location": -0.75,
+                  "derivative": 0,
+                  "value": 0.04
+                },
+                {
+                  "location": -0.25,
+                  "derivative": 0,
+                  "value": 0.04
+                },
+                {
+                  "location": -0.2,
+                  "derivative": 0,
+                  "value": {
+                    "coordinate": "tectonic:__constants/deep_ocean_depth",
+                    "points": [
+                      {
+                        "location": 0,
+                        "derivative": 1,
+                        "value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "location": 0.025,
+                  "derivative": 0,
+                  "value": {
+                    "coordinate": "tectonic:__constants/deep_ocean_depth",
+                    "points": [
+                      {
+                        "location": 0,
+                        "derivative": 1,
+                        "value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "location": 0.075,
+                  "derivative": 0,
+                  "value": 0.04
+                },
+                {
+                  "location": 0.375,
+                  "derivative": 0,
+                  "value": 0.04
+                },
+                {
+                  "location": 0.425,
+                  "derivative": 0,
+                  "value": {
+                    "coordinate": "tectonic:__constants/deep_ocean_depth",
+                    "points": [
+                      {
+                        "location": 0,
+                        "derivative": 1,
+                        "value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "location": 0.44,
+                  "derivative": 0,
+                  "value": {
+                    "coordinate": "tectonic:__constants/deep_ocean_depth",
+                    "points": [
+                      {
+                        "location": 0,
+                        "derivative": 1,
+                        "value": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "location": 0.59,
+                  "derivative": 0,
+                  "value": 0.04
+                }
+              ]
+            }
           },
           {
             "derivative": 0,

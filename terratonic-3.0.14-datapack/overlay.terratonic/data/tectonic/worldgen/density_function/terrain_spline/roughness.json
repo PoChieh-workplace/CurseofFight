@@ -7,9 +7,24 @@
       "coordinate": "tectonic:noise/full_continents",
       "points": [
         {
-          "location": -0.2,
+          "location": -1.1,
+          "derivative": 0,
+          "value": 1
+        },
+        {
+          "location": -1.025,
           "derivative": 0,
           "value": 0.4
+        },
+        {
+          "location": -0.25,
+          "derivative": 0,
+          "value": 0.4
+        },
+        {
+          "location": -0.2,
+          "derivative": 0,
+          "value": 0
         },
         {
           "location": -0.15,
@@ -30,17 +45,7 @@
               {
                 "location": 0.925,
                 "derivative": 0,
-                "value": 1
-              },
-              {
-                "location": 0.975,
-                "derivative": 0,
-                "value": 1
-              },
-              {
-                "location": 1.05,
-                "derivative": 0,
-                "value": 0.4
+                "value": 0.8
               }
             ]
           }
