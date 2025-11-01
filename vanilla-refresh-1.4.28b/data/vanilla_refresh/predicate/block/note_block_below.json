@@ -1,0 +1,34 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    
+{
+      "condition": "minecraft:location_check",
+      "offsetY": -3,
+      "predicate": {
+        "block": {
+          "blocks": "note_block"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -2,
+      "predicate": {
+        "block": {
+          "blocks": "note_block"
+        }
+      }
+    },
+     {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": "note_block"
+        }
+      }
+    }
+
+  ]
+}

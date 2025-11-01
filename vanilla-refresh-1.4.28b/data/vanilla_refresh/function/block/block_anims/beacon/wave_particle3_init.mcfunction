@@ -1,0 +1,2 @@
+execute if predicate vanilla_refresh:block/full_air_exposure_around run function vanilla_refresh:block/block_anims/beacon/wave_particle3
+execute unless predicate vanilla_refresh:block/full_air_exposure_around positioned ~ ~1 ~ run function vanilla_refresh:block/block_anims/beacon/wave_particle3

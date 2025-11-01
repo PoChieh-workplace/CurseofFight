@@ -1,0 +1,61 @@
+{
+  "pack": {
+    "pack_format": 71,
+    "supported_formats": {
+      "min_inclusive": 71,
+      "max_inclusive": 9999
+    },
+    "description": [
+      {
+        "translate": "Vanilla Refresh",
+        "color": "#30dbbf"
+      },
+      {
+        "translate": " [v1.4.28b]",
+        "color": "#707070"
+      },
+      {
+        "translate": "\n"
+      },
+      {
+        "translate": "QOL Features",
+        "color": "#898f96"
+      }
+    ],
+    "min_format": 71,
+    "max_format": 9999
+  },
+  "overlays": {
+    "entries": [
+      
+      {
+        "directory": "1.21.6",
+        "formats": {
+          "min_inclusive": 80,
+          "max_inclusive": 9999
+        },
+        "min_format": 80.0,
+        "max_format": 9999.0
+      },
+      {
+        "directory": "1.21.7",
+        "formats": {
+          "min_inclusive": 81,
+          "max_inclusive": 9999
+        },
+        "min_format": 81.0,
+        "max_format": 9999.0
+        }
+      ,
+      {
+        "directory": "1.21.9",
+        "formats": {
+          "min_inclusive": 88,
+          "max_inclusive": 9999
+        },
+        "min_format": 88.0,
+        "max_format": 9999.0
+      }
+    ]
+  }
+}
