@@ -6,6 +6,26 @@
         "minecraft:snowy_taiga",
         "minecraft:old_growth_spruce_taiga",
         "minecraft:old_growth_pine_taiga",
-        "minecraft:forest"
+        {"id": "terralith:cave/andesite_caves", "required": false},
+        {"id": "terralith:cave/diorite_caves", "required": false},
+        {"id": "regions_unexplored:blackwood_taiga", "required": false},
+        {"id": "regions_unexplored:boreal_taiga", "required": false},
+        {"id": "regions_unexplored:cold_boreal_taiga", "required": false},
+        {"id": "regions_unexplored:cold_deciduous_forest", "required": false},
+        {"id": "regions_unexplored:frozen_pine_taiga", "required": false},
+        {"id": "regions_unexplored:frozen_tundra", "required": false},
+        {"id": "regions_unexplored:golden_boreal_taiga", "required": false},
+        {"id": "regions_unexplored:highland_fields", "required": false},
+        {"id": "regions_unexplored:icy_heights", "required": false},
+        {"id": "regions_unexplored:maple_forest", "required": false},
+        {"id": "regions_unexplored:mountains", "required": false},
+        {"id": "regions_unexplored:pine_slopes", "required": false},
+        {"id": "regions_unexplored:pine_taiga", "required": false},
+        {"id": "regions_unexplored:shrubland", "required": false},
+        {"id": "regions_unexplored:rocky_meadow", "required": false},
+        {"id": "regions_unexplored:towering_cliffs", "required": false},
+        {"id": "clifftree:caves", "required": false},   
+        {"id": "clifftree:cold_caves", "required": false},
+        {"id": "clifftree:frozen_caves", "required": false}
     ]
 }

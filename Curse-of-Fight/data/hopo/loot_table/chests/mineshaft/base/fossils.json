@@ -7,10 +7,10 @@
             },
             "entries": [
                 {
-					"type": "minecraft:loot_table",
-					"weight": 10,
-					"value": "hopo:chests/mineshaft/abandoned_miners_stuff"
-				},
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "value": "hopo:chests/mineshaft/abandoned_miners_stuff"
+                },
                 {
                     "type": "minecraft:item",
                     "weight": 2,
@@ -58,5 +58,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "hopo:chests/mineshaft/base/fossils"
 }

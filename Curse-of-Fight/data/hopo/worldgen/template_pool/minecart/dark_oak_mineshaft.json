@@ -1,6 +1,6 @@
 {       
     "name": "hopo:minecart/dark_oak_mineshaft",
-    "fallback": "hopo:minecart/dark_oak_mineshaft",
+    "fallback": "hopo:dark_oak_mineshaft",
     "elements": [
         {
             "weight": 50,

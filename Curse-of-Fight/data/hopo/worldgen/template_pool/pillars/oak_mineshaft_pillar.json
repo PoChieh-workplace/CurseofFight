@@ -1,0 +1,13 @@
+{
+	"fallback": "hopo:pillars/oak_mineshaft_pillar",
+	"elements": [
+	  {
+		"weight": 6,
+		"element": {
+		  "element_type": "minecraft:feature_pool_element",
+		  "projection": "rigid",
+		  "feature": "hopo:oak_mineshaft_pillar"
+		}
+	  }
+	]
+  }

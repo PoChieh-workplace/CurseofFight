@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "tectonic:config_noise",
+    "noise": "minecraft:temperature",
+    "key": "temperature",
+    "shift_x": "minecraft:shift_x",
+    "shift_z": "minecraft:shift_z"
+  }
+}

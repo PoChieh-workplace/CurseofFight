@@ -1,6 +1,6 @@
 {       
     "name": "hopo:minecart/acacia_mineshaft",
-    "fallback": "hopo:minecart/acacia_mineshaft",
+    "fallback": "hopo:acacia_mineshaft",
     "elements": [
         {
             "weight": 50,

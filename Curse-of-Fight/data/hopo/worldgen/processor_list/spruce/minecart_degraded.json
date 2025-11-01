@@ -113,7 +113,7 @@
 						"probability": 0.15
 					},
 					"output_state": {
-						"Name": "minecraft:chain",
+						"Name": "minecraft:iron_chain",
 						"Properties": {
 							"waterlogged": "false",
 							"axis": "y"

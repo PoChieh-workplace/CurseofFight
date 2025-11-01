@@ -1,3 +1,3 @@
 execute as @e[type=minecraft:marker,tag=village_protect] at @s run function cursefight:particle/village_protect
-execute as @e[type=minecraft:marker,tag=village_protect] at @s run playsound minecraft:entity.ender_eye.death block @a[distance=..15] ~ ~ ~ 
+execute as @e[type=minecraft:marker,tag=village_protect] at @s run playsound minecraft:entity.ender_eye.death block @a[distance=..15] ~ ~ ~
 execute as @e[type=minecraft:marker,tag=village_protect] at @s run playsound minecraft:block.beacon.ambient neutral @a[distance=..100] ~ ~ ~ 100 0.6

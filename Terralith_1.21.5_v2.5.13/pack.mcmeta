@@ -1,0 +1,48 @@
+{
+    "pack": {
+        "id": "terralith",
+        "supported_formats": [
+            71,
+            88
+        ],
+        "pack_format": 71,
+        "min_format": 71,
+        "max_format": 88,
+        "description": [
+            {
+                "text": "Terralith",
+                "color": "#1eb2bc"
+            },
+            {
+                "text": " - Overworld Evolved\nCreated by ",
+                "color": "gray"
+            },
+            {
+                "text": "Stardust Labs",
+                "color": "#683edd"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": [
+                    71,
+                    88
+                ],
+                "directory": "empty-overlay",
+                "min_format": 71,
+                "max_format": 88
+            },
+            {
+                "formats": [
+                    88,
+                    88
+                ],
+                "directory": "1-21-9-overlay",
+                "min_format": 88,
+                "max_format": 88
+            }
+        ]
+    }
+}

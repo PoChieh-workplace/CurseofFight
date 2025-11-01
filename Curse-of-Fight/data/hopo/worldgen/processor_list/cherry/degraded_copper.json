@@ -10,7 +10,7 @@
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
                         "block": "minecraft:copper_ore",
-                        "probability": 0.45
+                        "probability": 0.25
                     },
                     "output_state": {
                         "Name": "minecraft:stone"
@@ -22,7 +22,7 @@
                     },
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:chain",
+                        "block": "minecraft:iron_chain",
                         "probability": 0.5
                     },
                     "output_state": {

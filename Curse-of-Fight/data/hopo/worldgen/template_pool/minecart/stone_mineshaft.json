@@ -1,6 +1,6 @@
 {       
     "name": "hopo:minecart/stone_mineshaft",
-    "fallback": "hopo:minecart/stone_mineshaft",
+    "fallback": "hopo:stone_mineshaft",
     "elements": [
         {
             "weight": 50,

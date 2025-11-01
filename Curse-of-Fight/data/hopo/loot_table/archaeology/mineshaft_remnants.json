@@ -1,1211 +1,985 @@
 {
-    "pools": [
-        {
-            "rolls": {
-                "min": 1,
-                "max": 0
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:cobweb"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:calibrated_sculk_sensor"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:sculk_sensor"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:sculk"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_pickaxe",
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 1,
-                                "max": 30
-                            },
-                            "options": "#minecraft:on_random_loot"
-                        },
-                        {
-                            "function": "minecraft:set_damage",
-                            "damage": {
-                                "min": 0.1,
-                                "max": 0.3
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_sword",
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "type": "minecraft:uniform",
-                                "min": 10,
-                                "max": 20
-                            },
-                            "options": "#minecraft:on_random_loot"
-                        },
-                        {
-                            "function": "minecraft:set_damage",
-                            "damage": {
-                                "min": 0.1,
-                                "max": 0.3
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:slime_ball"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:painting"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:barrel",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_loot_table",
-                            "type": "minecraft:chest",
-                            "name": "hopo:chests/mineshaft/abandoned_miners_stuff"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:decorated_pot",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_loot_table",
-                            "type": "minecraft:chest",
-                            "name": "hopo:archaeology/mineshaft_remnants"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:decorated_pot",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_loot_table",
-                            "type": "minecraft:chest",
-                            "name": "hopo:archaeology/mineshaft_remnants"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:obsidian"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:clock"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:lead"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:dead_bush"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:tinted_glass"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:amethyst_shard"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:skeleton_skull"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:zombie_head"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:creeper_head"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:black_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Midnight Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:mojang",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:flower",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:gradient_up",
-                                        "color": "purple"
-                                    },
-                                    {
-                                        "pattern": "minecraft:circle",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_bottom",
-                                        "color": "gray"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangles_bottom",
-                                        "color": "black"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:black_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Red Sky Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:mojang",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:flower",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:gradient_up",
-                                        "color": "red"
-                                    },
-                                    {
-                                        "pattern": "minecraft:circle",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:square_bottom_left",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_bottom",
-                                        "color": "black"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:black_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Ring Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:circle",
-                                        "color": "yellow"
-                                    },
-                                    {
-                                        "pattern": "minecraft:flower",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_top",
-                                        "color": "light_blue"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_top",
-                                        "color": "black"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:black_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Soul Fire Creature Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:straight_cross",
-                                        "color": "cyan"
-                                    },
-                                    {
-                                        "pattern": "minecraft:bricks",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:flower",
-                                        "color": "lime"
-                                    },
-                                    {
-                                        "pattern": "minecraft:flower",
-                                        "color": "cyan"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_top",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:curly_border",
-                                        "color": "black"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:white_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Bow Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:straight_cross",
-                                        "color": "gray"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_downright",
-                                        "color": "brown"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_downleft",
-                                        "color": "brown"
-                                    },
-                                    {
-                                        "pattern": "minecraft:diagonal_left",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:rhombus",
-                                        "color": "light_blue"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_top",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_bottom",
-                                        "color": "white"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:white_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Bow Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:straight_cross",
-                                        "color": "gray"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_downright",
-                                        "color": "brown"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_downleft",
-                                        "color": "brown"
-                                    },
-                                    {
-                                        "pattern": "minecraft:diagonal_right",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:rhombus",
-                                        "color": "light_gray"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_top",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_bottom",
-                                        "color": "white"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:black_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Potion Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:cross",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_center",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_bottom",
-                                        "color": "magenta"
-                                    },
-                                    {
-                                        "pattern": "minecraft:curly_border",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_top",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:border",
-                                        "color": "black"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:black_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "text": "Sculk Banner",
-                                    "color": "gold"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:small_stripes",
-                                        "color": "cyan"
-                                    },
-                                    {
-                                        "pattern": "minecraft:cross",
-                                        "color": "cyan"
-                                    },
-                                    {
-                                        "pattern": "minecraft:flower",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:curly_border",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:small_stripes",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:curly_border",
-                                        "color": "black"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:light_gray_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Diamond Pickaxe Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:straight_cross",
-                                        "color": "brown"
-                                    },
-                                    {
-                                        "pattern": "minecraft:cross",
-                                        "color": "light_blue"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_bottom",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_top",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_bottom",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_top",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:half_vertical_right",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:square_bottom_right",
-                                        "color": "light_gray"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:white_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Battle Axe Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:flower",
-                                        "color": "light_gray"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_top",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:straight_cross",
-                                        "color": "brown"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_middle",
-                                        "color": "light_gray"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_top",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:curly_border",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:curly_border",
-                                        "color": "white"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:yellow_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Phoenix Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:curly_border",
-                                        "color": "red"
-                                    },
-                                    {
-                                        "pattern": "minecraft:gradient",
-                                        "color": "orange"
-                                    },
-                                    {
-                                        "pattern": "minecraft:circle",
-                                        "color": "red"
-                                    },
-                                    {
-                                        "pattern": "minecraft:cross",
-                                        "color": "red"
-                                    },
-                                    {
-                                        "pattern": "minecraft:flower",
-                                        "color": "orange"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_top",
-                                        "color": "red"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:red_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Red Eye Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:straight_cross",
-                                        "color": "orange"
-                                    },
-                                    {
-                                        "pattern": "minecraft:cross",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:small_stripes",
-                                        "color": "red"
-                                    },
-                                    {
-                                        "pattern": "minecraft:curly_border",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_top",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_bottom",
-                                        "color": "black"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:black_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Golden Criature Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:straight_cross",
-                                        "color": "yellow"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_middle",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:bricks",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:flower",
-                                        "color": "yellow"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_top",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangles_top",
-                                        "color": "yellow"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:white_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Fox Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:rhombus",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:curly_border",
-                                        "color": "orange"
-                                    },
-                                    {
-                                        "pattern": "minecraft:circle",
-                                        "color": "orange"
-                                    },
-                                    {
-                                        "pattern": "minecraft:creeper",
-                                        "color": "orange"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_top",
-                                        "color": "orange"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:black_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Crown Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:rhombus",
-                                        "color": "yellow"
-                                    },
-                                    {
-                                        "pattern": "minecraft:creeper",
-                                        "color": "yellow"
-                                    },
-                                    {
-                                        "pattern": "minecraft:circle",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_bottom",
-                                        "color": "yellow"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_bottom",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:half_horizontal",
-                                        "color": "black"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:black_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Blue Bird Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:cross",
-                                        "color": "cyan"
-                                    },
-                                    {
-                                        "pattern": "minecraft:rhombus",
-                                        "color": "light_blue"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_downright",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:diagonal_up_left",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:circle",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:border",
-                                        "color": "black"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:black_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Black Cat Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:curly_border",
-                                        "color": "light_blue"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangles_top",
-                                        "color": "light_blue"
-                                    },
-                                    {
-                                        "pattern": "minecraft:square_top_left",
-                                        "color": "light_blue"
-                                    },
-                                    {
-                                        "pattern": "minecraft:stripe_bottom",
-                                        "color": "brown"
-                                    },
-                                    {
-                                        "pattern": "minecraft:mojang",
-                                        "color": "black"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:light_gray_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "color": "gold",
-                                    "italic": false,
-                                    "text": "Wolf Banner"
-                                },
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "pattern": "minecraft:triangles_bottom",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:rhombus",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:circle",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:skull",
-                                        "color": "white"
-                                    },
-                                    {
-                                        "pattern": "minecraft:triangle_top",
-                                        "color": "black"
-                                    },
-                                    {
-                                        "pattern": "minecraft:border",
-                                        "color": "black"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:item_frame"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:arms_up_pottery_sherd"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:brewer_pottery_sherd"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:burn_pottery_sherd"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:plenty_pottery_sherd"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:archer_pottery_sherd"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:prize_pottery_sherd"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:danger_pottery_sherd"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:skull_pottery_sherd"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:wild_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:host_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:shaper_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:raiser_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:wayfinder_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:creeper_banner_pattern"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:music_disc_relic"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:mushroom_stew"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:glow_ink_sac"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bone_block"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bone"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:ender_pearl"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:flint_and_steel",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_damage",
-                            "damage": {
-                                "min": 0.1,
-                                "max": 0.2
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:name_tag"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:coal"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:raw_copper"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:raw_copper_block"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:dripstone_block"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:smooth_basalt"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:calcite"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:amethyst_block"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:cobbled_deepslate"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bundle"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:redstone"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:suspicious_stew",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_stew_effect",
-                            "effects": [
-                                {
-                                    "type": "minecraft:haste",
-                                    "duration": {
-                                        "min": 55,
-                                        "max": 90
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:stone_bricks"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:chiseled_stone_bricks"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:cobblestone"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:brick"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:golden_apple"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:emerald"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:raw_iron_block"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:raw_iron"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:raw_gold_block"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:raw_gold"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:andesite"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:granite"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diorite"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:ladder"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:rail"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:gunpowder"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:splash_potion",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_potion",
-                            "id": "minecraft:night_vision"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:candle"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:white_candle"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:light_gray_candle"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:brown_candle"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:torch"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:light_gray_banner"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:glow_lichen"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:experience_bottle"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:stick"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:tnt"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:brown_mushroom"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:red_mushroom"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_chestplate",
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 50,
-                            "options": "#minecraft:on_random_loot"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:shulker_box"
-                }
-            ]
-        }
-    ]
-}
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:cobweb"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:calibrated_sculk_sensor"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:sculk_sensor"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:sculk"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_pickaxe",
+			"functions": [
+			  {
+				"function": "minecraft:enchant_randomly",
+				"options": "#minecraft:on_random_loot"
+			  },
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.3
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_sword",
+			"functions": [
+			  {
+				"function": "minecraft:enchant_randomly",
+				"options": "#minecraft:on_random_loot"
+			  },
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.3
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:slime_ball"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:painting"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:barrel",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:tooltip_display": {
+					"hide_tooltip": false,
+					"hidden_components": [
+					  "minecraft:container_loot"
+					]
+				  }
+				}
+			  },
+			  {
+				"function": "minecraft:set_loot_table",
+				"type": "minecraft:chest",
+				"name": "hopo:chests/mineshaft/abandoned_miners_stuff"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:decorated_pot"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:obsidian"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:clock"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:lead"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:dead_bush"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:tinted_glass"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:amethyst_shard"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:skeleton_skull"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:zombie_head"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:black_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Midnight Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:mojang",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:flower",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:gradient_up",
+					  "color": "purple"
+					},
+					{
+					  "pattern": "minecraft:circle",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:triangle_bottom",
+					  "color": "gray"
+					},
+					{
+					  "pattern": "minecraft:triangles_bottom",
+					  "color": "black"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:black_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Red Sky Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:mojang",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:flower",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:gradient_up",
+					  "color": "red"
+					},
+					{
+					  "pattern": "minecraft:circle",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:square_bottom_left",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:triangle_bottom",
+					  "color": "black"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:black_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Ring Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:circle",
+					  "color": "yellow"
+					},
+					{
+					  "pattern": "minecraft:flower",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:triangle_top",
+					  "color": "light_blue"
+					},
+					{
+					  "pattern": "minecraft:stripe_top",
+					  "color": "black"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:black_banner",
+			"functions": []
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:white_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Bow Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:straight_cross",
+					  "color": "gray"
+					},
+					{
+					  "pattern": "minecraft:stripe_downright",
+					  "color": "brown"
+					},
+					{
+					  "pattern": "minecraft:stripe_downleft",
+					  "color": "brown"
+					},
+					{
+					  "pattern": "minecraft:diagonal_left",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:rhombus",
+					  "color": "light_blue"
+					},
+					{
+					  "pattern": "minecraft:triangle_top",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:triangle_bottom",
+					  "color": "white"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:black_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Potion Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:cross",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:stripe_center",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:stripe_bottom",
+					  "color": "magenta"
+					},
+					{
+					  "pattern": "minecraft:curly_border",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:stripe_top",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:border",
+					  "color": "black"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:black_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Sculk Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:small_stripes",
+					  "color": "cyan"
+					},
+					{
+					  "pattern": "minecraft:cross",
+					  "color": "cyan"
+					},
+					{
+					  "pattern": "minecraft:flower",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:curly_border",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:small_stripes",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:curly_border",
+					  "color": "black"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:light_gray_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Diamond Pickaxe Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "color": "black",
+					  "pattern": "minecraft:cross"
+					},
+					{
+					  "color": "black",
+					  "pattern": "minecraft:stripe_bottom"
+					},
+					{
+					  "color": "orange",
+					  "pattern": "minecraft:straight_cross"
+					},
+					{
+					  "color": "light_blue",
+					  "pattern": "minecraft:stripe_middle"
+					},
+					{
+					  "color": "black",
+					  "pattern": "minecraft:half_horizontal"
+					},
+					{
+					  "color": "black",
+					  "pattern": "minecraft:border"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:white_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Iron Axe Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:flower",
+					  "color": "light_gray"
+					},
+					{
+					  "pattern": "minecraft:triangle_top",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:straight_cross",
+					  "color": "brown"
+					},
+					{
+					  "pattern": "minecraft:stripe_middle",
+					  "color": "light_gray"
+					},
+					{
+					  "pattern": "minecraft:stripe_top",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:curly_border",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:curly_border",
+					  "color": "white"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:red_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Red Eye Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:straight_cross",
+					  "color": "orange"
+					},
+					{
+					  "pattern": "minecraft:cross",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:small_stripes",
+					  "color": "red"
+					},
+					{
+					  "pattern": "minecraft:curly_border",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:stripe_top",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:stripe_bottom",
+					  "color": "black"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:black_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Golden Criature Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:straight_cross",
+					  "color": "yellow"
+					},
+					{
+					  "pattern": "minecraft:stripe_middle",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:bricks",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:flower",
+					  "color": "yellow"
+					},
+					{
+					  "pattern": "minecraft:triangle_top",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:triangles_top",
+					  "color": "yellow"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:white_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Fox Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:rhombus",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:curly_border",
+					  "color": "orange"
+					},
+					{
+					  "pattern": "minecraft:circle",
+					  "color": "orange"
+					},
+					{
+					  "pattern": "minecraft:creeper",
+					  "color": "orange"
+					},
+					{
+					  "pattern": "minecraft:triangle_top",
+					  "color": "orange"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:black_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Crown Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:rhombus",
+					  "color": "yellow"
+					},
+					{
+					  "pattern": "minecraft:creeper",
+					  "color": "yellow"
+					},
+					{
+					  "pattern": "minecraft:circle",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:triangle_bottom",
+					  "color": "yellow"
+					},
+					{
+					  "pattern": "minecraft:stripe_bottom",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:half_horizontal",
+					  "color": "black"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:black_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Black Cat Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:curly_border",
+					  "color": "light_blue"
+					},
+					{
+					  "pattern": "minecraft:triangles_top",
+					  "color": "light_blue"
+					},
+					{
+					  "pattern": "minecraft:square_top_left",
+					  "color": "light_blue"
+					},
+					{
+					  "pattern": "minecraft:stripe_bottom",
+					  "color": "brown"
+					},
+					{
+					  "pattern": "minecraft:mojang",
+					  "color": "black"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:light_gray_banner",
+			"functions": [
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_name": {
+					"text": "Wolf Banner",
+					"italic": false
+				  },
+				  "minecraft:banner_patterns": [
+					{
+					  "pattern": "minecraft:triangles_bottom",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:rhombus",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:circle",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:skull",
+					  "color": "white"
+					},
+					{
+					  "pattern": "minecraft:triangle_top",
+					  "color": "black"
+					},
+					{
+					  "pattern": "minecraft:border",
+					  "color": "black"
+					}
+				  ],
+				  "minecraft:rarity": "uncommon"
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:item_frame"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:arms_up_pottery_sherd"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:brewer_pottery_sherd"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:burn_pottery_sherd"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:plenty_pottery_sherd"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:archer_pottery_sherd"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:prize_pottery_sherd"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:danger_pottery_sherd"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:skull_pottery_sherd"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:host_armor_trim_smithing_template"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:shaper_armor_trim_smithing_template"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:creeper_banner_pattern",
+			"weight": 2
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:mushroom_stew",
+			"weight": 3
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:glow_ink_sac"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:bone_block"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:bone"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:ender_pearl"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:flint_and_steel",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:name_tag"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:coal"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:raw_copper"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:raw_copper_block"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:dripstone_block"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:smooth_basalt"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:calcite"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:amethyst_block"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:cobbled_deepslate"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:bundle"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:redstone"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:suspicious_stew",
+			"functions": [
+			  {
+				"function": "minecraft:set_stew_effect",
+				"effects": [
+				  {
+					"type": "minecraft:haste",
+					"duration": {
+					  "min": 55,
+					  "max": 90
+					}
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:stone_bricks"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:chiseled_stone_bricks"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:cobblestone"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:brick"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:golden_apple"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:emerald"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:raw_iron_block"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:raw_iron"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:raw_gold_block"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:raw_gold"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:andesite"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:granite"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diorite"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:ladder"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:rail"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:gunpowder"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:splash_potion",
+			"functions": [
+			  {
+				"function": "minecraft:set_potion",
+				"id": "minecraft:night_vision"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:candle"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:white_candle"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:light_gray_candle"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:brown_candle"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:torch"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:light_gray_banner"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:glow_lichen"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:experience_bottle"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:stick"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:tnt"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:brown_mushroom"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:red_mushroom"
+		  }
+		]
+	  }
+	],
+	"random_sequence": "hopo:archaeology/mineshaft_remnants"
+  }

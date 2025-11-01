@@ -1,9 +1,9 @@
 {
     "name": "hopo:room/spruce_mineshaft",
-    "fallback": "hopo:room/spruce_mineshaft",
+    "fallback": "hopo:spruce_mineshaft",
     "elements": [
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_amethyst",
@@ -12,7 +12,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_archer",
@@ -21,7 +21,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_armor",
@@ -30,7 +30,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_bedroom",
@@ -39,7 +39,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_bedroom_1",
@@ -48,7 +48,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_bedroom_2",
@@ -57,7 +57,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_bedroom_3",
@@ -66,7 +66,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_books",
@@ -75,7 +75,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_brown_mushroom",
@@ -84,7 +84,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_copper",
@@ -93,7 +93,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_crafting",
@@ -102,7 +102,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_emerald",
@@ -111,7 +111,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_food",
@@ -156,7 +156,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_gold",
@@ -165,7 +165,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_iron",
@@ -174,7 +174,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_lapis",
@@ -183,16 +183,16 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "hopo:mineshaft/spruce/room_iron",
+                "location": "hopo:mineshaft/spruce/room_potions",
                 "projection": "rigid",
                 "processors": "hopo:spruce/degraded"
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_prison",
@@ -201,7 +201,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_red_mushroom",
@@ -210,7 +210,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_redstone",
@@ -219,7 +219,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_rip",
@@ -228,7 +228,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_smelting",
@@ -237,7 +237,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_tnt",
@@ -246,7 +246,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_tools",
@@ -255,7 +255,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/room_weapons",
@@ -336,7 +336,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/big_rooms/camp",
@@ -372,7 +372,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/big_rooms/music",
@@ -381,7 +381,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/big_rooms/portal",
@@ -393,13 +393,13 @@
             "weight": 85,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "hopo:mineshaft/spruce/big_rooms/copper",
+                "location": "hopo:mineshaft/spruce/big_rooms/potions",
                 "projection": "rigid",
                 "processors": "hopo:spruce/degraded"
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/big_rooms/prison",
@@ -411,7 +411,7 @@
             "weight": 85,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "hopo:mineshaft/spruce/big_rooms/portal",
+                "location": "hopo:mineshaft/spruce/big_rooms/r_anchor",
                 "projection": "rigid",
                 "processors": "hopo:spruce/degraded"
             }
@@ -421,6 +421,42 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/big_rooms/stews",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 70,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/villager_toolsmith",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 70,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/villager_weaponsmith",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/biomes_map/savanna",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/big_rooms/biomes_map/birch",
                 "projection": "rigid",
                 "processors": "hopo:spruce/degraded"
             }

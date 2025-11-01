@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "tectonic:__constants/above_bottom_y",
+    "points": [
+      {
+        "location": 0,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 16,
+        "derivative": 0,
+        "value": 1
+      }
+    ]
+  }
+}

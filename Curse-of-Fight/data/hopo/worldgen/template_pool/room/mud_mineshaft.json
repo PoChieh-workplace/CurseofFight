@@ -1,9 +1,9 @@
 {
     "name": "hopo:room/mud_mineshaft",
-    "fallback": "hopo:room/mud_mineshaft",
+    "fallback": "hopo:mud_mineshaft",
     "elements": [
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_amethyst",
@@ -12,7 +12,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_archer",
@@ -21,7 +21,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_armor",
@@ -30,7 +30,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_bedroom",
@@ -39,7 +39,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_bedroom_1",
@@ -48,7 +48,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_bedroom_2",
@@ -57,7 +57,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_bedroom_3",
@@ -66,7 +66,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_books",
@@ -75,7 +75,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_brown_mushroom",
@@ -84,7 +84,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_copper",
@@ -93,7 +93,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_crafting",
@@ -102,7 +102,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_emerald",
@@ -111,7 +111,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_food",
@@ -120,7 +120,7 @@
             }
         },
         {
-            "weight": 70,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_fossils",
@@ -129,7 +129,7 @@
             }
         },
         {
-            "weight": 70,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_fossils_1",
@@ -138,7 +138,7 @@
             }
         },
         {
-            "weight": 70,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_fossils_2",
@@ -147,7 +147,7 @@
             }
         },
         {
-            "weight": 70,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_fossils_3",
@@ -156,7 +156,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_gold",
@@ -165,7 +165,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_iron",
@@ -174,7 +174,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_lapis",
@@ -183,16 +183,16 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "hopo:mineshaft/mud/room_iron",
+                "location": "hopo:mineshaft/mud/room_potions",
                 "projection": "rigid",
                 "processors": "hopo:mud/degraded"
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_prison",
@@ -201,7 +201,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_red_mushroom",
@@ -210,16 +210,16 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_redstone",
                 "projection": "rigid",
-                "processors": "hopo:mud/degraded"
+                "processors": "hopo:mud/degraded_redstone"
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_rip",
@@ -228,7 +228,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_smelting",
@@ -237,7 +237,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_tnt",
@@ -246,7 +246,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_tools",
@@ -255,7 +255,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_weapons",
@@ -264,7 +264,7 @@
             }
         },
         {
-            "weight": 70,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/room_diamonds",
@@ -273,7 +273,7 @@
             }
         },
         {
-            "weight": 45,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/farm_beetroot",
@@ -282,7 +282,7 @@
             }
         },
         {
-            "weight": 45,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/farm_carrot",
@@ -291,7 +291,7 @@
             }
         },
         {
-            "weight": 45,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/farm_melon",
@@ -300,7 +300,7 @@
             }
         },
         {
-            "weight": 45,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/farm_potato",
@@ -309,7 +309,7 @@
             }
         },
         {
-            "weight": 45,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/farm_pumpkin",
@@ -318,7 +318,7 @@
             }
         },
         {
-            "weight": 45,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/farm_wheat",
@@ -327,7 +327,7 @@
             }
         },
         {
-            "weight": 90,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/archer",
@@ -336,7 +336,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/camp",
@@ -345,7 +345,7 @@
             }
         },
         {
-            "weight": 70,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/copper",
@@ -354,7 +354,7 @@
             }
         },
         {
-            "weight": 90,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/iron_golem",
@@ -363,7 +363,7 @@
             }
         },
         {
-            "weight": 85,
+            "weight": 90,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/map",
@@ -372,7 +372,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/music",
@@ -381,7 +381,7 @@
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/portal",
@@ -390,16 +390,16 @@
             }
         },
         {
-            "weight": 85,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "hopo:mineshaft/mud/big_rooms/copper",
+                "location": "hopo:mineshaft/mud/big_rooms/potions",
                 "projection": "rigid",
                 "processors": "hopo:mud/degraded"
             }
         },
         {
-            "weight": 80,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/prison",
@@ -408,19 +408,46 @@
             }
         },
         {
-            "weight": 85,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "hopo:mineshaft/mud/big_rooms/portal",
+                "location": "hopo:mineshaft/mud/big_rooms/r_anchor",
                 "projection": "rigid",
                 "processors": "hopo:mud/degraded"
             }
         },
         {
-            "weight": 85,
+            "weight": 32,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/mud/big_rooms/stews",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 70,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/big_rooms/villager_toolsmith",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 70,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/big_rooms/villager_weaponsmith",
+                "projection": "rigid",
+                "processors": "hopo:mud/degraded"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/mud/big_rooms/biomes_map/taiga",
                 "projection": "rigid",
                 "processors": "hopo:mud/degraded"
             }

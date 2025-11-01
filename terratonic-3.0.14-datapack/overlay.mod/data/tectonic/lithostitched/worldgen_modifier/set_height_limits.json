@@ -1,0 +1,5 @@
+{
+  "type": "tectonic:set_height_limits",
+  "dimension_type": "minecraft:overworld",
+  "noise_settings": "minecraft:overworld"
+}

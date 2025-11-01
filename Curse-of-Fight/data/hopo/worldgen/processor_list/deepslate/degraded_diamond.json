@@ -10,7 +10,7 @@
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
                         "block": "minecraft:deepslate_diamond_ore",
-                        "probability": 0.9
+                        "probability": 0.5
                     },
                     "output_state": {
                         "Name": "minecraft:deepslate",
@@ -25,7 +25,7 @@
                     },
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:chain",
+                        "block": "minecraft:iron_chain",
                         "probability": 0.5
                     },
                     "output_state": {

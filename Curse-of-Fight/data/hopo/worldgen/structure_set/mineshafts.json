@@ -25,6 +25,10 @@
 			"weight": 10
 		},
 		{
+			"structure": "hopo:mineshaft/pale_mineshaft",
+			"weight": 10
+		},
+		{
 			"structure": "hopo:mineshaft/oak_mineshaft",
 			"weight": 10
 		},
@@ -51,12 +55,12 @@
 	],
 	"placement": {
 		"type": "minecraft:random_spread",
-		"salt": 10110110,
-		"exclusion_zone": {
-			"other_set": "cursefight:deep_dungeon",
-			"chunk_count": 5
+		"salt": 10110111,
+		"exclusion_zone": {	 
+			"other_set": "minecraft:trial_chambers",
+			"chunk_count": 10
 		},
-		"spacing": 12,
-		"separation": 8
+		"spacing": 28,
+		"separation": 7
 	}
 }

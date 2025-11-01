@@ -1,6 +1,6 @@
 {       
     "name": "hopo:minecart/jungle_mineshaft",
-    "fallback": "hopo:minecart/jungle_mineshaft",
+    "fallback": "hopo:jungle_mineshaft",
     "elements": [
         {
             "weight": 50,

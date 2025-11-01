@@ -1,0 +1,13 @@
+{
+	"fallback": "hopo:pillars/acacia_mineshaft_pillar",
+	"elements": [
+	  {
+		"weight": 6,
+		"element": {
+		  "element_type": "minecraft:feature_pool_element",
+		  "projection": "rigid",
+		  "feature": "hopo:acacia_mineshaft_pillar"
+		}
+	  }
+	]
+  }

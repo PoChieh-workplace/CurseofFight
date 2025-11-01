@@ -5,6 +5,63 @@
 			"rules": [
 				{
 					"location_predicate": {
+					  "predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+					  "predicate_type": "minecraft:random_blockstate_match",
+					  "block_state": {
+						"Name": "minecraft:decorated_pot"
+					  },
+					  "probability": 0.18
+					},
+					"output_state": {
+					  "Name": "minecraft:candle",
+					  "Properties": {
+						"candles": "3"
+					  }
+					}
+				  },
+				  {
+					"location_predicate": {
+					  "predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+					  "predicate_type": "minecraft:random_block_match",
+					  "block": "minecraft:decorated_pot",
+					  "probability": 0.18
+					},
+					"output_state": {
+					  "Name": "minecraft:flower_pot"
+					}
+				  },
+				  {
+					"location_predicate": {
+					  "predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+					  "predicate_type": "minecraft:random_block_match",
+					  "block": "minecraft:decorated_pot",
+					  "probability": 0.18
+					},
+					"output_state": {
+					  "Name": "minecraft:potted_dead_bush"
+					}
+				  },
+				  {
+					"location_predicate": {
+					  "predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+					  "predicate_type": "minecraft:random_block_match",
+					  "block": "minecraft:decorated_pot",
+					  "probability": 0.18
+					},
+					"output_state": {
+					  "Name": "minecraft:cobweb"
+					}
+				  },
+				{
+					"location_predicate": {
 						"predicate_type": "minecraft:always_true"
 					},
 					"input_predicate": {
@@ -191,30 +248,33 @@
 				},
 				{
 					"location_predicate": {
-						"predicate_type": "minecraft:always_true"
+					  "predicate_type": "minecraft:always_true"
 					},
 					"input_predicate": {
-						"predicate_type": "minecraft:random_block_match",
-						"block": "minecraft:rail",
-						"probability": 0.0030
+					  "predicate_type": "minecraft:random_block_match",
+					  "block": "minecraft:rail",
+					  "probability": 0.001
 					},
 					"output_state": {
-						"Name": "minecraft:damaged_anvil"
+					  "Name": "minecraft:damaged_anvil"
 					}
-				},
-				{
+				  },
+				  {
 					"location_predicate": {
-						"predicate_type": "minecraft:always_true"
+					  "predicate_type": "minecraft:always_true"
 					},
 					"input_predicate": {
-						"predicate_type": "minecraft:random_block_match",
-						"block": "minecraft:rail",
-						"probability": 0.0044
+					  "predicate_type": "minecraft:random_block_match",
+					  "block": "minecraft:rail",
+					  "probability": 0.0033
 					},
 					"output_state": {
-						"Name": "minecraft:furnace"
+					  "Name": "minecraft:furnace",
+					  "Properties": {
+						"facing": "west"
+					  }
 					}
-				},
+				  },
 				{
 					"location_predicate": {
 						"predicate_type": "minecraft:always_true"
@@ -387,7 +447,7 @@
 					},
 					"block_entity_modifier": {
 						"type": "minecraft:append_loot",
-						"loot_table": "hopo:archaeology/mineshaft_remnants"
+						"loot_table": "hopo:pots/mineshaft/corridor_mineshaft"
 					}
 				},
 				{
@@ -454,7 +514,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:stone",
-						"probability": 0.005
+						"probability": 0.01
 					},
 					"output_state": {
 						"Name": "minecraft:infested_cobblestone"
@@ -480,7 +540,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:stone",
-						"probability": 0.0005
+						"probability": 0.007
 					},
 					"output_state": {
 						"Name": "minecraft:barrel",
@@ -501,7 +561,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:stone",
-						"probability": 0.03
+						"probability": 0.020
 					},
 					"output_state": {
 						"Name": "minecraft:suspicious_gravel",
@@ -547,7 +607,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:jungle_planks",
-						"probability": 0.005
+						"probability": 0.01
 					},
 					"output_state": {
 						"Name": "minecraft:emerald_ore"

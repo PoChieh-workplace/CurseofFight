@@ -93,7 +93,7 @@
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
                         "block": "minecraft:chiseled_stone_bricks",
-                        "probability": 0.17
+                        "probability": 0.35
                     },
                     "output_state": {
                         "Name": "minecraft:infested_chiseled_stone_bricks"
@@ -132,7 +132,7 @@
                     "input_predicate": {
                         "predicate_type": "minecraft:random_block_match",
                         "block": "minecraft:mangrove_planks",
-                        "probability": 0.005
+                        "probability": 0.01
                     },
                     "output_state": {
                         "Name": "minecraft:infested_stone"

@@ -1,6 +1,19 @@
 {
     "replace": false,
     "values": [
-        "#minecraft:is_underground"
+        "minecraft:meadow",
+        {"id": "terralith:cave/mantle_caves", "required": false},
+        {"id": "terralith:cave/frostfire_caves", "required": false},
+        {"id": "terralith:cave/tuff_caves", "required": false},
+        {"id": "biomesoplenty:spider_nest", "required": false},
+        {"id": "biomesoplenty:glowing_grotto", "required": false},
+        {"id": "regions_unexplored:ancient_delta", "required": false},
+        {"id": "regions_unexplored:ashen_woodland", "required": false},
+        {"id": "regions_unexplored:bioshroom_caves", "required": false},
+        {"id": "regions_unexplored:hyacinth_deeps", "required": false},
+        {"id": "regions_unexplored:prismachasm", "required": false},
+        {"id": "regions_unexplored:redstone_caves", "required": false},
+        {"id": "regions_unexplored:scorching_caves", "required": false},
+        {"id": "clifftree:caves", "required": false}
     ]
 }

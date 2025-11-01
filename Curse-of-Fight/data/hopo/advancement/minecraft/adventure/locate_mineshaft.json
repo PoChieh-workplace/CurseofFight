@@ -1,0 +1,287 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:torch"
+	  },
+	  "title": {
+		"translate": "So we back in the mine..."
+	  },
+	  "description": {
+		"translate": "Discover the renovated mineshafts"
+	  },
+	  "frame": "goal",
+	  "show_toast": true,
+	  "announce_to_chat": true,
+	  "hidden": false
+	},
+	"parent": "minecraft:adventure/kill_a_mob",
+	"criteria": {
+	  "locate_deepslate_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/deepslate_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_stone_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/stone_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_acacia_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/acacia_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_bamboo_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/bamboo_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_birch_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/birch_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_cherry_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/cherry_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_dark_oak_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/dark_oak_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_jungle_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/jungle_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_mangrove_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/mangrove_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_mud_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/mud_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_oak_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/oak_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_pale_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/pale_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_spruce_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/spruce_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_lush_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/biomes/lush_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "locate_dripstone_mineshaft": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"location": {
+				  "structures": "hopo:mineshaft/biomes/dripstone_mineshaft"
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"locate_deepslate_mineshaft",
+		"locate_stone_mineshaft",
+		"locate_acacia_mineshaft",
+		"locate_bamboo_mineshaft",
+		"locate_birch_mineshaft",
+		"locate_cherry_mineshaft",
+		"locate_dark_oak_mineshaft",
+		"locate_jungle_mineshaft",
+		"locate_mangrove_mineshaft",
+		"locate_mud_mineshaft",
+		"locate_oak_mineshaft",
+		"locate_pale_mineshaft",
+		"locate_spruce_mineshaft",
+		"locate_lush_mineshaft",
+		"locate_dripstone_mineshaft"
+	  ]
+	],
+	"rewards": {
+	  "function": "hopo:play_creepy_sounds",
+	  "loot": [
+		"minecraft:blocks/torch"
+	  ],
+	  "recipes": [],
+	  "experience": 25
+	}
+  }

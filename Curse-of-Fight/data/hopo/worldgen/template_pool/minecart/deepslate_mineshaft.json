@@ -1,6 +1,6 @@
 {       
     "name": "hopo:minecart/deepslate_mineshaft",
-    "fallback": "hopo:minecart/deepslate_mineshaft",
+    "fallback": "hopo:deepslate_mineshaft",
     "elements": [
         {
             "weight": 50,

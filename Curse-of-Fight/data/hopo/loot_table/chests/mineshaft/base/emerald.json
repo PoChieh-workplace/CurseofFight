@@ -2,18 +2,18 @@
     "pools": [
         {
             "rolls": {
-                "min": 1,
-                "max": 3
+                "min": 4,
+                "max": 6
             },
             "entries": [
                 {
-					"type": "minecraft:loot_table",
-					"weight": 5,
-					"value": "hopo:chests/mineshaft/abandoned_miners_stuff"
-				},
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "value": "hopo:chests/mineshaft/abandoned_miners_stuff"
+                },
                 {
                     "type": "minecraft:item",
-                    "weight": 5,
+                    "weight": 3,
                     "name": "minecraft:emerald_block",
                     "functions": [
                         {
@@ -28,7 +28,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 10,
+                    "weight": 15,
                     "name": "minecraft:emerald_ore",
                     "functions": [
                         {
@@ -43,14 +43,14 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 10,
+                    "weight": 17,
                     "name": "minecraft:emerald",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 2
+                                "max": 10
                             },
                             "add": false
                         }
@@ -58,5 +58,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "hopo:chests/mineshaft/base/emerald"
 }

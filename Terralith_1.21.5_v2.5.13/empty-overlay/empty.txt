@@ -1,0 +1,5 @@
+Why does this directory exist?
+
+It's so you don't see an annoying error in logs when using the datapack on older versions.
+
+See https://mojira.dev/MC-302593

@@ -1,6 +1,6 @@
 {       
     "name": "hopo:minecart/cherry_mineshaft",
-    "fallback": "hopo:minecart/cherry_mineshaft",
+    "fallback": "hopo:cherry_mineshaft",
     "elements": [
         {
             "weight": 50,

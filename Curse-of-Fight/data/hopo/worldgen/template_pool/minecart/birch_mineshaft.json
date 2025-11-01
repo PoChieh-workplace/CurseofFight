@@ -1,6 +1,6 @@
 {       
     "name": "hopo:minecart/birch_mineshaft",
-    "fallback": "hopo:minecart/birch_mineshaft",
+    "fallback": "hopo:birch_mineshaft",
     "elements": [
         {
             "weight": 50,

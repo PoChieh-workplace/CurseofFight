@@ -1,277 +1,279 @@
 {
-	"pools": [
-		{
-			"rolls": {
-				"min": 2,
-				"max": 3
-			},
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:luck"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:water"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:glass_bottle",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:leaping"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:slow_falling"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:swiftness"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:invisibility"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:night_vision"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:potion_contents": {
-									"custom_color": 16284963,
-									"custom_effects": [
-										{
-											"id": "minecraft:health_boost",
-											"duration": 900
-										}
-									]
-								},
-								"minecraft:rarity": "uncommon"
-							}
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"text": "增血藥水",
-								"italic": false
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:rarity": "uncommon",
-								"minecraft:potion_contents": {
-									"custom_color": 3089152,
-									"custom_effects": [
-										{
-											"id": "minecraft:strength",
-											"duration": 300
-										},
-										{
-											"id": "minecraft:blindness",
-											"duration": 255
-										}
-									]
-								}
-							}
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"text": "Potion of Blind Rage",
-								"italic": false
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:rarity": "uncommon",
-								"minecraft:potion_contents": {
-									"custom_color": 65510,
-									"custom_effects": [
-										{
-											"id": "minecraft:speed",
-											"amplifier": 1,
-											"duration": 800
-										},
-										{
-											"id": "minecraft:jump_boost",
-											"amplifier": 1,
-											"duration": 800
-										},
-										{
-											"id": "minecraft:invisibility",
-											"duration": 800
-										},
-										{
-											"id": "minecraft:night_vision",
-											"duration": 1400
-										}
-									]
-								}
-							}
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"text": "Ninja 藥水",
-								"italic": false
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:rarity": "uncommon",
-								"minecraft:potion_contents": {
-									"custom_color": 16380058,
-									"custom_effects": [
-										{
-											"id": "minecraft:glowing",
-											"duration": 1800
-										}
-									]
-								}
-							}
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"text": "Potion of Light",
-								"italic": false
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:rarity": "uncommon",
-								"minecraft:potion_contents": {
-									"custom_color": 15597823,
-									"custom_effects": [
-										{
-											"id": "minecraft:speed",
-											"amplifier": 9,
-											"duration": 333
-										},
-										{
-											"id": "minecraft:haste",
-											"amplifier": 4,
-											"duration": 1400
-										},
-										{
-											"id": "minecraft:jump_boost",
-											"amplifier": 4,
-											"duration": 444
-										},
-										{
-											"id": "minecraft:nausea",
-											"amplifier": 4,
-											"duration": 900
-										},
-										{
-											"id": "minecraft:glowing",
-											"duration": 222
-										}
-									]
-								}
-							}
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": [
-								{
-									"text": "Madness 藥水",
-									"italic": false
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:luck"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:water"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_bottle",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:turtle_master"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:leaping"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:slow_falling"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:swiftness"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:strength"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:invisibility"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:night_vision"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 16284963,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:health_boost",
+                                            "duration": 900
+                                        }
+                                    ]
+                                },
+                                "minecraft:rarity": "uncommon"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Potion of Fortitude",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:rarity": "uncommon",
+                                "minecraft:potion_contents": {
+                                    "custom_color": 3089152,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:strength",
+                                            "duration": 300
+                                        },
+                                        {
+                                            "id": "minecraft:blindness",
+                                            "duration": 255
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Potion of Blind Rage",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:rarity": "uncommon",
+                                "minecraft:potion_contents": {
+                                    "custom_color": 65510,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:invisibility",
+                                            "duration": 1800
+                                        },
+                                        {
+                                            "id": "minecraft:night_vision",
+                                            "duration": 444
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Potion of Hiding",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:rarity": "uncommon",
+                                "minecraft:potion_contents": {
+                                    "custom_color": 16380058,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:glowing",
+                                            "duration": 1800
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Potion of Light",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:rarity": "uncommon",
+                                "minecraft:potion_contents": {
+                                    "custom_color": 15597823,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:speed",
+                                            "amplifier": 3,
+                                            "duration": 333
+                                        },
+                                        {
+                                            "id": "minecraft:haste",
+                                            "amplifier": 3,
+                                            "duration": 1800
+                                        },
+                                        {
+                                            "id": "minecraft:nausea",
+                                            "amplifier": 0,
+                                            "duration": 150
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "text": "Potion of Madness",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "hopo:chests/mineshaft/big_rooms/potion"
 }

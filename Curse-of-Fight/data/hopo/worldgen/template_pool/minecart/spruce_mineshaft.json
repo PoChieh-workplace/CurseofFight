@@ -1,6 +1,6 @@
 {       
     "name": "hopo:minecart/spruce_mineshaft",
-    "fallback": "hopo:minecart/spruce_mineshaft",
+    "fallback": "hopo:spruce_mineshaft",
     "elements": [
         {
             "weight": 50,

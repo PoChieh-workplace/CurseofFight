@@ -1,126 +1,130 @@
 {
-	"pools": [
-		{
-			"rolls": {
-				"min": 2,
-				"max": 5
-			},
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"weight": 1,
-					"value": "hopo:chests/mineshaft/abandoned_miners_stuff"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:saddle"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:goat_horn",
-					"functions": [
-						{
-							"function": "minecraft:set_instrument",
-							"options": "#minecraft:regular_goat_horns"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:spyglass"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:glass_pane",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 6
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:redstone",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 6
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:iron_ingot",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 6
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:compass"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:map"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:map",
-					"functions": [
-						{
-							"function": "minecraft:exploration_map",
-							"destination": "minecraft:village",
-							"decoration": "red_x",
-							"zoom": 2,
-							"skip_existing_chunks": true
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": "Village Explorer Map"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 4,
-					"name": "minecraft:paper",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 6
-							},
-							"add": false
-						}
-					]
-				}
-			]
-		}
-	]
-}
+    "pools": [
+      {
+        "rolls": {
+          "min": 2,
+          "max": 5
+        },
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "value": "hopo:chests/mineshaft/abandoned_miners_stuff"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:saddle"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:goat_horn",
+            "functions": [
+              {
+                "function": "minecraft:set_instrument",
+                "options": "#minecraft:regular_goat_horns"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:spyglass"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 6
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:redstone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 6
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:iron_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 6
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:compass"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:map"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "minecraft:village",
+                "decoration": "red_x",
+                "zoom": 2,
+                "skip_existing_chunks": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "Village Explorer Map",
+                  "italic": false
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 6
+                },
+                "add": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "hopo:chests/mineshaft/big_rooms/map"
+  }

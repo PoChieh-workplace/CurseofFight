@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": 0.0078,
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": -134,
+        "argument2": {
+          "type": "tectonic:config_constant",
+          "key": "max_y"
+        }
+      }
+    }
+  }
+}

@@ -9,10 +9,9 @@
     "hopo:mineshaft/jungle_mineshaft",
     "hopo:mineshaft/mangrove_mineshaft",
     "hopo:mineshaft/mud_mineshaft",
+    "hopo:mineshaft/pale_mineshaft",
     "hopo:mineshaft/oak_mineshaft",
     "hopo:mineshaft/spruce_mineshaft",
-    "hopo:mineshaft/stone_mineshaft",
-    "hopo:mineshaft/biomes/lush_mineshaft",
-    "hopo:mineshaft/biomes/dripstone_mineshaft"
+    "hopo:mineshaft/stone_mineshaft"
   ]
 }

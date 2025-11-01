@@ -1,6 +1,6 @@
 {       
     "name": "hopo:minecart/bamboo_mineshaft",
-    "fallback": "hopo:minecart/bamboo_mineshaft",
+    "fallback": "hopo:bamboo_mineshaft",
     "elements": [
         {
             "weight": 50,

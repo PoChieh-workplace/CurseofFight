@@ -1,12 +1,12 @@
 {
     "name": "hopo:mobs/poison_skeleton",
-    "fallback": "hopo:mobs/poison_skeleton",
+    "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 100,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "hopo:mineshaft/mobs/nomob",
+                "location": "hopo:mineshaft/mobs/poison_skeleton",
                 "projection": "rigid",
                 "processors": "minecraft:empty"
             }

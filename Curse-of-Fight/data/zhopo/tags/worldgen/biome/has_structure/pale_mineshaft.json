@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:pale_garden",
+        {"id": "terralith:cave/infested_caves", "required": false}
+    ]
+}

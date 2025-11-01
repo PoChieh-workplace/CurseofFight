@@ -1,707 +1,675 @@
 {
 	"pools": [
-		{
-			"rolls": {
-				"min": 1,
-				"max": 3
-			},
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:cobweb"
+	  {
+		"rolls": {
+		  "min": 1,
+		  "max": 2
+		},
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:cobweb"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:brush",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.2
 				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:brush",
-					"functions": [
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.1,
-								"max": 0.2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:obsidian",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 0,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:bread",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:poisonous_potato",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:golden_carrot",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:glow_berries",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 5
-							}
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:food": {
-									"nutrition": 2,
-									"saturation": 2,
-									"can_always_eat": true
-								},
-								"minecraft:consumable": {
-									"consume_seconds": 2,
-									"on_consume_effects": [
-										{
-											"type": "minecraft:apply_effects",
-											"effects": [
-												{
-													"id": "minecraft:regeneration",
-													"amplifier": 0,
-													"duration": 60
-												}
-											]
-										}
-									]
-								},
-								"minecraft:custom_name": [
-									"",
-									{
-										"text": "小甜點",
-										"italic": false,
-										"color": "red"
-									}
-								]
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:clock"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:lead"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:dead_bush",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:tinted_glass"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:amethyst_shard",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:skeleton_skull"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:mushroom_stew"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:glow_ink_sac",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:diamond"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:bone_block"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:bone",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:ender_pearl"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:flint_and_steel",
-					"functions": [
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.1,
-								"max": 0.2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:name_tag"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:coal",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:raw_copper",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:raw_copper_block",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:dripstone_block",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:smooth_basalt",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:calcite",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:amethyst_block",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:cobbled_deepslate",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 6
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:bundle"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:redstone",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:suspicious_stew",
-					"functions": [
-						{
-							"function": "minecraft:set_stew_effect",
-							"effects": [
-								{
-									"type": "minecraft:haste",
-									"duration": {
-										"min": 55,
-										"max": 90
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:stone_bricks",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:chiseled_stone_bricks",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:cobblestone",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:brick",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:golden_apple"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:emerald",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:raw_iron_block"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:raw_iron",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:raw_gold_block"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:raw_gold",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:andesite",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:granite",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:diorite",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:ladder",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:rail",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 7
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:gunpowder",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:splash_potion",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:night_vision"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:candle",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:torch",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:light_gray_banner"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:glow_lichen",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:experience_bottle",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:stick",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:tnt",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:brown_mushroom",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:red_mushroom",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				}
+				"add": false
+			  }
 			]
-		}
-	]
-}
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:obsidian",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 0,
+				  "max": 2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:bread",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:poisonous_potato",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 3
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:golden_carrot",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:glow_berries",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:clock"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:lead"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:dead_bush",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:tinted_glass"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:amethyst_shard",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:skeleton_skull"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:mushroom_stew"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:glow_ink_sac",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:bone_block"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:bone",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:ender_pearl"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:flint_and_steel",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:name_tag"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:coal",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:raw_copper",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:raw_copper_block",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:dripstone_block",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:smooth_basalt",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:calcite",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:amethyst_block",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:cobbled_deepslate",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 6
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:bundle"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:redstone",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:suspicious_stew",
+			"functions": [
+			  {
+				"function": "minecraft:set_stew_effect",
+				"effects": [
+				  {
+					"type": "minecraft:haste",
+					"duration": {
+					  "min": 55,
+					  "max": 90
+					}
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:stone_bricks",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:chiseled_stone_bricks",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:cobblestone",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:brick",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:golden_apple"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:emerald",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:raw_iron_block"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:raw_iron",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 3
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:raw_gold_block"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:raw_gold",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 3
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:andesite",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:granite",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diorite",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:ladder",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:rail",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 7
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:gunpowder",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:splash_potion",
+			"functions": [
+			  {
+				"function": "minecraft:set_potion",
+				"id": "minecraft:night_vision"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:candle",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:torch",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:light_gray_banner"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:glow_lichen",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:experience_bottle",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:stick",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:tnt",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 3
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:brown_mushroom",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:red_mushroom",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 5
+				},
+				"add": false
+			  }
+			]
+		  }
+		]
+	  }
+	],
+	"random_sequence": "hopo:chests/mineshaft/abandoned_miners_stuff"
+  }

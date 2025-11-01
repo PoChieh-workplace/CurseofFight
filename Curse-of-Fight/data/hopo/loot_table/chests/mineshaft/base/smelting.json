@@ -7,10 +7,10 @@
             },
             "entries": [
                 {
-					"type": "minecraft:loot_table",
-					"weight": 5,
-					"value": "hopo:chests/mineshaft/abandoned_miners_stuff"
-				},
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "value": "hopo:chests/mineshaft/abandoned_miners_stuff"
+                },
                 {
                     "type": "minecraft:item",
                     "weight": 1,
@@ -68,5 +68,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "hopo:chests/mineshaft/base/smelting"
 }

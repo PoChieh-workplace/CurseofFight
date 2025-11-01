@@ -1,6 +1,31 @@
 {
     "replace": false,
     "values": [
-        "minecraft:plains"
+        "minecraft:forest",
+        {"id": "terralith:cave/andesite_caves", "required": false},
+        {"id": "terralith:cave/diorite_caves", "required": false},
+        {"id": "terralith:cave/granite_caves", "required": false},
+        {"id": "regions_unexplored:alpha_grove", "required": false},
+        {"id": "regions_unexplored:autumnal_maple_forest", "required": false},
+        {"id": "regions_unexplored:barley_fields", "required": false},
+        {"id": "regions_unexplored:clover_plains", "required": false},
+        {"id": "regions_unexplored:cold_deciduous_forest", "required": false},
+        {"id": "regions_unexplored:deciduous_forest", "required": false},
+        {"id": "regions_unexplored:eucalyptus_forest", "required": false},
+        {"id": "regions_unexplored:flower_fields", "required": false},
+        {"id": "regions_unexplored:grassland", "required": false},
+        {"id": "regions_unexplored:highland_fields", "required": false},
+        {"id": "regions_unexplored:maple_forest", "required": false},
+        {"id": "regions_unexplored:mauve_forest", "required": false},
+        {"id": "regions_unexplored:orchard", "required": false},
+        {"id": "regions_unexplored:poppy_fields", "required": false},
+        {"id": "regions_unexplored:pumpkin_fields", "required": false},
+        {"id": "regions_unexplored:rocky_meadow", "required": false},
+        {"id": "regions_unexplored:shrubland", "required": false},
+        {"id": "regions_unexplored:temperate_grove", "required": false},
+        {"id": "regions_unexplored:willow_forest", "required": false},
+        {"id": "clifftree:caves", "required": false},   
+        {"id": "clifftree:cold_caves", "required": false},
+        {"id": "clifftree:frozen_caves", "required": false}
     ]
 }

@@ -1,9 +1,9 @@
 {
     "name": "hopo:spruce_mineshaft",
-    "fallback": "hopo:spruce_mineshaft",
+    "fallback": "minecraft:empty",
     "elements": [
         {
-            "weight": 94,
+            "weight": 80,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/path",
@@ -16,6 +16,87 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/path_alt",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/path_small_1",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/path_small_2",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/path_small_3",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/path_small_4",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/path_small_5",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/path_small_6",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/path_small_7",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/path_small_8",
+                "projection": "rigid",
+                "processors": "hopo:spruce/degraded"
+            }
+        },
+        {
+            "weight": 94,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/path_small_9",
                 "projection": "rigid",
                 "processors": "hopo:spruce/degraded"
             }
@@ -75,7 +156,7 @@
             }
         },
         {
-            "weight": 100,
+            "weight": 75,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/pathlong_5",
@@ -84,12 +165,21 @@
             }
         },
         {
+            "weight": 90,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:mineshaft/spruce/pathlong_6",
+                "projection": "rigid",
+                "processors": "hopo:spruce/minecart_degraded"
+            }
+        },
+        {
             "weight": 15,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/trap/trap_1",
                 "projection": "rigid",
-                "processors": "hopo:spruce/degradedtrap"
+                "processors": "hopo:spruce/degraded"
             }
         },
         {
@@ -98,7 +188,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/trap/trap_2",
                 "projection": "rigid",
-                "processors": "hopo:spruce/degradedtrap"
+                "processors": "hopo:spruce/degraded"
             }
         },
         {
@@ -107,7 +197,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/trap/trap_3",
                 "projection": "rigid",
-                "processors": "hopo:spruce/degradedtrap"
+                "processors": "hopo:spruce/degraded"
             }
         },
         {
@@ -116,7 +206,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/trap/trap_4",
                 "projection": "rigid",
-                "processors": "hopo:spruce/degradedtrap"
+                "processors": "hopo:spruce/degraded"
             }
         },
         {
@@ -125,11 +215,11 @@
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/trap/trap_5",
                 "projection": "rigid",
-                "processors": "hopo:spruce/degradedtrap"
+                "processors": "hopo:spruce/degraded"
             }
         },
         {
-            "weight": 97,
+            "weight": 75,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/entrance",
@@ -138,7 +228,7 @@
             }
         },
         {
-            "weight": 97,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/entrance_alt",
@@ -156,7 +246,7 @@
             }
         },
         {
-            "weight": 97,
+            "weight": 80,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "hopo:mineshaft/spruce/entrance_1_alt",
@@ -195,7 +285,7 @@
             "weight": 25,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "hopo:mineshaft/spruce/down",
+                "location": "hopo:mineshaft/spruce/down_1",
                 "projection": "rigid",
                 "processors": "hopo:spruce/degraded"
             }
@@ -219,19 +309,19 @@
             }
         },
         {
-            "weight": 10,
+            "weight": 20,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "hopo:mineshaft/spruce/down_2",
+                "location": "hopo:mineshaft/spruce/down_4",
                 "projection": "rigid",
                 "processors": "hopo:spruce/degradeddown"
             }
         },
         {
-            "weight": 10,
+            "weight": 30,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "hopo:mineshaft/spruce/down_1",
+                "location": "hopo:mineshaft/spruce/down_5",
                 "projection": "rigid",
                 "processors": "hopo:spruce/degradeddown"
             }

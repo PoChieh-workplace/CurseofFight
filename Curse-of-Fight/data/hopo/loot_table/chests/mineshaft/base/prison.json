@@ -1,72 +1,73 @@
 {
-	"pools": [
-		{
-			"rolls": {
-				"min": 4,
-				"max": 6
-			},
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "hopo:chests/mineshaft/abandoned_miners_stuff",
-					"weight": 5
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:lead",
-					"weight": 2
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:bowl",
-					"weight": 4,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 0,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:paper",
-					"weight": 2,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:rotten_flesh",
-					"weight": 5,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:bucket",
-					"weight": 4
-				}
-			]
-		}
-	]
+    "pools": [
+        {
+            "rolls": {
+                "min": 4,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "hopo:chests/mineshaft/abandoned_miners_stuff",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lead",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bowl",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bucket",
+                    "weight": 4
+                }
+            ]
+        }
+    ],
+    "random_sequence": "hopo:chests/mineshaft/base/prison"
 }

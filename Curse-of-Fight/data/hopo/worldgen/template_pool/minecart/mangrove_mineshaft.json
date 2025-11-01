@@ -1,6 +1,6 @@
 {       
     "name": "hopo:minecart/mangrove_mineshaft",
-    "fallback": "hopo:minecart/mangrove_mineshaft",
+    "fallback": "hopo:mangrove_mineshaft",
     "elements": [
         {
             "weight": 50,

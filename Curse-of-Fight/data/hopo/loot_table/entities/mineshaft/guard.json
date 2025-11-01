@@ -38,5 +38,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "hopo:entities/mineshaft/guard"
 }

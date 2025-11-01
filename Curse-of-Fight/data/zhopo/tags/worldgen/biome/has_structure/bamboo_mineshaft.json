@@ -3,6 +3,11 @@
     "values": [
         "minecraft:jungle",
         "minecraft:bamboo_jungle",
-        "minecraft:sparse_jungle"
+        "minecraft:sparse_jungle",
+        {"id": "terralith:cave/underground_jungle", "required": false},
+        {"id": "regions_unexplored:bamboo_forest", "required": false},
+        {"id": "clifftree:caves", "required": false},   
+        {"id": "clifftree:cold_caves", "required": false},
+        {"id": "clifftree:frozen_caves", "required": false}
     ]
 }

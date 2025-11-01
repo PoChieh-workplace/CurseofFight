@@ -1,37 +1,62 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:splash_potion",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:rarity": "rare",
-								"minecraft:potion_contents": {
-									"custom_color": 2637097,
-									"custom_effects": [
-										{
-											"id": "minecraft:unluck",
-											"duration": 3000
-										}
-									]
-								}
-							}
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"text": "洞穴蜘蛛的洗禮",
-								"italic": false
-							}
-						}
-					]
-				}
-			]
-		}
-	]
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:rarity": "rare",
+                                "minecraft:potion_contents": {
+                                    "custom_color": 2637097,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:slowness",
+                                            "amplifier": 2,
+                                            "duration": 555
+                                        },
+                                        {
+                                            "id": "minecraft:mining_fatigue",
+                                            "amplifier": 2,
+                                            "duration": 777
+                                        },
+                                        {
+                                            "id": "minecraft:nausea",
+                                            "amplifier": 2,
+                                            "duration": 777
+                                        },
+                                        {
+                                            "id": "minecraft:blindness",
+                                            "duration": 777
+                                        },
+                                        {
+                                            "id": "minecraft:weakness",
+                                            "amplifier": 2,
+                                            "duration": 666
+                                        },
+                                        {
+                                            "id": "minecraft:poison",
+                                            "duration": 555
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Cave Spider Essence",
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "hopo:chests/mineshaft/big_rooms/cavespiderpotion"
 }

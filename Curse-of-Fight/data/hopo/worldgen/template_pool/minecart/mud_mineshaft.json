@@ -1,6 +1,6 @@
 {       
     "name": "hopo:minecart/mud_mineshaft",
-    "fallback": "hopo:minecart/mud_mineshaft",
+    "fallback": "hopo:mud_mineshaft",
     "elements": [
         {
             "weight": 50,

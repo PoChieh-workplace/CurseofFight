@@ -2,6 +2,13 @@
     "replace": false,
     "values": [
         "minecraft:meadow",
-        "minecraft:windswept_forest"
+        {"id": "terralith:cave/mantle_caves", "required": false},
+        {"id": "regions_unexplored:highland_fields", "required": false},
+        {"id": "regions_unexplored:icy_heights", "required": false},
+        {"id": "regions_unexplored:rocky_meadow", "required": false},
+        {"id": "regions_unexplored:towering_cliffs", "required": false},
+        {"id": "clifftree:caves", "required": false},   
+        {"id": "clifftree:cold_caves", "required": false},
+        {"id": "clifftree:frozen_caves", "required": false}
     ]
 }
