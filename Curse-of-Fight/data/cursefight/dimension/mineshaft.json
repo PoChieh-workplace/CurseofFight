@@ -1,11 +1,25 @@
 {
     "type": "cursefight:mineshaft",
     "generator": {
-        "type": "minecraft:noise",
-        "settings": "minecraft:caves",
-        "biome_source": {
-            "type": "minecraft:fixed",
-            "biome": "minecraft:dripstone_caves"
+        "type": "minecraft:flat",
+        "settings": {
+            "biome": "minecraft:lush_caves",
+            "lakes": false,
+            "features": true,
+            "layers": [
+                {
+                    "height": 3,
+                    "block": "minecraft:bedrock"
+                },
+                {
+                    "height": 76,
+                    "block": "minecraft:deepslate"
+                },
+                {
+                    "height": 3,
+                    "block": "minecraft:bedrock"
+                }
+            ]
         }
     }
 }
