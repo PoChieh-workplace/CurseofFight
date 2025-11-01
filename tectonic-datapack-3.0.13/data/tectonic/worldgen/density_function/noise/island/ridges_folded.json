@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:mul",
+  "argument1": -3,
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": -0.333,
+    "argument2": {
+      "type": "minecraft:abs",
+      "argument": {
+        "type": "minecraft:add",
+        "argument1": -0.666,
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:add",
+            "argument1": "tectonic:noise/island/ridges",
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": 0.3,
+              "argument2": {
+                "type": "minecraft:cube",
+                "argument": "tectonic:noise/island/ridges"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

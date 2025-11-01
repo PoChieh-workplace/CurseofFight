@@ -1,0 +1,26 @@
+{
+  "predicate": {
+    "type": "tectonic:config",
+    "key": "remove_frozen_ocean_ice"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "tectonic:config",
+      "key": "remove_frozen_ocean_ice"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "tectonic:config",
+      "key": "remove_frozen_ocean_ice"
+    }
+  ],
+  "type": "lithostitched:replace_climate",
+  "biomes": "minecraft:frozen_ocean",
+  "climate": {
+    "temperature": 0.5,
+    "downfall": 0.5,
+    "has_precipitation": true,
+    "temperature_modifier": "frozen"
+  }
+}

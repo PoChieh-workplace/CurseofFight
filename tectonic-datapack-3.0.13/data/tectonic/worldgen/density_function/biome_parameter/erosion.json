@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": "tectonic:island_selector",
+      "argument2": "tectonic:noise/island/erosion"
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": "tectonic:continent_selector",
+      "argument2": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "tectonic:noise/continent/erosion_folded",
+          "points": [
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": {
+                "coordinate": "tectonic:noise/raw_continents",
+                "points": [
+                  {
+                    "location": 0,
+                    "derivative": 0,
+                    "value": -0.5
+                  },
+                  {
+                    "location": 0.1,
+                    "derivative": 0,
+                    "value": -1
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": -0.5
+            },
+            {
+              "location": 0.11,
+              "derivative": 0,
+              "value": -0.5
+            },
+            {
+              "location": 0.11,
+              "derivative": 0,
+              "value": -0.3
+            },
+            {
+              "location": 0.16,
+              "derivative": 0,
+              "value": -0.3
+            },
+            {
+              "location": 0.35,
+              "derivative": 1.5,
+              "value": -0.05
+            },
+            {
+              "location": 0.5,
+              "derivative": 0,
+              "value": {
+                "coordinate": "tectonic:noise/region_selector",
+                "points": [
+                  {
+                    "location": -0.01,
+                    "derivative": 0,
+                    "value": 0
+                  },
+                  {
+                    "location": 0.01,
+                    "derivative": 0,
+                    "value": 0.3
+                  }
+                ]
+              }
+            },
+            {
+              "location": 0.8,
+              "value": {
+                "coordinate": "tectonic:noise/region_selector",
+                "points": [
+                  {
+                    "location": -0.01,
+                    "derivative": 0,
+                    "value": 0
+                  },
+                  {
+                    "location": 0.01,
+                    "derivative": 0,
+                    "value": 0.3
+                  }
+                ]
+              },
+              "derivative": 0
+            },
+            {
+              "location": 0.9,
+              "value": 0.5,
+              "derivative": 0
+            },
+            {
+              "location": 1,
+              "value": 0.5,
+              "derivative": 0
+            },
+            {
+              "location": 1,
+              "value": 0.6,
+              "derivative": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

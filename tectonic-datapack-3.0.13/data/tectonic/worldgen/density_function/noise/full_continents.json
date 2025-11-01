@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": "tectonic:island_selector",
+        "argument2": "tectonic:noise/raw_islands"
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": "tectonic:continent_selector",
+        "argument2": {
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "tectonic:noise/raw_continents",
+            "points": [
+              {
+                "location": 0.05,
+                "derivative": 1,
+                "value": 0.05
+              },
+              {
+                "location": 0.175,
+                "derivative": 1,
+                "value": 0.3
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

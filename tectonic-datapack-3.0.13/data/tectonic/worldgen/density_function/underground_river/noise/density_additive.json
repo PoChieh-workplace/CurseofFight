@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:add",
+    "argument1": 0.1,
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": 0.2,
+      "argument2": {
+        "type": "minecraft:noise",
+        "noise": "tectonic:underground_river/density_additive",
+        "xz_scale": 0.7,
+        "y_scale": 0.05
+      }
+    }
+  },
+  "min": 0.0,
+  "max": 0.2
+}

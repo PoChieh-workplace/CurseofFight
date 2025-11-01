@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:min",
+    "argument1": {
+      "type": "minecraft:squeeze",
+      "argument": {
+        "type": "minecraft:mul",
+        "argument1": 0.64,
+        "argument2": {
+          "type": "minecraft:interpolated",
+          "argument": {
+            "type": "minecraft:blend_density",
+            "argument": {
+              "type": "minecraft:add",
+              "argument1": 0.1,
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_value": 0.0,
+                  "from_y": -80,
+                  "to_value": 1.0,
+                  "to_y": -40
+                },
+                "argument2": {
+                  "type": "minecraft:add",
+                  "argument1": -0.1,
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": -1,
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": "tectonic:upper_slope",
+                      "argument2": {
+                        "type": "minecraft:add",
+                        "argument1": 1,
+                        "argument2": {
+                          "type": "minecraft:min",
+                          "argument1": "tectonic:base_terrain",
+                          "argument2": "tectonic:caves"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "argument2": "tectonic:cave/noodle"
+  },
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:min",
+      "argument1": 0.0002,
+      "argument2": "tectonic:underground_river/total"
+    },
+    "argument2": "tectonic:lava_tunnel/total"
+  }
+}
