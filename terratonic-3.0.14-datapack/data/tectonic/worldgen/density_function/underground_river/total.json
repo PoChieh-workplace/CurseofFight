@@ -6,8 +6,8 @@
       "type": "minecraft:range_choice",
       "input": "tectonic:underground_river/pillars",
       "max_exclusive": 0.03,
-      "min_inclusive": -64,
-      "when_in_range": -64,
+      "min_inclusive": -80,
+      "when_in_range": -80,
       "when_out_of_range": "tectonic:underground_river/pillars"
     },
     "argument2": {

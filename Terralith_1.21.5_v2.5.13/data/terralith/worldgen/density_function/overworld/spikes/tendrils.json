@@ -44,5 +44,5 @@
     },
     "argument2": "terralith:overworld/spike/size_spline"
   },
-  "when_out_of_range": -64
+  "when_out_of_range": -80
 }

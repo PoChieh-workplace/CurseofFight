@@ -5,7 +5,7 @@
   "noise": {
     "size_horizontal": 1,
     "size_vertical": 2,
-    "min_y": -64,
+    "min_y": -80,
     "height": 384
   },
   "sea_level": 63,
@@ -956,8 +956,7 @@
                               "secondary_depth_range": 1,
                               "surface_type": "floor"
                             },
-                            "then_run":
-                            {
+                            "then_run": {
                               "type": "minecraft:condition",
                               "if_true": {
                                 "type": "minecraft:stone_depth",

@@ -13,7 +13,7 @@
                     "argument1": {
                         "type": "minecraft:y_clamped_gradient",
                         "from_value": 0,
-                        "from_y": -64,
+                        "from_y": -80,
                         "to_value": 1,
                         "to_y": -40
                     },
@@ -57,7 +57,7 @@
                                             }
                                         },
                                         "max": 64,
-                                        "min": -64
+                                        "min": -80
                                     }
                                 }
                             }
@@ -107,6 +107,6 @@
         "min": -40,
         "max": 320
     },
-    "lower_bound": -64,
+    "lower_bound": -80,
     "cell_height": 8
 }

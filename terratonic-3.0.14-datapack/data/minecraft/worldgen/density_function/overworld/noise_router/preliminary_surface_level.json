@@ -9,7 +9,7 @@
       "argument2": "tectonic:__constants/max_offset"
     }
   },
-  "lower_bound": -64,
+  "lower_bound": -80,
   "cell_height": 8,
   "density": {
     "type": "minecraft:add",
