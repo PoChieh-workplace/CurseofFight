@@ -65,6 +65,7 @@ bossbar remove minecraft:cursefight.activity.run
 data remove storage cursefight:airdrop Pos
 
 gamerule doMobSpawning true
+gamerule spawnMonsters true
 gamerule doDaylightCycle true
 gamerule doImmediateRespawn false
 gamerule doWeatherCycle true

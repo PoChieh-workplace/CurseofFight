@@ -20,6 +20,7 @@ title @a times 1s 3s 1s
 weather clear
 time set midnight
 gamerule doMobSpawning false
+gamerule spawnMonsters false
 gamerule doDaylightCycle false
 gamerule doImmediateRespawn true
 gamerule doWeatherCycle false
