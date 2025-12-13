@@ -8,7 +8,7 @@
                 "location": {
                     "position": {
                         "y": {
-                            "min": 170
+                            "min": 110
                         }
                     }
                 }
@@ -19,7 +19,7 @@
             "entity": "this",
             "scores": {
                 "cursefight.temperature.float": {
-                    "min": 20000
+                    "min": 30000
                 }
             }
         }

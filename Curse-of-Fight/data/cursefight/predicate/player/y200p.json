@@ -19,7 +19,7 @@
             "entity": "this",
             "scores": {
                 "cursefight.temperature.float": {
-                    "min": 10000
+                    "min": 12000
                 }
             }
         }
