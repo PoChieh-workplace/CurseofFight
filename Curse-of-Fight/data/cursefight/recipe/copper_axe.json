@@ -10,7 +10,7 @@
         "l": "minecraft:stick"
     },
     "result": {
-        "id": "minecraft:golden_axe",
+        "id": "minecraft:copper_axe",
         "count": 1,
         "components": {
             "minecraft:custom_model_data": {
@@ -21,14 +21,6 @@
             "minecraft:custom_data": {
                 "copper_axe": 1
             },
-            "custom_name": [
-                "",
-                {
-                    "text": "銅斧",
-                    "italic": false,
-                    "color": "gold"
-                }
-            ],
             "lore": [
                 [
                     "",

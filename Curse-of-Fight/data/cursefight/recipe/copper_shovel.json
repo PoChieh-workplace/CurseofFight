@@ -10,7 +10,7 @@
         "l": "minecraft:stick"
     },
     "result": {
-        "id": "minecraft:golden_shovel",
+        "id": "minecraft:copper_shovel",
         "count": 1,
         "components": {
             "minecraft:custom_model_data": {
@@ -21,14 +21,6 @@
             "minecraft:custom_data": {
                 "copper_shovel": 1
             },
-            "custom_name": [
-                "",
-                {
-                    "text": "銅鏟",
-                    "italic": false,
-                    "color": "gold"
-                }
-            ],
             "lore": [
                 [
                     "",

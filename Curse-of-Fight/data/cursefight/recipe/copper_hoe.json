@@ -10,7 +10,7 @@
         "l": "minecraft:stick"
     },
     "result": {
-        "id": "minecraft:golden_hoe",
+        "id": "minecraft:copper_hoe",
         "count": 1,
         "components": {
             "minecraft:custom_model_data": {
@@ -21,14 +21,6 @@
             "minecraft:custom_data": {
                 "copper_hoe": 1
             },
-            "custom_name": [
-                "",
-                {
-                    "text": "銅鋤",
-                    "italic": false,
-                    "color": "gold"
-                }
-            ],
             "lore": [
                 [
                     "",
