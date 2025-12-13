@@ -8,6 +8,7 @@
 time set 1d
 defaultgamemode spectator
 gamerule doMobSpawning true
+gamerule spawnMonsters true
 gamerule doDaylightCycle true
 gamerule doImmediateRespawn true
 gamerule doWeatherCycle true

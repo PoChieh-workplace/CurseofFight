@@ -1,0 +1,16 @@
+{
+  "name": "revampedvillages:mansion/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:mansion/bottom_front_left",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
+

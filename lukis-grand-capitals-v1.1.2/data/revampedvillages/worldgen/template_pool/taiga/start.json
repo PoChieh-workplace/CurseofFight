@@ -1,0 +1,34 @@
+{
+  "name": "revampedvillages:taiga/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 150,
+      "element": {
+        "location": "revampedvillages:taiga/center/market",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 75,
+      "element": {
+        "location": "revampedvillages:taiga/center/luki",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 150,
+      "element": {
+        "location": "revampedvillages:taiga/center/bonfire",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}
+

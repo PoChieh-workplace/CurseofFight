@@ -1,0 +1,34 @@
+{
+  "name": "revampedvillages:outpost/pool",
+  "fallback": "revampedvillages:outpost/end",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:outpost/skirts/tree_road",
+        "processors": "minecraft:empty",
+		"projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },  
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:outpost/skirts/tent_road",
+        "processors": "minecraft:empty",
+		"projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },  
+    {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:outpost/skirts/target_road",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }  
+    
+  ]
+}

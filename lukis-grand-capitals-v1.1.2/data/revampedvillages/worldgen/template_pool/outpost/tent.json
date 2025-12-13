@@ -1,0 +1,16 @@
+{
+  "name": "revampedvillages:outpost/tent",
+  "fallback": "revampedvillages:outpost/end",
+  "elements": [
+   
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:outpost/skirts/tent",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

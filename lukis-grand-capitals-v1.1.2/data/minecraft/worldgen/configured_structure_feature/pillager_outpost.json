@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:pillager_outpost",
+  "config": {
+    "start_pool": "revampedvillages:outpost/start",
+    "size": 2
+  },
+  "biomes": "#minecraft:has_structure/pillager_outpost",
+  "adapt_noise": true,
+  "spawn_overrides": {}
+  
+}

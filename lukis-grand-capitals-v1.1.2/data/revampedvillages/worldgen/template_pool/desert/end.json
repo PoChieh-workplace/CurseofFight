@@ -1,0 +1,186 @@
+{
+  "name": "revampedvillages:desert/end",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:desert/house/small_house_1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:desert/house/small_house_2",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },  
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:desert/house/small_house_3",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },  
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:desert/house/small_house_4",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },  
+    {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:desert/house/medium_house_1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },  
+     {
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:desert/house/medium_house_2",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }, 
+    {
+      "weight": 15,
+      "element": {
+        "location": "revampedvillages:desert/worker/armorer",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }, 
+    {
+      "weight": 15,
+      "element": {
+        "location": "revampedvillages:desert/worker/butcher",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "revampedvillages:desert/worker/church",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }, 
+    {
+      "weight": 15,
+      "element": {
+        "location": "revampedvillages:desert/worker/fletcher",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }, 
+    {
+      "weight": 15,
+      "element": {
+        "location": "revampedvillages:desert/worker/fisherman",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }, 
+    {
+      "weight": 15,
+      "element": {
+        "location": "revampedvillages:desert/worker/mason",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "revampedvillages:desert/worker/shepherd",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },  
+    {
+      "weight": 15,
+      "element": {
+        "location": "revampedvillages:desert/worker/tannery",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }, 
+    {
+      "weight": 15,
+      "element": {
+        "location": "revampedvillages:desert/worker/toolsmith",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }, 
+    {
+      "weight": 15,
+      "element": {
+        "location": "revampedvillages:desert/worker/weaponsmith",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }, 
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:desert/house/accessory_farm",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }, 
+    {
+      "weight": 30,
+      "element": {
+        "location": "revampedvillages:desert/house/accessory_pen",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "revampedvillages:desert/cartographer",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "revampedvillages:desert/worker/library",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

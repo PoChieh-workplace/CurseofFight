@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"pack_format": 15,
+      "description": "§9discord.gg/eyNrN2bQG8",
+        "supported_formats": {"min_inclusive": 14, "max_inclusive": 100}
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "revampedvillages:hut/pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 20,
+      "element": {
+        "location": "revampedvillages:hut",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
+

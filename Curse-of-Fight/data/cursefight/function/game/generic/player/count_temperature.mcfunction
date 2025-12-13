@@ -1,5 +1,6 @@
 scoreboard players set @s cursefight_temp 37000
 
+execute as @s if predicate cursefight:player/y100p run scoreboard players set @s cursefight_temp 30000
 execute as @s if predicate cursefight:player/y140p run scoreboard players set @s cursefight_temp 28000
 execute as @s if predicate cursefight:player/y170p run scoreboard players set @s cursefight_temp 20000
 execute as @s if predicate cursefight:player/y200p run scoreboard players set @s cursefight_temp 12000

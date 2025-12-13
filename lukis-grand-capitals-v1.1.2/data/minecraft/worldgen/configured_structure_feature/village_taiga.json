@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "config": {
+    "start_pool": "revampedvillages:taiga/start",
+    "size": 5
+  },
+  "biomes": "#minecraft:has_structure/village_taiga",
+  "adapt_noise": true,
+  "spawn_overrides": {}
+}
