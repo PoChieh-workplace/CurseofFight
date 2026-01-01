@@ -1,6 +1,10 @@
 # 基本訊息顯示
-execute as @a[tag=!1_splatus_actionbar_disabled,predicate=!vanilla_refresh:holding/compass,predicate=!vanilla_refresh:holding/clock] run title @s actionbar {"text":"","color":"#CA8EFF","bold":true,"extra":[{"text":"與邊界距離：","color":"blue"},{"text":"("},{"score":{"name":"@s","objective":"posX"}},{"text":","},{"score":{"name":"@s","objective":"posZ"}},{"text":")  "},{"text":"中心座標：","color":"gold"},{"text":"("},{"score":{"name":"_center_","objective":"posX"}},{"text":","},{"score":{"name":"_center_","objective":"posZ"}},{"text":")  "},{"text":"體溫：","color":"dark_green"},{"score":{"name":"@s","objective":"cursefight.temperature"}},{"text":"℃"}]}
-
+execute as @a[                                              \
+    tag=!1_splatus_actionbar_disabled,                      \
+    predicate=!vanilla_refresh:holding/compass,             \
+    predicate=!vanilla_refresh:holding/clock,               \
+    predicate=!vanilla_refresh:holding/recovery_compass     \
+    ] run function cursefight:game/mode/classic/action_bar
 # 傷害公告
 execute as @a[scores={damage_warn=1..},gamemode=survival] run function cursefight:game/damage/damage_warn
 
